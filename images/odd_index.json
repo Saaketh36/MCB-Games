@@ -1,0 +1,40 @@
+{
+ "items": {
+  "Odd One Out Zoo|||zoo-mammals": [
+   "images/odd/zoo-mammals-0.svg",
+   "images/odd/zoo-mammals-1.svg",
+   "images/odd/zoo-mammals-2.svg",
+   "images/odd/zoo-mammals-3.svg"
+  ],
+  "Odd One Out Zoo|||zoo-sound": [
+   "images/odd/zoo-sound-0.svg",
+   "images/odd/zoo-sound-1.svg",
+   "images/odd/zoo-sound-2.svg",
+   "images/odd/zoo-sound-3.svg"
+  ],
+  "Odd One Out Zoo|||zoo-pets": [
+   "images/odd/zoo-pets-0.svg",
+   "images/odd/zoo-pets-1.svg",
+   "images/odd/zoo-pets-2.svg",
+   "images/odd/zoo-pets-3.svg"
+  ],
+  "My Neighbourhood Explorer|||hood-vehicles": [
+   "images/odd/hood-vehicles-0.svg",
+   "images/odd/hood-vehicles-1.svg",
+   "images/odd/hood-vehicles-2.svg",
+   "images/odd/hood-vehicles-3.svg"
+  ],
+  "My Neighbourhood Explorer|||hood-places": [
+   "images/odd/hood-places-0.svg",
+   "images/odd/hood-places-1.svg",
+   "images/odd/hood-places-2.svg",
+   "images/odd/hood-places-3.svg"
+  ],
+  "My Neighbourhood Explorer|||hood-living": [
+   "images/odd/hood-living-0.svg",
+   "images/odd/hood-living-1.svg",
+   "images/odd/hood-living-2.svg",
+   "images/odd/hood-living-3.svg"
+  ]
+ }
+}

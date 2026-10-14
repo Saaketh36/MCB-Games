@@ -1,0 +1,45 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background lab -->
+  <rect width="300" height="300" fill="#E8F5E9"/>
+
+  <!-- Lab table -->
+  <rect x="30" y="200" width="240" height="80" fill="#A0A0A0" stroke="#666" stroke-width="2"/>
+
+  <!-- Lab equipment (beakers) -->
+  <g transform="translate(80, 160)">
+    <rect x="0" y="0" width="20" height="30" fill="none" stroke="#8B0000" stroke-width="2"/>
+    <ellipse cx="10" cy="0" rx="10" ry="3" fill="#FFE4E1" stroke="#8B0000" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(200, 160)">
+    <rect x="0" y="0" width="20" height="30" fill="none" stroke="#228B22" stroke-width="2"/>
+    <ellipse cx="10" cy="0" rx="10" ry="3" fill="#E0FFE0" stroke="#228B22" stroke-width="1"/>
+  </g>
+
+  <!-- Student face -->
+  <circle cx="150" cy="80" r="25" fill="#FDB4B4" stroke="#333" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="75" r="5" fill="#333"/>
+  <circle cx="160" cy="75" r="5" fill="#333"/>
+
+  <!-- Smile -->
+  <path d="M 140 85 Q 150 92 160 85" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Safety Goggles on face -->
+  <g>
+    <!-- Left lens -->
+    <circle cx="135" cy="70" r="12" fill="#87CEEB" stroke="#000" stroke-width="2" opacity="0.8"/>
+    <!-- Right lens -->
+    <circle cx="165" cy="70" r="12" fill="#87CEEB" stroke="#000" stroke-width="2" opacity="0.8"/>
+    <!-- Bridge -->
+    <rect x="148" y="68" width="4" height="4" fill="#000"/>
+    <!-- Strap -->
+    <path d="M 125 75 Q 120 95 125 115" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 175 75 Q 180 95 175 115" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Label -->
+  <text x="150" y="250" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">Safety Goggles</text>
+  <text x="150" y="270" font-size="12" text-anchor="middle" fill="#666">Protect eyes from chemicals</text>
+</svg>

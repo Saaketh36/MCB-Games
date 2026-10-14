@@ -1,0 +1,178 @@
+{
+    "generated":  "2026-10-03T15:56:44",
+    "voice":  "Microsoft David Desktop",
+    "stories":  {
+                    "simon-says-challenge-class-vi":  {
+                                                          "title":  "Simon Says Challenge ï¿½ Class VI",
+                                                          "seconds":  14.78,
+                                                          "file":  "audio/simon-says-challenge-class-vi.wav",
+                                                          "words":  46,
+                                                          "voice":  "Microsoft David Desktop"
+                                                      },
+                    "announcement-detective-class-vii":  {
+                                                             "title":  "Announcement Detective ï¿½ Class VII",
+                                                             "seconds":  14.38,
+                                                             "file":  "audio/announcement-detective-class-vii.wav",
+                                                             "words":  65,
+                                                             "voice":  "Microsoft David Desktop"
+                                                         },
+                    "radio-ad-detective":  {
+                                               "title":  "Radio Ad Detective",
+                                               "seconds":  14.94,
+                                               "file":  "audio/radio-ad-detective.wav",
+                                               "words":  57,
+                                               "voice":  "Microsoft David Desktop"
+                                           },
+                    "sound-detective":  {
+                                            "title":  "Sound Detective",
+                                            "seconds":  12.06,
+                                            "file":  "audio/sound-detective.wav",
+                                            "words":  58,
+                                            "voice":  "Microsoft David Desktop"
+                                        },
+                    "listen-answer-challenge":  {
+                                                    "title":  "Listen \u0026 Answer Challenge",
+                                                    "seconds":  12.68,
+                                                    "file":  "audio/listen-answer-challenge.wav",
+                                                    "words":  65,
+                                                    "voice":  "Microsoft David Desktop"
+                                                },
+                    "listen-do-adventure":  {
+                                                "title":  "Listen \u0026 Do Adventure",
+                                                "seconds":  11.75,
+                                                "file":  "audio/listen-do-adventure.wav",
+                                                "words":  47,
+                                                "voice":  "Microsoft David Desktop"
+                                            },
+                    "verb-action-sort":  {
+                                             "title":  "Verb Action Sort",
+                                             "seconds":  12.7,
+                                             "file":  "audio/verb-action-sort.wav",
+                                             "words":  65,
+                                             "voice":  "Microsoft David Desktop"
+                                         },
+                    "pronunciation-match-up":  {
+                                                   "title":  "Pronunciation Match-Up",
+                                                   "seconds":  14.24,
+                                                   "file":  "audio/pronunciation-match-up.wav",
+                                                   "words":  71,
+                                                   "voice":  "Microsoft David Desktop"
+                                               },
+                    "noun-basket-sort":  {
+                                             "title":  "Noun Basket Sort",
+                                             "seconds":  11.98,
+                                             "file":  "audio/noun-basket-sort.wav",
+                                             "words":  54,
+                                             "voice":  "Microsoft David Desktop",
+                                             "rate":  -2
+                                         },
+                    "announcement-detective":  {
+                                                   "title":  "Announcement Detective",
+                                                   "seconds":  12.56,
+                                                   "file":  "audio/announcement-detective.wav",
+                                                   "words":  60,
+                                                   "voice":  "Microsoft David Desktop"
+                                               },
+                    "listen-repeat-lab":  {
+                                              "title":  "Listen \u0026 Repeat Lab",
+                                              "seconds":  14.3,
+                                              "file":  "audio/listen-repeat-lab.wav",
+                                              "words":  56,
+                                              "voice":  "Microsoft David Desktop"
+                                          },
+                    "accent-stress-spotter":  {
+                                                  "title":  "Accent \u0026 Stress Spotter",
+                                                  "seconds":  14.76,
+                                                  "file":  "audio/accent-stress-spotter.wav",
+                                                  "words":  68,
+                                                  "voice":  "Microsoft David Desktop"
+                                              },
+                    "podcast-pop-quiz":  {
+                                             "title":  "Podcast Pop Quiz",
+                                             "seconds":  13.2,
+                                             "file":  "audio/podcast-pop-quiz.wav",
+                                             "words":  65,
+                                             "voice":  "Microsoft David Desktop"
+                                         },
+                    "follow-the-steps-race-class-viii":  {
+                                                             "title":  "Follow the Steps Race ï¿½ Class VIII",
+                                                             "seconds":  14.65,
+                                                             "file":  "audio/follow-the-steps-race-class-viii.wav",
+                                                             "words":  79,
+                                                             "voice":  "Microsoft David Desktop",
+                                                             "rate":  0
+                                                         },
+                    "story-time-quiz":  {
+                                            "title":  "Story Time Quiz",
+                                            "seconds":  11.56,
+                                            "file":  "audio/story-time-quiz.wav",
+                                            "words":  63,
+                                            "voice":  "Microsoft David Desktop"
+                                        },
+                    "news-flash-listener":  {
+                                                "title":  "News Flash Listener",
+                                                "seconds":  12.8,
+                                                "file":  "audio/news-flash-listener.wav",
+                                                "words":  59,
+                                                "voice":  "Microsoft David Desktop"
+                                            },
+                    "listen-type-challenge":  {
+                                                  "title":  "Listen \u0026 Type Challenge",
+                                                  "seconds":  13.41,
+                                                  "file":  "audio/listen-type-challenge.wav",
+                                                  "words":  57,
+                                                  "voice":  "Microsoft David Desktop"
+                                              },
+                    "mission-control-orders":  {
+                                                   "title":  "Mission Control Orders",
+                                                   "seconds":  14.18,
+                                                   "file":  "audio/mission-control-orders.wav",
+                                                   "words":  66,
+                                                   "voice":  "Microsoft David Desktop",
+                                                   "rate":  0
+                                               },
+                    "word-role-race":  {
+                                           "title":  "Word Role Race",
+                                           "seconds":  13.85,
+                                           "file":  "audio/word-role-race.wav",
+                                           "words":  69,
+                                           "voice":  "Microsoft David Desktop"
+                                       },
+                    "letter-sound-safari":  {
+                                                "title":  "Letter Sound Safari",
+                                                "seconds":  11.56,
+                                                "file":  "audio/letter-sound-safari.wav",
+                                                "words":  56,
+                                                "voice":  "Microsoft David Desktop",
+                                                "rate":  -2
+                                            },
+                    "follow-the-steps-race":  {
+                                                  "title":  "Follow the Steps Race",
+                                                  "seconds":  14.02,
+                                                  "file":  "audio/follow-the-steps-race.wav",
+                                                  "words":  72,
+                                                  "voice":  "Microsoft David Desktop"
+                                              },
+                    "story-time-quiz-class-v":  {
+                                                    "title":  "Story Time Quiz - Class V",
+                                                    "seconds":  13.64,
+                                                    "file":  "audio/story-time-quiz-class-v.wav",
+                                                    "words":  62,
+                                                    "voice":  "Microsoft David Desktop"
+                                                },
+                    "parts-of-speech-sorter":  {
+                                                   "title":  "Parts of Speech Sorter",
+                                                   "seconds":  14.78,
+                                                   "file":  "audio/parts-of-speech-sorter.wav",
+                                                   "words":  70,
+                                                   "voice":  "Microsoft David Desktop"
+                                               },
+                    "sound-detective-class-vi":  {
+                                                     "title":  "Sound Detective ï¿½ Class VI",
+                                                     "seconds":  13.25,
+                                                     "file":  "audio/sound-detective-class-vi.wav",
+                                                     "words":  71,
+                                                     "voice":  "Microsoft David Desktop"
+                                                 }
+                }
+}

@@ -1,0 +1,451 @@
+================================================================================
+WHAT STUDENTS SEE & HEAR - Complete Experience Guide
+================================================================================
+
+SCENARIO: Student John plays "Simple Addition" game
+
+================================================================================
+STEP 1: OPENING THE GAME
+================================================================================
+
+URL: http://localhost:8000/simple-addition.html?student=John&skill=Arithmetic
+
+SCREEN DISPLAYS:
+┌──────────────────────────────────────────────────────────────┐
+│                    ➕ Simple Addition                         │
+│            📚 John • Skill: Arithmetic                        │
+│           Solve the addition problems                         │
+│                                                              │
+│                    Problem 1 of 5                            │
+│                   ┌─────────────────┐                        │
+│                   │                 │                        │
+│                   │     3 + 4 = ?   │                        │
+│                   │                 │                        │
+│                   └─────────────────┘                        │
+│                                                              │
+│    ┌──────┐    ┌──────┐                                      │
+│    │  5   │    │  7   │                                      │
+│    └──────┘    └──────┘                                      │
+│                                                              │
+│    ┌──────┐    ┌──────┐                                      │
+│    │  9   │    │  6   │                                      │
+│    └──────┘    └──────┘                                      │
+│                                                              │
+│          [Check Answer]                                      │
+└──────────────────────────────────────────────────────────────┘
+
+WIDGET IN TOP-RIGHT CORNER:
+┌─────────────────────────┐
+│  📊 STUDENT PROGRESS    │
+├─────────────────────────┤
+│ Total Points:      0    │
+│ Correct Answers:   0    │
+│ Wrong Answers:     0    │
+│ Progress:       0 / 5   │
+├─────────────────────────┤
+│ [░░░░░░░░░░░░░░░░░]     │
+│        0%              │
+└─────────────────────────┘
+
+================================================================================
+STEP 2: STUDENT SELECTS ANSWER
+================================================================================
+
+ACTION: Student clicks on "7" (correct answer)
+
+SCREEN SHOWS:
+- Option "7" gets highlighted with blue border
+- Option text shows "selected" state
+- Other options remain normal
+
+WIDGET STATUS: No change (waiting for Check Answer)
+
+================================================================================
+STEP 3: STUDENT CLICKS "CHECK ANSWER"
+================================================================================
+
+ACTION: Student clicks [Check Answer] button
+
+AUDIO FEEDBACK: 🔊
+- 3 ascending claps play:
+  • First clap: Low pitch (800Hz) - "ding"
+  • Second clap: Medium pitch (900Hz) - "ding"
+  • Third clap: High pitch (1000Hz) - "ding"
+- Sound plays for ~0.6 seconds
+- Each clap is ~120ms long
+- Claps separated by 250ms gaps
+
+VISUAL FEEDBACK: ✅
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│                   ┌─────────────────┐                        │
+│                   │  ✅ CORRECT!    │                        │
+│                   │  +10 POINTS     │                        │
+│                   └─────────────────┘                        │
+│            (message bounces with animation)                  │
+│                                                              │
+│            (message auto-disappears after 1.5s)             │
+└──────────────────────────────────────────────────────────────┘
+
+BUTTON CHANGE:
+- [Check Answer] button hides
+- [Next Problem] button appears
+
+WIDGET UPDATES IN REAL-TIME: 📊
+┌─────────────────────────┐
+│  📊 STUDENT PROGRESS    │
+├─────────────────────────┤
+│ Total Points:     10    │  ← Changed from 0
+│ Correct Answers:   1    │  ← Changed from 0
+│ Wrong Answers:     0    │  ← No change
+│ Progress:       1 / 5   │  ← Changed from 0/5
+├─────────────────────────┤
+│ [██░░░░░░░░░░░░░░░]     │  ← Updated to 20%
+│       20%              │
+└─────────────────────────┘
+
+CORRECT ANSWER OPTION SHOWS:
+- Green border (#4caf50)
+- Light green background
+- Animation effect (pops/bounces)
+
+================================================================================
+STEP 4: STUDENT CLICKS "NEXT PROBLEM"
+================================================================================
+
+ACTION: Student clicks [Next Problem]
+
+SCREEN UPDATES:
+- New problem appears: "5 + 2 = ?"
+- New answer options appear (randomized)
+- Progress bar updates: "Problem 2 of 5"
+- Widget retains points from previous question
+- Check Answer button appears again
+
+STUDENT CAN REPEAT STEPS 2-4 for remaining 3 problems
+
+================================================================================
+SCENARIO 2: STUDENT GETS ANSWER WRONG
+================================================================================
+
+ACTION: Student selects "9" (wrong answer) for "3 + 4 = ?"
+
+AUDIO FEEDBACK: 🔊
+- Buzzer sound plays:
+  • Starts at 400Hz (higher pitch)
+  • Sweeps down to 250Hz (lower pitch) over 150ms
+  • Sweeps back up to 400Hz (higher pitch) over 150ms
+  • Total duration: 350ms
+- Sound pattern: "beep-beep-beep" (down then up)
+
+VISUAL FEEDBACK: ❌
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│                   ┌─────────────────┐                        │
+│                   │  ❌ WRONG!      │                        │
+│                   │  TRY NEXT       │                        │
+│                   └─────────────────┘                        │
+│           (message shakes with animation)                   │
+│                                                              │
+│            (message auto-disappears after 1.5s)             │
+└──────────────────────────────────────────────────────────────┘
+
+BUTTON CHANGE:
+- [Check Answer] button hides
+- [Next Problem] button appears
+
+WIDGET UPDATES IN REAL-TIME: 📊
+┌─────────────────────────┐
+│  📊 STUDENT PROGRESS    │
+├─────────────────────────┤
+│ Total Points:      0    │  ← No change
+│ Correct Answers:   0    │  ← No change
+│ Wrong Answers:     1    │  ← Changed from 0
+│ Progress:       1 / 5   │  ← Changed from 0/5
+├─────────────────────────┤
+│ [██░░░░░░░░░░░░░░░]     │  ← Updated to 20%
+│       20%              │
+└─────────────────────────┘
+
+WRONG ANSWER OPTION SHOWS:
+- Red border (#f44336)
+- Light red background
+- Animation effect (shakes)
+
+CORRECT ANSWER OPTION SHOWS:
+- Green border (#4caf50)
+- Light green background
+- Student can see the correct answer!
+
+================================================================================
+STEP 5: GAME COMPLETES (All 5 questions answered)
+================================================================================
+
+AFTER QUESTION 5:
+
+AUDIO FEEDBACK: 🔊 (Optional)
+- Could play celebration sound:
+  • 5 ascending musical notes
+  • Like a "ta-da!" moment
+  • ~1.5 seconds total
+
+SCREEN SHOWS RESULTS:
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│                        🏆                                    │
+│                                                              │
+│                   PERFECT SCORE!                            │
+│                                                              │
+│              📊 SCORE: 50 / 50 points                       │
+│                                                              │
+│           Correct Answers: 5 out of 5                       │
+│                                                              │
+│            [Back to Portal]                                 │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+
+PERFORMANCE LEVELS:
+
+🏆 PERFECT (50/50 points):
+  ├─ Emoji: 🏆
+  ├─ Message: "PERFECT SCORE!"
+  ├─ Sound: Celebration melody
+  └─ All 5 correct
+
+👍 EXCELLENT (40/50 points):
+  ├─ Emoji: 👍
+  ├─ Message: "Great Work!"
+  ├─ All 4 correct, 1 wrong
+  └─ No celebration sound
+
+👍 GOOD (30/50 points):
+  ├─ Emoji: 👍
+  ├─ Message: "Great Job!"
+  ├─ 3 correct, 2 wrong
+  └─ No celebration sound
+
+💪 KEEP TRYING (<30 points):
+  ├─ Emoji: 💪
+  ├─ Message: "Keep Practicing!"
+  ├─ 2 or fewer correct
+  └─ Encouraging message
+
+================================================================================
+COMPLETE GAME SCENARIO (5 Questions)
+================================================================================
+
+QUESTION 1: 3 + 4 = ?
+  Student answers: 7 (CORRECT) ✅
+  Audio: Claps (ding-ding-ding)
+  Points: +10 → Total: 10
+  Widget: 1/5, 10 points, 1 correct, 0 wrong
+
+QUESTION 2: 5 + 2 = ?
+  Student answers: 9 (WRONG) ❌
+  Audio: Buzzer (beep-beep-beep)
+  Points: +0 → Total: 10
+  Widget: 2/5, 10 points, 1 correct, 1 wrong
+
+QUESTION 3: 6 + 3 = ?
+  Student answers: 9 (CORRECT) ✅
+  Audio: Claps (ding-ding-ding)
+  Points: +10 → Total: 20
+  Widget: 3/5, 20 points, 2 correct, 1 wrong
+
+QUESTION 4: 2 + 7 = ?
+  Student answers: 9 (CORRECT) ✅
+  Audio: Claps (ding-ding-ding)
+  Points: +10 → Total: 30
+  Widget: 4/5, 30 points, 3 correct, 1 wrong
+
+QUESTION 5: 4 + 4 = ?
+  Student answers: 8 (CORRECT) ✅
+  Audio: Claps (ding-ding-ding)
+  Points: +10 → Total: 40
+  Widget: 5/5, 40 points, 4 correct, 1 wrong
+
+GAME END SCREEN:
+  Final Score: 40 / 50 points
+  Emoji: 👍
+  Message: "Great Work!"
+  Correct Answers: 4 out of 5
+  Status: Save to localStorage + update teacher portal
+
+================================================================================
+WIDGET APPEARANCE - DETAILED VIEW
+================================================================================
+
+INITIAL STATE (Game Start):
+┌─────────────────────────────────────────┐
+│     📊 STUDENT PROGRESS                 │
+├─────────────────────────────────────────┤
+│ Total Points:               0            │
+│ Correct Answers:            0  ✓ green  │
+│ Wrong Answers:              0  ✗ red    │
+│ Progress:              0 / 5             │
+├─────────────────────────────────────────┤
+│ ░░░░░░░░░░░░░░░░░░░░░░░░ 0%            │
+└─────────────────────────────────────────┘
+
+AFTER 2 CORRECT, 1 WRONG:
+┌─────────────────────────────────────────┐
+│     📊 STUDENT PROGRESS                 │
+├─────────────────────────────────────────┤
+│ Total Points:              20            │
+│ Correct Answers:            2  ✓ green  │
+│ Wrong Answers:              1  ✗ red    │
+│ Progress:              3 / 5             │
+├─────────────────────────────────────────┤
+│ ███████████░░░░░░░░░░░░░░░ 60%          │
+└─────────────────────────────────────────┘
+
+GAME COMPLETE (4 correct, 1 wrong):
+┌─────────────────────────────────────────┐
+│     📊 STUDENT PROGRESS                 │
+├─────────────────────────────────────────┤
+│ Total Points:              40            │
+│ Correct Answers:            4  ✓ green  │
+│ Wrong Answers:              1  ✗ red    │
+│ Progress:              5 / 5             │
+├─────────────────────────────────────────┤
+│ ██████████████████████████ 100%         │
+└─────────────────────────────────────────┘
+
+COLORS:
+- Border: #667eea (blue/purple)
+- Correct count: #4caf50 (green)
+- Correct background: #e8f5e9 (light green)
+- Wrong count: #f44336 (red)
+- Wrong background: #ffebee (light red)
+- Progress bar: #4caf50 to #8bc34a (green gradient)
+
+================================================================================
+TEACHER'S VIEW OF RESULTS
+================================================================================
+
+In Teacher Portal > Results Table:
+
+STUDENT: John
+CLASS: I
+SUBJECT: Arithmetic
+SKILL: Basic Addition
+GAME: Simple Addition
+STATUS: ✅ Completed
+SCORE: 40 / 50 points
+DATE: Oct 9, 2025
+
+EXPANDED VIEW:
+- Game Name: Simple Addition
+- Skill: Basic Addition
+- Points: 40
+- Correct Answers: 4 out of 5
+- Performance: 👍 Great Work!
+- Completion Time: 3 minutes 42 seconds
+- Assigned Date: Oct 9, 2025
+- Completed Date: Oct 9, 2025
+
+TEACHER CAN:
+✓ See real-time updates (before game ends)
+✓ View score breakdown
+✓ See correct/wrong counts
+✓ Track multiple students
+✓ Reassign if needed
+✓ Download report
+
+================================================================================
+DATA STORED IN BROWSER
+================================================================================
+
+localStorage key: "mcb_assignments"
+
+Example stored data:
+{
+  "student": "John",
+  "roll": "001",
+  "class": "I",
+  "subject": "Arithmetic",
+  "skill": "Basic Addition",
+  "game": "Simple Addition",
+  "score": 40,
+  "status": "completed",
+  "correctAnswers": 4,
+  "wrongAnswers": 1,
+  "totalQuestions": 5,
+  "date": "2025-10-09",
+  "time": "14:30:45"
+}
+
+PERSISTS ACROSS:
+✓ Browser refresh (F5)
+✓ Closing and reopening tab
+✓ Restarting computer (in same browser)
+
+CLEARED BY:
+✗ Browser cache clear (Ctrl+Shift+Del)
+✗ Switching to private/incognito mode
+✗ Different browser
+✗ Different device
+
+================================================================================
+COMPLETE EXPERIENCE SUMMARY
+================================================================================
+
+BEFORE GAME:
+1. Student sees game title and their name
+2. Progress tracker is empty (0 points, 0/5)
+3. Ready to start
+
+DURING GAME:
+1. Student plays 5 questions
+2. Hears audio for each answer (claps or buzzer)
+3. Sees feedback message (correct/wrong)
+4. Watches points tracker update in real-time
+5. Can see current score anytime in top-right
+
+AFTER GAME:
+1. Final results screen with score and emoji
+2. Can see "X out of 5 correct"
+3. Data saved automatically
+4. Can go back to portal
+5. Teacher sees updated results immediately
+
+TOTAL TIME: ~3-5 minutes per game
+DATA SAVED: Automatically to localStorage
+TEACHER ACCESS: Visible in portal immediately
+PERSISTENCE: Remains until browser cache cleared
+
+================================================================================
+KEY STUDENT EXPERIENCE POINTS
+================================================================================
+
+✅ IMMEDIATE FEEDBACK
+   - Audio plays within 100ms of answer
+   - Visual feedback bounces immediately
+   - Points update in real-time
+   - No delays or lag
+
+✅ ENCOURAGEMENT
+   - Satisfying clap sounds for correct answers
+   - Distinctive buzzer for wrong answers
+   - Can see progress bar filling
+   - Performance emoji at end (🏆👍💪)
+
+✅ CLARITY
+   - Points clearly displayed: "Total Points: X"
+   - Progress bar shows 0-100%
+   - Final score shows "X / 50 points"
+   - "Correct Answers: X out of 5"
+
+✅ ENGAGEMENT
+   - Real-time audio + visual feedback
+   - Color-coded: green (correct), red (wrong)
+   - Animations bounce/shake for impact
+   - Progress bar motivates completion
+
+✅ CONFIDENCE
+   - Sees correct answer when wrong
+   - Understands scoring system immediately
+   - Can track performance throughout game
+   - Knows exactly how they did at end
+
+================================================================================

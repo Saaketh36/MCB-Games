@@ -1,0 +1,52 @@
+{
+  "game": "Listen & Do Adventure",
+  "class": "I",
+  "subject": "English",
+  "skill": "Listening",
+
+  "story": "Good morning Class I! Listen carefully to my instructions. First, open your book to page five. Next, draw a small blue star next to the heading. Then read the three sentences aloud. After that, circle the picture of a red bus. Finally, close your book and wait for the bell. Great job, everyone!",
+
+  "story_audio": "Listen to the story carefully. You need to arrange the steps in the CORRECT ORDER.",
+
+  "instructions": "Listen to the story. Then arrange the steps in the CORRECT ORDER.",
+
+  "correct_sequence": [
+    "📖 Open your book to page five",
+    "⭐ Draw a small blue star next to the heading",
+    "📖 Read the three sentences aloud",
+    "🚌 Circle the picture of a red bus",
+    "📚 Close your book and wait for the bell"
+  ],
+
+  "all_steps_shuffled": [
+    "📚 Close your book and wait for the bell",
+    "📖 Open your book to page five",
+    "🚌 Circle the picture of a red bus",
+    "⭐ Draw a small blue star next to the heading",
+    "📖 Read the three sentences aloud"
+  ],
+
+  "game_flow": {
+    "step_1": "Show story text to student",
+    "step_2": "Play audio/narration of story",
+    "step_3": "Show shuffled steps (5 items below)",
+    "step_4": "Student DRAG & DROP to arrange in correct order",
+    "step_5": "Student clicks CHECK ANSWER",
+    "step_6": "System compares with correct_sequence",
+    "step_7": "Show CORRECT or WRONG",
+    "step_8": "Show score"
+  },
+
+  "error_messages": {
+    "wrong_order": "❌ Not quite right! Try again. Listen carefully and arrange the steps in order.",
+    "correct_order": "🎉 Perfect! You arranged the steps correctly!",
+    "partial_correct": "⚠️ Some steps are in the wrong order. Try again!"
+  },
+
+  "scoring": {
+    "correct_first_try": 10,
+    "correct_second_try": 7,
+    "correct_third_try": 5,
+    "wrong_more_than_3": 0
+  }
+}

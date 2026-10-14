@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - MyClassboard Games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Fredoka', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; display: flex; justify-content: center; align-items: center; }
+        .container { background: white; border-radius: 20px; padding: 40px; max-width: 600px; width: 100%; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { color: #333; font-size: 28px; margin-bottom: 10px; }
+        .info-box { background: #e3f2fd; padding: 15px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #667eea; }
+        .question { background: #f0f4ff; padding: 20px; border-radius: 10px; margin: 30px 0; }
+        .question-text { font-size: 18px; font-weight: 700; color: #333; margin-bottom: 15px; }
+        .option { padding: 12px; margin: 10px 0; border: 2px solid #e0e0e0; border-radius: 8px; cursor: pointer; transition: all 0.3s; }
+        .option:hover { border-color: #667eea; background: #f0f4ff; }
+        .option.selected { background: #667eea; color: white; border-color: #667eea; }
+        button { width: 100%; padding: 15px; border: none; border-radius: 10px; font-size: 16px; font-weight: 700; cursor: pointer; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-top: 20px; }
+        button:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3); }
+        .status { text-align: center; padding: 15px; border-radius: 8px; margin: 15px 0; font-weight: 600; }
+        .status.success { background: #d4edda; color: #155724; }
+        .status.error { background: #f8d7da; color: #721c24; }
+        .score { background: #d4edda; color: #155724; padding: 20px; border-radius: 10px; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🎮 Game Activity</h1>
+    </header>
+
+    <div class="info-box">
+        <strong>📚 Game Type:</strong> Learning Activity<br>
+        <strong>📖 Interactive Experience</strong>
+    </div>
+
+    <div class="question">
+        <div class="question-text">Question 1: What is the correct answer?</div>
+        <div class="option" onclick="selectOption(this)">Option A - Correct</div>
+        <div class="option" onclick="selectOption(this)">Option B</div>
+        <div class="option" onclick="selectOption(this)">Option C</div>
+    </div>
+
+    <div id="status"></div>
+    <button onclick="checkAnswer()">✓ Check Answer</button>
+    <div id="scoreDisplay"></div>
+</div>
+
+<script>
+function selectOption(element) {
+    document.querySelectorAll('.option').forEach(el => el.classList.remove('selected'));
+    element.classList.add('selected');
+}
+
+function checkAnswer() {
+    const selected = document.querySelector('.option.selected');
+    if (!selected) {
+        document.getElementById('status').innerHTML = '<div class="status error">❌ Please select an option!</div>';
+        return;
+    }
+    if (selected.textContent.includes('Correct')) {
+        document.getElementById('status').innerHTML = '<div class="status success">✅ Correct! Great job!</div>';
+        document.getElementById('scoreDisplay').innerHTML = '<div class="score"><h3>🎉 Score: 100/100</h3></div>';
+    } else {
+        document.getElementById('status').innerHTML = '<div class="status error">❌ Try again!</div>';
+    }
+}
+</script>
+
+</body>
+</html>

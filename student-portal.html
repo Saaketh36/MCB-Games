@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Enter PIN to Take Exam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+        .container { width: 100%; max-width: 500px; }
+
+        .login-card { background: white; border-radius: 16px; padding: 40px; box-shadow: 0 20px 60px rgba(0,0,0,.3); }
+
+        .header { text-align: center; margin-bottom: 30px; }
+        .logo { font-size: 56px; margin-bottom: 16px; }
+        .header h1 { color: #1f4f94; font-size: 28px; margin-bottom: 8px; font-weight: 700; }
+        .header p { color: #666; font-size: 14px; }
+
+        .form-group { margin-bottom: 20px; }
+        label { display: block; font-weight: 600; color: #333; font-size: 14px; margin-bottom: 8px; }
+        input, select { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 14px; font-family: 'Poppins', sans-serif; }
+        input:focus, select:focus { outline: none; border-color: #1f4f94; box-shadow: 0 0 0 3px rgba(31, 79, 148, 0.1); }
+
+        .form-group input::placeholder { color: #999; }
+
+        .btn { width: 100%; padding: 14px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+        .btn-primary { background: #1f4f94; color: white; }
+        .btn-primary:hover { background: #173d76; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(31, 79, 148, 0.3); }
+        .btn-primary:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+
+        .message { padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; }
+        .message.error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .message.success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .message.info { background: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; }
+
+        .hint { background: #f0f7ff; border-left: 4px solid #667eea; padding: 12px; border-radius: 4px; margin-top: 16px; font-size: 13px; color: #0c5460; }
+        .hint-title { font-weight: 600; margin-bottom: 6px; }
+
+        .divider { text-align: center; color: #999; margin: 20px 0; font-size: 13px; }
+
+        .back-link { text-align: center; margin-top: 20px; }
+        .back-link a { color: #667eea; text-decoration: none; font-size: 13px; font-weight: 600; }
+        .back-link a:hover { text-decoration: underline; }
+
+        .loading { display: none; text-align: center; }
+        .spinner { border: 3px solid #f3f3f3; border-top: 3px solid #1f4f94; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 10px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        @media (max-width: 480px) {
+            .login-card { padding: 30px 20px; }
+            .header h1 { font-size: 24px; }
+            .logo { font-size: 48px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="login-card">
+        <div class="header">
+            <div class="logo">📝</div>
+            <h1>Student Exam Portal</h1>
+            <p>Enter your details to start the exam</p>
+        </div>
+
+        <div id="messageBox"></div>
+
+        <div class="form-group">
+            <label for="studentName">👤 Your Name *</label>
+            <input type="text" id="studentName" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="studentClass">📚 Your Class *</label>
+            <select id="studentClass" required>
+                <option value="">-- Select Your Class --</option>
+                <option value="I">Class I</option>
+                <option value="II">Class II</option>
+                <option value="III">Class III</option>
+                <option value="IV">Class IV</option>
+                <option value="V">Class V</option>
+                <option value="VI">Class VI</option>
+                <option value="VII">Class VII</option>
+                <option value="VIII">Class VIII</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="studentPin">🔐 Exam PIN *</label>
+            <input type="text" id="studentPin" placeholder="Enter the PIN given by teacher" maxlength="6" required>
+        </div>
+
+        <button class="btn btn-primary" onclick="startExam()">📖 Start Exam</button>
+
+        <div class="hint">
+            <div class="hint-title">💡 How to use:</div>
+            <div>1. Enter your name</div>
+            <div>2. Select your class</div>
+            <div>3. Enter the PIN your teacher gave you</div>
+            <div>4. Click "Start Exam" to begin</div>
+        </div>
+
+        <div class="divider">OR</div>
+
+        <button class="btn" style="background: #6c757d; color: white;" onclick="goToExam()">📝 Go to Full Exam Page</button>
+
+        <div class="back-link">
+            <a href="index.html">← Back to Home</a>
+        </div>
+    </div>
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p style="color: white; margin-top: 10px; font-size: 14px;">Loading exam...</p>
+    </div>
+</div>
+
+<script src="curriculum-data.js"></script>
+<script>
+const API = (location.port === '5000' ? '' : 'http://127.0.0.1:5000') + '/api';
+
+// Auto-focus on name field when page loads
+window.addEventListener('load', function() {
+    document.getElementById('studentName').focus();
+});
+
+// Allow PIN entry only numbers
+document.getElementById('studentPin').addEventListener('keypress', function(e) {
+    if (!/[0-9]/.test(e.key)) {
+        e.preventDefault();
+    }
+});
+
+// Allow Enter key to submit
+document.getElementById('studentPin').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        startExam();
+    }
+});
+
+function startExam() {
+    const name = document.getElementById('studentName').value.trim();
+    const classVal = document.getElementById('studentClass').value;
+    const pin = document.getElementById('studentPin').value.trim();
+
+    // Validation
+    if (!name) {
+        showMessage('❌ Please enter your name', 'error');
+        document.getElementById('studentName').focus();
+        return;
+    }
+
+    if (!classVal) {
+        showMessage('❌ Please select your class', 'error');
+        document.getElementById('studentClass').focus();
+        return;
+    }
+
+    if (!pin || pin.length !== 6) {
+        showMessage('❌ Please enter a valid 6-digit PIN', 'error');
+        document.getElementById('studentPin').focus();
+        return;
+    }
+
+    // Show loading
+    document.getElementById('loading').style.display = 'block';
+    document.querySelector('.login-card').style.opacity = '0.5';
+
+    // Verify PIN and get exam details
+    verifyPinAndStartExam(name, classVal, pin);
+}
+
+async function verifyPinAndStartExam(name, classVal, pin) {
+    try {
+        const res = await fetch(API + '/portal/get-game-by-pin', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ pin: pin })
+        });
+
+        if (!res.ok) {
+            document.getElementById('loading').style.display = 'none';
+            document.querySelector('.login-card').style.opacity = '1';
+            showMessage('❌ Invalid PIN. Please check and try again.', 'error');
+            return;
+        }
+
+        const data = await res.json();
+        if (!data.game) {
+            document.getElementById('loading').style.display = 'none';
+            document.querySelector('.login-card').style.opacity = '1';
+            showMessage('❌ Exam not found. Check your PIN.', 'error');
+            return;
+        }
+
+        // Store student info in session storage
+        sessionStorage.setItem('studentName', name);
+        sessionStorage.setItem('studentClass', classVal);
+        sessionStorage.setItem('studentPin', pin);
+        sessionStorage.setItem('gameId', data.game.id);
+        sessionStorage.setItem('gameName', data.game.name);
+        sessionStorage.setItem('gameType', data.game.type);
+
+        console.log('Student verified. Game:', data.game);
+
+        // Redirect to exam
+        window.location.href = 'exam.html?pin=' + pin + '&name=' + encodeURIComponent(name) + '&class=' + classVal;
+
+    } catch (error) {
+        document.getElementById('loading').style.display = 'none';
+        document.querySelector('.login-card').style.opacity = '1';
+        console.error('Error:', error);
+        showMessage('❌ Error: ' + error.message, 'error');
+    }
+}
+
+function goToExam() {
+    window.location.href = 'exam.html';
+}
+
+function showMessage(text, type) {
+    const box = document.getElementById('messageBox');
+    box.innerHTML = `<div class="message ${type}">${text}</div>`;
+    box.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+</body>
+</html>

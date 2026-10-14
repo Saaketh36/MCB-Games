@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book -->
+  <rect x="50" y="50" width="300" height="350" rx="10" fill="#FFE5B4" stroke="#8B4513" stroke-width="3"/>
+
+  <!-- Book spine -->
+  <rect x="48" y="50" width="6" height="350" fill="#D4A574"/>
+
+  <!-- Page 5 indicator -->
+  <text x="200" y="120" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Page 5</text>
+
+  <!-- Heading -->
+  <text x="200" y="160" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a5490">
+    My Adventure Story
+  </text>
+
+  <!-- Blue star next to heading -->
+  <polygon points="180,155 185,170 202,170 189,180 194,195 180,185 166,195 171,180 158,170 175,170"
+           fill="#0066FF" stroke="#0033CC" stroke-width="2"/>
+
+  <!-- Sample text sentences -->
+  <text x="70" y="220" font-size="14" fill="#333">Sentence 1: The rabbit hopped through the forest.</text>
+  <text x="70" y="250" font-size="14" fill="#333">Sentence 2: It found a garden with carrots.</text>
+  <text x="70" y="280" font-size="14" fill="#333">Sentence 3: The rabbit was very happy!</text>
+
+  <!-- Picture of red bus (to be circled) -->
+  <g transform="translate(320, 340)">
+    <!-- Bus body -->
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="#FF0000" stroke="#000" stroke-width="2"/>
+    <!-- Windows -->
+    <rect x="5" y="5" width="10" height="10" fill="#87CEEB"/>
+    <rect x="18" y="5" width="10" height="10" fill="#87CEEB"/>
+    <!-- Wheels -->
+    <circle cx="12" cy="42" r="5" fill="#000"/>
+    <circle cx="48" cy="42" r="5" fill="#000"/>
+  </g>
+
+  <!-- Hand pointing -->
+  <g transform="translate(100, 80)">
+    <circle cx="0" cy="0" r="8" fill="#FDB4B4"/>
+    <line x1="0" y1="-8" x2="0" y2="-25" stroke="#FDB4B4" stroke-width="6"/>
+    <line x1="0" y1="-25" x2="15" y2="-20" stroke="#FDB4B4" stroke-width="5"/>
+  </g>
+
+  <!-- Page number -->
+  <text x="200" y="430" font-size="16" text-anchor="middle" fill="#666">Page 5</text>
+</svg>

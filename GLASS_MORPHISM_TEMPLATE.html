@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Morphism Template - MyClassboard Games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ===================================
+           STEP 1: BACKGROUND IMAGE WITH GLASS
+           =================================== */
+        html, body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            /* Background image - FULL SCREEN, FIXED POSITION */
+            background: url('images/listen-do-adventure-bg.jpg') no-repeat center/cover fixed;
+            background-attachment: fixed;
+            color: #1a1a2e;
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* ===================================
+           STEP 2: MAIN CONTAINER LAYOUT
+           =================================== */
+        .container {
+            min-height: 100vh;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===================================
+           STEP 3: HEADER WITH GLASS EFFECT
+           =================================== */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 48px;
+            /* Semi-transparent white (92% white) */
+            background: rgba(255, 255, 255, 0.92);
+            /* Glass blur effect */
+            backdrop-filter: blur(20px);
+            /* Subtle border */
+            border-bottom: 2px solid rgba(232, 232, 255, 0.5);
+            /* Sticky to top */
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            width: 100%;
+            /* Shadow for depth */
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ===================================
+           STEP 4: HERO SECTION WITH GLASS
+           =================================== */
+        .hero-section {
+            position: relative;
+            /* Gradient overlay */
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.85) 0%, rgba(139, 92, 246, 0.85) 50%, rgba(217, 70, 239, 0.85) 100%);
+            border-radius: 32px;
+            padding: 64px 48px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 24px 48px rgba(99, 102, 241, 0.25);
+            margin-bottom: 56px;
+            overflow: hidden;
+            /* Glass blur effect - 10px blur */
+            backdrop-filter: blur(10px);
+            /* Frosted glass border */
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -1px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-section p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            font-weight: 600;
+            color: #F3E8FF;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===================================
+           STEP 5: CARDS WITH GLASS EFFECT
+           =================================== */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 28px;
+            padding: 48px;
+            max-width: 1400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card {
+            /* Semi-transparent white (92% white) */
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 28px;
+            padding: 32px 24px;
+            text-align: center;
+            cursor: pointer;
+            /* Subtle border */
+            border: 2px solid rgba(232, 232, 255, 0.6);
+            /* Shadow for depth */
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.12);
+            /* Smooth transition */
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            /* Glass blur effect - 15px blur */
+            backdrop-filter: blur(15px);
+        }
+
+        /* HOVER EFFECT: MORE BLURRED GLASS */
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #8B5CF6;
+            box-shadow: 0 16px 40px rgba(139, 92, 246, 0.25);
+            background: rgba(255, 255, 255, 0.98);
+            /* Increase blur on hover - 20px blur */
+            backdrop-filter: blur(20px);
+        }
+
+        .card-icon {
+            font-size: 56px;
+            margin-bottom: 16px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-icon {
+            transform: scale(1.15) rotate(8deg);
+        }
+
+        .card-title {
+            font-size: 22px;
+            font-weight: 800;
+            color: #1a1a2e;
+            margin-bottom: 12px;
+        }
+
+        .card-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* ===================================
+           STEP 6: BREADCRUMB WITH GLASS
+           =================================== */
+        .breadcrumb-nav {
+            /* Semi-transparent white (90% white) */
+            background: rgba(255, 255, 255, 0.9);
+            border: 2px solid #E8E8FF;
+            padding: 14px 28px;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #666;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+            /* Glass blur effect - 10px blur */
+            backdrop-filter: blur(10px);
+        }
+
+        /* ===================================
+           GLASS MORPHISM KEY PROPERTIES
+           =================================== */
+        /*
+
+        KEY PROPERTIES FOR GLASS MORPHISM:
+
+        1. SEMI-TRANSPARENT BACKGROUND
+           background: rgba(255, 255, 255, 0.92);
+           └─ White with 92% opacity (8% transparent)
+           └─ Adjust opacity: 0.85 = 85%, 0.90 = 90%, 0.95 = 95%
+
+        2. BACKDROP FILTER (The Glass Effect)
+           backdrop-filter: blur(15px);
+           └─ Creates blur effect behind the element
+           └─ blur(5px)  = Light blur (subtle)
+           └─ blur(10px) = Medium blur (nice)
+           └─ blur(15px) = Strong blur (pronounced)
+           └─ blur(20px) = Very strong blur (dramatic)
+
+        3. BORDER (Frosted Glass Look)
+           border: 2px solid rgba(232, 232, 255, 0.5);
+           └─ Very subtle light border
+           └─ Adds definition to the glass panel
+
+        4. BOX SHADOW (Depth and Elevation)
+           box-shadow: 0 8px 24px rgba(99, 102, 241, 0.12);
+           └─ Creates shadow for depth
+           └─ Syntax: X Y Blur Spread Color
+
+        5. SMOOTH TRANSITIONS
+           transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+           └─ Makes hover effects smooth and bouncy
+
+        ===================================
+        BROWSER SUPPORT:
+        ✅ Chrome 76+
+        ✅ Firefox 103+
+        ✅ Safari 13+
+        ✅ Edge 79+
+        ✅ Mobile browsers
+        ===================================
+        */
+
+        /* ===================================
+           RESPONSIVE DESIGN
+           =================================== */
+        @media (max-width: 768px) {
+            header {
+                padding: 16px 24px;
+            }
+
+            .hero-section {
+                padding: 40px 24px;
+            }
+
+            .hero-section h1 {
+                font-size: 32px;
+            }
+
+            .cards-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 16px;
+                padding: 24px;
+            }
+        }
+
+        /* ===================================
+           ANIMATIONS (Optional Enhancement)
+           =================================== */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s infinite ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER WITH GLASS EFFECT -->
+        <header>
+            <div style="font-size: 28px; font-weight: 800; color: #6366F1;">
+                🎮 MyClassboard Games
+            </div>
+            <div style="font-weight: 600; color: #666;">
+                Glass Morphism Template ✨
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main style="flex: 1; padding: 48px; max-width: 1400px; width: 100%; margin: 0 auto; position: relative; z-index: 1;">
+
+            <!-- BREADCRUMB WITH GLASS -->
+            <div class="breadcrumb-nav">
+                <span style="cursor: pointer;">🏠 Home</span>
+                <span style="color: #999;"> / </span>
+                <span>Template</span>
+            </div>
+
+            <!-- HERO SECTION WITH GLASS -->
+            <div class="hero-section">
+                <h1>✨ Glass Morphism Design ✨</h1>
+                <p>Beautiful, Modern UI with Frosted Glass Effects</p>
+                <button style="background: linear-gradient(135deg, #10B981 0%, #059669 100%); color: white; border: none; padding: 16px 56px; font-size: 18px; border-radius: 50px; cursor: pointer; font-weight: 800; box-shadow: 0 12px 32px rgba(16, 185, 129, 0.4); transition: all 0.3s ease;">
+                    Get Started →
+                </button>
+            </div>
+
+            <!-- CARDS GRID WITH GLASS EFFECT -->
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">📚</div>
+                    <div class="card-title">Listening Activities</div>
+                    <div class="card-description">Practice listening skills with audio narratives</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-title">Action Sequences</div>
+                    <div class="card-description">Order actions correctly following instructions</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🧮</div>
+                    <div class="card-title">Math Games</div>
+                    <div class="card-description">Learn numbers, place value, and counting</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <div class="card-title">Data Graphs</div>
+                    <div class="card-description">Understand data visualization easily</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📖</div>
+                    <div class="card-title">Story Time</div>
+                    <div class="card-description">Read stories and answer comprehension questions</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <div class="card-title">Creative Arts</div>
+                    <div class="card-description">Express yourself through art and drawing</div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

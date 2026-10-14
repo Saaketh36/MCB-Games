@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Time Quiz - With Score Feedback</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header-subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .progress-bar {
+            flex: 1;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin: 0 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .story-section {
+            background: #f9f9f9;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .story-text {
+            color: #333;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .question-container {
+            margin-bottom: 30px;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .question-text {
+            color: #333;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        /* IMMEDIATE FEEDBACK */
+        .feedback-box {
+            margin-top: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feedback-box.show {
+            display: block;
+        }
+
+        /* CORRECT FEEDBACK */
+        .feedback-box.correct {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            color: #155724;
+        }
+
+        .feedback-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .feedback-emoji {
+            font-size: 50px;
+            min-width: 50px;
+        }
+
+        .feedback-text {
+            flex: 1;
+        }
+
+        .feedback-status {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .feedback-score {
+            font-size: 16px;
+            margin-top: 8px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        /* WRONG FEEDBACK */
+        .feedback-box.wrong {
+            background: #f8d7da;
+            border-left: 5px solid #dc3545;
+            color: #721c24;
+        }
+
+        .feedback-box.wrong .feedback-score {
+            color: #dc3545;
+        }
+
+        .correct-answer-display {
+            margin-top: 10px;
+            padding: 10px;
+            background: #d4edda;
+            border-radius: 5px;
+            color: #155724;
+            font-weight: bold;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover:not(:disabled) {
+            transform: scale(1.05);
+        }
+
+        .btn-next {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            flex: 1;
+        }
+
+        .btn-next:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-submit {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            flex: 1;
+        }
+
+        /* RESULTS SCREEN */
+        .results-screen {
+            display: none;
+        }
+
+        .results-screen.show {
+            display: block;
+        }
+
+        .final-results {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .final-score-display {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .final-percentage {
+            font-size: 32px;
+            margin: 15px 0;
+        }
+
+        .performance-message {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .stars {
+            font-size: 40px;
+            margin: 15px 0;
+        }
+
+        .results-summary {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+        }
+
+        .summary-row:last-child {
+            border-bottom: none;
+        }
+
+        .summary-row.correct {
+            background: #d4edda;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .summary-row.wrong {
+            background: #f8d7da;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .answer-details {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .answer-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px;
+        }
+
+        .answer-item:last-child {
+            border-bottom: none;
+        }
+
+        .answer-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .answer-status {
+            font-size: 24px;
+        }
+
+        .answer-question {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .answer-given {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .answer-correct {
+            color: #28a745;
+            font-size: 14px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .answer-points {
+            color: #667eea;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .restart-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .restart-btn:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- GAME SCREEN -->
+        <div id="gameScreen" class="game-screen">
+            <div class="header">
+                <h1>📖 Story Time Quiz</h1>
+                <p class="header-subtitle">🇮🇳 mahathi · Skill: Reading</p>
+                <p class="header-subtitle">Listen to the story and answer the questions</p>
+                <div class="progress-info">
+                    <span id="questionCounter">Question 1/5</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <span id="scoreCounter">Score: 0/50</span>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="story-section">
+                    <div class="story-text" id="storyText"></div>
+                </div>
+
+                <div class="question-container">
+                    <div class="question-number" id="questionNum">Question 1/5</div>
+                    <div class="question-text" id="questionText"></div>
+                    <div class="options" id="optionsContainer"></div>
+
+                    <!-- IMMEDIATE FEEDBACK AFTER ANSWER -->
+                    <div class="feedback-box" id="feedbackBox">
+                        <div class="feedback-content">
+                            <div class="feedback-emoji" id="feedbackEmoji"></div>
+                            <div class="feedback-text">
+                                <div class="feedback-status" id="feedbackStatus"></div>
+                                <div class="feedback-score" id="feedbackScore"></div>
+                                <div id="correctAnswerDisplay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="btn btn-next" id="nextBtn" onclick="goToNextQuestion()" disabled>
+                        Next Question →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- RESULTS SCREEN -->
+        <div id="resultsScreen" class="results-screen">
+            <div class="header">
+                <h1>🎉 Quiz Complete!</h1>
+            </div>
+
+            <div class="game-card">
+                <div class="final-results" id="finalResults"></div>
+
+                <div class="results-summary">
+                    <div class="summary-row correct">
+                        <span>✅ Correct Answers</span>
+                        <span id="correctCount">0/5</span>
+                    </div>
+                    <div class="summary-row wrong">
+                        <span>❌ Wrong Answers</span>
+                        <span id="wrongCount">0/5</span>
+                    </div>
+                    <div class="summary-row" style="background: #e3f2fd;">
+                        <span>📊 Total Score</span>
+                        <span id="totalScore">0/50</span>
+                    </div>
+                </div>
+
+                <h3 style="margin: 20px 0 15px 0; color: #333;">📋 Answer Review</h3>
+                <div class="answer-details" id="answerDetails"></div>
+
+                <button class="restart-btn" onclick="location.reload()">Take Quiz Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // QUIZ DATA - Story and Questions
+        const quizData = {
+            story: "Once upon a time, there was a little rabbit named Bunny. Bunny lived in a cozy burrow under the big oak tree. Every morning, Bunny would hop to the garden to find fresh carrots. One day, Bunny met a friendly squirrel named Nutkin. They became best friends and played together every day. They would run through the forest and collect acorns and berries. One sunny afternoon, they found a beautiful blue butterfly. They followed the butterfly to a magical meadow filled with colorful flowers. Bunny and Nutkin danced in the meadow until sunset. When evening came, they returned home, happy and tired from their adventure.",
+
+            questions: [
+                {
+                    id: 1,
+                    text: "What did Bunny find in the meadow?",
+                    options: ["Carrots", "Berries", "Colorful Flowers", "Acorns"],
+                    correct: "Colorful Flowers",
+                    points: 10
+                },
+                {
+                    id: 2,
+                    text: "Who was Bunny's best friend?",
+                    options: ["Blue Butterfly", "Squirrel Nutkin", "Oak Tree", "Carrot"],
+                    correct: "Squirrel Nutkin",
+                    points: 10
+                },
+                {
+                    id: 3,
+                    text: "Where did Bunny live?",
+                    options: ["In the garden", "In a cozy burrow under oak tree", "In the forest", "In the meadow"],
+                    correct: "In a cozy burrow under oak tree",
+                    points: 10
+                },
+                {
+                    id: 4,
+                    text: "What did they follow to the meadow?",
+                    options: ["A rabbit", "A butterfly", "A squirrel", "An acorn"],
+                    correct: "A butterfly",
+                    points: 10
+                },
+                {
+                    id: 5,
+                    text: "What did they find in the meadow?",
+                    options: ["Carrots", "Acorns", "Colorful flowers", "Berries"],
+                    correct: "Colorful flowers",
+                    points: 10
+                }
+            ]
+        };
+
+        let currentQuestion = 0;
+        let userAnswers = {};
+        let scores = {};
+        let totalScore = 0;
+
+        // Initialize Quiz
+        function initQuiz() {
+            loadQuestion();
+        }
+
+        // Load Question
+        function loadQuestion() {
+            const q = quizData.questions[currentQuestion];
+
+            document.getElementById('storyText').textContent = quizData.story;
+            document.getElementById('questionText').textContent = q.text;
+            document.getElementById('questionNum').textContent = `Question ${currentQuestion + 1}/${quizData.questions.length}`;
+            document.getElementById('questionCounter').textContent = `Question ${currentQuestion + 1}/${quizData.questions.length}`;
+
+            // Update progress bar
+            const progress = ((currentQuestion + 1) / quizData.questions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            // Render options
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            q.options.forEach(option => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.textContent = option;
+                optionDiv.onclick = () => selectAnswer(option, q.id, q.correct, q.points);
+                container.appendChild(optionDiv);
+            });
+
+            // Hide feedback box and reset
+            document.getElementById('feedbackBox').classList.remove('show', 'correct', 'wrong');
+            document.getElementById('nextBtn').disabled = true;
+        }
+
+        // Select Answer
+        function selectAnswer(option, questionId, correctAnswer, points) {
+            userAnswers[questionId] = option;
+            const isCorrect = option === correctAnswer;
+
+            // Disable all options
+            document.querySelectorAll('.option').forEach(el => {
+                el.classList.add('disabled');
+                el.style.pointerEvents = 'none';
+            });
+
+            // Show feedback IMMEDIATELY
+            showFeedback(isCorrect, option, correctAnswer, points);
+
+            // Save score
+            scores[questionId] = isCorrect ? points : 0;
+
+            // Enable next button
+            document.getElementById('nextBtn').disabled = false;
+        }
+
+        // Show Feedback
+        function showFeedback(isCorrect, userAnswer, correctAnswer, points) {
+            const feedbackBox = document.getElementById('feedbackBox');
+            const feedbackEmoji = document.getElementById('feedbackEmoji');
+            const feedbackStatus = document.getElementById('feedbackStatus');
+            const feedbackScore = document.getElementById('feedbackScore');
+            const correctAnswerDisplay = document.getElementById('correctAnswerDisplay');
+
+            feedbackBox.classList.add('show');
+
+            if (isCorrect) {
+                feedbackBox.classList.add('correct');
+                feedbackBox.classList.remove('wrong');
+                feedbackEmoji.textContent = '👏';
+                feedbackStatus.textContent = '✅ CORRECT!';
+                feedbackScore.textContent = `Score: +${points} points`;
+                correctAnswerDisplay.innerHTML = '';
+            } else {
+                feedbackBox.classList.add('wrong');
+                feedbackBox.classList.remove('correct');
+                feedbackEmoji.textContent = '❌';
+                feedbackStatus.textContent = '❌ WRONG';
+                feedbackScore.textContent = `Score: 0 points`;
+                correctAnswerDisplay.innerHTML = `<div class="correct-answer-display">Correct Answer: ${correctAnswer}</div>`;
+            }
+
+            // Update total score
+            totalScore = Object.values(scores).reduce((a, b) => a + b, 0);
+            document.getElementById('scoreCounter').textContent = `Score: ${totalScore}/50`;
+        }
+
+        // Go to Next Question
+        function goToNextQuestion() {
+            currentQuestion++;
+
+            if (currentQuestion < quizData.questions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Show Results
+        function showResults() {
+            document.getElementById('gameScreen').style.display = 'none';
+            document.getElementById('resultsScreen').classList.add('show');
+
+            const correctCount = Object.values(scores).filter(s => s > 0).length;
+            const totalQuestions = quizData.questions.length;
+            const percentage = (totalScore / 50) * 100;
+
+            let performanceLevel = '';
+            let emoji = '';
+            let stars = '';
+            let message = '';
+
+            if (percentage >= 80) {
+                performanceLevel = 'Excellent';
+                emoji = '🎉';
+                stars = '⭐⭐⭐⭐⭐';
+                message = 'Excellent! Outstanding performance!';
+            } else if (percentage >= 60) {
+                performanceLevel = 'Good';
+                emoji = '👏';
+                stars = '⭐⭐⭐⭐';
+                message = 'Great job! Good performance!';
+            } else if (percentage >= 40) {
+                performanceLevel = 'Average';
+                emoji = '👍';
+                stars = '⭐⭐⭐';
+                message = 'Good effort! Keep practicing!';
+            } else {
+                performanceLevel = 'Poor';
+                emoji = '💪';
+                stars = '⭐⭐';
+                message = 'Keep trying! You can do better!';
+            }
+
+            // Display Final Score
+            document.getElementById('finalResults').innerHTML = `
+                <div style="font-size: 60px; margin-bottom: 15px;">${emoji}</div>
+                <div class="final-score-display">${totalScore}/50</div>
+                <div class="final-percentage">${percentage.toFixed(1)}%</div>
+                <div class="performance-message">${message}</div>
+                <div class="stars">${stars}</div>
+            `;
+
+            // Display Summary
+            document.getElementById('correctCount').textContent = `${correctCount}/${totalQuestions}`;
+            document.getElementById('wrongCount').textContent = `${totalQuestions - correctCount}/${totalQuestions}`;
+            document.getElementById('totalScore').textContent = `${totalScore}/50`;
+
+            // Display Answer Details
+            const answerDetails = document.getElementById('answerDetails');
+            answerDetails.innerHTML = '';
+
+            quizData.questions.forEach((q, index) => {
+                const userAnswer = userAnswers[q.id];
+                const isCorrect = userAnswer === q.correct;
+                const earnedPoints = scores[q.id];
+
+                const item = document.createElement('div');
+                item.className = 'answer-item';
+                item.innerHTML = `
+                    <div class="answer-header">
+                        <span>Question ${index + 1}</span>
+                        <span class="answer-status">${isCorrect ? '✅' : '❌'}</span>
+                    </div>
+                    <div class="answer-question">${q.text}</div>
+                    <div class="answer-given">Your Answer: <strong>${userAnswer}</strong></div>
+                    ${!isCorrect ? `<div class="answer-correct">Correct Answer: ${q.correct}</div>` : ''}
+                    <div class="answer-points">Score: ${earnedPoints}/10 points</div>
+                `;
+
+                answerDetails.appendChild(item);
+            });
+        }
+
+        // Start Quiz
+        initQuiz();
+    </script>
+    <script src="score_client.js"></script>
+</body>
+</html>

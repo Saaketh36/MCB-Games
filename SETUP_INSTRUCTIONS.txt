@@ -1,0 +1,136 @@
+================================================================================
+POSTGRESQL DATABASE SETUP - MANUAL STEPS
+================================================================================
+
+Since automatic setup needs the PostgreSQL admin password, please follow these
+manual steps to create the database:
+
+================================================================================
+STEP 1: Open PowerShell
+================================================================================
+
+1. Press Win + X
+2. Click "Windows PowerShell" or "Terminal"
+3. Navigate to your project folder:
+   cd "C:\Users\Charitha Sadineni\OneDrive\Desktop\Games"
+
+================================================================================
+STEP 2: Connect to PostgreSQL
+================================================================================
+
+Run this command:
+   psql -U postgres
+
+You will be prompted for the PostgreSQL password. Enter the password you set
+when installing PostgreSQL.
+
+================================================================================
+STEP 3: Create Database and User
+================================================================================
+
+Copy and paste these commands in psql:
+
+CREATE DATABASE myclassboard_games;
+
+CREATE USER myclassboard_user WITH PASSWORD 'myclassboard123';
+
+ALTER ROLE myclassboard_user SET client_encoding TO 'utf8';
+ALTER ROLE myclassboard_user SET default_transaction_isolation TO 'read committed';
+ALTER ROLE myclassboard_user SET default_transaction_deferrable TO on;
+ALTER ROLE myclassboard_user SET default_time_zone TO 'UTC';
+
+GRANT ALL PRIVILEGES ON DATABASE myclassboard_games TO myclassboard_user;
+
+\c myclassboard_games
+
+GRANT ALL ON SCHEMA public TO myclassboard_user;
+
+Exit psql by typing:
+   \q
+
+================================================================================
+STEP 4: Create Database Tables
+================================================================================
+
+Run this command in PowerShell (NOT in psql):
+
+   psql -U myclassboard_user -d myclassboard_games -f CREATE-DATABASE-PRODUCTION.sql
+
+When prompted for password, enter: myclassboard123
+
+================================================================================
+STEP 5: Verify Tables Were Created
+================================================================================
+
+Run this command:
+   psql -U myclassboard_user -d myclassboard_games
+
+Then type:
+   \dt
+
+You should see 12 tables listed:
+   - analytics
+   - api_logs
+   - assignments
+   - audio_feedback
+   - classes
+   - games
+   - scores
+   - skills
+   - students
+   - subjects
+   - system_settings
+   - teachers
+
+Exit by typing:
+   \q
+
+================================================================================
+STEP 6: Run the Application
+================================================================================
+
+Install dependencies:
+   pip install -r requirements.txt
+
+Run the app:
+   python app.py
+
+You should see:
+   Database: PostgreSQL ✅
+   Starting Flask server on http://localhost:5000
+
+================================================================================
+STEP 7: Test the API
+================================================================================
+
+Open another PowerShell window and run:
+   curl http://localhost:5000/api/curriculum
+
+You should get JSON data back!
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+If you get "connection refused":
+   - Make sure PostgreSQL is running
+   - Check: pg_isready -h localhost
+
+If you get "password authentication failed":
+   - You entered the wrong PostgreSQL password
+   - Check the password you set during PostgreSQL installation
+
+If tables don't appear:
+   - Check that you ran the CREATE-DATABASE-PRODUCTION.sql script
+   - Verify no error messages appeared
+
+================================================================================
+NEED HELP?
+================================================================================
+
+Read these documentation files:
+   - QUICK_START.md (60-second overview)
+   - POSTGRES_SETUP.md (detailed instructions)
+   - SETUP_CHECKLIST.md (verification steps)
+
+================================================================================

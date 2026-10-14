@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MyClassboard Games — Project Structure</title>
+<style>
+  :root{
+    --bg:#F7FAFF; --card:#FFFFFF; --ink:#2D3748; --muted:#718096;
+    --line:#E2E8F0; --accent:#2B6CB0; --green:#2F855A; --amber:#D69E2E;
+    --red:#C53030; --purple:#6B46C1;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55}
+  header{background:linear-gradient(135deg,#2B6CB0,#6B46C1);color:#fff;
+    padding:26px 30px}
+  header h1{margin:0 0 6px;font-size:1.7rem}
+  header p{margin:0;opacity:.9;font-size:.95rem}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 30px 60px}
+  h2{font-size:1.25rem;margin:34px 0 12px;padding-bottom:8px;
+    border-bottom:2px solid var(--line);display:flex;align-items:center;gap:10px}
+  h2 .n{background:var(--accent);color:#fff;border-radius:50%;
+    width:26px;height:26px;display:inline-flex;align-items:center;
+    justify-content:center;font-size:.85rem;flex:0 0 auto}
+  .grid{display:grid;gap:14px}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 18px;box-shadow:0 1px 3px rgba(45,55,72,.06)}
+  .card h3{margin:0 0 8px;font-size:1rem}
+  .card p{margin:0;font-size:.88rem;color:var(--muted)}
+  .tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.4px;
+    text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-bottom:8px}
+  .t-db{background:#FDE8E8;color:var(--red)}
+  .t-gen{background:#E6FFFA;color:var(--green)}
+  .t-content{background:#FEFCF0;color:var(--amber)}
+  .t-app{background:#EBF8FF;color:var(--accent)}
+  .t-test{background:#FAF5FF;color:var(--purple)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem;
+    background:var(--card);border-radius:12px;overflow:hidden}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);
+    vertical-align:top}
+  th{background:#EDF2F7;font-weight:700;font-size:.82rem;
+    text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
+  tr:last-child td{border-bottom:none}
+  code{background:#EDF2F7;padding:1px 6px;border-radius:5px;
+    font-family:Consolas,Monaco,monospace;font-size:.85em;color:var(--purple)}
+  pre{background:#1A202C;color:#E2E8F0;padding:14px 16px;border-radius:12px;
+    overflow-x:auto;font-family:Consolas,Monaco,monospace;font-size:.84rem;
+    line-height:1.5;margin:0}
+  .tree{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:18px 20px;font-family:Consolas,Monaco,monospace;font-size:.84rem;
+    line-height:1.75;overflow-x:auto}
+  .tree .f{color:var(--accent);font-weight:700}
+  .tree .d{color:var(--green);font-weight:700}
+  .tree .c{color:var(--muted)}
+  .flow{counter-reset:s;display:grid;gap:10px}
+  .step{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);
+    border-radius:0 12px 12px 0;padding:12px 16px}
+  .step b{color:var(--accent)}
+  .arrow{text-align:center;color:var(--muted);font-size:1.1rem;line-height:1}
+  .note{background:#FFFDF5;border:1px dashed var(--amber);border-radius:12px;
+    padding:14px 16px;font-size:.88rem;margin-top:10px}
+  .note b{color:var(--amber)}
+  .stat{text-align:center;padding:14px}
+  .stat .v{font-size:1.9rem;font-weight:800;color:var(--accent);line-height:1.1}
+  .stat .l{font-size:.78rem;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.5px;margin-top:4px}
+  details{margin-top:10px}
+  summary{cursor:pointer;font-size:.85rem;color:var(--accent);font-weight:700;
+    padding:6px 0}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MyClassboard Games — Project Structure</h1>
+  <p>325-activity curriculum platform &middot; Streamlit &middot; JSON-file storage, no database server</p>
+</header>
+
+<div class="wrap">
+
+  <div class="grid g3">
+    <div class="card stat"><div class="v">325</div><div class="l">Activities</div></div>
+    <div class="card stat"><div class="v">975</div><div class="l">Questions</div></div>
+    <div class="card stat"><div class="v">24</div><div class="l">Listening passages</div></div>
+    <div class="card stat"><div class="v">96</div><div class="l">SVG images</div></div>
+    <div class="card stat"><div class="v">25</div><div class="l">WAV files / 27 MB</div></div>
+    <div class="card stat"><div class="v">2</div><div class="l">Live JSON stores</div></div>
+  </div>
+
+  <!-- 1. STORAGE -->
+  <h2><span class="n">1</span> Where the data is stored</h2>
+  <p style="font-size:.92rem;color:var(--muted);margin-top:0">
+    <strong>There is no database server.</strong> Everything is a file on disk.
+    Only the two red rows below are written while the app runs.
+  </p>
+  <table>
+    <thead><tr><th>Store</th><th>File</th><th>Format</th><th>Mutated at runtime?</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag t-db">Database</span> Teacher assignments</td>
+          <td><code>assignments.json</code></td><td>JSON array</td>
+          <td><strong>Yes</strong> — teacher assigns / removes</td></tr>
+      <tr><td><span class="tag t-db">Database</span> Student results</td>
+          <td><code>completions.json</code></td><td>JSON array</td>
+          <td><strong>Yes</strong> — written on every game finish</td></tr>
+      <tr><td><span class="tag t-content">Content</span> Curriculum</td>
+          <td><code>games_data.py</code></td><td>Python dict</td><td>No — read-only</td></tr>
+      <tr><td><span class="tag t-content">Content</span> Question bank</td>
+          <td><code>question_bank.js</code></td><td>JSON in JS</td><td>No — regenerated by script</td></tr>
+      <tr><td><span class="tag t-content">Content</span> Listening passages</td>
+          <td><code>listening_content.py</code></td><td>Python dict</td><td>No — read-only</td></tr>
+      <tr><td><span class="tag t-content">Content</span> Authored facts</td>
+          <td><code>question_content.py</code></td><td>Python dict</td><td>No — read-only</td></tr>
+      <tr><td><span class="tag t-gen">Assets</span> Narration audio</td>
+          <td><code>audio/*.wav</code></td><td>WAV + index.json</td><td>No — generated once</td></tr>
+      <tr><td><span class="tag t-gen">Assets</span> Question images</td>
+          <td><code>images/listening/*.svg</code></td><td>SVG + index.json</td><td>No — generated once</td></tr>
+      <tr><td><span class="tag t-gen">Assets</span> Odd-one-out images</td>
+          <td><code>images/odd/*.svg</code></td><td>SVG + odd_index.json</td><td>No — generated once</td></tr>
+      <tr><td><span class="tag t-app">Session</span> Live game state</td>
+          <td><code>st.session_state</code></td><td>in memory</td>
+          <td>Yes — but <strong>lost on browser refresh</strong></td></tr>
+    </tbody>
+  </table>
+  <div class="note">
+    <b>Read/write code:</b> <code>load_json_list()</code> / <code>save_json_list()</code>
+    at <code>app.py:176–187</code>, wrapped by
+    <code>load_assignments/save_assignments</code> and
+    <code>load_completions/save_completions</code>.
+  </div>
+
+  <!-- 2. TREE -->
+  <h2><span class="n">2</span> Directory tree</h2>
+  <div class="tree">
+<span class="d">Games/</span>
+├── <span class="f">app.py</span>                    <span class="c">← THE ENTIRE APP, 1,016 lines Streamlit</span>
+├── <span class="f">assignments.json</span>            <span class="c">← DB: teacher assignments</span>
+├── <span class="f">completions.json</span>            <span class="c">← DB: student results</span>
+│
+├── <span class="f">games_data.py</span>                 <span class="c">325 activities, 68 KB, read-only</span>
+├── <span class="f">question_bank.js</span>              <span class="c">975 questions, 528 KB, read-only</span>
+├── <span class="f">listening_content.py</span>          <span class="c">24 passages + 72 answers</span>
+├── <span class="f">question_content.py</span>           <span class="c">~1,000 authored facts → bank</span>
+│
+├── <span class="f">odd_one_out_content.py</span>        <span class="c">6 authored odd-one-out sets</span>
+├── <span class="f">odd_one_out_build.py</span>          <span class="c">pairs pictures with options</span>
+├── <span class="f">odd_pictograms.py</span>             <span class="c">23 SVG pictograms</span>
+├── <span class="f">build_question_bank.py</span>        <span class="c">regenerates question_bank.js</span>
+├── <span class="f">ai_helper.py</span>                  <span class="c">optional Gemini generation</span>
+│
+├── <span class="f">index.html</span>                    <span class="c">standalone prototype, not used</span>
+├── <span class="f">games_data.js</span>                  <span class="c">JS mirror of games_data.py</span>
+│
+├── <span class="d">audio/</span>                        <span class="c">25 WAV files, 27.1 MB + index.json</span>
+├── <span class="d">images/</span>                       <span class="c">96 SVGs total</span>
+│   ├── index.json            <span class="c">story|||q → listening SVG</span>
+│   ├── odd_index.json        <span class="c">set → 4 odd SVGs</span>
+│   ├── listening/            <span class="c">72 SVGs, one per listening question</span>
+│   └── odd/                  <span class="c">24 SVGs, four per odd set</span>
+│
+└── <span class="d">tools/</span>                        <span class="c">generators + verification scripts</span>
+</div>
+
+  <!-- 3. APP PAGES -->
+  <h2><span class="n">3</span> How app.py is organised</h2>
+  <p style="font-size:.92rem;color:var(--muted);margin-top:0">
+    One file, one <code>if / elif</code> chain over <code>st.session_state.page</code>.
+    Navigation always goes through the single helper <code>nav_to(page, **kwargs)</code>
+    at <code>app.py:238</code>, which sets the page, injects extra state, then
+    calls <code>st.rerun()</code>.
+  </p>
+  <div class="grid g2">
+    <div class="card"><span class="tag t-app">Page 1</span>
+      <h3>landing</h3>
+      <p>Choose Student Portal or Teacher Portal. Sets <code>role</code>.</p></div>
+    <div class="card"><span class="tag t-app">Page 2</span>
+      <h3>student_hub</h3>
+      <p>Name input, class dropdown (only classes with work left), “To play” list,
+         finished games collapsed.</p></div>
+    <div class="card"><span class="tag t-app">Page 3</span>
+      <h3>student_game_play</h3>
+      <p>The game: narration audio, pictures, 4 option tiles, scoring,
+         per-answer log.</p></div>
+    <div class="card"><span class="tag t-app">Page 4</span>
+      <h3>teacher_dashboard</h3>
+      <p>Five tabs — see next panel.</p></div>
+  </div>
+  <details open><summary>Teacher dashboard tabs</summary>
+    <table style="margin-top:8px">
+      <thead><tr><th>Tab</th><th>What it does</th><th>Writes to disk?</th></tr></thead>
+      <tbody>
+        <tr><td>📋 Assign Games</td><td>Class → subject → skill → activity, then assign</td>
+            <td><code>assignments.json</code></td></tr>
+        <tr><td>✅ Assigned Work</td><td>Every assignment with ✅ Work Completed / ⏳ Not completed yet, plus counters and a filter</td><td>No</td></tr>
+        <tr><td>🔍 Check Student Work</td><td>Every answer as the student gave it, accuracy metrics, drill-down per student</td>
+            <td>No (can clear records)</td></tr>
+        <tr><td>📚 Curriculum Browser</td><td>Filter all 325 activities by class / subject / type</td><td>No</td></tr>
+        <tr><td>✨ AI Question Studio</td><td>Gemini generation for one activity</td><td>No</td></tr>
+      </tbody>
+    </table>
+  </details>
+
+  <!-- 4. FLOW -->
+  <h2><span class="n">4</span> Data flow, end to end</h2>
+  <div class="flow">
+    <div class="step"><b>Teacher assigns work</b> — Assign Games tab builds a dict per
+      activity, <code>save_assignments()</code> appends it to
+      <code>assignments.json</code>.</div>
+    <div class="arrow">↓</div>
+    <div class="step"><b>Student opens the hub</b> — <code>who_key()</code> lowercases
+      the name; <code>is_completed(class, activity)</code> reads
+      <code>completions.json</code>; finished games and fully-completed classes are hidden.</div>
+    <div class="arrow">↓</div>
+    <div class="step"><b>Student plays</b> — blank name is blocked. Each answer appends to
+      <code>st.session_state.answer_log</code> (memory only, lost on refresh).</div>
+    <div class="arrow">↓</div>
+    <div class="step"><b>Game finishes</b> — a record is built and
+      <code>save_completions()</code> writes it to
+      <code>completions.json</code>. That is the only write from the student side.</div>
+    <div class="arrow">↓</div>
+    <div class="step"><b>Teacher sees results</b> — <code>load_completions()</code> is
+      matched against <code>assignments.json</code> on
+      <code>(class, activity)</code> to set each row's status.</div>
+  </div>
+
+  <div class="note">
+    <b>Why the class is part of the match key:</b> the same activity name can exist
+    in several classes, and each counts as separate work. Matching on activity name
+    alone would wrongly mark every class as done.
+  </div>
+
+  <!-- 5. TOOLS -->
+  <h2><span class="n">5</span> tools/ — generators and checks</h2>
+  <div class="grid g2">
+    <div class="card"><span class="tag t-gen">Generator</span><h3>make_images.py</h3>
+      <p>72 listening SVGs + <code>images/index.json</code>. Re-run after editing listening content.</p></div>
+    <div class="card"><span class="tag t-gen">Generator</span><h3>make_odd_images.py</h3>
+      <p>24 odd-one-out SVGs + <code>images/odd_index.json</code>.</p></div>
+    <div class="card"><span class="tag t-gen">Generator</span><h3>make_audio.ps1</h3>
+      <p>Narrates the 24 passages to WAV + <code>audio/index.json</code>.</p></div>
+    <div class="card"><span class="tag t-gen">Builder</span><h3>build_question_bank.py</h3>
+      <p>Regenerates <code>question_bank.js</code>. Deterministic — same output every run.</p></div>
+    <div class="card"><span class="tag t-test">Check</span><h3>validate_bank.py</h3>
+      <p>Whole-bank integrity: 325 keys, 975 questions, 4 options each, answer present, no duplicate stems, assets present.</p></div>
+    <div class="card"><span class="tag t-test">Check</span><h3>8 × check_*.py</h3>
+      <p>Class filter, completion removal, name required, teacher status, odd one out, roles, teacher tab, instructions.</p></div>
+  </div>
+  <div class="note">
+    <b>Caveat:</b> the <code>check_*.py</code> scripts re-implement the app's conditions
+    in isolation. They are not end-to-end UI tests — only a real browser pass confirms rendering.
+  </div>
+
+  <h2><span class="n">6</span> Starting the app</h2>
+  <pre>streamlit run app.py --server.port 8501</pre>
+
+</div>
+</body>
+</html>

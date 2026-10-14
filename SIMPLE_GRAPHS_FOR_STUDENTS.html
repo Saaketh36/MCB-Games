@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class I - Simple Graphs Students Can Understand</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #ffffff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+
+        .activity {
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            border-radius: 10px;
+        }
+
+        .activity-title {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .question {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: bold;
+            padding: 10px;
+            background: #fff9e6;
+            border-radius: 8px;
+        }
+
+        .answer {
+            font-size: 18px;
+            color: #27ae60;
+            margin-bottom: 20px;
+            padding: 12px;
+            background: #d4edda;
+            border-left: 4px solid #27ae60;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .graph-title {
+            font-size: 16px;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .simple-graph {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .graph-item {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .graph-label {
+            width: 150px;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .bar {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .box {
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+            border: 2px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .box-filled {
+            background: #4CAF50;
+            border-color: #2e7d32;
+            color: white;
+        }
+
+        .box-empty {
+            background: #f0f0f0;
+            border-color: #999;
+        }
+
+        .percentage {
+            width: 60px;
+            text-align: right;
+            font-size: 16px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            padding: 15px;
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .example {
+            margin-top: 15px;
+            padding: 15px;
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            border-radius: 5px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .emoji {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+
+        hr {
+            margin: 40px 0;
+            border: none;
+            border-top: 2px solid #ddd;
+        }
+
+        .icon-row {
+            display: flex;
+            gap: 5px;
+            font-size: 24px;
+        }
+
+        .summary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>📊 Class I - Easy to Understand Graphs</h1>
+    <p class="subtitle">See how many students got each question RIGHT! ✓</p>
+
+    <!-- ACTIVITY 1 -->
+    <div class="activity">
+        <div class="activity-title">📖 Activity 1: Listen & Do Adventure</div>
+
+        <!-- Question 1 -->
+        <div class="question">❓ Question 1: What must you do FIRST?</div>
+        <div class="answer">✓ Answer: Open the book to page 5</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 How many students got this RIGHT?</div>
+
+            <div class="graph-item">
+                <div class="graph-label">Students who got it RIGHT:</div>
+                <div class="bar">
+                    <div class="box box-filled">1</div>
+                    <div class="box box-filled">2</div>
+                    <div class="box box-filled">3</div>
+                    <div class="box box-filled">4</div>
+                    <div class="box box-filled">5</div>
+                    <div class="box box-filled">6</div>
+                    <div class="box box-filled">7</div>
+                    <div class="box box-filled">8</div>
+                    <div class="box box-filled">9</div>
+                    <div class="box box-filled">10</div>
+                    <div class="box box-filled">11</div>
+                    <div class="box box-filled">12</div>
+                    <div class="box box-filled">13</div>
+                    <div class="box box-filled">14</div>
+                    <div class="box box-filled">15</div>
+                    <div class="box box-filled">16</div>
+                    <div class="box box-filled">17</div>
+                    <div class="box box-filled">18</div>
+                    <div class="box box-filled">19</div>
+                    <div class="box box-filled">20</div>
+                </div>
+                <div class="percentage">20/20<br>100%</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>Why this is correct:</strong> The teacher said "FIRST, open your book to page five." FIRST means do this BEFORE everything else!<br><br>
+            All 20 students in the class got this RIGHT! ✓✓✓
+        </div>
+
+        <div class="example">
+            <span class="emoji">🏫</span>
+            <strong>Real-World Example:</strong> Getting ready for school works the same way:<br>
+            FIRST → Wake up 🛏️<br>
+            THEN → Brush teeth 🪥<br>
+            THEN → Eat breakfast 🥞<br>
+            FINALLY → Go to school 🎒
+        </div>
+
+        <hr>
+
+        <!-- Question 2 -->
+        <div class="question">❓ Question 2: What COLOR is the star?</div>
+        <div class="answer">✓ Answer: BLUE</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 How many students chose BLUE?</div>
+
+            <div class="graph-item">
+                <div class="graph-label">Chose BLUE (RIGHT):</div>
+                <div class="bar">
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                </div>
+                <div class="percentage">19/20<br>95%</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">Chose other colors:</div>
+                <div class="bar">
+                    <div class="box box-empty">✗</div>
+                </div>
+                <div class="percentage">1/20<br>5%</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>Why this is correct:</strong> The teacher said "draw a small BLUE star." BLUE is the color!<br><br>
+            19 students got this RIGHT! 1 student guessed wrong. That's VERY GOOD! 🌟
+        </div>
+
+        <hr>
+
+        <!-- Question 3 -->
+        <div class="question">❓ Question 3: Which picture did you CIRCLE?</div>
+        <div class="answer">✓ Answer: A RED BUS</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 What did students circle?</div>
+
+            <div class="graph-item">
+                <div class="graph-label">🚌 RED BUS (RIGHT):</div>
+                <div class="bar">
+                    <div class="icon-row">🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌🚌</div>
+                </div>
+                <div class="percentage">20/20<br>100%</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">🍃 GREEN LEAF:</div>
+                <div class="bar">
+                </div>
+                <div class="percentage">0/20</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">🔔 YELLOW BELL:</div>
+                <div class="bar">
+                </div>
+                <div class="percentage">0/20</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>Why this is correct:</strong> The teacher said "circle the picture of a RED BUS." A bus takes you to school! 🚌<br><br>
+            ALL 20 students got this RIGHT! Perfect score! 🎉🎉🎉
+        </div>
+    </div>
+
+    <!-- ACTIVITY 2 -->
+    <div class="activity">
+        <div class="activity-title">📚 Activity 2: Story Time Quiz</div>
+
+        <!-- Question 1 -->
+        <div class="question">❓ Question 1: What kind of animal was Twee?</div>
+        <div class="answer">✓ Answer: A BIRD</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 What did students answer?</div>
+
+            <div class="graph-item">
+                <div class="graph-label">Said BIRD (RIGHT):</div>
+                <div class="bar">
+                    <div class="icon-row">🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦🐦</div>
+                </div>
+                <div class="percentage">17/20<br>85%</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">Said other animals:</div>
+                <div class="bar">
+                    <div class="icon-row">🐟🐱🐶</div>
+                </div>
+                <div class="percentage">3/20<br>15%</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>Why this is correct:</strong> The story said "a small BIRD called Twee came to sing on the tree." Birds sing and fly!<br><br>
+            17 students remembered! That's VERY GOOD! 🌟
+        </div>
+
+        <div class="example">
+            <span class="emoji">🏫</span>
+            <strong>Real-World:</strong> When you listen to a story, you remember the IMPORTANT WORDS like the animal's name!
+        </div>
+    </div>
+
+    <!-- ACTIVITY 3 -->
+    <div class="activity">
+        <div class="activity-title">🏗️ Activity 3: Place Value Tower (Math)</div>
+
+        <!-- Question 1 -->
+        <div class="question">❓ Question 1: In the number 34, how many TENS?</div>
+        <div class="answer">✓ Answer: 3 TENS</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 What did students answer?</div>
+
+            <div class="graph-item">
+                <div class="graph-label">Said 3 TENS (RIGHT):</div>
+                <div class="bar">
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                    <div class="box box-filled">✓</div>
+                </div>
+                <div class="percentage">14/20<br>70%</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">Said 4 TENS (WRONG):</div>
+                <div class="bar">
+                    <div class="box box-empty">✗</div>
+                    <div class="box box-empty">✗</div>
+                    <div class="box box-empty">✗</div>
+                    <div class="box box-empty">✗</div>
+                </div>
+                <div class="percentage">4/20<br>20%</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">Other wrong answers:</div>
+                <div class="bar">
+                    <div class="box box-empty">✗</div>
+                    <div class="box box-empty">✗</div>
+                </div>
+                <div class="percentage">2/20<br>10%</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>Why this is correct:</strong> The number 34 = 3 TENS + 4 ONES<br>
+            The FIRST number (3) tells us the TENS!<br>
+            The SECOND number (4) tells us the ONES!<br><br>
+            14 students got it right! This is a harder topic, so that's GOOD! 💪
+        </div>
+
+        <div class="example">
+            <span class="emoji">💰</span>
+            <strong>Real-World Money Example:</strong><br>
+            34 rupees = 3 × 10-rupee notes + 4 × 1-rupee coins<br>
+            🔟🔟🔟 + 🪙🪙🪙🪙 = 34 rupees!
+        </div>
+    </div>
+
+    <!-- ACTIVITY 4 -->
+    <div class="activity">
+        <div class="activity-title">📊 Activity 4: Tally Marks Survey (Math)</div>
+
+        <!-- Question 1 -->
+        <div class="question">❓ Question 1: What is the FAVORITE FRUIT?</div>
+        <div class="answer">✓ Answer: ORANGE 🍊</div>
+
+        <div class="simple-graph">
+            <div class="graph-title">📊 20 Students' Favorite Fruits (Using Tally Marks)</div>
+
+            <div class="graph-item">
+                <div class="graph-label">🍊 Orange (WINNER!):</div>
+                <div class="icon-row">🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊</div>
+                <div class="percentage">16/20</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">🍎 Apple:</div>
+                <div class="icon-row">🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎</div>
+                <div class="percentage">13/20</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">🍌 Banana:</div>
+                <div class="icon-row">🍌🍌🍌🍌🍌🍌🍌🍌</div>
+                <div class="percentage">8/20</div>
+            </div>
+
+            <div class="graph-item">
+                <div class="graph-label">🍉 Watermelon:</div>
+                <div class="icon-row">🍉🍉🍉🍉🍉</div>
+                <div class="percentage">5/20</div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <span class="emoji">💡</span>
+            <strong>How to Read This Graph:</strong><br>
+            Count the fruit emojis! 🍊 has the MOST fruits (16)!<br>
+            When something has the LONGEST line or MOST items, that's the FAVORITE!<br><br>
+            ORANGE is the favorite of our class! 🎉
+        </div>
+
+        <div class="example">
+            <span class="emoji">🏫</span>
+            <strong>Real-World Use:</strong> Schools use this to decide what snacks to put in the cafeteria! If oranges are most popular, they buy more oranges!
+        </div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="summary">
+        ✨ GREAT JOB, CLASS I! ✨<br>
+        You are learning SO MUCH! Keep working hard! 🌟⭐🌟
+    </div>
+
+</div>
+
+</body>
+</html>

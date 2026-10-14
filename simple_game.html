@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game - Score & Feedback</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .question-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .question-text {
+            color: #333;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+            transform: translateY(-2px);
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* FEEDBACK STYLES */
+        .feedback {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feedback.show {
+            display: block;
+        }
+
+        /* CORRECT FEEDBACK */
+        .feedback.correct {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            color: #155724;
+        }
+
+        .feedback.correct .emoji {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .feedback.correct .message {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .feedback.correct .score-display {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #28a745;
+        }
+
+        /* WRONG FEEDBACK */
+        .feedback.wrong {
+            background: #f8d7da;
+            border-left: 5px solid #dc3545;
+            color: #721c24;
+        }
+
+        .feedback.wrong .emoji {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .feedback.wrong .message {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .feedback.wrong .correct-answer {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .feedback.wrong .score-display {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #dc3545;
+        }
+
+        /* RESULTS SECTION */
+        .results-section {
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        .results-section.show {
+            display: block;
+        }
+
+        .final-score {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .final-score-number {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .final-score-percentage {
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        .performance-message {
+            font-size: 24px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .performance-stars {
+            font-size: 40px;
+            margin-top: 15px;
+        }
+
+        .results-breakdown {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .breakdown-item.correct {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding-left: 15px;
+        }
+
+        .breakdown-item.wrong {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding-left: 15px;
+        }
+
+        .next-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .next-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .answer-review {
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .answer-review-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .answer-review-number {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .answer-review-status {
+            font-size: 24px;
+        }
+
+        .answer-review-content {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- GAME SECTION -->
+        <div class="game-section">
+            <div class="header">
+                <h1>📚 Simple Game Test</h1>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <div id="questionsContainer"></div>
+
+            <button class="submit-btn" id="submitBtn">Submit Answers</button>
+        </div>
+
+        <!-- FEEDBACK SECTION -->
+        <div id="feedbackContainer"></div>
+
+        <!-- RESULTS SECTION -->
+        <div class="results-section" id="resultsSection">
+            <div class="final-score" id="finalScore"></div>
+            <div class="results-breakdown" id="resultsBreakdown"></div>
+            <div id="answerReview"></div>
+            <button class="next-btn" onclick="location.reload()">Take Another Test</button>
+        </div>
+    </div>
+
+    <script>
+        // Sample Questions
+        const questions = [
+            {
+                id: 1,
+                question: "What is 2 + 2?",
+                options: ["3", "4", "5", "6"],
+                correct: "4"
+            },
+            {
+                id: 2,
+                question: "What is the capital of France?",
+                options: ["London", "Berlin", "Paris", "Madrid"],
+                correct: "Paris"
+            },
+            {
+                id: 3,
+                question: "What is 5 × 3?",
+                options: ["12", "15", "18", "20"],
+                correct: "15"
+            },
+            {
+                id: 4,
+                question: "Which planet is closest to the Sun?",
+                options: ["Venus", "Mercury", "Earth", "Mars"],
+                correct: "Mercury"
+            },
+            {
+                id: 5,
+                question: "What is the largest ocean?",
+                options: ["Atlantic", "Indian", "Arctic", "Pacific"],
+                correct: "Pacific"
+            }
+        ];
+
+        let userAnswers = {};
+        let currentFeedback = null;
+        let allResults = [];
+
+        // Initialize Game
+        function initGame() {
+            renderQuestions();
+        }
+
+        // Render Questions
+        function renderQuestions() {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            questions.forEach((q, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question-section';
+                questionDiv.innerHTML = `
+                    <div class="question-number">Question ${index + 1} of ${questions.length}</div>
+                    <div class="question-text">${q.question}</div>
+                    <div class="options">
+                        ${q.options.map(option => `
+                            <div class="option" onclick="selectOption(${q.id}, '${option}')">
+                                ${option}
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(questionDiv);
+            });
+        }
+
+        // Select Option
+        function selectOption(questionId, option) {
+            userAnswers[questionId] = option;
+
+            // Update visual feedback
+            document.querySelectorAll(`[onclick*="selectOption(${questionId}"]`).forEach(el => {
+                el.classList.remove('selected');
+            });
+
+            event.target.classList.add('selected');
+            updateProgress();
+        }
+
+        // Update Progress Bar
+        function updateProgress() {
+            const answered = Object.keys(userAnswers).length;
+            const percentage = (answered / questions.length) * 100;
+            document.getElementById('progressFill').style.width = percentage + '%';
+        }
+
+        // Submit Answers
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            const answered = Object.keys(userAnswers).length;
+
+            if (answered < questions.length) {
+                alert(`Please answer all ${questions.length} questions!`);
+                return;
+            }
+
+            calculateResults();
+        });
+
+        // Calculate Results
+        function calculateResults() {
+            let correctCount = 0;
+            let totalScore = 0;
+            allResults = [];
+
+            questions.forEach(q => {
+                const userAnswer = userAnswers[q.id];
+                const isCorrect = userAnswer === q.correct;
+
+                if (isCorrect) {
+                    correctCount++;
+                    totalScore += 10; // 10 points per correct answer
+                }
+
+                allResults.push({
+                    id: q.id,
+                    question: q.question,
+                    userAnswer: userAnswer,
+                    correct: q.correct,
+                    isCorrect: isCorrect,
+                    score: isCorrect ? 10 : 0
+                });
+            });
+
+            // Calculate percentage and performance
+            const percentage = (correctCount / questions.length) * 100;
+            const maxScore = questions.length * 10;
+
+            let performanceLevel = '';
+            let emoji = '';
+            let stars = '';
+            let message = '';
+
+            if (percentage >= 80) {
+                performanceLevel = 'Excellent';
+                emoji = '🎉';
+                stars = '⭐⭐⭐⭐⭐';
+                message = 'Excellent! Outstanding performance!';
+            } else if (percentage >= 60) {
+                performanceLevel = 'Good';
+                emoji = '👏';
+                stars = '⭐⭐⭐⭐';
+                message = 'Great job! Good performance!';
+            } else if (percentage >= 40) {
+                performanceLevel = 'Average';
+                emoji = '👍';
+                stars = '⭐⭐⭐';
+                message = 'Good effort! Keep practicing!';
+            } else {
+                performanceLevel = 'Poor';
+                emoji = '💪';
+                stars = '⭐⭐';
+                message = 'Keep trying! You can do better!';
+            }
+
+            // Show Results
+            displayResults({
+                correctCount,
+                totalCount: questions.length,
+                totalScore,
+                maxScore,
+                percentage: percentage.toFixed(2),
+                performanceLevel,
+                emoji,
+                stars,
+                message
+            });
+        }
+
+        // Display Results
+        function displayResults(data) {
+            // Hide game section
+            document.querySelector('.game-section').style.display = 'none';
+
+            // Show results section
+            const resultsSection = document.getElementById('resultsSection');
+            resultsSection.classList.add('show');
+
+            // Final Score
+            const finalScoreDiv = document.getElementById('finalScore');
+            finalScoreDiv.innerHTML = `
+                <div class="performance-stars">${data.emoji}</div>
+                <div class="final-score-number">${data.totalScore}/${data.maxScore}</div>
+                <div class="final-score-percentage">${data.percentage}%</div>
+                <div class="performance-message">${data.message}</div>
+                <div class="performance-stars">${data.stars}</div>
+            `;
+
+            // Breakdown
+            const breakdownDiv = document.getElementById('resultsBreakdown');
+            breakdownDiv.innerHTML = `
+                <div class="breakdown-item correct">
+                    <span>✅ Correct Answers</span>
+                    <span>${data.correctCount}/${data.totalCount}</span>
+                </div>
+                <div class="breakdown-item wrong">
+                    <span>❌ Wrong Answers</span>
+                    <span>${data.totalCount - data.correctCount}/${data.totalCount}</span>
+                </div>
+            `;
+
+            // Answer Review
+            const reviewDiv = document.getElementById('answerReview');
+            reviewDiv.innerHTML = '<h3 style="margin-bottom: 15px; color: #333;">📋 Answer Review</h3>';
+
+            allResults.forEach(result => {
+                const reviewItem = document.createElement('div');
+                reviewItem.className = 'answer-review';
+                reviewItem.innerHTML = `
+                    <div class="answer-review-header">
+                        <span class="answer-review-number">Question ${result.id}</span>
+                        <span class="answer-review-status">${result.isCorrect ? '✅' : '❌'}</span>
+                    </div>
+                    <div class="answer-review-content">
+                        <strong>${result.question}</strong>
+                    </div>
+                    <div class="answer-review-content">
+                        Your Answer: <strong>${result.userAnswer}</strong>
+                        ${result.isCorrect ?
+                            `<span style="color: #28a745;"> ✓ Correct!</span>` :
+                            `<br>Correct Answer: <strong style="color: #28a745;">${result.correct}</strong>`
+                        }
+                    </div>
+                    <div class="answer-review-content" style="margin-top: 8px;">
+                        Score: <strong>${result.score}/10 points</strong>
+                    </div>
+                `;
+                reviewDiv.appendChild(reviewItem);
+            });
+        }
+
+        // Start Game
+        initGame();
+    </script>
+</body>
+</html>

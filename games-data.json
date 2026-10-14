@@ -1,0 +1,109 @@
+{
+  "games": {
+    "Listen & Do Adventure": {
+      "class": "I",
+      "subject": "English",
+      "skill": "Listening",
+      "type": "drag-drop",
+      "file": "listen-do-adventure-game.html"
+    },
+    "Story Time Quiz": {
+      "class": "I",
+      "subject": "English",
+      "skill": "Listening",
+      "type": "mcq",
+      "file": "story-time-quiz.html",
+      "story": "Once upon a time, there was a little rabbit named Bunny. Bunny lived in a cozy burrow under the big oak tree. Every morning, Bunny would hop to the garden to find fresh carrots. One day, Bunny met a friendly squirrel named Nutkin. They became best friends and played together every day. They would run through the forest and collect acorns and berries. One sunny afternoon, they found a beautiful blue butterfly. They followed the butterfly to a magical meadow filled with colorful flowers. Bunny and Nutkin danced in the meadow until sunset. When evening came, they returned home, happy and tired from their adventure.",
+      "questions": [
+        {
+          "q": "What was the rabbit's name?",
+          "options": ["Bunny", "Nutkin", "Butterfly", "Oak"],
+          "correct": 0
+        },
+        {
+          "q": "Where did Bunny live?",
+          "options": ["Garden", "Forest", "Burrow under oak tree", "Meadow"],
+          "correct": 2
+        },
+        {
+          "q": "What color was the butterfly?",
+          "options": ["Red", "Blue", "Yellow", "Green"],
+          "correct": 1
+        },
+        {
+          "q": "Who was Bunny's best friend?",
+          "options": ["Butterfly", "Nutkin", "Oak tree", "Garden"],
+          "correct": 1
+        },
+        {
+          "q": "What did they find in the meadow?",
+          "options": ["Carrots", "Flowers", "Acorns", "Burrow"],
+          "correct": 1
+        }
+      ]
+    },
+    "Sound Identification": {
+      "class": "I",
+      "subject": "English",
+      "skill": "Listening",
+      "type": "audio-match",
+      "file": "sound-identification.html"
+    },
+    "Read & Match": {
+      "class": "I",
+      "subject": "English",
+      "skill": "Reading",
+      "type": "matching",
+      "file": "read-and-match.html"
+    },
+    "Rhyme Time": {
+      "class": "I",
+      "subject": "English",
+      "skill": "Speaking",
+      "type": "rhyme-match",
+      "file": "rhyme-time.html"
+    },
+    "Count & Match": {
+      "class": "I",
+      "subject": "Mathematics",
+      "skill": "Numbers",
+      "type": "counting",
+      "file": "count-and-match.html"
+    },
+    "Simple Addition": {
+      "class": "I",
+      "subject": "Mathematics",
+      "skill": "Addition",
+      "type": "math-solver",
+      "file": "simple-addition.html"
+    },
+    "Shape Sorter": {
+      "class": "I",
+      "subject": "Mathematics",
+      "skill": "Shapes",
+      "type": "drag-drop",
+      "file": "shape-sorter.html"
+    },
+    "Body Parts": {
+      "class": "I",
+      "subject": "Science",
+      "skill": "Life Skills",
+      "type": "labeling",
+      "file": "body-parts.html"
+    },
+    "Animals": {
+      "class": "I",
+      "subject": "Science",
+      "skill": "Nature",
+      "type": "matching",
+      "file": "animals-game.html"
+    },
+    "Weather Patterns": {
+      "class": "I",
+      "subject": "Science",
+      "skill": "Weather",
+      "type": "matching",
+      "file": "weather-patterns.html"
+    }
+  }
+}

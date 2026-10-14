@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔬 Advanced Physics - Class VIII</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .header {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .header-info {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .progress-bar {
+            flex: 1;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin: 0 20px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        .game-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .question-container {
+            margin-bottom: 30px;
+        }
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .question-text {
+            color: #333;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+        .option {
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        .option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        .feedback-box {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .feedback-box.show {
+            display: block;
+        }
+        .feedback-box.correct {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            color: #155724;
+        }
+        .feedback-box.wrong {
+            background: #f8d7da;
+            border-left: 5px solid #dc3545;
+            color: #721c24;
+        }
+        .feedback-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .feedback-emoji {
+            font-size: 50px;
+            min-width: 50px;
+        }
+        .feedback-text {
+            flex: 1;
+        }
+        .feedback-status {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .feedback-score {
+            font-size: 16px;
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+            flex: 1;
+        }
+        .btn:hover:not(:disabled) {
+            transform: scale(1.05);
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .btn-next {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        .results-screen {
+            display: none;
+        }
+        .results-screen.show {
+            display: block;
+        }
+        .final-results {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .final-score-display {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .final-percentage {
+            font-size: 32px;
+            margin: 15px 0;
+        }
+        .performance-message {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .stars {
+            font-size: 40px;
+            margin: 15px 0;
+        }
+        .results-summary {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+        }
+        .summary-row.correct {
+            background: #d4edda;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .summary-row.wrong {
+            background: #f8d7da;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .answer-details {
+            background: white;
+            border-radius: 10px;
+        }
+        .answer-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px;
+        }
+        .answer-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .answer-status {
+            font-size: 24px;
+        }
+        .answer-question {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .answer-given {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .answer-correct {
+            color: #28a745;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .answer-points {
+            color: #667eea;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .restart-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="gameScreen">
+            <div class="header">
+                <h1 id="gameTitle">🔬 Advanced Physics</h1>
+                <p class="header-info" id="gameInfo">Class VIII · Skill: Physics</p>
+                <div class="progress-info">
+                    <span id="questionCounter">Question 1/5</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <span id="scoreCounter">Score: 0/50</span>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="question-container">
+                    <div class="question-number" id="questionNum">Question 1/5</div>
+                    <div class="question-text" id="questionText"></div>
+                    <div class="options" id="optionsContainer"></div>
+
+                    <div class="feedback-box" id="feedbackBox">
+                        <div class="feedback-content">
+                            <div class="feedback-emoji" id="feedbackEmoji"></div>
+                            <div class="feedback-text">
+                                <div class="feedback-status" id="feedbackStatus"></div>
+                                <div class="feedback-score" id="feedbackScore"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-buttons">
+                    <button class="btn btn-next" id="nextBtn" onclick="goToNextQuestion()" disabled>
+                        Next Question →
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="resultsScreen" class="results-screen">
+            <div class="header">
+                <h1>🎉 Quiz Complete!</h1>
+            </div>
+
+            <div class="game-card">
+                <div class="final-results" id="finalResults"></div>
+
+                <div class="results-summary">
+                    <div class="summary-row correct">
+                        <span>✅ Correct Answers</span>
+                        <span id="correctCount">0/5</span>
+                    </div>
+                    <div class="summary-row wrong">
+                        <span>❌ Wrong Answers</span>
+                        <span id="wrongCount">0/5</span>
+                    </div>
+                    <div class="summary-row" style="background: #e3f2fd;">
+                        <span>📊 Total Score</span>
+                        <span id="totalScore">0/50</span>
+                    </div>
+                </div>
+
+                <h3 style="margin: 20px 0 15px 0; color: #333;">📋 Answer Review</h3>
+                <div class="answer-details" id="answerDetails"></div>
+
+                <button class="restart-btn" onclick="location.reload()">Take Quiz Again</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const gameConfig = {
+            title: "🔬 Advanced Physics",
+            class: "VIII",
+            skill: "Physics",
+            totalPoints: 50,
+            pointsPerQuestion: 10
+        };
+
+        const quizData = {
+            questions: [
+            {
+                        "id": 1,
+                        "text": "Quantum mechanics studies?",
+                        "options": [
+                                    "Large objects",
+                                    "Atoms/particles",
+                                    "Planets",
+                                    "Stars"
+                        ],
+                        "correct": "Atoms/particles",
+                        "points": 10
+            },
+            {
+                        "id": 2,
+                        "text": "Relativity by?",
+                        "options": [
+                                    "Newton",
+                                    "Einstein",
+                                    "Galileo",
+                                    "Kepler"
+                        ],
+                        "correct": "Einstein",
+                        "points": 10
+            },
+            {
+                        "id": 3,
+                        "text": "Wave-particle duality?",
+                        "options": [
+                                    "Contradiction",
+                                    "Nature of light",
+                                    "Myth",
+                                    "Impossible"
+                        ],
+                        "correct": "Nature of light",
+                        "points": 10
+            },
+            {
+                        "id": 4,
+                        "text": "Planck constant relates?",
+                        "options": [
+                                    "Time",
+                                    "Energy to frequency",
+                                    "Mass",
+                                    "Speed"
+                        ],
+                        "correct": "Energy to frequency",
+                        "points": 10
+            },
+            {
+                        "id": 5,
+                        "text": "Black hole has?",
+                        "options": [
+                                    "Light",
+                                    "Escape velocity > c",
+                                    "Radiation",
+                                    "Movement"
+                        ],
+                        "correct": "Escape velocity > c",
+                        "points": 10
+            }
+]
+        };
+
+        let currentQuestion = 0;
+        let userAnswers = {};
+        let scores = {};
+        let totalScore = 0;
+
+        function initGame() {
+            document.getElementById('gameTitle').textContent = gameConfig.title;
+            document.getElementById('gameInfo').textContent =
+                `Class ${gameConfig.class} · Skill: ${gameConfig.skill}`;
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const q = quizData.questions[currentQuestion];
+
+            document.getElementById('questionText').textContent = q.text;
+            document.getElementById('questionNum').textContent =
+                `Question ${currentQuestion + 1}/${quizData.questions.length}`;
+            document.getElementById('questionCounter').textContent =
+                `Question ${currentQuestion + 1}/${quizData.questions.length}`;
+
+            const progress = ((currentQuestion + 1) / quizData.questions.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            q.options.forEach(option => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.textContent = option;
+                optionDiv.onclick = () => selectAnswer(option, q.id, q.correct, q.points);
+                container.appendChild(optionDiv);
+            });
+
+            document.getElementById('feedbackBox').classList.remove('show', 'correct', 'wrong');
+            document.getElementById('nextBtn').disabled = true;
+        }
+
+        function selectAnswer(option, questionId, correctAnswer, points) {
+            userAnswers[questionId] = option;
+            const isCorrect = option === correctAnswer;
+
+            document.querySelectorAll('.option').forEach(el => {
+                el.classList.add('disabled');
+                el.style.pointerEvents = 'none';
+            });
+
+            showFeedback(isCorrect, points);
+            scores[questionId] = isCorrect ? points : 0;
+            document.getElementById('nextBtn').disabled = false;
+        }
+
+        function showFeedback(isCorrect, points) {
+            const feedbackBox = document.getElementById('feedbackBox');
+            const feedbackEmoji = document.getElementById('feedbackEmoji');
+            const feedbackStatus = document.getElementById('feedbackStatus');
+            const feedbackScore = document.getElementById('feedbackScore');
+
+            feedbackBox.classList.add('show');
+
+            if (isCorrect) {
+                feedbackBox.classList.add('correct');
+                feedbackBox.classList.remove('wrong');
+                feedbackEmoji.textContent = '👏';
+                feedbackStatus.textContent = '✅ CORRECT!';
+                feedbackScore.textContent = `Score: +${points} points`;
+            } else {
+                feedbackBox.classList.add('wrong');
+                feedbackBox.classList.remove('correct');
+                feedbackEmoji.textContent = '❌';
+                feedbackStatus.textContent = '❌ WRONG';
+                feedbackScore.textContent = `Score: 0 points`;
+            }
+
+            totalScore = Object.values(scores).reduce((a, b) => a + b, 0);
+            document.getElementById('scoreCounter').textContent = `Score: ${totalScore}/${gameConfig.totalPoints}`;
+        }
+
+        function goToNextQuestion() {
+            currentQuestion++;
+
+            if (currentQuestion < quizData.questions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function showResults() {
+            document.getElementById('gameScreen').style.display = 'none';
+            document.getElementById('resultsScreen').classList.add('show');
+
+            const correctCount = Object.values(scores).filter(s => s > 0).length;
+            const totalQuestions = quizData.questions.length;
+            const percentage = (totalScore / gameConfig.totalPoints) * 100;
+
+            let emoji = '', stars = '', message = '';
+
+            if (percentage >= 80) {
+                emoji = '🎉';
+                stars = '⭐⭐⭐⭐⭐';
+                message = 'Excellent! Outstanding performance!';
+            } else if (percentage >= 60) {
+                emoji = '👏';
+                stars = '⭐⭐⭐⭐';
+                message = 'Great job! Good performance!';
+            } else if (percentage >= 40) {
+                emoji = '👍';
+                stars = '⭐⭐⭐';
+                message = 'Good effort! Keep practicing!';
+            } else {
+                emoji = '💪';
+                stars = '⭐⭐';
+                message = 'Keep trying! You can do better!';
+            }
+
+            document.getElementById('finalResults').innerHTML = `
+                <div style="font-size: 60px; margin-bottom: 15px;">${emoji}</div>
+                <div class="final-score-display">${totalScore}/${gameConfig.totalPoints}</div>
+                <div class="final-percentage">${percentage.toFixed(1)}%</div>
+                <div class="performance-message">${message}</div>
+                <div class="stars">${stars}</div>
+            `;
+
+            document.getElementById('correctCount').textContent = `${correctCount}/${totalQuestions}`;
+            document.getElementById('wrongCount').textContent = `${totalQuestions - correctCount}/${totalQuestions}`;
+            document.getElementById('totalScore').textContent = `${totalScore}/${gameConfig.totalPoints}`;
+
+            const answerDetails = document.getElementById('answerDetails');
+            answerDetails.innerHTML = '';
+
+            quizData.questions.forEach((q, index) => {
+                const userAnswer = userAnswers[q.id];
+                const isCorrect = userAnswer === q.correct;
+                const earnedPoints = scores[q.id];
+
+                const item = document.createElement('div');
+                item.className = 'answer-item';
+                item.innerHTML = `
+                    <div class="answer-header">
+                        <span>Question ${index + 1}</span>
+                        <span class="answer-status">${isCorrect ? '✅' : '❌'}</span>
+                    </div>
+                    <div class="answer-question">${q.text}</div>
+                    <div class="answer-given">Your Answer: <strong>${userAnswer}</strong></div>
+                    ${!isCorrect ? `<div class="answer-correct">Correct Answer: ${q.correct}</div>` : ''}
+                    <div class="answer-points">Score: ${earnedPoints}/10 points</div>
+                `;
+
+                answerDetails.appendChild(item);
+            });
+        }
+
+        initGame();
+    </script>
+    <script src="score_client.js"></script>
+</body>
+</html>

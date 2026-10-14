@@ -1,0 +1,80 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#E0F2F1"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Hand Washing Steps</text>
+
+  <!-- Step 1: Wet hands -->
+  <g transform="translate(30, 60)">
+    <text x="30" y="0" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">1. Wet</text>
+    <!-- Hands under water -->
+    <ellipse cx="30" cy="20" rx="12" ry="8" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+    <path d="M 20 25 L 15 40 M 30 25 L 30 40 M 40 25 L 45 40" stroke="#FDB4B4" stroke-width="2"/>
+    <!-- Water drops -->
+    <circle cx="15" cy="10" r="2" fill="#87CEEB"/>
+    <circle cx="30" cy="8" r="2" fill="#87CEEB"/>
+    <circle cx="45" cy="10" r="2" fill="#87CEEB"/>
+  </g>
+
+  <!-- Step 2: Soap -->
+  <g transform="translate(110, 60)">
+    <text x="30" y="0" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">2. Soap</text>
+    <!-- Hands with soap bubbles -->
+    <path d="M 20 25 L 15 40 M 30 25 L 30 40 M 40 25 L 45 40" stroke="#FDB4B4" stroke-width="2"/>
+    <!-- Bubbles -->
+    <circle cx="18" cy="20" r="3" fill="#FFB6C1" opacity="0.7" stroke="#FFB6C1"/>
+    <circle cx="30" cy="18" r="3" fill="#FFB6C1" opacity="0.7" stroke="#FFB6C1"/>
+    <circle cx="42" cy="20" r="3" fill="#FFB6C1" opacity="0.7" stroke="#FFB6C1"/>
+    <circle cx="22" cy="28" r="2" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="38" cy="28" r="2" fill="#FFB6C1" opacity="0.7"/>
+  </g>
+
+  <!-- Step 3: Scrub -->
+  <g transform="translate(190, 60)">
+    <text x="30" y="0" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">3. Scrub</text>
+    <!-- Hands rubbing together with motion -->
+    <path d="M 15 25 L 20 40 M 25 23 L 30 38 M 35 23 L 40 38 M 45 25 L 50 40" stroke="#FDB4B4" stroke-width="2"/>
+    <!-- Motion lines -->
+    <path d="M 25 20 L 35 20" stroke="#FF6347" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 20 30 L 40 30" stroke="#FF6347" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 25 40 L 35 40" stroke="#FF6347" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Step 4: Rinse -->
+  <g transform="translate(270, 60)">
+    <text x="30" y="0" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">4. Rinse</text>
+    <!-- Hands under water -->
+    <ellipse cx="30" cy="20" rx="12" ry="8" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+    <path d="M 20 25 L 15 40 M 30 25 L 30 40 M 40 25 L 45 40" stroke="#FDB4B4" stroke-width="2"/>
+    <!-- Water streams -->
+    <line x1="25" y1="5" x2="22" y2="25" stroke="#87CEEB" stroke-width="2"/>
+    <line x1="30" y1="5" x2="30" y2="25" stroke="#87CEEB" stroke-width="2"/>
+    <line x1="35" y1="5" x2="38" y2="25" stroke="#87CEEB" stroke-width="2"/>
+  </g>
+
+  <!-- Step 5: Dry -->
+  <g transform="translate(350, 60)">
+    <text x="30" y="0" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">5. Dry</text>
+    <!-- Hands being dried -->
+    <path d="M 20 25 L 15 40 M 30 25 L 30 40 M 40 25 L 45 40" stroke="#FDB4B4" stroke-width="2"/>
+    <!-- Paper towel -->
+    <rect x="15" y="10" width="30" height="15" fill="#FFF8DC" stroke="#DAA520" stroke-width="1"/>
+    <line x1="18" y1="10" x2="18" y2="25"/>
+    <line x1="21" y1="10" x2="21" y2="25"/>
+    <line x1="24" y1="10" x2="24" y2="25"/>
+    <line x1="27" y1="10" x2="27" y2="25"/>
+  </g>
+
+  <!-- Bottom info -->
+  <rect x="20" y="160" width="360" height="75" fill="#FFF9E6" stroke="#FF9800" stroke-width="2" rx="5"/>
+  <text x="200" y="180" font-size="13" font-weight="bold" text-anchor="middle" fill="#333">Always wash hands:</text>
+  <text x="30" y="205" font-size="12" fill="#333">• BEFORE entering the lab (keep lab clean)</text>
+  <text x="30" y="225" font-size="12" fill="#333">• AFTER lab work (remove any chemicals)</text>
+
+  <!-- Timer -->
+  <g transform="translate(350, 190)">
+    <circle cx="0" cy="0" r="12" fill="#FF9800" stroke="#FFF" stroke-width="2"/>
+    <text x="0" y="4" font-size="10" text-anchor="middle" fill="#FFF" font-weight="bold">20s</text>
+  </g>
+</svg>

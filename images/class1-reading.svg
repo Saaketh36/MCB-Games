@@ -1,0 +1,37 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background classroom -->
+  <rect width="300" height="300" fill="#FFF9E6"/>
+
+  <!-- Desk -->
+  <rect x="50" y="150" width="200" height="120" fill="#8B4513" stroke="#654321" stroke-width="2" rx="5"/>
+
+  <!-- Book on desk -->
+  <rect x="80" y="140" width="140" height="100" fill="#FFFACD" stroke="#DAA520" stroke-width="2" rx="5"/>
+
+  <!-- Text lines in book -->
+  <line x1="90" y1="165" x2="200" y2="165" stroke="#333" stroke-width="1"/>
+  <line x1="90" y1="180" x2="200" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="90" y1="195" x2="200" y2="195" stroke="#333" stroke-width="1"/>
+  <line x1="90" y1="210" x2="180" y2="210" stroke="#333" stroke-width="1"/>
+
+  <!-- Student head -->
+  <circle cx="150" cy="60" r="20" fill="#FDB4B4"/>
+
+  <!-- Student body -->
+  <rect x="135" y="80" width="30" height="50" fill="#FF6B9D"/>
+
+  <!-- Student arms -->
+  <rect x="110" y="90" width="25" height="10" fill="#FDB4B4" rx="5"/>
+  <rect x="165" y="90" width="25" height="10" fill="#FDB4B4" rx="5"/>
+
+  <!-- Speech bubble -->
+  <ellipse cx="150" cy="30" rx="60" ry="25" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+
+  <!-- Speech text -->
+  <text x="150" y="35" font-size="12" text-anchor="middle" font-weight="bold" fill="#000">Reading aloud!</text>
+
+  <!-- Sound waves -->
+  <path d="M 150 40 Q 170 35 180 30" stroke="#FF6347" stroke-width="2" fill="none"/>
+  <path d="M 150 45 Q 175 45 190 40" stroke="#FF6347" stroke-width="2" fill="none"/>
+  <path d="M 150 50 Q 180 55 195 50" stroke="#FF6347" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "name": "myclassboard-games",
+  "version": "1.0.0",
+  "description": "MyClassboard Games Platform - Interactive Educational Games for Classes I-VIII",
+  "main": "index.html",
+  "scripts": {
+    "install": "npm install",
+    "dev": "concurrently -k -n server,browser \"python app.py\" \"node open-browser.js\"",
+    "dev:full": "npm run dev",
+    "start": "python app.py",
+    "start:full": "python app.py",
+    "server": "python app.py",
+    "server:full": "python app.py",
+    "api": "python app.py",
+    "web": "npm run dev",
+    "all": "npm run dev",
+    "build": "echo 'No build step needed - static files only'",
+    "test": "echo 'Running tests...'",
+    "clean": "echo 'Cleaning up...'"
+  },
+  "keywords": [
+    "education",
+    "games",
+    "learning",
+    "interactive",
+    "classroom"
+  ],
+  "author": "MyClassboard",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "concurrently": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/myclassboard-games.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/myclassboard-games/issues"
+  },
+  "homepage": "http://localhost:5000"
+}

@@ -1,0 +1,2586 @@
+[
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Listen & Do Adventure",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Story Time Quiz",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Rhyme Gap Fill",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Picture Story Teller",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Questioning",
+    "activityName": "Question Word Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Word Recognition",
+    "activityName": "Sight Word Memory Match",
+    "gameType": "Memory Match"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Phonics & Letter Recognition",
+    "activityName": "Letter Sound Safari",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Pre-writing",
+    "activityName": "Trace the Pattern Path",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Word Builder",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Picture Word Hunt",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class I",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Parts of Speech",
+    "activityName": "Noun Basket Sort",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Number Sense & Place Value",
+    "activityName": "Place Value Tower",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Addition & Subtraction",
+    "activityName": "Add & Subtract Sprint",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "Classification of Objects",
+    "activityName": "Odd One Out Zoo",
+    "gameType": "Odd One Out"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "3D Shapes & Nets",
+    "activityName": "Solid Shape Safari",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Length & Distance",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Patterns",
+    "activity": "Number Patterns",
+    "activityName": "Pattern Train",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class I",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Collection & Interpretation",
+    "activityName": "Tally Marks Survey",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Sound Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Announcement Detective",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Poem Performer",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Questioning",
+    "activityName": "Ask Me Anything Quiz",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Story Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Pre-writing",
+    "activityName": "Line & Curve Fun",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Sentence Scramble",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class II",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Parts of Speech",
+    "activityName": "Verb Action Sort",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Number Sense & Place Value",
+    "activityName": "Digit Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Addition & Subtraction",
+    "activityName": "Number Line Hopper",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "3D Shapes & Nets",
+    "activityName": "Net Builder Puzzle",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "2D Shapes & Lines",
+    "activityName": "Shape Sides Sorter",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Money",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Capacity & Volume",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Weight",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Time & Calendar",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class II",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Collection & Interpretation",
+    "activityName": "Class Survey Counter",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Listen & Answer Challenge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Poetry Stage Star",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Story Chain Builder",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Aloud & Fluency",
+    "activityName": "Speed Reader Sprint",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Read & Reveal",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Environmental Print & Information",
+    "activityName": "Sign & Label Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Dictation",
+    "activityName": "Spell It Right Dictation",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Paragraph Puzzle",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Mechanics & Punctuation",
+    "activityName": "Capital & Full Stop Fix-It",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Parts of Speech",
+    "activityName": "Parts of Speech Sorter",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Tenses",
+    "activityName": "Past Present Future Race",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class III",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Word Wizard Hangman",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Number Sense & Place Value",
+    "activityName": "Number Expander Race",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Addition & Subtraction",
+    "activityName": "Carry & Borrow Challenge",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Multiplication & Division",
+    "activityName": "Times Table Rocket",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Estimation & Problem Solving",
+    "activityName": "Guess & Check Jar",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "2D Shapes & Lines",
+    "activityName": "Line Type Hunter",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Money",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Length & Distance",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Weight",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Capacity & Volume",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Time & Calendar",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Patterns",
+    "activity": "Number Patterns",
+    "activityName": "Skip Counting Hop",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class III",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation (Tables & Graphs)",
+    "activityName": "Bar Graph Builder",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Plants",
+    "activityName": "Plant Parts Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Animals & Birds",
+    "activityName": "Animal Homes Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Family & Relationships",
+    "activityName": "Family Tree Builder",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Surroundings (Objects, Places & Activities)",
+    "activityName": "My Neighbourhood Explorer",
+    "gameType": "Odd One Out"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Food & Water",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Family & Community",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Classification & Grouping",
+    "activity": "Grouping by Features & Properties",
+    "activityName": "Feature Sorting Safari",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Past & Present (Change over Time)",
+    "activity": "Continuity & Change",
+    "activityName": "Then & Now Timeline",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Estimation & Verification",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Recording & Predicting Patterns",
+    "activityName": "Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Mapping & Spatial Skills",
+    "activity": "Map Reading & Directions",
+    "activityName": "Treasure Map Directions",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Creative Expression",
+    "activity": "Drawings, Models & Maps",
+    "activityName": "Design My Map",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Rules & Cooperation",
+    "activityName": "Team Rules Scenarios",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Opinion on Social Issues",
+    "activityName": "Speak Up Debate Cards",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class III",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Sensitivity, Hygiene & Conservation",
+    "activityName": "Clean & Care Hero",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Follow the Steps Race",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Podcast Pop Quiz",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Verse Voice Challenge",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Tell-It-Your-Way Adventure",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Environmental Print & Information",
+    "activityName": "Notice Board Reader",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Vocabulary in Context",
+    "activityName": "Guess the Meaning Clue Hunt",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reference Skills",
+    "activityName": "Dictionary ABC Race",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Aloud & Fluency",
+    "activityName": "Fluent Reader Race",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Dictation",
+    "activityName": "Listen & Type Challenge",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Mechanics & Punctuation",
+    "activityName": "Punctuation Police",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Functional Writing",
+    "activityName": "Letter & Notice Builder",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Synonym Showdown",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Linkers & Connectors",
+    "activityName": "Connector Bridge Builder",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class IV",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Parts of Speech",
+    "activityName": "Word Role Race",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Multiplication & Division",
+    "activityName": "Multiply Maze",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Estimation & Problem Solving",
+    "activityName": "Word Problem Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Fractions & Decimals",
+    "activityName": "Pizza Slice Fractions",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "2D Shapes & Lines",
+    "activityName": "Polygon Parade",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "3D Shapes & Nets",
+    "activityName": "Shape Net Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "Symmetry",
+    "activityName": "Mirror Image Match",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "Spatial Views",
+    "activityName": "Top Side Front View Puzzle",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Area & Perimeter",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Unit Conversion",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Estimation & Verification of Measures",
+    "activityName": "Class IV",
+    "gameType": "Mathematics"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Time & Calendar",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Patterns",
+    "activity": "Number Patterns",
+    "activityName": "Number Pattern Finder",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Patterns",
+    "activity": "Shape & Geometric Patterns",
+    "activityName": "Shape Pattern Parade",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class IV",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation (Tables & Graphs)",
+    "activityName": "Pictograph Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Plants",
+    "activityName": "Leaf & Tree Spotter",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Animals & Birds",
+    "activityName": "Bird & Beak Detective",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Observation & Identification",
+    "activity": "Family & Relationships",
+    "activityName": "Relationship Riddles",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Animal Behaviour & Family Change",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Work & Livelihood",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Food & Water",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Classification & Grouping",
+    "activity": "Grouping by Features & Properties",
+    "activityName": "Group It Right",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Past & Present (Change over Time)",
+    "activity": "Continuity & Change",
+    "activityName": "Changing Times Sorter",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Estimation & Verification",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Recording & Predicting Patterns",
+    "activityName": "Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Mapping & Spatial Skills",
+    "activity": "Map Reading & Directions",
+    "activityName": "Compass Navigator",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Mapping & Spatial Skills",
+    "activity": "Using Signs & Information",
+    "activityName": "Sign Spotter",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Creative Expression",
+    "activity": "Drawings, Models & Maps",
+    "activityName": "Model Maker Plan",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Opinion on Social Issues",
+    "activityName": "My Opinion Matters",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class IV",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Sensitivity, Hygiene & Conservation",
+    "activityName": "Hygiene Habits Challenge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Story Time Quiz – Class V",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Mission Control Orders",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Recital Rehearsal",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Conversation & Polite Expressions",
+    "activityName": "Polite Words Role Play",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Speaker's Spotlight",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Extensive Reading",
+    "activityName": "Book Explorer Quiz",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Passage Pursuit",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Critical Reading",
+    "activityName": "Fact or Opinion Judge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reference Skills",
+    "activityName": "Index & Contents Finder",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Environmental Print & Information",
+    "activityName": "Ad & Poster Decoder",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Dictation",
+    "activityName": "Dictation Dash",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Sentence Architect",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Creative Writing",
+    "activityName": "Story Starter Spinner",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Functional Writing",
+    "activityName": "Email Maker",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Grammar in Use",
+    "activityName": "Grammar Gym",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Word Detective",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class V",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Tenses",
+    "activityName": "Tense Time Machine",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Number Sense & Place Value",
+    "activityName": "Big Number Builder",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Multiplication & Division",
+    "activityName": "Division Dash",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Estimation & Problem Solving",
+    "activityName": "Estimate It Fast",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Numbers & Operations",
+    "activity": "Fractions & Decimals",
+    "activityName": "Decimal Dash",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "Angles",
+    "activityName": "Angle Sniper",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "Symmetry",
+    "activityName": "Fold & Flip",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Shapes & Spatial Understanding",
+    "activity": "3D Shapes & Nets",
+    "activityName": "Cube & Cuboid Challenge",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Unit Conversion",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Estimation & Verification of Measures",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Measurement (Length, Weight, Capacity, Time)",
+    "activity": "Problem Solving with Measures",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Patterns",
+    "activity": "Number Patterns",
+    "activityName": "What's the Rule? Challenge",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class V",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation (Tables & Graphs)",
+    "activityName": "Table Reader Race",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Animals & Birds",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Food & Water",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Interdependence in Nature",
+    "activityName": "Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Institutions",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Explanation & Understanding Relationships",
+    "activity": "Terrain, Climate & Culture",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Classification & Grouping",
+    "activity": "Grouping by Features & Properties",
+    "activityName": "Property Sorter",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Past & Present (Change over Time)",
+    "activity": "Continuity & Change",
+    "activityName": "Past to Present Journey",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Estimation & Verification",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Estimation, Experimentation & Recording",
+    "activity": "Recording & Predicting Patterns",
+    "activityName": "Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Mapping & Spatial Skills",
+    "activity": "Map Reading & Directions",
+    "activityName": "Route Finder",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Creative Expression",
+    "activity": "Drawings, Models & Maps",
+    "activityName": "Draw & Describe",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Opinion on Social Issues",
+    "activityName": "Agree or Disagree Arena",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class V",
+    "subject": "EVS",
+    "skillArea": "Values, Sensitivity & Opinion",
+    "activity": "Sensitivity, Hygiene & Conservation",
+    "activityName": "Save Water Save Energy",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Listening Comprehension & Response",
+    "activityName": "Sound Detective – Class VI",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Simon Says Challenge – Class V Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Language Lab",
+    "activityName": "Pronunciation Match-Up",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Rhyme Gap Fill – Class VI",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Picture Story Teller – Class VI",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Comprehension Quest",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Environmental Print & Information",
+    "activityName": "Timetable Treasure Hunt",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reference Skills",
+    "activityName": "Reference Hunt",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Dictation",
+    "activityName": "Dictation Derby",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Paragraph Planner",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Functional Writing",
+    "activityName": "Form Filling Challenge",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Creative Writing",
+    "activityName": "Poem Maker Lab",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Antonym Arena",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class VI",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Grammar in Use",
+    "activityName": "Error Hunter",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Whole Numbers & Operations",
+    "activityName": "Big Number Bank",
+    "gameType": "Timed Challenge"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Factors, Multiples & Divisibility",
+    "activityName": "Factor Finder",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Integers",
+    "activityName": "Number Line Elevator",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Fractions, Decimals & Rational Numbers",
+    "activityName": "Fraction Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Algebra",
+    "activity": "Variables & Algebraic Expressions",
+    "activityName": "Mystery Box Algebra",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Ratio & Proportion",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Unitary Method",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Basic Geometrical Ideas",
+    "activityName": "Point Line Plane Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Lines & Angles",
+    "activityName": "Angle Pair Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Symmetry",
+    "activityName": "Symmetry Spotter",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Triangles & Congruence",
+    "activityName": "Triangle Types Sort",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Quadrilaterals",
+    "activityName": "Quadrilateral Family Tree",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "3D Shapes & Visualisation",
+    "activityName": "Faces Edges Vertices Count",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Mensuration",
+    "activity": "Perimeter & Area",
+    "activityName": "Floor Tiler",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation & Interpretation",
+    "activityName": "Graph Story Reader",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Identification & Differentiation",
+    "activity": "Identification",
+    "activityName": "Mystery Object Identifier",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Identification & Differentiation",
+    "activity": "Differentiation",
+    "activityName": "Spot the Difference Lab",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Classification",
+    "activity": "Classification of Materials, Organisms & Processes",
+    "activityName": "Material Sorting Lab",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Scientific Inquiry & Investigation",
+    "activity": "Conducting Investigations",
+    "activityName": "Experiment Steps Order",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Cause–Effect Relationships",
+    "activityName": "Cause & Effect Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Explaining Processes & Phenomena",
+    "activityName": "Process Order Puzzle",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Measurement & Calculation",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Labelled Diagrams & Flow Charts",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Model Construction",
+    "activityName": "Build-a-Model Plan",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Application of Concepts in Daily Life",
+    "activityName": "Science in My Day",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Environmental Protection",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Creativity",
+    "activityName": "Story Builder",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Scientific Values",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Earth & the Solar System",
+    "activityName": "Planet Explorer Quiz",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Maps, Globe & Diagrams",
+    "activityName": "Map Symbols Treasure Hunt",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Sources of History",
+    "activityName": "Primary vs Secondary Source So Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Ancient India",
+    "activityName": "Ancient India Timeline Run",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Art, Architecture & Culture",
+    "activityName": "Monument Match-Up",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Religious Ideas & Movements",
+    "activityName": "Ideas & Thinkers Quiz",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Diversity & Discrimination",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Government",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VI",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Markets, Economy & Public Facilities",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Announcement Detective – Class Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Media & Public Listening",
+    "activityName": "News Flash Listener",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Language Lab",
+    "activityName": "Accent & Stress Spotter",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Poem Performer – Class VII",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Questioning",
+    "activityName": "Question Master",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Inference Investigator",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Critical Reading",
+    "activityName": "Author's Purpose Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Environmental Print & Information",
+    "activityName": "Menu & Brochure Reader",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Extensive Reading",
+    "activityName": "Reading Log Challenge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Note Taking",
+    "activityName": "Key Point Catcher",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Paragraph Polisher",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Functional Writing",
+    "activityName": "Message Writer",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Creative Writing",
+    "activityName": "Story Dice Challenge",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Word Power Quiz",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class VII",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Grammar in Use",
+    "activityName": "Grammar Escape Room",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Integers",
+    "activityName": "Temperature Integer Game",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Fractions, Decimals & Rational Numbers",
+    "activityName": "Rational Number Line Race",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Exponents, Squares & Roots",
+    "activityName": "Power Up Exponents",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Algebra",
+    "activity": "Linear Equations",
+    "activityName": "Balance Scale Equation Solver",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Algebra",
+    "activity": "Variables & Algebraic Expressions",
+    "activityName": "Expression Builder",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Ratio & Proportion",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Percentage, Profit & Loss, Interest",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Lines & Angles",
+    "activityName": "Parallel Lines Puzzle",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Triangles & Congruence",
+    "activityName": "Congruence Court",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Constructions",
+    "activityName": "Construction Steps Builder",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Mensuration",
+    "activity": "Perimeter & Area",
+    "activityName": "Perimeter & Area Architect",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Measures of Central Tendency",
+    "activityName": "Mean Median Mode Machine",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Probability & Chance",
+    "activityName": "Dice & Coin Chance Lab",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation & Interpretation",
+    "activityName": "Chart Analyst",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Identification & Differentiation",
+    "activity": "Identification",
+    "activityName": "Lab Equipment ID",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Identification & Differentiation",
+    "activity": "Differentiation",
+    "activityName": "Living vs Non-Living Sorter",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Classification",
+    "activity": "Classification of Materials, Organisms & Processes",
+    "activityName": "Organism Classifier",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Scientific Inquiry & Investigation",
+    "activity": "Conducting Investigations",
+    "activityName": "Fair Test Detective",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Cause–Effect Relationships",
+    "activityName": "Chain Reaction Builder",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Explaining Processes & Phenomena",
+    "activityName": "Water Cycle Story",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Chemical Word Equations",
+    "activityName": "Word Equation Builder",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Measurement & Calculation",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Labelled Diagrams & Flow Charts",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Graphs",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Model Construction",
+    "activityName": "Model Maker Blueprint",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "History of Scientific Discoveries",
+    "activityName": "Scientist & Discovery Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Application of Concepts in Daily Life",
+    "activityName": "Everyday Science Scenarios",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Environmental Protection",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Creativity",
+    "activityName": "Story Builder",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Scientific Values",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Earth's Interior, Landforms & Atmosphere",
+    "activityName": "Earth Layers Explorer",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Maps, Globe & Diagrams",
+    "activityName": "Latitude & Longitude Locator",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Disasters & Management",
+    "activityName": "Disaster Safety Drill",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Environment & Natural Resources",
+    "activityName": "Renewable vs Non-Renewable S Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Human Geography & Development",
+    "activityName": "Settlements & Development Quiz MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Sources of History",
+    "activityName": "History Detective Sources",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Medieval India",
+    "activityName": "Medieval Dynasties Timeline",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Art, Architecture & Culture",
+    "activityName": "Heritage Trail Quiz",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Religious Ideas & Movements",
+    "activityName": "Bhakti & Reform Movement Matc MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Constitution, Rights & Laws",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Elections & Constituencies",
+    "activityName": "Story Builder",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Gender",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Media & Advertising",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Markets, Economy & Public Facilities",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Following Instructions & Announcements",
+    "activityName": "Follow the Steps Race – Class VI Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Media & Public Listening",
+    "activityName": "Radio Ad Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Listening",
+    "activity": "Language Lab",
+    "activityName": "Listen & Repeat Lab",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Conversation & Polite Expressions",
+    "activityName": "Greeting Dialogue Game",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Recitation & Performance",
+    "activityName": "Poetry Stage Star – Class VIII",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Oral Expression & Narration",
+    "activityName": "Story Chain Builder – Class VIII",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Speaking",
+    "activity": "Questioning",
+    "activityName": "Interview Challenge",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Critical Reading",
+    "activityName": "Spot the Bias",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Reading Comprehension",
+    "activityName": "Reading Rally",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Reading",
+    "activity": "Extensive Reading",
+    "activityName": "Library Quest",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Functional Writing",
+    "activityName": "Letter & Notice Builder – Class VI Fill in the Blank",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Word, Sentence & Paragraph Writing",
+    "activityName": "Writing Workshop",
+    "gameType": "Word Scramble"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Answer Writing",
+    "activityName": "Answer Builder Challenge",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Writing",
+    "activity": "Creative Writing",
+    "activityName": "Create-a-Character Tale",
+    "gameType": "Story Builder"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Grammar in Use",
+    "activityName": "Sentence Fixer",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "English",
+    "skillArea": "Vocabulary & Grammar",
+    "activity": "Vocabulary",
+    "activityName": "Vocabulary Vault",
+    "gameType": "Guess the Word"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Fractions, Decimals & Rational Numbers",
+    "activityName": "Decimal Duel",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Factors, Multiples & Divisibility",
+    "activityName": "HCF-LCM Showdown",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Number System",
+    "activity": "Exponents, Squares & Roots",
+    "activityName": "Perfect Square Hunter",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Algebra",
+    "activity": "Variables & Algebraic Expressions",
+    "activityName": "Variable Value Challenge",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Algebra",
+    "activity": "Algebraic Identities",
+    "activityName": "Identity Match-Up",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Percentage, Profit & Loss, Interest",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Ratio, Proportion & Commercial Arithmetic",
+    "activity": "Ratio & Proportion",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Quadrilaterals",
+    "activityName": "Quad Property Sorter",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "3D Shapes & Visualisation",
+    "activityName": "3D Visualiser Challenge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Geometry",
+    "activity": "Constructions",
+    "activityName": "Compass & Ruler Order Game",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Mensuration",
+    "activity": "Perimeter & Area",
+    "activityName": "Land Plot Planner",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Mensuration",
+    "activity": "Surface Area & Volume",
+    "activityName": "Box Wrapper Surface Area",
+    "gameType": "Typing Answer"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Data Representation & Interpretation",
+    "activityName": "Data Dashboard Detective",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Mathematics",
+    "skillArea": "Data Handling",
+    "activity": "Probability & Chance",
+    "activityName": "Probability Predictor",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Identification & Differentiation",
+    "activity": "Differentiation",
+    "activityName": "Physical vs Chemical Change So Sort & Group",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Classification",
+    "activity": "Classification of Materials, Organisms & Processes",
+    "activityName": "Kingdom Sorting Challenge",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Scientific Inquiry & Investigation",
+    "activity": "Conducting Investigations",
+    "activityName": "Variable Controller",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Cause–Effect Relationships",
+    "activityName": "Why Does It Happen?",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Explaining Processes & Phenomena",
+    "activityName": "Phenomena Explainer",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Explaining Processes & Cause-Effect",
+    "activity": "Chemical Word Equations",
+    "activityName": "Reaction Recipe Match",
+    "gameType": "Fill in the Blank"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Measurement & Calculation",
+    "activityName": "Typing Answer",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Microscopy & Slide Preparation",
+    "activityName": "Sequence Order",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Measurement, Recording & Representation",
+    "activity": "Labelled Diagrams & Flow Charts",
+    "activityName": "Match Pairs",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Model Construction",
+    "activityName": "Model Engineer Challenge",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "Application of Concepts in Daily Life",
+    "activityName": "Real-Life Science Challenge",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Models & Application in Daily Life",
+    "activity": "History of Scientific Discoveries",
+    "activityName": "Discovery Timeline Challenge",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Environmental Protection",
+    "activityName": "Class VIII",
+    "gameType": "Science"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Science",
+    "skillArea": "Environmental Awareness, Creativity & Values",
+    "activity": "Scientific Values",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Agriculture & Industries",
+    "activityName": "Farm to Factory Match",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Maps, Globe & Diagrams",
+    "activityName": "Globe Navigator",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Disasters & Management",
+    "activityName": "Emergency Response Planner",
+    "gameType": "MCQ Quiz"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Geography",
+    "activity": "Environment & Natural Resources",
+    "activityName": "Resource Manager",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Sources of History",
+    "activityName": "Evidence Explorer",
+    "gameType": "Sort & Group"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Colonial & Modern India",
+    "activityName": "Freedom Struggle Timeline",
+    "gameType": "Sequence Order"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "History",
+    "activity": "Art, Architecture & Culture",
+    "activityName": "Architecture Explorer",
+    "gameType": "Match Pairs"
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Constitution, Rights & Laws",
+    "activityName": "MCQ Quiz",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Elections & Constituencies",
+    "activityName": "Story Builder",
+    "gameType": ""
+  },
+  {
+    "class": "Class VIII",
+    "subject": "Social Science",
+    "skillArea": "Social & Political Life (Civics & Economics)",
+    "activity": "Markets, Economy & Public Facilities",
+    "activityName": "Sort & Group",
+    "gameType": ""
+  }
+]

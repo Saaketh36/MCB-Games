@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#FFF9E6"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Roll Up Sleeves - Stay Safe!</text>
+
+  <!-- BEFORE: Long sleeves -->
+  <g transform="translate(50, 80)">
+    <!-- Body -->
+    <rect x="20" y="30" width="40" height="50" fill="#FF6B9D"/>
+    <!-- Long sleeves (loose) -->
+    <rect x="5" y="35" width="15" height="60" fill="#FF6B9D" stroke="#333" stroke-width="1"/>
+    <rect x="65" y="35" width="15" height="60" fill="#FF6B9D" stroke="#333" stroke-width="1"/>
+    <!-- Frayed edges indicator -->
+    <path d="M 5 95 L 0 98 M 12 97 L 15 100 M 8 95 L 5 100" stroke="#FF0000" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 80 95 L 75 98 M 72 97 L 69 100 M 78 95 L 81 100" stroke="#FF0000" stroke-width="1" stroke-linecap="round"/>
+    <!-- Chemical splash danger -->
+    <circle cx="40" cy="100" r="8" fill="#228B22" opacity="0.6"/>
+    <text x="40" y="140" font-size="12" text-anchor="middle" fill="#FF0000" font-weight="bold">DANGER!</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="200" y="120" font-size="24" text-anchor="middle" fill="#4CAF50">→</text>
+
+  <!-- AFTER: Rolled sleeves -->
+  <g transform="translate(260, 80)">
+    <!-- Body -->
+    <rect x="20" y="30" width="40" height="50" fill="#FF6B9D"/>
+    <!-- Rolled sleeves (neat) -->
+    <rect x="10" y="35" width="10" height="25" fill="#FFB6C1" stroke="#333" stroke-width="1"/>
+    <rect x="60" y="35" width="10" height="25" fill="#FFB6C1" stroke="#333" stroke-width="1"/>
+    <!-- Roll indicators -->
+    <circle cx="15" cy="38" r="2" fill="#333"/>
+    <circle cx="15" cy="45" r="2" fill="#333"/>
+    <circle cx="15" cy="52" r="2" fill="#333"/>
+    <circle cx="65" cy="38" r="2" fill="#333"/>
+    <circle cx="65" cy="45" r="2" fill="#333"/>
+    <circle cx="65" cy="52" r="2" fill="#333"/>
+    <!-- Safe from spill -->
+    <circle cx="40" cy="100" r="8" fill="#228B22" opacity="0.2"/>
+    <!-- Safety checkmark -->
+    <g transform="translate(25, 65)">
+      <path d="M 5 15 L 10 20 L 20 5" stroke="#4CAF50" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="40" y="140" font-size="12" text-anchor="middle" fill="#4CAF50" font-weight="bold">SAFE!</text>
+  </g>
+
+  <!-- Bottom instruction -->
+  <rect x="30" y="200" width="340" height="40" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+  <text x="200" y="228" font-size="13" text-anchor="middle" fill="#333">Roll sleeves to prevent catching chemicals or catching fire</text>
+</svg>

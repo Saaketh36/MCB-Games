@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#FFF9E6"/>
+
+  <!-- Title -->
+  <text x="200" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Tie Hair Back - Safety First!</text>
+
+  <!-- BEFORE: Long hair -->
+  <g transform="translate(50, 80)">
+    <!-- Head circle -->
+    <circle cx="40" cy="30" r="15" fill="#FDB4B4" stroke="#333" stroke-width="1"/>
+    <!-- Long hair flowing -->
+    <path d="M 30 40 Q 20 60 25 90" stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 40 45 Q 35 65 40 95" stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 50 40 Q 60 60 55 90" stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Flame danger icon -->
+    <path d="M 25 100 L 30 110 L 20 115" fill="#FF6347" stroke="#FF0000" stroke-width="1"/>
+    <text x="40" y="130" font-size="12" text-anchor="middle" fill="#FF0000" font-weight="bold">DANGER!</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="200" y="120" font-size="24" text-anchor="middle" fill="#4CAF50">→</text>
+
+  <!-- AFTER: Hair tied back -->
+  <g transform="translate(260, 80)">
+    <!-- Head circle -->
+    <circle cx="40" cy="30" r="15" fill="#FDB4B4" stroke="#333" stroke-width="1"/>
+    <!-- Hair tied in ponytail -->
+    <ellipse cx="40" cy="12" rx="6" ry="8" fill="#8B4513"/>
+    <path d="M 35 15 Q 40 5 45 15" stroke="#8B4513" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- Hair tie -->
+    <circle cx="40" cy="10" r="3" fill="#FF1493" stroke="#C71585" stroke-width="1"/>
+    <!-- Safety checkmark -->
+    <g transform="translate(25, 65)">
+      <path d="M 5 15 L 10 20 L 20 5" stroke="#4CAF50" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="40" y="130" font-size="12" text-anchor="middle" fill="#4CAF50" font-weight="bold">SAFE!</text>
+  </g>
+
+  <!-- Bottom instruction -->
+  <rect x="30" y="200" width="340" height="40" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+  <text x="200" y="228" font-size="13" text-anchor="middle" fill="#333">Tie back long hair to prevent it catching fire near heat sources</text>
+</svg>

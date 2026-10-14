@@ -1,0 +1,286 @@
+================================================================================
+🚀 NPM QUICK START - MyClassboard Games
+================================================================================
+
+PROJECT: MyClassboard Games with npm
+SETUP: npm install + npm run dev
+DATE: October 9, 2025
+
+================================================================================
+✅ WHAT YOU'LL DO
+================================================================================
+
+1. npm install (one time only - 30 seconds)
+2. npm run dev (every time you want to use - 5 seconds)
+3. Browser opens automatically at http://localhost:8000
+4. Start using!
+
+================================================================================
+📋 COMPLETE STEP-BY-STEP GUIDE
+================================================================================
+
+STEP 1: Check Node.js Installation
+──────────────────────────────────
+
+Open Command Prompt:
+  Press: Windows Key + R
+  Type: cmd
+  Press: Enter
+
+Check if Node.js installed:
+  npm --version
+
+If you see a version number (like 9.0.0) → Go to STEP 2
+
+If you see "command not found" → INSTALL NODE.JS FIRST:
+  1. Go to: https://nodejs.org
+  2. Download LTS version
+  3. Run installer (click Next, Next, Install)
+  4. Restart Command Prompt
+  5. Try: npm --version (should work now)
+
+STEP 2: Navigate to Project Folder
+──────────────────────────────────
+
+Paste this command:
+
+cd C:\Users\Charitha Sadineni\OneDrive\Desktop\Games
+
+Press: Enter
+
+You should see:
+  C:\Users\Charitha Sadineni\OneDrive\Desktop\Games>
+
+STEP 3: Install Dependencies (First Time Only)
+──────────────────────────────────────────────
+
+Type this command:
+
+npm install
+
+Press: Enter
+
+Wait for it to finish. You'll see:
+  added X packages
+
+This creates the node_modules folder with http-server.
+
+STEP 4: Start Development Server
+────────────────────────────────
+
+Type this command:
+
+npm run dev
+
+Press: Enter
+
+You'll see:
+  Starting up http-server, serving ./
+  Available on:
+    http://127.0.0.1:8000
+    http://localhost:8000
+
+Browser will AUTOMATICALLY OPEN!
+
+If browser doesn't open, manually open:
+  http://localhost:8000
+
+STEP 5: You'll See
+──────────────────
+
+🎮 MyClassboard Games Portal
+
+With 2 buttons:
+  🏫 TEACHER
+  👨‍🎓 STUDENT
+
+✅ SYSTEM IS RUNNING!
+
+STEP 6: Use the Portal!
+──────────────────────
+
+Click TEACHER button to:
+  • Select Class, Subject, Skill, Game
+  • Assign games to students
+  • View results
+
+Click STUDENT button to:
+  • See your assigned games
+  • Play games
+  • Hear audio feedback
+  • Track points
+
+================================================================================
+📊 COMMANDS TO REMEMBER
+================================================================================
+
+First time (one time only):
+  npm install
+
+Every time you want to run:
+  npm run dev
+
+To stop:
+  Press: Ctrl + C in Command Prompt
+
+To run again:
+  npm run dev
+
+================================================================================
+⏱️ TIME BREAKDOWN
+================================================================================
+
+npm install: ~30 seconds (first time only)
+npm run dev: ~3 seconds
+Browser opening: ~2 seconds
+Portal loading: ~1 second
+TOTAL FIRST TIME: ~40 seconds
+EVERY TIME AFTER: ~10 seconds
+
+================================================================================
+✅ WHAT GETS INSTALLED
+================================================================================
+
+When you run "npm install":
+  ✅ Creates: node_modules folder
+  ✅ Downloads: http-server (lightweight web server)
+  ✅ Size: ~50 MB
+  ✅ Dependencies: Automatically handled
+
+You don't need to do anything else - npm handles it all!
+
+================================================================================
+🌐 ACCESS POINTS
+================================================================================
+
+Main Portal:
+  http://localhost:8000
+
+Games:
+  http://localhost:8000/simple-addition.html
+  http://localhost:8000/fraction-parts.html
+  http://localhost:8000/listen-do-adventure-game.html
+
+Audio Test:
+  http://localhost:8000/audio-test.html
+
+================================================================================
+🛑 TO STOP SERVER
+================================================================================
+
+In Command Prompt window:
+  Press: Ctrl + C
+
+You'll see: ^C
+
+Type: Y (if prompted)
+
+Press: Enter
+
+Server stops. ✅
+
+To start again:
+  npm run dev
+
+================================================================================
+❓ QUICK TROUBLESHOOTING
+================================================================================
+
+"npm not found"
+  → Install Node.js from nodejs.org
+  → Restart Command Prompt
+
+"Port 8000 already in use"
+  → Kill process: taskkill /PID <PID> /F
+  → Or change port in package.json and run: npm run dev
+
+"node_modules not found"
+  → Run: npm install
+  → Then: npm run dev
+
+"Browser won't open"
+  → Manually open: http://localhost:8000
+  → Or refresh: Ctrl + R
+
+"Server takes long time"
+  → Normal - just wait
+  → When you see "http://localhost:8000" it's ready
+
+"Can't see assigned games as student"
+  → Make sure teacher assigned it
+  → Use EXACT same name and roll number
+  → Refresh: F5
+
+================================================================================
+📋 COMPLETE WORKFLOW
+================================================================================
+
+DAY 1 - First Time Setup:
+
+1. Open Command Prompt
+2. cd C:\Users\Charitha Sadineni\OneDrive\Desktop\Games
+3. npm install (wait ~30 seconds)
+4. npm run dev (browser opens automatically)
+5. You're done! Start using!
+
+DAY 2+ - Using the System:
+
+1. Open Command Prompt
+2. cd C:\Users\Charitha Sadineni\OneDrive\Desktop\Games
+3. npm run dev (browser opens automatically)
+4. You're done! Start using!
+
+When Done:
+  Press: Ctrl + C in Command Prompt
+
+================================================================================
+🎯 YOUR EXACT COMMANDS
+================================================================================
+
+COMMAND 1 (Navigate to folder):
+cd C:\Users\Charitha Sadineni\OneDrive\Desktop\Games
+
+COMMAND 2 (First time only - install):
+npm install
+
+COMMAND 3 (Every time - run dev server):
+npm run dev
+
+THAT'S ALL YOU NEED! Copy and paste these commands!
+
+================================================================================
+✅ SUCCESS INDICATORS
+================================================================================
+
+✅ Command shows: "added X packages in Xs" → npm install worked
+✅ Command shows: "http://localhost:8000" → Server running
+✅ Browser opens automatically → Browser integration working
+✅ Portal shows: "MyClassboard Games Portal" → Portal loaded
+✅ Two buttons visible: TEACHER and STUDENT → Interface ready
+✅ No red errors in console (F12) → No errors
+✅ Can click buttons without errors → System working
+
+IF ALL ABOVE ✅ → SYSTEM FULLY WORKING!
+
+================================================================================
+🚀 YOU'RE READY!
+================================================================================
+
+Just 3 commands total:
+
+1. cd C:\Users\Charitha Sadineni\OneDrive\Desktop\Games
+2. npm install
+3. npm run dev
+
+That's it!
+
+Browser opens automatically.
+Portal loads automatically.
+Everything works!
+
+Enjoy your MyClassboard Games! 🎮
+
+================================================================================
+Date: October 9, 2025
+Status: ✅ READY TO USE WITH NPM
+================================================================================

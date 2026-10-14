@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count & Match</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .player-info {
+            font-size: 14px;
+            margin-top: 8px;
+            opacity: 0.95;
+        }
+
+        .game-area {
+            padding: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: white;
+            font-size: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .card.selected {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            transform: scale(1.05);
+        }
+
+        .card.correct {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            animation: pop 0.5s;
+        }
+
+        .card.wrong {
+            animation: shake 0.5s;
+        }
+
+        @keyframes pop {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+
+        .instructions {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+
+        .instructions h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .instructions p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .number-display {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .btn-next {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-next:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-home {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .result-section {
+            text-align: center;
+            padding: 40px;
+            display: none;
+        }
+
+        .result-section.show {
+            display: block;
+        }
+
+        .result-emoji {
+            font-size: 60px;
+            margin: 20px 0;
+        }
+
+        .score-display {
+            font-size: 28px;
+            color: #667eea;
+            margin: 20px 0;
+        }
+
+        .progress {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔢 Count & Match</h1>
+            <p class="player-info" id="playerInfo"></p>
+            <p>Count the objects and match the number</p>
+        </div>
+
+        <div class="game-area">
+            <div class="instructions">
+                <h2>📖 How to Play:</h2>
+                <p>Count the objects in the number box, then click the box with the matching number of items.</p>
+            </div>
+
+            <div class="progress" id="progress"></div>
+
+            <div class="number-display" id="numberDisplay"></div>
+
+            <div class="grid" id="gameGrid"></div>
+
+            <button class="btn-next" id="btnNext" onclick="nextRound()" style="display:none;">Next Round</button>
+
+            <div class="result-section" id="resultSection">
+                <div class="result-emoji" id="resultEmoji"></div>
+                <h2 id="resultTitle"></h2>
+                <div class="score-display" id="scoreDisplay"></div>
+                <button class="btn-home" onclick="goHome()">Back to Portal</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const levels = [
+            { target: 2, items: [2, 3, 4, 1] },
+            { target: 3, items: [4, 3, 2, 5] },
+            { target: 4, items: [3, 4, 5, 2] },
+            { target: 5, items: [5, 3, 4, 6] },
+            { target: 6, items: [4, 6, 5, 3] }
+        ];
+
+        let currentLevel = 0;
+        let score = 0;
+        let selected = null;
+
+        function init() {
+            // Display student info and skill
+            const params = new URLSearchParams(window.location.search);
+            const studentName = params.get("student") || "Student";
+            const skill = params.get("skill") || "Numbers";
+            document.getElementById("playerInfo").innerText = `📚 ${studentName} • Skill: ${skill}`;
+
+            loadLevel();
+        }
+
+        function loadLevel() {
+            if (currentLevel >= levels.length) {
+                showResult();
+                return;
+            }
+
+            const level = levels[currentLevel];
+            document.getElementById("progress").innerHTML = `Question ${currentLevel + 1} of ${levels.length}`;
+            document.getElementById("numberDisplay").innerHTML = `Count: <span style="color: #f5576c;">${level.target}</span>`;
+
+            const grid = document.getElementById("gameGrid");
+            grid.innerHTML = "";
+
+            level.items.forEach((num, idx) => {
+                const card = document.createElement("div");
+                card.className = "card";
+                card.innerHTML = "🔵".repeat(num);
+                card.onclick = () => selectCard(idx, num, level.target);
+                grid.appendChild(card);
+            });
+
+            document.getElementById("btnNext").style.display = "none";
+        }
+
+        function selectCard(idx, num, target) {
+            const cards = document.querySelectorAll(".card");
+            cards.forEach(c => c.classList.remove("selected"));
+            cards[idx].classList.add("selected");
+            selected = { idx, num, target };
+        }
+
+        function nextRound() {
+            if (selected === null) return;
+
+            const cards = document.querySelectorAll(".card");
+            if (selected.num === selected.target) {
+                cards[selected.idx].classList.add("correct");
+                score += 10;
+                playSound("correct");
+            } else {
+                cards[selected.idx].classList.add("wrong");
+                playSound("wrong");
+            }
+
+            setTimeout(() => {
+                currentLevel++;
+                selected = null;
+                loadLevel();
+            }, 1000);
+        }
+
+        function showResult() {
+            document.querySelector(".game-area").innerHTML = `
+                <div class="result-section show">
+                    <div class="result-emoji">🎉</div>
+                    <h2>Great Job!</h2>
+                    <div class="score-display">${score} / 50 points</div>
+                    <button class="btn-home" onclick="goHome()">Back to Portal</button>
+                </div>
+            `;
+
+            saveCompletion(score);
+        }
+
+        function playSound(type) {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const now = audioContext.currentTime;
+
+            if (type === "correct") {
+                for (let i = 0; i < 3; i++) {
+                    const osc = audioContext.createOscillator();
+                    const env = audioContext.createGain();
+                    osc.connect(env);
+                    env.connect(audioContext.destination);
+                    osc.frequency.value = 800 + (i * 100);
+                    env.gain.setValueAtTime(0.3, now + (i * 0.2));
+                    env.gain.exponentialRampToValueAtTime(0.01, now + (i * 0.2) + 0.1);
+                    osc.start(now + (i * 0.2));
+                    osc.stop(now + (i * 0.2) + 0.1);
+                }
+            }
+        }
+
+        function saveCompletion(score) {
+            const params = new URLSearchParams(window.location.search);
+            const studentName = params.get("student");
+            const rollNo = params.get("roll");
+
+            if (studentName && rollNo) {
+                const assignments = JSON.parse(localStorage.getItem("mcb_assignments") || "[]");
+                const assignment = assignments.find(a =>
+                    a.student === studentName &&
+                    a.roll === rollNo &&
+                    a.game === "Count & Match"
+                );
+
+                if (assignment) {
+                    assignment.status = "completed";
+                    assignment.score = score;
+                    localStorage.setItem("mcb_assignments", JSON.stringify(assignments));
+                }
+            }
+        }
+
+        function goHome() {
+            window.location.href = "index.html";
+        }
+
+        init();
+    </script>
+</body>
+</html>

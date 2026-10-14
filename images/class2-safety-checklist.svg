@@ -1,0 +1,85 @@
+<svg viewBox="0 0 350 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="350" height="450" fill="#F0F8FF"/>
+
+  <!-- Title -->
+  <text x="175" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Lab Safety Checklist</text>
+
+  <!-- Checklist items -->
+
+  <!-- Item 1: Goggles -->
+  <g transform="translate(40, 70)">
+    <!-- Checkbox checked -->
+    <rect x="0" y="0" width="20" height="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="2"/>
+    <path d="M 5 10 L 10 15 L 17 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Icon -->
+    <circle cx="55" cy="10" r="8" fill="#87CEEB" stroke="#333" stroke-width="1" opacity="0.8"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#333">Safety Goggles</text>
+  </g>
+
+  <!-- Item 2: Tied Hair -->
+  <g transform="translate(40, 120)">
+    <!-- Checkbox checked -->
+    <rect x="0" y="0" width="20" height="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="2"/>
+    <path d="M 5 10 L 10 15 L 17 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Icon -->
+    <circle cx="55" cy="5" r="5" fill="#8B4513"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#333">Long Hair Tied Back</text>
+  </g>
+
+  <!-- Item 3: Rolled Sleeves -->
+  <g transform="translate(40, 170)">
+    <!-- Checkbox checked -->
+    <rect x="0" y="0" width="20" height="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="2"/>
+    <path d="M 5 10 L 10 15 L 17 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Icon -->
+    <rect x="45" y="2" width="10" height="16" fill="#FFB6C1" stroke="#333" stroke-width="1"/>
+    <circle cx="50" cy="5" r="1.5" fill="#333"/>
+    <circle cx="50" cy="10" r="1.5" fill="#333"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#333">Sleeves Rolled Up</text>
+  </g>
+
+  <!-- Item 4: Lab Coat -->
+  <g transform="translate(40, 220)">
+    <!-- Checkbox checked -->
+    <rect x="0" y="0" width="20" height="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="2"/>
+    <path d="M 5 10 L 10 15 L 17 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Icon -->
+    <path d="M 45 2 L 45 16 Q 50 18 55 16 L 55 2" fill="#FFF" stroke="#333" stroke-width="1"/>
+    <circle cx="50" cy="8" r="1" fill="#333"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#333">Lab Coat On</text>
+  </g>
+
+  <!-- Item 5: Clean Hands -->
+  <g transform="translate(40, 270)">
+    <!-- Checkbox checked -->
+    <rect x="0" y="0" width="20" height="20" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="2"/>
+    <path d="M 5 10 L 10 15 L 17 5" stroke="#FFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Icon -->
+    <path d="M 48 5 L 48 14 M 52 5 L 52 14 M 56 5 L 56 14 M 45 10 L 59 10" stroke="#87CEEB" stroke-width="1"/>
+    <path d="M 45 2 L 59 2" stroke="#87CEEB" stroke-width="1"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#333">Hands Washed</text>
+  </g>
+
+  <!-- NOT Item: Perfume (unchecked) -->
+  <g transform="translate(40, 320)">
+    <!-- Checkbox empty (X mark) -->
+    <rect x="0" y="0" width="20" height="20" fill="#FFF" stroke="#FF5252" stroke-width="2" rx="2"/>
+    <path d="M 5 5 L 15 15 M 15 5 L 5 15" stroke="#FF5252" stroke-width="2" stroke-linecap="round"/>
+    <!-- Icon -->
+    <path d="M 48 3 L 52 3 L 52 12 Q 52 15 50 16 Q 48 15 48 12 Z" fill="#FFB6C1" stroke="#333" stroke-width="1"/>
+    <path d="M 50 2 L 50 0" stroke="#333" stroke-width="1"/>
+    <!-- Text -->
+    <text x="80" y="15" font-size="14" fill="#FF5252">Perfume/Cologne</text>
+  </g>
+
+  <!-- Bottom instruction box -->
+  <rect x="20" y="390" width="310" height="50" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+  <text x="175" y="410" font-size="12" text-anchor="middle" fill="#333">✓ Safety equipment is REQUIRED</text>
+  <text x="175" y="430" font-size="12" text-anchor="middle" fill="#333">✗ Perfume is NOT allowed (can cause reactions)</text>
+</svg>

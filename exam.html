@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Portal - Take Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: #f5f7fc; min-height: 100vh; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+
+        /* Login Section */
+        .login-card { background: white; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+        .login-header { text-align: center; margin-bottom: 30px; }
+        .login-header h1 { color: #1f4f94; font-size: 28px; margin-bottom: 8px; }
+        .login-header p { color: #666; font-size: 14px; }
+
+        .form-group { margin-bottom: 20px; }
+        label { display: block; font-weight: 600; color: #333; font-size: 14px; margin-bottom: 8px; }
+        input, select { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 14px; font-family: 'Poppins', sans-serif; }
+        input:focus, select:focus { outline: none; border-color: #1f4f94; }
+
+        .btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
+        .btn-primary { background: #1f4f94; color: white; }
+        .btn-primary:hover { background: #173d76; }
+
+        .message { padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; }
+        .message.error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .message.success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+
+        /* Exam Section */
+        .exam-container { display: none; }
+        .exam-header { background: white; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+        .student-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 15px; }
+        .info-box { background: #f4f6ff; padding: 12px; border-radius: 8px; border-left: 4px solid #667eea; }
+        .info-label { font-size: 12px; color: #667eea; font-weight: 600; text-transform: uppercase; }
+        .info-value { font-size: 16px; font-weight: 700; color: #333; margin-top: 4px; }
+
+        .exam-title { font-size: 20px; font-weight: 700; color: #1f4f94; margin-bottom: 10px; }
+        .timer { font-size: 14px; color: #666; float: right; }
+
+        /* Questions */
+        .questions-container { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+        .question-box { margin-bottom: 30px; padding: 20px; background: #f9fafb; border-radius: 10px; border-left: 4px solid #1f4f94; }
+        .question-number { color: #1f4f94; font-weight: 700; font-size: 14px; margin-bottom: 8px; }
+        .question-text { color: #333; font-weight: 600; font-size: 16px; margin-bottom: 15px; }
+
+        .options { display: flex; flex-direction: column; gap: 10px; }
+        .option { padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; cursor: pointer; background: white; }
+        .option:hover { border-color: #1f4f94; background: #f4f6ff; }
+        .option input[type="radio"] { margin-right: 10px; }
+        .option input[type="radio"]:checked { accent-color: #1f4f94; }
+        .option.selected { background: #e0e5ff; border-color: #1f4f94; }
+
+        .submit-section { margin-top: 30px; text-align: center; }
+        .btn-submit { width: 200px; padding: 14px; }
+
+        /* Results */
+        .results-container { display: none; }
+        .result-card { background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+        .result-header { text-align: center; margin-bottom: 30px; }
+        .score-big { font-size: 48px; font-weight: 700; color: #1f4f94; }
+        .score-text { font-size: 18px; color: #666; }
+
+        .answer-review { background: #f9fafb; border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+        .answer-question { font-weight: 600; color: #333; margin-bottom: 10px; }
+        .answer-your { color: #155724; font-size: 14px; padding: 8px; background: #d4edda; border-radius: 6px; margin-bottom: 5px; }
+        .answer-wrong { color: #721c24; font-size: 14px; padding: 8px; background: #f8d7da; border-radius: 6px; margin-bottom: 5px; }
+        .answer-correct { color: #155724; font-size: 14px; padding: 8px; background: #d4edda; border-radius: 6px; }
+
+        .btn-back { background: #6c757d; color: white; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Login Section -->
+    <div class="login-card" id="loginSection">
+        <div class="login-header">
+            <h1>📝 Exam Portal</h1>
+            <p>Enter your details and PIN to start the exam</p>
+        </div>
+
+        <div id="loginMessage"></div>
+
+        <div class="form-group">
+            <label for="studentName">Your Name *</label>
+            <input type="text" id="studentName" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="studentClass">Your Class *</label>
+            <select id="studentClass" required>
+                <option value="">Select Class</option>
+                <option value="I">Class I</option>
+                <option value="II">Class II</option>
+                <option value="III">Class III</option>
+                <option value="IV">Class IV</option>
+                <option value="V">Class V</option>
+                <option value="VI">Class VI</option>
+                <option value="VII">Class VII</option>
+                <option value="VIII">Class VIII</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="examPin">Exam PIN *</label>
+            <input type="text" id="examPin" placeholder="Enter PIN given by teacher" required maxlength="6">
+        </div>
+
+        <button class="btn btn-primary" onclick="startExam()">📚 Start Exam</button>
+    </div>
+
+    <!-- Exam Section -->
+    <div id="examSection" class="exam-container">
+        <div class="exam-header">
+            <div class="student-info">
+                <div class="info-box">
+                    <div class="info-label">Student Name</div>
+                    <div class="info-value" id="displayName">-</div>
+                </div>
+                <div class="info-box">
+                    <div class="info-label">Class</div>
+                    <div class="info-value" id="displayClass">-</div>
+                </div>
+                <div class="info-box">
+                    <div class="info-label">Exam</div>
+                    <div class="info-value" id="displayExam">-</div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="exam-title" id="examTitle">Exam</div>
+            <div class="timer">Time: <span id="timeRemaining">-</span></div>
+        </div>
+
+        <div class="questions-container" id="questionsContainer"></div>
+
+        <div class="submit-section">
+            <button class="btn btn-primary btn-submit" onclick="submitExam()">✓ Submit Exam</button>
+            <button class="btn btn-back" style="width: 200px; margin-left: 10px;" onclick="quitExam()">← Quit</button>
+        </div>
+    </div>
+
+    <!-- Results Section -->
+    <div id="resultsSection" class="results-container">
+        <div class="result-card">
+            <div class="result-header">
+                <div style="font-size: 40px; margin-bottom: 10px;">🎉</div>
+                <div class="score-big" id="finalScore">0%</div>
+                <div class="score-text">Exam Completed!</div>
+            </div>
+
+            <h2 style="color: #333; margin-bottom: 20px;">Answer Summary</h2>
+            <div id="answerSummary"></div>
+
+            <div style="margin-top: 30px; text-align: center;">
+                <button class="btn btn-primary" style="width: 200px;" onclick="location.href='index.html'">← Back to Portal</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="curriculum-data.js"></script>
+<script>
+const API = (location.port === '5000' ? '' : 'http://127.0.0.1:5000') + '/api';
+let currentExam = null;
+let studentAnswers = {};
+let examStartTime = null;
+
+async function startExam() {
+    const name = document.getElementById('studentName').value.trim();
+    const classVal = document.getElementById('studentClass').value.trim();
+    const pin = document.getElementById('examPin').value.trim().toUpperCase();
+
+    if (!name || !classVal || !pin) {
+        showMessage('❌ Please fill all fields', 'error', 'loginMessage');
+        return;
+    }
+
+    if (name.length < 2) {
+        showMessage('❌ Please enter a valid name', 'error', 'loginMessage');
+        return;
+    }
+
+    showMessage('🔍 Verifying PIN...', 'success', 'loginMessage');
+
+    try {
+        const res = await fetch(API + '/portal/get-game-by-pin', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ pin: pin })
+        });
+
+        const body = await res.json();
+
+        if (!res.ok || !body.game) {
+            showMessage('❌ Invalid PIN. Please check and try again.', 'error', 'loginMessage');
+            return;
+        }
+
+        currentExam = body.game;
+
+        // Load exam content
+        loadExamContent(classVal, currentExam.id, name, classVal, pin);
+
+    } catch (e) {
+        showMessage('❌ Error: ' + e.message, 'error', 'loginMessage');
+    }
+}
+
+function loadExamContent(classVal, gameId, studentName, studentClass, pin) {
+    const script = document.createElement('script');
+    script.src = `content/class-${classVal}.js`;
+    script.onload = () => {
+        const gameContent = window.GAME_CONTENT[gameId];
+        if (!gameContent) {
+            showMessage('❌ Exam content not found', 'error', 'loginMessage');
+            return;
+        }
+
+        // Display exam
+        document.getElementById('loginSection').style.display = 'none';
+        document.getElementById('examSection').style.display = 'block';
+
+        document.getElementById('displayName').textContent = studentName;
+        document.getElementById('displayClass').textContent = 'Class ' + studentClass;
+        document.getElementById('displayExam').textContent = currentExam.name;
+        document.getElementById('examTitle').textContent = currentExam.name;
+
+        // Display questions
+        displayQuestions(gameContent);
+
+        // Start timer
+        examStartTime = Date.now();
+        updateTimer();
+        setInterval(updateTimer, 1000);
+
+        // Store exam info
+        localStorage.setItem('currentExamPin', pin);
+        localStorage.setItem('studentName', studentName);
+        localStorage.setItem('studentClass', studentClass);
+        localStorage.setItem('examGameId', gameId);
+    };
+    document.head.appendChild(script);
+}
+
+function displayQuestions(gameContent) {
+    const questions = gameContent.questions || [];
+    let html = '';
+
+    questions.forEach((q, index) => {
+        const qText = q.q || q.text || q.prompt || '';
+        const options = q.options || [];
+        const answer = q.answer;
+
+        html += `
+            <div class="question-box">
+                <div class="question-number">Question ${index + 1} of ${questions.length}</div>
+                <div class="question-text">${qText}</div>
+                <div class="options">
+        `;
+
+        options.forEach((opt, optIdx) => {
+            html += `
+                <label class="option">
+                    <input type="radio" name="q${index}" value="${optIdx}" onchange="studentAnswers[${index}] = ${optIdx}">
+                    ${opt}
+                </label>
+            `;
+        });
+
+        html += `
+                </div>
+            </div>
+        `;
+    });
+
+    document.getElementById('questionsContainer').innerHTML = html;
+}
+
+function updateTimer() {
+    if (!examStartTime) return;
+    const elapsed = Math.floor((Date.now() - examStartTime) / 1000);
+    const minutes = Math.floor(elapsed / 60);
+    const seconds = elapsed % 60;
+    document.getElementById('timeRemaining').textContent = `${minutes}m ${seconds}s`;
+}
+
+async function submitExam() {
+    if (Object.keys(studentAnswers).length === 0) {
+        alert('❌ Please answer at least one question');
+        return;
+    }
+
+    if (!confirm('Are you sure you want to submit the exam?')) {
+        return;
+    }
+
+    const studentName = localStorage.getItem('studentName');
+    const studentClass = localStorage.getItem('studentClass');
+    const pin = localStorage.getItem('currentExamPin');
+    const gameId = localStorage.getItem('examGameId');
+
+    const script = document.createElement('script');
+    script.src = `content/class-${studentClass}.js`;
+    script.onload = () => {
+        const gameContent = window.GAME_CONTENT[gameId];
+        const questions = gameContent.questions || [];
+
+        // Calculate score
+        let correctCount = 0;
+        const answerDetails = [];
+
+        questions.forEach((q, index) => {
+            const studentAnswer = studentAnswers[index];
+            const correctAnswer = q.answer;
+            const isCorrect = studentAnswer === correctAnswer;
+
+            if (isCorrect) correctCount++;
+
+            answerDetails.push({
+                questionNumber: index + 1,
+                question: q.q || q.text || q.prompt || '',
+                studentAnswer: studentAnswer !== undefined ? (q.options[studentAnswer] || 'Not answered') : 'Not answered',
+                correctAnswer: q.options[correctAnswer] || 'N/A',
+                isCorrect: isCorrect
+            });
+        });
+
+        const score = correctCount;
+        const maxScore = questions.length;
+        const percentage = Math.round((correctCount / questions.length) * 100);
+
+        // Save score to backend
+        saveScore(gameId, studentName, studentClass, score, maxScore, pin, answerDetails);
+    };
+    document.head.appendChild(script);
+}
+
+async function saveScore(gameId, studentName, studentClass, score, maxScore, pin, answerDetails) {
+    try {
+        const res = await fetch(API + '/portal/store-student-score', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                game_id: gameId,
+                student_name: studentName,
+                student_roll: studentClass,
+                game_name: currentExam.name,
+                game_type: currentExam.type,
+                score: score,
+                max_score: maxScore,
+                pin: pin,
+                answer_details: JSON.stringify(answerDetails)
+            })
+        });
+
+        if (res.ok) {
+            displayResults(studentName, score, maxScore, answerDetails);
+        } else {
+            alert('Error saving score');
+        }
+    } catch (e) {
+        alert('Error: ' + e.message);
+    }
+}
+
+function displayResults(studentName, score, maxScore, answerDetails) {
+    const percentage = Math.round((score / maxScore) * 100);
+
+    document.getElementById('examSection').style.display = 'none';
+    document.getElementById('resultsSection').style.display = 'block';
+
+    document.getElementById('finalScore').textContent = `${score}/${maxScore} (${percentage}%)`;
+
+    let summaryHtml = '';
+    answerDetails.forEach(a => {
+        const statusClass = a.isCorrect ? 'answer-correct' : 'answer-wrong';
+        const statusText = a.isCorrect ? '✓ Correct' : '✗ Wrong';
+
+        summaryHtml += `
+            <div class="answer-review">
+                <div class="answer-question">Q${a.questionNumber}: ${a.question}</div>
+                <div class="answer-your"><strong>Your Answer:</strong> ${a.studentAnswer}</div>
+                <div class="${statusClass}"><strong>${statusText}</strong> | Correct: ${a.correctAnswer}</div>
+            </div>
+        `;
+    });
+
+    document.getElementById('answerSummary').innerHTML = summaryHtml;
+
+    // Clear localStorage
+    localStorage.removeItem('currentExamPin');
+    localStorage.removeItem('studentName');
+    localStorage.removeItem('studentClass');
+    localStorage.removeItem('examGameId');
+}
+
+function quitExam() {
+    if (confirm('Are you sure you want to quit without submitting?')) {
+        location.href = 'index.html';
+    }
+}
+
+function showMessage(text, type, elementId) {
+    const box = document.getElementById(elementId || 'loginMessage');
+    box.innerHTML = `<div class="message ${type}">${text}</div>`;
+}
+</script>
+
+</body>
+</html>

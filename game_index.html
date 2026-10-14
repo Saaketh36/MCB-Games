@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyClassboard Games - Play All Games</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .stat-card h3 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .stat-card p {
+            color: #666;
+            font-size: 14px;
+        }
+        .class-section {
+            margin-bottom: 40px;
+        }
+        .class-header {
+            background: white;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            border-left: 5px solid #667eea;
+            margin-bottom: 0;
+        }
+        .class-header h2 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        .class-header p {
+            color: #666;
+            font-size: 14px;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 20px;
+        }
+        .game-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .game-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        .game-skill {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 10px;
+            background: #f0f4ff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .game-points {
+            font-size: 12px;
+            color: #28a745;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .filter-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .filter-section h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        .filter-btn:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .feature-section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .feature-section h3 {
+            color: #667eea;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .feature {
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #667eea;
+            border-radius: 5px;
+        }
+        .feature h4 {
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎮 MyClassboard Games Platform</h1>
+            <p>Interactive Learning Games for Classes I-VIII</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-card">
+                <h3>45+</h3>
+                <p>Games Available</p>
+            </div>
+            <div class="stat-card">
+                <h3>8</h3>
+                <p>Classes (I-VIII)</p>
+            </div>
+            <div class="stat-card">
+                <h3>3</h3>
+                <p>Subjects</p>
+            </div>
+            <div class="stat-card">
+                <h3>50</h3>
+                <p>Points per Game</p>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <h3>📚 Filter by Class</h3>
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterClass('all')">All Classes</button>
+                <button class="filter-btn" onclick="filterClass('I')">Class I</button>
+                <button class="filter-btn" onclick="filterClass('II')">Class II</button>
+                <button class="filter-btn" onclick="filterClass('III')">Class III</button>
+                <button class="filter-btn" onclick="filterClass('IV')">Class IV</button>
+                <button class="filter-btn" onclick="filterClass('V')">Class V</button>
+                <button class="filter-btn" onclick="filterClass('VI')">Class VI</button>
+                <button class="filter-btn" onclick="filterClass('VII')">Class VII</button>
+                <button class="filter-btn" onclick="filterClass('VIII')">Class VIII</button>
+            </div>
+        </div>
+
+        <!-- Games by Class -->
+        <div id="gamesContainer"></div>
+
+        <!-- Features -->
+        <div class="feature-section">
+            <h3>✨ Game Features</h3>
+            <div class="features">
+                <div class="feature">
+                    <h4>👏 Instant Feedback</h4>
+                    <p>Get immediate visual feedback with clap emoji for correct answers and cross emoji for wrong answers.</p>
+                </div>
+                <div class="feature">
+                    <h4>📊 Score Tracking</h4>
+                    <p>10 points per correct answer with running score display and final results summary.</p>
+                </div>
+                <div class="feature">
+                    <h4>⭐ Performance Rating</h4>
+                    <p>Excellent (80%+), Good (60-79%), Average (40-59%), Poor (0-39%) with star ratings.</p>
+                </div>
+                <div class="feature">
+                    <h4>📋 Answer Review</h4>
+                    <p>See all questions with your answers, correct answers, and points earned for each question.</p>
+                </div>
+                <div class="feature">
+                    <h4>📱 Mobile Ready</h4>
+                    <p>Fully responsive design works on desktop, tablet, and mobile devices.</p>
+                </div>
+                <div class="feature">
+                    <h4>🎨 Professional Design</h4>
+                    <p>Beautiful gradient backgrounds, smooth animations, and intuitive user interface.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const games = {
+            'I': [
+                { name: 'Listen & Do Adventure', skill: 'Listening', file: 'listen_do_adventure.html' },
+                { name: 'Story Time Quiz', skill: 'Reading', file: 'story_time_quiz_game.html' },
+                { name: 'Letter Formation', skill: 'Writing', file: 'letter_formation.html' },
+                { name: 'Pronunciation Game', skill: 'Speaking', file: 'pronunciation_game.html' },
+                { name: 'Count & Match', skill: 'Numbers', file: 'count_and_match.html' },
+                { name: 'Simple Addition', skill: 'Addition', file: 'simple_addition.html' },
+                { name: 'Shape Sorter', skill: 'Shapes', file: 'shape_sorter.html' },
+                { name: 'Subtraction Basics', skill: 'Subtraction', file: 'subtraction_basics.html' },
+                { name: 'Life Skills Quiz', skill: 'Life Skills', file: 'life_skills_quiz.html' },
+                { name: 'Nature Explorer', skill: 'Nature', file: 'nature_explorer.html' },
+                { name: 'Safety Rules Quiz', skill: 'Safety', file: 'safety_rules_quiz.html' }
+            ],
+            'II': [
+                { name: 'Times Table Game', skill: 'Multiplication', file: 'multiplication_table.html' },
+                { name: 'Division Basics', skill: 'Division', file: 'division_basics.html' },
+                { name: 'Measurement Quiz', skill: 'Measurement', file: 'measurement_quiz.html' },
+                { name: 'Weather Quiz', skill: 'Weather', file: 'weather_quiz.html' },
+                { name: 'Environment Game', skill: 'Environment', file: 'environment_game.html' },
+                { name: 'Reading Comprehension II', skill: 'Reading', file: 'reading_comprehension_2.html' },
+                { name: 'Writing Practice II', skill: 'Writing', file: 'writing_practice_2.html' },
+                { name: 'Speaking Practice II', skill: 'Speaking', file: 'speaking_practice_2.html' }
+            ],
+            'III': [
+                { name: 'Fraction Basics', skill: 'Fractions', file: 'fraction_basics.html' },
+                { name: 'Plant Parts Quiz', skill: 'Plants', file: 'plant_parts_quiz.html' },
+                { name: 'Animal Matcher', skill: 'Animals', file: 'animal_matcher.html' }
+            ],
+            'IV': [
+                { name: 'Decimal Identifier', skill: 'Decimals', file: 'decimal_identifier.html' },
+                { name: 'Geometry Game', skill: 'Geometry', file: 'geometry_game.html' },
+                { name: 'Data Collector', skill: 'Data', file: 'data_collector.html' },
+                { name: 'Ecosystem Simulator', skill: 'Ecosystems', file: 'ecosystem_simulator.html' },
+                { name: 'Body Systems Quiz', skill: 'Body', file: 'body_systems_quiz.html' }
+            ],
+            'V': [
+                { name: 'Percentage Calculator', skill: 'Percentages', file: 'percentage_calculator.html' },
+                { name: 'Algebra Basics', skill: 'Algebra', file: 'algebra_basics.html' },
+                { name: 'Matter States Quiz', skill: 'Matter', file: 'matter_states_quiz.html' },
+                { name: 'Forces Game', skill: 'Forces', file: 'forces_game.html' },
+                { name: 'Life Cycles Quiz', skill: 'Life Cycles', file: 'life_cycles_quiz.html' }
+            ],
+            'VI': [
+                { name: 'Ratio Game', skill: 'Ratios', file: 'ratio_game.html' },
+                { name: 'Statistics Quiz', skill: 'Statistics', file: 'statistics_quiz.html' },
+                { name: 'Cell Structure Game', skill: 'Cells', file: 'cell_structure_game.html' },
+                { name: 'Reproduction Quiz', skill: 'Reproduction', file: 'reproduction_quiz.html' },
+                { name: 'Ecology Game', skill: 'Ecology', file: 'ecology_game.html' }
+            ],
+            'VII': [
+                { name: 'Probability Game', skill: 'Probability', file: 'probability_game.html' },
+                { name: 'Physics Quiz', skill: 'Physics', file: 'physics_quiz.html' },
+                { name: 'Chemistry Game', skill: 'Chemistry', file: 'chemistry_game.html' },
+                { name: 'Biology Quiz', skill: 'Biology', file: 'biology_quiz.html' }
+            ],
+            'VIII': [
+                { name: 'Calculus Basics', skill: 'Calculus', file: 'calculus_basics.html' },
+                { name: 'Advanced Physics', skill: 'Physics', file: 'advanced_physics.html' },
+                { name: 'Advanced Chemistry', skill: 'Chemistry', file: 'advanced_chemistry.html' },
+                { name: 'Advanced Biology', skill: 'Biology', file: 'advanced_biology.html' }
+            ]
+        };
+
+        let currentFilter = 'all';
+
+        function renderGames() {
+            const container = document.getElementById('gamesContainer');
+            container.innerHTML = '';
+
+            const classesToShow = currentFilter === 'all' ? Object.keys(games) : [currentFilter];
+
+            classesToShow.forEach(classNum => {
+                const classGames = games[classNum];
+                const section = document.createElement('div');
+                section.className = 'class-section';
+
+                const header = document.createElement('div');
+                header.className = 'class-header';
+                header.innerHTML = `
+                    <h2>📚 Class ${classNum}</h2>
+                    <p>${classGames.length} Games Available</p>
+                `;
+
+                const grid = document.createElement('div');
+                grid.className = 'games-grid';
+
+                classGames.forEach(game => {
+                    const card = document.createElement('a');
+                    card.href = `/${game.file}`;
+                    card.target = '_blank';
+                    card.className = 'game-card';
+                    card.innerHTML = `
+                        <div class="game-title">${game.name}</div>
+                        <div class="game-skill">📚 ${game.skill}</div>
+                        <div class="game-points">⭐ 50 Points (5 Questions)</div>
+                    `;
+                    grid.appendChild(card);
+                });
+
+                section.appendChild(header);
+                section.appendChild(grid);
+                container.appendChild(section);
+            });
+        }
+
+        function filterClass(classNum) {
+            currentFilter = classNum;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            renderGames();
+        }
+
+        // Initial render
+        renderGames();
+    </script>
+</body>
+</html>

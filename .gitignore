@@ -1,0 +1,35 @@
+# Secrets and Environment
+.env
+*.env
+.env.*
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+server.log
+
+# Backup and temp files
+*.bak
+*.bak*
+*.orig
+*.tmp
+*.swp
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/

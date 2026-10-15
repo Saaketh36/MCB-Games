@@ -103,7 +103,9 @@ def create_tables():
         print("\n🔄 Creating tables...")
 
         # Read SQL file
-        sql_file = "CREATE-DATABASE-PRODUCTION.sql"
+        sql_file = os.path.join("database", "CREATE-DATABASE-PRODUCTION.sql")
+        if not os.path.exists(sql_file):
+            sql_file = "CREATE-DATABASE-PRODUCTION.sql"
         if not os.path.exists(sql_file):
             print(f"❌ Error: {sql_file} not found!")
             return False

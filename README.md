@@ -1,136 +1,143 @@
-# MCB-Games - MyClassboard Games Platform
+# 🎮 MyClassboard Games Platform — Kids Learning Arena
 
-**Complete classroom game management platform with PIN-based game assignment and real-time student performance tracking.**
+[![Platform](https://img.shields.io/badge/Platform-MyClassboard%20Games-6366f1.svg)](#)
+[![Python](https://img.shields.io/badge/Python-3.7+-3776AB.svg?logo=python&logoColor=white)](#)
+[![Flask](https://img.shields.io/badge/Backend-Flask%20%2B%20SQLAlchemy-000000.svg?logo=flask)](#)
+[![Database](https://img.shields.io/badge/Database-PostgreSQL-336791.svg?logo=postgresql&logoColor=white)](#)
+[![Frontend](https://img.shields.io/badge/Frontend-Vanilla%20JS%20%2B%20Modern%20CSS-F7DF1E.svg)](#)
 
-✅ **All Features Complete & Tested** | 🚀 **Production Ready** | 📊 **Real-Time Reporting**
-
----
-
-## 🚀 Quick Start (30 Seconds)
-
-### Step 1: Teacher Dashboard
-👉 **http://localhost:5000/teacher-dashboard.html**
-1. Select activity (Class → Subject → Skill → Activity)
-2. Add students (Name, Roll)
-3. Click "Assign PINs"
-4. Share PINs with students
-
-### Step 2: Student Dashboard  
-👉 **http://localhost:5000/student-dashboard.html**
-1. Enter PIN from teacher
-2. Click "Play"
-3. Play game → Score saved
-
-### Step 3: View Reports
-Back to Teacher Dashboard → Click "Student Reports" → Refresh → See all scores with student names
+A comprehensive interactive educational games platform covering **Class I through Class VIII** across **English**, **Mathematics**, and **Science**. Features a clean white-themed modern UI, an interactive **Student Learning Arena**, a **Teacher Hub** for task assignments, PIN-based exam access, real-time score tracking, audio feedback, and video lessons.
 
 ---
 
-## ✅ Features
+## 🌟 Key Features
 
-### 📱 Three Dashboards
-* **Dashboard Selector** (http://localhost:5000) - Choose your role
-* **Teacher Dashboard** - Assign games, generate PINs, view reports
-* **Student Dashboard** - Enter PIN, play games
-
-### 🎯 Teacher Features
-* ✅ Cascading dropdowns (Class → Subject → Skill → Activity)
-* ✅ Direct student data entry (Name, Roll)
-* ✅ One-click PIN generation
-* ✅ Unique PIN per student
-* ✅ PIN table with copy button
-* ✅ Real-time score reporting
-* ✅ Student names in all reports
-
-### 👨‍🎓 Student Features
-* ✅ PIN entry interface
-* ✅ Game preview before launch
-* ✅ Auto-score recording
-* ✅ Automatic game assignment option
-
-### 🎮 Game Support
-All 12 game types implemented:
-  1. ❓ **MCQ Quiz / Odd One Out** — Interactive options, score tracking & explanations.
-  2. 🔤 **Word Scramble / Guess the Word** — Unscramble terms with hints.
-  3. ✍️ **Fill in the Blank** — Sentence completion with immediate validation.
-  4. 🧩 **Match Pairs / Memory Match** — Interactive matching game with instant score evaluation.
-  5. 📦 **Sort & Group** — Category sorting & item classification.
-  6. 🔢 **Sequence Order** — Arrange chronological or logical steps.
-  7. ⏱️ **Timed Challenge** — Speed rounds under time constraints.
-  8. 📝 **Typing Answer / Story Builder** — Interactive text response & creative writing engine.
+* **🎨 Kids Learning Arena (`index.html`)**: Clean, responsive, glassmorphic UI with grade selector (Class I–VIII), subject filtering, and skill-area table grouping.
+* **👩‍🏫 Teacher Hub**:
+  * Create assignments for students with customized deadlines.
+  * Unique PIN generation for student exams and tasks.
+  * Real-time student performance tracking and score table.
+  * Assignment management (filter by class/subject, delete completed tasks).
+* **🎮 12 Interactive Game Types**:
+  * ❓ MCQ Quiz / Odd One Out
+  * 🔤 Word Scramble / Guess the Word
+  * ✍️ Fill in the Blank
+  * 🧩 Match Pairs / Memory Match
+  * 📦 Sort & Group
+  * 🔢 Sequence Order
+  * ⏱️ Timed Challenge
+  * 📝 Story Builder / Typing Answer
+* **🔊 Audio & Sound Feedback**: Spoken listening narrations (`audio/*.wav`) and Web Audio synth for instant correctness sounds.
+* **📊 Analytics & Visualizations**: Interactive performance reports and data visualization charts (`data-graphs.html`).
+* **🗄️ Robust PostgreSQL Backend**: SQLAlchemy ORM models for Classes, Subjects, Skills, Games, Teachers, Students, Assignments, Scores, and PINs.
 
 ---
 
-## 🔑 Free API Key Integration
+## 🚀 Quick Start
 
-1. Get a **Free Google Gemini API Key** from [Google AI Studio](https://aistudio.google.com/).
-2. You can set it in your environment:
-   ```cmd
-   set GEMINI_API_KEY=your_free_api_key_here
-   ```
-3. Or enter it directly in the **Sidebar API Key Input** inside the running app!
-4. *Fallback*: If no key is provided, the app uses built-in smart presets so all 325 games remain 100% playable offline!
+### 1. Requirements
+* **Python**: 3.7 or higher
+* **PostgreSQL**: Local or remote instance
+* **Node.js** *(optional)*: For `npm run dev` server runner
 
----
-
-## 🚀 How to Run the App
-
-1. Open PowerShell or Command Prompt in this folder (`c:\Users\Charitha Sadineni\OneDrive\Desktop\Games`).
-2. Launch Streamlit:
-   ```powershell
-   streamlit run app.py
-   ```
-3. Open `http://localhost:8501` in your web browser.
-
----
-
-## 📁 File Structure
-
-* [app.py](file:///c:/Users/Charitha%20Sadineni/OneDrive/Desktop/Games/app.py) — Main Streamlit application UI (Teacher & Student portals, Game engines).
-* [games_data.py](file:///c:/Users/Charitha%20Sadineni/OneDrive/Desktop/Games/games_data.py) — Database of 325 activities extracted from the PDF (Class I-VIII).
-* [ai_helper.py](file:///c:/Users/Charitha%20Sadineni/OneDrive/Desktop/Games/ai_helper.py) — Free Gemini API integration engine with offline fallback logic.
-
----
-
-## 🔊 Listening Audio (spoken narration)
-
-The 24 listening activities ship with a real recorded narration. Each activity has an
-authored passage in `listening_content.py`, and that passage is rendered to a plain
-WAV file under `audio/`, so playback works offline in any browser without relying on
-the operating system's speech engine at play time.
-
-**Files**
-
-* `listening_content.py` — passage text plus 3 questions derived from that passage.
-* `audio/*.wav` — 24 pre-rendered narrations (~26 MB total, ~322 seconds of speech).
-* `audio/index.json` — slug, duration, word count and voice name for each narration.
-* `tools/dump_stories.py` — exports the passages to `tools/stories.json`.
-* `tools/make_audio.ps1` — narrates every passage with the Windows SAPI voice.
-* `tools/validate_bank.py` — checks the bank, the questions and every WAV file.
-
-**Regenerate the narration** (only needed when a passage text changes):
-
-```powershell
-python tools\dump_stories.py | Out-File -FilePath tools\stories.json -Encoding utf8
-powershell -ExecutionPolicy Bypass -File tools\make_audio.ps1
-python build_question_bank.py
-python tools\validate_bank.py
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+npm install
 ```
 
-The script reuses any WAV that already exists, so delete a file first if you want a
-single passage re-recorded. It prefers `Microsoft David Desktop`, then `Hazel`, then
-`Zira`, and falls back to whatever English voice is installed.
+### 3. Initialize PostgreSQL Database
+Ensure PostgreSQL is running, then run the automated setup script:
+```bash
+python setup_database.py
+```
+*(On Windows, you can also double-click `RUN_SETUP.bat`)*
 
-**How playback is wired in**
+### 4. Run the Application
+```bash
+python app.py
+```
+*(Or run `npm run dev` to start the server and automatically launch your default browser).*
 
-`build_question_bank.py` copies `audio` and `audio_seconds` into each listening entry,
-so both front ends read the same payload:
+Open your browser and navigate to:
+👉 **[http://localhost:5000](http://localhost:5000)**
 
-* `index.html` — renders an `<audio controls>` element and hides the questions until
-  **Start Questions** is pressed.
-* `app.py` — renders `st.audio(...)` with the same gate, using `st.stop()` to hold the
-  questions back until the story has been played.
+---
 
-If a WAV is ever missing, the device's own speech engine narrates the passage text as a
-fallback, so a listening activity is never left silent.
+## 📂 Project Organization
 
+```
+├── index.html                   # Main application: Kids Learning Arena & Teacher Hub SPA
+├── play.html                    # Interactive activity player
+├── exam.html                    # PIN-based student exam taker
+├── data-graphs.html             # Student performance data visualization & Chart.js graphs
+├── app.py                       # Main Flask web application and API server
+├── models.py                    # SQLAlchemy database models
+├── assignment_routes.py         # Blueprint for /api/portal (assignments, PINs, student scores)
+├── scoring_routes.py            # Blueprint for /api/scoring (score calculations & feedback)
+├── scoring_system.py            # Scoring rules and audio feedback helper
+├── setup_database.py            # Automated PostgreSQL database initializer
+├── RUN_SETUP.bat                # 1-click Windows database setup launcher
+├── full_games_catalog.js        # Catalog of 325 curriculum games with rich question data
+├── score_client.js              # Client-side scoring and audio integration script
+├── curriculum-data.js           # Curriculum hierarchy (Classes, Subjects, Skills, Activities)
+├── curriculum_catalog.json      # Valid curriculum combinations for validation
+├── requirements.txt             # Python dependencies
+├── package.json                 # Node scripts & dependencies
+├── .env                         # Environment settings & database URL
+│
+├── audio/                       # Spoken voice narrations (WAV) & sound effects
+├── content/                     # Class-specific modular game content (class-I.js ... class-VIII.js)
+├── curriculum/                  # Official curriculum specifications and PDF references
+├── database/                    # SQL database schemas & setup scripts
+│   ├── CREATE-DATABASE-PRODUCTION.sql # Production PostgreSQL database DDL
+│   ├── create_tables.sql              # Table creation scripts
+│   └── scripts/                       # Migration & auxiliary database tools
+├── docs/                        # Complete project documentation library
+│   ├── README.md                # Documentation index & map
+│   ├── guides/                  # Architecture, feature, and scoring guides
+│   ├── setup/                   # Setup guides for PostgreSQL, Python, and Node
+│   ├── reports/                 # Verification certificates and audit logs
+│   └── design/                  # UI design tokens, templates, and wireframes
+├── images/                      # Game thumbnails, subject banners, and UI icons
+├── legacy/                      # Archived early multi-page portals & dashboards
+├── tools/                       # Maintenance scripts, bank auditors, and audio generators
+└── videos/                      # Lesson video metadata and content
+```
+
+---
+
+## 🔌 API Endpoints Summary
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/api/curriculum` | Returns all classes, subjects, and skill areas |
+| `GET` | `/api/subjects/<class_id>` | Returns subjects for a specific class |
+| `GET` | `/api/skills/<class_id>/<subject>` | Returns skills for a specific class and subject |
+| `GET` | `/api/games/<skill>` | Returns games associated with a skill |
+| `GET` | `/api/available-games` | Returns list of available games and paths |
+| `GET` | `/api/portal/assignments` | Fetches all student assignments |
+| `POST` | `/api/portal/assignments` | Creates an assignment for a student |
+| `DELETE` | `/api/portal/assignments/<id>` | Deletes an assignment |
+| `POST` | `/api/portal/generate-pin` | Generates a 6-digit PIN for an activity |
+| `POST` | `/api/portal/verify-pin` | Verifies a student PIN and retrieves game info |
+| `POST` | `/api/portal/store-student-score` | Records game completion score and locks PIN |
+| `POST` | `/api/scoring/submit` | Submits score to the scoring engine |
+
+---
+
+## 📚 Documentation Library
+
+For in-depth guides, architecture specifications, and setup instructions, consult the [docs/](file:///d:/New%20folder/Games/docs/README.md) directory:
+
+* [Database Setup Guide](docs/setup/DATABASE-SETUP-GUIDE.md)
+* [Environment Configuration Guide](docs/setup/ENV-SETUP-GUIDE.md)
+* [Scoring API Documentation](docs/guides/SCORING_API_DOCUMENTATION.md)
+* [Curriculum Question Audit](docs/guides/QUESTION_AUDIT.md)
+* [Teacher Workflow & Implementation](docs/guides/TEACHER_WORKFLOW.md)
+* [Glassmorphism Design Guide](docs/guides/GLASS_MORPHISM_GUIDE.md)
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.

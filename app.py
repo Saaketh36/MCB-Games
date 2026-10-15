@@ -587,14 +587,14 @@ def api_generate_ai_task():
 def api_ai_status():
     """Check AI integration status."""
     raw_key = os.getenv('GEMINI_API_KEY', '').strip()
-    has_key = bool(raw_key and not raw_key.startswith('AQ.') and len(raw_key) > 20)
+    has_key = bool(raw_key and len(raw_key) > 20)
     return jsonify({
         'status': 'success',
         'success': True,
         'has_key': has_key,
         'has_gemini_key': has_key,
         'active_engine': 'gemini' if has_key else 'curriculum_engine',
-        'model': 'gemini-2.5-flash / gemini-1.5-flash',
+        'model': 'gemini-flash-lite / gemini-3.1-flash',
         'fallback': 'Smart Curriculum AI Engine'
     }), 200
 

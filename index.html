@@ -2946,32 +2946,8 @@
         .btn-create-task-modal {
             display: inline-flex;
             align-items: center;
-            gap: 6px;
-            padding: 8px 16px;
-            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
-            color: #ffffff;
-            border: none;
-            border-radius: 12px;
-            font-family: var(--font-body);
-            font-size: 13px;
-            font-weight: 700;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
-            transition: all 0.2s ease;
-            white-space: nowrap;
-        }
-
-        .btn-create-task-modal:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35);
-            background: linear-gradient(135deg, #047857 0%, #059669 100%);
-        }
-
-        .btn-ai-task-modal {
-            display: inline-flex;
-            align-items: center;
             gap: 7px;
-            padding: 8px 16px;
+            padding: 8px 18px;
             background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%);
             color: #ffffff;
             border: none;
@@ -2987,12 +2963,12 @@
             overflow: hidden;
         }
 
-        .btn-ai-task-modal:hover {
+        .btn-create-task-modal:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(124, 58, 237, 0.45);
         }
 
-        .btn-ai-task-modal::after {
+        .btn-create-task-modal::after {
             content: '';
             position: absolute;
             top: -50%;
@@ -3004,8 +2980,27 @@
             transition: all 0.7s ease;
         }
 
-        .btn-ai-task-modal:hover::after {
+        .btn-create-task-modal:hover::after {
             left: 120%;
+        }
+
+        .btn-ai-task-modal {
+            /* Kept for backwards compatibility */
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            font-family: var(--font-body);
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+            transition: all 0.2s ease;
+            white-space: nowrap;
         }
 
         /* AI Generator Panel in Create Task Modal */
@@ -3752,12 +3747,8 @@
                             title="Manage & delete custom tasks">
                             <span>🗑️</span> Delete Task
                         </button>
-                        <button type="button" class="btn-ai-task-modal" id="btnOpenAiTaskModal" onclick="openCreateTaskModal(true)"
-                            title="Auto-generate complete game & quiz with AI">
-                            <span>🪄</span> AI Task Generator
-                        </button>
-                        <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(false)"
-                            title="Create custom task with questions">
+                        <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(true)"
+                            title="Create a new activity with automatic AI game and quiz generation">
                             <span>✨</span> Create New Activity
                         </button>
                         <button type="button" class="btn-assign-modal" onclick="openAssignModal()">
@@ -3949,9 +3940,8 @@
                         ✨
                     </div>
                     <div>
-                        <h3 class="who-modal-title" style="margin: 0; font-size: 20px;">Create New Task</h3>
-                        <p class="who-modal-sub" style="margin: 2px 0 0;">Design a custom learning challenge with
-                            questions for your students</p>
+                        <h3 class="who-modal-title" style="margin: 0; font-size: 20px;">Create New Activity</h3>
+                        <p class="who-modal-sub" style="margin: 2px 0 0;">Describe what you want to teach — AI will automatically design the title, instructions, and interactive quiz!</p>
                     </div>
                 </div>
                 <button type="button" class="modal-close-btn" onclick="closeCreateTaskModal()">✕</button>
@@ -3966,35 +3956,36 @@
                         <div>
                             <div class="ai-panel-title">
                                 <span>AI Game & Quiz Generator</span>
-                                <span class="ai-badge" id="aiModelBadge">Gemini 2.5 Flash</span>
+                                <span class="ai-badge" id="aiModelBadge">Google Gemini AI 🟢</span>
                             </div>
                             <div class="ai-panel-sub">
-                                Describe what you want to teach — AI will automatically design the game title, skill topic, student instructions, and interactive quiz questions!
+                                Enter any topic or prompt below — AI will automatically design the game title, skill topic, student instructions, and interactive quiz questions!
                             </div>
                         </div>
                     </div>
 
                     <div class="ai-prompt-box">
                         <textarea id="aiTaskPrompt" class="ai-textarea" rows="2"
-                            placeholder="e.g. Create an exciting Solar System quiz for Class IV focusing on planets, orbits, and moons with interesting facts..."></textarea>
+                            placeholder="e.g. Electricity, circuits, batteries, and home appliances... or any topic!"></textarea>
 
                         <div class="ai-prompt-controls">
                             <div class="ai-quick-tags">
                                 <span class="ai-tag-label">💡 Ideas:</span>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Electricity: circuits, batteries, switches, and home appliances', 'EVS')">⚡ Electricity</button>
                                 <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Planets in the Solar System, orbits and moons', 'Science')">🪐 Solar System</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Magnets: North and South poles, attraction, and repulsion', 'Science')">🧲 Magnets</button>
                                 <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Fractions and decimals using pizzas, chocolates and money', 'Mathematics')">🍕 Fractions</button>
                                 <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Plant parts, photosynthesis, and leaf functions', 'Science')">🌿 Plants</button>
                                 <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Verbs, past tense forms, and sentence building', 'English')">🔤 Grammar</button>
                                 <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Water Cycle: evaporation, condensation, and clouds', 'EVS')">💧 Water Cycle</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Human body systems, heart and lungs functions', 'Science')">🫀 Human Body</button>
                             </div>
 
                             <div class="ai-actions-row">
                                 <div class="ai-select-group">
                                     <label for="aiNumQuestions">Questions:</label>
                                     <select id="aiNumQuestions" class="ai-mini-select">
-                                        <option value="3" selected>3 Questions</option>
-                                        <option value="5">5 Questions</option>
+                                        <option value="3">3 Questions</option>
+                                        <option value="5" selected>5 Questions</option>
                                         <option value="8">8 Questions</option>
                                     </select>
                                 </div>
@@ -4125,7 +4116,7 @@
                 <button type="button" class="btn-clear-filters" onclick="closeCreateTaskModal()"
                     style="font-size: 13.5px;">Cancel</button>
                 <button type="button" class="btn-save-task" onclick="submitCreateTask()">
-                    <span>🚀</span> Create & Publish Task
+                    <span>🚀</span> Create & Publish Activity
                 </button>
             </div>
         </div>
@@ -6481,7 +6472,7 @@
                 const badge = document.getElementById('aiModelBadge');
                 if (badge && status) {
                     if (status.active_engine === 'gemini' && status.has_gemini_key) {
-                        badge.textContent = 'Gemini 2.5 Flash 🟢';
+                        badge.textContent = 'Google Gemini AI 🟢';
                         badge.title = 'Live Google Gemini AI Connected';
                     } else {
                         badge.textContent = 'Smart AI Engine ⚡';

@@ -2967,6 +2967,289 @@
             background: linear-gradient(135deg, #047857 0%, #059669 100%);
         }
 
+        .btn-ai-task-modal {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 8px 16px;
+            background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            font-family: var(--font-body);
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-ai-task-modal:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(124, 58, 237, 0.45);
+        }
+
+        .btn-ai-task-modal::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -60%;
+            width: 40%;
+            height: 200%;
+            background: rgba(255, 255, 255, 0.25);
+            transform: rotate(30deg);
+            transition: all 0.7s ease;
+        }
+
+        .btn-ai-task-modal:hover::after {
+            left: 120%;
+        }
+
+        /* AI Generator Panel in Create Task Modal */
+        .ai-generator-panel {
+            background: linear-gradient(135deg, #f5f3ff 0%, #eef2ff 50%, #f0fdf4 100%);
+            border: 1.5px solid #c7d2fe;
+            border-radius: 18px;
+            padding: 18px 20px;
+            margin-bottom: 18px;
+            position: relative;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.08);
+        }
+
+        .ai-panel-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        .ai-sparkle-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+            flex-shrink: 0;
+            animation: pulseAIIcon 2.5s infinite ease-in-out;
+        }
+
+        @keyframes pulseAIIcon {
+            0%, 100% { transform: scale(1); box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3); }
+            50% { transform: scale(1.06); box-shadow: 0 6px 18px rgba(139, 92, 246, 0.45); }
+        }
+
+        .ai-panel-title {
+            font-family: var(--font-heading);
+            font-size: 15.5px;
+            font-weight: 800;
+            color: #1e1b4b;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 2px;
+        }
+
+        .ai-badge {
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: #ffffff;
+            font-size: 10.5px;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .ai-panel-sub {
+            font-size: 12.5px;
+            color: #475569;
+            line-height: 1.4;
+        }
+
+        .ai-textarea {
+            width: 100%;
+            padding: 10px 14px;
+            border-radius: 12px;
+            border: 1.5px solid #cbd5e1;
+            font-family: var(--font-body);
+            font-size: 13.5px;
+            color: #0f172a;
+            outline: none;
+            background: #ffffff;
+            resize: vertical;
+            min-height: 58px;
+            transition: all 0.2s;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        .ai-textarea:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+        }
+
+        .ai-prompt-controls {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .ai-quick-tags {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .ai-tag-label {
+            font-size: 11.5px;
+            font-weight: 700;
+            color: #64748b;
+        }
+
+        .ai-tag-btn {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 16px;
+            padding: 3px 10px;
+            font-family: var(--font-body);
+            font-size: 11.5px;
+            font-weight: 600;
+            color: #334155;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .ai-tag-btn:hover {
+            border-color: #6366f1;
+            color: #4f46e5;
+            background: #eef2ff;
+            transform: translateY(-1px);
+        }
+
+        .ai-actions-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding-top: 8px;
+            border-top: 1px dashed #cbd5e1;
+        }
+
+        .ai-select-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #475569;
+        }
+
+        .ai-mini-select {
+            padding: 5px 10px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            font-family: var(--font-body);
+            font-size: 12px;
+            color: #1e1b4b;
+            background: #ffffff;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .btn-generate-ai {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 9px 20px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 12px;
+            font-family: var(--font-body);
+            font-size: 13.5px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);
+            transition: all 0.2s ease;
+            margin-left: auto;
+        }
+
+        .btn-generate-ai:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.45);
+        }
+
+        .btn-generate-ai:disabled {
+            opacity: 0.65;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .ai-status-strip {
+            margin-top: 10px;
+            padding: 9px 14px;
+            border-radius: 10px;
+            font-size: 12.5px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            animation: fadeIn 0.2s ease;
+        }
+
+        .ai-status-strip.loading {
+            background: #eff6ff;
+            color: #1d4ed8;
+            border: 1px solid #bfdbfe;
+        }
+
+        .ai-status-strip.success {
+            background: #f0fdf4;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+        }
+
+        .ai-status-strip.error {
+            background: #fef2f2;
+            color: #b91c1c;
+            border: 1px solid #fecaca;
+        }
+
+        .ai-status-strip.warning {
+            background: #fffbeb;
+            color: #b45309;
+            border: 1px solid #fde68a;
+        }
+
+        .ai-spinner {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border: 2px solid rgba(255, 255, 255, 0.35);
+            border-top-color: #ffffff;
+            border-radius: 50%;
+            animation: aiSpin 0.7s linear infinite;
+        }
+
+        .ai-status-strip .ai-spinner {
+            border: 2px solid rgba(29, 78, 216, 0.2);
+            border-top-color: #1d4ed8;
+        }
+
+        @keyframes aiSpin {
+            to { transform: rotate(360deg); }
+        }
+
         .create-task-modal-card {
             background: #ffffff;
             border-radius: var(--radius-xl);
@@ -3469,7 +3752,11 @@
                             title="Manage & delete custom tasks">
                             <span>🗑️</span> Delete Task
                         </button>
-                        <button type="button" class="btn-create-task-modal" onclick="openCreateTaskModal()"
+                        <button type="button" class="btn-ai-task-modal" id="btnOpenAiTaskModal" onclick="openCreateTaskModal(true)"
+                            title="Auto-generate complete game & quiz with AI">
+                            <span>🪄</span> AI Task Generator
+                        </button>
+                        <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(false)"
                             title="Create custom task with questions">
                             <span>✨</span> Create New Activity
                         </button>
@@ -3672,6 +3959,66 @@
 
             <!-- Scrollable Form Body -->
             <div class="create-task-form-body">
+                <!-- AI Automatic Game & Quiz Generator Hero Card -->
+                <div class="ai-generator-panel" id="aiGeneratorPanel">
+                    <div class="ai-panel-header">
+                        <div class="ai-sparkle-icon">🪄</div>
+                        <div>
+                            <div class="ai-panel-title">
+                                <span>AI Game & Quiz Generator</span>
+                                <span class="ai-badge" id="aiModelBadge">Gemini 2.5 Flash</span>
+                            </div>
+                            <div class="ai-panel-sub">
+                                Describe what you want to teach — AI will automatically design the game title, skill topic, student instructions, and interactive quiz questions!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ai-prompt-box">
+                        <textarea id="aiTaskPrompt" class="ai-textarea" rows="2"
+                            placeholder="e.g. Create an exciting Solar System quiz for Class IV focusing on planets, orbits, and moons with interesting facts..."></textarea>
+
+                        <div class="ai-prompt-controls">
+                            <div class="ai-quick-tags">
+                                <span class="ai-tag-label">💡 Ideas:</span>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Planets in the Solar System, orbits and moons', 'Science')">🪐 Solar System</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Fractions and decimals using pizzas, chocolates and money', 'Mathematics')">🍕 Fractions</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Plant parts, photosynthesis, and leaf functions', 'Science')">🌿 Plants</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Verbs, past tense forms, and sentence building', 'English')">🔤 Grammar</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Water Cycle: evaporation, condensation, and clouds', 'EVS')">💧 Water Cycle</button>
+                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Human body systems, heart and lungs functions', 'Science')">🫀 Human Body</button>
+                            </div>
+
+                            <div class="ai-actions-row">
+                                <div class="ai-select-group">
+                                    <label for="aiNumQuestions">Questions:</label>
+                                    <select id="aiNumQuestions" class="ai-mini-select">
+                                        <option value="3" selected>3 Questions</option>
+                                        <option value="5">5 Questions</option>
+                                        <option value="8">8 Questions</option>
+                                    </select>
+                                </div>
+
+                                <div class="ai-select-group">
+                                    <label for="aiDifficulty">Difficulty:</label>
+                                    <select id="aiDifficulty" class="ai-mini-select">
+                                        <option value="Easy">Easy</option>
+                                        <option value="Medium" selected>Medium</option>
+                                        <option value="Challenging">Challenging</option>
+                                    </select>
+                                </div>
+
+                                <button type="button" class="btn-generate-ai" id="btnGenerateAiTask" onclick="triggerAiTaskGeneration()">
+                                    <span id="aiBtnIcon">✨</span> <span id="aiBtnText">Generate with AI</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Live Status & Feedback Strip -->
+                        <div id="aiGenerationStatus" class="ai-status-strip" style="display: none;"></div>
+                    </div>
+                </div>
+
                 <!-- Section 1: Task Info -->
                 <div class="create-task-section">
                     <div class="create-task-sec-title">1. Task Details</div>
@@ -5910,7 +6257,7 @@
 
         let currentCreateTaskQuestions = [];
 
-        function openCreateTaskModal() {
+        function openCreateTaskModal(focusAi = false) {
             const cls = AppState.selectedClass || 'IV';
             const clsSelect = document.getElementById('newTaskClass');
             if (clsSelect) clsSelect.value = cls;
@@ -5936,7 +6283,212 @@
             ];
             renderQuestionBlocks();
 
+            // Reset AI status & feedback
+            const aiStatus = document.getElementById('aiGenerationStatus');
+            if (aiStatus) {
+                aiStatus.style.display = 'none';
+                aiStatus.className = 'ai-status-strip';
+                aiStatus.innerHTML = '';
+            }
+
             document.getElementById('teacherCreateTaskModal').classList.add('active');
+
+            if (focusAi) {
+                setTimeout(() => {
+                    const promptEl = document.getElementById('aiTaskPrompt');
+                    if (promptEl) {
+                        promptEl.focus();
+                        promptEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                }, 150);
+            }
+        }
+
+        function setAiPrompt(promptText, subject) {
+            const promptEl = document.getElementById('aiTaskPrompt');
+            if (promptEl) {
+                promptEl.value = promptText;
+                promptEl.focus();
+            }
+            if (subject) {
+                const subSelect = document.getElementById('newTaskSubject');
+                if (subSelect) {
+                    for (let i = 0; i < subSelect.options.length; i++) {
+                        if (subSelect.options[i].value.toLowerCase() === subject.toLowerCase()) {
+                            subSelect.selectedIndex = i;
+                            break;
+                        }
+                    }
+                }
+            }
+            const statusEl = document.getElementById('aiGenerationStatus');
+            if (statusEl) statusEl.style.display = 'none';
+        }
+
+        function showAiStatus(msg, type = 'info') {
+            const statusEl = document.getElementById('aiGenerationStatus');
+            if (!statusEl) return;
+            statusEl.style.display = 'flex';
+            statusEl.className = 'ai-status-strip ' + type;
+
+            let iconHtml = 'ℹ️';
+            if (type === 'loading') {
+                iconHtml = '<span class="ai-spinner"></span>';
+            } else if (type === 'success') {
+                iconHtml = '✨';
+            } else if (type === 'warning') {
+                iconHtml = '⚠️';
+            } else if (type === 'error') {
+                iconHtml = '❌';
+            }
+
+            statusEl.innerHTML = `<span>${iconHtml}</span> <span>${escapeHtml(msg)}</span>`;
+        }
+
+        async function triggerAiTaskGeneration() {
+            const promptEl = document.getElementById('aiTaskPrompt');
+            const prompt = (promptEl ? promptEl.value : '').trim();
+
+            const cls = document.getElementById('newTaskClass')?.value || AppState.selectedClass || 'IV';
+            const subject = document.getElementById('newTaskSubject')?.value || 'Science';
+            const numQuestions = parseInt(document.getElementById('aiNumQuestions')?.value || '3', 10);
+            const difficulty = document.getElementById('aiDifficulty')?.value || 'Medium';
+
+            if (!prompt) {
+                showAiStatus('Please enter a topic or details in the prompt box above.', 'warning');
+                if (promptEl) promptEl.focus();
+                return;
+            }
+
+            const btn = document.getElementById('btnGenerateAiTask');
+            const btnIcon = document.getElementById('aiBtnIcon');
+            const btnText = document.getElementById('aiBtnText');
+            const origText = btnText ? btnText.textContent : 'Generate with AI';
+
+            // Loading state
+            if (btn) btn.disabled = true;
+            if (btnIcon) btnIcon.innerHTML = '<span class="ai-spinner"></span>';
+            if (btnText) btnText.textContent = 'Designing Game...';
+            showAiStatus(`AI is designing ${numQuestions} ${difficulty.toLowerCase()} questions for Class ${cls} ${subject}...`, 'loading');
+
+            try {
+                const response = await fetch('/api/ai/generate-task', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        prompt: prompt,
+                        class: cls,
+                        subject: subject,
+                        num_questions: numQuestions,
+                        difficulty: difficulty
+                    })
+                });
+
+                const result = await response.json();
+
+                if (!response.ok || (result.status !== 'success' && !result.success)) {
+                    throw new Error(result.message || result.error || 'Failed to generate task. Please try again.');
+                }
+
+                const task = result.task || (result.data ? result.data.task : null) || {};
+                const questions = task.questions || (result.data ? result.data.questions : null) || [];
+
+                // 1. Populate Task Info
+                if (task.title) {
+                    const titleEl = document.getElementById('newTaskTitle');
+                    if (titleEl) titleEl.value = task.title;
+                }
+
+                const detectedSubject = task.subject || subject;
+                if (detectedSubject) {
+                    const subSelect = document.getElementById('newTaskSubject');
+                    if (subSelect) {
+                        for (let i = 0; i < subSelect.options.length; i++) {
+                            if (subSelect.options[i].value.toLowerCase() === detectedSubject.toLowerCase()) {
+                                subSelect.selectedIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                const skill = task.skillArea || task.skill_area || task.topic;
+                if (skill) {
+                    const skillEl = document.getElementById('newTaskSkillArea');
+                    if (skillEl) skillEl.value = skill;
+                }
+
+                const desc = task.desc || task.description;
+                if (desc) {
+                    const descEl = document.getElementById('newTaskDesc');
+                    if (descEl) descEl.value = desc;
+                }
+
+                const timeVal = task.time || task.estimated_time;
+                if (timeVal) {
+                    const timeSelect = document.getElementById('newTaskTime');
+                    if (timeSelect) {
+                        for (let i = 0; i < timeSelect.options.length; i++) {
+                            if (timeSelect.options[i].value.toLowerCase().includes(timeVal.toLowerCase())) {
+                                timeSelect.selectedIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // 2. Populate Questions
+                if (Array.isArray(questions) && questions.length > 0) {
+                    currentCreateTaskQuestions = questions.map(q => ({
+                        prompt: q.prompt || '',
+                        options: (Array.isArray(q.options) && q.options.length >= 2)
+                            ? [q.options[0] || '', q.options[1] || '', q.options[2] || '', q.options[3] || '']
+                            : ['', '', '', ''],
+                        answer: (typeof q.answer === 'number' && q.answer >= 0 && q.answer < 4) ? q.answer : 0,
+                        explanation: q.explanation || ''
+                    }));
+                    renderQuestionBlocks();
+                }
+
+                const providerName = result.provider || (result.data && result.data.source === 'gemini' ? 'Google Gemini AI' : 'Smart Curriculum AI');
+                showAiStatus(`✨ Generated "${task.title || 'Task'}" with ${questions.length} questions via ${providerName}! Review and publish below.`, 'success');
+                showToastNotification(`✨ AI generated ${questions.length} questions successfully!`);
+
+                // Smooth scroll to task details so teacher sees what was generated
+                setTimeout(() => {
+                    const titleInput = document.getElementById('newTaskTitle');
+                    if (titleInput) {
+                        titleInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        titleInput.focus();
+                    }
+                }, 250);
+
+            } catch (err) {
+                console.error('AI Generation Error:', err);
+                showAiStatus(`⚠️ ${err.message || 'Generation failed. Please try again.'}`, 'error');
+            } finally {
+                if (btn) btn.disabled = false;
+                if (btnIcon) btnIcon.textContent = '✨';
+                if (btnText) btnText.textContent = origText;
+            }
+        }
+
+        async function checkAiStatus() {
+            try {
+                const res = await fetch('/api/ai/status');
+                if (!res.ok) return;
+                const status = await res.json();
+                const badge = document.getElementById('aiModelBadge');
+                if (badge && status) {
+                    if (status.active_engine === 'gemini' && status.has_gemini_key) {
+                        badge.textContent = 'Gemini 2.5 Flash 🟢';
+                        badge.title = 'Live Google Gemini AI Connected';
+                    } else {
+                        badge.textContent = 'Smart AI Engine ⚡';
+                        badge.title = 'Built-in Curriculum AI Generator Active';
+                    }
+                }
+            } catch (e) { }
         }
 
         function closeCreateTaskModal() {
@@ -6339,6 +6891,7 @@
             updateSkillAreaOptions();
             renderKidZone();
             renderTeacherHub();
+            checkAiStatus();
 
             // Keyboard shortcuts for Question Screen
             window.addEventListener('keydown', (e) => {

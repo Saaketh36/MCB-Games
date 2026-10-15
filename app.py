@@ -539,6 +539,66 @@ def get_skill_report(skill_id):
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
 # ============================================================
+# API ROUTES - AI GAME & QUIZ GENERATION
+# ============================================================
+
+from ai_helper import generate_ai_task_and_quiz
+
+@app.route('/api/ai/generate-task', methods=['POST'])
+def api_generate_ai_task():
+    """AI endpoint for generating games, tasks, and quizzes automatically."""
+    try:
+        data = request.json or {}
+        prompt = data.get('prompt', '')
+        class_name = data.get('class', 'IV')
+        subject = data.get('subject', 'Science')
+        topic = data.get('topic', '')
+        num_questions = data.get('num_questions', 3)
+        difficulty = data.get('difficulty', 'Medium')
+        api_key = data.get('api_key', None)
+
+        task_data, provider = generate_ai_task_and_quiz(
+            prompt=prompt,
+            class_name=class_name,
+            subject=subject,
+            topic=topic,
+            num_questions=num_questions,
+            difficulty=difficulty,
+            api_key=api_key
+        )
+
+        is_gemini = 'Gemini' in provider
+        return jsonify({
+            'status': 'success',
+            'success': True,
+            'provider': provider,
+            'task': task_data,
+            'data': {
+                'task': task_data,
+                'questions': task_data.get('questions', []),
+                'source': 'gemini' if is_gemini else 'curriculum_engine'
+            }
+        }), 200
+    except Exception as e:
+        logger.error(f"Error in AI task generation: {e}")
+        return jsonify({'status': 'error', 'success': False, 'message': str(e), 'error': str(e)}), 500
+
+@app.route('/api/ai/status', methods=['GET'])
+def api_ai_status():
+    """Check AI integration status."""
+    raw_key = os.getenv('GEMINI_API_KEY', '').strip()
+    has_key = bool(raw_key and not raw_key.startswith('AQ.') and len(raw_key) > 20)
+    return jsonify({
+        'status': 'success',
+        'success': True,
+        'has_key': has_key,
+        'has_gemini_key': has_key,
+        'active_engine': 'gemini' if has_key else 'curriculum_engine',
+        'model': 'gemini-2.5-flash / gemini-1.5-flash',
+        'fallback': 'Smart Curriculum AI Engine'
+    }), 200
+
+# ============================================================
 # STATIC FILES & MAIN ROUTES
 # ============================================================
 

@@ -11,8 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <script src="full_games_catalog.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/class2_games.css">
+    <link rel="stylesheet" href="css/styles.css?v=2.0">
+    <link rel="stylesheet" href="css/class2_games.css?v=2.0">
 </head>
 
 <body>
@@ -57,47 +57,26 @@
              ==================================================== -->
         <div id="kidZoneView">
 
-            <!-- Single Unified Control Panel -->
+            <!-- Single Unified Control Panel (Simple & Clean) -->
             <div class="unified-control-panel">
-                <!-- Top Row: Mode Tabs & Class Selector -->
+                <!-- Top Row: Mode Tabs & Clean Class Dropdown -->
                 <div class="ucp-top-row">
                     <div class="tab-toggles">
                         <button type="button" class="tab-btn" id="tabMyAssignments" onclick="setKidSubTab('assigned')">
-                            <span>📖</span> Assigned activities <span class="tab-counter-badge"
-                                id="assignedCountBadge">0</span>
+                            <span>📖</span> Assigned activities <span class="tab-counter-badge" id="assignedCountBadge">0</span>
                         </button>
-                        <button type="button" class="tab-btn active" id="tabExploreGames"
-                            onclick="setKidSubTab('explore')">
+                        <button type="button" class="tab-btn active" id="tabExploreGames" onclick="setKidSubTab('explore')">
                             <span>🧭</span> Explore all games
                         </button>
                     </div>
 
                     <div class="teacher-class-selector-wrapper">
                         <span class="teacher-class-label">Class:</span>
-                        <div class="teacher-class-pill-group" id="kidClassPills">
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('I')">Class I</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('II')">Class II</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('III')">Class III</button>
-                            <button type="button" class="teacher-class-pill active"
-                                onclick="handleClassFilterChange('IV')">Class IV</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('V')">Class V</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('VI')">Class VI</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('VII')">Class VII</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleClassFilterChange('VIII')">Class VIII</button>
-                        </div>
-                        <select class="class-dropdown-btn" id="kidClassSelect" style="display: none;"
-                            onchange="handleClassFilterChange(this.value)">
+                        <select class="class-dropdown-btn" id="kidClassSelect" onchange="handleClassFilterChange(this.value)">
                             <option value="I">Class I</option>
-                            <option value="II">Class II</option>
+                            <option value="II" selected>Class II</option>
                             <option value="III">Class III</option>
-                            <option value="IV" selected>Class IV</option>
+                            <option value="IV">Class IV</option>
                             <option value="V">Class V</option>
                             <option value="VI">Class VI</option>
                             <option value="VII">Class VII</option>
@@ -106,46 +85,20 @@
                     </div>
                 </div>
 
-                <!-- Bottom Row: Subject Filter Chips, Skill/Activity Dropdowns & Search -->
+                <!-- Bottom Row: Subject Filter Chips & Quick Search -->
                 <div class="ucp-bottom-row">
                     <div class="subject-filter-chips" id="kidSubjectChips">
-                        <button type="button" class="chip-btn active"
-                            onclick="filterBySubject('all', this)">All</button>
-                        <button type="button" class="chip-btn" onclick="filterBySubject('Mathematics', this)"><span
-                                class="chip-dot chip-dot-math"></span> Math</button>
-                        <button type="button" class="chip-btn" onclick="filterBySubject('Science', this)"><span
-                                class="chip-dot chip-dot-sci"></span> Science</button>
-                        <button type="button" class="chip-btn" onclick="filterBySubject('English', this)"><span
-                                class="chip-dot chip-dot-eng"></span> English</button>
-                        <button type="button" class="chip-btn" onclick="filterBySubject('EVS', this)"><span
-                                class="chip-dot chip-dot-evs"></span> EVS</button>
-                        <button type="button" class="chip-btn" onclick="filterBySubject('Social Science', this)"><span
-                                class="chip-dot chip-dot-soc"></span> Social</button>
-                    </div>
-
-                    <!-- Cascading Skill Area & Activity Dropdowns (inline) -->
-                    <div id="kidSkillActivityInline" style="display: inline-flex; gap: 8px; align-items: center;">
-                        <select class="cascade-filter-select" id="filterSkillAreaSelect"
-                            style="width: 170px; padding: 6px 10px; font-size: 12.5px;"
-                            onchange="handleSkillAreaFilterChange(this.value)">
-                            <option value="all">🎯 All Skills</option>
-                        </select>
-                        <select class="cascade-filter-select" id="filterActivitySelect"
-                            style="width: 170px; padding: 6px 10px; font-size: 12.5px;"
-                            onchange="handleActivityFilterChange(this.value)">
-                            <option value="all">⚡ All Activities</option>
-                        </select>
+                        <button type="button" class="chip-btn active" onclick="filterBySubject('all', this)">All</button>
+                        <button type="button" class="chip-btn" onclick="filterBySubject('Mathematics', this)"><span class="chip-dot chip-dot-math"></span> Math</button>
+                        <button type="button" class="chip-btn" onclick="filterBySubject('English', this)"><span class="chip-dot chip-dot-eng"></span> English</button>
+                        <button type="button" class="chip-btn" onclick="filterBySubject('Science', this)"><span class="chip-dot chip-dot-sci"></span> Science</button>
+                        <button type="button" class="chip-btn" onclick="filterBySubject('EVS', this)"><span class="chip-dot chip-dot-evs"></span> EVS</button>
+                        <button type="button" class="chip-btn" onclick="filterBySubject('Social Science', this)"><span class="chip-dot chip-dot-soc"></span> Social</button>
                     </div>
 
                     <div style="display: flex; gap: 8px; align-items: center; margin-left: auto;">
-                        <input type="text" class="search-box-input" id="gameSearchInput"
-                            placeholder="Search activities..." oninput="handleGameSearch(this.value)">
-                        <button type="button" class="btn-clear-filters" id="btnClearFilters" onclick="resetAllFilters()"
-                            style="display: none;">✕ Clear</button>
-                        <button type="button" class="btn-clear-assignments-sm" id="btnKidResetAssignments"
-                            onclick="promptResetAssignments()" style="display: none;" title="Reset assigned activities">
-                            <span>🗑️</span> Reset
-                        </button>
+                        <input type="text" class="search-box-input" id="gameSearchInput" placeholder="Search activities..." oninput="handleGameSearch(this.value)">
+                        <button type="button" class="btn-clear-filters" id="btnClearFilters" onclick="resetAllFilters()" style="display: none;">✕ Clear</button>
                     </div>
                 </div>
             </div>
@@ -158,117 +111,80 @@
         </div>
 
         <!-- ====================================================
-             2. TEACHER HUB VIEW (CLEAN CURRICULUM BOARD)
+             2. TEACHER HUB VIEW (CLEAN & SIMPLE CURRICULUM BOARD)
              ==================================================== -->
         <div id="teacherHubView" class="teacher-view-wrap">
 
             <!-- Single Unified Control Panel -->
             <div class="unified-control-panel">
-                <!-- Top Row: Title, Inline Metrics & Class Selector -->
+                <!-- Top Row: Title, Summary Metrics & Primary Action Buttons -->
                 <div class="ucp-top-row">
                     <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
-                        <div style="display: flex; align-items: center; gap: 8px;">
-                            <h2
-                                style="font-family: var(--font-heading); font-size: 21px; font-weight: 700; color: #1e1b4b; margin: 0;">
-                                🎓 Teacher Hub</h2>
-                            <span class="tab-counter-badge" id="teacherBadgeAssignedCount">0 activities</span>
-                        </div>
+                        <h2 style="font-family: var(--font-heading); font-size: 21px; font-weight: 700; color: #1e1b4b; margin: 0;">
+                            🎓 Teacher Hub
+                        </h2>
                         <div class="teacher-metrics-strip-inline">
-                            <span class="tms-badge tms-assigned">👥 <strong
-                                    id="teacherStatAssignedActivities">0</strong> Assigned</span>
-                            <span class="tms-badge tms-done">✓ <strong id="teacherStatCompleted">0</strong>
-                                Completed</span>
-                            <span class="tms-badge tms-pending">⏳ <strong id="teacherStatPending">0</strong>
-                                Pending</span>
+                            <span class="tms-badge tms-assigned">👥 <strong id="teacherStatAssignedActivities">0</strong> Assigned</span>
+                            <span class="tms-badge tms-done">✓ <strong id="teacherStatCompleted">0</strong> Completed</span>
+                            <span class="tms-badge tms-pending">⏳ <strong id="teacherStatPending">0</strong> Pending</span>
                         </div>
                     </div>
 
-                    <div class="teacher-class-selector-wrapper">
+                    <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                        <button type="button" class="btn-secondary-tool" id="btnDeleteTaskTop" onclick="openDeleteTaskModal()" title="Manage & delete custom tasks">
+                            <span>⚙️</span> Manage Tasks
+                        </button>
+                        <button type="button" class="btn-secondary-tool" onclick="promptResetAssignments()" title="Reset assignments">
+                            <span>↺</span> Reset
+                        </button>
+                        <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(true)">
+                            <span>✨</span> Create Activity
+                        </button>
+                        <button type="button" class="btn-assign-modal" onclick="openAssignModal()">
+                            <span>+</span> Assign
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bottom Row: Class Dropdown, Subject Chips, Status Toggle & Search -->
+                <div class="ucp-bottom-row">
+                    <div class="teacher-class-selector-wrapper" style="margin-right: 4px;">
                         <span class="teacher-class-label">Class:</span>
-                        <div class="teacher-class-pill-group" id="teacherClassPills">
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('I')">Class I</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('II')">Class II</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('III')">Class III</button>
-                            <button type="button" class="teacher-class-pill active"
-                                onclick="handleTeacherClassChange('IV')">Class IV</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('V')">Class V</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('VI')">Class VI</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('VII')">Class VII</button>
-                            <button type="button" class="teacher-class-pill"
-                                onclick="handleTeacherClassChange('VIII')">Class VIII</button>
-                        </div>
-                        <select class="class-dropdown-btn" id="teacherClassSelect" style="display: none;"
-                            onchange="handleTeacherClassChange(this.value)">
+                        <select class="class-dropdown-btn" id="teacherClassSelect" onchange="handleTeacherClassChange(this.value)">
                             <option value="I">Class I</option>
-                            <option value="II">Class II</option>
+                            <option value="II" selected>Class II</option>
                             <option value="III">Class III</option>
-                            <option value="IV" selected>Class IV</option>
+                            <option value="IV">Class IV</option>
                             <option value="V">Class V</option>
                             <option value="VI">Class VI</option>
                             <option value="VII">Class VII</option>
                             <option value="VIII">Class VIII</option>
                         </select>
                     </div>
-                </div>
 
-                <!-- Bottom Row: Subject Filter Chips, Status Filter, Search & + Assign Button -->
-                <div class="ucp-bottom-row">
                     <div class="subject-filter-chips" id="teacherSubjectChips">
-                        <button type="button" class="chip-btn active"
-                            onclick="filterTeacherSubject('all', this)">All</button>
-                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('Mathematics', this)"><span
-                                class="chip-dot chip-dot-math"></span> Math</button>
-                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('English', this)"><span
-                                class="chip-dot chip-dot-eng"></span> English</button>
-                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('EVS', this)"><span
-                                class="chip-dot chip-dot-evs"></span> EVS</button>
-                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('Science', this)"><span
-                                class="chip-dot chip-dot-sci"></span> Science</button>
-                        <button type="button" class="chip-btn"
-                            onclick="filterTeacherSubject('Social Science', this)"><span
-                                class="chip-dot chip-dot-soc"></span> Social</button>
+                        <button type="button" class="chip-btn active" onclick="filterTeacherSubject('all', this)">All</button>
+                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('Mathematics', this)"><span class="chip-dot chip-dot-math"></span> Math</button>
+                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('English', this)"><span class="chip-dot chip-dot-eng"></span> English</button>
+                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('Science', this)"><span class="chip-dot chip-dot-sci"></span> Science</button>
+                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('EVS', this)"><span class="chip-dot chip-dot-evs"></span> EVS</button>
+                        <button type="button" class="chip-btn" onclick="filterTeacherSubject('Social Science', this)"><span class="chip-dot chip-dot-soc"></span> Social</button>
                     </div>
 
                     <!-- Quick Status Filter (All vs Assigned Only) -->
                     <div class="tab-toggles tab-toggles-sm">
-                        <button type="button" class="tab-btn active" id="btnTeacherStatusAll"
-                            onclick="filterTeacherStatus('all', this)">All Activities</button>
-                        <button type="button" class="tab-btn" id="btnTeacherStatusAssigned"
-                            onclick="filterTeacherStatus('assigned', this)">Assigned Only</button>
+                        <button type="button" class="tab-btn active" id="btnTeacherStatusAll" onclick="filterTeacherStatus('all', this)">All</button>
+                        <button type="button" class="tab-btn" id="btnTeacherStatusAssigned" onclick="filterTeacherStatus('assigned', this)">Assigned</button>
                     </div>
 
                     <!-- Layout Mode Switcher (Table vs Cards) -->
                     <div class="view-mode-toggle">
-                        <button type="button" class="view-mode-btn active" id="btnModeTable"
-                            onclick="setTeacherLayoutMode('table', this)" title="Table view">☰ Table</button>
-                        <button type="button" class="view-mode-btn" id="btnModeGrid"
-                            onclick="setTeacherLayoutMode('grid', this)" title="Cards grid view">⊞ Cards</button>
+                        <button type="button" class="view-mode-btn active" id="btnModeTable" onclick="setTeacherLayoutMode('table', this)" title="Table view">☰ Table</button>
+                        <button type="button" class="view-mode-btn" id="btnModeGrid" onclick="setTeacherLayoutMode('grid', this)" title="Cards grid view">⊞ Cards</button>
                     </div>
 
-                    <div style="display: flex; gap: 10px; align-items: center; margin-left: auto;">
-                        <input type="text" class="search-box-input" style="width: 200px;" id="teacherSearchInput"
-                            placeholder="Search activities..." oninput="filterTeacherActivities(this.value)">
-                        <button type="button" class="btn-clear-assignments-sm" onclick="promptResetAssignments()"
-                            title="Reset assignments">
-                            <span>🗑️</span> Reset
-                        </button>
-                        <button type="button" class="btn-delete-tasks-top" id="btnDeleteTaskTop" onclick="openDeleteTaskModal()"
-                            title="Manage & delete custom tasks">
-                            <span>🗑️</span> Delete Task
-                        </button>
-                        <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(true)"
-                            title="Create a new activity with automatic AI game and quiz generation">
-                            <span>✨</span> Create New Activity
-                        </button>
-                        <button type="button" class="btn-assign-modal" onclick="openAssignModal()">
-                            <span>+</span> Assign an Activity
-                        </button>
+                    <div style="display: flex; gap: 8px; align-items: center; margin-left: auto;">
+                        <input type="text" class="search-box-input" style="width: 190px;" id="teacherSearchInput" placeholder="Search activities..." oninput="filterTeacherActivities(this.value)">
                     </div>
                 </div>
             </div>
@@ -805,8 +721,8 @@
     </div>
 
     <!-- JAVASCRIPT APP LOGIC -->
-    <script src="js/class2_games.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/class2_games.js?v=2.0"></script>
+    <script src="js/app.js?v=2.0"></script>
 </body>
 
 </html>

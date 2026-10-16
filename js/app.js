@@ -371,25 +371,26 @@
                     <div class="game-thumb-wrap" style="height: 135px;">
                         <img src="${game.thumb}" alt="${game.title}" class="game-thumb-img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80'">
                         <span class="subject-badge-pill ${game.badgeClass}">${game.subject}</span>
-                        ${game.isCustom ? '<span class="tac-badge tac-badge-custom" style="position: absolute; top: 10px; right: 10px; z-index: 3; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">⭐ Teacher Task</span>' : ''}
+                        ${game.isCustom ? '<span class="tac-badge tac-badge-custom" style="position: absolute; top: 10px; right: 10px; z-index: 3; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">⭐ Custom</span>' : ''}
                         ${isCompleted ? '<span class="game-status-pill"><span>✓</span> Completed</span>' : (assignedForThis.length > 0 ? '<span class="game-status-pill" style="background: rgba(254, 243, 199, 0.95); color: #b45309;"><span>⏳</span> Assigned</span>' : '')}
                     </div>
-                    <div class="game-info-body" style="padding: 16px 18px;">
-                        <div class="game-category-tags" style="margin-bottom: 6px;">
-                            <span class="skill-tag-pill" title="Skill Area: ${game.skillArea}">🎯 ${game.skillArea}</span>
-                            <span class="activity-tag-pill" title="Activity: ${game.activity}">⚡ ${game.activity}</span>
-                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:11px; font-weight:800; border-radius:999px; padding:2px 8px;">🎮 Interactive Mini-Game</span>' : ''}
+                    <div class="game-info-body" style="padding: 14px 16px;">
+                        <div class="game-simple-tags">
+                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '<span class="simple-tag mini-game-tag">🎮 Mini-Game</span>' : ''}
+                            <span class="simple-tag">${game.skillArea || 'General'}</span>
                         </div>
-                        <h3 class="game-title" style="font-size: 17px; margin-bottom: 8px;">${game.title}</h3>
+                        <h3 class="game-title" style="font-size: 16px; margin-bottom: 8px;">${game.title}</h3>
 
                         ${assignedForThis.length > 0 ? `
-                        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 6px 10px; margin-bottom: 12px; font-size: 11.5px; color: #4338ca; font-weight: 700;">
-                            👥 Assigned (${assignedForThis.length}): ${assignedForThis.map(a => `${a.student}${a.status === 'completed' ? ' (✓)' : ''}`).join(', ')}
+                        <div class="game-assigned-summary">
+                            <span class="assigned-dot"></span>
+                            <span>${assignedForThis.length} assigned</span>
+                            ${compCount > 0 ? `<span class="assigned-comp-check">(${compCount} done ✓)</span>` : ''}
                         </div>
                         ` : ''}
 
-                        <button type="button" class="btn-play-action ${isCompleted ? 'played' : ''}" style="margin-top: auto; padding: 10px 16px; font-size: 13.5px;" onclick="openWhoIsPlaying('${game.id}')">
-                            <span>${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '🎮' : '▶'}</span> ${isCompleted ? 'Play again 🚀' : ((window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? 'Play Mini-Game 🚀' : 'Play Activity 🚀')}
+                        <button type="button" class="btn-play-action ${isCompleted ? 'played' : ''}" style="margin-top: auto; padding: 9px 14px; font-size: 13px;" onclick="openWhoIsPlaying('${game.id}')">
+                            <span>${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '🎮' : '▶'}</span> ${isCompleted ? 'Play again 🚀' : 'Play Activity 🚀'}
                         </button>
                     </div>
                 `;
@@ -1301,14 +1302,18 @@
                                     </td>
                                     <td>
                                         <div class="curriculum-progress-wrap">
-                                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                                <span class="curriculum-pct ${pct === 100 ? 'done' : (isAssigned ? 'in-prog' : 'none')}">
-                                                    ${isAssigned ? `<strong>${compCount}/${totalAssigned}</strong> completed (${pct}%)` : 'Not assigned (0%)'}
+                                            ${isAssigned ? `
+                                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                                                <span class="curriculum-pct ${pct === 100 ? 'done' : 'in-prog'}">
+                                                    <strong>${compCount}/${totalAssigned}</strong> completed (${pct}%)
                                                 </span>
                                             </div>
-                                            <div class="tac-progress-bar" style="height: 7px; background: #e2e8f0; border-radius: 999px; overflow: hidden;">
+                                            <div class="tac-progress-bar" style="height: 6px; background: #e2e8f0; border-radius: 999px; overflow: hidden;">
                                                 <div class="tac-progress-fill ${pct === 100 ? 'full' : ''}" style="height: 100%; width: ${pct}%; border-radius: 999px; background: ${pct === 100 ? '#10b981' : 'linear-gradient(90deg, #f59e0b, #10b981)'};"></div>
                                             </div>
+                                            ` : `
+                                            <span style="color: #94a3b8; font-size: 12.5px; font-weight: 500;">Not assigned</span>
+                                            `}
                                         </div>
                                     </td>
                                     <td>
@@ -1320,7 +1325,7 @@
                                                             ${a.status === 'completed' ? `✓ ${a.student}` : `⏳ ${a.student}`}
                                                         </span>
                                                     `).join('')
-                                        : `<span class="curriculum-empty-dash">—</span>`
+                                        : `<button type="button" class="btn-quick-assign" onclick="openAssignModalForGame('${g.id}')">+ Assign</button>`
                                     }
                                             </div>
                                             ${isAssigned ? `

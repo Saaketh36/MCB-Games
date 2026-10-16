@@ -543,20 +543,46 @@ def get_skill_report(skill_id):
 # ============================================================
 
 from ai_helper import generate_ai_task_and_quiz
+from ai_cache import lookup_cached_task, store_cached_task, get_cache_statistics
 
 @app.route('/api/ai/generate-task', methods=['POST'])
 def api_generate_ai_task():
-    """AI endpoint for generating games, tasks, and quizzes automatically."""
+    """AI endpoint for generating games, tasks, and quizzes automatically with Question Bank Caching."""
     try:
         data = request.json or {}
         prompt = data.get('prompt', '')
         class_name = data.get('class', 'IV')
         subject = data.get('subject', 'Science')
         topic = data.get('topic', '')
-        num_questions = data.get('num_questions', 3)
+        num_questions = int(data.get('num_questions', 3))
         difficulty = data.get('difficulty', 'Medium')
         api_key = data.get('api_key', None)
+        force_refresh = bool(data.get('force_refresh', False))
 
+        target_topic = topic or prompt or f"{subject} Concepts"
+
+        # 1. Question Bank Cache check in PostgreSQL
+        if not force_refresh:
+            cached_res = lookup_cached_task(
+                db.session, class_name, subject, target_topic, difficulty, num_questions
+            )
+            if cached_res:
+                task_data, original_provider = cached_res
+                logger.info(f"Serving task from Question Bank Cache for {class_name} {subject} - {target_topic}")
+                return jsonify({
+                    'status': 'success',
+                    'success': True,
+                    'provider': f"⚡ Question Bank Cache ({original_provider})",
+                    'cached': True,
+                    'task': task_data,
+                    'data': {
+                        'task': task_data,
+                        'questions': task_data.get('questions', []),
+                        'source': 'cache'
+                    }
+                }), 200
+
+        # 2. Fresh generation via Gemini AI (with smart curriculum fallback)
         task_data, provider = generate_ai_task_and_quiz(
             prompt=prompt,
             class_name=class_name,
@@ -567,11 +593,17 @@ def api_generate_ai_task():
             api_key=api_key
         )
 
+        # 3. Store in PostgreSQL Question Bank Cache for instant future reuse
+        store_cached_task(
+            db.session, class_name, subject, target_topic, difficulty, num_questions, task_data, provider
+        )
+
         is_gemini = 'Gemini' in provider
         return jsonify({
             'status': 'success',
             'success': True,
             'provider': provider,
+            'cached': False,
             'task': task_data,
             'data': {
                 'task': task_data,
@@ -582,6 +614,16 @@ def api_generate_ai_task():
     except Exception as e:
         logger.error(f"Error in AI task generation: {e}")
         return jsonify({'status': 'error', 'success': False, 'message': str(e), 'error': str(e)}), 500
+
+@app.route('/api/ai/cache-stats', methods=['GET'])
+def api_ai_cache_stats():
+    """Retrieve Question Bank Cache statistics from PostgreSQL."""
+    try:
+        stats = get_cache_statistics(db.session)
+        return jsonify({'status': 'success', 'success': True, 'stats': stats}), 200
+    except Exception as e:
+        logger.error(f"Error fetching cache stats: {e}")
+        return jsonify({'status': 'error', 'success': False, 'message': str(e)}), 500
 
 @app.route('/api/ai/status', methods=['GET'])
 def api_ai_status():

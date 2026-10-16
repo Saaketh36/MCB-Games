@@ -354,3 +354,41 @@ class GamePin(db.Model):
             'is_approved': self.is_approved,
             'created_at': self.created_at.isoformat() if self.created_at else None
         }
+
+
+class CachedAiTask(db.Model):
+    __tablename__ = 'cached_ai_tasks'
+
+    id = db.Column(db.Integer, primary_key=True)
+    cache_key = db.Column(db.String(255), unique=True, nullable=False, index=True)
+    class_name = db.Column(db.String(10), nullable=False, index=True)
+    subject = db.Column(db.String(50), nullable=False, index=True)
+    topic = db.Column(db.String(150), nullable=False, index=True)
+    difficulty = db.Column(db.String(20), default='Medium')
+    num_questions = db.Column(db.Integer, default=3)
+    task_data = db.Column(db.Text, nullable=False)  # JSON-encoded string for maximum compatibility
+    provider = db.Column(db.String(100), default='Gemini')
+    hit_count = db.Column(db.Integer, default=1)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    def to_dict(self):
+        import json
+        try:
+            parsed_data = json.loads(self.task_data) if isinstance(self.task_data, str) else self.task_data
+        except Exception:
+            parsed_data = {}
+        return {
+            'id': self.id,
+            'cache_key': self.cache_key,
+            'class': self.class_name,
+            'subject': self.subject,
+            'topic': self.topic,
+            'difficulty': self.difficulty,
+            'num_questions': self.num_questions,
+            'task': parsed_data,
+            'provider': self.provider,
+            'hit_count': self.hit_count,
+            'created_at': self.created_at.isoformat() if self.created_at else None,
+            'updated_at': self.updated_at.isoformat() if self.updated_at else None
+        }

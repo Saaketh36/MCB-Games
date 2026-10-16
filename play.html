@@ -6,6 +6,7 @@
 <title>Play – MyClassboard Games</title>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/class2_games.css">
 <style>
 :root{--p:#667eea;--p2:#764ba2;--ok:#28a745;--bad:#dc3545;--ink:#2d3250;--bg:#f4f6ff}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -87,6 +88,7 @@ textarea{width:100%;padding:12px;border:2px solid #dfe3f5;border-radius:12px;fon
 </div>
 
 <script src="curriculum-data.js"></script>
+<script src="js/class2_games.js"></script>
 <script>
 window.GAME_CONTENT = window.GAME_CONTENT || {};
 const stage = document.getElementById('stage');
@@ -418,6 +420,11 @@ function toMCQItems(c){
 }
 function start(){
   setBar(0,1); document.getElementById('pts').textContent = points;
+  if (window.Class2Games && window.Class2Games.isClass2Interactive(act)) {
+    return window.Class2Games.render(stage, act, (result) => {
+      finish(result.score, result.total);
+    });
+  }
   const c = content, t = act.type;
   try {
     if (t === 'MCQ Quiz') return runMCQ(toMCQItems(c));

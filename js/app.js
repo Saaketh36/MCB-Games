@@ -378,6 +378,7 @@
                         <div class="game-category-tags" style="margin-bottom: 6px;">
                             <span class="skill-tag-pill" title="Skill Area: ${game.skillArea}">🎯 ${game.skillArea}</span>
                             <span class="activity-tag-pill" title="Activity: ${game.activity}">⚡ ${game.activity}</span>
+                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:11px; font-weight:800; border-radius:999px; padding:2px 8px;">🎮 Interactive Mini-Game</span>' : ''}
                         </div>
                         <h3 class="game-title" style="font-size: 17px; margin-bottom: 8px;">${game.title}</h3>
 
@@ -388,7 +389,7 @@
                         ` : ''}
 
                         <button type="button" class="btn-play-action ${isCompleted ? 'played' : ''}" style="margin-top: auto; padding: 10px 16px; font-size: 13.5px;" onclick="openWhoIsPlaying('${game.id}')">
-                            <span>▶</span> ${isCompleted ? 'Play again 🚀' : "Play Activity 🚀"}
+                            <span>${(window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? '🎮' : '▶'}</span> ${isCompleted ? 'Play again 🚀' : ((window.Class2Games && window.Class2Games.isClass2Interactive(game)) ? 'Play Mini-Game 🚀' : 'Play Activity 🚀')}
                         </button>
                     </div>
                 `;
@@ -701,6 +702,8 @@
 
         function closeQuestRunner() {
             if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+            const c2 = document.getElementById('c2InteractiveGameContainer');
+            if (c2) c2.innerHTML = '';
             document.getElementById('questRunnerModal').classList.remove('active');
             renderKidZone();
             renderTeacherHub();
@@ -844,6 +847,44 @@
 
         function renderQuestStep() {
             const game = AppState.activeMissionGame;
+            if (!game) return;
+
+            const c2Container = document.getElementById('c2InteractiveGameContainer');
+            const standardElements = [
+                document.getElementById('questStepperRow'),
+                document.getElementById('questStepCounter') ? document.getElementById('questStepCounter').parentElement : null,
+                document.querySelector('.quest-progress-track'),
+                document.querySelector('.quest-prompt-card'),
+                document.getElementById('questChoicesGrid'),
+                document.querySelector('.quest-footer-bar')
+            ];
+
+            // Direct-manipulation Tactile Mini-Game for Class 2
+            if (window.Class2Games && window.Class2Games.isClass2Interactive(game)) {
+                standardElements.forEach(el => { if (el) el.style.display = 'none'; });
+                if (c2Container) {
+                    c2Container.style.display = 'block';
+                    window.Class2Games.render(c2Container, game, (result) => {
+                        AppState.missionAnswers = {};
+                        const qCount = (game.questions && game.questions.length) || result.total || 3;
+                        for (let i = 0; i < qCount; i++) {
+                            if (i < result.score) {
+                                AppState.missionAnswers[i] = (game.questions && game.questions[i]) ? game.questions[i].answer : 0;
+                            } else {
+                                const cor = (game.questions && game.questions[i]) ? game.questions[i].answer : 0;
+                                AppState.missionAnswers[i] = (cor + 1) % 4;
+                            }
+                        }
+                        finishQuestAndShowReview();
+                    });
+                }
+                return;
+            }
+
+            // Standard MCQ / Visual Diagram Quest Runner
+            if (c2Container) c2Container.style.display = 'none';
+            standardElements.forEach(el => { if (el) el.style.display = ''; });
+
             const qList = game.questions;
             const total = qList.length;
             const q = qList[AppState.missionStep];
@@ -884,6 +925,37 @@
             if (tipEl) tipEl.innerHTML = `<span>💡</span> ${tips[AppState.missionStep % tips.length]}`;
 
             document.getElementById('questPromptTitle').textContent = q.prompt;
+
+            // Multi-Modal Visual Clue & Diagram Rendering
+            const visualCont = document.getElementById('questVisualContainer');
+            const diagBox = document.getElementById('questDiagramBox');
+            const cluePill = document.getElementById('questCluePill');
+
+            if (visualCont && diagBox && cluePill) {
+                const hasSvg = q.svg_diagram && q.svg_diagram.includes('<svg');
+                const hasClue = q.visual_hint && q.visual_hint.trim().length > 0;
+
+                if (hasSvg || hasClue) {
+                    visualCont.style.display = 'flex';
+                    if (hasSvg) {
+                        diagBox.innerHTML = q.svg_diagram;
+                        diagBox.style.display = 'flex';
+                    } else {
+                        diagBox.innerHTML = '';
+                        diagBox.style.display = 'none';
+                    }
+
+                    if (hasClue) {
+                        cluePill.textContent = q.visual_hint;
+                        cluePill.style.display = 'inline-flex';
+                    } else {
+                        cluePill.textContent = '';
+                        cluePill.style.display = 'none';
+                    }
+                } else {
+                    visualCont.style.display = 'none';
+                }
+            }
 
             const grid = document.getElementById('questChoicesGrid');
             grid.innerHTML = '';
@@ -1068,6 +1140,12 @@
                         <div><strong>Why?</strong> ${q.explanation}</div>
                     </div>
                     ` : ''}
+
+                    ${q.visual_hint ? `
+                    <div style="font-size: 12.5px; color: #4338ca; background: #eef2ff; border-radius: 8px; padding: 6px 12px; margin-top: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
+                        <span>🎨 Visual Clue:</span> ${escapeHtml(q.visual_hint)}
+                    </div>
+                    ` : ''}
                 `;
                 reviewList.appendChild(card);
             });
@@ -1217,6 +1295,7 @@
                                         <div class="curriculum-title-wrap" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                                             ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
                                             ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
+                                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:10.5px; font-weight:800; border-radius:999px; padding:2px 7px;">🎮 Mini-Game</span>' : ''}
                                             <span class="curriculum-title" style="font-family: var(--font-heading); font-size: 15px; font-weight: 700; color: #0f172a;">${g.title}</span>
                                         </div>
                                     </td>
@@ -1307,6 +1386,7 @@
                                         <div class="tac-badges" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
                                             ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
                                             ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
+                                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:10.5px; font-weight:800; border-radius:999px; padding:2px 7px;">🎮 Mini-Game</span>' : ''}
                                             <h4 class="tac-title" style="font-size: 15.5px; margin: 0; display: inline-block;">${g.title}</h4>
                                         </div>
                                     </div>
@@ -2051,7 +2131,7 @@
             statusEl.innerHTML = `<span>${iconHtml}</span> <span>${escapeHtml(msg)}</span>`;
         }
 
-        async function triggerAiTaskGeneration() {
+        async function triggerAiTaskGeneration(forceRefresh = false) {
             const promptEl = document.getElementById('aiTaskPrompt');
             const prompt = (promptEl ? promptEl.value : '').trim();
 
@@ -2067,15 +2147,19 @@
             }
 
             const btn = document.getElementById('btnGenerateAiTask');
+            const btnFresh = document.getElementById('btnGenerateAiFresh');
             const btnIcon = document.getElementById('aiBtnIcon');
             const btnText = document.getElementById('aiBtnText');
             const origText = btnText ? btnText.textContent : 'Generate with AI';
 
             // Loading state
             if (btn) btn.disabled = true;
+            if (btnFresh) btnFresh.disabled = true;
             if (btnIcon) btnIcon.innerHTML = '<span class="ai-spinner"></span>';
-            if (btnText) btnText.textContent = 'Designing Game...';
-            showAiStatus(`AI is designing ${numQuestions} ${difficulty.toLowerCase()} questions for Class ${cls} ${subject}...`, 'loading');
+            if (btnText) btnText.textContent = forceRefresh ? 'Generating Fresh...' : 'Designing Game...';
+            showAiStatus(forceRefresh
+                ? `Generating ${numQuestions} fresh ${difficulty.toLowerCase()} questions via Gemini AI...`
+                : `AI is checking question bank & designing ${numQuestions} ${difficulty.toLowerCase()} questions for Class ${cls} ${subject}...`, 'loading');
 
             try {
                 const response = await fetch('/api/ai/generate-task', {
@@ -2086,7 +2170,8 @@
                         class: cls,
                         subject: subject,
                         num_questions: numQuestions,
-                        difficulty: difficulty
+                        difficulty: difficulty,
+                        force_refresh: forceRefresh
                     })
                 });
 
@@ -2143,7 +2228,7 @@
                     }
                 }
 
-                // 2. Populate Questions
+                // 2. Populate Questions with Multi-Modal Assets
                 if (Array.isArray(questions) && questions.length > 0) {
                     currentCreateTaskQuestions = questions.map(q => ({
                         prompt: q.prompt || '',
@@ -2151,13 +2236,19 @@
                             ? [q.options[0] || '', q.options[1] || '', q.options[2] || '', q.options[3] || '']
                             : ['', '', '', ''],
                         answer: (typeof q.answer === 'number' && q.answer >= 0 && q.answer < 4) ? q.answer : 0,
-                        explanation: q.explanation || ''
+                        explanation: q.explanation || '',
+                        visual_hint: q.visual_hint || '',
+                        svg_diagram: q.svg_diagram || ''
                     }));
                     renderQuestionBlocks();
                 }
 
+                const isCached = result.cached || (result.provider && result.provider.includes('Question Bank Cache'));
                 const providerName = result.provider || (result.data && result.data.source === 'gemini' ? 'Google Gemini AI' : 'Smart Curriculum AI');
-                showAiStatus(`✨ Generated "${task.title || 'Task'}" with ${questions.length} questions via ${providerName}! Review and publish below.`, 'success');
+                const statusMsg = isCached
+                    ? `⚡ Served instantly from Question Bank Cache (0s)! "${task.title || 'Task'}" ready with ${questions.length} questions (${difficulty}).`
+                    : `✨ Generated "${task.title || 'Task'}" with ${questions.length} questions (${difficulty}) via ${providerName}! Review and publish below.`;
+                showAiStatus(statusMsg, 'success');
                 showToastNotification(`✨ AI generated ${questions.length} questions successfully!`);
 
                 // Smooth scroll to task details so teacher sees what was generated
@@ -2174,6 +2265,7 @@
                 showAiStatus(`⚠️ ${err.message || 'Generation failed. Please try again.'}`, 'error');
             } finally {
                 if (btn) btn.disabled = false;
+                if (btnFresh) btnFresh.disabled = false;
                 if (btnIcon) btnIcon.textContent = '✨';
                 if (btnText) btnText.textContent = origText;
             }
@@ -2253,6 +2345,16 @@
                             <button type="button" class="btn-remove-q" onclick="removeQuestionBlock(${qIdx})">✕ Remove</button>
                         ` : ''}
                     </div>
+                    ${q.visual_hint ? `
+                        <div style="font-size: 12px; color: #4338ca; background: #eef2ff; border-radius: 8px; padding: 5px 10px; margin-bottom: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
+                            <span>💡 Clue:</span> ${escapeHtml(q.visual_hint)}
+                        </div>
+                    ` : ''}
+                    ${q.svg_diagram ? `
+                        <div style="max-height: 80px; overflow: hidden; margin-bottom: 8px; border-radius: 10px; border: 1.5px dashed #cbd5e1; padding: 4px; display: flex; justify-content: center; background: #f8fafc;">
+                            ${q.svg_diagram}
+                        </div>
+                    ` : ''}
                     <div style="margin-bottom: 10px;">
                         <input type="text" class="assign-input q-prompt-input" data-qidx="${qIdx}" placeholder="Enter question prompt..." value="${escapeHtml(q.prompt)}">
                     </div>
@@ -2408,7 +2510,9 @@
                     prompt: prompt,
                     options: finalOpts,
                     answer: ans,
-                    explanation: exp
+                    explanation: exp,
+                    visual_hint: q.visual_hint || '',
+                    svg_diagram: q.svg_diagram || ''
                 });
             }
 

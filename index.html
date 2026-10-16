@@ -12,6 +12,7 @@
         rel="stylesheet">
     <script src="full_games_catalog.js"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/class2_games.css">
 </head>
 
 <body>
@@ -513,8 +514,11 @@
                                     </select>
                                 </div>
 
-                                <button type="button" class="btn-generate-ai" id="btnGenerateAiTask" onclick="triggerAiTaskGeneration()">
+                                <button type="button" class="btn-generate-ai" id="btnGenerateAiTask" onclick="triggerAiTaskGeneration(false)">
                                     <span id="aiBtnIcon">✨</span> <span id="aiBtnText">Generate with AI</span>
+                                </button>
+                                <button type="button" class="btn-generate-ai-fresh" id="btnGenerateAiFresh" onclick="triggerAiTaskGeneration(true)" title="Generate fresh new questions from Gemini AI (bypassing Question Bank Cache)">
+                                    <span>🔄</span> <span>Regenerate Fresh</span>
                                 </button>
                             </div>
                         </div>
@@ -698,6 +702,9 @@
 
             <!-- ACTIVE QUESTION RUNNER -->
             <div id="questActiveRunner">
+                <!-- Class 2 Interactive Mini-Game Engine Container -->
+                <div id="c2InteractiveGameContainer" style="display: none; width: 100%;"></div>
+
                 <!-- Stepper Question Pills (Q1, Q2, Q3...) -->
                 <div class="quest-stepper-row" id="questStepperRow">
                     <!-- Populated dynamically via renderQuestStep() -->
@@ -729,6 +736,12 @@
                     <h2 class="quest-prompt-title" id="questPromptTitle">
                         Loading challenge...
                     </h2>
+
+                    <!-- Multi-Modal Visual Clue & Diagram Area (Classes I-VIII) -->
+                    <div class="quest-visual-container" id="questVisualContainer" style="display: none;">
+                        <div class="quest-diagram-box" id="questDiagramBox"></div>
+                        <div class="quest-clue-pill" id="questCluePill"></div>
+                    </div>
                 </div>
 
                 <!-- 2x2 Choice Cards Grid -->
@@ -792,6 +805,7 @@
     </div>
 
     <!-- JAVASCRIPT APP LOGIC -->
+    <script src="js/class2_games.js"></script>
     <script src="js/app.js"></script>
 </body>
 

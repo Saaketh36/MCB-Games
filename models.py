@@ -65,7 +65,7 @@ class Skill(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-    description = db.Text
+    description = db.Column(db.Text)
     subject_id = db.Column(db.Integer, db.ForeignKey('subjects.id', ondelete='CASCADE'), nullable=False)
     class_id = db.Column(db.Integer, db.ForeignKey('classes.id', ondelete='CASCADE'), nullable=False)
     difficulty_level = db.Column(db.String(20), default='beginner')
@@ -94,7 +94,7 @@ class Game(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), unique=True, nullable=False)
-    description = db.Text
+    description = db.Column(db.Text)
     skill_id = db.Column(db.Integer, db.ForeignKey('skills.id', ondelete='CASCADE'), nullable=False)
     class_id = db.Column(db.Integer, db.ForeignKey('classes.id', ondelete='CASCADE'), nullable=False)
     game_type = db.Column(db.String(50))
@@ -293,8 +293,8 @@ class ApiLog(db.Model):
     response_time = db.Column(db.Integer)
     user_id = db.Column(db.Integer, db.ForeignKey('students.id', ondelete='SET NULL'))
     ip_address = db.Column(db.String(45))
-    user_agent = db.Text
-    error_message = db.Text
+    user_agent = db.Column(db.Text)
+    error_message = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
 
@@ -303,7 +303,7 @@ class SystemSettings(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     setting_key = db.Column(db.String(100), unique=True, nullable=False)
-    setting_value = db.Text
+    setting_value = db.Column(db.Text)
     setting_type = db.Column(db.String(50))
     description = db.Column(db.String(255))
     created_at = db.Column(db.DateTime, default=datetime.utcnow)

@@ -1,400 +1,481 @@
-// Source: "Skill_Areas - Subskill area.pdf"
-// Row format:  Skill Area | Sub-Skill Area | Activity Name | Game Type
-// "@X" starts a class, "!Subject" starts a subject. Skill tokens in CAPS are expanded below.
-
+// Authoritative Curriculum Data derived strictly from 'skillAreaOutcomes - Sheet1.pdf'
+// Total Learning Outcomes: 440 across Classes I to VIII
 (function (root) {
-  const SKILL = {
-    NO: 'Numbers & Operations',
-    SH: 'Shapes & Spatial Understanding',
-    MEAS: 'Measurement (Length, Weight, Capacity, Time, Money)',
-    OI: 'Observation & Identification',
-    EUR: 'Explanation & Understanding Relationships',
-    CG: 'Classification & Grouping',
-    PP: 'Past & Present (Change over Time)',
-    EER: 'Estimation, Experimentation & Recording',
-    MS: 'Mapping & Spatial Skills',
-    CE: 'Creative Expression',
-    VSO: 'Values, Sensitivity & Opinion',
-    VG: 'Vocabulary & Grammar',
-    NS: 'Number System',
-    RPCA: 'Ratio, Proportion & Commercial Arithmetic',
-    ID: 'Identification & Differentiation',
-    SII: 'Scientific Inquiry & Investigation',
-    EPCE: 'Explaining Processes & Cause-Effect',
-    MRR: 'Measurement, Recording & Representation',
-    MADL: 'Models & Application in Daily Life',
-    EACV: 'Environmental Awareness, Creativity & Values',
-    SPL: 'Social & Political Life (Civics & Economics)'
-  };
-
   const SUBJECT_CODE = { 'English': 'ENG', 'Mathematics': 'MAT', 'EVS': 'EVS', 'Science': 'SCI', 'Social Science': 'SOC' };
-
   const RAW = `
 @I
 !English
-Listening|Following Instructions & Announcements|Listen & Do Adventure|Sequence Order
-Listening|Listening Comprehension & Response|Story Time Quiz|MCQ Quiz
-Speaking|Recitation & Performance|Rhyme Gap Fill|Fill in the Blank
-Speaking|Oral Expression & Narration|Picture Story Teller|Story Builder
-Speaking|Questioning|Question Word Match|Match Pairs
-Reading|Word Recognition|Sight Word Memory Match|Memory Match
-Reading|Phonics & Letter Recognition|Letter Sound Safari|Match Pairs
-Writing|Pre-writing|Trace the Pattern Path|Sequence Order
-Writing|Word, Sentence & Paragraph Writing|Word Builder|Word Scramble
-VG|Vocabulary|Picture Word Hunt|Guess the Word
-VG|Parts of Speech|Noun Basket Sort|Sort & Group
+Listening|Following Instructions & Announcements|Classroom Instructions: 'Shut the Door' & 'Bring the Book'|MCQ Quiz
+Listening|Following Instructions & Announcements|Listen to Instructions & Draw a Picture|MCQ Quiz
+Listening|Listening Comprehension & Response|Greetings & Polite Responses (English and Signing)|MCQ Quiz
+Reading|Phonics & Letter Recognition|Small & Capital Letters (Print and Braille)|MCQ Quiz
+Reading|Phonics & Letter Recognition|Phonics Blends: 'br' and 'fr' ('brother', 'frog')|MCQ Quiz
+Reading|Phonics & Letter Recognition|Alphabet Sounds & Letter Recognition A-Z|MCQ Quiz
+Reading|Word Recognition|Word Recognition & Picture Association|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #8)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #9)|MCQ Quiz
+Speaking|Questioning|Speaking Studio: Questioning (LO #10)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #11)|MCQ Quiz
+Vocabulary & Grammar|Parts of Speech|Parts of Speech: Nouns ('boy', 'sun') & Prepositions ('in', 'on', 'under')|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #13)|MCQ Quiz
+Writing|Pre-writing|Pre-Writing: Drawing & Scribbling to Stories|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Simple Word Writing ('fan', 'hen', 'rat')|MCQ Quiz
 !Mathematics
-NO|Number Sense & Place Value|Place Value Tower|MCQ Quiz
-NO|Addition & Subtraction|Add & Subtract Sprint|Timed Challenge
-SH|Classification of Objects|Odd One Out Zoo|Odd One Out
-SH|3D Shapes & Nets|Solid Shape Safari|Match Pairs
-MEAS|Length & Distance|Ruler Race|MCQ Quiz
-Patterns|Number Patterns|Pattern Train|Sequence Order
-Data Handling|Data Collection & Interpretation|Tally Marks Survey|MCQ Quiz
-
+Data Handling|Data Collection & Interpretation|Data Handling: Data Collection & Interpretation (LO #16)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Length & Distance|Non-Uniform Units: Hand Span, Forearm & Footsteps|MCQ Quiz
+Numbers & Operations|Addition & Subtraction|Addition & Subtraction within 20 and up to 9|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Understanding the Concept of Zero|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #20)|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #21)|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #22)|MCQ Quiz
+Patterns|Number Patterns|Patterns: Number Patterns (LO #23)|MCQ Quiz
+Shapes & Spatial Understanding|3D Shapes & Nets|Physical Features of Shapes: A Ball Rolls, a Box Slides|MCQ Quiz
+Shapes & Spatial Understanding|Classification of Objects|Shapes & Spatial Understanding: Classification of Objects (LO #25)|MCQ Quiz
 @II
 !English
-Listening|Listening Comprehension & Response|Sound Detective|MCQ Quiz
-Listening|Following Instructions & Announcements|Announcement Detective|Sequence Order
-Speaking|Recitation & Performance|Poem Performer|Fill in the Blank
-Speaking|Questioning|Ask Me Anything Quiz|Match Pairs
-Reading|Reading Comprehension|Story Detective|MCQ Quiz
-Writing|Pre-writing|Line & Curve Fun|Sequence Order
-Writing|Word, Sentence & Paragraph Writing|Sentence Scramble|Word Scramble
-VG|Parts of Speech|Verb Action Sort|Sort & Group
+Listening|Following Instructions & Announcements|Follow Audio Instructions to Draw|MCQ Quiz
+Listening|Listening Comprehension & Response|Polite Conversations: 'How are you?'|MCQ Quiz
+Listening|Listening Comprehension & Response|Children's Newspaper Section Read-Aloud|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #29)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #30)|MCQ Quiz
+Speaking|Questioning|Speaking Studio: Questioning (LO #31)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #32)|MCQ Quiz
+Vocabulary & Grammar|Parts of Speech|Prepositions of Place & Order: 'before', 'between'|MCQ Quiz
+Vocabulary & Grammar|Parts of Speech|Pronouns: Gender ('he/she', 'his/her') & Demonstratives ('this/that')|MCQ Quiz
+Vocabulary & Grammar|Parts of Speech|Adjectives: Size, Shape, Colour & Texture ('big', 'pink', 'soft')|MCQ Quiz
+Writing|Pre-writing|Writing Studio: Pre-writing (LO #36)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #37)|MCQ Quiz
 !Mathematics
-NO|Number Sense & Place Value|Digit Detective|MCQ Quiz
-NO|Addition & Subtraction|Number Line Hopper|Timed Challenge
-SH|3D Shapes & Nets|Net Builder Puzzle|Match Pairs
-SH|2D Shapes & Lines|Shape Sides Sorter|MCQ Quiz
-MEAS|Money|Shopkeeper Change Maker|Typing Answer
-MEAS|Capacity & Volume|Fill the Jug Challenge|MCQ Quiz
-MEAS|Weight|Heavy or Light Balance|MCQ Quiz
-MEAS|Time & Calendar|Clock Reader Challenge|MCQ Quiz
-Data Handling|Data Collection & Interpretation|Class Survey Counter|MCQ Quiz
-
+Data Handling|Data Collection & Interpretation|Data Handling: Data Collection & Interpretation (LO #38)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Capacity & Volume|Measurement (Length, Weight, Capacity, Time, Money): Capacity & Volume (LO #39)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Money|Measurement (Length, Weight, Capacity, Time, Money): Money (LO #40)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #41)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #42)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Weight|Measurement (Length, Weight, Capacity, Time, Money): Weight (LO #43)|MCQ Quiz
+Numbers & Operations|Addition & Subtraction|Numbers & Operations: Addition & Subtraction (LO #44)|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #45)|MCQ Quiz
+Shapes & Spatial Understanding|2D Shapes & Lines|Shapes & Spatial Understanding: 2D Shapes & Lines (LO #46)|MCQ Quiz
+Shapes & Spatial Understanding|3D Shapes & Nets|Shapes & Spatial Understanding: 3D Shapes & Nets (LO #47)|MCQ Quiz
 @III
 !English
-Listening|Listening Comprehension & Response|Listen & Answer Challenge|MCQ Quiz
-Speaking|Recitation & Performance|Poetry Stage Star|Fill in the Blank
-Speaking|Oral Expression & Narration|Story Chain Builder|Story Builder
-Reading|Reading Aloud & Fluency|Speed Reader Sprint|Timed Challenge
-Reading|Reading Comprehension|Read & Reveal|MCQ Quiz
-Reading|Environmental Print & Information|Sign & Label Detective|MCQ Quiz
-Writing|Dictation|Spell It Right Dictation|Typing Answer
-Writing|Word, Sentence & Paragraph Writing|Paragraph Puzzle|Word Scramble
-Writing|Mechanics & Punctuation|Capital & Full Stop Fix-It|Fill in the Blank
-VG|Parts of Speech|Parts of Speech Sorter|Sort & Group
-VG|Tenses|Past Present Future Race|Fill in the Blank
-VG|Vocabulary|Word Wizard Hangman|Guess the Word
-!Mathematics
-NO|Number Sense & Place Value|Number Expander Race|MCQ Quiz
-NO|Addition & Subtraction|Carry & Borrow Challenge|Timed Challenge
-NO|Multiplication & Division|Times Table Rocket|Timed Challenge
-NO|Estimation & Problem Solving|Guess & Check Jar|MCQ Quiz
-SH|2D Shapes & Lines|Line Type Hunter|MCQ Quiz
-MEAS|Money|Rupee Market Game|Typing Answer
-MEAS|Length & Distance|Near & Far Measure Quest|MCQ Quiz
-MEAS|Weight|Kilo & Gram Market|MCQ Quiz
-MEAS|Capacity & Volume|Litre Lab|MCQ Quiz
-MEAS|Time & Calendar|Calendar Detective|MCQ Quiz
-Patterns|Number Patterns|Skip Counting Hop|Sequence Order
-Data Handling|Data Representation (Tables & Graphs)|Bar Graph Builder|MCQ Quiz
+Listening|Listening Comprehension & Response|Oral Messages & Telephonic Communication|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #49)|MCQ Quiz
+Reading|Reading Aloud & Fluency|Reading Studio: Reading Aloud & Fluency (LO #50)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #51)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #52)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #53)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #54)|MCQ Quiz
+Vocabulary & Grammar|Parts of Speech|Grammar & Vocabulary Studio: Parts of Speech (LO #55)|MCQ Quiz
+Vocabulary & Grammar|Tenses|Grammar & Vocabulary Studio: Tenses (LO #56)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Opposites (Antonyms): 'day/night', 'close/open'|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #58)|MCQ Quiz
+Writing|Dictation|Writing Studio: Dictation (LO #59)|MCQ Quiz
+Writing|Mechanics & Punctuation|Punctuation & Mechanics (Class III)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #61)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #62)|MCQ Quiz
 !EVS
-OI|Plants|Plant Parts Match|Match Pairs
-OI|Animals & Birds|Animal Homes Match|Match Pairs
-OI|Family & Relationships|Family Tree Builder|Match Pairs
-OI|Surroundings (Objects, Places & Activities)|My Neighbourhood Explorer|Odd One Out
-EUR|Food & Water|Healthy Plate Builder|Sort & Group
-EUR|Family & Community|Community Helpers Quiz|MCQ Quiz
-CG|Grouping by Features & Properties|Feature Sorting Safari|Sort & Group
-PP|Continuity & Change|Then & Now Timeline|Sequence Order
-EER|Estimation & Verification|Guess & Check Challenge|MCQ Quiz
-EER|Recording & Predicting Patterns|Weather Tracker Predictor|Sequence Order
-MS|Map Reading & Directions|Treasure Map Directions|MCQ Quiz
-CE|Drawings, Models & Maps|Design My Map|Story Builder
-VSO|Rules & Cooperation|Team Rules Scenarios|MCQ Quiz
-VSO|Opinion on Social Issues|Speak Up Debate Cards|MCQ Quiz
-VSO|Sensitivity, Hygiene & Conservation|Clean & Care Hero|MCQ Quiz
-
+Classification & Grouping|Grouping by Features & Properties|EVS Studio: Grouping by Features & Properties (LO #63)|MCQ Quiz
+Creative Expression|Drawings, Models & Maps|EVS Studio: Drawings, Models & Maps (LO #64)|MCQ Quiz
+Estimation, Experimentation & Recording|Estimation & Verification|EVS Studio: Estimation & Verification (LO #65)|MCQ Quiz
+Estimation, Experimentation & Recording|Recording & Predicting Patterns|EVS Studio: Recording & Predicting Patterns (LO #66)|MCQ Quiz
+Explanation & Understanding Relationships|Family & Community|EVS Studio: Family & Community (LO #67)|MCQ Quiz
+Explanation & Understanding Relationships|Food & Water|EVS Studio: Food & Water (LO #68)|MCQ Quiz
+Mapping & Spatial Skills|Map Reading & Directions|EVS Studio: Map Reading & Directions (LO #69)|MCQ Quiz
+Observation & Identification|Animals & Birds|EVS Studio: Animals & Birds (LO #70)|MCQ Quiz
+Observation & Identification|Family & Relationships|EVS Studio: Family & Relationships (LO #71)|MCQ Quiz
+Observation & Identification|Plants|EVS Studio: Plants (LO #72)|MCQ Quiz
+Observation & Identification|Surroundings (Objects, Places & Activities)|EVS Studio: Surroundings (Objects, Places & Activities) (LO #73)|MCQ Quiz
+Past & Present (Change over Time)|Continuity & Change|EVS Studio: Continuity & Change (LO #74)|MCQ Quiz
+Values, Sensitivity & Opinion|Opinion on Social Issues|EVS Studio: Opinion on Social Issues (LO #75)|MCQ Quiz
+Values, Sensitivity & Opinion|Rules & Cooperation|EVS Studio: Rules & Cooperation (LO #76)|MCQ Quiz
+Values, Sensitivity & Opinion|Sensitivity, Hygiene & Conservation|EVS Studio: Sensitivity, Hygiene & Conservation (LO #77)|MCQ Quiz
+!Mathematics
+Data Handling|Data Representation (Tables & Graphs)|Data Handling: Data Representation (Tables & Graphs) (LO #78)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Capacity & Volume|Measurement (Length, Weight, Capacity, Time, Money): Capacity & Volume (LO #79)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Length & Distance|Measurement (Length, Weight, Capacity, Time, Money): Length & Distance (LO #80)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Money|Measurement (Length, Weight, Capacity, Time, Money): Money (LO #81)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Money|Measurement (Length, Weight, Capacity, Time, Money): Money (LO #82)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #83)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #84)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Weight|Measurement (Length, Weight, Capacity, Time, Money): Weight (LO #85)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Weight|Measurement (Length, Weight, Capacity, Time, Money): Weight (LO #86)|MCQ Quiz
+Numbers & Operations|Addition & Subtraction|Numbers & Operations: Addition & Subtraction (LO #87)|MCQ Quiz
+Numbers & Operations|Estimation & Problem Solving|Numbers & Operations: Estimation & Problem Solving (LO #88)|MCQ Quiz
+Numbers & Operations|Multiplication & Division|Numbers & Operations: Multiplication & Division (LO #89)|MCQ Quiz
+Numbers & Operations|Multiplication & Division|Division by Equal Sharing & Repeated Subtraction ('12 ÷ 3')|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #91)|MCQ Quiz
+Patterns|Number Patterns|Patterns: Number Patterns (LO #92)|MCQ Quiz
+Shapes & Spatial Understanding|2D Shapes & Lines|Shapes & Spatial Understanding: 2D Shapes & Lines (LO #93)|MCQ Quiz
+Shapes & Spatial Understanding|2D Shapes & Lines|Shapes & Spatial Understanding: 2D Shapes & Lines (LO #94)|MCQ Quiz
+Shapes & Spatial Understanding|2D Shapes & Lines|Shapes & Spatial Understanding: 2D Shapes & Lines (LO #95)|MCQ Quiz
 @IV
 !English
-Listening|Following Instructions & Announcements|Follow the Steps Race|Sequence Order
-Listening|Listening Comprehension & Response|Podcast Pop Quiz|MCQ Quiz
-Speaking|Recitation & Performance|Verse Voice Challenge|Fill in the Blank
-Speaking|Oral Expression & Narration|Tell-It-Your-Way Adventure|Story Builder
-Reading|Environmental Print & Information|Notice Board Reader|MCQ Quiz
-Reading|Vocabulary in Context|Guess the Meaning Clue Hunt|MCQ Quiz
-Reading|Reference Skills|Dictionary ABC Race|Sort & Group
-Reading|Reading Aloud & Fluency|Fluent Reader Race|Timed Challenge
-Writing|Dictation|Listen & Type Challenge|Typing Answer
-Writing|Mechanics & Punctuation|Punctuation Police|Fill in the Blank
-Writing|Functional Writing|Letter & Notice Builder|Fill in the Blank
-VG|Vocabulary|Synonym Showdown|Guess the Word
-VG|Linkers & Connectors|Connector Bridge Builder|Fill in the Blank
-VG|Parts of Speech|Word Role Race|Sort & Group
-!Mathematics
-NO|Multiplication & Division|Multiply Maze|Timed Challenge
-NO|Estimation & Problem Solving|Word Problem Detective|MCQ Quiz
-NO|Fractions & Decimals|Pizza Slice Fractions|Match Pairs
-SH|2D Shapes & Lines|Polygon Parade|MCQ Quiz
-SH|3D Shapes & Nets|Shape Net Match|Match Pairs
-SH|Symmetry|Mirror Image Match|MCQ Quiz
-SH|Spatial Views|Top Side Front View Puzzle|MCQ Quiz
-MEAS|Area & Perimeter|Garden Fence Planner|Typing Answer
-MEAS|Unit Conversion|Unit Converter Quest|Match Pairs
-MEAS|Estimation & Verification of Measures|Estimate then Measure Challenge|MCQ Quiz
-MEAS|Problem Solving with Measures|Measure Mystery Word Problems|Typing Answer
-MEAS|Time & Calendar|Time Traveller Timetable|MCQ Quiz
-Patterns|Number Patterns|Number Pattern Finder|Sequence Order
-Patterns|Shape & Geometric Patterns|Shape Pattern Parade|Sequence Order
-Data Handling|Data Representation (Tables & Graphs)|Pictograph Detective|MCQ Quiz
+Listening|Following Instructions & Announcements|School Announcements & Instructions|MCQ Quiz
+Listening|Listening Comprehension & Response|Listening Comprehension & Public Broadcast (LO #97)|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #98)|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #99)|MCQ Quiz
+Reading|Reading Aloud & Fluency|Reading Studio: Reading Aloud & Fluency (LO #100)|MCQ Quiz
+Reading|Reference Skills|Reference Skills: Dictionary, Thesaurus & Encyclopedia (Class IV)|MCQ Quiz
+Reading|Vocabulary in Context|Reading Studio: Vocabulary in Context (LO #102)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #103)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #104)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #105)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #106)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #107)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #108)|MCQ Quiz
+Vocabulary & Grammar|Linkers & Connectors|Discourse Linkers & Connectors: 'First', 'Next'|Sequence Order
+Vocabulary & Grammar|Parts of Speech|Grammar & Vocabulary Studio: Parts of Speech (LO #110)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #111)|MCQ Quiz
+Writing|Dictation|Writing Studio: Dictation (LO #112)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #113)|MCQ Quiz
+Writing|Mechanics & Punctuation|Punctuation & Mechanics (Class IV)|MCQ Quiz
 !EVS
-OI|Plants|Leaf & Tree Spotter|Match Pairs
-OI|Animals & Birds|Bird & Beak Detective|Match Pairs
-OI|Family & Relationships|Relationship Riddles|Match Pairs
-EUR|Animal Behaviour & Family Change|Animal Behaviour Detective|MCQ Quiz
-EUR|Work & Livelihood|Who Does What Job?|Match Pairs
-EUR|Food & Water|Water Source Sorter|Sort & Group
-CG|Grouping by Features & Properties|Group It Right|Sort & Group
-PP|Continuity & Change|Changing Times Sorter|Sequence Order
-EER|Estimation & Verification|Estimate Then Test|MCQ Quiz
-EER|Recording & Predicting Patterns|Pattern Diary|Sequence Order
-MS|Map Reading & Directions|Compass Navigator|MCQ Quiz
-MS|Using Signs & Information|Sign Spotter|MCQ Quiz
-CE|Drawings, Models & Maps|Model Maker Plan|Story Builder
-VSO|Opinion on Social Issues|My Opinion Matters|MCQ Quiz
-VSO|Sensitivity, Hygiene & Conservation|Hygiene Habits Challenge|MCQ Quiz
-
+Classification & Grouping|Grouping by Features & Properties|EVS Studio: Grouping by Features & Properties (LO #115)|MCQ Quiz
+Creative Expression|Drawings, Models & Maps|EVS Studio: Drawings, Models & Maps (LO #116)|MCQ Quiz
+Estimation, Experimentation & Recording|Estimation & Verification|EVS Studio: Estimation & Verification (LO #117)|MCQ Quiz
+Estimation, Experimentation & Recording|Recording & Predicting Patterns|EVS Studio: Recording & Predicting Patterns (LO #118)|MCQ Quiz
+Explanation & Understanding Relationships|Animal Behaviour & Family Change|Animal Herd Behavior: Ants, Bees & Elephants|MCQ Quiz
+Explanation & Understanding Relationships|Food & Water|Food Supply Journey: Field to Mandi to Home|Sequence Order
+Explanation & Understanding Relationships|Work & Livelihood|EVS Studio: Work & Livelihood (LO #121)|MCQ Quiz
+Mapping & Spatial Skills|Map Reading & Directions|EVS Studio: Map Reading & Directions (LO #122)|MCQ Quiz
+Mapping & Spatial Skills|Using Signs & Information|EVS Studio: Using Signs & Information (LO #123)|MCQ Quiz
+Observation & Identification|Animals & Birds|EVS Studio: Animals & Birds (LO #124)|MCQ Quiz
+Observation & Identification|Family & Relationships|EVS Studio: Family & Relationships (LO #125)|MCQ Quiz
+Observation & Identification|Plants|EVS Studio: Plants (LO #126)|MCQ Quiz
+Past & Present (Change over Time)|Continuity & Change|EVS Studio: Continuity & Change (LO #127)|MCQ Quiz
+Values, Sensitivity & Opinion|Opinion on Social Issues|EVS Studio: Opinion on Social Issues (LO #128)|MCQ Quiz
+Values, Sensitivity & Opinion|Sensitivity, Hygiene & Conservation|EVS Studio: Sensitivity, Hygiene & Conservation (LO #129)|MCQ Quiz
+!Mathematics
+Data Handling|Data Representation (Tables & Graphs)|Data Handling: Data Representation (Tables & Graphs) (LO #130)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Area & Perimeter|Measurement (Length, Weight, Capacity, Time, Money): Area & Perimeter (LO #131)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Estimation & Verification of Measures|Measurement (Length, Weight, Capacity, Time, Money): Estimation & Verification of Measures (LO #132)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Problem Solving with Measures|Measurement (Length, Weight, Capacity, Time, Money): Problem Solving with Measures (LO #133)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #134)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Time & Calendar|Measurement (Length, Weight, Capacity, Time, Money): Time & Calendar (LO #135)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Unit Conversion|Measurement (Length, Weight, Capacity, Time, Money): Unit Conversion (LO #136)|MCQ Quiz
+Numbers & Operations|Estimation & Problem Solving|Numbers & Operations: Estimation & Problem Solving (LO #137)|MCQ Quiz
+Numbers & Operations|Fractions & Decimals|Numbers & Operations: Fractions & Decimals (LO #138)|MCQ Quiz
+Numbers & Operations|Fractions & Decimals|Numbers & Operations: Fractions & Decimals (LO #139)|MCQ Quiz
+Numbers & Operations|Multiplication & Division|Numbers & Operations: Multiplication & Division (LO #140)|MCQ Quiz
+Numbers & Operations|Multiplication & Division|Numbers & Operations: Multiplication & Division (LO #141)|MCQ Quiz
+Patterns|Number Patterns|Patterns: Number Patterns (LO #142)|MCQ Quiz
+Patterns|Shape & Geometric Patterns|Patterns: Shape & Geometric Patterns (LO #143)|MCQ Quiz
+Shapes & Spatial Understanding|2D Shapes & Lines|Shapes & Spatial Understanding: 2D Shapes & Lines (LO #144)|MCQ Quiz
+Shapes & Spatial Understanding|3D Shapes & Nets|Shapes & Spatial Understanding: 3D Shapes & Nets (LO #145)|MCQ Quiz
+Shapes & Spatial Understanding|Spatial Views|Shapes & Spatial Understanding: Spatial Views (LO #146)|MCQ Quiz
+Shapes & Spatial Understanding|Symmetry|Shapes & Spatial Understanding: Symmetry (LO #147)|MCQ Quiz
 @V
 !English
-Listening|Listening Comprehension & Response|Story Time Quiz – Class V|MCQ Quiz
-Listening|Following Instructions & Announcements|Mission Control Orders|Sequence Order
-Speaking|Recitation & Performance|Recital Rehearsal|Fill in the Blank
-Speaking|Conversation & Polite Expressions|Polite Words Role Play|Story Builder
-Speaking|Oral Expression & Narration|Speaker's Spotlight|Story Builder
-Reading|Extensive Reading|Book Explorer Quiz|MCQ Quiz
-Reading|Reading Comprehension|Passage Pursuit|MCQ Quiz
-Reading|Critical Reading|Fact or Opinion Judge|MCQ Quiz
-Reading|Reference Skills|Index & Contents Finder|Sort & Group
-Reading|Environmental Print & Information|Ad & Poster Decoder|MCQ Quiz
-Writing|Dictation|Dictation Dash|Typing Answer
-Writing|Word, Sentence & Paragraph Writing|Sentence Architect|Word Scramble
-Writing|Creative Writing|Story Starter Spinner|Story Builder
-Writing|Functional Writing|Email Maker|Fill in the Blank
-VG|Grammar in Use|Grammar Gym|Fill in the Blank
-VG|Vocabulary|Word Detective|Guess the Word
-VG|Tenses|Tense Time Machine|Fill in the Blank
-!Mathematics
-NO|Number Sense & Place Value|Big Number Builder|MCQ Quiz
-NO|Multiplication & Division|Division Dash|Timed Challenge
-NO|Estimation & Problem Solving|Estimate It Fast|MCQ Quiz
-NO|Fractions & Decimals|Decimal Dash|Match Pairs
-SH|Angles|Angle Sniper|MCQ Quiz
-SH|Symmetry|Fold & Flip|MCQ Quiz
-SH|3D Shapes & Nets|Cube & Cuboid Challenge|Match Pairs
-MEAS|Unit Conversion|Measurement Converter Race|Match Pairs
-MEAS|Estimation & Verification of Measures|Guess the Measure Quest|MCQ Quiz
-MEAS|Problem Solving with Measures|Real-Life Measures Missions|Typing Answer
-Patterns|Number Patterns|What's the Rule? Challenge|Sequence Order
-Data Handling|Data Representation (Tables & Graphs)|Table Reader Race|MCQ Quiz
+Listening|Following Instructions & Announcements|Sports Field Instructions: 'Hit the ball!' & 'Run!'|MCQ Quiz
+Listening|Listening Comprehension & Response|Listening Comprehension & Public Broadcast (LO #149)|MCQ Quiz
+Reading|Critical Reading|Reading Studio: Critical Reading (LO #150)|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #151)|MCQ Quiz
+Reading|Extensive Reading|Reading Studio: Extensive Reading (LO #152)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #153)|MCQ Quiz
+Reading|Reference Skills|Reference Skills: Dictionary, Thesaurus & Encyclopedia (Class V)|MCQ Quiz
+Speaking|Conversation & Polite Expressions|Speaking Studio: Conversation & Polite Expressions (LO #155)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #156)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #157)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #158)|MCQ Quiz
+Vocabulary & Grammar|Grammar in Use|Grammar & Vocabulary Studio: Grammar in Use (LO #159)|MCQ Quiz
+Vocabulary & Grammar|Tenses|Grammar & Vocabulary Studio: Tenses (LO #160)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Synonyms & Antonyms in Context ('big/large', 'inside/outside')|MCQ Quiz
+Writing|Creative Writing|Writing Studio: Creative Writing (LO #162)|MCQ Quiz
+Writing|Creative Writing|Creative Writing: Mini Biography & Autobiography|MCQ Quiz
+Writing|Dictation|Writing Studio: Dictation (LO #164)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #165)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #166)|MCQ Quiz
 !EVS
-EUR|Animals & Birds|Animal Adaptations Quiz|Match Pairs
-EUR|Food & Water|Food Journey Quiz|Sort & Group
-EUR|Interdependence in Nature|Food Chain Builder|Sequence Order
-EUR|Institutions|Institution Match-Up|Match Pairs
-EUR|Terrain, Climate & Culture|Terrain & Culture Explorer|Match Pairs
-CG|Grouping by Features & Properties|Property Sorter|Sort & Group
-PP|Continuity & Change|Past to Present Journey|Sequence Order
-EER|Estimation & Verification|Predict & Prove|MCQ Quiz
-EER|Recording & Predicting Patterns|Predict the Next Day|Sequence Order
-MS|Map Reading & Directions|Route Finder|MCQ Quiz
-CE|Drawings, Models & Maps|Draw & Describe|Story Builder
-VSO|Opinion on Social Issues|Agree or Disagree Arena|MCQ Quiz
-VSO|Sensitivity, Hygiene & Conservation|Save Water Save Energy|MCQ Quiz
-
+Classification & Grouping|Grouping by Features & Properties|EVS Studio: Grouping by Features & Properties (LO #167)|MCQ Quiz
+Creative Expression|Drawings, Models & Maps|EVS Studio: Drawings, Models & Maps (LO #168)|MCQ Quiz
+Estimation, Experimentation & Recording|Estimation & Verification|EVS Studio: Estimation & Verification (LO #169)|MCQ Quiz
+Estimation, Experimentation & Recording|Recording & Predicting Patterns|EVS Studio: Recording & Predicting Patterns (LO #170)|MCQ Quiz
+Explanation & Understanding Relationships|Animals & Birds|EVS Studio: Animals & Birds (LO #171)|MCQ Quiz
+Explanation & Understanding Relationships|Food & Water|EVS Studio: Food & Water (LO #172)|MCQ Quiz
+Explanation & Understanding Relationships|Institutions|EVS Studio: Institutions (LO #173)|MCQ Quiz
+Explanation & Understanding Relationships|Interdependence in Nature|EVS Studio: Interdependence in Nature (LO #174)|MCQ Quiz
+Explanation & Understanding Relationships|Terrain, Climate & Culture|EVS Studio: Terrain, Climate & Culture (LO #175)|MCQ Quiz
+Mapping & Spatial Skills|Map Reading & Directions|EVS Studio: Map Reading & Directions (LO #176)|MCQ Quiz
+Past & Present (Change over Time)|Continuity & Change|EVS Studio: Continuity & Change (LO #177)|MCQ Quiz
+Values, Sensitivity & Opinion|Opinion on Social Issues|EVS Studio: Opinion on Social Issues (LO #178)|MCQ Quiz
+Values, Sensitivity & Opinion|Sensitivity, Hygiene & Conservation|EVS Studio: Sensitivity, Hygiene & Conservation (LO #179)|MCQ Quiz
+!Mathematics
+Data Handling|Data Representation (Tables & Graphs)|Data Handling: Data Representation (Tables & Graphs) (LO #180)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Estimation & Verification of Measures|Measurement (Length, Weight, Capacity, Time, Money): Estimation & Verification of Measures (LO #181)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Problem Solving with Measures|Measurement (Length, Weight, Capacity, Time, Money): Problem Solving with Measures (LO #182)|MCQ Quiz
+Measurement (Length, Weight, Capacity, Time, Money)|Unit Conversion|Measurement (Length, Weight, Capacity, Time, Money): Unit Conversion (LO #183)|MCQ Quiz
+Numbers & Operations|Estimation & Problem Solving|Numbers & Operations: Estimation & Problem Solving (LO #184)|MCQ Quiz
+Numbers & Operations|Fractions & Decimals|Numbers & Operations: Fractions & Decimals (LO #185)|MCQ Quiz
+Numbers & Operations|Fractions & Decimals|Numbers & Operations: Fractions & Decimals (LO #186)|MCQ Quiz
+Numbers & Operations|Multiplication & Division|Numbers & Operations: Multiplication & Division (LO #187)|MCQ Quiz
+Numbers & Operations|Number Sense & Place Value|Numbers & Operations: Number Sense & Place Value (LO #188)|MCQ Quiz
+Patterns|Number Patterns|Patterns: Number Patterns (LO #189)|MCQ Quiz
+Shapes & Spatial Understanding|3D Shapes & Nets|Shapes & Spatial Understanding: 3D Shapes & Nets (LO #190)|MCQ Quiz
+Shapes & Spatial Understanding|Angles|Shapes & Spatial Understanding: Angles (LO #191)|MCQ Quiz
+Shapes & Spatial Understanding|Symmetry|Shapes & Spatial Understanding: Symmetry (LO #192)|MCQ Quiz
 @VI
 !English
-Listening|Listening Comprehension & Response|Sound Detective – Class VI|MCQ Quiz
-Listening|Following Instructions & Announcements|Simon Says Challenge – Class VI|Sequence Order
-Listening|Language Lab|Pronunciation Match-Up|Typing Answer
-Speaking|Recitation & Performance|Rhyme Gap Fill – Class VI|Fill in the Blank
-Speaking|Oral Expression & Narration|Picture Story Teller – Class VI|Story Builder
-Reading|Reading Comprehension|Comprehension Quest|MCQ Quiz
-Reading|Environmental Print & Information|Timetable Treasure Hunt|MCQ Quiz
-Reading|Reference Skills|Reference Hunt|Sort & Group
-Writing|Dictation|Dictation Derby|Typing Answer
-Writing|Word, Sentence & Paragraph Writing|Paragraph Planner|Word Scramble
-Writing|Functional Writing|Form Filling Challenge|Fill in the Blank
-Writing|Creative Writing|Poem Maker Lab|Story Builder
-VG|Vocabulary|Antonym Arena|Guess the Word
-VG|Grammar in Use|Error Hunter|Fill in the Blank
+Listening|Following Instructions & Announcements|Public Announcements: Railway Station & Assembly|MCQ Quiz
+Listening|Language Lab|Language Laboratory Session (Class VI)|MCQ Quiz
+Listening|Listening Comprehension & Response|Listening Comprehension & Public Broadcast (LO #195)|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #196)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #197)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #198)|MCQ Quiz
+Reading|Reference Skills|Reference Skills: Dictionary, Thesaurus & Encyclopedia (Class VI)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #200)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #201)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #202)|MCQ Quiz
+Vocabulary & Grammar|Grammar in Use|Grammar & Vocabulary Studio: Grammar in Use (LO #203)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #204)|MCQ Quiz
+Writing|Creative Writing|Creative Writing: Book Review (Class VI)|MCQ Quiz
+Writing|Dictation|Writing Studio: Dictation (LO #206)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #207)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #208)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #209)|MCQ Quiz
 !Mathematics
-NS|Whole Numbers & Operations|Big Number Bank|Timed Challenge
-NS|Factors, Multiples & Divisibility|Factor Finder|Typing Answer
-NS|Integers|Number Line Elevator|MCQ Quiz
-NS|Fractions, Decimals & Rational Numbers|Fraction Match|Match Pairs
-Algebra|Variables & Algebraic Expressions|Mystery Box Algebra|Typing Answer
-RPCA|Ratio & Proportion|Recipe Ratio Chef|MCQ Quiz
-RPCA|Unitary Method|Price Per Item Shopper|Typing Answer
-Geometry|Basic Geometrical Ideas|Point Line Plane Match|Match Pairs
-Geometry|Lines & Angles|Angle Pair Detective|MCQ Quiz
-Geometry|Symmetry|Symmetry Spotter|MCQ Quiz
-Geometry|Triangles & Congruence|Triangle Types Sort|MCQ Quiz
-Geometry|Quadrilaterals|Quadrilateral Family Tree|Sort & Group
-Geometry|3D Shapes & Visualisation|Faces Edges Vertices Count|MCQ Quiz
-Mensuration|Perimeter & Area|Floor Tiler|Typing Answer
-Data Handling|Data Representation & Interpretation|Graph Story Reader|MCQ Quiz
+Algebra|Variables & Algebraic Expressions|Algebra: Variables & Generalised Perimeter ('2(x+3)')|MCQ Quiz
+Data Handling|Data Representation & Interpretation|Data Handling: Data Representation & Interpretation (LO #211)|MCQ Quiz
+Geometry|3D Shapes & Visualisation|Geometry: 3D Shapes & Visualisation (LO #212)|MCQ Quiz
+Geometry|Basic Geometrical Ideas|Geometry: Basic Geometrical Ideas (LO #213)|MCQ Quiz
+Geometry|Lines & Angles|Geometry: Lines & Angles (LO #214)|MCQ Quiz
+Geometry|Quadrilaterals|Geometry: Quadrilaterals (LO #215)|MCQ Quiz
+Geometry|Symmetry|Geometry: Symmetry (LO #216)|MCQ Quiz
+Geometry|Triangles & Congruence|Geometry: Triangles & Congruence (LO #217)|MCQ Quiz
+Mensuration|Perimeter & Area|Mensuration: Perimeter & Area (LO #218)|MCQ Quiz
+Number System|Factors, Multiples & Divisibility|Number System: Factors, Multiples & Divisibility (LO #219)|MCQ Quiz
+Number System|Factors, Multiples & Divisibility|Number System: Factors, Multiples & Divisibility (LO #220)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #221)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #222)|MCQ Quiz
+Number System|Integers|Number System: Integers (LO #223)|MCQ Quiz
+Number System|Whole Numbers & Operations|Number System: Whole Numbers & Operations (LO #224)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Ratio & Proportion|Ratio, Proportion & Commercial Arithmetic: Ratio & Proportion (LO #225)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Unitary Method|Ratio, Proportion & Commercial Arithmetic: Unitary Method (LO #226)|MCQ Quiz
 !Science
-ID|Identification|Mystery Object Identifier|MCQ Quiz
-ID|Differentiation|Spot the Difference Lab|Sort & Group
-Classification|Classification of Materials, Organisms & Processes|Material Sorting Lab|Sort & Group
-SII|Conducting Investigations|Experiment Steps Order|Sequence Order
-EPCE|Cause–Effect Relationships|Cause & Effect Match|Match Pairs
-EPCE|Explaining Processes & Phenomena|Process Order Puzzle|Sequence Order
-MRR|Measurement & Calculation|Lab Measure & Calculate|Typing Answer
-MRR|Labelled Diagrams & Flow Charts|Label the Diagram|Match Pairs
-MADL|Model Construction|Build-a-Model Plan|Sequence Order
-MADL|Application of Concepts in Daily Life|Science in My Day|MCQ Quiz
-EACV|Environmental Protection|Eco Hero Choices|MCQ Quiz
-EACV|Creativity|Invent-It Challenge|Story Builder
-EACV|Scientific Values|Honest Scientist Dilemmas|MCQ Quiz
+Classification|Classification of Materials, Organisms & Processes|Classification of Matter & Motion (Biotic/Abiotic, Rectilinear/Circular)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Creativity|Science Studio: Creativity (LO #228)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Environmental Protection|Science Studio: Environmental Protection (LO #229)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Scientific Values|Science Studio: Scientific Values (LO #230)|MCQ Quiz
+Explaining Processes & Cause-Effect|General|Science Studio: General (LO #231)|MCQ Quiz
+Explaining Processes & Cause-Effect|Explaining Processes & Phenomena|Science Studio: Explaining Processes & Phenomena (LO #232)|MCQ Quiz
+Identification & Differentiation|Differentiation|Science Studio: Differentiation (LO #233)|MCQ Quiz
+Identification & Differentiation|Identification|Science Studio: Identification (LO #234)|MCQ Quiz
+Measurement, Recording & Representation|Labelled Diagrams & Flow Charts|Science Studio: Labelled Diagrams & Flow Charts (LO #235)|MCQ Quiz
+Measurement, Recording & Representation|Measurement & Calculation|Science Studio: Measurement & Calculation (LO #236)|MCQ Quiz
+Models & Application in Daily Life|Application of Concepts in Daily Life|Science Studio: Application of Concepts in Daily Life (LO #237)|MCQ Quiz
+Models & Application in Daily Life|Model Construction|Science Studio: Model Construction (LO #238)|MCQ Quiz
+Scientific Inquiry & Investigation|Conducting Investigations|Science Studio: Conducting Investigations (LO #239)|MCQ Quiz
 !Social Science
-Geography|Earth & the Solar System|Planet Explorer Quiz|MCQ Quiz
-Geography|Maps, Globe & Diagrams|Map Symbols Treasure Hunt|Match Pairs
-History|Sources of History|Primary vs Secondary Source Sort|Sort & Group
-History|Ancient India|Ancient India Timeline Run|Sequence Order
-History|Art, Architecture & Culture|Monument Match-Up|Match Pairs
-History|Religious Ideas & Movements|Ideas & Thinkers Quiz|MCQ Quiz
-SPL|Diversity & Discrimination|Unity in Diversity Scenarios|MCQ Quiz
-SPL|Government|Who Does What in Government|MCQ Quiz
-SPL|Markets, Economy & Public Facilities|Market Chain Explorer|Sort & Group
-
+Geography|Earth & the Solar System|Earth's Rotation & Revolution: Day, Night and Seasons|MCQ Quiz
+Geography|Earth & the Solar System|Celestial Bodies: Sun, Earth and Moon|MCQ Quiz
+Geography|Earth & the Solar System|Understanding Eclipses & Scientific Evidence|MCQ Quiz
+Geography|Earth & the Solar System|Earth: A Unique Planet & The Biosphere|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Geography: Maps, Globe & Diagrams (LO #244)|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Grid Lines: Latitudes, Longitudes, Poles & Tropics|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Continents and Oceans on the World Map|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Major Physical Features of India|MCQ Quiz
+History|Ancient India|Ancient India: Harappan Civilization & First Cities|MCQ Quiz
+History|Ancient India|Ancient Dynasties: Mauryas, Guptas and Pallavas|MCQ Quiz
+History|Ancient India|History: Ancient India (LO #250)|MCQ Quiz
+History|Ancient India|History: Ancient India (LO #251)|MCQ Quiz
+History|Ancient India|History: Ancient India (LO #252)|MCQ Quiz
+History|Art, Architecture & Culture|History: Art, Architecture & Culture (LO #253)|MCQ Quiz
+History|Art, Architecture & Culture|History: Art, Architecture & Culture (LO #254)|MCQ Quiz
+History|Art, Architecture & Culture|History: Art, Architecture & Culture (LO #255)|MCQ Quiz
+History|Religious Ideas & Movements|History: Religious Ideas & Movements (LO #256)|MCQ Quiz
+History|Sources of History|History: Sources of History (LO #257)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Diversity & Discrimination|Civics: Diversity & Discrimination (LO #258)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Diversity & Discrimination|Equality & Inequality: Understanding Everyday Differences|MCQ Quiz
+Social & Political Life (Civics & Economics)|Diversity & Discrimination|Diversity & Combating Discrimination: Identifying Sources|MCQ Quiz
+Social & Political Life (Civics & Economics)|Government|Civics: Government (LO #261)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Government|Three Levels of Government: Local, State & Union|MCQ Quiz
+Social & Political Life (Civics & Economics)|Markets, Economy & Public Facilities|Civics: Markets, Economy & Public Facilities (LO #263)|MCQ Quiz
 @VII
 !English
-Listening|Following Instructions & Announcements|Announcement Detective – Class VII|Sequence Order
-Listening|Media & Public Listening|News Flash Listener|MCQ Quiz
-Listening|Language Lab|Accent & Stress Spotter|Typing Answer
-Speaking|Recitation & Performance|Poem Performer – Class VII|Fill in the Blank
-Speaking|Questioning|Question Master|Match Pairs
-Reading|Reading Comprehension|Inference Investigator|MCQ Quiz
-Reading|Critical Reading|Author's Purpose Detective|MCQ Quiz
-Reading|Environmental Print & Information|Menu & Brochure Reader|MCQ Quiz
-Reading|Extensive Reading|Reading Log Challenge|MCQ Quiz
-Writing|Note Taking|Key Point Catcher|Fill in the Blank
-Writing|Word, Sentence & Paragraph Writing|Paragraph Polisher|Word Scramble
-Writing|Functional Writing|Message Writer|Fill in the Blank
-Writing|Creative Writing|Story Dice Challenge|Story Builder
-VG|Vocabulary|Word Power Quiz|Guess the Word
-VG|Grammar in Use|Grammar Escape Room|Fill in the Blank
+Listening|Following Instructions & Announcements|Listening Comprehension & Public Broadcast (LO #264)|MCQ Quiz
+Listening|Language Lab|Language Laboratory Session (Class VII)|MCQ Quiz
+Listening|Media & Public Listening|Listening Comprehension & Public Broadcast (LO #266)|MCQ Quiz
+Reading|Critical Reading|Reading Studio: Critical Reading (LO #267)|MCQ Quiz
+Reading|Environmental Print & Information|Reading Studio: Environmental Print & Information (LO #268)|MCQ Quiz
+Reading|Extensive Reading|Reading Studio: Extensive Reading (LO #269)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #270)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #271)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #272)|MCQ Quiz
+Speaking|Questioning|Speaking Studio: Questioning (LO #273)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #274)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #275)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #276)|MCQ Quiz
+Vocabulary & Grammar|Grammar in Use|Grammar & Vocabulary Studio: Grammar in Use (LO #277)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #278)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #279)|MCQ Quiz
+Writing|Creative Writing|Creative Writing: Book Review (Class VII)|MCQ Quiz
+Writing|Creative Writing|Writing Studio: Creative Writing (LO #281)|MCQ Quiz
+Writing|Creative Writing|Writing Studio: Creative Writing (LO #282)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #283)|MCQ Quiz
+Writing|Note Taking|Writing Studio: Note Taking (LO #284)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #285)|MCQ Quiz
 !Mathematics
-NS|Integers|Temperature Integer Game|MCQ Quiz
-NS|Fractions, Decimals & Rational Numbers|Rational Number Line Race|Match Pairs
-NS|Exponents, Squares & Roots|Power Up Exponents|Typing Answer
-Algebra|Linear Equations|Balance Scale Equation Solver|Typing Answer
-Algebra|Variables & Algebraic Expressions|Expression Builder|Typing Answer
-RPCA|Ratio & Proportion|Proportion Puzzle|MCQ Quiz
-RPCA|Percentage, Profit & Loss, Interest|Sale Season Shopkeeper|Typing Answer
-Geometry|Lines & Angles|Parallel Lines Puzzle|MCQ Quiz
-Geometry|Triangles & Congruence|Congruence Court|MCQ Quiz
-Geometry|Constructions|Construction Steps Builder|Sequence Order
-Mensuration|Perimeter & Area|Perimeter & Area Architect|Typing Answer
-Data Handling|Measures of Central Tendency|Mean Median Mode Machine|Typing Answer
-Data Handling|Probability & Chance|Dice & Coin Chance Lab|MCQ Quiz
-Data Handling|Data Representation & Interpretation|Chart Analyst|MCQ Quiz
+Algebra|Linear Equations|Algebra: Linear Equations (LO #286)|MCQ Quiz
+Algebra|Variables & Algebraic Expressions|Algebra: Variables & Algebraic Expressions (LO #287)|MCQ Quiz
+Data Handling|Data Representation & Interpretation|Data Handling: Data Representation & Interpretation (LO #288)|MCQ Quiz
+Data Handling|Measures of Central Tendency|Data Handling: Measures of Central Tendency (LO #289)|MCQ Quiz
+Data Handling|Probability & Chance|Data Handling: Probability & Chance (LO #290)|MCQ Quiz
+Geometry|Constructions|Geometry: Constructions (LO #291)|MCQ Quiz
+Geometry|Lines & Angles|Geometry: Lines & Angles (LO #292)|MCQ Quiz
+Geometry|Lines & Angles|Geometry: Lines & Angles (LO #293)|MCQ Quiz
+Geometry|Triangles & Congruence|Geometry: Triangles & Congruence (LO #294)|MCQ Quiz
+Geometry|Triangles & Congruence|Geometry: Triangles & Congruence (LO #295)|MCQ Quiz
+Mensuration|Perimeter & Area|Mensuration: Perimeter & Area (LO #296)|MCQ Quiz
+Mensuration|Perimeter & Area|Mensuration: Perimeter & Area (LO #297)|MCQ Quiz
+Number System|Exponents, Squares & Roots|Number System: Exponents, Squares & Roots (LO #298)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #299)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #300)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #301)|MCQ Quiz
+Number System|Integers|Number System: Integers (LO #302)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Percentage, Profit & Loss, Interest|Ratio, Proportion & Commercial Arithmetic: Percentage, Profit & Loss, Interest (LO #303)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Percentage, Profit & Loss, Interest|Ratio, Proportion & Commercial Arithmetic: Percentage, Profit & Loss, Interest (LO #304)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Ratio & Proportion|Ratio & Proportion: Proportional Quantities (15, 45, 40, 120)|MCQ Quiz
 !Science
-ID|Identification|Lab Equipment ID|MCQ Quiz
-ID|Differentiation|Living vs Non-Living Sorter|Sort & Group
-Classification|Classification of Materials, Organisms & Processes|Organism Classifier|Sort & Group
-SII|Conducting Investigations|Fair Test Detective|Sequence Order
-EPCE|Cause–Effect Relationships|Chain Reaction Builder|Match Pairs
-EPCE|Explaining Processes & Phenomena|Water Cycle Story|Sequence Order
-EPCE|Chemical Word Equations|Word Equation Builder|Fill in the Blank
-MRR|Measurement & Calculation|Science Calculator Challenge|Typing Answer
-MRR|Labelled Diagrams & Flow Charts|Flow Chart Builder|Match Pairs
-MRR|Graphs|Science Graph Reader|MCQ Quiz
-MADL|Model Construction|Model Maker Blueprint|Sequence Order
-MADL|History of Scientific Discoveries|Scientist & Discovery Match|Match Pairs
-MADL|Application of Concepts in Daily Life|Everyday Science Scenarios|MCQ Quiz
-EACV|Environmental Protection|Green Choices Challenge|MCQ Quiz
-EACV|Creativity|Science Inventor Lab|Story Builder
-EACV|Scientific Values|Scientist's Code Quiz|MCQ Quiz
+Classification|Classification of Materials, Organisms & Processes|Science Studio: Classification of Materials, Organisms & Processes (LO #306)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Creativity|Science Studio: Creativity (LO #307)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Environmental Protection|Science Studio: Environmental Protection (LO #308)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Scientific Values|Science Studio: Scientific Values (LO #309)|MCQ Quiz
+Explaining Processes & Cause-Effect|General|Science Studio: General (LO #310)|MCQ Quiz
+Explaining Processes & Cause-Effect|Chemical Word Equations|Science Studio: Chemical Word Equations (LO #311)|MCQ Quiz
+Explaining Processes & Cause-Effect|Explaining Processes & Phenomena|Science Studio: Explaining Processes & Phenomena (LO #312)|MCQ Quiz
+Identification & Differentiation|Differentiation|Science Studio: Differentiation (LO #313)|MCQ Quiz
+Identification & Differentiation|Identification|Science Studio: Identification (LO #314)|MCQ Quiz
+Measurement, Recording & Representation|Graphs|Science Studio: Graphs (LO #315)|MCQ Quiz
+Measurement, Recording & Representation|Labelled Diagrams & Flow Charts|Science Studio: Labelled Diagrams & Flow Charts (LO #316)|MCQ Quiz
+Measurement, Recording & Representation|Measurement & Calculation|Science Studio: Measurement & Calculation (LO #317)|MCQ Quiz
+Models & Application in Daily Life|Application of Concepts in Daily Life|Science Studio: Application of Concepts in Daily Life (LO #318)|MCQ Quiz
+Models & Application in Daily Life|History of Scientific Discoveries|Science Studio: History of Scientific Discoveries (LO #319)|MCQ Quiz
+Models & Application in Daily Life|Model Construction|Surrounding Models: Stethoscope, Anemometer & Newton's Disc|MCQ Quiz
+Scientific Inquiry & Investigation|Conducting Investigations|Scientific Investigation: Flower Extract as Acid-Base Indicator|MCQ Quiz
 !Social Science
-Geography|Earth's Interior, Landforms & Atmosphere|Earth Layers Explorer|Sequence Order
-Geography|Maps, Globe & Diagrams|Latitude & Longitude Locator|Match Pairs
-Geography|Disasters & Management|Disaster Safety Drill|MCQ Quiz
-Geography|Environment & Natural Resources|Renewable vs Non-Renewable Sort|Sort & Group
-Geography|Human Geography & Development|Settlements & Development Quiz|MCQ Quiz
-History|Sources of History|History Detective Sources|Sort & Group
-History|Medieval India|Medieval Dynasties Timeline|Sequence Order
-History|Art, Architecture & Culture|Heritage Trail Quiz|Match Pairs
-History|Religious Ideas & Movements|Bhakti & Reform Movement Match|MCQ Quiz
-SPL|Constitution, Rights & Laws|Rights & Duties Court|MCQ Quiz
-SPL|Elections & Constituencies|Election Day Simulator|Story Builder
-SPL|Gender|Equal Opportunities Scenarios|MCQ Quiz
-SPL|Media & Advertising|Ad Detective|MCQ Quiz
-SPL|Markets, Economy & Public Facilities|Public Facility Planner|Sort & Group
-
+Geography|Disasters & Management|Disaster Preparedness: Preventive Actions for Floods & Earthquakes|MCQ Quiz
+Geography|Disasters & Management|Environmental Calamities: Factors Leading to Disasters|MCQ Quiz
+Geography|Earth's Interior, Landforms & Atmosphere|Geography: Earth's Interior, Landforms & Atmosphere (LO #324)|MCQ Quiz
+Geography|Earth's Interior, Landforms & Atmosphere|Composition and Structure of the Atmosphere|MCQ Quiz
+Geography|Earth's Interior, Landforms & Atmosphere|Layers of Earth's Interior & Rock Types|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #327)|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #328)|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #329)|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #330)|MCQ Quiz
+Geography|Human Geography & Development|Geography: Human Geography & Development (LO #331)|MCQ Quiz
+Geography|Human Geography & Development|Geography: Human Geography & Development (LO #332)|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Geography: Maps, Globe & Diagrams (LO #333)|MCQ Quiz
+History|Art, Architecture & Culture|History: Art, Architecture & Culture (LO #334)|MCQ Quiz
+History|Medieval India|Medieval India: Administrative Measures of Khaljis & Tughlaqs|MCQ Quiz
+History|Medieval India|Medieval India: Socio-Political & Economic Transformations|MCQ Quiz
+History|Medieval India|History: Medieval India (LO #337)|MCQ Quiz
+History|Medieval India|History: Medieval India (LO #338)|MCQ Quiz
+History|Medieval India|Medieval India: Comparative Regional Developments|MCQ Quiz
+History|Religious Ideas & Movements|Bhakti & Sufi Movements: Emergence of New Religious Ideas|MCQ Quiz
+History|Religious Ideas & Movements|Bhakti & Sufi Traditions: Inferences from Devotional Poetry|MCQ Quiz
+History|Sources of History|History: Sources of History (LO #342)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|Democratic Equality: Political, Economic & Social Dimensions|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|Right to Equality: Regional Social & Economic Issues|MCQ Quiz
+Social & Political Life (Civics & Economics)|Elections & Constituencies|Civics: Elections & Constituencies (LO #345)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Elections & Constituencies|Civics: Elections & Constituencies (LO #346)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Gender|Civics: Gender (LO #347)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Markets, Economy & Public Facilities|Civics: Markets, Economy & Public Facilities (LO #348)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Media & Advertising|Role of Media: News Reporting & Creating Advertisements|MCQ Quiz
 @VIII
 !English
-Listening|Following Instructions & Announcements|Follow the Steps Race – Class VIII|Sequence Order
-Listening|Media & Public Listening|Radio Ad Detective|MCQ Quiz
-Listening|Language Lab|Listen & Repeat Lab|Typing Answer
-Speaking|Conversation & Polite Expressions|Greeting Dialogue Game|Story Builder
-Speaking|Recitation & Performance|Poetry Stage Star – Class VIII|Fill in the Blank
-Speaking|Oral Expression & Narration|Story Chain Builder – Class VIII|Story Builder
-Speaking|Questioning|Interview Challenge|Match Pairs
-Reading|Critical Reading|Spot the Bias|MCQ Quiz
-Reading|Reading Comprehension|Reading Rally|MCQ Quiz
-Reading|Extensive Reading|Library Quest|MCQ Quiz
-Writing|Functional Writing|Letter & Notice Builder – Class VIII|Fill in the Blank
-Writing|Word, Sentence & Paragraph Writing|Writing Workshop|Word Scramble
-Writing|Answer Writing|Answer Builder Challenge|Typing Answer
-Writing|Creative Writing|Create-a-Character Tale|Story Builder
-VG|Grammar in Use|Sentence Fixer|Fill in the Blank
-VG|Vocabulary|Vocabulary Vault|Guess the Word
+Listening|Following Instructions & Announcements|Listening Comprehension & Public Broadcast (LO #350)|MCQ Quiz
+Listening|Language Lab|Language Laboratory Session (Class VIII)|MCQ Quiz
+Listening|Media & Public Listening|Listening Comprehension & Public Broadcast (LO #352)|MCQ Quiz
+Reading|Critical Reading|Reading Studio: Critical Reading (LO #353)|MCQ Quiz
+Reading|Critical Reading|Reading Studio: Critical Reading (LO #354)|MCQ Quiz
+Reading|Extensive Reading|Reading Studio: Extensive Reading (LO #355)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #356)|MCQ Quiz
+Reading|Reading Comprehension|Reading Studio: Reading Comprehension (LO #357)|MCQ Quiz
+Speaking|Conversation & Polite Expressions|Speaking Studio: Conversation & Polite Expressions (LO #358)|MCQ Quiz
+Speaking|Conversation & Polite Expressions|Speaking Studio: Conversation & Polite Expressions (LO #359)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #360)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #361)|MCQ Quiz
+Speaking|Oral Expression & Narration|Speaking Studio: Oral Expression & Narration (LO #362)|MCQ Quiz
+Speaking|Questioning|Speaking Studio: Questioning (LO #363)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #364)|MCQ Quiz
+Speaking|Recitation & Performance|Speaking Studio: Recitation & Performance (LO #365)|MCQ Quiz
+Vocabulary & Grammar|Grammar in Use|Grammar & Vocabulary Studio: Grammar in Use (LO #366)|MCQ Quiz
+Vocabulary & Grammar|Grammar in Use|Grammar & Vocabulary Studio: Grammar in Use (LO #367)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #368)|MCQ Quiz
+Vocabulary & Grammar|Vocabulary|Grammar & Vocabulary Studio: Vocabulary (LO #369)|MCQ Quiz
+Writing|Answer Writing|Writing Studio: Answer Writing (LO #370)|MCQ Quiz
+Writing|Creative Writing|Writing Studio: Creative Writing (LO #371)|MCQ Quiz
+Writing|Creative Writing|Creative Writing: Book Review (Class VIII)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #373)|MCQ Quiz
+Writing|Functional Writing|Writing Studio: Functional Writing (LO #374)|MCQ Quiz
+Writing|Word, Sentence & Paragraph Writing|The Writing Process: Drafting, Revising, Editing & Finalising|Sequence Order
+Writing|Word, Sentence & Paragraph Writing|Writing Studio: Word, Sentence & Paragraph Writing (LO #376)|MCQ Quiz
 !Mathematics
-NS|Fractions, Decimals & Rational Numbers|Decimal Duel|Match Pairs
-NS|Factors, Multiples & Divisibility|HCF-LCM Showdown|Typing Answer
-NS|Exponents, Squares & Roots|Perfect Square Hunter|Typing Answer
-Algebra|Variables & Algebraic Expressions|Variable Value Challenge|Typing Answer
-Algebra|Algebraic Identities|Identity Match-Up|Match Pairs
-RPCA|Percentage, Profit & Loss, Interest|Profit or Loss Trader|Typing Answer
-RPCA|Ratio & Proportion|Ratio Rescue|MCQ Quiz
-Geometry|Quadrilaterals|Quad Property Sorter|Sort & Group
-Geometry|3D Shapes & Visualisation|3D Visualiser Challenge|MCQ Quiz
-Geometry|Constructions|Compass & Ruler Order Game|Sequence Order
-Mensuration|Perimeter & Area|Land Plot Planner|Typing Answer
-Mensuration|Surface Area & Volume|Box Wrapper Surface Area|Typing Answer
-Data Handling|Data Representation & Interpretation|Data Dashboard Detective|MCQ Quiz
-Data Handling|Probability & Chance|Probability Predictor|MCQ Quiz
+Algebra|Algebraic Identities|Algebra: Algebraic Identities (LO #377)|MCQ Quiz
+Algebra|Variables & Algebraic Expressions|Algebra: Variables & Algebraic Expressions (LO #378)|MCQ Quiz
+Algebra|Variables & Algebraic Expressions|Algebra: Variables & Algebraic Expressions (LO #379)|MCQ Quiz
+Data Handling|Data Representation & Interpretation|Data Handling: Data Representation & Interpretation (LO #380)|MCQ Quiz
+Data Handling|Probability & Chance|Data Handling: Probability & Chance (LO #381)|MCQ Quiz
+Geometry|3D Shapes & Visualisation|Geometry: 3D Shapes & Visualisation (LO #382)|MCQ Quiz
+Geometry|3D Shapes & Visualisation|Euler's Relation for Polyhedra (F + V - E = 2)|MCQ Quiz
+Geometry|Constructions|Geometry: Constructions (LO #384)|MCQ Quiz
+Geometry|Quadrilaterals|Geometry: Quadrilaterals (LO #385)|MCQ Quiz
+Geometry|Quadrilaterals|Geometry: Quadrilaterals (LO #386)|MCQ Quiz
+Mensuration|Perimeter & Area|Mensuration: Perimeter & Area (LO #387)|MCQ Quiz
+Mensuration|Perimeter & Area|Mensuration: Perimeter & Area (LO #388)|MCQ Quiz
+Mensuration|Surface Area & Volume|Mensuration: Surface Area & Volume (LO #389)|MCQ Quiz
+Number System|Exponents, Squares & Roots|Number System: Exponents, Squares & Roots (LO #390)|MCQ Quiz
+Number System|Exponents, Squares & Roots|Number System: Exponents, Squares & Roots (LO #391)|MCQ Quiz
+Number System|Factors, Multiples & Divisibility|Number System: Factors, Multiples & Divisibility (LO #392)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #393)|MCQ Quiz
+Number System|Fractions, Decimals & Rational Numbers|Number System: Fractions, Decimals & Rational Numbers (LO #394)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Percentage, Profit & Loss, Interest|Ratio, Proportion & Commercial Arithmetic: Percentage, Profit & Loss, Interest (LO #395)|MCQ Quiz
+Ratio, Proportion & Commercial Arithmetic|Ratio & Proportion|Ratio, Proportion & Commercial Arithmetic: Ratio & Proportion (LO #396)|MCQ Quiz
 !Science
-ID|Differentiation|Physical vs Chemical Change Sorter|Sort & Group
-Classification|Classification of Materials, Organisms & Processes|Kingdom Sorting Challenge|Sort & Group
-SII|Conducting Investigations|Variable Controller|Sequence Order
-EPCE|Cause–Effect Relationships|Why Does It Happen?|Match Pairs
-EPCE|Explaining Processes & Phenomena|Phenomena Explainer|Sequence Order
-EPCE|Chemical Word Equations|Reaction Recipe Match|Fill in the Blank
-MRR|Measurement & Calculation|Measure It Right|Typing Answer
-MRR|Microscopy & Slide Preparation|Slide Prep Step Order|Sequence Order
-MRR|Labelled Diagrams & Flow Charts|Diagram Detective|Match Pairs
-MADL|Model Construction|Model Engineer Challenge|Sequence Order
-MADL|Application of Concepts in Daily Life|Real-Life Science Challenge|MCQ Quiz
-MADL|History of Scientific Discoveries|Discovery Timeline Challenge|Match Pairs
-EACV|Environmental Protection|Save the Planet Decision Maker|MCQ Quiz
-EACV|Creativity|Creative Solution Studio|Story Builder
-EACV|Scientific Values|Curious & Careful Challenge|MCQ Quiz
+Classification|Classification of Materials, Organisms & Processes|Science Studio: Classification of Materials, Organisms & Processes (LO #397)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Creativity|Science Studio: Creativity (LO #398)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Environmental Protection|Science Studio: Environmental Protection (LO #399)|MCQ Quiz
+Environmental Awareness, Creativity & Values|Scientific Values|Science Studio: Scientific Values (LO #400)|MCQ Quiz
+Explaining Processes & Cause-Effect|General|Science Studio: General (LO #401)|MCQ Quiz
+Explaining Processes & Cause-Effect|Chemical Word Equations|Science Studio: Chemical Word Equations (LO #402)|MCQ Quiz
+Explaining Processes & Cause-Effect|Explaining Processes & Phenomena|Science Studio: Explaining Processes & Phenomena (LO #403)|MCQ Quiz
+Identification & Differentiation|Differentiation|Science Studio: Differentiation (LO #404)|MCQ Quiz
+Measurement, Recording & Representation|Labelled Diagrams & Flow Charts|Science Studio: Labelled Diagrams & Flow Charts (LO #405)|MCQ Quiz
+Measurement, Recording & Representation|Measurement & Calculation|Science Studio: Measurement & Calculation (LO #406)|MCQ Quiz
+Measurement, Recording & Representation|Microscopy & Slide Preparation|Science Studio: Microscopy & Slide Preparation (LO #407)|MCQ Quiz
+Models & Application in Daily Life|Application of Concepts in Daily Life|Science Studio: Application of Concepts in Daily Life (LO #408)|MCQ Quiz
+Models & Application in Daily Life|History of Scientific Discoveries|Science Studio: History of Scientific Discoveries (LO #409)|MCQ Quiz
+Models & Application in Daily Life|Model Construction|Science Studio: Model Construction (LO #410)|MCQ Quiz
+Scientific Inquiry & Investigation|Conducting Investigations|Science Studio: Conducting Investigations (LO #411)|MCQ Quiz
 !Social Science
-Geography|Agriculture & Industries|Farm to Factory Match|Match Pairs
-Geography|Maps, Globe & Diagrams|Globe Navigator|Match Pairs
-Geography|Disasters & Management|Emergency Response Planner|MCQ Quiz
-Geography|Environment & Natural Resources|Resource Manager|Sort & Group
-History|Sources of History|Evidence Explorer|Sort & Group
-History|Colonial & Modern India|Freedom Struggle Timeline|Sequence Order
-History|Art, Architecture & Culture|Architecture Explorer|Match Pairs
-SPL|Constitution, Rights & Laws|Constitution Quest|MCQ Quiz
-SPL|Elections & Constituencies|Vote & Count Challenge|Story Builder
-SPL|Markets, Economy & Public Facilities|Economy Explorer|Sort & Group
+Geography|Agriculture & Industries|Global Agricultural Production: Wheat, Rice, Cotton & Jute|MCQ Quiz
+Geography|Agriculture & Industries|Geography: Agriculture & Industries (LO #413)|MCQ Quiz
+Geography|Agriculture & Industries|Regional Agriculture: Farming Types & Local Crop Practices|MCQ Quiz
+Geography|Agriculture & Industries|Geography: Agriculture & Industries (LO #415)|MCQ Quiz
+Geography|Disasters & Management|Industrial Disasters & Landslides: Risk Reduction Measures|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #417)|MCQ Quiz
+Geography|Environment & Natural Resources|Geography: Environment & Natural Resources (LO #418)|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Geography: Maps, Globe & Diagrams (LO #419)|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Geography: Maps, Globe & Diagrams (LO #420)|MCQ Quiz
+Geography|Maps, Globe & Diagrams|Geography: Maps, Globe & Diagrams (LO #421)|MCQ Quiz
+History|Art, Architecture & Culture|History: Art, Architecture & Culture (LO #422)|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #423)|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #424)|MCQ Quiz
+History|Colonial & Modern India|Colonial & Modern India: Decline and Rise of Urban Centres|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #426)|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #427)|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #428)|MCQ Quiz
+History|Colonial & Modern India|History: Colonial & Modern India (LO #429)|MCQ Quiz
+History|Colonial & Modern India|The Revolt of 1857: Origins, Spread & Impact|MCQ Quiz
+History|Colonial & Modern India|Indian National Movement: 1870s to 1947|Sequence Order
+History|Sources of History|Historical Periods: Distinguishing Modern, Medieval & Ancient|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|Civics: Constitution, Rights & Laws (LO #433)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|The Judicial System & How to File an FIR|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|How Laws are Made: RTI Act, RTE Act & Domestic Violence Act|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|Civics: Constitution, Rights & Laws (LO #436)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Constitution, Rights & Laws|Civics: Constitution, Rights & Laws (LO #437)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Elections & Constituencies|Civics: Elections & Constituencies (LO #438)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Elections & Constituencies|Civics: Elections & Constituencies (LO #439)|MCQ Quiz
+Social & Political Life (Civics & Economics)|Markets, Economy & Public Facilities|Civics: Markets, Economy & Public Facilities (LO #440)|MCQ Quiz
 `;
 
   const ACTIVITIES = [];
@@ -408,9 +489,9 @@ SPL|Markets, Economy & Public Facilities|Economy Explorer|Sort & Group
     if (line[0] === '@') { cls = line.slice(1); CURRICULUM_DATA[cls] = {}; return; }
     if (line[0] === '!') { subject = line.slice(1); CURRICULUM_DATA[cls][subject] = {}; return; }
     const p = line.split('|');
-    const skill = SKILL[p[0]] || p[0];
+    const skill = p[0];
     const sub = p[1], name = p[2], type = p[3];
-    const ck = cls + '-' + SUBJECT_CODE[subject];
+    const ck = cls + '-' + (SUBJECT_CODE[subject] || 'GEN');
     counters[ck] = (counters[ck] || 0) + 1;
     const id = ck + '-' + String(counters[ck]).padStart(2, '0');
     const act = { id: id, class: cls, subject: subject, skill: skill, subSkill: sub, name: name, type: type, file: 'play.html' };

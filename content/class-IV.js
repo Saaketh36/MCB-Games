@@ -1,2349 +1,4476 @@
-// Game content for Class IV (generated). Keyed by activity id from curriculum-data.js
+// Game content for Class IV derived STRICTLY from 'skillAreaOutcomes - Sheet1.pdf'
 window.GAME_CONTENT = window.GAME_CONTENT || {};
 Object.assign(window.GAME_CONTENT, {
- "IV-ENG-01": {
-  "rounds": [
-   {
-    "prompt": "Put the steps of making a glass of lemonade in order",
-    "steps": [
-     "Cut a lemon into two halves",
-     "Squeeze the juice into a glass",
-     "Add sugar and water",
-     "Stir well with a spoon",
-     "Add ice and serve"
+  "LO-096": {
+    "title": "Assembly Announcement: Lost & Found! 📢",
+    "desc": "Responds to simple instructions, announcements in English made in class/school",
+    "subSkill": "Following Instructions & Announcements",
+    "audio_script": "During morning school assembly, Principal Rao makes an announcement: 'A blue pencil box with dinosaur stickers was found near the basketball court. The owner can collect it from the sports room after 3rd period.'",
+    "story": "During morning school assembly, Principal Rao makes an announcement: 'A blue pencil box with dinosaur stickers was found near the basketball court. The owner can collect it from the sports room after 3rd period.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Where can the owner of the lost blue pencil box collect it from?",
+        "options": [
+          "From the main entrance lost-and-found desk",
+          "Near the basketball court where it was found",
+          "From the sports room after 3rd period",
+          "From Principal Rao at the morning assembly podium"
+        ],
+        "answer": 2,
+        "explain": "Principal Rao instructed the owner to collect it from the sports room after 3rd period (even though it was found near the basketball court)!"
+      },
+      {
+        "q": "What identifying feature does the lost pencil box have?",
+        "options": [
+          "Dinosaur stickers on a blue box",
+          "The student's name and roll number on a yellow box",
+          "Basketball court stickers on a red box",
+          "A plain blue box with mathematical symbols"
+        ],
+        "answer": 0,
+        "explain": "The announcement described a blue pencil box with dinosaur stickers."
+      },
+      {
+        "q": "At what specific time is the owner instructed to collect the pencil box?",
+        "options": [
+          "At dismissal time during school bus boarding",
+          "Right before the first morning bell rings",
+          "During the morning school assembly",
+          "After 3rd period"
+        ],
+        "answer": 3,
+        "explain": "Principal Rao specifically announced that collection is scheduled after 3rd period."
+      }
     ]
-   },
-   {
-    "prompt": "Put the steps of the school fire drill announcement in order",
-    "steps": [
-     "Stop what you are doing",
-     "Line up quietly at the door",
-     "Walk out without running",
-     "Gather at the playground",
-     "Wait for the teacher to count"
+  },
+  "96": {
+    "title": "Assembly Announcement: Lost & Found! 📢",
+    "desc": "Responds to simple instructions, announcements in English made in class/school",
+    "subSkill": "Following Instructions & Announcements",
+    "audio_script": "During morning school assembly, Principal Rao makes an announcement: 'A blue pencil box with dinosaur stickers was found near the basketball court. The owner can collect it from the sports room after 3rd period.'",
+    "story": "During morning school assembly, Principal Rao makes an announcement: 'A blue pencil box with dinosaur stickers was found near the basketball court. The owner can collect it from the sports room after 3rd period.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Where can the owner of the lost blue pencil box collect it from?",
+        "options": [
+          "From the main entrance lost-and-found desk",
+          "Near the basketball court where it was found",
+          "From the sports room after 3rd period",
+          "From Principal Rao at the morning assembly podium"
+        ],
+        "answer": 2,
+        "explain": "Principal Rao instructed the owner to collect it from the sports room after 3rd period (even though it was found near the basketball court)!"
+      },
+      {
+        "q": "What identifying feature does the lost pencil box have?",
+        "options": [
+          "Dinosaur stickers on a blue box",
+          "The student's name and roll number on a yellow box",
+          "Basketball court stickers on a red box",
+          "A plain blue box with mathematical symbols"
+        ],
+        "answer": 0,
+        "explain": "The announcement described a blue pencil box with dinosaur stickers."
+      },
+      {
+        "q": "At what specific time is the owner instructed to collect the pencil box?",
+        "options": [
+          "At dismissal time during school bus boarding",
+          "Right before the first morning bell rings",
+          "During the morning school assembly",
+          "After 3rd period"
+        ],
+        "answer": 3,
+        "explain": "Principal Rao specifically announced that collection is scheduled after 3rd period."
+      }
     ]
-   },
-   {
-    "prompt": "Put the steps of planting a seed in order",
-    "steps": [
-     "Dig a small hole in the soil",
-     "Put the seed inside",
-     "Cover it with soil",
-     "Water it gently",
-     "Place the pot in sunlight"
+  },
+  "LO-097": {
+    "title": "Radio Wildlife: The Elephant Whisperer 🐘",
+    "desc": "Responds verbally/in writing in English to questions based on day-to-day life experiences, an article, story or poem heard or read",
+    "subSkill": "Listening Comprehension & Response",
+    "audio_script": "Listen to the wildlife podcast snippet: 'Elephants live in tight-knit matriarchal herds led by the oldest, wisest female. They communicate using deep infrasonic rumbles that travel through the ground for miles.'",
+    "story": "Listen to the wildlife podcast snippet: 'Elephants live in tight-knit matriarchal herds led by the oldest, wisest female. They communicate using deep infrasonic rumbles that travel through the ground for miles.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Who leads an elephant family herd in the wild?",
+        "options": [
+          "A solitary male lion",
+          "A flock of birds",
+          "The oldest and wisest female elephant (the matriarch)",
+          "The youngest playful baby calf"
+        ],
+        "answer": 2,
+        "explain": "Elephant herds are matriarchal, guided by experienced older females who know water sources!"
+      },
+      {
+        "q": "How do elephants send messages to other herds far away across the savannah?",
+        "options": [
+          "Using deep, low rumbles that vibrate through the ground",
+          "By waving flags with their trunks",
+          "By whistling high bird songs",
+          "By tapping on wooden logs"
+        ],
+        "answer": 0,
+        "explain": "Low-frequency infrasound travels through the ground, which elephants sense through sensitive foot pads!"
+      },
+      {
+        "q": "What does this passage reveal about elephant social life?",
+        "options": [
+          "They are deeply caring, cooperative, and communicative social animals",
+          "They cannot hear any sounds",
+          "They never help other elephants",
+          "They prefer living completely alone without families"
+        ],
+        "answer": 0,
+        "explain": "Elephants form lifelong familial bonds, protect calves together, and mourn their loved ones."
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-02": {
-  "intro": "Podcast: Hello listeners! Today we talk about Asha, who lives in Jaipur. Every Sunday she helps her grandfather water the plants on their terrace. They grow tomatoes, mint and roses. Asha says the roses are her favourite because they smell so sweet.",
-  "questions": [
-   {
-    "q": "Where does Asha live?",
-    "options": [
-     "Jaipur",
-     "Chennai",
-     "Kolkata",
-     "Pune"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "On which day does Asha water the plants?",
-    "options": [
-     "Monday",
-     "Saturday",
-     "Sunday",
-     "Friday"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Who helps Asha with the plants?",
-    "options": [
-     "Her mother",
-     "Her grandfather",
-     "Her teacher",
-     "Her brother"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which plant is Asha's favourite?",
-    "options": [
-     "Tomatoes",
-     "Mint",
-     "Roses",
-     "Tulsi"
-    ],
-    "answer": 2,
-    "explain": "She likes roses because they smell sweet."
-   },
-   {
-    "q": "Where are the plants kept?",
-    "options": [
-     "In the school",
-     "On the terrace",
-     "In the kitchen",
-     "In a park"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Why does Asha like roses?",
-    "options": [
-     "They are very big",
-     "They smell so sweet",
-     "They grow fast",
-     "They can be eaten"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-ENG-03": {
-  "intro": "Poem: The rain comes down, pitter-patter, / Dancing on the roof, what a clatter! / Frogs hop out to sing and play, / Children splash on a rainy day.",
-  "items": [
-   {
-    "text": "The rain comes down, pitter-___",
-    "answer": "patter",
-    "options": [
-     "patter",
-     "pillow",
-     "pepper",
-     "paper"
+  },
+  "97": {
+    "title": "Radio Wildlife: The Elephant Whisperer 🐘",
+    "desc": "Responds verbally/in writing in English to questions based on day-to-day life experiences, an article, story or poem heard or read",
+    "subSkill": "Listening Comprehension & Response",
+    "audio_script": "Listen to the wildlife podcast snippet: 'Elephants live in tight-knit matriarchal herds led by the oldest, wisest female. They communicate using deep infrasonic rumbles that travel through the ground for miles.'",
+    "story": "Listen to the wildlife podcast snippet: 'Elephants live in tight-knit matriarchal herds led by the oldest, wisest female. They communicate using deep infrasonic rumbles that travel through the ground for miles.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Who leads an elephant family herd in the wild?",
+        "options": [
+          "A solitary male lion",
+          "A flock of birds",
+          "The oldest and wisest female elephant (the matriarch)",
+          "The youngest playful baby calf"
+        ],
+        "answer": 2,
+        "explain": "Elephant herds are matriarchal, guided by experienced older females who know water sources!"
+      },
+      {
+        "q": "How do elephants send messages to other herds far away across the savannah?",
+        "options": [
+          "Using deep, low rumbles that vibrate through the ground",
+          "By waving flags with their trunks",
+          "By whistling high bird songs",
+          "By tapping on wooden logs"
+        ],
+        "answer": 0,
+        "explain": "Low-frequency infrasound travels through the ground, which elephants sense through sensitive foot pads!"
+      },
+      {
+        "q": "What does this passage reveal about elephant social life?",
+        "options": [
+          "They are deeply caring, cooperative, and communicative social animals",
+          "They cannot hear any sounds",
+          "They never help other elephants",
+          "They prefer living completely alone without families"
+        ],
+        "answer": 0,
+        "explain": "Elephants form lifelong familial bonds, protect calves together, and mourn their loved ones."
+      }
     ]
-   },
-   {
-    "text": "Dancing on the roof, what a ___!",
-    "answer": "clatter",
-    "options": [
-     "clatter",
-     "water",
-     "letter",
-     "matter"
-    ],
-    "explain": "Clatter rhymes with patter."
-   },
-   {
-    "text": "___ hop out to sing and play.",
-    "answer": "Frogs",
-    "options": [
-     "Frogs",
-     "Cows",
-     "Birds",
-     "Cats"
+  },
+  "LO-098": {
+    "title": "Notice Board Sleuth: Science Fair Rules 📌",
+    "desc": "Reads printed script on the classroom walls, notice board, in posters and in advertisements",
+    "subSkill": "Environmental Print & Information",
+    "audio_script": "Rhea reads the colorful poster on the science notice board: 'ANNUAL SCIENCE FAIR: Submit project models made from recycled materials by Friday, 12th November to Mrs. Sharma in Lab 2.'",
+    "story": "Rhea reads the colorful poster on the science notice board: 'ANNUAL SCIENCE FAIR: Submit project models made from recycled materials by Friday, 12th November to Mrs. Sharma in Lab 2.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What special material condition is required for all project models in the science fair?",
+        "options": [
+          "They must be bought ready-made from toy stores",
+          "They must use imported plastic",
+          "They must be made using recycled materials",
+          "They must be made from pure gold"
+        ],
+        "answer": 2,
+        "explain": "The poster states that models must be created from recycled materials to encourage eco-creativity."
+      },
+      {
+        "q": "To whom and where must students submit their completed models?",
+        "options": [
+          "To the security guard at the gate",
+          "To the school bus driver",
+          "Leave them in the playground",
+          "To Mrs. Sharma in Lab 2"
+        ],
+        "answer": 3,
+        "explain": "The notice designates Mrs. Sharma in Lab 2 as the recipient."
+      },
+      {
+        "q": "What is the final deadline date for submission according to the poster?",
+        "options": [
+          "December 25th",
+          "Anytime next year",
+          "Friday, 12th November",
+          "Monday, 1st October"
+        ],
+        "answer": 2,
+        "explain": "The printed deadline is clearly marked as Friday, 12th November."
+      }
     ]
-   },
-   {
-    "text": "Children ___ on a rainy day.",
-    "answer": "splash",
-    "options": [
-     "splash",
-     "sleep",
-     "study",
-     "shout"
+  },
+  "98": {
+    "title": "Notice Board Sleuth: Science Fair Rules 📌",
+    "desc": "Reads printed script on the classroom walls, notice board, in posters and in advertisements",
+    "subSkill": "Environmental Print & Information",
+    "audio_script": "Rhea reads the colorful poster on the science notice board: 'ANNUAL SCIENCE FAIR: Submit project models made from recycled materials by Friday, 12th November to Mrs. Sharma in Lab 2.'",
+    "story": "Rhea reads the colorful poster on the science notice board: 'ANNUAL SCIENCE FAIR: Submit project models made from recycled materials by Friday, 12th November to Mrs. Sharma in Lab 2.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What special material condition is required for all project models in the science fair?",
+        "options": [
+          "They must be bought ready-made from toy stores",
+          "They must use imported plastic",
+          "They must be made using recycled materials",
+          "They must be made from pure gold"
+        ],
+        "answer": 2,
+        "explain": "The poster states that models must be created from recycled materials to encourage eco-creativity."
+      },
+      {
+        "q": "To whom and where must students submit their completed models?",
+        "options": [
+          "To the security guard at the gate",
+          "To the school bus driver",
+          "Leave them in the playground",
+          "To Mrs. Sharma in Lab 2"
+        ],
+        "answer": 3,
+        "explain": "The notice designates Mrs. Sharma in Lab 2 as the recipient."
+      },
+      {
+        "q": "What is the final deadline date for submission according to the poster?",
+        "options": [
+          "December 25th",
+          "Anytime next year",
+          "Friday, 12th November",
+          "Monday, 1st October"
+        ],
+        "answer": 2,
+        "explain": "The printed deadline is clearly marked as Friday, 12th November."
+      }
     ]
-   },
-   {
-    "text": "The poem is about ___.",
-    "answer": "rain",
-    "options": [
-     "rain",
-     "snow",
-     "sun",
-     "wind"
+  },
+  "LO-099": {
+    "title": "Headline Hunter: Reading the News 📰",
+    "desc": "Reads subtitles on TV, titles of books, news headlines, pamphlets and advertisements",
+    "subSkill": "Environmental Print & Information",
+    "audio_script": "Kabir reads the morning newspaper headline: 'CITY ADOPTS SOLAR POWER: 50 Government Schools Install Rooftop Solar Panels to Generate Clean Electricity.'",
+    "story": "Kabir reads the morning newspaper headline: 'CITY ADOPTS SOLAR POWER: 50 Government Schools Install Rooftop Solar Panels to Generate Clean Electricity.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What clean energy source are city schools adopting according to the headline?",
+        "options": [
+          "Firewood chulhas",
+          "Diesel generators",
+          "Coal-burning furnaces",
+          "Solar power from rooftop solar panels"
+        ],
+        "answer": 3,
+        "explain": "The headline highlights the installation of rooftop solar panels converting sunlight to power."
+      },
+      {
+        "q": "How many schools have installed solar panels in this initial city project?",
+        "options": [
+          "500 schools",
+          "1 school",
+          "50 schools",
+          "5 schools"
+        ],
+        "answer": 2,
+        "explain": "The news subtitle clearly reports: '50 Government Schools Install Rooftop Solar Panels'."
+      },
+      {
+        "q": "Why are headlines in newspapers written in bold, concise, catchy language?",
+        "options": [
+          "To grab the reader's attention and summarize the main event instantly",
+          "Because sentences cannot be longer than five words",
+          "To confuse readers about the topic",
+          "Because the printer ran out of letters"
+        ],
+        "answer": 0,
+        "explain": "Headlines provide an instant, high-impact overview of breaking news stories!"
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-04": {
-  "prompt": "Build your own adventure story by choosing one line for each part.",
-  "parts": [
-   {
-    "label": "Who is the hero?",
-    "choices": [
-     "One sunny morning, a brave girl named Meera went to the forest.",
-     "One sunny morning, a clever boy named Arjun went to the river.",
-     "One sunny morning, a little elephant named Gudu went to the hill."
+  },
+  "99": {
+    "title": "Headline Hunter: Reading the News 📰",
+    "desc": "Reads subtitles on TV, titles of books, news headlines, pamphlets and advertisements",
+    "subSkill": "Environmental Print & Information",
+    "audio_script": "Kabir reads the morning newspaper headline: 'CITY ADOPTS SOLAR POWER: 50 Government Schools Install Rooftop Solar Panels to Generate Clean Electricity.'",
+    "story": "Kabir reads the morning newspaper headline: 'CITY ADOPTS SOLAR POWER: 50 Government Schools Install Rooftop Solar Panels to Generate Clean Electricity.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What clean energy source are city schools adopting according to the headline?",
+        "options": [
+          "Firewood chulhas",
+          "Diesel generators",
+          "Coal-burning furnaces",
+          "Solar power from rooftop solar panels"
+        ],
+        "answer": 3,
+        "explain": "The headline highlights the installation of rooftop solar panels converting sunlight to power."
+      },
+      {
+        "q": "How many schools have installed solar panels in this initial city project?",
+        "options": [
+          "500 schools",
+          "1 school",
+          "50 schools",
+          "5 schools"
+        ],
+        "answer": 2,
+        "explain": "The news subtitle clearly reports: '50 Government Schools Install Rooftop Solar Panels'."
+      },
+      {
+        "q": "Why are headlines in newspapers written in bold, concise, catchy language?",
+        "options": [
+          "To grab the reader's attention and summarize the main event instantly",
+          "Because sentences cannot be longer than five words",
+          "To confuse readers about the topic",
+          "Because the printer ran out of letters"
+        ],
+        "answer": 0,
+        "explain": "Headlines provide an instant, high-impact overview of breaking news stories!"
+      }
     ]
-   },
-   {
-    "label": "What does the hero find?",
-    "choices": [
-     "There, a shiny old treasure map lay on the ground.",
-     "Suddenly, a tiny lost puppy was seen shivering near a rock.",
-     "Soon, a golden key was found hidden under a tree."
+  },
+  "LO-100": {
+    "title": "Voice Actor: Reading with Pauses & Emotion 🎭",
+    "desc": "Uses punctuation marks appropriately in reading aloud with intonation and pauses such as question mark, comma and full stop",
+    "subSkill": "Reading Aloud & Fluency",
+    "audio_script": "Aarav is practicing reading a dialogue: 'Wait! Did you hear that mysterious rustle in the bushes, Anita?'",
+    "story": "Aarav is practicing reading a dialogue: 'Wait! Did you hear that mysterious rustle in the bushes, Anita?'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What should Aarav's voice do when he reads 'Wait!' followed by an exclamation mark?",
+        "options": [
+          "Speak with a sudden, energetic stop to show urgent attention",
+          "Yawn slowly",
+          "Laugh out loud",
+          "Mumble quietly while walking away"
+        ],
+        "answer": 0,
+        "explain": "The exclamation mark (!) commands immediate, dramatic attention."
+      },
+      {
+        "q": "How should his voice conclude the question: '...rustle in the bushes, Anita?'",
+        "options": [
+          "By whispering the name backwards",
+          "With a flat robotic drone",
+          "With a rising tone that asks for Anita's reaction",
+          "By skipping the word Anita"
+        ],
+        "answer": 2,
+        "explain": "A question mark (?) naturally guides your pitch upward to invite an answer."
+      },
+      {
+        "q": "Why is proper phrasing and pausing essential when reading aloud to an audience?",
+        "options": [
+          "Because books are not allowed to be read quickly",
+          "To make the story last as long as possible until everyone sleeps",
+          "So the audience gets confused",
+          "It brings the story characters to life and helps listeners understand the meaning easily"
+        ],
+        "answer": 3,
+        "explain": "Expressive phrasing transforms printed text into an exciting, clear mental movie for listeners!"
+      }
     ]
-   },
-   {
-    "label": "What problem happens?",
-    "choices": [
-     "But a loud storm began and the path became muddy.",
-     "But a big bridge was broken and nobody could cross.",
-     "But night came quickly and it grew very dark."
+  },
+  "100": {
+    "title": "Voice Actor: Reading with Pauses & Emotion 🎭",
+    "desc": "Uses punctuation marks appropriately in reading aloud with intonation and pauses such as question mark, comma and full stop",
+    "subSkill": "Reading Aloud & Fluency",
+    "audio_script": "Aarav is practicing reading a dialogue: 'Wait! Did you hear that mysterious rustle in the bushes, Anita?'",
+    "story": "Aarav is practicing reading a dialogue: 'Wait! Did you hear that mysterious rustle in the bushes, Anita?'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What should Aarav's voice do when he reads 'Wait!' followed by an exclamation mark?",
+        "options": [
+          "Speak with a sudden, energetic stop to show urgent attention",
+          "Yawn slowly",
+          "Laugh out loud",
+          "Mumble quietly while walking away"
+        ],
+        "answer": 0,
+        "explain": "The exclamation mark (!) commands immediate, dramatic attention."
+      },
+      {
+        "q": "How should his voice conclude the question: '...rustle in the bushes, Anita?'",
+        "options": [
+          "By whispering the name backwards",
+          "With a flat robotic drone",
+          "With a rising tone that asks for Anita's reaction",
+          "By skipping the word Anita"
+        ],
+        "answer": 2,
+        "explain": "A question mark (?) naturally guides your pitch upward to invite an answer."
+      },
+      {
+        "q": "Why is proper phrasing and pausing essential when reading aloud to an audience?",
+        "options": [
+          "Because books are not allowed to be read quickly",
+          "To make the story last as long as possible until everyone sleeps",
+          "So the audience gets confused",
+          "It brings the story characters to life and helps listeners understand the meaning easily"
+        ],
+        "answer": 3,
+        "explain": "Expressive phrasing transforms printed text into an exciting, clear mental movie for listeners!"
+      }
     ]
-   },
-   {
-    "label": "How is it solved?",
-    "choices": [
-     "With courage and a little help from friends, the problem was solved.",
-     "A kind farmer arrived with a lantern and showed the way.",
-     "A wise old owl guided everyone safely home."
+  },
+  "LO-101": {
+    "title": "Dictionary Detectives: Guide Words & Alphabetical Order 📖",
+    "desc": "Uses dictionary to find out spelling and meaning",
+    "subSkill": "Reference Skills",
+    "audio_script": "Maya wants to find the meaning of the word 'HABITAT' in the classroom dictionary.",
+    "story": "Maya wants to find the meaning of the word 'HABITAT' in the classroom dictionary.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "To find 'HABITAT', Maya looks under the letter 'H'. Put these four words in alphabetical order: [ Herd, Habitat, Hive, Horn ].",
+        "options": [
+          "Habitat, Herd, Hive, Horn",
+          "Habitat, Hive, Herd, Horn",
+          "Herd, Habitat, Horn, Hive",
+          "Horn, Hive, Herd, Habitat"
+        ],
+        "answer": 0,
+        "explain": "Alphabetical order by 2nd letter: H-a (Habitat), H-e (Herd), H-i (Hive), H-o (Horn)!"
+      },
+      {
+        "q": "What does a dictionary entry provide besides the word's definition?",
+        "options": [
+          "The author's home telephone number",
+          "Pronunciation guide, part of speech (noun/verb), and example sentences",
+          "The price of the paper",
+          "A photo of every student in school"
+        ],
+        "answer": 1,
+        "explain": "Dictionaries tell you how to pronounce a word, its part of speech, and how to use it in a sentence."
+      },
+      {
+        "q": "What are the two 'guide words' printed at the top of a dictionary page used for?",
+        "options": [
+          "They are secret codes for spies",
+          "They show the first and last word on that page so you can find words quickly",
+          "They are the names of the printers",
+          "They tell you what page number to skip"
+        ],
+        "answer": 1,
+        "explain": "Guide words show the alphabetical range of words printed on that exact page."
+      }
     ]
-   },
-   {
-    "label": "How does it end?",
-    "choices": [
-     "Everyone cheered and went home happy.",
-     "From that day on, they were the best of friends.",
-     "That was the most exciting day of the year!"
+  },
+  "101": {
+    "title": "Dictionary Detectives: Guide Words & Alphabetical Order 📖",
+    "desc": "Uses dictionary to find out spelling and meaning",
+    "subSkill": "Reference Skills",
+    "audio_script": "Maya wants to find the meaning of the word 'HABITAT' in the classroom dictionary.",
+    "story": "Maya wants to find the meaning of the word 'HABITAT' in the classroom dictionary.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "To find 'HABITAT', Maya looks under the letter 'H'. Put these four words in alphabetical order: [ Herd, Habitat, Hive, Horn ].",
+        "options": [
+          "Habitat, Herd, Hive, Horn",
+          "Habitat, Hive, Herd, Horn",
+          "Herd, Habitat, Horn, Hive",
+          "Horn, Hive, Herd, Habitat"
+        ],
+        "answer": 0,
+        "explain": "Alphabetical order by 2nd letter: H-a (Habitat), H-e (Herd), H-i (Hive), H-o (Horn)!"
+      },
+      {
+        "q": "What does a dictionary entry provide besides the word's definition?",
+        "options": [
+          "The author's home telephone number",
+          "Pronunciation guide, part of speech (noun/verb), and example sentences",
+          "The price of the paper",
+          "A photo of every student in school"
+        ],
+        "answer": 1,
+        "explain": "Dictionaries tell you how to pronounce a word, its part of speech, and how to use it in a sentence."
+      },
+      {
+        "q": "What are the two 'guide words' printed at the top of a dictionary page used for?",
+        "options": [
+          "They are secret codes for spies",
+          "They show the first and last word on that page so you can find words quickly",
+          "They are the names of the printers",
+          "They tell you what page number to skip"
+        ],
+        "answer": 1,
+        "explain": "Guide words show the alphabetical range of words printed on that exact page."
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-05": {
-  "intro": "NOTICE: Annual Sports Day will be held on Friday, 14 December at 9:00 a.m. in the school ground. Students should wear their white sports uniform and white shoes. Parents are welcome. - Principal",
-  "questions": [
-   {
-    "q": "On which day is Sports Day?",
-    "options": [
-     "Monday",
-     "Wednesday",
-     "Friday",
-     "Saturday"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "At what time does it begin?",
-    "options": [
-     "8:00 a.m.",
-     "9:00 a.m.",
-     "10:00 a.m.",
-     "12:00 p.m."
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Where will it be held?",
-    "options": [
-     "In the library",
-     "In the school hall",
-     "In the school ground",
-     "In the park"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "What should students wear?",
-    "options": [
-     "Blue uniform",
-     "Casual clothes",
-     "White sports uniform",
-     "Raincoats"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Who has written the notice?",
-    "options": [
-     "Sports teacher",
-     "Principal",
-     "Class monitor",
-     "Parents"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A sign says 'SILENCE PLEASE' on a door. Which room is it most likely to be?",
-    "options": [
-     "Canteen",
-     "Playground",
-     "Library",
-     "Music room"
-    ],
-    "answer": 2
-   }
-  ]
- },
- "IV-ENG-06": {
-  "questions": [
-   {
-    "q": "The little puppy was so tiny that it fit in my palm. 'Tiny' means:",
-    "options": [
-     "very big",
-     "very small",
-     "very loud",
-     "very fast"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "It was a gloomy day, with dark clouds and no sunshine. 'Gloomy' means:",
-    "options": [
-     "bright",
-     "dull and dark",
-     "funny",
-     "hot"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Rohan was exhausted after the long race, so he lay down to rest. 'Exhausted' means:",
-    "options": [
-     "very tired",
-     "very happy",
-     "very hungry",
-     "very angry"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "The soup was scalding, so Meena waited before drinking it. 'Scalding' means:",
-    "options": [
-     "very cold",
-     "very sweet",
-     "very hot",
-     "very salty"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "The thief tiptoed silently so no one would hear. 'Silently' means:",
-    "options": [
-     "noisily",
-     "without any sound",
-     "quickly",
-     "angrily"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Grandma gave me a generous helping of rice, and I got a big plateful. 'Generous' means:",
-    "options": [
-     "very small",
-     "large and giving",
-     "cold",
-     "burnt"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-ENG-07": {
-  "prompt": "Sort these words by where their first letter falls in the dictionary.",
-  "categories": [
-   "A to M",
-   "N to Z"
-  ],
-  "items": [
-   {
-    "label": "apple",
-    "category": 0
-   },
-   {
-    "label": "ball",
-    "category": 0
-   },
-   {
-    "label": "kite",
-    "category": 0
-   },
-   {
-    "label": "mango",
-    "category": 0
-   },
-   {
-    "label": "nest",
-    "category": 1
-   },
-   {
-    "label": "rabbit",
-    "category": 1
-   },
-   {
-    "label": "sun",
-    "category": 1
-   },
-   {
-    "label": "tiger",
-    "category": 1
-   },
-   {
-    "label": "zebra",
-    "category": 1
-   },
-   {
-    "label": "goat",
-    "category": 0
-   }
-  ]
- },
- "IV-ENG-08": {
-  "seconds": 60,
-  "questions": [
-   {
-    "q": "Which word rhymes with 'cake'?",
-    "options": [
-     "lake",
-     "luck",
-     "kick",
-     "coat"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which is spelled correctly?",
-    "options": [
-     "frend",
-     "friend",
-     "freind",
-     "fruend"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which word has the 'sh' sound?",
-    "options": [
-     "chair",
-     "ship",
-     "thin",
-     "cat"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Complete: The cat sat ___ the mat.",
-    "options": [
-     "on",
-     "at",
-     "ox",
-     "an"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which word rhymes with 'light'?",
-    "options": [
-     "lit",
-     "night",
-     "late",
-     "led"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "How many syllables are in 'banana'?",
-    "options": [
-     "2",
-     "3",
-     "4",
-     "1"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which is spelled correctly?",
-    "options": [
-     "beautifull",
-     "beutiful",
-     "beautiful",
-     "butiful"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Which word means the opposite of 'fast'?",
-    "options": [
-     "quick",
-     "slow",
-     "run",
-     "speed"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which word rhymes with 'moon'?",
-    "options": [
-     "spoon",
-     "man",
-     "mine",
-     "mean"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which word means the same as 'big'?",
-    "options": [
-     "huge",
-     "tiny",
-     "thin",
-     "short"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which word starts with a silent 'k'?",
-    "options": [
-     "kite",
-     "king",
-     "knife",
-     "key"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Which word rhymes with 'bear'?",
-    "options": [
-     "bar",
-     "chair",
-     "beer",
-     "bore"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-ENG-09": {
-  "intro": "Read each clue, then type the correctly spelt word.",
-  "items": [
-   {
-    "q": "Spell the place where we borrow books.",
-    "answer": "library",
-    "accept": [
-     "Library"
+  },
+  "LO-102": {
+    "title": "Context Clue Champions: Unlocking Mystery Words 🔍",
+    "desc": "Infers the meaning of unfamiliar words by reading them in context",
+    "subSkill": "Vocabulary in Context",
+    "audio_script": "Read the sentence: 'After three days of heavy torrential rain without a break, the overflowing river was MURKY with brown churned mud and floating twigs.'",
+    "story": "Read the sentence: 'After three days of heavy torrential rain without a break, the overflowing river was MURKY with brown churned mud and floating twigs.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Using clues from the sentence ('brown churned mud and floating twigs'), what does 'MURKY' mean?",
+        "options": [
+          "Boiling hot and steaming",
+          "Dark, cloudy, and not clear",
+          "Sparkling clean and crystal clear",
+          "Freezing cold like solid ice"
+        ],
+        "answer": 1,
+        "explain": "Brown churned mud and debris in water make it dark and cloudy (murky)!"
+      },
+      {
+        "q": "Read: 'The puppy was FAMISHED after running all afternoon; he gulped down his entire bowl of kibble in five seconds.' What does 'FAMISHED' mean?",
+        "options": [
+          "Extremely hungry",
+          "Angry and growling",
+          "Fast asleep",
+          "Very thirsty only"
+        ],
+        "answer": 0,
+        "explain": "Gulping food in five seconds shows the puppy was starving or famished!"
+      },
+      {
+        "q": "How do context clues help you become a stronger independent reader?",
+        "options": [
+          "They change the story ending automatically",
+          "They let you skip reading all paragraphs",
+          "You can figure out the meaning of new words by looking at the surrounding story clues",
+          "They tell you to close the book immediately"
+        ],
+        "answer": 2,
+        "explain": "Context clues empower you to understand new vocabulary naturally as you read!"
+      }
     ]
-   },
-   {
-    "q": "Spell the third month of the year.",
-    "answer": "March",
-    "accept": [
-     "march"
+  },
+  "102": {
+    "title": "Context Clue Champions: Unlocking Mystery Words 🔍",
+    "desc": "Infers the meaning of unfamiliar words by reading them in context",
+    "subSkill": "Vocabulary in Context",
+    "audio_script": "Read the sentence: 'After three days of heavy torrential rain without a break, the overflowing river was MURKY with brown churned mud and floating twigs.'",
+    "story": "Read the sentence: 'After three days of heavy torrential rain without a break, the overflowing river was MURKY with brown churned mud and floating twigs.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Using clues from the sentence ('brown churned mud and floating twigs'), what does 'MURKY' mean?",
+        "options": [
+          "Boiling hot and steaming",
+          "Dark, cloudy, and not clear",
+          "Sparkling clean and crystal clear",
+          "Freezing cold like solid ice"
+        ],
+        "answer": 1,
+        "explain": "Brown churned mud and debris in water make it dark and cloudy (murky)!"
+      },
+      {
+        "q": "Read: 'The puppy was FAMISHED after running all afternoon; he gulped down his entire bowl of kibble in five seconds.' What does 'FAMISHED' mean?",
+        "options": [
+          "Extremely hungry",
+          "Angry and growling",
+          "Fast asleep",
+          "Very thirsty only"
+        ],
+        "answer": 0,
+        "explain": "Gulping food in five seconds shows the puppy was starving or famished!"
+      },
+      {
+        "q": "How do context clues help you become a stronger independent reader?",
+        "options": [
+          "They change the story ending automatically",
+          "They let you skip reading all paragraphs",
+          "You can figure out the meaning of new words by looking at the surrounding story clues",
+          "They tell you to close the book immediately"
+        ],
+        "answer": 2,
+        "explain": "Context clues empower you to understand new vocabulary naturally as you read!"
+      }
     ]
-   },
-   {
-    "q": "Spell the number 14 in words.",
-    "answer": "fourteen",
-    "accept": [
-     "Fourteen"
+  },
+  "LO-103": {
+    "title": "Campfire Chronicles: Describing an Experience 🏕️",
+    "desc": "Describes briefly, orally/in writing, events, places and/or personal experiences in English",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Vikram went on a weekend camping trip with his scout troop. He describes the crackling fire, roasting corn, and watching shooting stars.",
+    "story": "Vikram went on a weekend camping trip with his scout troop. He describes the crackling fire, roasting corn, and watching shooting stars.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which sentence uses rich sensory details (sight and sound) to describe Vikram's campfire night?",
+        "options": [
+          "'Orange sparks danced into the dark sky while the dry pine logs crackled in the cool breeze.'",
+          "'The scout master was there.'",
+          "'We ate things.'",
+          "'A camp has fire.'"
+        ],
+        "answer": 0,
+        "explain": "Sensory words (orange sparks, crackled, cool breeze) bring the scene vividly alive!"
+      },
+      {
+        "q": "When sharing a personal experience orally with your class, what helps keep your listeners engaged?",
+        "options": [
+          "Staring out the window",
+          "Speaking in one flat tone without pausing",
+          "Speaking clearly, showing genuine excitement, and organizing events in order",
+          "Looking down at your shoes and whispering"
+        ],
+        "answer": 2,
+        "explain": "Clear voice, enthusiasm, and good structure make your stories a joy to hear!"
+      },
+      {
+        "q": "What is the best way to conclude a narrative about a fun camping trip?",
+        "options": [
+          "'End of story.'",
+          "'The tent is blue.'",
+          "'As we packed our tents the next morning, I couldn't wait for our next outdoor adventure.'",
+          "'Grass is green.'"
+        ],
+        "answer": 2,
+        "explain": "Reflecting on the joyful memory and looking forward to the future creates a satisfying ending."
+      }
     ]
-   },
-   {
-    "q": "Spell the plural of 'child'.",
-    "answer": "children",
-    "accept": [
-     "Children"
+  },
+  "103": {
+    "title": "Campfire Chronicles: Describing an Experience 🏕️",
+    "desc": "Describes briefly, orally/in writing, events, places and/or personal experiences in English",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Vikram went on a weekend camping trip with his scout troop. He describes the crackling fire, roasting corn, and watching shooting stars.",
+    "story": "Vikram went on a weekend camping trip with his scout troop. He describes the crackling fire, roasting corn, and watching shooting stars.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which sentence uses rich sensory details (sight and sound) to describe Vikram's campfire night?",
+        "options": [
+          "'Orange sparks danced into the dark sky while the dry pine logs crackled in the cool breeze.'",
+          "'The scout master was there.'",
+          "'We ate things.'",
+          "'A camp has fire.'"
+        ],
+        "answer": 0,
+        "explain": "Sensory words (orange sparks, crackled, cool breeze) bring the scene vividly alive!"
+      },
+      {
+        "q": "When sharing a personal experience orally with your class, what helps keep your listeners engaged?",
+        "options": [
+          "Staring out the window",
+          "Speaking in one flat tone without pausing",
+          "Speaking clearly, showing genuine excitement, and organizing events in order",
+          "Looking down at your shoes and whispering"
+        ],
+        "answer": 2,
+        "explain": "Clear voice, enthusiasm, and good structure make your stories a joy to hear!"
+      },
+      {
+        "q": "What is the best way to conclude a narrative about a fun camping trip?",
+        "options": [
+          "'End of story.'",
+          "'The tent is blue.'",
+          "'As we packed our tents the next morning, I couldn't wait for our next outdoor adventure.'",
+          "'Grass is green.'"
+        ],
+        "answer": 2,
+        "explain": "Reflecting on the joyful memory and looking forward to the future creates a satisfying ending."
+      }
     ]
-   },
-   {
-    "q": "Spell the day that comes after Friday.",
-    "answer": "Saturday",
-    "accept": [
-     "saturday"
+  },
+  "LO-104": {
+    "title": "Speech Highlights: Summarizing Key Points 🎙️",
+    "desc": "Presents orally and in writing the highlights of a given written text/short speech/narration/video, film, pictures, photograph etc.",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "During Wildlife Week, a forest officer gave a 10-minute speech on saving the Bengal Tiger: 'Tigers need large connected forests, clean water reservoirs, and protection from illegal poaching.'",
+    "story": "During Wildlife Week, a forest officer gave a 10-minute speech on saving the Bengal Tiger: 'Tigers need large connected forests, clean water reservoirs, and protection from illegal poaching.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What are the three core highlight needs for tiger conservation mentioned by the officer?",
+        "options": [
+          "Air-conditioned rooms, cages, and dog food",
+          "Building highways through national parks",
+          "Large connected forests, clean water sources, and anti-poaching protection",
+          "Training tigers to live in city apartments"
+        ],
+        "answer": 2,
+        "explain": "Tigers thrive when their wild forest habitats are vast, protected, and free from poaching."
+      },
+      {
+        "q": "What does 'summarizing' a speech or video mean?",
+        "options": [
+          "Picking out the main ideas and key facts and presenting them briefly in your own words",
+          "Making up your own different story",
+          "Copying down every single cough and sneeze the speaker made",
+          "Ignoring the speaker completely"
+        ],
+        "answer": 0,
+        "explain": "A summary captures the heart and main points of a presentation concisely!"
+      },
+      {
+        "q": "Why are tigers considered an 'umbrella species' in forest ecosystems?",
+        "options": [
+          "Because they protect city trees",
+          "Protecting tiger habitats automatically safeguards thousands of other plants, insects, and animals in the same forest",
+          "Because they use umbrellas during rainy seasons",
+          "Because they live only in rain clouds"
+        ],
+        "answer": 1,
+        "explain": "Saving the top predator's habitat preserves the entire balanced food web below it!"
+      }
     ]
-   },
-   {
-    "q": "Spell the opposite of 'north'.",
-    "answer": "south",
-    "accept": [
-     "South"
+  },
+  "104": {
+    "title": "Speech Highlights: Summarizing Key Points 🎙️",
+    "desc": "Presents orally and in writing the highlights of a given written text/short speech/narration/video, film, pictures, photograph etc.",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "During Wildlife Week, a forest officer gave a 10-minute speech on saving the Bengal Tiger: 'Tigers need large connected forests, clean water reservoirs, and protection from illegal poaching.'",
+    "story": "During Wildlife Week, a forest officer gave a 10-minute speech on saving the Bengal Tiger: 'Tigers need large connected forests, clean water reservoirs, and protection from illegal poaching.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What are the three core highlight needs for tiger conservation mentioned by the officer?",
+        "options": [
+          "Air-conditioned rooms, cages, and dog food",
+          "Building highways through national parks",
+          "Large connected forests, clean water sources, and anti-poaching protection",
+          "Training tigers to live in city apartments"
+        ],
+        "answer": 2,
+        "explain": "Tigers thrive when their wild forest habitats are vast, protected, and free from poaching."
+      },
+      {
+        "q": "What does 'summarizing' a speech or video mean?",
+        "options": [
+          "Picking out the main ideas and key facts and presenting them briefly in your own words",
+          "Making up your own different story",
+          "Copying down every single cough and sneeze the speaker made",
+          "Ignoring the speaker completely"
+        ],
+        "answer": 0,
+        "explain": "A summary captures the heart and main points of a presentation concisely!"
+      },
+      {
+        "q": "Why are tigers considered an 'umbrella species' in forest ecosystems?",
+        "options": [
+          "Because they protect city trees",
+          "Protecting tiger habitats automatically safeguards thousands of other plants, insects, and animals in the same forest",
+          "Because they use umbrellas during rainy seasons",
+          "Because they live only in rain clouds"
+        ],
+        "answer": 1,
+        "explain": "Saving the top predator's habitat preserves the entire balanced food web below it!"
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-10": {
-  "items": [
-   {
-    "text": "What is your name___",
-    "answer": "?",
-    "options": [
-     "?",
-     ".",
-     "!",
-     ","
+  },
+  "LO-105": {
+    "title": "Riddle Masters & Tongue Twisters 🧩👅",
+    "desc": "Shares riddles and tongue-twisters in English",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Arjun challenges his friends: 'Solve my riddle: I have keys but no locks. I have space but no rooms. You can enter, but you cannot go outside. What am I?'",
+    "story": "Arjun challenges his friends: 'Solve my riddle: I have keys but no locks. I have space but no rooms. You can enter, but you cannot go outside. What am I?'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the clever answer to Arjun's computer riddle?",
+        "options": [
+          "A sports car",
+          "A computer keyboard (has space bar, enter key)",
+          "A wooden wardrobe",
+          "A treasure chest"
+        ],
+        "answer": 1,
+        "explain": "A computer keyboard has letter keys, a Space bar, and an Enter key!"
+      },
+      {
+        "q": "Try saying this fast three times: 'She sells seashells on the seashore.' What sound does this tongue-twister practice?",
+        "options": [
+          "The tricky difference between the /sh/ and /s/ sounds",
+          "The /k/ and /g/ clicking sounds",
+          "The /b/ and /p/ popping sounds",
+          "The /m/ and /n/ nasal sounds"
+        ],
+        "answer": 0,
+        "explain": "Switching rapidly between /sh/ and /s/ trains sharp articulation and pronunciation control!"
+      },
+      {
+        "q": "Solve this classic rhyme riddle: 'I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?'",
+        "options": [
+          "A soccer ball",
+          "A television",
+          "A tree branch",
+          "An echo"
+        ],
+        "answer": 3,
+        "explain": "An echo bounces back your voice across valleys and mountains!"
+      }
     ]
-   },
-   {
-    "text": "Hurray, we won the match___",
-    "answer": "!",
-    "options": [
-     "!",
-     "?",
-     ",",
-     ";"
-    ],
-    "explain": "An exclamation mark shows excitement."
-   },
-   {
-    "text": "I bought apples___ bananas and grapes.",
-    "answer": ",",
-    "options": [
-     ",",
-     ".",
-     "?",
-     "!"
-    ],
-    "explain": "Commas separate items in a list."
-   },
-   {
-    "text": "Today is Monday___",
-    "answer": ".",
-    "options": [
-     ".",
-     "?",
-     "!",
-     ","
+  },
+  "105": {
+    "title": "Riddle Masters & Tongue Twisters 🧩👅",
+    "desc": "Shares riddles and tongue-twisters in English",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Arjun challenges his friends: 'Solve my riddle: I have keys but no locks. I have space but no rooms. You can enter, but you cannot go outside. What am I?'",
+    "story": "Arjun challenges his friends: 'Solve my riddle: I have keys but no locks. I have space but no rooms. You can enter, but you cannot go outside. What am I?'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the clever answer to Arjun's computer riddle?",
+        "options": [
+          "A sports car",
+          "A computer keyboard (has space bar, enter key)",
+          "A wooden wardrobe",
+          "A treasure chest"
+        ],
+        "answer": 1,
+        "explain": "A computer keyboard has letter keys, a Space bar, and an Enter key!"
+      },
+      {
+        "q": "Try saying this fast three times: 'She sells seashells on the seashore.' What sound does this tongue-twister practice?",
+        "options": [
+          "The tricky difference between the /sh/ and /s/ sounds",
+          "The /k/ and /g/ clicking sounds",
+          "The /b/ and /p/ popping sounds",
+          "The /m/ and /n/ nasal sounds"
+        ],
+        "answer": 0,
+        "explain": "Switching rapidly between /sh/ and /s/ trains sharp articulation and pronunciation control!"
+      },
+      {
+        "q": "Solve this classic rhyme riddle: 'I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?'",
+        "options": [
+          "A soccer ball",
+          "A television",
+          "A tree branch",
+          "An echo"
+        ],
+        "answer": 3,
+        "explain": "An echo bounces back your voice across valleys and mountains!"
+      }
     ]
-   },
-   {
-    "text": "Riya said, ___I love painting.\"",
-    "answer": "\"",
-    "options": [
-     "\"",
-     "?",
-     ".",
-     "-"
-    ],
-    "explain": "Quotation marks show spoken words."
-   },
-   {
-    "text": "That is Ravi___s bag.",
-    "answer": "'",
-    "options": [
-     "'",
-     ",",
-     ".",
-     "?"
-    ],
-    "explain": "An apostrophe shows ownership."
-   }
-  ]
- },
- "IV-ENG-11": {
-  "items": [
-   {
-    "text": "A letter to a friend begins with 'Dear ___,'",
-    "answer": "Rahul",
-    "options": [
-     "Rahul",
-     "Sincerely",
-     "Thanks",
-     "Bye"
+  },
+  "LO-106": {
+    "title": "Eco-Speaker: Conservation of Water 💧",
+    "desc": "Speaks briefly on a familiar issue like conservation of water and experiences of day-to-day life like a visit to a zoo or going to a mela",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Diya prepares a 2-minute speech for the Eco Club on 'Conserving Every Drop: Why Freshwater Matters'.",
+    "story": "Diya prepares a 2-minute speech for the Eco Club on 'Conserving Every Drop: Why Freshwater Matters'.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which of these is a practical, impactful tip Diya can share in her water conservation speech?",
+        "options": [
+          "Dump plastic bottles into natural streams",
+          "Wash one spoon in a full tub of water",
+          "Fix leaking taps promptly and collect rainwater for gardening",
+          "Leave garden hoses running on sidewalks all afternoon"
+        ],
+        "answer": 2,
+        "explain": "Fixing leaks and harvesting rainwater conserve precious freshwater resources directly."
+      },
+      {
+        "q": "How can families practice water conservation during teeth-brushing?",
+        "options": [
+          "Never brush teeth",
+          "Let the water overflow into the hallway",
+          "Turn off the tap while scrubbing teeth and use a mug of water to rinse",
+          "Keep the tap gushing at maximum pressure"
+        ],
+        "answer": 2,
+        "explain": "Turning off the tap during brushing saves up to 10 litres of water every single time!"
+      },
+      {
+        "q": "What percentage of the Earth's total water is available as fresh, drinkable water?",
+        "options": [
+          "About 90%",
+          "Exactly 50%",
+          "100%",
+          "Less than 3% (most is salty ocean water)"
+        ],
+        "answer": 3,
+        "explain": "Only about 2.5% to 3% of Earth's water is freshwater, making its protection vital!"
+      }
     ]
-   },
-   {
-    "text": "At the end of a letter to a friend we write 'Your loving ___'.",
-    "answer": "friend",
-    "options": [
-     "friend",
-     "teacher",
-     "school",
-     "notice"
+  },
+  "106": {
+    "title": "Eco-Speaker: Conservation of Water 💧",
+    "desc": "Speaks briefly on a familiar issue like conservation of water and experiences of day-to-day life like a visit to a zoo or going to a mela",
+    "subSkill": "Oral Expression & Narration",
+    "audio_script": "Diya prepares a 2-minute speech for the Eco Club on 'Conserving Every Drop: Why Freshwater Matters'.",
+    "story": "Diya prepares a 2-minute speech for the Eco Club on 'Conserving Every Drop: Why Freshwater Matters'.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which of these is a practical, impactful tip Diya can share in her water conservation speech?",
+        "options": [
+          "Dump plastic bottles into natural streams",
+          "Wash one spoon in a full tub of water",
+          "Fix leaking taps promptly and collect rainwater for gardening",
+          "Leave garden hoses running on sidewalks all afternoon"
+        ],
+        "answer": 2,
+        "explain": "Fixing leaks and harvesting rainwater conserve precious freshwater resources directly."
+      },
+      {
+        "q": "How can families practice water conservation during teeth-brushing?",
+        "options": [
+          "Never brush teeth",
+          "Let the water overflow into the hallway",
+          "Turn off the tap while scrubbing teeth and use a mug of water to rinse",
+          "Keep the tap gushing at maximum pressure"
+        ],
+        "answer": 2,
+        "explain": "Turning off the tap during brushing saves up to 10 litres of water every single time!"
+      },
+      {
+        "q": "What percentage of the Earth's total water is available as fresh, drinkable water?",
+        "options": [
+          "About 90%",
+          "Exactly 50%",
+          "100%",
+          "Less than 3% (most is salty ocean water)"
+        ],
+        "answer": 3,
+        "explain": "Only about 2.5% to 3% of Earth's water is freshwater, making its protection vital!"
+      }
     ]
-   },
-   {
-    "text": "The date is written at the ___ of a letter.",
-    "answer": "top",
-    "options": [
-     "top",
-     "bottom",
-     "middle",
-     "back"
+  },
+  "LO-107": {
+    "title": "Historical Skit: The Tree Huggers of Khejarli 🌳",
+    "desc": "Enacts different roles in short skits",
+    "subSkill": "Recitation & Performance",
+    "audio_script": "The class is enacting the brave story of Amrita Devi and the Bishnoi community protecting their sacred Khejri trees.",
+    "story": "The class is enacting the brave story of Amrita Devi and the Bishnoi community protecting their sacred Khejri trees.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When playing the role of Amrita Devi standing before the tree cutters, what dialogue demonstrates courage and environmental love?",
+        "options": [
+          "'I don't care about the forest.'",
+          "'Take all the wood for free.'",
+          "'A chopped head is cheap if it saves a living tree!'",
+          "'Cut down all the trees and build me a palace!'"
+        ],
+        "answer": 2,
+        "explain": "Amrita Devi's historic words reflect supreme selfless dedication to protecting living nature."
+      },
+      {
+        "q": "How do stage props (like paper leaf headbands and cardboard axes) enhance a school drama?",
+        "options": [
+          "They make the stage so crowded that nobody can walk",
+          "They are made to throw at the audience",
+          "They help the audience visualize the setting and characters clearly",
+          "They replace the need for actors to speak"
+        ],
+        "answer": 2,
+        "explain": "Thoughtful props set the visual atmosphere and make historical events feel tangible!"
+      },
+      {
+        "q": "What lesson does the Bishnoi Khejarli story teach modern children?",
+        "options": [
+          "Trees are useless and should be cleared",
+          "Only kings make decisions about nature",
+          "Wood should only be burned for luxury",
+          "Communities have the power to protect forests and wildlife through unity and courage"
+        ],
+        "answer": 3,
+        "explain": "The Bishnoi movement is an inspiring historic example of grassroots forest and biodiversity conservation."
+      }
     ]
-   },
-   {
-    "text": "A school ___ gives information to many students, for example about a picnic.",
-    "answer": "notice",
-    "options": [
-     "notice",
-     "story",
-     "poem",
-     "diary"
+  },
+  "107": {
+    "title": "Historical Skit: The Tree Huggers of Khejarli 🌳",
+    "desc": "Enacts different roles in short skits",
+    "subSkill": "Recitation & Performance",
+    "audio_script": "The class is enacting the brave story of Amrita Devi and the Bishnoi community protecting their sacred Khejri trees.",
+    "story": "The class is enacting the brave story of Amrita Devi and the Bishnoi community protecting their sacred Khejri trees.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When playing the role of Amrita Devi standing before the tree cutters, what dialogue demonstrates courage and environmental love?",
+        "options": [
+          "'I don't care about the forest.'",
+          "'Take all the wood for free.'",
+          "'A chopped head is cheap if it saves a living tree!'",
+          "'Cut down all the trees and build me a palace!'"
+        ],
+        "answer": 2,
+        "explain": "Amrita Devi's historic words reflect supreme selfless dedication to protecting living nature."
+      },
+      {
+        "q": "How do stage props (like paper leaf headbands and cardboard axes) enhance a school drama?",
+        "options": [
+          "They make the stage so crowded that nobody can walk",
+          "They are made to throw at the audience",
+          "They help the audience visualize the setting and characters clearly",
+          "They replace the need for actors to speak"
+        ],
+        "answer": 2,
+        "explain": "Thoughtful props set the visual atmosphere and make historical events feel tangible!"
+      },
+      {
+        "q": "What lesson does the Bishnoi Khejarli story teach modern children?",
+        "options": [
+          "Trees are useless and should be cleared",
+          "Only kings make decisions about nature",
+          "Wood should only be burned for luxury",
+          "Communities have the power to protect forests and wildlife through unity and courage"
+        ],
+        "answer": 3,
+        "explain": "The Bishnoi movement is an inspiring historic example of grassroots forest and biodiversity conservation."
+      }
     ]
-   },
-   {
-    "text": "A notice should have a heading, date and ___.",
-    "answer": "message",
-    "options": [
-     "message",
-     "cartoon",
-     "recipe",
-     "riddle"
+  },
+  "LO-108": {
+    "title": "Poetry Express: The Brook's Song 🏞️",
+    "desc": "Recites poems with appropriate expressions and intonation",
+    "subSkill": "Recitation & Performance",
+    "audio_script": "Rohan recites Alfred Tennyson's famous poem: 'For men may come and men may go, but I go on forever.'",
+    "story": "Rohan recites Alfred Tennyson's famous poem: 'For men may come and men may go, but I go on forever.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What speaker in nature is reciting this poem?",
+        "options": [
+          "A bubbling, flowing mountain brook (stream)",
+          "An old steam locomotive",
+          "A flying airplane",
+          "A stationary rock on a hill"
+        ],
+        "answer": 0,
+        "explain": "The poem personifies a lively mountain brook as it journeys onward to join the river!"
+      },
+      {
+        "q": "What poetic technique gives human qualities to natural things (like saying a brook 'chatters' and 'frets')?",
+        "options": [
+          "Personification",
+          "Punctuation",
+          "Alphabetization",
+          "Subtraction"
+        ],
+        "answer": 0,
+        "explain": "Personification brings non-human nature to life with human emotions, sounds, and actions!"
+      },
+      {
+        "q": "How should a student pace their reading during a rhythmic poem?",
+        "options": [
+          "Race as fast as humanly possible without taking a breath",
+          "Whisper backwards",
+          "Stop after every single syllable for five seconds",
+          "Match the natural musical bounce and cadence of the verses without rushing"
+        ],
+        "answer": 3,
+        "explain": "A steady, rhythmic cadence lets the rhyme and music of the poetry shine brightly!"
+      }
     ]
-   },
-   {
-    "text": "To ask the principal for leave, we write a leave ___.",
-    "answer": "application",
-    "options": [
-     "application",
-     "poem",
-     "menu",
-     "invitation"
+  },
+  "108": {
+    "title": "Poetry Express: The Brook's Song 🏞️",
+    "desc": "Recites poems with appropriate expressions and intonation",
+    "subSkill": "Recitation & Performance",
+    "audio_script": "Rohan recites Alfred Tennyson's famous poem: 'For men may come and men may go, but I go on forever.'",
+    "story": "Rohan recites Alfred Tennyson's famous poem: 'For men may come and men may go, but I go on forever.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What speaker in nature is reciting this poem?",
+        "options": [
+          "A bubbling, flowing mountain brook (stream)",
+          "An old steam locomotive",
+          "A flying airplane",
+          "A stationary rock on a hill"
+        ],
+        "answer": 0,
+        "explain": "The poem personifies a lively mountain brook as it journeys onward to join the river!"
+      },
+      {
+        "q": "What poetic technique gives human qualities to natural things (like saying a brook 'chatters' and 'frets')?",
+        "options": [
+          "Personification",
+          "Punctuation",
+          "Alphabetization",
+          "Subtraction"
+        ],
+        "answer": 0,
+        "explain": "Personification brings non-human nature to life with human emotions, sounds, and actions!"
+      },
+      {
+        "q": "How should a student pace their reading during a rhythmic poem?",
+        "options": [
+          "Race as fast as humanly possible without taking a breath",
+          "Whisper backwards",
+          "Stop after every single syllable for five seconds",
+          "Match the natural musical bounce and cadence of the verses without rushing"
+        ],
+        "answer": 3,
+        "explain": "A steady, rhythmic cadence lets the rhyme and music of the poetry shine brightly!"
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-12": {
-  "items": [
-   {
-    "answer": "HAPPY",
-    "hint": "Another word for glad or joyful (5 letters)"
-   },
-   {
-    "answer": "BIG",
-    "hint": "Another word for large (3 letters)"
-   },
-   {
-    "answer": "SMALL",
-    "hint": "Means the same as tiny or little (5 letters)"
-   },
-   {
-    "answer": "QUICK",
-    "hint": "Means the same as fast (5 letters)"
-   },
-   {
-    "answer": "BEGIN",
-    "hint": "Means the same as start (5 letters)"
-   },
-   {
-    "answer": "SHOUT",
-    "hint": "Means the same as yell (5 letters)"
-   }
-  ]
- },
- "IV-ENG-13": {
-  "items": [
-   {
-    "text": "I wanted to play outside, ___ it was raining.",
-    "answer": "but",
-    "options": [
-     "but",
-     "and",
-     "because",
-     "so"
+  },
+  "LO-109": {
+    "title": "Recipe Connectors: First, Next, Then, Finally 🥞",
+    "desc": "Uses linkers to indicate connections between words and sentences such as 'First', 'Next', etc.",
+    "subSkill": "Linkers & Connectors",
+    "audio_script": "Chef Kabir explains how to make a banana smoothie: 'First, peel the ripe bananas. Next, slice them into rounds. Then, pour in cold milk and honey. Finally, blend until creamy!'",
+    "story": "Chef Kabir explains how to make a banana smoothie: 'First, peel the ripe bananas. Next, slice them into rounds. Then, pour in cold milk and honey. Finally, blend until creamy!'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which linker word introduces the VERY FIRST step in the recipe?",
+        "options": [
+          "Suddenly",
+          "Finally",
+          "First",
+          "Later"
+        ],
+        "answer": 2,
+        "explain": "'First' marks the very beginning of a sequence of instructions."
+      },
+      {
+        "q": "Which linker word signals the LAST and concluding step?",
+        "options": [
+          "First",
+          "Finally / Lastly",
+          "Meanwhile",
+          "Previously"
+        ],
+        "answer": 1,
+        "explain": "'Finally' announces the final concluding action of a process."
+      },
+      {
+        "q": "Why are sequence linkers (First, Next, Then, After that, Finally) vital when writing experiments or recipes?",
+        "options": [
+          "Because recipes cannot use verbs",
+          "They scramble instructions so nobody can follow them",
+          "They ensure the reader performs steps in the exact correct order to succeed",
+          "They are just extra words to make sentences longer"
+        ],
+        "answer": 2,
+        "explain": "Linkers keep instructions crystal clear so every step happens in the right chronological order!"
+      }
     ]
-   },
-   {
-    "text": "Seema was hungry ___ she ate her lunch.",
-    "answer": "so",
-    "options": [
-     "so",
-     "but",
-     "or",
-     "if"
+  },
+  "109": {
+    "title": "Recipe Connectors: First, Next, Then, Finally 🥞",
+    "desc": "Uses linkers to indicate connections between words and sentences such as 'First', 'Next', etc.",
+    "subSkill": "Linkers & Connectors",
+    "audio_script": "Chef Kabir explains how to make a banana smoothie: 'First, peel the ripe bananas. Next, slice them into rounds. Then, pour in cold milk and honey. Finally, blend until creamy!'",
+    "story": "Chef Kabir explains how to make a banana smoothie: 'First, peel the ripe bananas. Next, slice them into rounds. Then, pour in cold milk and honey. Finally, blend until creamy!'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which linker word introduces the VERY FIRST step in the recipe?",
+        "options": [
+          "Suddenly",
+          "Finally",
+          "First",
+          "Later"
+        ],
+        "answer": 2,
+        "explain": "'First' marks the very beginning of a sequence of instructions."
+      },
+      {
+        "q": "Which linker word signals the LAST and concluding step?",
+        "options": [
+          "First",
+          "Finally / Lastly",
+          "Meanwhile",
+          "Previously"
+        ],
+        "answer": 1,
+        "explain": "'Finally' announces the final concluding action of a process."
+      },
+      {
+        "q": "Why are sequence linkers (First, Next, Then, After that, Finally) vital when writing experiments or recipes?",
+        "options": [
+          "Because recipes cannot use verbs",
+          "They scramble instructions so nobody can follow them",
+          "They ensure the reader performs steps in the exact correct order to succeed",
+          "They are just extra words to make sentences longer"
+        ],
+        "answer": 2,
+        "explain": "Linkers keep instructions crystal clear so every step happens in the right chronological order!"
+      }
     ]
-   },
-   {
-    "text": "We carry an umbrella ___ it may rain.",
-    "answer": "because",
-    "options": [
-     "because",
-     "but",
-     "or",
-     "until"
+  },
+  "LO-110": {
+    "title": "Grammar Engine: The Four Core Parts of Speech 🚂",
+    "desc": "Uses nouns, verbs, adjectives and prepositions in speech and writing",
+    "subSkill": "Parts of Speech",
+    "audio_script": "Look at the sentence: 'The swift cheetah ran quickly through the tall grass.' Each word has a special job to do!",
+    "story": "Look at the sentence: 'The swift cheetah ran quickly through the tall grass.' Each word has a special job to do!",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which word is the ACTION VERB showing what the cheetah did?",
+        "options": [
+          "Cheetah",
+          "Swift",
+          "Quickly",
+          "Ran"
+        ],
+        "answer": 3,
+        "explain": "'Ran' is the action word (verb) showing the cheetah's rapid motion."
+      },
+      {
+        "q": "Which word is an ADVERB telling HOW the cheetah ran?",
+        "options": [
+          "Quickly",
+          "Tall",
+          "Grass",
+          "Through"
+        ],
+        "answer": 0,
+        "explain": "'Quickly' describes the manner of running, making it an adverb (often ending in -ly)!"
+      },
+      {
+        "q": "Which word is a PREPOSITION showing where the movement took place?",
+        "options": [
+          "Through",
+          "Cheetah",
+          "Ran",
+          "Swift"
+        ],
+        "answer": 0,
+        "explain": "'Through' shows relationship and direction relative to the tall grass."
+      }
     ]
-   },
-   {
-    "text": "Would you like tea ___ coffee?",
-    "answer": "or",
-    "options": [
-     "or",
-     "and",
-     "so",
-     "but"
+  },
+  "110": {
+    "title": "Grammar Engine: The Four Core Parts of Speech 🚂",
+    "desc": "Uses nouns, verbs, adjectives and prepositions in speech and writing",
+    "subSkill": "Parts of Speech",
+    "audio_script": "Look at the sentence: 'The swift cheetah ran quickly through the tall grass.' Each word has a special job to do!",
+    "story": "Look at the sentence: 'The swift cheetah ran quickly through the tall grass.' Each word has a special job to do!",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which word is the ACTION VERB showing what the cheetah did?",
+        "options": [
+          "Cheetah",
+          "Swift",
+          "Quickly",
+          "Ran"
+        ],
+        "answer": 3,
+        "explain": "'Ran' is the action word (verb) showing the cheetah's rapid motion."
+      },
+      {
+        "q": "Which word is an ADVERB telling HOW the cheetah ran?",
+        "options": [
+          "Quickly",
+          "Tall",
+          "Grass",
+          "Through"
+        ],
+        "answer": 0,
+        "explain": "'Quickly' describes the manner of running, making it an adverb (often ending in -ly)!"
+      },
+      {
+        "q": "Which word is a PREPOSITION showing where the movement took place?",
+        "options": [
+          "Through",
+          "Cheetah",
+          "Ran",
+          "Swift"
+        ],
+        "answer": 0,
+        "explain": "'Through' shows relationship and direction relative to the tall grass."
+      }
     ]
-   },
-   {
-    "text": "Wash your hands ___ you eat.",
-    "answer": "before",
-    "options": [
-     "before",
-     "because",
-     "but",
-     "or"
+  },
+  "LO-111": {
+    "title": "Word Chain Puzzle & Mini Crosswords 🔠",
+    "desc": "Solves simple crossword puzzles, builds word chains, etc.",
+    "subSkill": "Vocabulary",
+    "audio_script": "In a Word Chain game, each new word must begin with the LAST letter of the previous word: Tiger -> Rabbit -> Turtle -> ...",
+    "story": "In a Word Chain game, each new word must begin with the LAST letter of the previous word: Tiger -> Rabbit -> Turtle -> ...",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "In the chain: TIGER -> RABBIT -> TURTLE, which word can come next (starting with the letter 'E')?",
+        "options": [
+          "Snake",
+          "Lion",
+          "Monkey",
+          "Elephant"
+        ],
+        "answer": 3,
+        "explain": "TURTLE ends with 'E', and ELEPHANT begins with 'E'! Perfect word chain match!"
+      },
+      {
+        "q": "In a crossword puzzle, what is the difference between ACROSS clues and DOWN clues?",
+        "options": [
+          "Down words must be written backwards",
+          "Across words go horizontally left-to-right; Down words go vertically top-to-bottom",
+          "Across words are math numbers; Down words are colors",
+          "They mean the exact same direction"
+        ],
+        "answer": 1,
+        "explain": "Across fills rows from left to right; Down fills columns from top to bottom."
+      },
+      {
+        "q": "Complete the compound word: 'Rain' + '________' = a colorful arch in the sky after a storm.",
+        "options": [
+          "drop",
+          "water",
+          "coat",
+          "bow (Rainbow)"
+        ],
+        "answer": 3,
+        "explain": "Rain + Bow = Rainbow, the glowing 7-color arch in the sky!"
+      }
     ]
-   },
-   {
-    "text": "Ali sang ___ Tina danced at the show.",
-    "answer": "and",
-    "options": [
-     "and",
-     "but",
-     "because",
-     "unless"
+  },
+  "111": {
+    "title": "Word Chain Puzzle & Mini Crosswords 🔠",
+    "desc": "Solves simple crossword puzzles, builds word chains, etc.",
+    "subSkill": "Vocabulary",
+    "audio_script": "In a Word Chain game, each new word must begin with the LAST letter of the previous word: Tiger -> Rabbit -> Turtle -> ...",
+    "story": "In a Word Chain game, each new word must begin with the LAST letter of the previous word: Tiger -> Rabbit -> Turtle -> ...",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "In the chain: TIGER -> RABBIT -> TURTLE, which word can come next (starting with the letter 'E')?",
+        "options": [
+          "Snake",
+          "Lion",
+          "Monkey",
+          "Elephant"
+        ],
+        "answer": 3,
+        "explain": "TURTLE ends with 'E', and ELEPHANT begins with 'E'! Perfect word chain match!"
+      },
+      {
+        "q": "In a crossword puzzle, what is the difference between ACROSS clues and DOWN clues?",
+        "options": [
+          "Down words must be written backwards",
+          "Across words go horizontally left-to-right; Down words go vertically top-to-bottom",
+          "Across words are math numbers; Down words are colors",
+          "They mean the exact same direction"
+        ],
+        "answer": 1,
+        "explain": "Across fills rows from left to right; Down fills columns from top to bottom."
+      },
+      {
+        "q": "Complete the compound word: 'Rain' + '________' = a colorful arch in the sky after a storm.",
+        "options": [
+          "drop",
+          "water",
+          "coat",
+          "bow (Rainbow)"
+        ],
+        "answer": 3,
+        "explain": "Rain + Bow = Rainbow, the glowing 7-color arch in the sky!"
+      }
     ]
-   }
-  ]
- },
- "IV-ENG-14": {
-  "prompt": "Sort these words by their job in a sentence.",
-  "categories": [
-   "Nouns",
-   "Verbs",
-   "Adjectives"
-  ],
-  "items": [
-   {
-    "label": "teacher",
-    "category": 0
-   },
-   {
-    "label": "river",
-    "category": 0
-   },
-   {
-    "label": "Delhi",
-    "category": 0
-   },
-   {
-    "label": "jump",
-    "category": 1
-   },
-   {
-    "label": "write",
-    "category": 1
-   },
-   {
-    "label": "sleeps",
-    "category": 1
-   },
-   {
-    "label": "tall",
-    "category": 2
-   },
-   {
-    "label": "sweet",
-    "category": 2
-   },
-   {
-    "label": "red",
-    "category": 2
-   }
-  ]
- },
- "IV-MAT-01": {
-  "seconds": 90,
-  "questions": [
-   {
-    "q": "7 x 8 = ?",
-    "options": [
-     "54",
-     "56",
-     "63",
-     "48"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "9 x 6 = ?",
-    "options": [
-     "56",
-     "63",
-     "54",
-     "45"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "12 x 5 = ?",
-    "options": [
-     "50",
-     "55",
-     "65",
-     "60"
-    ],
-    "answer": 3
-   },
-   {
-    "q": "144 / 12 = ?",
-    "options": [
-     "12",
-     "14",
-     "11",
-     "10"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "56 / 7 = ?",
-    "options": [
-     "6",
-     "7",
-     "8",
-     "9"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "23 x 3 = ?",
-    "options": [
-     "66",
-     "69",
-     "72",
-     "63"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "45 / 5 = ?",
-    "options": [
-     "8",
-     "10",
-     "7",
-     "9"
-    ],
-    "answer": 3
-   },
-   {
-    "q": "6 x 7 = ?",
-    "options": [
-     "42",
-     "48",
-     "36",
-     "49"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "100 / 4 = ?",
-    "options": [
-     "20",
-     "30",
-     "25",
-     "40"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "15 x 4 = ?",
-    "options": [
-     "45",
-     "60",
-     "50",
-     "64"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "8 x 9 = ?",
-    "options": [
-     "81",
-     "63",
-     "76",
-     "72"
-    ],
-    "answer": 3
-   },
-   {
-    "q": "81 / 9 = ?",
-    "options": [
-     "9",
-     "8",
-     "7",
-     "10"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "34 x 2 = ?",
-    "options": [
-     "64",
-     "66",
-     "68",
-     "78"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "11 x 11 = ?",
-    "options": [
-     "111",
-     "121",
-     "132",
-     "110"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "96 / 8 = ?",
-    "options": [
-     "14",
-     "11",
-     "13",
-     "12"
-    ],
-    "answer": 3
-   }
-  ]
- },
- "IV-MAT-02": {
-  "questions": [
-   {
-    "q": "A bus has 52 seats. How many seats are there in 4 such buses?",
-    "options": [
-     "200",
-     "208",
-     "212",
-     "198"
-    ],
-    "answer": 1,
-    "explain": "52 x 4 = 208"
-   },
-   {
-    "q": "Ravi buys 3 notebooks at Rs 25 each and pays Rs 100. How much change does he get?",
-    "options": [
-     "Rs 20",
-     "Rs 30",
-     "Rs 15",
-     "Rs 25"
-    ],
-    "answer": 3,
-    "explain": "3 x 25 = 75; 100 - 75 = 25"
-   },
-   {
-    "q": "240 sweets are shared equally among 8 children. How many does each child get?",
-    "options": [
-     "30",
-     "20",
-     "32",
-     "25"
-    ],
-    "answer": 0,
-    "explain": "240 / 8 = 30"
-   },
-   {
-    "q": "Which is the best estimate for 398 + 205?",
-    "options": [
-     "400",
-     "500",
-     "600",
-     "800"
-    ],
-    "answer": 2,
-    "explain": "400 + 200 = 600"
-   },
-   {
-    "q": "A shirt costs Rs 235 and a bag costs Rs 180. How much money is left from Rs 500?",
-    "options": [
-     "Rs 75",
-     "Rs 85",
-     "Rs 95",
-     "Rs 105"
-    ],
-    "answer": 1,
-    "explain": "235 + 180 = 415; 500 - 415 = 85"
-   },
-   {
-    "q": "There are 6 boxes with 48 pencils in each. About how many pencils are there?",
-    "options": [
-     "About 150",
-     "About 200",
-     "About 300",
-     "About 600"
-    ],
-    "answer": 2,
-    "explain": "48 is near 50, and 50 x 6 = 300 (exact: 288)"
-   }
-  ]
- },
- "IV-MAT-03": {
-  "intro": "A pizza is cut into equal slices. Match each question with its answer.",
-  "pairs": [
-   [
-    "Pizza cut in 2 equal slices, you eat 1",
-    "1/2"
-   ],
-   [
-    "Pizza cut in 4 equal slices, you eat 1",
-    "1/4"
-   ],
-   [
-    "Pizza cut in 8 slices, you eat 4",
-    "4/8"
-   ],
-   [
-    "Pizza cut in 4 slices, you eat 3",
-    "3/4"
-   ],
-   [
-    "Pizza cut in 8 slices, you eat 1",
-    "1/8"
-   ],
-   [
-    "Pizza cut in 3 slices, you eat 2",
-    "2/3"
-   ]
-  ]
- },
- "IV-MAT-04": {
-  "questions": [
-   {
-    "q": "How many sides does a hexagon have?",
-    "options": [
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which shape has 3 sides?",
-    "options": [
-     "Square",
-     "Pentagon",
-     "Triangle",
-     "Circle"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "A rectangle has how many right angles?",
-    "options": [
-     "2",
-     "3",
-     "1",
-     "4"
-    ],
-    "answer": 3
-   },
-   {
-    "q": "Which of these is NOT a polygon?",
-    "options": [
-     "Circle",
-     "Square",
-     "Triangle",
-     "Pentagon"
-    ],
-    "answer": 0,
-    "explain": "A circle has no straight sides."
-   },
-   {
-    "q": "Lines that never meet, like railway tracks, are called:",
-    "options": [
-     "Parallel lines",
-     "Intersecting lines",
-     "Curved lines",
-     "Slant angles"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "How many sides does an octagon have?",
-    "options": [
-     "6",
-     "10",
-     "8",
-     "9"
-    ],
-    "answer": 2
-   }
-  ]
- },
- "IV-MAT-05": {
-  "pairs": [
-   [
-    "Cube",
-    "6 square faces"
-   ],
-   [
-    "Cuboid",
-    "6 rectangular faces"
-   ],
-   [
-    "Cone",
-    "1 circular face and a point"
-   ],
-   [
-    "Cylinder",
-    "2 circular faces"
-   ],
-   [
-    "Triangular pyramid",
-    "4 triangular faces"
-   ],
-   [
-    "Sphere",
-    "No flat face"
-   ]
-  ]
- },
- "IV-MAT-06": {
-  "questions": [
-   {
-    "q": "How many lines of symmetry does a square have?",
-    "options": [
-     "1",
-     "2",
-     "4",
-     "8"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Which letter has a vertical line of symmetry?",
-    "options": [
-     "A",
-     "F",
-     "G",
-     "R"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "How many lines of symmetry does a rectangle (not a square) have?",
-    "options": [
-     "2",
-     "4",
-     "1",
-     "0"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which shape has the most lines of symmetry?",
-    "options": [
-     "Triangle with unequal sides",
-     "Rectangle",
-     "Circle",
-     "Kite"
-    ],
-    "answer": 2,
-    "explain": "A circle has endless lines of symmetry."
-   },
-   {
-    "q": "The mirror image of the letter 'b' beside a vertical mirror looks like:",
-    "options": [
-     "d",
-     "p",
-     "q",
-     "b"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which of these is symmetrical?",
-    "options": [
-     "Butterfly",
-     "Torn paper",
-     "Spilled milk",
-     "A scribble"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-MAT-07": {
-  "questions": [
-   {
-    "q": "A ball is seen from the top. It looks like a:",
-    "options": [
-     "Square",
-     "Circle",
-     "Triangle",
-     "Rectangle"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A cube is seen from the front. It looks like a:",
-    "options": [
-     "Circle",
-     "Triangle",
-     "Square",
-     "Oval"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "A tall can (cylinder) standing up is seen from the top. It looks like a:",
-    "options": [
-     "Rectangle",
-     "Circle",
-     "Triangle",
-     "Square"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A tall can (cylinder) standing up is seen from the side. It looks like a:",
-    "options": [
-     "Circle",
-     "Rectangle",
-     "Triangle",
-     "Star"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "An ice-cream cone (point up) is seen from the front. It looks like a:",
-    "options": [
-     "Circle",
-     "Square",
-     "Triangle",
-     "Rectangle"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "A book lying flat is seen from the top. It looks like a:",
-    "options": [
-     "Rectangle",
-     "Circle",
-     "Triangle",
-     "Oval"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-MAT-08": {
-  "intro": "Help plan the garden. Type just the number.",
-  "items": [
-   {
-    "q": "A garden is 12 m long and 8 m wide. How many metres of fence go all around it?",
-    "answer": "40",
-    "explain": "2 x (12 + 8) = 40"
-   },
-   {
-    "q": "The same garden (12 m by 8 m): what is its area in square metres?",
-    "answer": "96",
-    "explain": "12 x 8 = 96"
-   },
-   {
-    "q": "A square garden has sides of 9 m. What is its perimeter in metres?",
-    "answer": "36"
-   },
-   {
-    "q": "A square flower bed has sides of 7 m. What is its area in square metres?",
-    "answer": "49"
-   },
-   {
-    "q": "A rectangular garden has perimeter 30 m and length 10 m. What is its width in metres?",
-    "answer": "5",
-    "explain": "Length + width = 15, so width = 5"
-   },
-   {
-    "q": "A garden is 15 m long and 6 m wide. What is its area in square metres?",
-    "answer": "90"
-   }
-  ]
- },
- "IV-MAT-09": {
-  "pairs": [
-   [
-    "1 km",
-    "1000 m"
-   ],
-   [
-    "1 m",
-    "100 cm"
-   ],
-   [
-    "1 kg",
-    "1000 g"
-   ],
-   [
-    "1 litre",
-    "1000 mL"
-   ],
-   [
-    "1 hour",
-    "60 minutes"
-   ],
-   [
-    "1 cm",
-    "10 mm"
-   ]
-  ]
- },
- "IV-MAT-10": {
-  "questions": [
-   {
-    "q": "About how long is a new pencil?",
-    "options": [
-     "15 cm",
-     "15 m",
-     "1 m",
-     "150 cm"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "About how heavy is an apple?",
-    "options": [
-     "15 kg",
-     "150 g",
-     "1500 g",
-     "5 kg"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "About how much water does a bucket hold?",
-    "options": [
-     "10 litres",
-     "10 mL",
-     "100 litres",
-     "1 mL"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "About how tall is a classroom door?",
-    "options": [
-     "20 cm",
-     "2 m",
-     "20 m",
-     "200 m"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which is the best unit to measure the distance from Delhi to Jaipur?",
-    "options": [
-     "Centimetres",
-     "Millimetres",
-     "Kilometres",
-     "Grams"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Which is the best unit to measure the weight of a school bag?",
-    "options": [
-     "Kilograms",
-     "Millimetres",
-     "Litres",
-     "Metres"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-MAT-11": {
-  "intro": "Type just the number.",
-  "items": [
-   {
-    "q": "A rope is 250 cm long. 120 cm is cut off. How many cm are left?",
-    "answer": "130"
-   },
-   {
-    "q": "A can holds 3 litres of milk. How many litres are in 4 such cans?",
-    "answer": "12"
-   },
-   {
-    "q": "Sugar costs Rs 45 per kg. What is the cost of 2 kg in rupees?",
-    "answer": "90"
-   },
-   {
-    "q": "A jug has 2 litres of juice. Each glass holds 250 mL. How many glasses can be filled?",
-    "answer": "8",
-    "explain": "2 litres = 2000 mL; 2000 / 250 = 8"
-   },
-   {
-    "q": "Meena walks 750 m to school and 750 m back. How many metres does she walk in all?",
-    "answer": "1500"
-   },
-   {
-    "q": "A bag has 2 kg of rice. 500 g is used. How many grams are left?",
-    "answer": "1500"
-   }
-  ]
- },
- "IV-MAT-12": {
-  "questions": [
-   {
-    "q": "A class starts at 9:00 a.m. and lasts 45 minutes. When does it end?",
-    "options": [
-     "9:30 a.m.",
-     "9:45 a.m.",
-     "10:15 a.m.",
-     "9:55 a.m."
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A train leaves at 6:40 p.m. and arrives at 9:10 p.m. How long is the journey?",
-    "options": [
-     "2 h 30 min",
-     "3 h",
-     "2 h",
-     "3 h 30 min"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "How many days are there in 3 weeks?",
-    "options": [
-     "14",
-     "28",
-     "21",
-     "24"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Which month has 30 days?",
-    "options": [
-     "January",
-     "April",
-     "March",
-     "August"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A film starts at 10:15 a.m. and lasts 2 hours 30 minutes. When does it end?",
-    "options": [
-     "12:15 p.m.",
-     "12:30 p.m.",
-     "1:15 p.m.",
-     "12:45 p.m."
-    ],
-    "answer": 3
-   },
-   {
-    "q": "How many minutes are there in 2 hours?",
-    "options": [
-     "120",
-     "100",
-     "90",
-     "200"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-MAT-13": {
-  "rounds": [
-   {
-    "prompt": "Put the numbers in the pattern 'add 5' in order",
-    "steps": [
-     "5",
-     "10",
-     "15",
-     "20",
-     "25"
+  },
+  "LO-112": {
+    "title": "Paragraph Dictation: The Honeybee Colony 🐝",
+    "desc": "Writes/types dictation of short paragraphs (7-8 sentences)",
+    "subSkill": "Dictation",
+    "audio_script": "The teacher dictates: 'Honeybees live in complex hives. Worker bees collect nectar from blooming flowers and transform it into golden honey inside honeycomb cells.'",
+    "story": "The teacher dictates: 'Honeybees live in complex hives. Worker bees collect nectar from blooming flowers and transform it into golden honey inside honeycomb cells.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which is the correct spelling for the sweet liquid collected by bees from flowers?",
+        "options": [
+          "Nectar",
+          "Nekter",
+          "Necter",
+          "Nacktar"
+        ],
+        "answer": 0,
+        "explain": "N-E-C-T-A-R spells nectar, the sugary liquid produced by flower blossoms."
+      },
+      {
+        "q": "What geometric shape are the hexagonal wax cells inside a honeycomb?",
+        "options": [
+          "Round circles",
+          "3-sided triangles",
+          "4-sided squares",
+          "6-sided hexagons"
+        ],
+        "answer": 3,
+        "explain": "Honeybee combs are famous for their perfect six-sided hexagonal wax architecture!"
+      },
+      {
+        "q": "Which sentence written during dictation is 100% correct in spelling and punctuation?",
+        "options": [
+          "Worker bees protect, queen and nurse, baby larvae.",
+          "Worker bees protects the queen and nurse the baby larvas.",
+          "Worker beez protect the quean and nurse the baby larve.",
+          "Worker bees protect the queen and nurse the baby larvae."
+        ],
+        "answer": 3,
+        "explain": "This sentence has flawless grammar, spelling, and clean structure!"
+      }
     ]
-   },
-   {
-    "prompt": "Put the numbers in the pattern 'double each time' in order",
-    "steps": [
-     "2",
-     "4",
-     "8",
-     "16",
-     "32"
+  },
+  "112": {
+    "title": "Paragraph Dictation: The Honeybee Colony 🐝",
+    "desc": "Writes/types dictation of short paragraphs (7-8 sentences)",
+    "subSkill": "Dictation",
+    "audio_script": "The teacher dictates: 'Honeybees live in complex hives. Worker bees collect nectar from blooming flowers and transform it into golden honey inside honeycomb cells.'",
+    "story": "The teacher dictates: 'Honeybees live in complex hives. Worker bees collect nectar from blooming flowers and transform it into golden honey inside honeycomb cells.'",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which is the correct spelling for the sweet liquid collected by bees from flowers?",
+        "options": [
+          "Nectar",
+          "Nekter",
+          "Necter",
+          "Nacktar"
+        ],
+        "answer": 0,
+        "explain": "N-E-C-T-A-R spells nectar, the sugary liquid produced by flower blossoms."
+      },
+      {
+        "q": "What geometric shape are the hexagonal wax cells inside a honeycomb?",
+        "options": [
+          "Round circles",
+          "3-sided triangles",
+          "4-sided squares",
+          "6-sided hexagons"
+        ],
+        "answer": 3,
+        "explain": "Honeybee combs are famous for their perfect six-sided hexagonal wax architecture!"
+      },
+      {
+        "q": "Which sentence written during dictation is 100% correct in spelling and punctuation?",
+        "options": [
+          "Worker bees protect, queen and nurse, baby larvae.",
+          "Worker bees protects the queen and nurse the baby larvas.",
+          "Worker beez protect the quean and nurse the baby larve.",
+          "Worker bees protect the queen and nurse the baby larvae."
+        ],
+        "answer": 3,
+        "explain": "This sentence has flawless grammar, spelling, and clean structure!"
+      }
     ]
-   },
-   {
-    "prompt": "Put the numbers in the pattern 'subtract 3' in order",
-    "steps": [
-     "30",
-     "27",
-     "24",
-     "21",
-     "18"
+  },
+  "LO-113": {
+    "title": "Letter to a Friend: Audience & Tone ✉️",
+    "desc": "Writes informal letters or messages with a sense of audience",
+    "subSkill": "Functional Writing",
+    "audio_script": "Maya is writing a birthday invitation letter to her best friend Nina. She chooses a warm, cheerful, and informal tone.",
+    "story": "Maya is writing a birthday invitation letter to her best friend Nina. She chooses a warm, cheerful, and informal tone.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which salutation (greeting) is most appropriate for an informal letter to a friend?",
+        "options": [
+          "'Attention Citizen:'",
+          "'Dear Nina,' or 'Dearest Nina,'",
+          "'To Whom It May Concern:'",
+          "'Respected Principal Sir,'"
+        ],
+        "answer": 1,
+        "explain": "'Dear Nina,' is warm, friendly, and ideal for an informal letter to your classmate!"
+      },
+      {
+        "q": "What vital details MUST be included in a party invitation letter?",
+        "options": [
+          "The price of every present you want",
+          "Your secret diary entries",
+          "The color of your socks",
+          "Date, time, venue/address, and what the celebration is about"
+        ],
+        "answer": 3,
+        "explain": "Guests need to know WHEN (date and time) and WHERE (location) to arrive!"
+      },
+      {
+        "q": "What is a warm closing sign-off for a letter to your close friend?",
+        "options": [
+          "'Signed under protest, Maya'",
+          "'Your loving friend, Maya'",
+          "'End of document'",
+          "'Yours obediently, Maya'"
+        ],
+        "answer": 1,
+        "explain": "'Your loving friend' or 'Warmly' matches the close, friendly bond between friends."
+      }
     ]
-   }
-  ]
- },
- "IV-MAT-14": {
-  "rounds": [
-   {
-    "prompt": "Order the polygons by number of sides, fewest first",
-    "steps": [
-     "Triangle (3 sides)",
-     "Square (4 sides)",
-     "Pentagon (5 sides)",
-     "Hexagon (6 sides)",
-     "Octagon (8 sides)"
+  },
+  "113": {
+    "title": "Letter to a Friend: Audience & Tone ✉️",
+    "desc": "Writes informal letters or messages with a sense of audience",
+    "subSkill": "Functional Writing",
+    "audio_script": "Maya is writing a birthday invitation letter to her best friend Nina. She chooses a warm, cheerful, and informal tone.",
+    "story": "Maya is writing a birthday invitation letter to her best friend Nina. She chooses a warm, cheerful, and informal tone.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which salutation (greeting) is most appropriate for an informal letter to a friend?",
+        "options": [
+          "'Attention Citizen:'",
+          "'Dear Nina,' or 'Dearest Nina,'",
+          "'To Whom It May Concern:'",
+          "'Respected Principal Sir,'"
+        ],
+        "answer": 1,
+        "explain": "'Dear Nina,' is warm, friendly, and ideal for an informal letter to your classmate!"
+      },
+      {
+        "q": "What vital details MUST be included in a party invitation letter?",
+        "options": [
+          "The price of every present you want",
+          "Your secret diary entries",
+          "The color of your socks",
+          "Date, time, venue/address, and what the celebration is about"
+        ],
+        "answer": 3,
+        "explain": "Guests need to know WHEN (date and time) and WHERE (location) to arrive!"
+      },
+      {
+        "q": "What is a warm closing sign-off for a letter to your close friend?",
+        "options": [
+          "'Signed under protest, Maya'",
+          "'Your loving friend, Maya'",
+          "'End of document'",
+          "'Yours obediently, Maya'"
+        ],
+        "answer": 1,
+        "explain": "'Your loving friend' or 'Warmly' matches the close, friendly bond between friends."
+      }
     ]
-   },
-   {
-    "prompt": "Order the growing pattern of dots in a triangle, smallest first",
-    "steps": [
-     "1 dot",
-     "3 dots",
-     "6 dots",
-     "10 dots"
+  },
+  "LO-114": {
+    "title": "The Punctuation Patrol: Polish Your Sentences ✍️",
+    "desc": "Uses punctuation marks appropriately in writing such as question mark, comma, full stop and capital letters",
+    "subSkill": "Mechanics & Punctuation",
+    "audio_script": "Look at Vikram's drafted sentence: 'wow did you see that swift clever fox jump over the fence' It needs punctuation polish!",
+    "story": "Look at Vikram's drafted sentence: 'wow did you see that swift clever fox jump over the fence' It needs punctuation polish!",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which fully punctuated version of Vikram's sentence is correct?",
+        "options": [
+          "'Wow? did you see that swift clever fox jump over the fence!'",
+          "'Wow! Did you see that swift, clever fox jump over the fence?'",
+          "'Wow, Did you see that swift clever fox, jump over the fence.'",
+          "'wow did you see that swift clever fox jump over the fence.'"
+        ],
+        "answer": 1,
+        "explain": "Excitement gets 'Wow!', adjectives are separated by a comma, and a question ends with '?'!"
+      },
+      {
+        "q": "When should an apostrophe ( ' ) be used?",
+        "options": [
+          "At the start of every sentence",
+          "To show possession (e.g., Rohan's book) or contractions (e.g., don't = do not)",
+          "Whenever a word ends in the letter 's'",
+          "In place of every vowel"
+        ],
+        "answer": 1,
+        "explain": "Apostrophes indicate ownership (Rohan's) or missing letters in contracted words (it's, don't)!"
+      },
+      {
+        "q": "Which of these words should ALWAYS be capitalized anywhere in a sentence?",
+        "options": [
+          "The single-letter pronoun 'I' and proper nouns like 'India' or 'Ganga'",
+          "Words with more than five letters",
+          "Every verb",
+          "Every preposition like 'in' or 'on'"
+        ],
+        "answer": 0,
+        "explain": "The pronoun 'I' and specific proper names (India, Ganga) are always capitalized!"
+      }
     ]
-   },
-   {
-    "prompt": "Order the growing square pattern, smallest first",
-    "steps": [
-     "1 x 1 = 1 tile",
-     "2 x 2 = 4 tiles",
-     "3 x 3 = 9 tiles",
-     "4 x 4 = 16 tiles"
+  },
+  "114": {
+    "title": "The Punctuation Patrol: Polish Your Sentences ✍️",
+    "desc": "Uses punctuation marks appropriately in writing such as question mark, comma, full stop and capital letters",
+    "subSkill": "Mechanics & Punctuation",
+    "audio_script": "Look at Vikram's drafted sentence: 'wow did you see that swift clever fox jump over the fence' It needs punctuation polish!",
+    "story": "Look at Vikram's drafted sentence: 'wow did you see that swift clever fox jump over the fence' It needs punctuation polish!",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which fully punctuated version of Vikram's sentence is correct?",
+        "options": [
+          "'Wow? did you see that swift clever fox jump over the fence!'",
+          "'Wow! Did you see that swift, clever fox jump over the fence?'",
+          "'Wow, Did you see that swift clever fox, jump over the fence.'",
+          "'wow did you see that swift clever fox jump over the fence.'"
+        ],
+        "answer": 1,
+        "explain": "Excitement gets 'Wow!', adjectives are separated by a comma, and a question ends with '?'!"
+      },
+      {
+        "q": "When should an apostrophe ( ' ) be used?",
+        "options": [
+          "At the start of every sentence",
+          "To show possession (e.g., Rohan's book) or contractions (e.g., don't = do not)",
+          "Whenever a word ends in the letter 's'",
+          "In place of every vowel"
+        ],
+        "answer": 1,
+        "explain": "Apostrophes indicate ownership (Rohan's) or missing letters in contracted words (it's, don't)!"
+      },
+      {
+        "q": "Which of these words should ALWAYS be capitalized anywhere in a sentence?",
+        "options": [
+          "The single-letter pronoun 'I' and proper nouns like 'India' or 'Ganga'",
+          "Words with more than five letters",
+          "Every verb",
+          "Every preposition like 'in' or 'on'"
+        ],
+        "answer": 0,
+        "explain": "The pronoun 'I' and specific proper names (India, Ganga) are always capitalized!"
+      }
     ]
-   }
-  ]
- },
- "IV-MAT-15": {
-  "intro": "Pictograph of mangoes sold: Mon = 4 symbols, Tue = 6 symbols, Wed = 3 symbols, Thu = 5 symbols. Each symbol stands for 10 mangoes.",
-  "questions": [
-   {
-    "q": "How many mangoes were sold on Monday?",
-    "options": [
-     "4",
-     "40",
-     "400",
-     "14"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "On which day were the most mangoes sold?",
-    "options": [
-     "Monday",
-     "Wednesday",
-     "Thursday",
-     "Tuesday"
-    ],
-    "answer": 3
-   },
-   {
-    "q": "On which day were the fewest mangoes sold?",
-    "options": [
-     "Wednesday",
-     "Monday",
-     "Tuesday",
-     "Thursday"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "How many mangoes were sold on Thursday?",
-    "options": [
-     "5",
-     "15",
-     "50",
-     "45"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "How many more mangoes were sold on Tuesday than on Wednesday?",
-    "options": [
-     "30",
-     "3",
-     "20",
-     "60"
-    ],
-    "answer": 0,
-    "explain": "60 - 30 = 30"
-   },
-   {
-    "q": "How many mangoes were sold in all four days?",
-    "options": [
-     "180",
-     "160",
-     "200",
-     "18"
-    ],
-    "answer": 0,
-    "explain": "40 + 60 + 30 + 50 = 180"
-   }
-  ]
- },
- "IV-EVS-01": {
-  "pairs": [
-   [
-    "Neem",
-    "Bitter leaves used as medicine"
-   ],
-   [
-    "Banyan",
-    "Hanging roots from branches"
-   ],
-   [
-    "Lotus",
-    "Grows in water"
-   ],
-   [
-    "Cactus",
-    "Thorns and grows in deserts"
-   ],
-   [
-    "Mango",
-    "Fruit tree with the national fruit of India"
-   ],
-   [
-    "Coconut",
-    "Tall palm that gives water and fruit"
-   ]
-  ]
- },
- "IV-EVS-02": {
-  "pairs": [
-   [
-    "Eagle",
-    "Strong curved beak to tear meat"
-   ],
-   [
-    "Parrot",
-    "Hooked beak to crack seeds"
-   ],
-   [
-    "Woodpecker",
-    "Sharp beak to drill into trees"
-   ],
-   [
-    "Duck",
-    "Flat beak to scoop food from water"
-   ],
-   [
-    "Heron",
-    "Long beak to catch fish"
-   ],
-   [
-    "Sparrow",
-    "Short, strong beak to eat grains"
-   ]
-  ]
- },
- "IV-EVS-03": {
-  "pairs": [
-   [
-    "My father's father",
-    "Grandfather (Dadaji)"
-   ],
-   [
-    "My mother's brother",
-    "Maternal uncle (Mama)"
-   ],
-   [
-    "My father's sister",
-    "Aunt (Bua)"
-   ],
-   [
-    "My mother's mother",
-    "Grandmother (Nani)"
-   ],
-   [
-    "My uncle's son",
-    "Cousin"
-   ],
-   [
-    "My brother's wife",
-    "Sister-in-law (Bhabhi)"
-   ]
-  ]
- },
- "IV-EVS-04": {
-  "questions": [
-   {
-    "q": "A caterpillar changes into a butterfly. What is this change called?",
-    "options": [
-     "Migration",
-     "Metamorphosis",
-     "Hibernation",
-     "Digestion"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Why do birds like the Siberian crane fly to India in winter?",
-    "options": [
-     "To find warmer places and food",
-     "To make noise",
-     "To meet humans",
-     "To sleep in caves"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which animal sleeps through the cold winter (hibernates)?",
-    "options": [
-     "Cow",
-     "Bear",
-     "Dog",
-     "Parrot"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A tadpole grows into a:",
-    "options": [
-     "Fish",
-     "Lizard",
-     "Frog",
-     "Snake"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "Why do honeybees dance?",
-    "options": [
-     "To tell others where flowers are",
-     "To scare birds",
-     "To make honey",
-     "To sleep"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "A baby cow is called a:",
-    "options": [
-     "Lamb",
-     "Calf",
-     "Foal",
-     "Kid"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-EVS-05": {
-  "pairs": [
-   [
-    "Farmer",
-    "Grows crops"
-   ],
-   [
-    "Potter",
-    "Makes clay pots"
-   ],
-   [
-    "Postman",
-    "Delivers letters"
-   ],
-   [
-    "Weaver",
-    "Makes cloth"
-   ],
-   [
-    "Cobbler",
-    "Repairs shoes"
-   ],
-   [
-    "Doctor",
-    "Treats sick people"
-   ]
-  ]
- },
- "IV-EVS-06": {
-  "prompt": "Sort these water sources.",
-  "categories": [
-   "Natural sources",
-   "Man-made sources"
-  ],
-  "items": [
-   {
-    "label": "River",
-    "category": 0
-   },
-   {
-    "label": "Spring",
-    "category": 0
-   },
-   {
-    "label": "Lake",
-    "category": 0
-   },
-   {
-    "label": "Rain",
-    "category": 0
-   },
-   {
-    "label": "Well",
-    "category": 1
-   },
-   {
-    "label": "Handpump",
-    "category": 1
-   },
-   {
-    "label": "Water tank",
-    "category": 1
-   },
-   {
-    "label": "Tap",
-    "category": 1
-   },
-   {
-    "label": "Borewell",
-    "category": 1
-   }
-  ]
- },
- "IV-EVS-07": {
-  "prompt": "Group these living things.",
-  "categories": [
-   "Animals that fly",
-   "Animals that swim",
-   "Animals that crawl"
-  ],
-  "items": [
-   {
-    "label": "Crow",
-    "category": 0
-   },
-   {
-    "label": "Bat",
-    "category": 0
-   },
-   {
-    "label": "Butterfly",
-    "category": 0
-   },
-   {
-    "label": "Fish",
-    "category": 1
-   },
-   {
-    "label": "Dolphin",
-    "category": 1
-   },
-   {
-    "label": "Duck",
-    "category": 1
-   },
-   {
-    "label": "Snake",
-    "category": 2
-   },
-   {
-    "label": "Earthworm",
-    "category": 2
-   },
-   {
-    "label": "Snail",
-    "category": 2
-   }
-  ]
- },
- "IV-EVS-08": {
-  "rounds": [
-   {
-    "prompt": "Put these ways of sending a message in order, oldest first",
-    "steps": [
-     "Pigeon carrying a letter",
-     "Postcard by post",
-     "Telegram",
-     "Telephone call",
-     "Mobile phone message"
+  },
+  "LO-115": {
+    "title": "Nature's Organizers: Sorting Living & Waste Material 🌿🗑️",
+    "desc": "Groups animals, birds, plants, objects, waste material by observable features, instincts, uses and traits",
+    "subSkill": "Grouping by Features & Properties",
+    "audio_script": "In EVS class, students clean up the school grounds and sort materials into biodegradable compost versus non-biodegradable recyclables.",
+    "story": "In EVS class, students clean up the school grounds and sort materials into biodegradable compost versus non-biodegradable recyclables.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which of these waste materials is BIODEGRADABLE (will decompose naturally into rich soil)?",
+        "options": [
+          "Rubber car tires",
+          "Banana peels, dry leaves, and apple cores",
+          "Plastic bags, styrofoam cups, and glass bottles",
+          "Metal soda cans and aluminum foil"
+        ],
+        "answer": 1,
+        "explain": "Fruit peels and fallen leaves are organic matter that microorganisms naturally break down into humus."
+      },
+      {
+        "q": "Which color dustbin is universally used for wet organic compostable kitchen waste in green cities?",
+        "options": [
+          "Green bin",
+          "Red bin",
+          "Blue bin (for dry recyclables)",
+          "Black bin"
+        ],
+        "answer": 0,
+        "explain": "Green bins are designated for organic wet waste, while blue bins hold dry recyclables like paper and plastic!"
+      },
+      {
+        "q": "How do desert animals like camels survive for days without drinking water?",
+        "options": [
+          "They drink seawater through their hooves",
+          "They eat metal cans",
+          "They store fat in their humps for energy, lose very little water in sweat, and produce dry dung",
+          "They hide water bottles in their ears"
+        ],
+        "answer": 2,
+        "explain": "Camels have remarkable biological adaptations that conserve every drop of bodily hydration!"
+      }
     ]
-   },
-   {
-    "prompt": "Put these ways of travelling in order, oldest first",
-    "steps": [
-     "Walking and bullock carts",
-     "Steam train",
-     "Motor car",
-     "Aeroplane"
+  },
+  "115": {
+    "title": "Nature's Organizers: Sorting Living & Waste Material 🌿🗑️",
+    "desc": "Groups animals, birds, plants, objects, waste material by observable features, instincts, uses and traits",
+    "subSkill": "Grouping by Features & Properties",
+    "audio_script": "In EVS class, students clean up the school grounds and sort materials into biodegradable compost versus non-biodegradable recyclables.",
+    "story": "In EVS class, students clean up the school grounds and sort materials into biodegradable compost versus non-biodegradable recyclables.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which of these waste materials is BIODEGRADABLE (will decompose naturally into rich soil)?",
+        "options": [
+          "Rubber car tires",
+          "Banana peels, dry leaves, and apple cores",
+          "Plastic bags, styrofoam cups, and glass bottles",
+          "Metal soda cans and aluminum foil"
+        ],
+        "answer": 1,
+        "explain": "Fruit peels and fallen leaves are organic matter that microorganisms naturally break down into humus."
+      },
+      {
+        "q": "Which color dustbin is universally used for wet organic compostable kitchen waste in green cities?",
+        "options": [
+          "Green bin",
+          "Red bin",
+          "Blue bin (for dry recyclables)",
+          "Black bin"
+        ],
+        "answer": 0,
+        "explain": "Green bins are designated for organic wet waste, while blue bins hold dry recyclables like paper and plastic!"
+      },
+      {
+        "q": "How do desert animals like camels survive for days without drinking water?",
+        "options": [
+          "They drink seawater through their hooves",
+          "They eat metal cans",
+          "They store fat in their humps for energy, lose very little water in sweat, and produce dry dung",
+          "They hide water bottles in their ears"
+        ],
+        "answer": 2,
+        "explain": "Camels have remarkable biological adaptations that conserve every drop of bodily hydration!"
+      }
     ]
-   },
-   {
-    "prompt": "Put these ways of lighting a home in order, oldest first",
-    "steps": [
-     "Oil lamp",
-     "Kerosene lantern",
-     "Electric bulb",
-     "LED light"
+  },
+  "LO-116": {
+    "title": "Eco-Crafters: Upcycling Waste into Art 🎨✂️",
+    "desc": "Creates collage, designs, models, rangolis, posters, albums, and simple maps (of school/neighbourhood, flow diagrams, etc.) using local/waste material",
+    "subSkill": "Drawings, Models & Maps",
+    "audio_script": "During the art and craft period, Maya turns discarded cardboard cartons, bottle caps, and coconut shells into colorful pencil holders and bird feeders.",
+    "story": "During the art and craft period, Maya turns discarded cardboard cartons, bottle caps, and coconut shells into colorful pencil holders and bird feeders.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What do we call the creative practice of taking discarded items and turning them into useful, beautiful new products?",
+        "options": [
+          "Incinerating waste",
+          "Deforestation",
+          "Upcycling (Reusing with creativity)",
+          "Littering in the street"
+        ],
+        "answer": 2,
+        "explain": "Upcycling breathes creative new life into waste materials, reducing landfill garbage!"
+      },
+      {
+        "q": "How can an empty coconut shell be reused in a home garden?",
+        "options": [
+          "By grinding it into drinking juice",
+          "As a natural biodegradable hanging plant pot or bird water bowl",
+          "By burning it inside a closed bedroom",
+          "By throwing it into a storm drain"
+        ],
+        "answer": 1,
+        "explain": "Coconut shells make sturdy, eco-friendly hanging planters or bird feeding cups!"
+      },
+      {
+        "q": "What is the primary benefit of making decorative rangolis from natural flower petals and turmeric instead of toxic chemical paints?",
+        "options": [
+          "They are biodegradable, non-toxic, and safe for soil and insects",
+          "They cost ten thousand rupees",
+          "They can never be washed away",
+          "They turn into plastic overnight"
+        ],
+        "answer": 0,
+        "explain": "Flower petals and turmeric are completely natural, harmless, and enrich the soil when cleared."
+      }
     ]
-   }
-  ]
- },
- "IV-EVS-09": {
-  "questions": [
-   {
-    "q": "About how many glasses of water should a child drink in a day?",
-    "options": [
-     "1",
-     "6 to 8",
-     "30",
-     "50"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "About how many steps does a 10-year-old take to cross a 10 m room?",
-    "options": [
-     "About 3",
-     "About 15",
-     "About 100",
-     "About 500"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "You drop a stone and a leaf into a bowl of water. What happens?",
-    "options": [
-     "Both float",
-     "Stone sinks, leaf floats",
-     "Stone floats, leaf sinks",
-     "Both disappear"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "How long does a cup of ice take to melt in the hot sun?",
-    "options": [
-     "A few minutes",
-     "A few days",
-     "A month",
-     "A year"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Which will dissolve in water?",
-    "options": [
-     "Sand",
-     "Sugar",
-     "Pebbles",
-     "Wood chips"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A seed is planted in the soil and watered daily. When will you first see a shoot?",
-    "options": [
-     "In a few days",
-     "In one minute",
-     "After 5 years",
-     "Never"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-EVS-10": {
-  "rounds": [
-   {
-    "prompt": "Order the day-and-night pattern, starting from sunrise",
-    "steps": [
-     "Sunrise",
-     "Noon",
-     "Sunset",
-     "Night"
+  },
+  "116": {
+    "title": "Eco-Crafters: Upcycling Waste into Art 🎨✂️",
+    "desc": "Creates collage, designs, models, rangolis, posters, albums, and simple maps (of school/neighbourhood, flow diagrams, etc.) using local/waste material",
+    "subSkill": "Drawings, Models & Maps",
+    "audio_script": "During the art and craft period, Maya turns discarded cardboard cartons, bottle caps, and coconut shells into colorful pencil holders and bird feeders.",
+    "story": "During the art and craft period, Maya turns discarded cardboard cartons, bottle caps, and coconut shells into colorful pencil holders and bird feeders.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What do we call the creative practice of taking discarded items and turning them into useful, beautiful new products?",
+        "options": [
+          "Incinerating waste",
+          "Deforestation",
+          "Upcycling (Reusing with creativity)",
+          "Littering in the street"
+        ],
+        "answer": 2,
+        "explain": "Upcycling breathes creative new life into waste materials, reducing landfill garbage!"
+      },
+      {
+        "q": "How can an empty coconut shell be reused in a home garden?",
+        "options": [
+          "By grinding it into drinking juice",
+          "As a natural biodegradable hanging plant pot or bird water bowl",
+          "By burning it inside a closed bedroom",
+          "By throwing it into a storm drain"
+        ],
+        "answer": 1,
+        "explain": "Coconut shells make sturdy, eco-friendly hanging planters or bird feeding cups!"
+      },
+      {
+        "q": "What is the primary benefit of making decorative rangolis from natural flower petals and turmeric instead of toxic chemical paints?",
+        "options": [
+          "They are biodegradable, non-toxic, and safe for soil and insects",
+          "They cost ten thousand rupees",
+          "They can never be washed away",
+          "They turn into plastic overnight"
+        ],
+        "answer": 0,
+        "explain": "Flower petals and turmeric are completely natural, harmless, and enrich the soil when cleared."
+      }
     ]
-   },
-   {
-    "prompt": "Order the seasons in India as they usually come, starting from summer",
-    "steps": [
-     "Summer",
-     "Rainy season (monsoon)",
-     "Autumn",
-     "Winter",
-     "Spring"
+  },
+  "LO-117": {
+    "title": "Kitchen Lab: Evaporation, Condensation & Dissolution 🧪",
+    "desc": "Guesses properties/conditions of phenomena, estimates spatial quantities (distance, weight, time, duration) in standard/local units and verifies using simple tools/set-ups to establish cause and effect (evaporation, condensation, dissolution, absorption)",
+    "subSkill": "Estimation & Verification",
+    "audio_script": "Aarav places two identical plates of water in different places: Plate A in the bright hot sunshine, and Plate B inside a dark cool cupboard.",
+    "story": "Aarav places two identical plates of water in different places: Plate A in the bright hot sunshine, and Plate B inside a dark cool cupboard.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What will Aarav observe after 4 hours?",
+        "options": [
+          "Plate A gained three times more water",
+          "Water in Plate A (sunny spot) evaporated much faster into water vapor",
+          "Water in Plate B turned into ice cubes",
+          "Both plates remained exactly full with zero change"
+        ],
+        "answer": 1,
+        "explain": "Heat from the sun speeds up evaporation, transforming liquid water into invisible gas (vapor)!"
+      },
+      {
+        "q": "When steam from a boiling kettle hits a cold metal spoon, tiny droplets of liquid water form on the spoon. What is this process called?",
+        "options": [
+          "Condensation (gas turning back into liquid)",
+          "Photosynthesis",
+          "Freezing into stone",
+          "Dissolving into sugar"
+        ],
+        "answer": 0,
+        "explain": "When warm water vapor cools down against a cold surface, it condenses back into liquid water!"
+      },
+      {
+        "q": "Which of these common kitchen substances will DISSOLVE completely when stirred into a glass of warm water?",
+        "options": [
+          "Common salt (salt dissolves to form a clear solution)",
+          "Plastic beads",
+          "River pebbles and gravel",
+          "Cooking oil (floats on top)"
+        ],
+        "answer": 0,
+        "explain": "Salt is highly soluble in water, dissolving until its particles spread invisibly throughout the liquid."
+      }
     ]
-   },
-   {
-    "prompt": "Order the life of a plant, from the start",
-    "steps": [
-     "Seed",
-     "Sprout",
-     "Young plant",
-     "Flowering plant",
-     "Fruit with new seeds"
+  },
+  "117": {
+    "title": "Kitchen Lab: Evaporation, Condensation & Dissolution 🧪",
+    "desc": "Guesses properties/conditions of phenomena, estimates spatial quantities (distance, weight, time, duration) in standard/local units and verifies using simple tools/set-ups to establish cause and effect (evaporation, condensation, dissolution, absorption)",
+    "subSkill": "Estimation & Verification",
+    "audio_script": "Aarav places two identical plates of water in different places: Plate A in the bright hot sunshine, and Plate B inside a dark cool cupboard.",
+    "story": "Aarav places two identical plates of water in different places: Plate A in the bright hot sunshine, and Plate B inside a dark cool cupboard.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What will Aarav observe after 4 hours?",
+        "options": [
+          "Plate A gained three times more water",
+          "Water in Plate A (sunny spot) evaporated much faster into water vapor",
+          "Water in Plate B turned into ice cubes",
+          "Both plates remained exactly full with zero change"
+        ],
+        "answer": 1,
+        "explain": "Heat from the sun speeds up evaporation, transforming liquid water into invisible gas (vapor)!"
+      },
+      {
+        "q": "When steam from a boiling kettle hits a cold metal spoon, tiny droplets of liquid water form on the spoon. What is this process called?",
+        "options": [
+          "Condensation (gas turning back into liquid)",
+          "Photosynthesis",
+          "Freezing into stone",
+          "Dissolving into sugar"
+        ],
+        "answer": 0,
+        "explain": "When warm water vapor cools down against a cold surface, it condenses back into liquid water!"
+      },
+      {
+        "q": "Which of these common kitchen substances will DISSOLVE completely when stirred into a glass of warm water?",
+        "options": [
+          "Common salt (salt dissolves to form a clear solution)",
+          "Plastic beads",
+          "River pebbles and gravel",
+          "Cooking oil (floats on top)"
+        ],
+        "answer": 0,
+        "explain": "Salt is highly soluble in water, dissolving until its particles spread invisibly throughout the liquid."
+      }
     ]
-   }
-  ]
- },
- "IV-EVS-11": {
-  "questions": [
-   {
-    "q": "The Sun rises in the:",
-    "options": [
-     "West",
-     "North",
-     "East",
-     "South"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "If you face north, which direction is behind you?",
-    "options": [
-     "East",
-     "South",
-     "West",
-     "North"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which direction is opposite to east?",
-    "options": [
-     "North",
-     "West",
-     "South",
-     "North-east"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "If you face the rising Sun, your right hand points to the:",
-    "options": [
-     "North",
-     "South",
-     "West",
-     "East"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which instrument shows directions?",
-    "options": [
-     "Compass",
-     "Clock",
-     "Thermometer",
-     "Ruler"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "The direction between north and east is:",
-    "options": [
-     "South-west",
-     "North-east",
-     "North-west",
-     "South-east"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-EVS-12": {
-  "questions": [
-   {
-    "q": "A red traffic light means:",
-    "options": [
-     "Go",
-     "Slow down",
-     "Stop",
-     "Turn left"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "A sign with a white cross on a green board shows:",
-    "options": [
-     "Post office",
-     "First aid or hospital",
-     "School",
-     "Petrol pump"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A zebra crossing is used to:",
-    "options": [
-     "Park a car",
-     "Cross the road safely",
-     "Race on",
-     "Sell things"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A sign showing a cigarette with a red cross means:",
-    "options": [
-     "Smoking is allowed",
-     "No smoking",
-     "Fire station",
-     "Restaurant"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A green light at a signal means:",
-    "options": [
-     "Stop",
-     "Wait",
-     "Go",
-     "Honk"
-    ],
-    "answer": 2
-   },
-   {
-    "q": "A sign with a bed and a cup on a road usually shows:",
-    "options": [
-     "Hotel or rest place",
-     "Airport",
-     "Library",
-     "School"
-    ],
-    "answer": 0
-   }
-  ]
- },
- "IV-EVS-13": {
-  "prompt": "Plan a model of your village by choosing one line for each part.",
-  "parts": [
-   {
-    "label": "What will you make?",
-    "choices": [
-     "I will make a model of my village.",
-     "I will make a model of my school.",
-     "I will make a model of a farm."
+  },
+  "LO-118": {
+    "title": "Field Trip Chronicles: Traditions at the Mela 🎪",
+    "desc": "Records observations/experiences/information for objects, activities, phenomena, places visited (mela, festival, historical place) in different ways and predicts patterns",
+    "subSkill": "Recording & Predicting Patterns",
+    "audio_script": "During Dussehra, Priya visits the rural craft mela and observes potters shaping wet clay on spinning wooden wheels.",
+    "story": "During Dussehra, Priya visits the rural craft mela and observes potters shaping wet clay on spinning wooden wheels.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What raw material does a traditional village potter use to craft diyas, kulhads, and water matkas?",
+        "options": [
+          "Molten iron and steel",
+          "Synthetic plastic pellets",
+          "Cement and concrete gravel",
+          "Wet clay and fine silt from riverbeds"
+        ],
+        "answer": 3,
+        "explain": "Clay from riverbeds is kneaded, shaped on a potter's wheel, and baked in a kiln kiln!"
+      },
+      {
+        "q": "Why does drinking water stored in a traditional porous clay 'matka' stay naturally cool during hot summer months?",
+        "options": [
+          "Ice cubes grow inside clay pots",
+          "The clay has an electric refrigeration motor inside",
+          "Water slowly seeps through microscopic clay pores and evaporates, carrying away heat",
+          "Matkas are kept inside freezers"
+        ],
+        "answer": 2,
+        "explain": "Evaporative cooling! As moisture evaporates from the clay surface, it absorbs heat, leaving the water cool."
+      },
+      {
+        "q": "What is the best way for a student to record field observations during a visit to a historical fort or craft fair?",
+        "options": [
+          "Scratch your name on ancient stone monument walls",
+          "Take quick notes, make pencil sketches of tools, and interview skilled artisans politely",
+          "Lose your notebook in the crowd",
+          "Run around shouting without looking at anything"
+        ],
+        "answer": 1,
+        "explain": "Taking notes and sketching preserves valuable learning while respecting historic heritage!"
+      }
     ]
-   },
-   {
-    "label": "Which materials will you use?",
-    "choices": [
-     "I will use cardboard, clay and colours.",
-     "I will use waste paper, sticks and glue.",
-     "I will use thermocol, leaves and paint."
+  },
+  "118": {
+    "title": "Field Trip Chronicles: Traditions at the Mela 🎪",
+    "desc": "Records observations/experiences/information for objects, activities, phenomena, places visited (mela, festival, historical place) in different ways and predicts patterns",
+    "subSkill": "Recording & Predicting Patterns",
+    "audio_script": "During Dussehra, Priya visits the rural craft mela and observes potters shaping wet clay on spinning wooden wheels.",
+    "story": "During Dussehra, Priya visits the rural craft mela and observes potters shaping wet clay on spinning wooden wheels.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What raw material does a traditional village potter use to craft diyas, kulhads, and water matkas?",
+        "options": [
+          "Molten iron and steel",
+          "Synthetic plastic pellets",
+          "Cement and concrete gravel",
+          "Wet clay and fine silt from riverbeds"
+        ],
+        "answer": 3,
+        "explain": "Clay from riverbeds is kneaded, shaped on a potter's wheel, and baked in a kiln kiln!"
+      },
+      {
+        "q": "Why does drinking water stored in a traditional porous clay 'matka' stay naturally cool during hot summer months?",
+        "options": [
+          "Ice cubes grow inside clay pots",
+          "The clay has an electric refrigeration motor inside",
+          "Water slowly seeps through microscopic clay pores and evaporates, carrying away heat",
+          "Matkas are kept inside freezers"
+        ],
+        "answer": 2,
+        "explain": "Evaporative cooling! As moisture evaporates from the clay surface, it absorbs heat, leaving the water cool."
+      },
+      {
+        "q": "What is the best way for a student to record field observations during a visit to a historical fort or craft fair?",
+        "options": [
+          "Scratch your name on ancient stone monument walls",
+          "Take quick notes, make pencil sketches of tools, and interview skilled artisans politely",
+          "Lose your notebook in the crowd",
+          "Run around shouting without looking at anything"
+        ],
+        "answer": 1,
+        "explain": "Taking notes and sketching preserves valuable learning while respecting historic heritage!"
+      }
     ]
-   },
-   {
-    "label": "What will be on it?",
-    "choices": [
-     "It will have houses, a well and a small road.",
-     "It will have a pond, trees and a playground.",
-     "It will have fields, a barn and a tractor."
+  },
+  "LO-119": {
+    "title": "Insect Kingdoms: Ants, Bees & Termites 🐜",
+    "desc": "Explains herd/group behaviour in animals (ants, bees, elephants), birds (building nests), and changes in family (due to birth, marriage, transfer, etc.)",
+    "subSkill": "Animal Behaviour & Family Change",
+    "audio_script": "Under a shady mango tree, Nina watches a steady line of black worker ants carrying breadcrumbs to an underground anthill.",
+    "story": "Under a shady mango tree, Nina watches a steady line of black worker ants carrying breadcrumbs to an underground anthill.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How do ants in a marching line communicate and follow each other along an exact path?",
+        "options": [
+          "They memorize visual landmarks using sharp human-like eyesight",
+          "They leave invisible chemical scent trails called pheromones that other ants smell with their antennae",
+          "They feel underground soil vibrations caused by marching feet",
+          "They make high-pitched buzzing calls using tiny vibrating wings"
+        ],
+        "answer": 1,
+        "explain": "Ants use sensitive antennae to detect pheromone scent trails laid down by scout ants!"
+      },
+      {
+        "q": "In a honeybee hive, what is the special role of the single Queen Bee?",
+        "options": [
+          "To build hexagonal honeycomb cells from beeswax",
+          "To fly out and gather all the nectar and pollen from flowers",
+          "To lay thousands of eggs to grow the colony",
+          "To guard the hive entrance and sting approaching predators"
+        ],
+        "answer": 2,
+        "explain": "The Queen Bee is the mother of the hive, laying up to 2,000 eggs every day!"
+      },
+      {
+        "q": "Why do weaver birds weave elaborate, hanging grass nests with downward-facing entrance tubes?",
+        "options": [
+          "To store heavy winter supplies of dry seeds and grains",
+          "To protect their eggs and chicks from rain, wind, and climbing predators like snakes",
+          "To trap flying insects in the downward entrance tube",
+          "To allow multiple bird families to sleep in one communal dormitory"
+        ],
+        "answer": 1,
+        "explain": "Hanging bulbous nests with bottom entrances keep eggs safe from snakes and predatory lizards!"
+      }
     ]
-   },
-   {
-    "label": "How will you show directions?",
-    "choices": [
-     "I will mark north with an arrow.",
-     "I will write N, S, E and W on the corners.",
-     "I will add a small compass sign."
+  },
+  "119": {
+    "title": "Insect Kingdoms: Ants, Bees & Termites 🐜",
+    "desc": "Explains herd/group behaviour in animals (ants, bees, elephants), birds (building nests), and changes in family (due to birth, marriage, transfer, etc.)",
+    "subSkill": "Animal Behaviour & Family Change",
+    "audio_script": "Under a shady mango tree, Nina watches a steady line of black worker ants carrying breadcrumbs to an underground anthill.",
+    "story": "Under a shady mango tree, Nina watches a steady line of black worker ants carrying breadcrumbs to an underground anthill.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How do ants in a marching line communicate and follow each other along an exact path?",
+        "options": [
+          "They memorize visual landmarks using sharp human-like eyesight",
+          "They leave invisible chemical scent trails called pheromones that other ants smell with their antennae",
+          "They feel underground soil vibrations caused by marching feet",
+          "They make high-pitched buzzing calls using tiny vibrating wings"
+        ],
+        "answer": 1,
+        "explain": "Ants use sensitive antennae to detect pheromone scent trails laid down by scout ants!"
+      },
+      {
+        "q": "In a honeybee hive, what is the special role of the single Queen Bee?",
+        "options": [
+          "To build hexagonal honeycomb cells from beeswax",
+          "To fly out and gather all the nectar and pollen from flowers",
+          "To lay thousands of eggs to grow the colony",
+          "To guard the hive entrance and sting approaching predators"
+        ],
+        "answer": 2,
+        "explain": "The Queen Bee is the mother of the hive, laying up to 2,000 eggs every day!"
+      },
+      {
+        "q": "Why do weaver birds weave elaborate, hanging grass nests with downward-facing entrance tubes?",
+        "options": [
+          "To store heavy winter supplies of dry seeds and grains",
+          "To protect their eggs and chicks from rain, wind, and climbing predators like snakes",
+          "To trap flying insects in the downward entrance tube",
+          "To allow multiple bird families to sleep in one communal dormitory"
+        ],
+        "answer": 1,
+        "explain": "Hanging bulbous nests with bottom entrances keep eggs safe from snakes and predatory lizards!"
+      }
     ]
-   },
-   {
-    "label": "How will you share it?",
-    "choices": [
-     "I will present it to my class.",
-     "I will show it at the school exhibition.",
-     "I will explain it to my family."
+  },
+  "LO-120": {
+    "title": "From Farm to Plate: The Journey of Wheat 🌾🍞",
+    "desc": "Explains the process of producing and procuring daily needs (food, water, clothes) from source to home (e.g., crops from field to mandi to home, water purification)",
+    "subSkill": "Food & Water",
+    "audio_script": "Grandpa shows Vikram how the golden wheat harvested by farmers in Punjab travels to become a soft, warm roti on their dinner plate.",
+    "story": "Grandpa shows Vikram how the golden wheat harvested by farmers in Punjab travels to become a soft, warm roti on their dinner plate.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Trace the correct sequence of how wheat reaches your dining table:",
+        "options": [
+          "Field harvesting -> Grain Mandi/Market -> Flour Mill (Chakki) -> Kitchen kneading -> Hot Roti on plate",
+          "Hot roti -> Sowing seeds -> Flour Mill -> Mandi",
+          "Flour mill -> Sowing seeds -> Kitchen -> Field",
+          "Kitchen kneading -> Field harvesting -> Flour Mill -> Grocery store"
+        ],
+        "answer": 0,
+        "explain": "Wheat is grown and harvested, sold in grain mandis, ground into atta at a mill, and baked at home!"
+      },
+      {
+        "q": "What important agricultural machine cuts mature crops and separates grains from the stalks and chaff in one step?",
+        "options": [
+          "A combine harvester",
+          "A water tanker",
+          "A cement mixer",
+          "A bulldozer"
+        ],
+        "answer": 0,
+        "explain": "Combine harvesters combine reaping, threshing, and winnowing in a single efficient operation."
+      },
+      {
+        "q": "Why must harvested grains like wheat and rice be dried thoroughly in the sun before storing in godowns?",
+        "options": [
+          "Because wheat only grows inside dark bags",
+          "To make the sacks heavier",
+          "To remove moisture so fungal molds, rot, and insects cannot damage the stored food",
+          "To make the grains turn into golden coins"
+        ],
+        "answer": 2,
+        "explain": "Moisture invites fungus and weevils; thorough sun-drying keeps stored grains fresh for months!"
+      }
     ]
-   }
-  ]
- },
- "IV-EVS-14": {
-  "questions": [
-   {
-    "q": "A child is selling tea at a stall instead of going to school. What is the best opinion?",
-    "options": [
-     "Every child has the right to study",
-     "It is fine",
-     "He should earn more",
-     "Schools are not needed"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Some people in your colony throw garbage on the road. What should we do?",
-    "options": [
-     "Join them",
-     "Ask them politely to use dustbins",
-     "Ignore it",
-     "Make fun of them"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "A new classmate uses a wheelchair. How should we behave?",
-    "options": [
-     "Help and include him in games",
-     "Avoid him",
-     "Laugh at him",
-     "Leave him alone"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Should girls and boys get equal chances to study?",
-    "options": [
-     "Yes, both should",
-     "Only boys",
-     "Only girls",
-     "Neither"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "A tree on your street is going to be cut for no reason. What can you do?",
-    "options": [
-     "Tell elders and request them to save it",
-     "Cut it yourself",
-     "Say nothing",
-     "Pull its leaves"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "Your friend is made fun of for his dark skin. What will you do?",
-    "options": [
-     "Laugh too",
-     "Stand up for him and tell it is wrong",
-     "Stop talking to him",
-     "Run away"
-    ],
-    "answer": 1
-   }
-  ]
- },
- "IV-EVS-15": {
-  "questions": [
-   {
-    "q": "When should you wash your hands?",
-    "options": [
-     "Before eating and after using the toilet",
-     "Only on Sundays",
-     "Never",
-     "Only when they look dirty"
-    ],
-    "answer": 0
-   },
-   {
-    "q": "How often should you brush your teeth?",
-    "options": [
-     "Once a week",
-     "Twice a day",
-     "Once a month",
-     "Never"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "How can we save water?",
-    "options": [
-     "Leave the tap running",
-     "Close the tap while brushing",
-     "Waste it",
-     "Wash the car daily"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "What should you do with used paper and plastic?",
-    "options": [
-     "Throw on the road",
-     "Put in the right dustbin",
-     "Burn it near the house",
-     "Bury it in a park"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Why should we cover our mouth when we sneeze?",
-    "options": [
-     "To spread germs",
-     "To stop germs from spreading",
-     "To look funny",
-     "No reason"
-    ],
-    "answer": 1
-   },
-   {
-    "q": "Which habit helps save electricity?",
-    "options": [
-     "Switch off lights when leaving a room",
-     "Keep fans on all day",
-     "Leave the TV on",
-     "Use many bulbs"
-    ],
-    "answer": 0
-   }
-  ]
- }
+  },
+  "120": {
+    "title": "From Farm to Plate: The Journey of Wheat 🌾🍞",
+    "desc": "Explains the process of producing and procuring daily needs (food, water, clothes) from source to home (e.g., crops from field to mandi to home, water purification)",
+    "subSkill": "Food & Water",
+    "audio_script": "Grandpa shows Vikram how the golden wheat harvested by farmers in Punjab travels to become a soft, warm roti on their dinner plate.",
+    "story": "Grandpa shows Vikram how the golden wheat harvested by farmers in Punjab travels to become a soft, warm roti on their dinner plate.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Trace the correct sequence of how wheat reaches your dining table:",
+        "options": [
+          "Field harvesting -> Grain Mandi/Market -> Flour Mill (Chakki) -> Kitchen kneading -> Hot Roti on plate",
+          "Hot roti -> Sowing seeds -> Flour Mill -> Mandi",
+          "Flour mill -> Sowing seeds -> Kitchen -> Field",
+          "Kitchen kneading -> Field harvesting -> Flour Mill -> Grocery store"
+        ],
+        "answer": 0,
+        "explain": "Wheat is grown and harvested, sold in grain mandis, ground into atta at a mill, and baked at home!"
+      },
+      {
+        "q": "What important agricultural machine cuts mature crops and separates grains from the stalks and chaff in one step?",
+        "options": [
+          "A combine harvester",
+          "A water tanker",
+          "A cement mixer",
+          "A bulldozer"
+        ],
+        "answer": 0,
+        "explain": "Combine harvesters combine reaping, threshing, and winnowing in a single efficient operation."
+      },
+      {
+        "q": "Why must harvested grains like wheat and rice be dried thoroughly in the sun before storing in godowns?",
+        "options": [
+          "Because wheat only grows inside dark bags",
+          "To make the sacks heavier",
+          "To remove moisture so fungal molds, rot, and insects cannot damage the stored food",
+          "To make the grains turn into golden coins"
+        ],
+        "answer": 2,
+        "explain": "Moisture invites fungus and weevils; thorough sun-drying keeps stored grains fresh for months!"
+      }
+    ]
+  },
+  "LO-121": {
+    "title": "Master Artisans: Heritage Crafts & Skills 🧵🪡",
+    "desc": "Describes different skilled work (farming, construction, art/craft, etc.), their inheritance (from elders) and training (role of institutions) in daily life",
+    "subSkill": "Work & Livelihood",
+    "audio_script": "In Varanasi, Aunt Rekha visits master weavers who create exquisite Banarasi silk saris on traditional wooden handlooms.",
+    "story": "In Varanasi, Aunt Rekha visits master weavers who create exquisite Banarasi silk saris on traditional wooden handlooms.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How do traditional master weavers in craft clusters learn their intricate weaving and embroidery skills?",
+        "options": [
+          "By playing video games on a phone",
+          "By buying saris from the shopping mall",
+          "Overnight in a single five-minute dream",
+          "By training for years under experienced elders and master craftspeople (guru-shishya tradition)"
+        ],
+        "answer": 3,
+        "explain": "Artisanal knowledge of motifs, warping, and weft is inherited and refined over generations of dedicated apprenticeship."
+      },
+      {
+        "q": "Which natural insect produces fine silk threads when spinning its protective cocoon?",
+        "options": [
+          "The Grasshopper",
+          "The Silkworm (Bombyx mori moth larva)",
+          "The Honeybee",
+          "The Dragonfly"
+        ],
+        "answer": 1,
+        "explain": "Silkworms spin silky protein filaments to form protective cocoons before metamorphosis."
+      },
+      {
+        "q": "Why should we support local artisans and buy handmade indigenous khadi and handloom crafts?",
+        "options": [
+          "To close down all craft villages",
+          "Handmade crafts have no artistic value",
+          "It preserves traditional cultural heritage, supports sustainable rural livelihoods, and uses eco-friendly materials",
+          "Because handmade items are illegal to sell"
+        ],
+        "answer": 2,
+        "explain": "Supporting artisans preserves ancient heritage and empowers rural weavers and craft families!"
+      }
+    ]
+  },
+  "121": {
+    "title": "Master Artisans: Heritage Crafts & Skills 🧵🪡",
+    "desc": "Describes different skilled work (farming, construction, art/craft, etc.), their inheritance (from elders) and training (role of institutions) in daily life",
+    "subSkill": "Work & Livelihood",
+    "audio_script": "In Varanasi, Aunt Rekha visits master weavers who create exquisite Banarasi silk saris on traditional wooden handlooms.",
+    "story": "In Varanasi, Aunt Rekha visits master weavers who create exquisite Banarasi silk saris on traditional wooden handlooms.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How do traditional master weavers in craft clusters learn their intricate weaving and embroidery skills?",
+        "options": [
+          "By playing video games on a phone",
+          "By buying saris from the shopping mall",
+          "Overnight in a single five-minute dream",
+          "By training for years under experienced elders and master craftspeople (guru-shishya tradition)"
+        ],
+        "answer": 3,
+        "explain": "Artisanal knowledge of motifs, warping, and weft is inherited and refined over generations of dedicated apprenticeship."
+      },
+      {
+        "q": "Which natural insect produces fine silk threads when spinning its protective cocoon?",
+        "options": [
+          "The Grasshopper",
+          "The Silkworm (Bombyx mori moth larva)",
+          "The Honeybee",
+          "The Dragonfly"
+        ],
+        "answer": 1,
+        "explain": "Silkworms spin silky protein filaments to form protective cocoons before metamorphosis."
+      },
+      {
+        "q": "Why should we support local artisans and buy handmade indigenous khadi and handloom crafts?",
+        "options": [
+          "To close down all craft villages",
+          "Handmade crafts have no artistic value",
+          "It preserves traditional cultural heritage, supports sustainable rural livelihoods, and uses eco-friendly materials",
+          "Because handmade items are illegal to sell"
+        ],
+        "answer": 2,
+        "explain": "Supporting artisans preserves ancient heritage and empowers rural weavers and craft families!"
+      }
+    ]
+  },
+  "LO-122": {
+    "title": "Trailblazer: Landmarks & Neighborhood Maps 🗺️",
+    "desc": "Identifies signs, location of objects/places and guides for directions with respect to a landmark in school/neighbourhood using maps etc.",
+    "subSkill": "Map Reading & Directions",
+    "audio_script": "Arjun draws a map for his cousin showing the walking route from the community water tank, past the big banyan tree, to the school gate.",
+    "story": "Arjun draws a map for his cousin showing the walking route from the community water tank, past the big banyan tree, to the school gate.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is a 'LANDMARK' on a map (such as an ancient clock tower or a big banyan tree)?",
+        "options": [
+          "A bird flying past in the sky",
+          "A random crack on the pavement",
+          "A secret treasure hidden underground",
+          "A prominent, easily recognized building or natural feature used to guide directions"
+        ],
+        "answer": 3,
+        "explain": "Landmarks are unmistakable reference points that help travelers orient themselves and navigate."
+      },
+      {
+        "q": "On most standard printed maps, which direction is pointing straight UP toward the top of the sheet?",
+        "options": [
+          "West",
+          "North",
+          "South",
+          "East"
+        ],
+        "answer": 1,
+        "explain": "Standard map convention places North at the top, South at the bottom, East on the right, and West on the left."
+      },
+      {
+        "q": "If Arjun tells his cousin: 'Walk straight past the post office, then turn RIGHT at the grocery store,' what is the grocery store functioning as?",
+        "options": [
+          "A decision waypoint / navigation landmark",
+          "The final destination of the universe",
+          "A roadblock that stops walking",
+          "A school classroom"
+        ],
+        "answer": 0,
+        "explain": "The grocery store marks the exact landmark where a change of walking direction occurs."
+      }
+    ]
+  },
+  "122": {
+    "title": "Trailblazer: Landmarks & Neighborhood Maps 🗺️",
+    "desc": "Identifies signs, location of objects/places and guides for directions with respect to a landmark in school/neighbourhood using maps etc.",
+    "subSkill": "Map Reading & Directions",
+    "audio_script": "Arjun draws a map for his cousin showing the walking route from the community water tank, past the big banyan tree, to the school gate.",
+    "story": "Arjun draws a map for his cousin showing the walking route from the community water tank, past the big banyan tree, to the school gate.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is a 'LANDMARK' on a map (such as an ancient clock tower or a big banyan tree)?",
+        "options": [
+          "A bird flying past in the sky",
+          "A random crack on the pavement",
+          "A secret treasure hidden underground",
+          "A prominent, easily recognized building or natural feature used to guide directions"
+        ],
+        "answer": 3,
+        "explain": "Landmarks are unmistakable reference points that help travelers orient themselves and navigate."
+      },
+      {
+        "q": "On most standard printed maps, which direction is pointing straight UP toward the top of the sheet?",
+        "options": [
+          "West",
+          "North",
+          "South",
+          "East"
+        ],
+        "answer": 1,
+        "explain": "Standard map convention places North at the top, South at the bottom, East on the right, and West on the left."
+      },
+      {
+        "q": "If Arjun tells his cousin: 'Walk straight past the post office, then turn RIGHT at the grocery store,' what is the grocery store functioning as?",
+        "options": [
+          "A decision waypoint / navigation landmark",
+          "The final destination of the universe",
+          "A roadblock that stops walking",
+          "A school classroom"
+        ],
+        "answer": 0,
+        "explain": "The grocery store marks the exact landmark where a change of walking direction occurs."
+      }
+    ]
+  },
+  "LO-123": {
+    "title": "Ticket Inspector: Reading Railway Tickets & Timetables 🚂🎫",
+    "desc": "Uses the information on signboards, posters, currency (notes/coins), railway ticket/time table",
+    "subSkill": "Using Signs & Information",
+    "audio_script": "Maya examines her family's Indian Railways train reservation ticket for the express train journey from Lucknow to New Delhi.",
+    "story": "Maya examines her family's Indian Railways train reservation ticket for the express train journey from Lucknow to New Delhi.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What does the 10-digit 'PNR' number printed on a train ticket stand for?",
+        "options": [
+          "Primary Number Receipt",
+          "Passenger Name Record",
+          "Public National Railway",
+          "Personal Network Route"
+        ],
+        "answer": 1,
+        "explain": "PNR stands for Passenger Name Record, which tracks reservation and berth details in the database!"
+      },
+      {
+        "q": "Look at the railway ticket: 'Coach: S3, Berth: 27 (SL)'. What does 'SL' mean for the seating berth?",
+        "options": [
+          "Standing Line",
+          "Sitting on Luggage",
+          "Special Luxury First Class",
+          "Sleeper Class (Middle or Upper/Lower berth)"
+        ],
+        "answer": 3,
+        "explain": "SL stands for Sleeper Class, and coaches are labeled S1, S2, S3, etc."
+      },
+      {
+        "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
+        "options": [
+          "6:30 PM in the evening (18:30 - 12:00)",
+          "11:30 PM at night",
+          "1:30 PM in the afternoon",
+          "8:30 AM in the morning"
+        ],
+        "answer": 0,
+        "explain": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
+      }
+    ]
+  },
+  "123": {
+    "title": "Ticket Inspector: Reading Railway Tickets & Timetables 🚂🎫",
+    "desc": "Uses the information on signboards, posters, currency (notes/coins), railway ticket/time table",
+    "subSkill": "Using Signs & Information",
+    "audio_script": "Maya examines her family's Indian Railways train reservation ticket for the express train journey from Lucknow to New Delhi.",
+    "story": "Maya examines her family's Indian Railways train reservation ticket for the express train journey from Lucknow to New Delhi.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What does the 10-digit 'PNR' number printed on a train ticket stand for?",
+        "options": [
+          "Primary Number Receipt",
+          "Passenger Name Record",
+          "Public National Railway",
+          "Personal Network Route"
+        ],
+        "answer": 1,
+        "explain": "PNR stands for Passenger Name Record, which tracks reservation and berth details in the database!"
+      },
+      {
+        "q": "Look at the railway ticket: 'Coach: S3, Berth: 27 (SL)'. What does 'SL' mean for the seating berth?",
+        "options": [
+          "Standing Line",
+          "Sitting on Luggage",
+          "Special Luxury First Class",
+          "Sleeper Class (Middle or Upper/Lower berth)"
+        ],
+        "answer": 3,
+        "explain": "SL stands for Sleeper Class, and coaches are labeled S1, S2, S3, etc."
+      },
+      {
+        "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
+        "options": [
+          "6:30 PM in the evening (18:30 - 12:00)",
+          "11:30 PM at night",
+          "1:30 PM in the afternoon",
+          "8:30 AM in the morning"
+        ],
+        "answer": 0,
+        "explain": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
+      }
+    ]
+  },
+  "LO-124": {
+    "title": "Wild Adaptations: Claws, Teeth & Ears 🐾👂",
+    "desc": "Identifies different features (beaks/teeth, claws, ears, hair, nests/shelters, etc.) of birds and animals",
+    "subSkill": "Animals & Birds",
+    "audio_script": "In the wildlife sanctuary, Kabir notices that deer have large alert ears that swivel around, while tigers have sharp canine teeth and padded paws.",
+    "story": "In the wildlife sanctuary, Kabir notices that deer have large alert ears that swivel around, while tigers have sharp canine teeth and padded paws.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Why do prey animals like deer and rabbits have large external ears (pinnae) that can swivel in different directions?",
+        "options": [
+          "To keep cool like giant fans",
+          "To store nuts for winter",
+          "To fly like birds through trees",
+          "To detect faint sounds of approaching predators from any direction without turning their heads"
+        ],
+        "answer": 3,
+        "explain": "Swiveling ears let herbivores pinpoint predator rustles from 360 degrees around them!"
+      },
+      {
+        "q": "Why do carnivorous predators like lions and leopards have soft, cushioned pads beneath their paws?",
+        "options": [
+          "To stalk silently through grass without snapping twigs or making footsteps",
+          "To slide down muddy hills",
+          "To bounce high like rubber balls",
+          "Because they dislike touching soil"
+        ],
+        "answer": 0,
+        "explain": "Padded paws allow predators to creep within striking distance of prey completely silently!"
+      },
+      {
+        "q": "Which bird has sharp, curved talons and keen forward-facing eyesight specialized for hunting rodents from high above?",
+        "options": [
+          "Eagle and Hawk",
+          "Hummingbird",
+          "Pigeon",
+          "Duck and Goose"
+        ],
+        "answer": 0,
+        "explain": "Eagles and hawks are raptors armed with razor-sharp talons and telescopic vision for hunting."
+      }
+    ]
+  },
+  "124": {
+    "title": "Wild Adaptations: Claws, Teeth & Ears 🐾👂",
+    "desc": "Identifies different features (beaks/teeth, claws, ears, hair, nests/shelters, etc.) of birds and animals",
+    "subSkill": "Animals & Birds",
+    "audio_script": "In the wildlife sanctuary, Kabir notices that deer have large alert ears that swivel around, while tigers have sharp canine teeth and padded paws.",
+    "story": "In the wildlife sanctuary, Kabir notices that deer have large alert ears that swivel around, while tigers have sharp canine teeth and padded paws.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Why do prey animals like deer and rabbits have large external ears (pinnae) that can swivel in different directions?",
+        "options": [
+          "To keep cool like giant fans",
+          "To store nuts for winter",
+          "To fly like birds through trees",
+          "To detect faint sounds of approaching predators from any direction without turning their heads"
+        ],
+        "answer": 3,
+        "explain": "Swiveling ears let herbivores pinpoint predator rustles from 360 degrees around them!"
+      },
+      {
+        "q": "Why do carnivorous predators like lions and leopards have soft, cushioned pads beneath their paws?",
+        "options": [
+          "To stalk silently through grass without snapping twigs or making footsteps",
+          "To slide down muddy hills",
+          "To bounce high like rubber balls",
+          "Because they dislike touching soil"
+        ],
+        "answer": 0,
+        "explain": "Padded paws allow predators to creep within striking distance of prey completely silently!"
+      },
+      {
+        "q": "Which bird has sharp, curved talons and keen forward-facing eyesight specialized for hunting rodents from high above?",
+        "options": [
+          "Eagle and Hawk",
+          "Hummingbird",
+          "Pigeon",
+          "Duck and Goose"
+        ],
+        "answer": 0,
+        "explain": "Eagles and hawks are raptors armed with razor-sharp talons and telescopic vision for hunting."
+      }
+    ]
+  },
+  "LO-125": {
+    "title": "Family Reunion: Extended Family Bonds 🎊",
+    "desc": "Identifies relationship with and among family members in extended family",
+    "subSkill": "Family & Relationships",
+    "audio_script": "During Diwali, relatives from distant cities gather at Grandma's village home: aunts, uncles, cousins, and distant kin.",
+    "story": "During Diwali, relatives from distant cities gather at Grandma's village home: aunts, uncles, cousins, and distant kin.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How does an extended family gathering strengthen family relationships?",
+        "options": [
+          "It makes people forget each other",
+          "By making everyone stay locked in separate rooms",
+          "It allows cousins and relatives to share stories, celebrate shared traditions, and deepen bonds of care",
+          "It forces everyone to stop eating food"
+        ],
+        "answer": 2,
+        "explain": "Reunions bring relatives together to celebrate shared history, warmth, and lifelong affection!"
+      },
+      {
+        "q": "What is the relationship between you and your father's sister?",
+        "options": [
+          "She is your Mother",
+          "She is your Grandmother",
+          "She is your Niece",
+          "She is your Paternal Aunt (Bua / Fufi)"
+        ],
+        "answer": 3,
+        "explain": "Your father's sister is your paternal aunt (lovingly called Bua in Hindi)."
+      },
+      {
+        "q": "Why do families sometimes relocate to new cities (migration)?",
+        "options": [
+          "Because moving vans are free",
+          "For better job opportunities, education, or transfers in work",
+          "To avoid all human beings",
+          "Because houses disappear every year"
+        ],
+        "answer": 1,
+        "explain": "Families move to new places for employment, schooling, transfers, or business opportunities."
+      }
+    ]
+  },
+  "125": {
+    "title": "Family Reunion: Extended Family Bonds 🎊",
+    "desc": "Identifies relationship with and among family members in extended family",
+    "subSkill": "Family & Relationships",
+    "audio_script": "During Diwali, relatives from distant cities gather at Grandma's village home: aunts, uncles, cousins, and distant kin.",
+    "story": "During Diwali, relatives from distant cities gather at Grandma's village home: aunts, uncles, cousins, and distant kin.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How does an extended family gathering strengthen family relationships?",
+        "options": [
+          "It makes people forget each other",
+          "By making everyone stay locked in separate rooms",
+          "It allows cousins and relatives to share stories, celebrate shared traditions, and deepen bonds of care",
+          "It forces everyone to stop eating food"
+        ],
+        "answer": 2,
+        "explain": "Reunions bring relatives together to celebrate shared history, warmth, and lifelong affection!"
+      },
+      {
+        "q": "What is the relationship between you and your father's sister?",
+        "options": [
+          "She is your Mother",
+          "She is your Grandmother",
+          "She is your Niece",
+          "She is your Paternal Aunt (Bua / Fufi)"
+        ],
+        "answer": 3,
+        "explain": "Your father's sister is your paternal aunt (lovingly called Bua in Hindi)."
+      },
+      {
+        "q": "Why do families sometimes relocate to new cities (migration)?",
+        "options": [
+          "Because moving vans are free",
+          "For better job opportunities, education, or transfers in work",
+          "To avoid all human beings",
+          "Because houses disappear every year"
+        ],
+        "answer": 1,
+        "explain": "Families move to new places for employment, schooling, transfers, or business opportunities."
+      }
+    ]
+  },
+  "LO-126": {
+    "title": "Botanical Wonders: Roots, Fruits & Fragrant Blooms 🌺🥕",
+    "desc": "Identifies simple features (shape, colour, aroma, where they grow) of flowers, roots and fruits in immediate surroundings",
+    "subSkill": "Plants",
+    "audio_script": "Nina helps in her grandfather's kitchen garden, pulling up orange carrots from the ground and picking red tomatoes from leafy vines.",
+    "story": "Nina helps in her grandfather's kitchen garden, pulling up orange carrots from the ground and picking red tomatoes from leafy vines.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which part of the plant are carrots, radishes, and beetroots that we eat?",
+        "options": [
+          "Underground swollen taproots that store food nutrients",
+          "Wooden bark stems",
+          "Green aerial leaves",
+          "Colorful flower petals"
+        ],
+        "answer": 0,
+        "explain": "Carrots and radishes are modified taproots storing rich sugars and nutrients underground!"
+      },
+      {
+        "q": "Why do night-blooming flowers like Jasmine (Raat ki Rani) and Mogra have an intensely sweet, powerful aroma?",
+        "options": [
+          "Because daytime flowers have no scent",
+          "To attract night-flying pollinators like nocturnal moths in the dark",
+          "To repel all living creatures",
+          "To scare birds away"
+        ],
+        "answer": 1,
+        "explain": "In the dark of night, fragrance guides moths and bats directly to flower nectar for pollination!"
+      },
+      {
+        "q": "Which of these commonly called vegetables is botanically a FRUIT because it develops from a flower and contains seeds?",
+        "options": [
+          "Potato (underground stem tuber)",
+          "Spinach (leaf)",
+          "Ginger (rhizome stem)",
+          "Tomato and Cucumber"
+        ],
+        "answer": 3,
+        "explain": "Tomatoes and cucumbers develop from flower ovaries and hold seeds inside, making them botanical fruits!"
+      }
+    ]
+  },
+  "126": {
+    "title": "Botanical Wonders: Roots, Fruits & Fragrant Blooms 🌺🥕",
+    "desc": "Identifies simple features (shape, colour, aroma, where they grow) of flowers, roots and fruits in immediate surroundings",
+    "subSkill": "Plants",
+    "audio_script": "Nina helps in her grandfather's kitchen garden, pulling up orange carrots from the ground and picking red tomatoes from leafy vines.",
+    "story": "Nina helps in her grandfather's kitchen garden, pulling up orange carrots from the ground and picking red tomatoes from leafy vines.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which part of the plant are carrots, radishes, and beetroots that we eat?",
+        "options": [
+          "Underground swollen taproots that store food nutrients",
+          "Wooden bark stems",
+          "Green aerial leaves",
+          "Colorful flower petals"
+        ],
+        "answer": 0,
+        "explain": "Carrots and radishes are modified taproots storing rich sugars and nutrients underground!"
+      },
+      {
+        "q": "Why do night-blooming flowers like Jasmine (Raat ki Rani) and Mogra have an intensely sweet, powerful aroma?",
+        "options": [
+          "Because daytime flowers have no scent",
+          "To attract night-flying pollinators like nocturnal moths in the dark",
+          "To repel all living creatures",
+          "To scare birds away"
+        ],
+        "answer": 1,
+        "explain": "In the dark of night, fragrance guides moths and bats directly to flower nectar for pollination!"
+      },
+      {
+        "q": "Which of these commonly called vegetables is botanically a FRUIT because it develops from a flower and contains seeds?",
+        "options": [
+          "Potato (underground stem tuber)",
+          "Spinach (leaf)",
+          "Ginger (rhizome stem)",
+          "Tomato and Cucumber"
+        ],
+        "answer": 3,
+        "explain": "Tomatoes and cucumbers develop from flower ovaries and hold seeds inside, making them botanical fruits!"
+      }
+    ]
+  },
+  "LO-127": {
+    "title": "Through the Decades: Tools of Yesterday & Today ⏳💻",
+    "desc": "Differentiates between objects and activities of past and present (transport, currency, houses, materials, tools, skills - farming, construction, etc.)",
+    "subSkill": "Continuity & Change",
+    "audio_script": "Grandpa shows Aarav an old slate with a soapstone pencil, contrasting it with Aarav's modern digital tablet and fountain pen.",
+    "story": "Grandpa shows Aarav an old slate with a soapstone pencil, contrasting it with Aarav's modern digital tablet and fountain pen.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How did people travel long distances before steam trains, airplanes, and motorcars were invented?",
+        "options": [
+          "On foot, horse-drawn carts, bullock carts, and wooden sailboats",
+          "By using electric metro rails",
+          "By driving luxury sports cars",
+          "By riding supersonic jet planes"
+        ],
+        "answer": 0,
+        "explain": "Before motor engines, humans relied on domesticated draft animals, walking, and wind-powered sails!"
+      },
+      {
+        "q": "What material were ancient water pipes and cooking vessels commonly made of in our grandparents' time?",
+        "options": [
+          "Cardboard",
+          "Brass, copper, bronze, and baked clay",
+          "Thin plastic foil",
+          "Styrofoam"
+        ],
+        "answer": 1,
+        "explain": "Copper and brass vessels were durable, naturally antimicrobial, and passed down across generations!"
+      },
+      {
+        "q": "How has modern communication evolved from historical pigeon posts and handwritten telegrams?",
+        "options": [
+          "People stopped communicating completely",
+          "Only drums are used today",
+          "Letters take ten years to arrive",
+          "To instant voice and video calls and emails transmitted globally in seconds"
+        ],
+        "answer": 3,
+        "explain": "Satellites, fiber optics, and mobile networks connect humans instantly worldwide!"
+      }
+    ]
+  },
+  "127": {
+    "title": "Through the Decades: Tools of Yesterday & Today ⏳💻",
+    "desc": "Differentiates between objects and activities of past and present (transport, currency, houses, materials, tools, skills - farming, construction, etc.)",
+    "subSkill": "Continuity & Change",
+    "audio_script": "Grandpa shows Aarav an old slate with a soapstone pencil, contrasting it with Aarav's modern digital tablet and fountain pen.",
+    "story": "Grandpa shows Aarav an old slate with a soapstone pencil, contrasting it with Aarav's modern digital tablet and fountain pen.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How did people travel long distances before steam trains, airplanes, and motorcars were invented?",
+        "options": [
+          "On foot, horse-drawn carts, bullock carts, and wooden sailboats",
+          "By using electric metro rails",
+          "By driving luxury sports cars",
+          "By riding supersonic jet planes"
+        ],
+        "answer": 0,
+        "explain": "Before motor engines, humans relied on domesticated draft animals, walking, and wind-powered sails!"
+      },
+      {
+        "q": "What material were ancient water pipes and cooking vessels commonly made of in our grandparents' time?",
+        "options": [
+          "Cardboard",
+          "Brass, copper, bronze, and baked clay",
+          "Thin plastic foil",
+          "Styrofoam"
+        ],
+        "answer": 1,
+        "explain": "Copper and brass vessels were durable, naturally antimicrobial, and passed down across generations!"
+      },
+      {
+        "q": "How has modern communication evolved from historical pigeon posts and handwritten telegrams?",
+        "options": [
+          "People stopped communicating completely",
+          "Only drums are used today",
+          "Letters take ten years to arrive",
+          "To instant voice and video calls and emails transmitted globally in seconds"
+        ],
+        "answer": 3,
+        "explain": "Satellites, fiber optics, and mobile networks connect humans instantly worldwide!"
+      }
+    ]
+  },
+  "LO-128": {
+    "title": "Voices for Justice: Equal Rights for Every Child ⚖️👧👦",
+    "desc": "Voices opinion on issues observed/experienced in family/school/neighbourhood - stereotypes, discriminatory practices, child rights (schooling, child abuse, punishment, labour)",
+    "subSkill": "Opinion on Social Issues",
+    "audio_script": "In social studies class, students discuss child rights, why every child deserves free quality schooling, and why child labor is prohibited.",
+    "story": "In social studies class, students discuss child rights, why every child deserves free quality schooling, and why child labor is prohibited.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Under the Right to Education (RTE) Act in India, what right is guaranteed to every child between ages 6 and 14?",
+        "options": [
+          "Paying thousands of rupees for primary school",
+          "Working full-time in brick kilns",
+          "Staying home without books",
+          "Free and compulsory education in a neighborhood school"
+        ],
+        "answer": 3,
+        "explain": "The RTE Act guarantees every child aged 6-14 access to free, equitable elementary schooling."
+      },
+      {
+        "q": "Why is forcing young children to work in hazardous factories or roadside dhabas (child labor) illegal and harmful?",
+        "options": [
+          "It has no effect on children",
+          "It robs children of their right to play, learn, grow safely, and build a bright future",
+          "Because children are too fast at work",
+          "Because factory owners dislike young people"
+        ],
+        "answer": 1,
+        "explain": "Children belong in schools, playgrounds, and nurturing homes—not dangerous workplaces!"
+      },
+      {
+        "q": "How should communities treat children of different genders, languages, or family backgrounds?",
+        "options": [
+          "With absolute equality, respect, and equal opportunities to learn and lead",
+          "By excluding children who speak different mother tongues",
+          "By favoring boys over girls in sports and education",
+          "By stereotyping what tasks girls can do"
+        ],
+        "answer": 0,
+        "explain": "Equality and mutual respect ensure every child can pursue their dreams and shine!"
+      }
+    ]
+  },
+  "128": {
+    "title": "Voices for Justice: Equal Rights for Every Child ⚖️👧👦",
+    "desc": "Voices opinion on issues observed/experienced in family/school/neighbourhood - stereotypes, discriminatory practices, child rights (schooling, child abuse, punishment, labour)",
+    "subSkill": "Opinion on Social Issues",
+    "audio_script": "In social studies class, students discuss child rights, why every child deserves free quality schooling, and why child labor is prohibited.",
+    "story": "In social studies class, students discuss child rights, why every child deserves free quality schooling, and why child labor is prohibited.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Under the Right to Education (RTE) Act in India, what right is guaranteed to every child between ages 6 and 14?",
+        "options": [
+          "Paying thousands of rupees for primary school",
+          "Working full-time in brick kilns",
+          "Staying home without books",
+          "Free and compulsory education in a neighborhood school"
+        ],
+        "answer": 3,
+        "explain": "The RTE Act guarantees every child aged 6-14 access to free, equitable elementary schooling."
+      },
+      {
+        "q": "Why is forcing young children to work in hazardous factories or roadside dhabas (child labor) illegal and harmful?",
+        "options": [
+          "It has no effect on children",
+          "It robs children of their right to play, learn, grow safely, and build a bright future",
+          "Because children are too fast at work",
+          "Because factory owners dislike young people"
+        ],
+        "answer": 1,
+        "explain": "Children belong in schools, playgrounds, and nurturing homes—not dangerous workplaces!"
+      },
+      {
+        "q": "How should communities treat children of different genders, languages, or family backgrounds?",
+        "options": [
+          "With absolute equality, respect, and equal opportunities to learn and lead",
+          "By excluding children who speak different mother tongues",
+          "By favoring boys over girls in sports and education",
+          "By stereotyping what tasks girls can do"
+        ],
+        "answer": 0,
+        "explain": "Equality and mutual respect ensure every child can pursue their dreams and shine!"
+      }
+    ]
+  },
+  "LO-129": {
+    "title": "Planet Protectors: Reduce, Reuse, Recycle ♻️🌍",
+    "desc": "Suggests ways for hygiene, reduce, reuse, recycle and takes care of living beings (plants, animals, the elderly, differently abled) and resources (food, water, public property)",
+    "subSkill": "Sensitivity, Hygiene & Conservation",
+    "audio_script": "The school Eco-Club organizes a clean campus drive to practice the 3 R's: Reduce waste, Reuse sturdy containers, and Recycle scrap.",
+    "story": "The school Eco-Club organizes a clean campus drive to practice the 3 R's: Reduce waste, Reuse sturdy containers, and Recycle scrap.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What does 'REDUCE' mean in the 3 R's rule?",
+        "options": [
+          "Using extra plastic bags for fun",
+          "Cutting down on the amount of unnecessary waste and single-use packaging we generate",
+          "Throwing away leftover food into rivers",
+          "Buying ten plastic toys every single day"
+        ],
+        "answer": 1,
+        "explain": "Reducing means avoiding wasteful single-use items in the first place, like carrying your own cloth bag!"
+      },
+      {
+        "q": "How can you 'REUSE' a glass jam jar after the sweet fruit jam is finished?",
+        "options": [
+          "Throw it in a roadside ditch",
+          "Smash it on the school playground",
+          "Burn it in a campfire",
+          "Wash it thoroughly and use it to store pencils, buttons, or garden seeds"
+        ],
+        "answer": 3,
+        "explain": "Washed glass jars make durable, airtight organizers for stationery, spices, or art supplies!"
+      },
+      {
+        "q": "Why is turning off lights and fans when leaving an empty room important for the environment?",
+        "options": [
+          "It has zero effect on nature",
+          "Because darkness makes rooms grow bigger",
+          "To make sure nobody enters the room",
+          "Conserving electricity saves fossil fuels and reduces greenhouse gas emissions at power plants"
+        ],
+        "answer": 3,
+        "explain": "Saving electricity directly lowers emissions from thermal power plants, protecting our global climate!"
+      }
+    ]
+  },
+  "129": {
+    "title": "Planet Protectors: Reduce, Reuse, Recycle ♻️🌍",
+    "desc": "Suggests ways for hygiene, reduce, reuse, recycle and takes care of living beings (plants, animals, the elderly, differently abled) and resources (food, water, public property)",
+    "subSkill": "Sensitivity, Hygiene & Conservation",
+    "audio_script": "The school Eco-Club organizes a clean campus drive to practice the 3 R's: Reduce waste, Reuse sturdy containers, and Recycle scrap.",
+    "story": "The school Eco-Club organizes a clean campus drive to practice the 3 R's: Reduce waste, Reuse sturdy containers, and Recycle scrap.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What does 'REDUCE' mean in the 3 R's rule?",
+        "options": [
+          "Using extra plastic bags for fun",
+          "Cutting down on the amount of unnecessary waste and single-use packaging we generate",
+          "Throwing away leftover food into rivers",
+          "Buying ten plastic toys every single day"
+        ],
+        "answer": 1,
+        "explain": "Reducing means avoiding wasteful single-use items in the first place, like carrying your own cloth bag!"
+      },
+      {
+        "q": "How can you 'REUSE' a glass jam jar after the sweet fruit jam is finished?",
+        "options": [
+          "Throw it in a roadside ditch",
+          "Smash it on the school playground",
+          "Burn it in a campfire",
+          "Wash it thoroughly and use it to store pencils, buttons, or garden seeds"
+        ],
+        "answer": 3,
+        "explain": "Washed glass jars make durable, airtight organizers for stationery, spices, or art supplies!"
+      },
+      {
+        "q": "Why is turning off lights and fans when leaving an empty room important for the environment?",
+        "options": [
+          "It has zero effect on nature",
+          "Because darkness makes rooms grow bigger",
+          "To make sure nobody enters the room",
+          "Conserving electricity saves fossil fuels and reduces greenhouse gas emissions at power plants"
+        ],
+        "answer": 3,
+        "explain": "Saving electricity directly lowers emissions from thermal power plants, protecting our global climate!"
+      }
+    ]
+  },
+  "LO-130": {
+    "title": "Bar Graph Builders: Visualizing Sports Data 📊",
+    "desc": "Represents the collected information in tables and bar graphs and draws inferences from these",
+    "subSkill": "Data Representation (Tables & Graphs)",
+    "audio_script": "Teacher Priya recorded the favorite games of 40 students: Cricket = 15, Football = 12, Badminton = 8, Chess = 5.",
+    "story": "Teacher Priya recorded the favorite games of 40 students: Cricket = 15, Football = 12, Badminton = 8, Chess = 5.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "On a vertical bar graph showing student favorite sports, which sport will have the TALLEST bar?",
+        "options": [
+          "Cricket (15 students)",
+          "Badminton (8 students)",
+          "Chess (5 students)",
+          "Football (12 students)"
+        ],
+        "answer": 0,
+        "explain": "Cricket had the highest frequency at 15 votes, producing the tallest column bar!"
+      },
+      {
+        "q": "How many MORE students chose Football (12) than chose Badminton (8)?",
+        "options": [
+          "2 students",
+          "20 students",
+          "4 students (12 - 8 = 4)",
+          "6 students"
+        ],
+        "answer": 2,
+        "explain": "12 minus 8 leaves a difference of 4 students."
+      },
+      {
+        "q": "What information does the vertical axis (Y-axis) typically display in a student survey bar graph?",
+        "options": [
+          "The number of students (frequency count)",
+          "The names of the sports",
+          "The temperature of the room",
+          "The color of the teacher's pen"
+        ],
+        "answer": 0,
+        "explain": "The Y-axis scale shows numeric values or counts, while the X-axis names the categories!"
+      }
+    ]
+  },
+  "130": {
+    "title": "Bar Graph Builders: Visualizing Sports Data 📊",
+    "desc": "Represents the collected information in tables and bar graphs and draws inferences from these",
+    "subSkill": "Data Representation (Tables & Graphs)",
+    "audio_script": "Teacher Priya recorded the favorite games of 40 students: Cricket = 15, Football = 12, Badminton = 8, Chess = 5.",
+    "story": "Teacher Priya recorded the favorite games of 40 students: Cricket = 15, Football = 12, Badminton = 8, Chess = 5.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "On a vertical bar graph showing student favorite sports, which sport will have the TALLEST bar?",
+        "options": [
+          "Cricket (15 students)",
+          "Badminton (8 students)",
+          "Chess (5 students)",
+          "Football (12 students)"
+        ],
+        "answer": 0,
+        "explain": "Cricket had the highest frequency at 15 votes, producing the tallest column bar!"
+      },
+      {
+        "q": "How many MORE students chose Football (12) than chose Badminton (8)?",
+        "options": [
+          "2 students",
+          "20 students",
+          "4 students (12 - 8 = 4)",
+          "6 students"
+        ],
+        "answer": 2,
+        "explain": "12 minus 8 leaves a difference of 4 students."
+      },
+      {
+        "q": "What information does the vertical axis (Y-axis) typically display in a student survey bar graph?",
+        "options": [
+          "The number of students (frequency count)",
+          "The names of the sports",
+          "The temperature of the room",
+          "The color of the teacher's pen"
+        ],
+        "answer": 0,
+        "explain": "The Y-axis scale shows numeric values or counts, while the X-axis names the categories!"
+      }
+    ]
+  },
+  "LO-131": {
+    "title": "Perimeter & Area: Fencing the Garden 📐🌻",
+    "desc": "Explores the area and perimeter of simple geometrical shapes (triangle, rectangle, square) in terms of a given shape as a unit",
+    "subSkill": "Area & Perimeter",
+    "audio_script": "Farmer Ram wants to put a wooden fence around his rectangular vegetable patch which is 6 meters long and 4 meters wide.",
+    "story": "Farmer Ram wants to put a wooden fence around his rectangular vegetable patch which is 6 meters long and 4 meters wide.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
+        "options": [
+          "10 meters",
+          "24 meters",
+          "20 meters: 2 x (6 + 4) = 2 x 10 = 20 m",
+          "12 meters"
+        ],
+        "answer": 2,
+        "explain": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
+      },
+      {
+        "q": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
+        "options": [
+          "48 square meters",
+          "20 square meters",
+          "24 square meters (6 x 4 = 24 sq m)",
+          "10 square meters"
+        ],
+        "answer": 2,
+        "explain": "Area = 6 m x 4 m = 24 square meters of planting space."
+      },
+      {
+        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
+        "options": [
+          "20 meters (4 x 5 = 20 m)",
+          "15 meters",
+          "10 meters",
+          "25 meters"
+        ],
+        "answer": 0,
+        "explain": "A square has 4 equal sides: 5 + 5 + 5 + 5 = 20 meters."
+      }
+    ]
+  },
+  "131": {
+    "title": "Perimeter & Area: Fencing the Garden 📐🌻",
+    "desc": "Explores the area and perimeter of simple geometrical shapes (triangle, rectangle, square) in terms of a given shape as a unit",
+    "subSkill": "Area & Perimeter",
+    "audio_script": "Farmer Ram wants to put a wooden fence around his rectangular vegetable patch which is 6 meters long and 4 meters wide.",
+    "story": "Farmer Ram wants to put a wooden fence around his rectangular vegetable patch which is 6 meters long and 4 meters wide.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
+        "options": [
+          "10 meters",
+          "24 meters",
+          "20 meters: 2 x (6 + 4) = 2 x 10 = 20 m",
+          "12 meters"
+        ],
+        "answer": 2,
+        "explain": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
+      },
+      {
+        "q": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
+        "options": [
+          "48 square meters",
+          "20 square meters",
+          "24 square meters (6 x 4 = 24 sq m)",
+          "10 square meters"
+        ],
+        "answer": 2,
+        "explain": "Area = 6 m x 4 m = 24 square meters of planting space."
+      },
+      {
+        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
+        "options": [
+          "20 meters (4 x 5 = 20 m)",
+          "15 meters",
+          "10 meters",
+          "25 meters"
+        ],
+        "answer": 0,
+        "explain": "A square has 4 equal sides: 5 + 5 + 5 + 5 = 20 meters."
+      }
+    ]
+  },
+  "LO-132": {
+    "title": "Measure & Verify: Estimating Real World Quantities 📏⚖️",
+    "desc": "Estimates the length of an object/distance between two locations, weight of objects, volume of liquid, etc., and verifies them by actual measurement",
+    "subSkill": "Estimation & Verification of Measures",
+    "audio_script": "Diya estimates that her math textbook weighs about 300 grams and its cover is 25 cm long. She tests her guess with scales and rulers.",
+    "story": "Diya estimates that her math textbook weighs about 300 grams and its cover is 25 cm long. She tests her guess with scales and rulers.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Diya measures her textbook on a digital kitchen balance and the screen reads 310 g. How close was her 300 g estimate?",
+        "options": [
+          "Zero accuracy",
+          "Completely wrong by 1000 grams",
+          "Very close (only 10 grams difference!)",
+          "Off by 5 kilograms"
+        ],
+        "answer": 2,
+        "explain": "Her estimate of 300 g was within 10 grams of the exact 310 g reading—a fantastic estimate!"
+      },
+      {
+        "q": "Which tool would you select to measure the circumference (distance around) a round tree trunk?",
+        "options": [
+          "A glass measuring beaker",
+          "A kitchen balance scale",
+          "A flexible tailor's measuring tape",
+          "A stiff 15 cm plastic ruler"
+        ],
+        "answer": 2,
+        "explain": "A flexible cloth tape wraps smoothly around curved surfaces like tree trunks!"
+      },
+      {
+        "q": "If you estimate a bucket holds about 15 litres of water, how can you verify your estimate accurately?",
+        "options": [
+          "Fill it using a verified 1-litre bottle and count how many bottles it takes",
+          "Look at the bucket from across the room",
+          "Guess again with your eyes closed",
+          "Weigh the empty bucket on a scale"
+        ],
+        "answer": 0,
+        "explain": "Pouring known 1-litre measures until full verifies the true liquid capacity!"
+      }
+    ]
+  },
+  "132": {
+    "title": "Measure & Verify: Estimating Real World Quantities 📏⚖️",
+    "desc": "Estimates the length of an object/distance between two locations, weight of objects, volume of liquid, etc., and verifies them by actual measurement",
+    "subSkill": "Estimation & Verification of Measures",
+    "audio_script": "Diya estimates that her math textbook weighs about 300 grams and its cover is 25 cm long. She tests her guess with scales and rulers.",
+    "story": "Diya estimates that her math textbook weighs about 300 grams and its cover is 25 cm long. She tests her guess with scales and rulers.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Diya measures her textbook on a digital kitchen balance and the screen reads 310 g. How close was her 300 g estimate?",
+        "options": [
+          "Zero accuracy",
+          "Completely wrong by 1000 grams",
+          "Very close (only 10 grams difference!)",
+          "Off by 5 kilograms"
+        ],
+        "answer": 2,
+        "explain": "Her estimate of 300 g was within 10 grams of the exact 310 g reading—a fantastic estimate!"
+      },
+      {
+        "q": "Which tool would you select to measure the circumference (distance around) a round tree trunk?",
+        "options": [
+          "A glass measuring beaker",
+          "A kitchen balance scale",
+          "A flexible tailor's measuring tape",
+          "A stiff 15 cm plastic ruler"
+        ],
+        "answer": 2,
+        "explain": "A flexible cloth tape wraps smoothly around curved surfaces like tree trunks!"
+      },
+      {
+        "q": "If you estimate a bucket holds about 15 litres of water, how can you verify your estimate accurately?",
+        "options": [
+          "Fill it using a verified 1-litre bottle and count how many bottles it takes",
+          "Look at the bucket from across the room",
+          "Guess again with your eyes closed",
+          "Weigh the empty bucket on a scale"
+        ],
+        "answer": 0,
+        "explain": "Pouring known 1-litre measures until full verifies the true liquid capacity!"
+      }
+    ]
+  },
+  "LO-133": {
+    "title": "Everyday Problem Solvers: The School Picnic 🧺",
+    "desc": "Solves problems involving daily life situations related to length, distance, weight, volume and time involving four basic arithmetic operations",
+    "subSkill": "Problem Solving with Measures",
+    "audio_script": "A class of 24 students is planning a day trip. The bus rental costs ₹1,200 in total, and juice boxes cost ₹15 each.",
+    "story": "A class of 24 students is planning a day trip. The bus rental costs ₹1,200 in total, and juice boxes cost ₹15 each.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
+        "options": [
+          "₹24 per student",
+          "₹60 per student",
+          "₹40 per student",
+          "₹50 per student (24 x 50 = 1200)"
+        ],
+        "answer": 3,
+        "explain": "1200 / 24 = ₹50 travel cost per student."
+      },
+      {
+        "q": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
+        "options": [
+          "₹300",
+          "₹240",
+          "₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)",
+          "₹400"
+        ],
+        "answer": 2,
+        "explain": "24 x 15 = ₹360 total for refreshing juice boxes!"
+      },
+      {
+        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+        "options": [
+          "₹45",
+          "₹50",
+          "₹35",
+          "₹25"
+        ],
+        "answer": 2,
+        "explain": "100 - 65 = ₹35 in change."
+      }
+    ]
+  },
+  "133": {
+    "title": "Everyday Problem Solvers: The School Picnic 🧺",
+    "desc": "Solves problems involving daily life situations related to length, distance, weight, volume and time involving four basic arithmetic operations",
+    "subSkill": "Problem Solving with Measures",
+    "audio_script": "A class of 24 students is planning a day trip. The bus rental costs ₹1,200 in total, and juice boxes cost ₹15 each.",
+    "story": "A class of 24 students is planning a day trip. The bus rental costs ₹1,200 in total, and juice boxes cost ₹15 each.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
+        "options": [
+          "₹24 per student",
+          "₹60 per student",
+          "₹40 per student",
+          "₹50 per student (24 x 50 = 1200)"
+        ],
+        "answer": 3,
+        "explain": "1200 / 24 = ₹50 travel cost per student."
+      },
+      {
+        "q": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
+        "options": [
+          "₹300",
+          "₹240",
+          "₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)",
+          "₹400"
+        ],
+        "answer": 2,
+        "explain": "24 x 15 = ₹360 total for refreshing juice boxes!"
+      },
+      {
+        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+        "options": [
+          "₹45",
+          "₹50",
+          "₹35",
+          "₹25"
+        ],
+        "answer": 2,
+        "explain": "100 - 65 = ₹35 in change."
+      }
+    ]
+  },
+  "LO-134": {
+    "title": "Time Interval Travelers: Calculating Duration ⏱️",
+    "desc": "Calculates time intervals/duration of familiar daily life events using forward or backward counting/addition and subtraction",
+    "subSkill": "Time & Calendar",
+    "audio_script": "Kabir starts his homework at 4:15 PM and finishes at 5:00 PM. Then he plays football from 5:10 PM until 6:25 PM.",
+    "story": "Kabir starts his homework at 4:15 PM and finishes at 5:00 PM. Then he plays football from 5:10 PM until 6:25 PM.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
+        "options": [
+          "45 minutes (60 - 15 = 45)",
+          "1 hour",
+          "15 minutes",
+          "30 minutes"
+        ],
+        "answer": 0,
+        "explain": "From 4:15 to 5:00 is exactly 45 minutes of focused study time."
+      },
+      {
+        "q": "How long was Kabir's football game from 5:10 PM to 6:25 PM?",
+        "options": [
+          "2 hours",
+          "1 hour exactly",
+          "50 minutes",
+          "1 hour and 15 minutes (75 minutes)"
+        ],
+        "answer": 3,
+        "explain": "5:10 to 6:10 is 1 hour, plus 15 more minutes to 6:25 = 1 hour 15 minutes!"
+      },
+      {
+        "q": "If a movie starts at 2:30 PM and runs for 2 hours and 15 minutes, what time does the movie end?",
+        "options": [
+          "5:00 PM",
+          "4:30 PM",
+          "3:45 PM",
+          "4:45 PM"
+        ],
+        "answer": 3,
+        "explain": "2:30 + 2 hours = 4:30 PM; plus 15 minutes = 4:45 PM!"
+      }
+    ]
+  },
+  "134": {
+    "title": "Time Interval Travelers: Calculating Duration ⏱️",
+    "desc": "Calculates time intervals/duration of familiar daily life events using forward or backward counting/addition and subtraction",
+    "subSkill": "Time & Calendar",
+    "audio_script": "Kabir starts his homework at 4:15 PM and finishes at 5:00 PM. Then he plays football from 5:10 PM until 6:25 PM.",
+    "story": "Kabir starts his homework at 4:15 PM and finishes at 5:00 PM. Then he plays football from 5:10 PM until 6:25 PM.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
+        "options": [
+          "45 minutes (60 - 15 = 45)",
+          "1 hour",
+          "15 minutes",
+          "30 minutes"
+        ],
+        "answer": 0,
+        "explain": "From 4:15 to 5:00 is exactly 45 minutes of focused study time."
+      },
+      {
+        "q": "How long was Kabir's football game from 5:10 PM to 6:25 PM?",
+        "options": [
+          "2 hours",
+          "1 hour exactly",
+          "50 minutes",
+          "1 hour and 15 minutes (75 minutes)"
+        ],
+        "answer": 3,
+        "explain": "5:10 to 6:10 is 1 hour, plus 15 more minutes to 6:25 = 1 hour 15 minutes!"
+      },
+      {
+        "q": "If a movie starts at 2:30 PM and runs for 2 hours and 15 minutes, what time does the movie end?",
+        "options": [
+          "5:00 PM",
+          "4:30 PM",
+          "3:45 PM",
+          "4:45 PM"
+        ],
+        "answer": 3,
+        "explain": "2:30 + 2 hours = 4:30 PM; plus 15 minutes = 4:45 PM!"
+      }
+    ]
+  },
+  "LO-135": {
+    "title": "24-Hour Digital Clock Masters: AM and PM ⏰",
+    "desc": "Reads clock time in hours and minutes and expresses the time in a.m. and p.m.; relates 24 hr clock with 12 hr clock",
+    "subSkill": "Time & Calendar",
+    "audio_script": "At the railway station, the departure board flashes '14:20' for the Rajdhani Express.",
+    "story": "At the railway station, the departure board flashes '14:20' for the Rajdhani Express.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What time is '14:20' on a standard 12-hour clock?",
+        "options": [
+          "4:20 AM",
+          "2:20 AM in the middle of the night",
+          "2:20 PM in the afternoon (14:20 - 12:00)",
+          "12:20 PM"
+        ],
+        "answer": 2,
+        "explain": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
+      },
+      {
+        "q": "How is 8:45 in the morning written on a 24-hour clock?",
+        "options": [
+          "20:45 hours",
+          "18:45 hours",
+          "08:45 hours",
+          "00:45 hours"
+        ],
+        "answer": 2,
+        "explain": "Morning hours keep their numbers with a leading zero: 08:45 hours."
+      },
+      {
+        "q": "What does 'AM' stand for in clock time?",
+        "options": [
+          "Ante Meridiem (before midday/noon)",
+          "All Morning",
+          "After Midnight only",
+          "At Midday"
+        ],
+        "answer": 0,
+        "explain": "AM is Latin for Ante Meridiem, meaning the hours before solar noon!"
+      }
+    ]
+  },
+  "135": {
+    "title": "24-Hour Digital Clock Masters: AM and PM ⏰",
+    "desc": "Reads clock time in hours and minutes and expresses the time in a.m. and p.m.; relates 24 hr clock with 12 hr clock",
+    "subSkill": "Time & Calendar",
+    "audio_script": "At the railway station, the departure board flashes '14:20' for the Rajdhani Express.",
+    "story": "At the railway station, the departure board flashes '14:20' for the Rajdhani Express.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What time is '14:20' on a standard 12-hour clock?",
+        "options": [
+          "4:20 AM",
+          "2:20 AM in the middle of the night",
+          "2:20 PM in the afternoon (14:20 - 12:00)",
+          "12:20 PM"
+        ],
+        "answer": 2,
+        "explain": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
+      },
+      {
+        "q": "How is 8:45 in the morning written on a 24-hour clock?",
+        "options": [
+          "20:45 hours",
+          "18:45 hours",
+          "08:45 hours",
+          "00:45 hours"
+        ],
+        "answer": 2,
+        "explain": "Morning hours keep their numbers with a leading zero: 08:45 hours."
+      },
+      {
+        "q": "What does 'AM' stand for in clock time?",
+        "options": [
+          "Ante Meridiem (before midday/noon)",
+          "All Morning",
+          "After Midnight only",
+          "At Midday"
+        ],
+        "answer": 0,
+        "explain": "AM is Latin for Ante Meridiem, meaning the hours before solar noon!"
+      }
+    ]
+  },
+  "LO-136": {
+    "title": "Metric Converters: Meters and Centimeters 📏",
+    "desc": "Converts metre into centimetre and vice versa",
+    "subSkill": "Unit Conversion",
+    "audio_script": "Arjun is measuring cloth for theatrical stage curtains. The banner measures 4 meters and 75 centimeters.",
+    "story": "Arjun is measuring cloth for theatrical stage curtains. The banner measures 4 meters and 75 centimeters.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
+        "options": [
+          "4000 cm",
+          "40 cm",
+          "400 cm (4 x 100)",
+          "140 cm"
+        ],
+        "answer": 2,
+        "explain": "4 m x 100 cm/m = 400 centimeters!"
+      },
+      {
+        "q": "How many total centimeters is 4 meters and 75 centimeters?",
+        "options": [
+          "754 cm",
+          "115 cm",
+          "475 cm (400 + 75)",
+          "4075 cm"
+        ],
+        "answer": 2,
+        "explain": "400 cm + 75 cm = 475 cm total length."
+      },
+      {
+        "q": "A roll of ribbon is 350 centimeters long. Express this length in meters and centimeters:",
+        "options": [
+          "3 meters and 50 centimeters (3 m 50 cm)",
+          "30 meters and 5 cm",
+          "350 meters",
+          "35 meters"
+        ],
+        "answer": 0,
+        "explain": "300 cm = 3 meters, leaving 50 cm. So it is 3 m 50 cm!"
+      }
+    ]
+  },
+  "136": {
+    "title": "Metric Converters: Meters and Centimeters 📏",
+    "desc": "Converts metre into centimetre and vice versa",
+    "subSkill": "Unit Conversion",
+    "audio_script": "Arjun is measuring cloth for theatrical stage curtains. The banner measures 4 meters and 75 centimeters.",
+    "story": "Arjun is measuring cloth for theatrical stage curtains. The banner measures 4 meters and 75 centimeters.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
+        "options": [
+          "4000 cm",
+          "40 cm",
+          "400 cm (4 x 100)",
+          "140 cm"
+        ],
+        "answer": 2,
+        "explain": "4 m x 100 cm/m = 400 centimeters!"
+      },
+      {
+        "q": "How many total centimeters is 4 meters and 75 centimeters?",
+        "options": [
+          "754 cm",
+          "115 cm",
+          "475 cm (400 + 75)",
+          "4075 cm"
+        ],
+        "answer": 2,
+        "explain": "400 cm + 75 cm = 475 cm total length."
+      },
+      {
+        "q": "A roll of ribbon is 350 centimeters long. Express this length in meters and centimeters:",
+        "options": [
+          "3 meters and 50 centimeters (3 m 50 cm)",
+          "30 meters and 5 cm",
+          "350 meters",
+          "35 meters"
+        ],
+        "answer": 0,
+        "explain": "300 cm = 3 meters, leaving 50 cm. So it is 3 m 50 cm!"
+      }
+    ]
+  },
+  "LO-137": {
+    "title": "Real-Life Four Operations: The School Canteen 🥪🍎",
+    "desc": "Creates and solves simple real life situations/problems including money, length, mass and capacity by using the four operations",
+    "subSkill": "Estimation & Problem Solving",
+    "audio_script": "The school canteen sells healthy snack combos. Over one week, 320 sandwiches were prepared, and each sandwich costs ₹25.",
+    "story": "The school canteen sells healthy snack combos. Over one week, 320 sandwiches were prepared, and each sandwich costs ₹25.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+        "options": [
+          "160 sandwiches",
+          "140 sandwiches",
+          "200 sandwiches",
+          "120 sandwiches"
+        ],
+        "answer": 1,
+        "explain": "320 minus 180 leaves 140 sandwiches."
+      },
+      {
+        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
+        "options": [
+          "₹550",
+          "₹450",
+          "₹500",
+          "₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)"
+        ],
+        "answer": 3,
+        "explain": "40 x 15 = ₹600 total snack revenue."
+      },
+      {
+        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+        "options": [
+          "12 apples",
+          "15 apples",
+          "10 apples per basket",
+          "8 apples"
+        ],
+        "answer": 2,
+        "explain": "80 divided equally by 8 equals 10 apples per basket."
+      }
+    ]
+  },
+  "137": {
+    "title": "Real-Life Four Operations: The School Canteen 🥪🍎",
+    "desc": "Creates and solves simple real life situations/problems including money, length, mass and capacity by using the four operations",
+    "subSkill": "Estimation & Problem Solving",
+    "audio_script": "The school canteen sells healthy snack combos. Over one week, 320 sandwiches were prepared, and each sandwich costs ₹25.",
+    "story": "The school canteen sells healthy snack combos. Over one week, 320 sandwiches were prepared, and each sandwich costs ₹25.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+        "options": [
+          "160 sandwiches",
+          "140 sandwiches",
+          "200 sandwiches",
+          "120 sandwiches"
+        ],
+        "answer": 1,
+        "explain": "320 minus 180 leaves 140 sandwiches."
+      },
+      {
+        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
+        "options": [
+          "₹550",
+          "₹450",
+          "₹500",
+          "₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)"
+        ],
+        "answer": 3,
+        "explain": "40 x 15 = ₹600 total snack revenue."
+      },
+      {
+        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+        "options": [
+          "12 apples",
+          "15 apples",
+          "10 apples per basket",
+          "8 apples"
+        ],
+        "answer": 2,
+        "explain": "80 divided equally by 8 equals 10 apples per basket."
+      }
+    ]
+  },
+  "LO-138": {
+    "title": "Pizza Fraction Party: Halves, Quarters & Three-Fourths 🍕",
+    "desc": "Identifies half, one-fourth, three-fourths of a whole in a given picture, by paper folding and in a collection of objects",
+    "subSkill": "Fractions & Decimals",
+    "audio_script": "Leo bakes a giant round vegetable pizza and cuts it into 4 equal slices.",
+    "story": "Leo bakes a giant round vegetable pizza and cuts it into 4 equal slices.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If Leo eats 1 slice out of the 4 equal slices, what fraction of the pizza did he eat?",
+        "options": [
+          "4/4 (whole)",
+          "1/2 (half)",
+          "3/4 (three-fourths)",
+          "1/4 (one-fourth / one quarter)"
+        ],
+        "answer": 3,
+        "explain": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
+      },
+      {
+        "q": "How many slices out of 4 equal parts make up HALF (1/2) of the pizza?",
+        "options": [
+          "3 slices",
+          "4 slices",
+          "1 slice",
+          "2 slices (2/4 = 1/2)"
+        ],
+        "answer": 3,
+        "explain": "2 out of 4 parts equals one-half of the whole pizza!"
+      },
+      {
+        "q": "If his friends eat 3 slices out of the 4 slices, what fraction of the pizza is eaten?",
+        "options": [
+          "1/4",
+          "3/4 (three-fourths)",
+          "2/3",
+          "1/2"
+        ],
+        "answer": 1,
+        "explain": "3 out of 4 equal parts represents the fraction 3/4."
+      }
+    ]
+  },
+  "138": {
+    "title": "Pizza Fraction Party: Halves, Quarters & Three-Fourths 🍕",
+    "desc": "Identifies half, one-fourth, three-fourths of a whole in a given picture, by paper folding and in a collection of objects",
+    "subSkill": "Fractions & Decimals",
+    "audio_script": "Leo bakes a giant round vegetable pizza and cuts it into 4 equal slices.",
+    "story": "Leo bakes a giant round vegetable pizza and cuts it into 4 equal slices.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If Leo eats 1 slice out of the 4 equal slices, what fraction of the pizza did he eat?",
+        "options": [
+          "4/4 (whole)",
+          "1/2 (half)",
+          "3/4 (three-fourths)",
+          "1/4 (one-fourth / one quarter)"
+        ],
+        "answer": 3,
+        "explain": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
+      },
+      {
+        "q": "How many slices out of 4 equal parts make up HALF (1/2) of the pizza?",
+        "options": [
+          "3 slices",
+          "4 slices",
+          "1 slice",
+          "2 slices (2/4 = 1/2)"
+        ],
+        "answer": 3,
+        "explain": "2 out of 4 parts equals one-half of the whole pizza!"
+      },
+      {
+        "q": "If his friends eat 3 slices out of the 4 slices, what fraction of the pizza is eaten?",
+        "options": [
+          "1/4",
+          "3/4 (three-fourths)",
+          "2/3",
+          "1/2"
+        ],
+        "answer": 1,
+        "explain": "3 out of 4 equal parts represents the fraction 3/4."
+      }
+    ]
+  },
+  "LO-139": {
+    "title": "Fraction Equivalents: Finding Equal Shares 🍰",
+    "desc": "Represents fractions as half, one-fourth and three-fourths using numbers/numerals; shows the equivalence of a fraction with other fractions",
+    "subSkill": "Fractions & Decimals",
+    "audio_script": "Sara folds paper strips to show that two one-fourth strips line up exactly with one half strip: 2/4 = 1/2.",
+    "story": "Sara folds paper strips to show that two one-fourth strips line up exactly with one half strip: 2/4 = 1/2.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which fraction is EQUIVALENT (equal in value) to 1/2?",
+        "options": [
+          "1/4",
+          "3/4",
+          "2/3",
+          "2/4 (two-fourths)"
+        ],
+        "answer": 3,
+        "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
+      },
+      {
+        "q": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
+        "options": [
+          "1 eighth",
+          "2 eighths (2/8 = 1/4)",
+          "4 eighths",
+          "8 eighths"
+        ],
+        "answer": 1,
+        "explain": "2/8 simplifies to 1/4 when dividing top and bottom by 2."
+      },
+      {
+        "q": "In the fraction 3/4, what does the bottom number (the denominator, 4) represent?",
+        "options": [
+          "The weight in grams",
+          "The number of parts you eat",
+          "A multiplication sign",
+          "The total number of equal parts the whole is divided into"
+        ],
+        "answer": 3,
+        "explain": "The denominator tells how many equal shares make up one whole unit!"
+      }
+    ]
+  },
+  "139": {
+    "title": "Fraction Equivalents: Finding Equal Shares 🍰",
+    "desc": "Represents fractions as half, one-fourth and three-fourths using numbers/numerals; shows the equivalence of a fraction with other fractions",
+    "subSkill": "Fractions & Decimals",
+    "audio_script": "Sara folds paper strips to show that two one-fourth strips line up exactly with one half strip: 2/4 = 1/2.",
+    "story": "Sara folds paper strips to show that two one-fourth strips line up exactly with one half strip: 2/4 = 1/2.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Which fraction is EQUIVALENT (equal in value) to 1/2?",
+        "options": [
+          "1/4",
+          "3/4",
+          "2/3",
+          "2/4 (two-fourths)"
+        ],
+        "answer": 3,
+        "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
+      },
+      {
+        "q": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
+        "options": [
+          "1 eighth",
+          "2 eighths (2/8 = 1/4)",
+          "4 eighths",
+          "8 eighths"
+        ],
+        "answer": 1,
+        "explain": "2/8 simplifies to 1/4 when dividing top and bottom by 2."
+      },
+      {
+        "q": "In the fraction 3/4, what does the bottom number (the denominator, 4) represent?",
+        "options": [
+          "The weight in grams",
+          "The number of parts you eat",
+          "A multiplication sign",
+          "The total number of equal parts the whole is divided into"
+        ],
+        "answer": 3,
+        "explain": "The denominator tells how many equal shares make up one whole unit!"
+      }
+    ]
+  },
+  "LO-140": {
+    "title": "Division Pathways: Repeated Subtraction & Dots 🟢",
+    "desc": "Divides a number by another using different methods - pictorially (by drawing dots), equal grouping or repeated subtraction, and using the inter-relationship between division and multiplication",
+    "subSkill": "Multiplication & Division",
+    "audio_script": "Meera has 24 colored marbles and divides them equally into 6 small velvet pouches.",
+    "story": "Meera has 24 colored marbles and divides them equally into 6 small velvet pouches.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many marbles will each velvet pouch hold? (24 / 6)",
+        "options": [
+          "5 marbles",
+          "4 marbles (6 x 4 = 24)",
+          "6 marbles",
+          "3 marbles"
+        ],
+        "answer": 1,
+        "explain": "24 divided into 6 equal groups gives 4 marbles in each pouch!"
+      },
+      {
+        "q": "How are multiplication and division related? If 7 x 5 = 35, what is 35 / 5?",
+        "options": [
+          "30",
+          "7 (division is the inverse of multiplication)",
+          "5",
+          "12"
+        ],
+        "answer": 1,
+        "explain": "Multiplication and division are inverse operations: 35 / 5 = 7!"
+      },
+      {
+        "q": "If you divide 27 by 9, what is the quotient?",
+        "options": [
+          "9",
+          "2",
+          "4",
+          "3 (9 x 3 = 27)"
+        ],
+        "answer": 3,
+        "explain": "9 fits into 27 exactly 3 times!"
+      }
+    ]
+  },
+  "140": {
+    "title": "Division Pathways: Repeated Subtraction & Dots 🟢",
+    "desc": "Divides a number by another using different methods - pictorially (by drawing dots), equal grouping or repeated subtraction, and using the inter-relationship between division and multiplication",
+    "subSkill": "Multiplication & Division",
+    "audio_script": "Meera has 24 colored marbles and divides them equally into 6 small velvet pouches.",
+    "story": "Meera has 24 colored marbles and divides them equally into 6 small velvet pouches.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many marbles will each velvet pouch hold? (24 / 6)",
+        "options": [
+          "5 marbles",
+          "4 marbles (6 x 4 = 24)",
+          "6 marbles",
+          "3 marbles"
+        ],
+        "answer": 1,
+        "explain": "24 divided into 6 equal groups gives 4 marbles in each pouch!"
+      },
+      {
+        "q": "How are multiplication and division related? If 7 x 5 = 35, what is 35 / 5?",
+        "options": [
+          "30",
+          "7 (division is the inverse of multiplication)",
+          "5",
+          "12"
+        ],
+        "answer": 1,
+        "explain": "Multiplication and division are inverse operations: 35 / 5 = 7!"
+      },
+      {
+        "q": "If you divide 27 by 9, what is the quotient?",
+        "options": [
+          "9",
+          "2",
+          "4",
+          "3 (9 x 3 = 27)"
+        ],
+        "answer": 3,
+        "explain": "9 fits into 27 exactly 3 times!"
+      }
+    ]
+  },
+  "LO-141": {
+    "title": "Multiplication Prodigy: 2-Digit & 3-Digit Multiplication ✖️",
+    "desc": "Multiplies 2 and 3 digit numbers",
+    "subSkill": "Multiplication & Division",
+    "audio_script": "A community library orders 14 new book boxes, and each box contains 25 historical encyclopedias.",
+    "story": "A community library orders 14 new book boxes, and each box contains 25 historical encyclopedias.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many total books did the library receive? (25 x 14)",
+        "options": [
+          "400 books",
+          "350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)",
+          "300 books",
+          "250 books"
+        ],
+        "answer": 1,
+        "explain": "25 x 14 = 350 books in total!"
+      },
+      {
+        "q": "Calculate: 125 x 4 =",
+        "options": [
+          "500",
+          "450",
+          "600",
+          "525"
+        ],
+        "answer": 0,
+        "explain": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
+      },
+      {
+        "q": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+        "options": [
+          "Add one zero: 360",
+          "Subtract two zeros",
+          "Add two zeros to the end: 3,600",
+          "The number stays 36"
+        ],
+        "answer": 2,
+        "explain": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
+      }
+    ]
+  },
+  "141": {
+    "title": "Multiplication Prodigy: 2-Digit & 3-Digit Multiplication ✖️",
+    "desc": "Multiplies 2 and 3 digit numbers",
+    "subSkill": "Multiplication & Division",
+    "audio_script": "A community library orders 14 new book boxes, and each box contains 25 historical encyclopedias.",
+    "story": "A community library orders 14 new book boxes, and each box contains 25 historical encyclopedias.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "How many total books did the library receive? (25 x 14)",
+        "options": [
+          "400 books",
+          "350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)",
+          "300 books",
+          "250 books"
+        ],
+        "answer": 1,
+        "explain": "25 x 14 = 350 books in total!"
+      },
+      {
+        "q": "Calculate: 125 x 4 =",
+        "options": [
+          "500",
+          "450",
+          "600",
+          "525"
+        ],
+        "answer": 0,
+        "explain": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
+      },
+      {
+        "q": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+        "options": [
+          "Add one zero: 360",
+          "Subtract two zeros",
+          "Add two zeros to the end: 3,600",
+          "The number stays 36"
+        ],
+        "answer": 2,
+        "explain": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
+      }
+    ]
+  },
+  "LO-142": {
+    "title": "Multiplication Patterns: Magic with 9s! ✨",
+    "desc": "Identifies the pattern in multiplication and division (up to multiples of 9)",
+    "subSkill": "Number Patterns",
+    "audio_script": "Arun spots an amazing pattern in the 9 times table: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90...",
+    "story": "Arun spots an amazing pattern in the 9 times table: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90...",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Notice the sum of the digits in multiples of 9: (1+8=9, 2+7=9, 3+6=9, 4+5=9). What is the sum of the digits in 72?",
+        "options": [
+          "8",
+          "14",
+          "10",
+          "9 (7 + 2 = 9)"
+        ],
+        "answer": 3,
+        "explain": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
+      },
+      {
+        "q": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
+        "options": [
+          "72",
+          "63 (54 + 9 = 63)",
+          "64",
+          "60"
+        ],
+        "answer": 1,
+        "explain": "Skip counting by 9: 54 + 9 = 63 (9 x 7 = 63)!"
+      },
+      {
+        "q": "If 9 x 8 = 72, what is 72 / 9?",
+        "options": [
+          "9",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 3,
+        "explain": "72 divided by 9 gives the factor 8."
+      }
+    ]
+  },
+  "142": {
+    "title": "Multiplication Patterns: Magic with 9s! ✨",
+    "desc": "Identifies the pattern in multiplication and division (up to multiples of 9)",
+    "subSkill": "Number Patterns",
+    "audio_script": "Arun spots an amazing pattern in the 9 times table: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90...",
+    "story": "Arun spots an amazing pattern in the 9 times table: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90...",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "Notice the sum of the digits in multiples of 9: (1+8=9, 2+7=9, 3+6=9, 4+5=9). What is the sum of the digits in 72?",
+        "options": [
+          "8",
+          "14",
+          "10",
+          "9 (7 + 2 = 9)"
+        ],
+        "answer": 3,
+        "explain": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
+      },
+      {
+        "q": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
+        "options": [
+          "72",
+          "63 (54 + 9 = 63)",
+          "64",
+          "60"
+        ],
+        "answer": 1,
+        "explain": "Skip counting by 9: 54 + 9 = 63 (9 x 7 = 63)!"
+      },
+      {
+        "q": "If 9 x 8 = 72, what is 72 / 9?",
+        "options": [
+          "9",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 3,
+        "explain": "72 divided by 9 gives the factor 8."
+      }
+    ]
+  },
+  "LO-143": {
+    "title": "Symmetry in Geometry: Mirror Borders & Rangolis 🪞",
+    "desc": "Observes, identifies and extends geometrical patterns based on symmetry",
+    "subSkill": "Shape & Geometric Patterns",
+    "audio_script": "Priya creates a decorative Diwali rangoli. She draws a symmetrical star where the left half matches the right half perfectly.",
+    "story": "Priya creates a decorative Diwali rangoli. She draws a symmetrical star where the left half matches the right half perfectly.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If a geometric pattern has reflection symmetry across a vertical center line, what must be true about the two halves?",
+        "options": [
+          "The right side is three times larger",
+          "They are exact mirror images of each other in size, shape, and color placement",
+          "The sides use different shapes",
+          "One side is completely blank"
+        ],
+        "answer": 1,
+        "explain": "A line of symmetry creates identical mirror-image reflections on both sides!"
+      },
+      {
+        "q": "How many lines of symmetry does a regular SQUARE tile have?",
+        "options": [
+          "2 lines only",
+          "0 lines",
+          "1 line only",
+          "4 lines of symmetry (horizontal, vertical, and two diagonals)"
+        ],
+        "answer": 3,
+        "explain": "A square can be folded in half vertically, horizontally, or along both diagonals (4 lines)!"
+      },
+      {
+        "q": "Which of these capital letters has a VERTICAL line of symmetry down its middle: [ A, B, F, G ]?",
+        "options": [
+          "G",
+          "F",
+          "A (folds cleanly down the center)",
+          "B"
+        ],
+        "answer": 2,
+        "explain": "The letter 'A' splits into two identical mirror halves down its vertical center line."
+      }
+    ]
+  },
+  "143": {
+    "title": "Symmetry in Geometry: Mirror Borders & Rangolis 🪞",
+    "desc": "Observes, identifies and extends geometrical patterns based on symmetry",
+    "subSkill": "Shape & Geometric Patterns",
+    "audio_script": "Priya creates a decorative Diwali rangoli. She draws a symmetrical star where the left half matches the right half perfectly.",
+    "story": "Priya creates a decorative Diwali rangoli. She draws a symmetrical star where the left half matches the right half perfectly.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "If a geometric pattern has reflection symmetry across a vertical center line, what must be true about the two halves?",
+        "options": [
+          "The right side is three times larger",
+          "They are exact mirror images of each other in size, shape, and color placement",
+          "The sides use different shapes",
+          "One side is completely blank"
+        ],
+        "answer": 1,
+        "explain": "A line of symmetry creates identical mirror-image reflections on both sides!"
+      },
+      {
+        "q": "How many lines of symmetry does a regular SQUARE tile have?",
+        "options": [
+          "2 lines only",
+          "0 lines",
+          "1 line only",
+          "4 lines of symmetry (horizontal, vertical, and two diagonals)"
+        ],
+        "answer": 3,
+        "explain": "A square can be folded in half vertically, horizontally, or along both diagonals (4 lines)!"
+      },
+      {
+        "q": "Which of these capital letters has a VERTICAL line of symmetry down its middle: [ A, B, F, G ]?",
+        "options": [
+          "G",
+          "F",
+          "A (folds cleanly down the center)",
+          "B"
+        ],
+        "answer": 2,
+        "explain": "The letter 'A' splits into two identical mirror halves down its vertical center line."
+      }
+    ]
+  },
+  "LO-144": {
+    "title": "Circle Secrets: Centre, Radius and Diameter ⭕",
+    "desc": "Identifies the centre, radius and diameter of a circle",
+    "subSkill": "2D Shapes & Lines",
+    "audio_script": "With a pencil tied to a piece of string pinned at the center, Kabir swings the pencil around to draw a perfect circular flowerbed.",
+    "story": "With a pencil tied to a piece of string pinned at the center, Kabir swings the pencil around to draw a perfect circular flowerbed.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the fixed central point where the string was pinned called?",
+        "options": [
+          "The diameter",
+          "The corner",
+          "The circumference",
+          "The Centre of the circle"
+        ],
+        "answer": 3,
+        "explain": "The centre is the exact middle point from which all points on the circle are equidistant!"
+      },
+      {
+        "q": "What is the straight line distance from the centre to any outer point on the circle called?",
+        "options": [
+          "The Vertex",
+          "The Perimeter",
+          "The Radius",
+          "The Diagonal"
+        ],
+        "answer": 2,
+        "explain": "The radius is the distance from the centre dot out to the curved boundary."
+      },
+      {
+        "q": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
+        "options": [
+          "They are unrelated",
+          "Diameter is half of radius",
+          "Diameter is equal to radius",
+          "Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)"
+        ],
+        "answer": 3,
+        "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
+      }
+    ]
+  },
+  "144": {
+    "title": "Circle Secrets: Centre, Radius and Diameter ⭕",
+    "desc": "Identifies the centre, radius and diameter of a circle",
+    "subSkill": "2D Shapes & Lines",
+    "audio_script": "With a pencil tied to a piece of string pinned at the center, Kabir swings the pencil around to draw a perfect circular flowerbed.",
+    "story": "With a pencil tied to a piece of string pinned at the center, Kabir swings the pencil around to draw a perfect circular flowerbed.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "What is the fixed central point where the string was pinned called?",
+        "options": [
+          "The diameter",
+          "The corner",
+          "The circumference",
+          "The Centre of the circle"
+        ],
+        "answer": 3,
+        "explain": "The centre is the exact middle point from which all points on the circle are equidistant!"
+      },
+      {
+        "q": "What is the straight line distance from the centre to any outer point on the circle called?",
+        "options": [
+          "The Vertex",
+          "The Perimeter",
+          "The Radius",
+          "The Diagonal"
+        ],
+        "answer": 2,
+        "explain": "The radius is the distance from the centre dot out to the curved boundary."
+      },
+      {
+        "q": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
+        "options": [
+          "They are unrelated",
+          "Diameter is half of radius",
+          "Diameter is equal to radius",
+          "Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)"
+        ],
+        "answer": 3,
+        "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
+      }
+    ]
+  },
+  "LO-145": {
+    "title": "3D Nets: Folding Cubes and Boxes 📦",
+    "desc": "Finds out shapes that can be used for tiling; makes cubes/cuboids using given nets",
+    "subSkill": "3D Shapes & Nets",
+    "audio_script": "Leo cuts out a flat cardboard cross pattern made of 6 connected squares. He folds the squares along the creases.",
+    "story": "Leo cuts out a flat cardboard cross pattern made of 6 connected squares. He folds the squares along the creases.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Leo folds the 6 square faces along the creases, what 3D solid shape does it form?",
+        "options": [
+          "A Cylinder",
+          "A Sphere",
+          "A Cube",
+          "A Cone"
+        ],
+        "answer": 2,
+        "explain": "A net of 6 identical square faces folds into a perfect 3D Cube!"
+      },
+      {
+        "q": "How many flat rectangular faces does a cereal box (a cuboid) have in total?",
+        "options": [
+          "12 faces",
+          "8 faces",
+          "6 faces",
+          "4 faces"
+        ],
+        "answer": 2,
+        "explain": "A cuboid has 6 faces (top, bottom, front, back, left, right)."
+      },
+      {
+        "q": "What flat 2D pattern is used to construct a 3D solid called?",
+        "options": [
+          "A Fraction strip",
+          "A Tally chart",
+          "A Protractor",
+          "A Geometric Net"
+        ],
+        "answer": 3,
+        "explain": "A 'net' is the flattened 2D layout that folds together to create a 3D solid shape!"
+      }
+    ]
+  },
+  "145": {
+    "title": "3D Nets: Folding Cubes and Boxes 📦",
+    "desc": "Finds out shapes that can be used for tiling; makes cubes/cuboids using given nets",
+    "subSkill": "3D Shapes & Nets",
+    "audio_script": "Leo cuts out a flat cardboard cross pattern made of 6 connected squares. He folds the squares along the creases.",
+    "story": "Leo cuts out a flat cardboard cross pattern made of 6 connected squares. He folds the squares along the creases.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Leo folds the 6 square faces along the creases, what 3D solid shape does it form?",
+        "options": [
+          "A Cylinder",
+          "A Sphere",
+          "A Cube",
+          "A Cone"
+        ],
+        "answer": 2,
+        "explain": "A net of 6 identical square faces folds into a perfect 3D Cube!"
+      },
+      {
+        "q": "How many flat rectangular faces does a cereal box (a cuboid) have in total?",
+        "options": [
+          "12 faces",
+          "8 faces",
+          "6 faces",
+          "4 faces"
+        ],
+        "answer": 2,
+        "explain": "A cuboid has 6 faces (top, bottom, front, back, left, right)."
+      },
+      {
+        "q": "What flat 2D pattern is used to construct a 3D solid called?",
+        "options": [
+          "A Fraction strip",
+          "A Tally chart",
+          "A Protractor",
+          "A Geometric Net"
+        ],
+        "answer": 3,
+        "explain": "A 'net' is the flattened 2D layout that folds together to create a 3D solid shape!"
+      }
+    ]
+  },
+  "LO-146": {
+    "title": "Architect's Eye: Top, Front and Side Views 🏠📐",
+    "desc": "Draws top view, front view and side view of simple objects",
+    "subSkill": "Spatial Views",
+    "audio_script": "Tina is building a toy model house. She sketches how the house looks from the front, from the side, and straight down from above.",
+    "story": "Tina is building a toy model house. She sketches how the house looks from the front, from the side, and straight down from above.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Tina looks straight down from the ceiling (TOP VIEW) at a cylinder (like a water glass), what 2D shape does she see?",
+        "options": [
+          "A Circle",
+          "A Square",
+          "A tall Rectangle",
+          "A Triangle"
+        ],
+        "answer": 0,
+        "explain": "Looking directly down onto a cylinder from above reveals a flat circular outline!"
+      },
+      {
+        "q": "When looking at the FRONT VIEW of a standard pitched-roof doghouse, what shape does the roof line make?",
+        "options": [
+          "A Triangle atop a rectangle",
+          "A spiral",
+          "A round sphere",
+          "A flat line only"
+        ],
+        "answer": 0,
+        "explain": "The front shows the rectangular door wall topped by the triangular gable roof."
+      },
+      {
+        "q": "Why do engineers and architects draw Top, Front, and Side views (orthographic drawings) of buildings?",
+        "options": [
+          "To make drawing as difficult as possible",
+          "It shows exact dimensions from all angles so builders know how to construct it accurately",
+          "Because computers cannot show 3D objects",
+          "So nobody can see inside"
+        ],
+        "answer": 1,
+        "explain": "Multi-view architectural plans give builders the precise measurements for every face of a structure!"
+      }
+    ]
+  },
+  "146": {
+    "title": "Architect's Eye: Top, Front and Side Views 🏠📐",
+    "desc": "Draws top view, front view and side view of simple objects",
+    "subSkill": "Spatial Views",
+    "audio_script": "Tina is building a toy model house. She sketches how the house looks from the front, from the side, and straight down from above.",
+    "story": "Tina is building a toy model house. She sketches how the house looks from the front, from the side, and straight down from above.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Tina looks straight down from the ceiling (TOP VIEW) at a cylinder (like a water glass), what 2D shape does she see?",
+        "options": [
+          "A Circle",
+          "A Square",
+          "A tall Rectangle",
+          "A Triangle"
+        ],
+        "answer": 0,
+        "explain": "Looking directly down onto a cylinder from above reveals a flat circular outline!"
+      },
+      {
+        "q": "When looking at the FRONT VIEW of a standard pitched-roof doghouse, what shape does the roof line make?",
+        "options": [
+          "A Triangle atop a rectangle",
+          "A spiral",
+          "A round sphere",
+          "A flat line only"
+        ],
+        "answer": 0,
+        "explain": "The front shows the rectangular door wall topped by the triangular gable roof."
+      },
+      {
+        "q": "Why do engineers and architects draw Top, Front, and Side views (orthographic drawings) of buildings?",
+        "options": [
+          "To make drawing as difficult as possible",
+          "It shows exact dimensions from all angles so builders know how to construct it accurately",
+          "Because computers cannot show 3D objects",
+          "So nobody can see inside"
+        ],
+        "answer": 1,
+        "explain": "Multi-view architectural plans give builders the precise measurements for every face of a structure!"
+      }
+    ]
+  },
+  "LO-147": {
+    "title": "Inkblot Magic: Reflection & Folding Symmetry 🦋",
+    "desc": "Shows the concept of symmetry by reflection through paper folding/paper cutting, ink blots, etc.",
+    "subSkill": "Symmetry",
+    "audio_script": "In art class, Vikram squirts drops of red and blue tempera paint onto one half of a folded white paper, presses the halves together firmly, and opens it up.",
+    "story": "In art class, Vikram squirts drops of red and blue tempera paint onto one half of a folded white paper, presses the halves together firmly, and opens it up.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Vikram opens the folded paper, what does he see across the fold crease?",
+        "options": [
+          "A symmetrical design where both sides are mirror reflections (like colorful butterfly wings)",
+          "The paint disappeared completely",
+          "A printed photograph of a car",
+          "Only one side has paint while the other is bone dry"
+        ],
+        "answer": 0,
+        "explain": "Pressing the folded paper transfers the paint into a breathtaking, perfectly symmetrical mirror design!"
+      },
+      {
+        "q": "What does the paper fold line represent in geometric terms?",
+        "options": [
+          "The Line of Symmetry (Axis of Reflection)",
+          "The Perimeter boundary",
+          "The Radius line",
+          "A straight diagonal diameter"
+        ],
+        "answer": 0,
+        "explain": "The crease is the line of symmetry dividing the two identical mirrored halves."
+      },
+      {
+        "q": "Which real creature in nature displays striking bilateral reflection symmetry across its body?",
+        "options": [
+          "A random puddle of water",
+          "A Butterfly (its left wing mirrors its right wing)",
+          "A spilled bucket of milk",
+          "A jagged mountain peak"
+        ],
+        "answer": 1,
+        "explain": "Butterflies are nature's shining ambassadors of mirror symmetry!"
+      }
+    ]
+  },
+  "147": {
+    "title": "Inkblot Magic: Reflection & Folding Symmetry 🦋",
+    "desc": "Shows the concept of symmetry by reflection through paper folding/paper cutting, ink blots, etc.",
+    "subSkill": "Symmetry",
+    "audio_script": "In art class, Vikram squirts drops of red and blue tempera paint onto one half of a folded white paper, presses the halves together firmly, and opens it up.",
+    "story": "In art class, Vikram squirts drops of red and blue tempera paint onto one half of a folded white paper, presses the halves together firmly, and opens it up.",
+    "instructions": [],
+    "questions": [
+      {
+        "q": "When Vikram opens the folded paper, what does he see across the fold crease?",
+        "options": [
+          "A symmetrical design where both sides are mirror reflections (like colorful butterfly wings)",
+          "The paint disappeared completely",
+          "A printed photograph of a car",
+          "Only one side has paint while the other is bone dry"
+        ],
+        "answer": 0,
+        "explain": "Pressing the folded paper transfers the paint into a breathtaking, perfectly symmetrical mirror design!"
+      },
+      {
+        "q": "What does the paper fold line represent in geometric terms?",
+        "options": [
+          "The Line of Symmetry (Axis of Reflection)",
+          "The Perimeter boundary",
+          "The Radius line",
+          "A straight diagonal diameter"
+        ],
+        "answer": 0,
+        "explain": "The crease is the line of symmetry dividing the two identical mirrored halves."
+      },
+      {
+        "q": "Which real creature in nature displays striking bilateral reflection symmetry across its body?",
+        "options": [
+          "A random puddle of water",
+          "A Butterfly (its left wing mirrors its right wing)",
+          "A spilled bucket of milk",
+          "A jagged mountain peak"
+        ],
+        "answer": 1,
+        "explain": "Butterflies are nature's shining ambassadors of mirror symmetry!"
+      }
+    ]
+  }
 });

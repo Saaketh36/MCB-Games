@@ -31,11 +31,9 @@ def call_gemini_api(prompt_text, api_key=None):
 
     # Fast, ultra-reliable models available on v1beta
     models = [
-        "gemini-flash-lite-latest",
-        "gemini-3.1-flash-lite",
+        "gemini-2.5-flash",
         "gemini-flash-latest",
-        "gemini-3.8-flash",
-        "gemini-3.5-flash"
+        "gemini-flash-lite-latest"
     ]
     
     headers = {
@@ -52,7 +50,7 @@ def call_gemini_api(prompt_text, api_key=None):
     for model in models:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=20)
+            resp = requests.post(url, headers=headers, json=payload, timeout=8)
             if resp.status_code == 200:
                 res_data = resp.json()
                 text = res_data['candidates'][0]['content']['parts'][0]['text'].strip()
@@ -194,8 +192,8 @@ def build_class2_interactive_config(topic, subject):
 
     # 1. Capacity & Volume / Pouring Jug (Dedicated Liquid Engine)
     if any(k in t for k in ["jug", "capacity", "volume", "liquid", "pour", "litre", "liter", "millilitre", "ml"]):
-        r1_target = random.choice([400, 500, 600])
-        r2_target = random.choice([750, 800, 1000])
+        r1_target = random.choice([400, 500])
+        r2_target = random.choice([750, 1000])
         return {
             "engine": "liquid-pour",
             "title": f"{topic} Fill the Jug Challenge",
@@ -205,7 +203,8 @@ def build_class2_interactive_config(topic, subject):
             "rounds": [
                 {
                     "targetMl": r1_target,
-                    "targetName": f"🥣 {r1_target}ml Bowl",
+                    "targetName": f"🥣 {r1_target}ml Measuring Bowl",
+                    "ticks": [100, 200, 300, 400, 500] if r1_target == 500 else [100, 200, 300, 400],
                     "availableCups": [
                         {"ml": 100, "label": "100ml Glass", "icon": "🥛"},
                         {"ml": 250, "label": "250ml Cup", "icon": "🥤"}
@@ -213,7 +212,8 @@ def build_class2_interactive_config(topic, subject):
                 },
                 {
                     "targetMl": r2_target,
-                    "targetName": f"🫗 {r2_target}ml Jug",
+                    "targetName": f"🫗 {r2_target}ml Jug" if r2_target < 1000 else "🫗 1000ml (1 Litre) Jug",
+                    "ticks": [250, 500, 750, 1000] if r2_target == 1000 else [250, 500, 750],
                     "availableCups": [
                         {"ml": 250, "label": "250ml Glass", "icon": "🥤"},
                         {"ml": 500, "label": "500ml Bottle", "icon": "🫖"}
@@ -549,8 +549,612 @@ Ensure the "questions" list contains EXACTLY {num_questions} questions, with exa
     return fallback_task, "🤖 Smart Curriculum AI Engine"
 
 
-
 # =====================================================================
+# 1B. AI GAME DEVELOPER AGENT FOR SMALL-SCALE INTERACTIVE GAMES
+# =====================================================================
+
+def normalize_requested_game_type(game_type, topic="", subject="", information=""):
+    """
+    Determine the most engaging, curriculum-appropriate game mechanic based on
+    explicit teacher selection, topic semantics, or pasted information structure.
+    """
+    gt = (game_type or "").lower().strip()
+    info = (information or "").lower()
+    t = (topic or "").lower()
+
+    if gt in ["bucket-sorter", "sort-and-group", "sorting", "sort", "categorization", "buckets"]:
+        return "bucket-sorter", "Sort & Group"
+    elif gt in ["pair-matcher", "match-pairs", "matching", "match", "memory-match", "pairs"]:
+        return "pair-matcher", "Match Pairs"
+    elif gt in ["word-train", "sequence-order", "sequence", "order", "steps", "timeline", "step-sequence"]:
+        return "word-train", "Sequence Order"
+    elif gt in ["word-scramble", "scramble", "anagram", "spelling", "letter-arrange"]:
+        return "word-scramble", "Word Scramble"
+    elif gt in ["number-line-hopper", "hopper", "number-line", "number line", "skip-counting"]:
+        return "number-line-hopper", "Number Line"
+    elif gt in ["bubble-pop", "bubble", "pop", "tapper"]:
+        return "bubble-pop", "Bubble Pop"
+
+    # Auto-detection from information structure:
+    # 1. If information has lines with colons or categories (e.g., "Solids: a, b. Liquids: c, d")
+    colon_count = info.count(":")
+    if colon_count >= 2:
+        return "bucket-sorter", "Sort & Group"
+
+    # 2. If information has sequential step markers (e.g., "1. Evaporation", "Step 1:")
+    if re.search(r'(?:step\s*\d|^\s*\d+[\.\)])', info, re.MULTILINE | re.IGNORECASE):
+        return "word-train", "Sequence Order"
+
+    # 3. If information has definition pairs with hyphens or dashes (e.g., "Herbivore - eats plants")
+    dash_count = len(re.findall(r'(?:[-–—]|->)', info))
+    if dash_count >= 2:
+        return "pair-matcher", "Match Pairs"
+
+    # 4. Auto-detect from Topic & Subject:
+    if any(k in t for k in ["sort", "classify", "states of matter", "living", "solid", "liquid", "gas", "animal", "habitat", "group"]):
+        return "bucket-sorter", "Sort & Group"
+    elif any(k in t for k in ["match", "capital", "currency", "synonym", "antonym", "definition", "term"]):
+        return "pair-matcher", "Match Pairs"
+    elif any(k in t for k in ["cycle", "step", "order", "sequence", "process", "timeline", "photosynthesis", "seed", "digestion"]):
+        return "word-train", "Sequence Order"
+    elif any(k in t for k in ["spell", "scramble", "vocabulary", "word", "anagram", "letter"]):
+        return "word-scramble", "Word Scramble"
+    elif any(k in t for k in ["hop", "number line", "count", "skip", "multiply", "fraction", "integer"]):
+        return "number-line-hopper", "Number Line"
+    elif any(k in t for k in ["phonics", "rhyme", "vowel", "sound", "bubble"]):
+        return "bubble-pop", "Bubble Pop"
+
+    # Subject Defaults
+    sub_lower = (subject or "").lower()
+    if sub_lower == "mathematics":
+        return "pair-matcher", "Match Pairs"
+    elif sub_lower in ["evs", "science", "social science"]:
+        return "bucket-sorter", "Sort & Group"
+    elif sub_lower == "english":
+        return "word-scramble", "Word Scramble"
+    return "bucket-sorter", "Sort & Group"
+
+
+def build_fallback_small_scale_game(prompt, class_name, subject, topic, engine_key, display_type, conditions="", information="", num_questions=3, difficulty="Medium"):
+    """
+    Intelligent Offline Educational Game Builder.
+    Parses custom teacher conditions and information directly, or procedurally
+    synthesizes authentic, playable interactive mini-games and quiz questions.
+    """
+    clean_topic = topic or prompt or f"{subject} Essentials"
+    num_questions = max(1, min(10, int(num_questions or 3)))
+    info_raw = (information or "").strip()
+    cond_raw = (conditions or "").strip().lower()
+
+    # Determine desired item/bucket counts from conditions if specified (e.g. "3 buckets", "4 items each")
+    cond_bucket_match = re.search(r'(\d+)\s*(?:bucket|categor|group)', cond_raw)
+    target_bucket_count = int(cond_bucket_match.group(1)) if cond_bucket_match else 2
+    target_bucket_count = max(2, min(4, target_bucket_count))
+
+    cond_items_match = re.search(r'(\d+)\s*(?:item|card|word|pair|step)', cond_raw)
+    target_items_count = int(cond_items_match.group(1)) if cond_items_match else 6
+    target_items_count = max(3, min(12, target_items_count))
+
+    interactive_cfg = None
+    title = f"🎮 {clean_topic} Challenge"
+    desc = f"Play this small-scale interactive {display_type} game to master {clean_topic}!"
+
+    # ----------------------------------------------------
+    # A. BUCKET SORTER (SORT & GROUP)
+    # ----------------------------------------------------
+    if engine_key == "bucket-sorter":
+        parsed_buckets = []
+        parsed_items = []
+
+        # Attempt to parse from teacher's information if provided
+        if info_raw and ":" in info_raw:
+            palette = [
+                {"color": "#10b981", "border": "#059669"},
+                {"color": "#8b5cf6", "border": "#7c3aed"},
+                {"color": "#f59e0b", "border": "#d97706"},
+                {"color": "#0ea5e9", "border": "#0284c7"}
+            ]
+            lines = [l.strip() for l in info_raw.splitlines() if l.strip()]
+            for b_idx, line in enumerate(lines):
+                if ":" in line:
+                    b_name, items_str = line.split(":", 1)
+                    b_id = f"b{b_idx + 1}"
+                    c = palette[b_idx % len(palette)]
+                    parsed_buckets.append({
+                        "id": b_id,
+                        "label": b_name.strip() + " ⭐",
+                        "color": c["color"],
+                        "border": c["border"]
+                    })
+                    raw_tokens = [tok.strip() for tok in re.split(r'[,;•\n]', items_str) if tok.strip()]
+                    for tok in raw_tokens:
+                        clean_tok = re.sub(r'^[0-9\.\-\*\s]+', '', tok).strip()
+                        if clean_tok:
+                            parsed_items.append({
+                                "text": clean_tok,
+                                "icon": "🏷️",
+                                "bucket": b_id
+                            })
+
+        # If teacher didn't provide parseable items, use rich curriculum procedural defaults
+        if len(parsed_buckets) < 2 or len(parsed_items) < 3:
+            t_low = clean_topic.lower()
+            if any(k in t_low for k in ["matter", "solid", "liquid", "gas", "state"]):
+                parsed_buckets = [
+                    {"id": "b1", "label": "Solids 🧊", "color": "#10b981", "border": "#059669"},
+                    {"id": "b2", "label": "Liquids 💧", "color": "#0ea5e9", "border": "#0284c7"},
+                    {"id": "b3", "label": "Gases 💨", "color": "#8b5cf6", "border": "#7c3aed"}
+                ]
+                parsed_items = [
+                    {"text": "Ice Cube", "icon": "🧊", "bucket": "b1"},
+                    {"text": "Wooden Block", "icon": "🪵", "bucket": "b1"},
+                    {"text": "Iron Nail", "icon": "🔩", "bucket": "b1"},
+                    {"text": "Pure Water", "icon": "💧", "bucket": "b2"},
+                    {"text": "Fresh Milk", "icon": "🥛", "bucket": "b2"},
+                    {"text": "Orange Juice", "icon": "🧃", "bucket": "b2"},
+                    {"text": "Water Vapour", "icon": "💨", "bucket": "b3"},
+                    {"text": "Oxygen Gas", "icon": "🫧", "bucket": "b3"},
+                    {"text": "Helium Balloon", "icon": "🎈", "bucket": "b3"}
+                ]
+            elif any(k in t_low for k in ["diet", "herbivore", "carnivore", "omnivore", "animal"]):
+                parsed_buckets = [
+                    {"id": "b1", "label": "Herbivores (Plants) 🌿", "color": "#10b981", "border": "#059669"},
+                    {"id": "b2", "label": "Carnivores (Meat) 🥩", "color": "#ef4444", "border": "#dc2626"},
+                    {"id": "b3", "label": "Omnivores (Both) 🥗", "color": "#f59e0b", "border": "#d97706"}
+                ]
+                parsed_items = [
+                    {"text": "Cow", "icon": "🐄", "bucket": "b1"},
+                    {"text": "Deer", "icon": "🦌", "bucket": "b1"},
+                    {"text": "Rabbit", "icon": "🐇", "bucket": "b1"},
+                    {"text": "Lion", "icon": "🦁", "bucket": "b2"},
+                    {"text": "Tiger", "icon": "🐅", "bucket": "b2"},
+                    {"text": "Eagle", "icon": "🦅", "bucket": "b2"},
+                    {"text": "Bear", "icon": "🐻", "bucket": "b3"},
+                    {"text": "Crow", "icon": "🐦", "bucket": "b3"},
+                    {"text": "Human", "icon": "👤", "bucket": "b3"}
+                ]
+            elif any(k in t_low for k in ["electric", "circuit", "conductor", "insulator"]):
+                parsed_buckets = [
+                    {"id": "b1", "label": "Conductors (Pass Current) ⚡", "color": "#10b981", "border": "#059669"},
+                    {"id": "b2", "label": "Insulators (Block Current) 🛡️", "color": "#f59e0b", "border": "#d97706"}
+                ]
+                parsed_items = [
+                    {"text": "Copper Wire", "icon": "🔌", "bucket": "b1"},
+                    {"text": "Iron Nail", "icon": "🔩", "bucket": "b1"},
+                    {"text": "Steel Spoon", "icon": "🥄", "bucket": "b1"},
+                    {"text": "Rubber Eraser", "icon": "🧼", "bucket": "b2"},
+                    {"text": "Plastic Ruler", "icon": "📏", "bucket": "b2"},
+                    {"text": "Dry Wood", "icon": "🪵", "bucket": "b2"}
+                ]
+            else:
+                parsed_buckets = [
+                    {"id": "b1", "label": f"{clean_topic} Group A 🌟", "color": "#10b981", "border": "#059669"},
+                    {"id": "b2", "label": f"{clean_topic} Group B 🎯", "color": "#8b5cf6", "border": "#7c3aed"}
+                ]
+                parsed_items = [
+                    {"text": f"{clean_topic} Primary Fact 1", "icon": "🌟", "bucket": "b1"},
+                    {"text": f"{clean_topic} Primary Fact 2", "icon": "🌟", "bucket": "b1"},
+                    {"text": f"{clean_topic} Application 1", "icon": "🎯", "bucket": "b2"},
+                    {"text": f"{clean_topic} Application 2", "icon": "🎯", "bucket": "b2"}
+                ]
+
+        random.shuffle(parsed_items)
+        interactive_cfg = {
+            "engine": "bucket-sorter",
+            "title": f"🧺 {clean_topic} Tactile Sorter",
+            "icon": "🧺",
+            "instruction": f"Sort the cards into their matching baskets for {clean_topic}!",
+            "speechPrompt": f"Tap a card first, then tap the basket where it belongs!",
+            "buckets": parsed_buckets[:target_bucket_count if target_bucket_count <= len(parsed_buckets) else len(parsed_buckets)],
+            "items": parsed_items
+        }
+        title = f"🧺 {clean_topic} Sorter Challenge"
+
+    # ----------------------------------------------------
+    # B. PAIR MATCHER (MATCH PAIRS)
+    # ----------------------------------------------------
+    elif engine_key == "pair-matcher":
+        parsed_pairs = []
+
+        # Attempt to parse pairs from teacher information (lines with -, =, :, or ->)
+        if info_raw:
+            lines = [l.strip() for l in info_raw.splitlines() if l.strip()]
+            for p_idx, line in enumerate(lines):
+                parts = re.split(r'\s*(?:[-–—]|->|=|:)\s*', line, 1)
+                if len(parts) == 2 and len(parts[0]) > 0 and len(parts[1]) > 0:
+                    clean_a = re.sub(r'^[0-9\.\*\s]+', '', parts[0]).strip()
+                    clean_b = re.sub(r'^[0-9\.\*\s]+', '', parts[1]).strip()
+                    parsed_pairs.append({
+                        "id": str(p_idx + 1),
+                        "itemA": clean_a,
+                        "itemB": clean_b
+                    })
+
+        if len(parsed_pairs) < 3:
+            t_low = clean_topic.lower()
+            if any(k in t_low for k in ["plant", "flower", "leaf", "root", "photosynth"]):
+                parsed_pairs = [
+                    {"id": "1", "itemA": "Green Leaves 🍃", "itemB": "Make plant food via photosynthesis"},
+                    {"id": "2", "itemA": "Underground Roots 🌾", "itemB": "Absorb water and minerals from soil"},
+                    {"id": "3", "itemA": "Sturdy Stem 🎋", "itemB": "Transports nutrients upward to branches"},
+                    {"id": "4", "itemA": "Colourful Flowers 🌸", "itemB": "Attract pollinators and produce seeds"}
+                ]
+            elif any(k in t_low for k in ["solar", "planet", "sun", "space"]):
+                parsed_pairs = [
+                    {"id": "1", "itemA": "The Sun ☀️", "itemB": "Central star providing light and gravity"},
+                    {"id": "2", "itemA": "Planet Earth 🌍", "itemB": "Only known world with liquid water and life"},
+                    {"id": "3", "itemA": "Red Mars 🔴", "itemB": "Rusty planet with polar ice caps"},
+                    {"id": "4", "itemA": "Giant Jupiter 🪐", "itemB": "Largest gas giant with Great Red Spot"}
+                ]
+            elif any(k in t_low for k in ["fraction", "math", "multiply", "divide"]):
+                parsed_pairs = [
+                    {"id": "1", "itemA": "One Half (1/2) 🍰", "itemB": "Two equal portions of a whole (50%)"},
+                    {"id": "2", "itemA": "One Quarter (1/4) 🍕", "itemB": "Four equal portions of a whole (25%)"},
+                    {"id": "3", "itemA": "Three Quarters (3/4) 🥧", "itemB": "Three parts out of four equal slices (75%)"},
+                    {"id": "4", "itemA": "One Whole (1) 🎂", "itemB": "Complete unbroken unit (100%)"}
+                ]
+            else:
+                parsed_pairs = [
+                    {"id": "1", "itemA": f"{clean_topic} Concept A 🌟", "itemB": f"Primary definition and rule for {clean_topic}"},
+                    {"id": "2", "itemA": f"{clean_topic} Observation 🔍", "itemB": f"Real-world everyday example of {clean_topic}"},
+                    {"id": "3", "itemA": f"{clean_topic} Application 🚀", "itemB": f"How we interact with {clean_topic} in daily life"}
+                ]
+
+        interactive_cfg = {
+            "engine": "pair-matcher",
+            "title": f"🔗 {clean_topic} Match Pairs",
+            "icon": "🔗",
+            "instruction": f"Tap an item on the left and connect it to its matching partner on the right!",
+            "speechPrompt": f"Tap a card on the left, then find its matching partner on the right!",
+            "pairs": parsed_pairs
+        }
+        title = f"🔗 {clean_topic} Match Pairs"
+
+    # ----------------------------------------------------
+    # C. SEQUENCE ORDER (WORD / STEP TRAIN)
+    # ----------------------------------------------------
+    elif engine_key == "word-train":
+        parsed_steps = []
+        if info_raw:
+            lines = [l.strip() for l in info_raw.splitlines() if l.strip()]
+            for l in lines:
+                clean_l = re.sub(r'^(?:step\s*\d+[\:\.\-]?|\d+[\.\)\-]?)\s*', '', l, flags=re.IGNORECASE).strip()
+                if len(clean_l) > 2:
+                    parsed_steps.append(clean_l)
+
+        if len(parsed_steps) < 3:
+            t_low = clean_topic.lower()
+            if any(k in t_low for k in ["water", "rain", "cycle", "cloud"]):
+                parsed_steps = [
+                    "1. Sun heats water causing Evaporation",
+                    "2. Rising vapour cools to form Clouds (Condensation)",
+                    "3. Heavy clouds release rain (Precipitation)",
+                    "4. Water flows into rivers and oceans (Collection)"
+                ]
+            elif any(k in t_low for k in ["plant", "seed", "sprout", "germinat"]):
+                parsed_steps = [
+                    "1. Plant a seed in moist soil",
+                    "2. Roots sprout downward to drink water",
+                    "3. Green shoot rises up toward sunshine",
+                    "4. Flower blooms and produces new seeds"
+                ]
+            elif any(k in t_low for k in ["digestion", "digest", "stomach", "eat"]):
+                parsed_steps = [
+                    "1. Food is chewed and softened in the mouth",
+                    "2. Swallowed food travels down the food pipe",
+                    "3. Stomach acids break food into nutrients",
+                    "4. Intestines absorb vital energy into the blood"
+                ]
+            else:
+                parsed_steps = [
+                    f"1. Observe {clean_topic} phenomena",
+                    f"2. Formulate a hypothesis about {clean_topic}",
+                    f"3. Test {clean_topic} with careful experiments",
+                    f"4. Record clear results and conclusions"
+                ]
+
+        shuffled_words = parsed_steps.slice() if hasattr(parsed_steps, 'slice') else list(parsed_steps)
+        random.shuffle(shuffled_words)
+
+        interactive_cfg = {
+            "engine": "word-train",
+            "title": f"🚂 {clean_topic} Sequence Train",
+            "icon": "🚂",
+            "instruction": f"Connect the train carriages in the correct chronological order for {clean_topic}!",
+            "speechPrompt": f"Tap the steps in the correct order to assemble the train!",
+            "rounds": [
+                {
+                    "prompt": f"Put the stages of {clean_topic} in sequential order:",
+                    "words": shuffled_words,
+                    "correctOrder": parsed_steps
+                }
+            ]
+        }
+        title = f"🚂 {clean_topic} Sequence Order"
+
+    # ----------------------------------------------------
+    # D. WORD SCRAMBLE
+    # ----------------------------------------------------
+    elif engine_key == "word-scramble":
+        parsed_rounds = []
+        if info_raw:
+            for line in info_raw.splitlines():
+                if ":" in line or "-" in line:
+                    parts = re.split(r'[:\-]', line, 1)
+                    w = re.sub(r'[^A-Za-z]', '', parts[0]).upper()
+                    if 3 <= len(w) <= 12:
+                        parsed_rounds.append({
+                            "word": w,
+                            "clue": parts[1].strip() or f"Key concept in {clean_topic}",
+                            "icon": "🧩"
+                        })
+                else:
+                    words = [w.upper() for w in re.findall(r'[A-Za-z]{3,12}', line)]
+                    for w in words[:3]:
+                        parsed_rounds.append({
+                            "word": w,
+                            "clue": f"Key term from lesson on {clean_topic}",
+                            "icon": "🧩"
+                        })
+
+        if not parsed_rounds:
+            parsed_rounds = [
+                {"word": "ENERGY", "clue": "The ability to do work and power systems", "icon": "⚡"},
+                {"word": "PLANET", "clue": "A celestial body orbiting a star", "icon": "🪐"},
+                {"word": "GRAVITY", "clue": "The downward pulling force of the Earth", "icon": "🍎"}
+            ]
+
+        interactive_cfg = {
+            "engine": "word-scramble",
+            "title": f"🧩 {clean_topic} Word Scramble",
+            "icon": "🧩",
+            "instruction": f"Unscramble the letters to reveal secret words for {clean_topic}!",
+            "speechPrompt": f"Tap the letters in the correct order to spell out the word!",
+            "rounds": parsed_rounds[:3]
+        }
+        title = f"🧩 {clean_topic} Word Scramble"
+
+    # ----------------------------------------------------
+    # E. NUMBER LINE HOPPER / BUBBLE POP
+    # ----------------------------------------------------
+    elif engine_key == "number-line-hopper":
+        interactive_cfg = {
+            "engine": "number-line-hopper",
+            "title": f"🐸 {clean_topic} Froggy Hopper",
+            "icon": "🐸",
+            "instruction": f"Help Freddie Frog hop along the number line to reach the target prize!",
+            "speechPrompt": "Choose your hops to land Freddie Frog on the prize shape!",
+            "rounds": [
+                {"start": 0, "target": 12, "step": 3, "allowedHops": [1, 3, 5], "hint": "Hop by 3s to reach 12!"},
+                {"start": 0, "target": 20, "step": 5, "allowedHops": [2, 5], "hint": "Take big hops of 5 to land on 20!"}
+            ]
+        }
+        title = f"🐸 {clean_topic} Math Hopper"
+
+    else:
+        # Default bubble pop
+        interactive_cfg = {
+            "engine": "bubble-pop",
+            "title": f"🫧 {clean_topic} Bubble Pop",
+            "icon": "🫧",
+            "instruction": f"Pop all target bubbles matching the {clean_topic} rule!",
+            "speechPrompt": f"Find and pop all the bubbles that match the prompt!",
+            "rounds": [
+                {
+                    "prompt": f"Pop bubbles related to {clean_topic}!",
+                    "bubbles": [
+                        {"text": f"{clean_topic} Fact 1", "correct": True},
+                        {"text": f"{clean_topic} Fact 2", "correct": True},
+                        {"text": "Irrelevant Distractor", "correct": False},
+                        {"text": "Random Noise", "correct": False}
+                    ]
+                }
+            ]
+        }
+        title = f"🫧 {clean_topic} Bubble Pop"
+
+    # Generate accompanying quiz questions
+    smart_task = generate_smart_task(prompt, class_name, subject, clean_topic, num_questions, difficulty)
+    quiz_questions = smart_task.get("questions", [])
+
+    return {
+        "title": title[:50],
+        "class": class_name,
+        "subject": subject,
+        "skillArea": clean_topic[:40],
+        "gameType": display_type,
+        "desc": desc,
+        "time": f"{max(3, num_questions * 2)} min",
+        "interactiveConfig": interactive_cfg,
+        "questions": quiz_questions[:num_questions],
+        "conditions": conditions,
+        "information": information
+    }
+
+
+def generate_ai_small_scale_game(prompt="", class_name="IV", subject="Science", topic="", game_type="auto", conditions="", information="", num_questions=3, difficulty="Medium", api_key=None):
+    """
+    AI Game Developer Agent:
+    Builds a complete, playable, small-scale interactive game tailored to teacher's:
+    1. Topic & Subject
+    2. Given Conditions & Rules (e.g. bucket counts, difficulty, constraints)
+    3. Custom Information & Notes (e.g. teacher's lesson facts, word lists)
+    4. Target Game Mechanic / Type
+    """
+    class_name = str(class_name or "IV").strip().upper()
+    subject = str(subject or "Science").strip()
+    topic = str(topic or "").strip()
+    prompt = str(prompt or "").strip()
+    effective_topic = topic or prompt or f"{subject} Exploration"
+    num_questions = max(1, min(10, int(num_questions or 3)))
+
+    canonical_engine, display_game_type = normalize_requested_game_type(game_type, effective_topic, subject, information)
+
+    # Formulate Game Architect Agent Prompt for Gemini API
+    game_architect_prompt = f"""You are an expert AI Educational Game Developer and Game Architect Agent for schools (Classes I to VIII).
+The teacher wants you to build a small-scale interactive game based on specific conditions and information.
+
+TEACHER SPECIFICATIONS:
+- Target Class: Class {class_name}
+- Subject: {subject}
+- Primary Topic: {effective_topic}
+- Target Game Mechanic / Engine: {canonical_engine} ({display_game_type})
+- Given Conditions & Rules: {conditions or "None specified. Optimize for Class " + class_name + " learning level."}
+- Given Information / Lesson Notes: {information or "Use authentic, age-appropriate curriculum facts about " + effective_topic}
+- Number of Accompanying Questions: {num_questions}
+- Difficulty Level: {difficulty}
+
+ENGINE SCHEMAS:
+1. If "bucket-sorter" (Sort & Group):
+   "interactiveConfig": {{
+     "engine": "bucket-sorter",
+     "title": "...",
+     "icon": "🧺",
+     "instruction": "Sort the cards into the correct baskets!",
+     "speechPrompt": "Tap a card first, then tap the matching basket!",
+     "buckets": [
+       {{ "id": "b1", "label": "Category 1", "color": "#10b981", "border": "#059669" }},
+       {{ "id": "b2", "label": "Category 2", "color": "#8b5cf6", "border": "#7c3aed" }}
+     ],
+     "items": [
+       {{ "text": "Item A", "icon": "⭐", "bucket": "b1" }},
+       {{ "text": "Item B", "icon": "🎯", "bucket": "b2" }}
+     ]
+   }}
+2. If "pair-matcher" (Match Pairs):
+   "interactiveConfig": {{
+     "engine": "pair-matcher",
+     "title": "...",
+     "icon": "🔗",
+     "instruction": "Match each item on the left with its partner on the right!",
+     "speechPrompt": "Tap an item on the left, then tap its matching pair on the right!",
+     "pairs": [
+       {{ "id": "1", "itemA": "Term 1", "itemB": "Definition 1" }},
+       {{ "id": "2", "itemA": "Term 2", "itemB": "Definition 2" }}
+     ]
+   }}
+3. If "word-train" (Sequence Order):
+   "interactiveConfig": {{
+     "engine": "word-train",
+     "title": "...",
+     "icon": "🚂",
+     "instruction": "Arrange the steps in the correct order!",
+     "speechPrompt": "Tap each step in sequence to assemble the train!",
+     "rounds": [
+       {{
+         "prompt": "Arrange the stages in order:",
+         "words": ["Step 3", "Step 1", "Step 2"],
+         "correctOrder": ["Step 1", "Step 2", "Step 3"]
+       }}
+     ]
+   }}
+4. If "word-scramble":
+   "interactiveConfig": {{
+     "engine": "word-scramble",
+     "title": "...",
+     "icon": "🧩",
+     "instruction": "Unscramble the letters to reveal the secret word!",
+     "speechPrompt": "Tap the letters in order to spell out the word!",
+     "rounds": [
+       {{ "word": "SOLIDS", "clue": "State of matter with a fixed shape", "icon": "🧊" }}
+     ]
+   }}
+5. If "number-line-hopper":
+   "interactiveConfig": {{
+     "engine": "number-line-hopper",
+     "title": "...",
+     "icon": "🐸",
+     "instruction": "Hop Freddie Frog to the prize target!",
+     "speechPrompt": "Pick your hops to land Freddie Frog on the prize!",
+     "rounds": [
+       {{ "start": 0, "target": 12, "step": 3, "allowedHops": [1, 3, 5], "hint": "Hop by 3s to reach 12!" }}
+     ]
+   }}
+
+MANDATORY RULES:
+1. STRICT ADHERENCE: Strictly incorporate the teacher's given conditions and custom information into the game elements!
+2. AGE APPROPRIATENESS: Target Class {class_name} students with engaging emoji and clear language.
+3. Return ONLY valid JSON matching this schema:
+{{
+  "title": "Catchy Game Title with Emoji (max 45 chars)",
+  "class": "{class_name}",
+  "subject": "{subject}",
+  "skillArea": "{effective_topic[:40]}",
+  "gameType": "{display_game_type}",
+  "desc": "Short, friendly instructions for the student",
+  "time": "{max(3, num_questions * 2)} min",
+  "interactiveConfig": {{ ... }},
+  "questions": [
+    {{
+      "prompt": "Quiz question directly matching the game content?",
+      "options": ["Option A", "Option B", "Option C", "Option D"],
+      "answer": 0,
+      "explanation": "Why the correct answer is right.",
+      "visual_hint": "💡 Visual Clue: ...",
+      "svg_diagram": ""
+    }}
+  ]
+}}
+"""
+
+    gemini_result, provider = call_gemini_api(game_architect_prompt, api_key=api_key)
+    if gemini_result and isinstance(gemini_result, dict) and "interactiveConfig" in gemini_result:
+        raw_cfg = gemini_result.get("interactiveConfig", {})
+        if isinstance(raw_cfg, dict) and "engine" in raw_cfg:
+            cleaned_questions = []
+            for idx, q in enumerate(gemini_result.get("questions", [])):
+                if not isinstance(q, dict) or "prompt" not in q:
+                    continue
+                opts = q.get("options", [])
+                if not isinstance(opts, list) or len(opts) < 2:
+                    continue
+                while len(opts) < 4:
+                    opts.append(f"Option {chr(65 + len(opts))}")
+                opts = [str(o) for o in opts[:4]]
+                ans = q.get("answer", 0)
+                if not isinstance(ans, int) or ans < 0 or ans >= len(opts):
+                    ans = 0
+
+                clue, svg = get_topic_visual_clue_and_svg(effective_topic, subject, class_name, idx)
+                cleaned_questions.append({
+                    "prompt": str(q.get("prompt", "Question")),
+                    "options": opts,
+                    "answer": ans,
+                    "explanation": str(q.get("explanation", f"Correct answer: {opts[ans]}.")),
+                    "visual_hint": str(q.get("visual_hint", clue)).strip() or clue,
+                    "svg_diagram": svg
+                })
+
+            task_dict = {
+                "title": str(gemini_result.get("title", f"🎮 {effective_topic} Challenge"))[:50],
+                "class": class_name,
+                "subject": subject,
+                "skillArea": str(gemini_result.get("skillArea", effective_topic))[:40],
+                "gameType": display_game_type,
+                "desc": str(gemini_result.get("desc", f"Interactive {display_game_type} game built by AI Agent for Class {class_name}.")),
+                "time": str(gemini_result.get("time", f"{max(3, num_questions * 2)} min")),
+                "interactiveConfig": raw_cfg,
+                "questions": cleaned_questions[:num_questions],
+                "conditions": conditions,
+                "information": information
+            }
+            return task_dict, f"🎮 AI Game Developer Agent ({provider})"
+
+    # Fallback to intelligent offline game builder
+    fallback_game = build_fallback_small_scale_game(
+        prompt=prompt,
+        class_name=class_name,
+        subject=subject,
+        topic=topic,
+        engine_key=canonical_engine,
+        display_type=display_game_type,
+        conditions=conditions,
+        information=information,
+        num_questions=num_questions,
+        difficulty=difficulty
+    )
+    return fallback_game, "🎮 AI Game Developer Agent (Built-in Curriculum Engine)"
+
 # 2. INTELLIGENT CURRICULUM AI FALLBACK ENGINE
 # =====================================================================
 

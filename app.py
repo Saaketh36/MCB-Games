@@ -12,6 +12,7 @@ from models import db, Class, Subject, Skill, Game, Teacher, Student, Assignment
 from sqlalchemy import func
 import os
 import sys
+import json
 from datetime import datetime
 import logging
 
@@ -56,165 +57,52 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # ============================================================
-# CURRICULUM & GAMES DATA (for in-memory references)
+# CURRICULUM & GAMES DATA (Strictly from skill_areas_data.json & full_games_catalog.json)
 # ============================================================
 
-CURRICULUM = {
-    "I": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Numbers", "Addition", "Subtraction", "Shapes"],
-        "Science": ["Life Skills", "Nature", "Safety"],
-    },
-    "II": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Numbers", "Multiplication", "Division", "Measurement"],
-        "Science": ["Life Skills", "Weather", "Environment"],
-    },
-    "III": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Numbers", "Fractions", "Geometry", "Measurement"],
-        "Science": ["Plants", "Animals", "Weather"],
-    },
-    "IV": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Fractions", "Decimals", "Geometry", "Data"],
-        "Science": ["Ecosystems", "Body", "Weather"],
-    },
-    "V": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Decimals", "Percentages", "Geometry", "Algebra"],
-        "Science": ["Matter", "Forces", "Life Cycles"],
-    },
-    "VI": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Algebra", "Geometry", "Statistics", "Ratios"],
-        "Science": ["Cells", "Reproduction", "Ecology"],
-    },
-    "VII": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Algebra", "Geometry", "Statistics", "Probability"],
-        "Science": ["Physics", "Chemistry", "Biology"],
-    },
-    "VIII": {
-        "English": ["Listening", "Reading", "Writing", "Speaking"],
-        "Mathematics": ["Algebra", "Geometry", "Statistics", "Calculus"],
-        "Science": ["Physics", "Chemistry", "Biology"],
-    }
-}
+def _load_curriculum_and_games():
+    """Load curriculum structure strictly from skill_areas_data.json and games catalog."""
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    curr = {}
+    games_by_skill = {}
+    avail_games = {}
 
-GAMES = {
-    "Listening": ["Listen & Do Adventure", "Story Time Quiz", "Audio Story Sequencing", "Sound Identification Game"],
-    "Reading": ["Read & Comprehend", "Word Matching Game", "Passage Understanding", "Story Ordering Game"],
-    "Writing": ["Letter Formation", "Word Construction", "Sentence Building", "Story Writing Challenge"],
-    "Speaking": ["Word Pronunciation", "Rhyme Time Challenge", "Speech Practice", "Dialogue Simulation"],
-    "Numbers": ["Count & Match", "Number Recognition", "Number Sequence", "Place Value Game"],
-    "Addition": ["Simple Addition", "Addition Race", "Addition Stories", "Number Bonds Game"],
-    "Subtraction": ["Subtraction Basics", "Subtraction Stories", "Take Away Game", "Difference Finder"],
-    "Shapes": ["Shape Sorter", "Shape Matcher", "Shape Recognition", "Pattern Builder"],
-    "Multiplication": ["Times Table Game", "Multiplication Race", "Array Builder", "Multiplication Stories"],
-    "Division": ["Division Basics", "Division Game", "Sharing Game", "Division Stories"],
-    "Measurement": ["Length Measurer", "Weight & Volume", "Time Tracker", "Measurement Converter"],
-    "Fractions": ["Fraction Basics", "Fraction Matcher", "Compare Fractions", "Fraction Builder"],
-    "Decimals": ["Decimal Identifier", "Decimal Operations", "Money Game", "Decimal Converter"],
-    "Geometry": ["Angle Identifier", "Area Calculator", "Perimeter Game", "Shape Transformer"],
-    "Data": ["Data Collector", "Chart Builder", "Graph Reader", "Data Organizer"],
-    "Algebra": ["Variable Game", "Equation Solver", "Expression Builder", "Pattern Rule Finder"],
-    "Statistics": ["Mean Calculator", "Median Finder", "Mode Identifier", "Data Analyzer"],
-    "Probability": ["Probability Simulator", "Dice Game", "Spinner Game", "Chance Calculator"],
-    "Ratios": ["Ratio Matcher", "Proportion Solver", "Scale Game", "Ratio Simplifier"],
-    "Percentages": ["Percentage Calculator", "Discount Game", "Percentage Converter", "Part to Whole"],
-    "Calculus": ["Rate of Change", "Derivative Visualizer", "Integral Calculator", "Limit Finder"],
-    "Life Skills": ["Body Parts Game", "Senses Game", "Hygiene Challenge", "Emotions Recognizer"],
-    "Nature": ["Animal Matcher", "Plant Identifier", "Habitat Game", "Food Chain Builder"],
-    "Safety": ["Safety Rules Game", "Traffic Signs Quiz", "Emergency Response", "Safe Behavior Quiz"],
-    "Weather": ["Weather Identifier", "Season Matcher", "Temperature Tracker", "Weather Predictor"],
-    "Environment": ["Recycling Game", "Pollution Fighter", "Conservation Challenge", "Green Living Quiz"],
-    "Plants": ["Plant Parts Game", "Plant Growth Simulator", "Seed Journey", "Photosynthesis Game"],
-    "Animals": ["Animal Classification", "Habitat Matcher", "Animal Behavior Game", "Food Chain Game"],
-    "Ecosystems": ["Food Chain Builder", "Ecosystem Simulator", "Biodiversity Game", "Habitat Creator"],
-    "Body": ["Skeleton Builder", "Muscle Game", "Organ Identifier", "Digestion Journey"],
-    "Matter": ["States of Matter", "Material Sorter", "Density Game", "Phase Change Simulator"],
-    "Forces": ["Push & Pull Game", "Motion Simulator", "Simple Machines Game", "Force Explorer"],
-    "Life Cycles": ["Butterfly Journey", "Frog Life Cycle", "Plant Growth", "Animal Stages"],
-    "Cells": ["Cell Structure Game", "Cell Organelles Matcher", "Cell Division Simulator", "Microscope Adventure"],
-    "Reproduction": ["Plant Reproduction", "Animal Reproduction", "Life Cycle Simulator", "Genetics Game"],
-    "Ecology": ["Population Game", "Community Simulator", "Biome Matcher", "Adaptation Challenge"],
-    "Physics": ["Motion Simulator", "Energy Converter", "Wave Visualizer", "Electromagnetic Game"],
-    "Chemistry": ["Element Matcher", "Reaction Simulator", "Periodic Table Game", "Chemical Bonding Game"],
-    "Biology": ["Photosynthesis Simulator", "Respiration Game", "Genetics Simulator", "Evolution Game"]
-}
+    try:
+        skills_file = os.path.join(base_dir, 'skill_areas_data.json')
+        if os.path.exists(skills_file):
+            with open(skills_file, 'r', encoding='utf-8') as f:
+                skills_data = json.load(f)
+            for item in skills_data:
+                cls_key = item['class'].replace('Class ', '').strip()
+                sub = item['subject']
+                skill_area = item['skillArea']
 
-AVAILABLE_GAMES = {
-    # CLASS I - ENGLISH
-    'Listen & Do Adventure': 'listen_do_adventure.html',
-    'Story Time Quiz': 'story_time_quiz_game.html',
-    'Letter Formation': 'letter_formation.html',
-    'Pronunciation Game': 'pronunciation_game.html',
+                if cls_key not in curr:
+                    curr[cls_key] = {}
+                if sub not in curr[cls_key]:
+                    curr[cls_key][sub] = []
+                if skill_area not in curr[cls_key][sub]:
+                    curr[cls_key][sub].append(skill_area)
 
-    # CLASS I - MATHEMATICS
-    'Count & Match': 'count_and_match.html',
-    'Simple Addition': 'simple_addition.html',
-    'Shape Sorter': 'shape_sorter.html',
-    'Subtraction Basics': 'subtraction_basics.html',
+        catalog_file = os.path.join(base_dir, 'full_games_catalog.json')
+        if os.path.exists(catalog_file):
+            with open(catalog_file, 'r', encoding='utf-8') as f:
+                cat_data = json.load(f)
+            for g in cat_data:
+                sa = g['skillArea']
+                title = g['title']
+                if sa not in games_by_skill:
+                    games_by_skill[sa] = []
+                if title not in games_by_skill[sa]:
+                    games_by_skill[sa].append(title)
+                avail_games[title] = f"index.html#quest={g['id']}"
 
-    # CLASS I - SCIENCE
-    'Life Skills Quiz': 'life_skills_quiz.html',
-    'Nature Explorer': 'nature_explorer.html',
-    'Safety Rules Quiz': 'safety_rules_quiz.html',
+    except Exception as e:
+        logger.error(f"Error initializing curriculum and games: {e}")
 
-    # CLASS II - MATHEMATICS
-    'Times Table Game': 'multiplication_table.html',
-    'Division Basics': 'division_basics.html',
-    'Measurement Quiz': 'measurement_quiz.html',
+    return curr, games_by_skill, avail_games
 
-    # CLASS II - SCIENCE
-    'Weather Quiz': 'weather_quiz.html',
-    'Environment Game': 'environment_game.html',
-
-    # CLASS II - ENGLISH
-    'Reading Comprehension II': 'reading_comprehension_2.html',
-    'Writing Practice II': 'writing_practice_2.html',
-    'Speaking Practice II': 'speaking_practice_2.html',
-
-    # CLASS III
-    'Fraction Basics': 'fraction_basics.html',
-    'Plant Parts Quiz': 'plant_parts_quiz.html',
-    'Animal Matcher': 'animal_matcher.html',
-
-    # CLASS IV
-    'Decimal Identifier': 'decimal_identifier.html',
-    'Geometry Game': 'geometry_game.html',
-    'Data Collector': 'data_collector.html',
-    'Ecosystem Simulator': 'ecosystem_simulator.html',
-    'Body Systems Quiz': 'body_systems_quiz.html',
-
-    # CLASS V
-    'Percentage Calculator': 'percentage_calculator.html',
-    'Algebra Basics': 'algebra_basics.html',
-    'Matter States Quiz': 'matter_states_quiz.html',
-    'Forces Game': 'forces_game.html',
-    'Life Cycles Quiz': 'life_cycles_quiz.html',
-
-    # CLASS VI
-    'Ratio Game': 'ratio_game.html',
-    'Statistics Quiz': 'statistics_quiz.html',
-    'Cell Structure Game': 'cell_structure_game.html',
-    'Cell Organelles Matcher': 'cell_organelles_matcher.html',
-    'Reproduction Quiz': 'reproduction_quiz.html',
-    'Ecology Game': 'ecology_game.html',
-
-    # CLASS VII
-    'Probability Game': 'probability_game.html',
-    'Physics Quiz': 'physics_quiz.html',
-    'Chemistry Game': 'chemistry_game.html',
-    'Biology Quiz': 'biology_quiz.html',
-
-    # CLASS VIII
-    'Calculus Basics': 'calculus_basics.html',
-    'Advanced Physics': 'advanced_physics.html',
-    'Advanced Chemistry': 'advanced_chemistry.html',
-    'Advanced Biology': 'advanced_biology.html'
-}
+CURRICULUM, GAMES, AVAILABLE_GAMES = _load_curriculum_and_games()
 
 # ============================================================
 # API ROUTES - CURRICULUM & GAMES
@@ -542,7 +430,7 @@ def get_skill_report(skill_id):
 # API ROUTES - AI GAME & QUIZ GENERATION
 # ============================================================
 
-from ai_helper import generate_ai_task_and_quiz
+from ai_helper import generate_ai_task_and_quiz, generate_ai_small_scale_game
 from ai_cache import lookup_cached_task, store_cached_task, get_cache_statistics
 
 @app.route('/api/ai/generate-task', methods=['POST'])
@@ -559,12 +447,19 @@ def api_generate_ai_task():
         api_key = data.get('api_key', None)
         force_refresh = bool(data.get('force_refresh', False))
 
+        game_type = data.get('game_type', 'auto')
+        conditions = data.get('conditions', '')
+        information = data.get('information', '')
+        is_game_builder = bool(data.get('is_game_builder', False) or conditions or information or (game_type and game_type not in ['auto', 'mcq']))
+
         target_topic = topic or prompt or f"{subject} Concepts"
 
-        # 1. Question Bank Cache check in PostgreSQL
-        if not force_refresh:
+        # 1. Question Bank Cache check in PostgreSQL (only for generic requests without unique custom teacher conditions/notes)
+        has_custom_input = bool(conditions.strip() or information.strip())
+        if not force_refresh and not has_custom_input:
+            cache_query_topic = f"{target_topic}::{game_type}" if is_game_builder else target_topic
             cached_res = lookup_cached_task(
-                db.session, class_name, subject, target_topic, difficulty, num_questions
+                db.session, class_name, subject, cache_query_topic, difficulty, num_questions
             )
             if cached_res:
                 task_data, original_provider = cached_res
@@ -582,21 +477,37 @@ def api_generate_ai_task():
                     }
                 }), 200
 
-        # 2. Fresh generation via Gemini AI (with smart curriculum fallback)
-        task_data, provider = generate_ai_task_and_quiz(
-            prompt=prompt,
-            class_name=class_name,
-            subject=subject,
-            topic=topic,
-            num_questions=num_questions,
-            difficulty=difficulty,
-            api_key=api_key
-        )
+        # 2. Generation via AI Game Developer Agent OR Standard Quiz Generator
+        if is_game_builder:
+            task_data, provider = generate_ai_small_scale_game(
+                prompt=prompt,
+                class_name=class_name,
+                subject=subject,
+                topic=topic,
+                game_type=game_type,
+                conditions=conditions,
+                information=information,
+                num_questions=num_questions,
+                difficulty=difficulty,
+                api_key=api_key
+            )
+        else:
+            task_data, provider = generate_ai_task_and_quiz(
+                prompt=prompt,
+                class_name=class_name,
+                subject=subject,
+                topic=topic,
+                num_questions=num_questions,
+                difficulty=difficulty,
+                api_key=api_key
+            )
 
-        # 3. Store in PostgreSQL Question Bank Cache for instant future reuse
-        store_cached_task(
-            db.session, class_name, subject, target_topic, difficulty, num_questions, task_data, provider
-        )
+        # 3. Store in PostgreSQL Question Bank Cache for instant future reuse (if not uniquely custom-conditioned)
+        if not has_custom_input:
+            cache_store_topic = f"{target_topic}::{game_type}" if is_game_builder else target_topic
+            store_cached_task(
+                db.session, class_name, subject, cache_store_topic, difficulty, num_questions, task_data, provider
+            )
 
         is_gemini = 'Gemini' in provider
         return jsonify({

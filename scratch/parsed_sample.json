@@ -1,0 +1,3082 @@
+[
+  {
+    "id": 1,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Carries out simple instructions such as \u2018Shut the door\u2019, \u2018Bring me the book\u2019, and such others"
+  },
+  {
+    "id": 2,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Listens to instructions and draws a picture"
+  },
+  {
+    "id": 3,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Listens to English words, greetings, polite forms of expression, simple sentences, and responds in English or the home language or \u2018signing\u2019 (using sign language)"
+  },
+  {
+    "id": 4,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Reading Phonics & Letter Recognition Differentiates between small and capital letters in print or Braille"
+  },
+  {
+    "id": 5,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Reading Phonics & Letter Recognition Produces words with common blends like \u2018br\u2019, \u2018fr\u2019 like \u2018brother\u2019, \u2018frog\u2019 etc."
+  },
+  {
+    "id": 6,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Reading Phonics & Letter Recognition Recognises letters and their sounds A\u2013Z"
+  },
+  {
+    "id": 7,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Reading Word Recognition Associates words with pictures"
+  },
+  {
+    "id": 8,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Responds orally (in any language including sign language) to comprehension questions related to stories/poems"
+  },
+  {
+    "id": 9,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Talks about self/situations/pictures in English"
+  },
+  {
+    "id": 10,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Speaking Questioning Identifies characters and sequence of a story and asks questions about the story"
+  },
+  {
+    "id": 11,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Recites poems/rhymes with actions"
+  },
+  {
+    "id": 12,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses nouns such as \u2018boy\u2019, \u2018sun\u2019, and prepositions like \u2018in\u2019, \u2018on\u2019, \u2018under\u2019, etc."
+  },
+  {
+    "id": 13,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Names familiar objects seen in the pictures"
+  },
+  {
+    "id": 14,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Writing Pre-writing Draws, scribbles in response to poems and stories"
+  },
+  {
+    "id": 15,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes simple words like fan, hen, rat etc."
+  },
+  {
+    "id": 16,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Collection & Interpretation Collects, records (using pictures/numerals) and interprets simple information by looking at visuals"
+  },
+  {
+    "id": 17,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Length & Distance Estimates and measures short lengths using non-uniform units like a finger, hand span, length of a forearm, footsteps, etc."
+  },
+  {
+    "id": 18,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Addition & SubtractionApplies addition and subtraction of numbers 1 to 20 in daily life \u2013 constructs addition facts up to 9 using concrete objects; subtracts numbers using 1 to 9; solves day-to-day problems related to addition and subtraction of numbers up to 9"
+  },
+  {
+    "id": 19,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Develops the concept of zero"
+  },
+  {
+    "id": 20,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Recites number names and counts objects up to 20, concretely, pictorially and symbolically"
+  },
+  {
+    "id": 21,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Recognises numbers up to 99 and writes numerals"
+  },
+  {
+    "id": 22,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Works with numbers 1 to 20 \u2013 counts objects using numbers 1 to 9; compares numbers up to 20 (e.g., tells whether the number of girls or boys is more in the class)"
+  },
+  {
+    "id": 23,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Patterns Number Patterns Observes, extends and creates patterns of shapes and numbers (e.g., 1,2,3,4,5\u2026; 1,3,5\u2026; 2,4,6\u2026)"
+  },
+  {
+    "id": 24,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 3D Shapes & Nets Describes the physical features of various solids/shapes in her own language (e.g., a ball rolls, a box slides)"
+  },
+  {
+    "id": 25,
+    "masterclassId": 5,
+    "class": "I",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding Classification of ObjectsClassifies objects into groups based on a few physical attributes such as shape, size and other observable properties including rolling and sliding"
+  },
+  {
+    "id": 26,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Listens to instructions and draws a picture"
+  },
+  {
+    "id": 27,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Listens to English words, greetings, polite forms of expression, and responds in English/home language like \u2018How are you?\u2019, \u2018I\u2019m fine, thank you.\u2019 etc."
+  },
+  {
+    "id": 28,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Listens to short texts from children\u2019s section of newspapers, read out by the teacher"
+  },
+  {
+    "id": 29,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionIdentifies characters and sequence of events in a story"
+  },
+  {
+    "id": 30,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionResponds to comprehension questions related to stories and poems, in home language or English or sign language, orally and in writing (phrases/short sentences)"
+  },
+  {
+    "id": 31,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Speaking Questioning Expresses verbally her or his opinion and asks questions about the characters, storyline, etc., in English or home language"
+  },
+  {
+    "id": 32,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Sings songs or rhymes with action"
+  },
+  {
+    "id": 33,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses prepositions like \u2018before\u2019, \u2018between\u2019 etc."
+  },
+  {
+    "id": 34,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses pronouns related to gender like \u2018his/her\u2019, \u2018he/she\u2019, \u2018it\u2019 and other pronouns like \u2018this/that\u2019, \u2018here/there\u2019, \u2018these/those\u2019 etc."
+  },
+  {
+    "id": 35,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses simple adjectives related to size, shape, colour, weight, texture such as \u2018big\u2019, \u2018small\u2019, \u2018round\u2019, \u2018pink\u2019, \u2018red\u2019, \u2018heavy\u2019, \u2018light\u2019, \u2018soft\u2019 etc."
+  },
+  {
+    "id": 36,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Writing Pre-writing Draws or writes a few words or short sentences in response to poems and stories"
+  },
+  {
+    "id": 37,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Composes and writes simple, short sentences with space between words"
+  },
+  {
+    "id": 38,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Collection & Interpretation Draws inference based on the data collected (e.g., the number of vehicles used in Samir\u2019s house is more than that in Angelina\u2019s)"
+  },
+  {
+    "id": 39,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Capacity & Volume Estimates and measures length/distances and capacities of containers using uniform non-standard units like a rod/pencil, cup/spoon/bucket etc."
+  },
+  {
+    "id": 40,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Money Represents an amount up to Rs. 100 using 3\u20134 notes and coins (of same/different denominations) of play money"
+  },
+  {
+    "id": 41,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Identifies the days of the week and months of the year"
+  },
+  {
+    "id": 42,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Sequences events according to their duration in terms of hours/days (e.g., does a child remain in school for a longer period than at home?)"
+  },
+  {
+    "id": 43,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Weight Compares objects as heavier/lighter than, using a simple balance"
+  },
+  {
+    "id": 44,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Addition & SubtractionSolves simple daily life problems/situations based on addition and subtraction of two digit numbers"
+  },
+  {
+    "id": 45,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Works with two digit numbers \u2013 reads and writes numerals up to 99; uses place value in writing and comparing two digit numbers; forms the greatest and smallest two digit numbers (with and without repetition of digits)"
+  },
+  {
+    "id": 46,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 2D Shapes & Lines Distinguishes between straight and curved lines; draws/represents straight lines in various orientations (vertical, horizontal, slant)"
+  },
+  {
+    "id": 47,
+    "masterclassId": 6,
+    "class": "II",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 3D Shapes & Nets Describes basic 3D and 2D shapes with their observable characteristics \u2013 identifies cuboid, cylinder, cone and sphere by their names"
+  },
+  {
+    "id": 48,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Responds appropriately to oral messages/telephonic communication"
+  },
+  {
+    "id": 49,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads printed scripts on the classroom walls: poems, posters, charts etc."
+  },
+  {
+    "id": 50,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Reading Reading Aloud & Fluency Reads aloud with appropriate pronunciation and pause"
+  },
+  {
+    "id": 51,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionReads small texts in English with comprehension i.e., identifies main idea, details and sequence and draws conclusions in English"
+  },
+  {
+    "id": 52,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Expresses orally her/his opinion/understanding about the story and characters in the story, in English/home language"
+  },
+  {
+    "id": 53,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Performs in events such as role play/skit in English with appropriate expressions"
+  },
+  {
+    "id": 54,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Recites poems individually/in groups with correct pronunciation and intonation"
+  },
+  {
+    "id": 55,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses a variety of nouns, pronouns, adjectives and prepositions in context as compared to previous class"
+  },
+  {
+    "id": 56,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Tenses Distinguishes between simple past and simple present tenses"
+  },
+  {
+    "id": 57,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Identifies opposites like \u2018day/night\u2019, \u2018close/open\u2019, and such others"
+  },
+  {
+    "id": 58,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Uses vocabulary related to subjects like Maths, EVS, relevant to Class III"
+  },
+  {
+    "id": 59,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Writing Dictation Writes/types dictation of words/phrases/sentences"
+  },
+  {
+    "id": 60,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Writing Mechanics & Punctuation Uses punctuation such as question mark, full stop and capital letters appropriately"
+  },
+  {
+    "id": 61,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Uses meaningful short sentences in English, orally and in writing"
+  },
+  {
+    "id": 62,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes 5\u20136 sentences in English on personal experiences/events using verbal or visual clues"
+  },
+  {
+    "id": 63,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Classification & Grouping Grouping by Features & Properties Groups objects, birds, animals, features and activities according to differences/similarities using different senses (appearance, place of living, food, movement, likes/dislikes)"
+  },
+  {
+    "id": 64,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Creative ExpressionDrawings, Models & Maps Creates drawings, designs, motifs, models, top/front/side views of objects, simple maps (of classroom, sections of home/school) and slogans, poems, etc."
+  },
+  {
+    "id": 65,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Estimation & VerificationGuesses properties, estimates quantities of materials/activities in daily life and verifies using symbols/non-standard units (hand spans, spoons/mugs, etc.)"
+  },
+  {
+    "id": 66,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Recording & Predicting Patterns Records observations, experiences, information on objects/activities/places visited in different ways and predicts patterns (e.g., shapes of moon, seasons)"
+  },
+  {
+    "id": 67,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Family & Community Describes roles of family members, family influences (traits/features/habits/practices), and need for living together, through oral/written/other ways"
+  },
+  {
+    "id": 68,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Food & Water Describes need of food for people of different age groups, animals and birds; availability of food and water and use of water at home and surroundings"
+  },
+  {
+    "id": 69,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Mapping & Spatial Skills Map Reading & Directions Identifies directions, location of objects/places in simple maps (of home/classroom/school) using signs/symbols/verbally"
+  },
+  {
+    "id": 70,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Animals & Birds Identifies simple features (movement, places found/kept, eating habits, sounds) of animals and birds in the immediate surroundings"
+  },
+  {
+    "id": 71,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Family & RelationshipsIdentifies relationships with and among family members"
+  },
+  {
+    "id": 72,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Plants Identifies simple observable features (shape, colour, texture, aroma) of leaves, trunk and bark of plants in immediate surroundings"
+  },
+  {
+    "id": 73,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Surroundings (Objects, Places & Activities) Identifies objects, signs (vessels, stoves, transport, means of communication, signboards), places (types of houses/shelters, bus stand, petrol pump) and activities (work people do, cooking processes) at home/school/neighbourhood"
+  },
+  {
+    "id": 74,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Past & Present (Change over Time) Continuity & Change Differentiates between objects and activities of present and past (at the time of the elders) \u2013 clothes, vessels, games played, work done by people"
+  },
+  {
+    "id": 75,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Opinion on Social IssuesVoices opinion on good/bad touch, gender stereotypes for tasks/play/food in family, misuse/wastage of food and water in family and school"
+  },
+  {
+    "id": 76,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Rules & Cooperation Observes rules in games (local, indoor, outdoor) and other collective tasks"
+  },
+  {
+    "id": 77,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Sensitivity, Hygiene & Conservation Shows sensitivity for plants, animals, the elderly, differently abled and diverse family set-ups in surroundings"
+  },
+  {
+    "id": 78,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation (Tables & Graphs) Records data using tally marks, represents pictorially and draws conclusions"
+  },
+  {
+    "id": 79,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Capacity & Volume Compares the capacity of different containers in terms of non-standard units"
+  },
+  {
+    "id": 80,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Length & Distance Estimates and measures length and distance using standard units like centimetres or metres and identifies relationships"
+  },
+  {
+    "id": 81,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Money Adds and subtracts small amounts of money with or without regrouping"
+  },
+  {
+    "id": 82,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Money Makes rate charts and simple bills"
+  },
+  {
+    "id": 83,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Identifies a particular day and date on a calendar"
+  },
+  {
+    "id": 84,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Reads the time correctly to the hour using a clock/watch"
+  },
+  {
+    "id": 85,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Weight Adds and subtracts measures involving grams and kilograms in life situations"
+  },
+  {
+    "id": 86,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Weight Weighs objects using standard units \u2013 grams and kilograms \u2013 using a simple balance"
+  },
+  {
+    "id": 87,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Addition & SubtractionSolves simple daily life problems using addition and subtraction of three digit numbers with and without regrouping, sums not exceeding 999"
+  },
+  {
+    "id": 88,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Estimation & Problem Solving Analyses and applies an appropriate number operation in the situation/context"
+  },
+  {
+    "id": 89,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Multiplication & DivisionConstructs and uses the multiplication facts (tables) of 2, 3, 4, 5 and 10 in daily life situations"
+  },
+  {
+    "id": 90,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Multiplication & DivisionExplains the meaning of division facts by equal grouping/sharing and finds it by repeated subtraction (e.g., 12 \u00f7 3)"
+  },
+  {
+    "id": 91,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Works with three digit numbers \u2013 reads and writes numbers up to 999 using place value; compares numbers up to 999 based on place value"
+  },
+  {
+    "id": 92,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Patterns Number Patterns Extends patterns in simple shapes and numbers"
+  },
+  {
+    "id": 93,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 2D Shapes & Lines Describes 2D shapes by the number of sides, corners and diagonals"
+  },
+  {
+    "id": 94,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 2D Shapes & Lines Fills a given region leaving no gaps using a tile of a given shape"
+  },
+  {
+    "id": 95,
+    "masterclassId": 7,
+    "class": "III",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 2D Shapes & Lines Identifies and makes 2D shapes by paper folding, paper cutting on the dot grid, using straight lines etc."
+  },
+  {
+    "id": 96,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Responds to simple instructions, announcements in English made in class/school"
+  },
+  {
+    "id": 97,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Responds verbally/in writing in English to questions based on day-to-day life experiences, an article, story or poem heard or read"
+  },
+  {
+    "id": 98,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads printed script on the classroom walls, notice board, in posters and in advertisements"
+  },
+  {
+    "id": 99,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads subtitles on TV, titles of books, news headlines, pamphlets and advertisements"
+  },
+  {
+    "id": 100,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Reading Reading Aloud & Fluency Uses punctuation marks appropriately in reading aloud with intonation and pauses such as question mark, comma and full stop"
+  },
+  {
+    "id": 101,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Reading Reference Skills Uses dictionary to find out spelling and meaning"
+  },
+  {
+    "id": 102,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Reading Vocabulary in Context Infers the meaning of unfamiliar words by reading them in context"
+  },
+  {
+    "id": 103,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Describes briefly, orally/in writing, events, places and/or personal experiences in English"
+  },
+  {
+    "id": 104,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Presents orally and in writing the highlights of a given written text/short speech/narration/video, film, pictures, photograph etc."
+  },
+  {
+    "id": 105,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Shares riddles and tongue-twisters in English"
+  },
+  {
+    "id": 106,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Speaks briefly on a familiar issue like conservation of water and experiences of day-to-day life like a visit to a zoo or going to a mela"
+  },
+  {
+    "id": 107,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Enacts different roles in short skits"
+  },
+  {
+    "id": 108,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Recites poems with appropriate expressions and intonation"
+  },
+  {
+    "id": 109,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Linkers & Connectors Uses linkers to indicate connections between words and sentences such as \u2018First\u2019, \u2018Next\u2019, etc."
+  },
+  {
+    "id": 110,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Parts of Speech Uses nouns, verbs, adjectives and prepositions in speech and writing"
+  },
+  {
+    "id": 111,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Solves simple crossword puzzles, builds word chains, etc."
+  },
+  {
+    "id": 112,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Writing Dictation Writes/types dictation of short paragraphs (7\u20138 sentences)"
+  },
+  {
+    "id": 113,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Writes informal letters or messages with a sense of audience"
+  },
+  {
+    "id": 114,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "English",
+    "raw_rest": "Writing Mechanics & Punctuation Uses punctuation marks appropriately in writing such as question mark, comma, full stop and capital letters"
+  },
+  {
+    "id": 115,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Classification & Grouping Grouping by Features & Properties Groups animals, birds, plants, objects, waste material by observable features, instincts, uses and traits"
+  },
+  {
+    "id": 116,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Creative ExpressionDrawings, Models & Maps Creates collage, designs, models, rangolis, posters, albums, and simple maps (of school/neighbourhood, flow diagrams, etc.) using local/waste material"
+  },
+  {
+    "id": 117,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Estimation & VerificationGuesses properties/conditions of phenomena, estimates spatial quantities (distance, weight, time, duration) in standard/local units and verifies using simple tools/set-ups to establish cause and effect (evaporation, condensation, dissolution, absorption)"
+  },
+  {
+    "id": 118,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Recording & Predicting Patterns Records observations/experiences/information for objects, activities, phenomena, places visited (mela, festival, historical place) in different ways and predicts patterns"
+  },
+  {
+    "id": 119,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Animal Behaviour & Family Change Explains herd/group behaviour in animals (ants, bees, elephants), birds (building nests), and changes in family (due to birth, marriage, transfer, etc.)"
+  },
+  {
+    "id": 120,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Food & Water Explains the process of producing and procuring daily needs (food, water, clothes) from source to home (e.g., crops from field to mandi to home, water purification)"
+  },
+  {
+    "id": 121,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Work & Livelihood Describes different skilled work (farming, construction, art/craft, etc.), their inheritance (from elders) and training (role of institutions) in daily life"
+  },
+  {
+    "id": 122,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Mapping & Spatial Skills Map Reading & Directions Identifies signs, location of objects/places and guides for directions with respect to a landmark in school/neighbourhood using maps etc."
+  },
+  {
+    "id": 123,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Mapping & Spatial Skills Using Signs & Information Uses the information on signboards, posters, currency (notes/coins), railway ticket/time table"
+  },
+  {
+    "id": 124,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Animals & Birds Identifies different features (beaks/teeth, claws, ears, hair, nests/shelters, etc.) of birds and animals"
+  },
+  {
+    "id": 125,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Family & RelationshipsIdentifies relationship with and among family members in extended family"
+  },
+  {
+    "id": 126,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Observation & Identification Plants Identifies simple features (shape, colour, aroma, where they grow) of flowers, roots and fruits in immediate surroundings"
+  },
+  {
+    "id": 127,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Past & Present (Change over Time) Continuity & Change Differentiates between objects and activities of past and present (transport, currency, houses, materials, tools, skills \u2013 farming, construction, etc.)"
+  },
+  {
+    "id": 128,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Opinion on Social IssuesVoices opinion on issues observed/experienced in family/school/neighbourhood \u2013 stereotypes, discriminatory practices, child rights (schooling, child abuse, punishment, labour)"
+  },
+  {
+    "id": 129,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Sensitivity, Hygiene & Conservation Suggests ways for hygiene, reduce, reuse, recycle and takes care of living beings (plants, animals, the elderly, differently abled) and resources (food, water, public property)"
+  },
+  {
+    "id": 130,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation (Tables & Graphs) Represents the collected information in tables and bar graphs and draws inferences from these"
+  },
+  {
+    "id": 131,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Area & Perimeter Explores the area and perimeter of simple geometrical shapes (triangle, rectangle, square) in terms of a given shape as a unit"
+  },
+  {
+    "id": 132,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Estimation & Verification of Measures Estimates the length of an object/distance between two locations, weight of objects, volume of liquid, etc., and verifies them by actual measurement"
+  },
+  {
+    "id": 133,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Problem Solving with Measures Solves problems involving daily life situations related to length, distance, weight, volume and time involving four basic arithmetic operations"
+  },
+  {
+    "id": 134,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Calculates time intervals/duration of familiar daily life events using forward or backward counting/addition and subtraction"
+  },
+  {
+    "id": 135,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Time & Calendar Reads clock time in hours and minutes and expresses the time in a.m. and p.m.; relates 24 hr clock with 12 hr clock"
+  },
+  {
+    "id": 136,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Unit Conversion Converts metre into centimetre and vice versa"
+  },
+  {
+    "id": 137,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Estimation & Problem Solving Creates and solves simple real life situations/problems including money, length, mass and capacity by using the four operations"
+  },
+  {
+    "id": 138,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Fractions & Decimals Identifies half, one-fourth, three-fourths of a whole in a given picture, by paper folding and in a collection of objects"
+  },
+  {
+    "id": 139,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Fractions & Decimals Represents fractions as half, one-fourth and three-fourths using numbers/numerals; shows the equivalence of a fraction with other fractions"
+  },
+  {
+    "id": 140,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Multiplication & DivisionDivides a number by another using different methods \u2013 pictorially (by drawing dots), equal grouping or repeated subtraction, and using the inter-relationship between division and multiplication"
+  },
+  {
+    "id": 141,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Multiplication & DivisionMultiplies 2 and 3 digit numbers"
+  },
+  {
+    "id": 142,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Patterns Number Patterns Identifies the pattern in multiplication and division (up to multiples of 9)"
+  },
+  {
+    "id": 143,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Patterns Shape & Geometric Patterns Observes, identifies and extends geometrical patterns based on symmetry"
+  },
+  {
+    "id": 144,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 2D Shapes & Lines Identifies the centre, radius and diameter of a circle"
+  },
+  {
+    "id": 145,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 3D Shapes & Nets Finds out shapes that can be used for tiling; makes cubes/cuboids using given nets"
+  },
+  {
+    "id": 146,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding Spatial Views Draws top view, front view and side view of simple objects"
+  },
+  {
+    "id": 147,
+    "masterclassId": 8,
+    "class": "IV",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding Symmetry Shows the concept of symmetry by reflection through paper folding/paper cutting, ink blots, etc."
+  },
+  {
+    "id": 148,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Acts according to instructions given in English, in games/sports, such as \u2018Hit the ball!\u2019, \u2018Throw the ring.\u2019, \u2018Run to the finish line!\u2019 etc."
+  },
+  {
+    "id": 149,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Answers coherently in written or oral form to questions in English based on day-to-day life experiences, unfamiliar story, poem heard or read"
+  },
+  {
+    "id": 150,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Reading Critical Reading Connects ideas that he/she has inferred, through reading and interaction, with his/her personal experiences"
+  },
+  {
+    "id": 151,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads print in the surroundings (advertisements, directions, names of places etc.), understands and answers queries"
+  },
+  {
+    "id": 152,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Reading Extensive Reading Reads independently English storybooks, news items/headlines, advertisements etc., talks about them, and composes short paragraphs"
+  },
+  {
+    "id": 153,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionReads text with comprehension, locates details and sequence of events"
+  },
+  {
+    "id": 154,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Reading Reference Skills Uses the dictionary for reference"
+  },
+  {
+    "id": 155,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Speaking Conversation & Polite Expressions Conducts short interviews of people around him/her e.g. grandparents, teachers, school librarian, gardener etc."
+  },
+  {
+    "id": 156,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Appreciates, verbally/in writing, the variety in food, dress, customs and festivals as read/heard in day-to-day life, in storybooks, narratives, videos, films etc."
+  },
+  {
+    "id": 157,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Writes and speaks on peace, equality etc. suggesting personal views"
+  },
+  {
+    "id": 158,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Recites and shares English songs, poems, games, riddles, stories, tongue twisters etc. with peers and family members"
+  },
+  {
+    "id": 159,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Grammar in Use Uses meaningful grammatically correct sentences to describe and narrate incidents and for framing questions"
+  },
+  {
+    "id": 160,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Tenses Identifies kinds of nouns, adverbs; differentiates between simple past and simple present verbs"
+  },
+  {
+    "id": 161,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Uses synonyms such as \u2018big/large\u2019, \u2018shut/close\u2019, and antonyms like \u2018inside/outside\u2019, \u2018light/dark\u2019 from clues in context"
+  },
+  {
+    "id": 162,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Attempts to write creatively (stories, poems, posters, etc.)"
+  },
+  {
+    "id": 163,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes a \u2018mini biography\u2019 and \u2018mini autobiography\u2019"
+  },
+  {
+    "id": 164,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Writing Dictation Takes dictation for different purposes, such as lists, paragraphs, dialogues etc."
+  },
+  {
+    "id": 165,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Writes informal letters, messages and e-mails"
+  },
+  {
+    "id": 166,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes paragraphs in English from verbal, visual clues, with appropriate punctuation marks and linkers"
+  },
+  {
+    "id": 167,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Classification & Grouping Grouping by Features & Properties Groups objects, materials, activities by features and properties such as shape, taste, colour, texture, sound, traits etc."
+  },
+  {
+    "id": 168,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Creative ExpressionDrawings, Models & Maps Creates posters, designs, models, set-ups, local dishes, sketches, maps (of neighbourhood/places visited) using local/waste material and writes poems/slogans/travelogue etc."
+  },
+  {
+    "id": 169,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Estimation & VerificationGuesses properties/conditions of phenomena, estimates spatial quantities (distance, area, volume, weight) and time in simple standard units and verifies using simple tools/set-ups (floating, sinking, mixing, evaporation, germination, spoilage)"
+  },
+  {
+    "id": 170,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Estimation, Experimentation & Recording Recording & Predicting Patterns Records observations, experiences and information in an organised manner (tables, sketches, bar graphs, pie charts) and predicts patterns to establish cause and effect"
+  },
+  {
+    "id": 171,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Animals & Birds Explains the super senses and unusual features (sight, smell, hearing, sleep, sound, etc.) of animals and their responses to light, sound, food etc."
+  },
+  {
+    "id": 172,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Food & Water Explains the use of technology and the process of accessing basic needs (food, water etc.) in daily life (farm produce to kitchen, preservation techniques, storage and tracking of water source)"
+  },
+  {
+    "id": 173,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Institutions Explains the role and functions of different institutions in daily life (Bank, Panchayat, cooperatives, police station, etc.)"
+  },
+  {
+    "id": 174,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Interdependence in Nature Describes the interdependence among animals, plants and humans (livelihoods from animals, dispersal of seeds etc.)"
+  },
+  {
+    "id": 175,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Explanation & Understanding Relationships Terrain, Climate & Culture Establishes linkages among terrain, climate, resources (food, water, shelter, livelihood) and cultural life (e.g., life in hot/cold deserts)"
+  },
+  {
+    "id": 176,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Mapping & Spatial Skills Map Reading & Directions Identifies signs, directions, location of objects/landmarks of a locality/place visited in maps and predicts directions in context of positions at different places"
+  },
+  {
+    "id": 177,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Past & Present (Change over Time) Continuity & Change Traces changes in practices, customs, techniques of past and present through coins, paintings, monuments, museums and interacting with elders"
+  },
+  {
+    "id": 178,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Opinion on Social IssuesVoices opinions on issues observed/experienced and relates them to larger issues of society (discrimination, migration/displacement, exclusion, child rights)"
+  },
+  {
+    "id": 179,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "EVS",
+    "raw_rest": "Values, Sensitivity & Opinion Sensitivity, Hygiene & Conservation Suggests ways for hygiene, health, managing waste, disaster/emergency situations and protecting/saving resources (land, fuels, forests), and shows sensitivity for the disadvantaged/deprived"
+  },
+  {
+    "id": 180,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation (Tables & Graphs) Collects data related to various daily life situations, represents it in tabular form and as bar graphs and interprets it"
+  },
+  {
+    "id": 181,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Estimation & Verification of Measures Estimates the volume of a solid body in known units (e.g., volume of a bucket is about 20 times that of a mug)"
+  },
+  {
+    "id": 182,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Problem Solving with Measures Applies the four fundamental arithmetic operations in solving problems involving money, length, mass, capacity and time intervals"
+  },
+  {
+    "id": 183,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Measurement (Length, Weight, Capacity, Time, Money) Unit Conversion Relates commonly used larger and smaller units of length, weight and volume and converts larger units to smaller units and vice versa"
+  },
+  {
+    "id": 184,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Estimation & Problem Solving Estimates sum, difference, product and quotient of numbers and verifies them using different strategies"
+  },
+  {
+    "id": 185,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Fractions & Decimals Expresses fractions like 1/2, 1/4, 1/5 in decimal notation and vice versa (e.g., in units of length and money); converts fractions into decimals and vice versa"
+  },
+  {
+    "id": 186,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Fractions & Decimals Finds the number corresponding to part of a collection; identifies and forms equivalent fractions of a given fraction"
+  },
+  {
+    "id": 187,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Multiplication & DivisionPerforms four basic arithmetic operations on numbers beyond 1000 by understanding place value; divides a number by another using standard algorithms"
+  },
+  {
+    "id": 188,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Numbers & Operations Number Sense & Place Value Reads and writes numbers bigger than 1000 being used in her/his surroundings"
+  },
+  {
+    "id": 189,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Patterns Number Patterns Identifies the pattern in triangular numbers and square numbers"
+  },
+  {
+    "id": 190,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding 3D Shapes & Nets Makes cube, cylinder and cone using nets designed for this purpose"
+  },
+  {
+    "id": 191,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding Angles Classifies angles into right angle, acute angle, obtuse angle and represents them by drawing and tracing"
+  },
+  {
+    "id": 192,
+    "masterclassId": 9,
+    "class": "V",
+    "subject": "Mathematics",
+    "raw_rest": "Shapes & Spatial Understanding Symmetry Identifies 2D shapes from the immediate environment that have rotation and reflection symmetry like alphabets and shapes"
+  },
+  {
+    "id": 193,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Responds to announcements and instructions made in class, school assembly, railway station and in other public places"
+  },
+  {
+    "id": 194,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Listening Language Lab Visits a language laboratory"
+  },
+  {
+    "id": 195,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Listening Listening Comprehension & Response Responds to oral messages, telephonic communication in English and communicates them in English or home language"
+  },
+  {
+    "id": 196,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads to seek information from notice board, newspaper, Internet, tables, charts, diagrams and maps etc."
+  },
+  {
+    "id": 197,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionReads a variety of texts in English/Braille and identifies main ideas, characters, sequence of ideas and events and relates with his/her personal experiences"
+  },
+  {
+    "id": 198,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionResponds to a variety of questions on familiar and unfamiliar texts verbally and in writing"
+  },
+  {
+    "id": 199,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Reading Reference Skills Refers to dictionary to check meaning and spelling, and to suggested websites for information"
+  },
+  {
+    "id": 200,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Uses meaningful sentences to describe/narrate factual/imaginary situations in speech and writing"
+  },
+  {
+    "id": 201,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Participates in activities in English like role play, group discussion, debate, etc."
+  },
+  {
+    "id": 202,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Recites and shares poems, songs, jokes, riddles, tongue twisters, etc."
+  },
+  {
+    "id": 203,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Grammar in Use Writes grammatically correct sentences for a variety of situations, using noun, pronoun, verb, adverb, determiners, etc."
+  },
+  {
+    "id": 204,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Uses synonyms, antonyms appropriately; deduces word meanings from clues in context while reading a variety of texts"
+  },
+  {
+    "id": 205,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes a book review"
+  },
+  {
+    "id": 206,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Writing Dictation Writes words/phrases/simple sentences and short paragraphs as dictated by the teacher"
+  },
+  {
+    "id": 207,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Writes messages, invitations, short paragraphs and letters (formal and informal) with a sense of audience"
+  },
+  {
+    "id": 208,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Drafts, revises and writes short paragraphs based on verbal, print and visual clues"
+  },
+  {
+    "id": 209,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes coherently with focus on appropriate beginning, middle and end in English/Braille"
+  },
+  {
+    "id": 210,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Variables & Algebraic Expressions Uses variables with different operations to generalise a given situation (e.g., perimeter of a rectangle with sides x units and 3 units is 2(x+3) units)"
+  },
+  {
+    "id": 211,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation & Interpretation Arranges given/collected information (e.g., family expenditure over six months) in the form of table, pictograph and bar graph and interprets them"
+  },
+  {
+    "id": 212,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry 3D Shapes & Visualisation Identifies 3D objects like sphere, cube, cuboid, cylinder, cone from the surroundings; describes and gives examples of edges, vertices and faces"
+  },
+  {
+    "id": 213,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Basic Geometrical IdeasDescribes geometrical ideas like line, line segment, open and closed figures, angle, triangle, quadrilateral, circle, etc., with examples in surroundings"
+  },
+  {
+    "id": 214,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Lines & Angles Demonstrates an understanding of angles \u2013 identifies examples in surroundings, classifies angles by measure, estimates measures using 45\u00b0, 90\u00b0 and 180\u00b0 as reference"
+  },
+  {
+    "id": 215,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Quadrilaterals Classifies quadrilaterals into different groups/types on the basis of their sides/angles"
+  },
+  {
+    "id": 216,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Symmetry Demonstrates an understanding of line symmetry \u2013 identifies and creates symmetrical 2D shapes"
+  },
+  {
+    "id": 217,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Triangles & CongruenceClassifies triangles on the basis of their angles and sides (scalene, isosceles, equilateral)"
+  },
+  {
+    "id": 218,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Perimeter & Area Finds out the perimeter and area of rectangular objects in the surroundings like floor of the classroom, surfaces of a chalk box etc."
+  },
+  {
+    "id": 219,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Factors, Multiples & Divisibility Applies HCF or LCM in a particular situation"
+  },
+  {
+    "id": 220,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Factors, Multiples & Divisibility Recognises and appreciates (through patterns) the broad classification of numbers as even, odd, prime, co-prime, etc."
+  },
+  {
+    "id": 221,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Solves problems on daily life situations involving addition and subtraction of fractions/decimals"
+  },
+  {
+    "id": 222,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Uses fractions and decimals in different situations which involve money, length, temperature etc."
+  },
+  {
+    "id": 223,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Integers Solves problems involving addition and subtraction of integers"
+  },
+  {
+    "id": 224,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Whole Numbers & Operations Solves problems involving large numbers by applying appropriate operations (addition, subtraction, multiplication and division)"
+  },
+  {
+    "id": 225,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Ratio & Proportion Compares quantities using ratios in different situations (e.g., ratio of girls to boys in a class is 3:2)"
+  },
+  {
+    "id": 226,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Unitary Method Uses unitary method in solving various word problems"
+  },
+  {
+    "id": 227,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Classification Classification of Materials, Organisms & Processes Classifies materials, organisms and processes based on observable properties (soluble/insoluble; transparent/translucent/opaque; reversible/irreversible changes; herbs, shrubs, trees, creepers, climbers; biotic/abiotic; rectilinear, circular, periodic motion)"
+  },
+  {
+    "id": 228,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Creativity Exhibits creativity in designing, planning, making use of available resources, etc."
+  },
+  {
+    "id": 229,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Environmental ProtectionMakes efforts to protect environment (minimising wastage of food, water, electricity; rainwater harvesting; care for plants)"
+  },
+  {
+    "id": 230,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Scientific Values Exhibits values of honesty, objectivity, cooperation, freedom from fear and prejudices"
+  },
+  {
+    "id": 231,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Cause\u2013Effect Relationships Relates processes and phenomena with causes (deficiency diseases with diet; adaptations with habitats; air quality with pollutants)"
+  },
+  {
+    "id": 232,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Explaining Processes & Phenomena Explains processes and phenomena (processing of plant fibres, movements in plants and animals, formation of shadows, reflection from plane mirror, composition of air, preparation of vermicompost)"
+  },
+  {
+    "id": 233,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Identification & Differentiation Differentiation Differentiates materials and organisms (fibre and yarn; tap and fibrous roots; electrical conductors and insulators) on the basis of properties, structure and functions"
+  },
+  {
+    "id": 234,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Identification & Differentiation Identification Identifies materials and organisms, such as plant fibres and flowers, on the basis of observable features (appearance, texture, function, aroma)"
+  },
+  {
+    "id": 235,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Labelled Diagrams & Flow Charts Draws labelled diagrams/flow charts of organisms and processes (parts of flowers, joints, filtration, water cycle)"
+  },
+  {
+    "id": 236,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Measurement & Calculation Measures physical quantities and expresses them in SI units (e.g., length)"
+  },
+  {
+    "id": 237,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Application of Concepts in Daily Life Applies learning of scientific concepts in day-to-day life (balanced diet, separating materials, season-appropriate fabrics, compass for directions, coping with heavy rain/drought)"
+  },
+  {
+    "id": 238,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Model Construction Constructs models using materials from surroundings and explains their working (pinhole camera, periscope, electric torch)"
+  },
+  {
+    "id": 239,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Science",
+    "raw_rest": "Scientific Inquiry & Investigation Conducting Investigations Conducts simple investigations to seek answers to queries (e.g., nutrients in animal fodder; can all physical changes be reversed; does a freely suspended magnet align in a particular direction)"
+  },
+  {
+    "id": 240,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth & the Solar SystemDemonstrates day and night and seasons"
+  },
+  {
+    "id": 241,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth & the Solar SystemDistinguishes between stars, planets and satellites (Sun, Earth and Moon)"
+  },
+  {
+    "id": 242,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth & the Solar SystemExamines critically the superstitions related to eclipses"
+  },
+  {
+    "id": 243,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth & the Solar SystemRecognises that the earth is a unique celestial body due to existence of life, zones of the earth with special reference to biosphere"
+  },
+  {
+    "id": 244,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Draws a neighbourhood map showing scale, direction and features using conventional symbols"
+  },
+  {
+    "id": 245,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Identifies latitudes and longitudes (poles, equator, tropics), States/UTs of India and neighbouring countries on globe and world map"
+  },
+  {
+    "id": 246,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Locates directions on a flat surface and continents and oceans on the world map"
+  },
+  {
+    "id": 247,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Locates physical features of India (mountains, plateaus, plains, rivers, desert) on the map of India"
+  },
+  {
+    "id": 248,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Ancient India Explains broad developments during the ancient period (hunting\u2013gathering, beginning of agriculture, first cities on the Indus) and relates developments in one place with another"
+  },
+  {
+    "id": 249,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Ancient India Lists significant contributions of important kingdoms and dynasties (Ashokan inscriptions, Gupta coins, Ratha temples by Pallavas)"
+  },
+  {
+    "id": 250,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Ancient India Locates important historical sites and places on an outline map of India"
+  },
+  {
+    "id": 251,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Ancient India Recognises distinctive features of early human cultures and explains their growth"
+  },
+  {
+    "id": 252,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Ancient India Synthesises information related to various historical developments"
+  },
+  {
+    "id": 253,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Art, Architecture & Culture Describes issues, events, personalities mentioned in literary works of the time"
+  },
+  {
+    "id": 254,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Art, Architecture & Culture Describes the implications of India\u2019s contacts with regions outside India in religion, art, architecture, etc."
+  },
+  {
+    "id": 255,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Art, Architecture & Culture Outlines India\u2019s significant contributions in culture and science (astronomy, medicine, mathematics, knowledge of metals)"
+  },
+  {
+    "id": 256,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Religious Ideas & Movements Analyses basic ideas and values of various religions and systems of thought during the ancient period"
+  },
+  {
+    "id": 257,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "History Sources of History Identifies different types of sources (archaeological, literary etc.) and describes their use in reconstructing history of this period"
+  },
+  {
+    "id": 258,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Diversity & Discrimination Describes various forms of human diversity around her/him and develops a healthy attitude towards diversity"
+  },
+  {
+    "id": 259,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Diversity & Discrimination Differentiates between equality and inequality in various forms to treat them in a healthy way"
+  },
+  {
+    "id": 260,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Diversity & Discrimination Recognises various forms of discrimination and understands the nature and sources of discrimination"
+  },
+  {
+    "id": 261,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Government Describes the functioning of rural and urban local government bodies in sectors like health and education"
+  },
+  {
+    "id": 262,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Government Describes the role of government, especially at the local level; identifies levels of government \u2013 local, state and union"
+  },
+  {
+    "id": 263,
+    "masterclassId": 10,
+    "class": "VI",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Markets, Economy & Public Facilities Describes factors responsible for availability of different occupations in rural and urban areas"
+  },
+  {
+    "id": 264,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Responds to different kinds of instructions, requests, directions in varied contexts viz. school, bank, railway station"
+  },
+  {
+    "id": 265,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Listening Language Lab Visits a language laboratory"
+  },
+  {
+    "id": 266,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Listening Media & Public ListeningSpeaks about excerpts, dialogues, skits, short films, news and debate on TV and radio, audio\u2013video programmes on suggested websites"
+  },
+  {
+    "id": 267,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Critical Reading Thinks critically, compares and contrasts characters, events, ideas, themes and relates them to life"
+  },
+  {
+    "id": 268,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Environmental Print & Information Reads to seek information in print/online, notice board, signboards in public places, newspaper, hoardings etc."
+  },
+  {
+    "id": 269,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Extensive Reading Reads a variety of texts for pleasure e.g. adventure stories, science fiction, fairy tales, biography, autobiography, travelogue etc. (extensive reading)"
+  },
+  {
+    "id": 270,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionAnswers questions orally and in writing on a variety of texts"
+  },
+  {
+    "id": 271,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionIdentifies details, characters, main idea and sequence of ideas and events in textual/non-textual material"
+  },
+  {
+    "id": 272,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionReads textual/non-textual materials in English/Braille with comprehension"
+  },
+  {
+    "id": 273,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Speaking Questioning Asks and responds to questions based on texts (from books or other resources) and out of curiosity"
+  },
+  {
+    "id": 274,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Engages in conversations in English with family, friends, and people from different professions such as shopkeeper, salesperson etc. using appropriate vocabulary"
+  },
+  {
+    "id": 275,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Participates in different activities in English such as role play, poetry recitation, skit, drama, debate, speech, elocution, declamation, quiz, etc."
+  },
+  {
+    "id": 276,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Reads aloud stories and recites poems with appropriate pause, intonation and pronunciation"
+  },
+  {
+    "id": 277,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Grammar in Use Uses appropriate grammatical forms in communication (e.g. noun, pronoun, verb, determiners, time and tense, passivisation, adjective, adverb, etc.)"
+  },
+  {
+    "id": 278,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Infers the meaning of unfamiliar words by reading them in context"
+  },
+  {
+    "id": 279,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Refers dictionary, thesaurus and encyclopedia to find meanings/spelling of words while reading and writing"
+  },
+  {
+    "id": 280,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes a book review"
+  },
+  {
+    "id": 281,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes descriptions/narratives showing sensitivity to gender, environment and appreciation of cultural diversity"
+  },
+  {
+    "id": 282,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes dialogues from a story and story from dialogues"
+  },
+  {
+    "id": 283,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Writes formal letters, personal diary, list, email, SMS, etc."
+  },
+  {
+    "id": 284,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Note Taking Takes notes while teacher teaches/from books/from online materials"
+  },
+  {
+    "id": 285,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Organises sentences coherently in English/Braille with the help of verbal and visual clues and with a sense of audience"
+  },
+  {
+    "id": 286,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Linear Equations Represents daily life situations in the form of a simple equation and solves it"
+  },
+  {
+    "id": 287,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Variables & Algebraic Expressions Adds/subtracts algebraic expressions"
+  },
+  {
+    "id": 288,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation & Interpretation Interprets data using bar graphs (e.g., electricity consumption in winter vs summer, runs scored in first 10 overs)"
+  },
+  {
+    "id": 289,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Measures of Central Tendency Finds representative values for simple data from daily life contexts like mean, median and mode"
+  },
+  {
+    "id": 290,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Probability & Chance Recognises variability in real life situations (e.g., heights of students) and uncertainty in happening of events like throwing a coin"
+  },
+  {
+    "id": 291,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Constructions Using ruler and compasses, constructs a line parallel to a given line from a point outside it, and triangles"
+  },
+  {
+    "id": 292,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Lines & Angles Classifies pairs of angles as linear, supplementary, complementary, adjacent and vertically opposite, and finds the value of one when the other is given"
+  },
+  {
+    "id": 293,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Lines & Angles Verifies the properties of pairs of angles formed when a transversal cuts two lines"
+  },
+  {
+    "id": 294,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Triangles & CongruenceExplains congruency of triangles on the basis of information given (SSS, SAS, ASA, RHS)"
+  },
+  {
+    "id": 295,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Triangles & CongruenceFinds unknown angle of a triangle when its two angles are known"
+  },
+  {
+    "id": 296,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Perimeter & Area Calculates areas of the regions enclosed in a rectangle and a square"
+  },
+  {
+    "id": 297,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Perimeter & Area Finds approximate area of closed shapes using unit square grid/graph sheet"
+  },
+  {
+    "id": 298,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Exponents, Squares & Roots Uses exponential form of numbers to simplify problems involving multiplication and division of large numbers"
+  },
+  {
+    "id": 299,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Interprets the division and multiplication of fractions"
+  },
+  {
+    "id": 300,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Solves problems related to daily life situations involving rational numbers"
+  },
+  {
+    "id": 301,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Uses algorithms to multiply and divide fractions/decimals"
+  },
+  {
+    "id": 302,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Integers Multiplies/divides two integers"
+  },
+  {
+    "id": 303,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Percentage, Profit & Loss, Interest Calculates profit/loss percent and rate percent in simple interest"
+  },
+  {
+    "id": 304,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Percentage, Profit & Loss, Interest Solves problems related to conversion of percentage to fraction and decimal and vice versa"
+  },
+  {
+    "id": 305,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Ratio & Proportion Distinguishes quantities that are in proportion (e.g., 15, 45, 40, 120)"
+  },
+  {
+    "id": 306,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Classification Classification of Materials, Organisms & Processes Classifies materials and organisms based on properties/characteristics (plant and animal fibres; physical and chemical changes)"
+  },
+  {
+    "id": 307,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Creativity Exhibits creativity in designing, planning, making use of available resources, etc."
+  },
+  {
+    "id": 308,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Environmental ProtectionMakes efforts to protect environment (sanitation in public places, minimising pollutants, planting trees, sensitising others on overconsumption)"
+  },
+  {
+    "id": 309,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Scientific Values Exhibits values of honesty, objectivity, cooperation, freedom from fear and prejudices"
+  },
+  {
+    "id": 310,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Cause\u2013Effect Relationships Relates processes and phenomena with causes (wind speed with air pressure; crops with soil types; depletion of water table with human activities)"
+  },
+  {
+    "id": 311,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Chemical Word Equations Writes word equations for chemical reactions (acid-base reactions, corrosion, photosynthesis, respiration)"
+  },
+  {
+    "id": 312,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Explaining Processes & Phenomena Explains processes and phenomena (processing of animal fibres, modes of heat transfer, organs and systems in humans and plants, heating and magnetic effects of electric current)"
+  },
+  {
+    "id": 313,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Identification & Differentiation Differentiation Differentiates materials and organisms (digestion in different organisms; unisexual and bisexual flowers; conductors and insulators of heat; acidic, basic and neutral substances; images by mirrors and lenses) on the basis of properties, structure and function"
+  },
+  {
+    "id": 314,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Identification & Differentiation Identification Identifies materials and organisms (animal fibres, types of teeth, mirrors and lenses) on the basis of observable features"
+  },
+  {
+    "id": 315,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Graphs Plots and interprets graphs (e.g., distance\u2013time graph)"
+  },
+  {
+    "id": 316,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Labelled Diagrams & Flow Charts Draws labelled diagrams/flow charts (organ systems, electric circuits, experimental set-ups, life cycle of silk moth)"
+  },
+  {
+    "id": 317,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Measurement & Calculation Measures and calculates temperature, pulse rate, speed of moving objects, time period of a simple pendulum, etc."
+  },
+  {
+    "id": 318,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Application of Concepts in Daily Life Applies learning of scientific concepts in day-to-day life (dealing with acidity, testing and treating soil, preventing corrosion, vegetative propagation, connecting cells, disaster measures, treating polluted water)"
+  },
+  {
+    "id": 319,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life History of Scientific Discoveries Discusses and appreciates stories of scientific discoveries"
+  },
+  {
+    "id": 320,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Model Construction Constructs models using materials from surroundings and explains their working (stethoscope, anemometer, electromagnet, Newton\u2019s colour disc)"
+  },
+  {
+    "id": 321,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Science",
+    "raw_rest": "Scientific Inquiry & Investigation Conducting Investigations Conducts simple investigations to seek answers to queries (flower extract as acid-base indicator; photosynthesis in non-green leaves; is white light composed of many colours)"
+  },
+  {
+    "id": 322,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Disasters & Management Explains preventive actions to be undertaken in the event of disasters (earthquake, floods, droughts)"
+  },
+  {
+    "id": 323,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Disasters & Management Reflects on the factors leading to disasters and calamities"
+  },
+  {
+    "id": 324,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth's Interior, Landforms & Atmosphere Describes formation of landforms due to various factors"
+  },
+  {
+    "id": 325,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth's Interior, Landforms & Atmosphere Explains composition and structure of the atmosphere"
+  },
+  {
+    "id": 326,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Earth's Interior, Landforms & Atmosphere Identifies major layers of the earth\u2019s interior, rock types and layers of the atmosphere in a diagram"
+  },
+  {
+    "id": 327,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Analyses factors contributing to pollution in surroundings and lists measures to prevent it"
+  },
+  {
+    "id": 328,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Describes different components of the environment and the interrelationship between them"
+  },
+  {
+    "id": 329,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Reasons out factors leading to diversity in flora and fauna (climate, landforms)"
+  },
+  {
+    "id": 330,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Shows sensitivity to the need for conservation of natural resources \u2013 air, water, energy, flora and fauna"
+  },
+  {
+    "id": 331,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Human Geography & Development Analyses factors that impact development of specific regions"
+  },
+  {
+    "id": 332,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Human Geography & Development Draws interrelationship between climatic regions and life of people in different climatic regions of the world, including India"
+  },
+  {
+    "id": 333,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Locates distribution and extent of different climatic regions on the world map or globe"
+  },
+  {
+    "id": 334,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Art, Architecture & Culture Describes distinctive developments in style and technology used for construction of temples, tombs and mosques"
+  },
+  {
+    "id": 335,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Medieval India Analyses administrative measures and strategies for military control adopted by different kingdoms (Khaljis, Tughluqs, Mughals)"
+  },
+  {
+    "id": 336,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Medieval India Analyses socio-political and economic changes during the medieval period"
+  },
+  {
+    "id": 337,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Medieval India Draws comparisons between policies of different rulers"
+  },
+  {
+    "id": 338,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Medieval India Explains the relationship between livelihood patterns and geographical conditions (tribes, nomadic pastoralists, banjaras)"
+  },
+  {
+    "id": 339,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Medieval India Relates key historical developments during the medieval period in one place with another"
+  },
+  {
+    "id": 340,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Religious Ideas & Movements Analyses factors which led to the emergence of new religious ideas and movements (bhakti and sufi)"
+  },
+  {
+    "id": 341,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Religious Ideas & Movements Draws inferences from poetry of bhakti and sufi saints about the existing social order"
+  },
+  {
+    "id": 342,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "History Sources of History Provides examples of sources used to study various periods in history"
+  },
+  {
+    "id": 343,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Explains the significance of equality in democracy; distinguishes between political, economic and social equality"
+  },
+  {
+    "id": 344,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Interprets social, political and economic issues in one\u2019s own region with reference to the right to equality"
+  },
+  {
+    "id": 345,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Elections & Constituencies Differentiates between local government and State government; describes the process of election to the legislative assembly"
+  },
+  {
+    "id": 346,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Elections & Constituencies Locates one\u2019s own constituency on the assembly constituency map of State/UT and names local MLA"
+  },
+  {
+    "id": 347,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Gender Analyses causes and consequences of disadvantages faced by women; identifies women achievers and illustrates their contributions"
+  },
+  {
+    "id": 348,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Markets, Economy & Public Facilities Differentiates between different kinds of markets; traces how goods travel through various market places"
+  },
+  {
+    "id": 349,
+    "masterclassId": 11,
+    "class": "VII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Media & Advertising Explains the functioning of media with examples from newspapers; creates an advertisement"
+  },
+  {
+    "id": 350,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Listening Following Instructions & Announcements Responds to instructions and announcements in school and public places viz. railway station, market, airport, cinema hall, and acts accordingly"
+  },
+  {
+    "id": 351,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Listening Language Lab Visits a language laboratory"
+  },
+  {
+    "id": 352,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Listening Media & Public ListeningReads excerpts, dialogues, poems, commentaries of sports and games, speeches, news, debates on TV, radio and expresses opinions about them"
+  },
+  {
+    "id": 353,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Reading Critical Reading Interprets quotations, sayings and proverbs"
+  },
+  {
+    "id": 354,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Reading Critical Reading Reads, compares, contrasts, thinks critically and relates ideas to life"
+  },
+  {
+    "id": 355,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Reading Extensive Reading Reads a variety of texts for pleasure e.g. adventure stories, science fiction, fairy tales, non-fiction articles, narratives, travelogues, biographies, etc. (extensive reading)"
+  },
+  {
+    "id": 356,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionIdentifies details, characters, main idea and sequence of ideas and events while reading"
+  },
+  {
+    "id": 357,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Reading Reading ComprehensionReads textual/non-textual materials in English/Braille with comprehension"
+  },
+  {
+    "id": 358,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Conversation & Polite Expressions Introduces guests in English, interviews people by asking questions based on the work they do"
+  },
+  {
+    "id": 359,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Conversation & Polite Expressions Uses formulaic/polite expressions to communicate such as \u2018May I borrow your book?\u2019, \u2018I would like to differ\u2019 etc."
+  },
+  {
+    "id": 360,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Narrates stories (real or imaginary) and real life experiences in English"
+  },
+  {
+    "id": 361,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Speaks about objects/events in the class/school environment and outside surroundings"
+  },
+  {
+    "id": 362,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Oral Expression & Narration Speaks short prepared speech in morning assembly"
+  },
+  {
+    "id": 363,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Questioning Asks questions in different contexts and situations (based on the text/beyond the text/out of curiosity/while engaging in conversation) using appropriate vocabulary and accurate sentences"
+  },
+  {
+    "id": 364,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Engages in conversations in English with people from different professions such as bank staff, railway staff, etc. using appropriate vocabulary"
+  },
+  {
+    "id": 365,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Speaking Recitation & Performance Participates in different events such as role play, poetry recitation, skit, drama, debate, speech, elocution, declamation, quiz, etc."
+  },
+  {
+    "id": 366,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Grammar in Use Communicates accurately using appropriate grammatical forms (e.g., clauses, comparison of adjectives, time and tense, active/passive voice, reported speech etc.)"
+  },
+  {
+    "id": 367,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Grammar in Use Participates in grammar games and kinaesthetic activities for language learning"
+  },
+  {
+    "id": 368,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Infers the meaning of unfamiliar words by reading them in context"
+  },
+  {
+    "id": 369,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Vocabulary & Grammar Vocbulary Refers dictionary, thesaurus and encyclopedia as reference books for meaning and spelling while reading and writing"
+  },
+  {
+    "id": 370,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Answer Writing Writes answers to textual/non-textual questions after comprehension/inference; draws character sketch, attempts extrapolative writing"
+  },
+  {
+    "id": 371,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Develops a skit (dialogues from a story) and story from dialogues"
+  },
+  {
+    "id": 372,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Creative Writing Writes a book review"
+  },
+  {
+    "id": 373,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Prepares a write-up after seeking information in print/online, notice board, newspaper, etc."
+  },
+  {
+    "id": 374,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Functional Writing Writes email, messages, notice, formal letters, descriptions/narratives, personal diary, report, short personal/biographical experiences etc."
+  },
+  {
+    "id": 375,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes a coherent and meaningful paragraph through the process of drafting, revising, editing and finalising"
+  },
+  {
+    "id": 376,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "English",
+    "raw_rest": "Writing Word, Sentence & Paragraph Writing Writes short paragraphs coherently in English/Braille with a proper beginning, middle and end with appropriate punctuation marks"
+  },
+  {
+    "id": 377,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Algebraic Identities Uses various algebraic identities in solving problems of daily life"
+  },
+  {
+    "id": 378,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Variables & Algebraic Expressions Multiplies algebraic expressions (e.g., expands (2x-5)(3x\u00b2+7))"
+  },
+  {
+    "id": 379,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Algebra Variables & Algebraic Expressions Solves puzzles and daily life problems using variables"
+  },
+  {
+    "id": 380,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Data Representation & Interpretation Draws and interprets bar charts and pie charts"
+  },
+  {
+    "id": 381,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Data Handling Probability & Chance Makes hypotheses on chances of future events on the basis of earlier occurrences or available data (e.g., repeated throws of dice and coins)"
+  },
+  {
+    "id": 382,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry 3D Shapes & Visualisation Represents 3D shapes on a plane surface such as sheet of paper, blackboard etc."
+  },
+  {
+    "id": 383,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry 3D Shapes & Visualisation Verifies Euler\u2019s relation through pattern"
+  },
+  {
+    "id": 384,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Constructions Constructs different quadrilaterals using compasses and straight edge"
+  },
+  {
+    "id": 385,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Quadrilaterals Solves problems related to angles of a quadrilateral using angle sum property"
+  },
+  {
+    "id": 386,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Geometry Quadrilaterals Verifies properties of parallelograms and establishes the relationship between them through reasoning"
+  },
+  {
+    "id": 387,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Perimeter & Area Estimates the area of shapes like trapezium and other polygons using square grid/graph sheet and verifies using formulas"
+  },
+  {
+    "id": 388,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Perimeter & Area Finds the area of a polygon"
+  },
+  {
+    "id": 389,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Mensuration Surface Area & VolumeFinds surface area and volume of cuboidal and cylindrical objects"
+  },
+  {
+    "id": 390,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Exponents, Squares & Roots Finds squares, cubes, square roots and cube roots of numbers using different methods"
+  },
+  {
+    "id": 391,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Exponents, Squares & Roots Solves problems with integral exponents"
+  },
+  {
+    "id": 392,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Factors, Multiples & Divisibility Proves divisibility rules of 2, 3, 4, 5, 6, 9 and 11"
+  },
+  {
+    "id": 393,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Finds out as many rational numbers as possible between two given rational numbers"
+  },
+  {
+    "id": 394,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Number System Fractions, Decimals & Rational Numbers Generalises properties of addition, subtraction, multiplication and division of rational numbers through patterns"
+  },
+  {
+    "id": 395,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Percentage, Profit & Loss, Interest Applies the concept of per cent in profit and loss situations to find discount, VAT and compound interest"
+  },
+  {
+    "id": 396,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Mathematics",
+    "raw_rest": "Ratio, Proportion & Commercial Arithmetic Ratio & Proportion Solves problems based on direct and inverse proportions"
+  },
+  {
+    "id": 397,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Classification Classification of Materials, Organisms & Processes Classifies materials and organisms based on properties/characteristics (metals and non-metals; kharif and rabi crops; useful and harmful microorganisms; sexual and asexual reproduction; celestial objects; exhaustible and inexhaustible resources)"
+  },
+  {
+    "id": 398,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Creativity Exhibits creativity in designing, planning, making use of available resources, etc."
+  },
+  {
+    "id": 399,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Environmental ProtectionMakes efforts to protect environment (judicious use of resources, controlled use of fertilisers and pesticides, coping with environmental hazards)"
+  },
+  {
+    "id": 400,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Environmental Awareness, Creativity & Values Scientific Values Exhibits values of honesty, objectivity, cooperation, freedom from fear and prejudices"
+  },
+  {
+    "id": 401,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Cause\u2013Effect Relationships Relates processes and phenomena with causes (smog with air pollutants; deterioration of monuments with acid rain)"
+  },
+  {
+    "id": 402,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Chemical Word Equations Writes word equations for chemical reactions (reactions of metals and non-metals with air, water and acids)"
+  },
+  {
+    "id": 403,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Explaining Processes & Cause-Effect Explaining Processes & Phenomena Explains processes and phenomena (reproduction in humans and animals, production and propagation of sound, chemical effects of electric current, multiple images, structure of flame)"
+  },
+  {
+    "id": 404,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Identification & Differentiation Differentiation Differentiates materials and organisms (natural and human-made fibres; contact and non-contact forces; liquids as conductors and insulators; plant and animal cells; viviparous and oviparous animals) on the basis of properties, structure and functions"
+  },
+  {
+    "id": 405,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Labelled Diagrams & Flow Charts Draws labelled diagrams/flow charts (structure of cell, eye, human reproductive organs, experimental set-ups)"
+  },
+  {
+    "id": 406,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Measurement & Calculation Measures angles of incidence and reflection, etc."
+  },
+  {
+    "id": 407,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Measurement, Recording & Representation Microscopy & Slide Preparation Prepares slides of microorganisms, onion peel, human cheek cells, etc., and describes their microscopic features"
+  },
+  {
+    "id": 408,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Application of Concepts in Daily Life Applies learning of scientific concepts in day-to-day life (purifying water, segregating wastes, increasing crop production, using metals/non-metals, friction, challenging myths and taboos about adolescence)"
+  },
+  {
+    "id": 409,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life History of Scientific Discoveries Discusses and appreciates stories of scientific discoveries"
+  },
+  {
+    "id": 410,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Models & Application in Daily Life Model Construction Constructs models using materials from surroundings and explains their working (ektara, electroscope, fire extinguisher)"
+  },
+  {
+    "id": 411,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Science",
+    "raw_rest": "Scientific Inquiry & Investigation Conducting Investigations Conducts simple investigations to seek answers to queries (conditions for combustion; salt and sugar in pickles; do liquids exert equal pressure at the same depth)"
+  },
+  {
+    "id": 412,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Agriculture & IndustriesAnalyses factors due to which some countries are known for production of major crops (wheat, rice, cotton, jute) and locates them on the world map"
+  },
+  {
+    "id": 413,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Agriculture & IndustriesClassifies different types of industries based on raw materials, size and ownership"
+  },
+  {
+    "id": 414,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Agriculture & IndustriesDescribes major crops, types of farming and agricultural practices in her/his own area/state"
+  },
+  {
+    "id": 415,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Agriculture & IndustriesDraws interrelationship between types of farming and development in different regions of the world"
+  },
+  {
+    "id": 416,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Disasters & Management Describes causes of forest fire, landslide, industrial disasters and their risk reduction measures"
+  },
+  {
+    "id": 417,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Analyses uneven distribution of natural and human-made resources on the earth"
+  },
+  {
+    "id": 418,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Environment & Natural Resources Justifies judicious use of natural resources such as water, soil, forest, etc."
+  },
+  {
+    "id": 419,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Draws bar diagrams to show population of different countries/India/states"
+  },
+  {
+    "id": 420,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Interprets the world map for uneven distribution of population"
+  },
+  {
+    "id": 421,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Geography Maps, Globe & Diagrams Locates distribution of important minerals (coal, mineral oil) on the world map"
+  },
+  {
+    "id": 422,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Art, Architecture & Culture Outlines major developments during the modern period in the field of arts"
+  },
+  {
+    "id": 423,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaAnalyses issues related to caste, women, widow remarriage, child marriage, social reforms and colonial laws/policies on these issues"
+  },
+  {
+    "id": 424,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaAnalyses significant developments in the process of nation building"
+  },
+  {
+    "id": 425,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaAnalyses the decline of pre-existing urban centres and handicraft industries and development of new urban centres and industries during the colonial period"
+  },
+  {
+    "id": 426,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaDescribes the forms of tribal societies in the 19th century and their relationship with the environment; explains colonial policies towards tribal communities"
+  },
+  {
+    "id": 427,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaExplains differences in the impact of colonial agrarian policies in different regions (e.g., indigo rebellion)"
+  },
+  {
+    "id": 428,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaExplains how the English East India Company became the most dominant power"
+  },
+  {
+    "id": 429,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaExplains the institutionalisation of the new education system in India"
+  },
+  {
+    "id": 430,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaExplains the origin, nature and spread of the revolt of 1857 and the lessons learned from it"
+  },
+  {
+    "id": 431,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Colonial & Modern IndiaOutlines the course of the Indian national movement from the 1870s till Independence"
+  },
+  {
+    "id": 432,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "History Sources of History Distinguishes the \u2018modern period\u2019 from the \u2018medieval\u2019 and \u2018ancient\u2019 periods through sources, nomenclature and broad developments"
+  },
+  {
+    "id": 433,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Analyses causes and consequences of marginalisation faced by disadvantaged sections of one\u2019s own region"
+  },
+  {
+    "id": 434,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Describes the functioning of the judicial system in India citing landmark cases; demonstrates how to file an FIR"
+  },
+  {
+    "id": 435,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Describes the process of making a law (e.g., Domestic Violence Act, RTI Act, RTE Act)"
+  },
+  {
+    "id": 436,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Illustrates the Fundamental Rights and Fundamental Duties with examples; applies them to find out about their violation, protection and promotion (e.g., Child Rights)"
+  },
+  {
+    "id": 437,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Constitution, Rights & Laws Interprets social and political issues in one\u2019s own region with reference to the Constitution of India"
+  },
+  {
+    "id": 438,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Elections & Constituencies Differentiates between State government and Union government; describes the process of election to the Lok Sabha"
+  },
+  {
+    "id": 439,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Elections & Constituencies Locates one\u2019s own constituency on the parliamentary constituency map of State/UT and names local MP"
+  },
+  {
+    "id": 440,
+    "masterclassId": 12,
+    "class": "VIII",
+    "subject": "Social Science",
+    "raw_rest": "Social & Political Life (Civics & Economics) Markets, Economy & Public Facilities Identifies the role of Government in providing public facilities (water, sanitation, road, electricity) and in regulating economic activities"
+  }
+]

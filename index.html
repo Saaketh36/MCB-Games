@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <script src="full_games_catalog.js"></script>
-    <link rel="stylesheet" href="css/styles.css?v=2.0">
-    <link rel="stylesheet" href="css/class2_games.css?v=2.0">
+    <script src="full_games_catalog.js?v=5.4"></script>
+    <link rel="stylesheet" href="css/styles.css?v=5.6">
+    <link rel="stylesheet" href="css/class2_games.css?v=5.4">
+    <link rel="stylesheet" href="css/reading_studio.css?v=5.4">
 </head>
 
 <body>
@@ -62,21 +63,18 @@
                 <!-- Top Row: Mode Tabs & Clean Class Dropdown -->
                 <div class="ucp-top-row">
                     <div class="tab-toggles">
-                        <button type="button" class="tab-btn" id="tabMyAssignments" onclick="setKidSubTab('assigned')">
+                        <div class="tab-btn active" id="tabMyAssignments" style="cursor: default;">
                             <span>📖</span> Assigned activities <span class="tab-counter-badge" id="assignedCountBadge">0</span>
-                        </button>
-                        <button type="button" class="tab-btn active" id="tabExploreGames" onclick="setKidSubTab('explore')">
-                            <span>🧭</span> Explore all games
-                        </button>
+                        </div>
                     </div>
 
                     <div class="teacher-class-selector-wrapper">
                         <span class="teacher-class-label">Class:</span>
                         <select class="class-dropdown-btn" id="kidClassSelect" onchange="handleClassFilterChange(this.value)">
                             <option value="I">Class I</option>
-                            <option value="II" selected>Class II</option>
+                            <option value="II">Class II</option>
                             <option value="III">Class III</option>
-                            <option value="IV">Class IV</option>
+                            <option value="IV" selected>Class IV</option>
                             <option value="V">Class V</option>
                             <option value="VI">Class VI</option>
                             <option value="VII">Class VII</option>
@@ -140,9 +138,6 @@
                         <button type="button" class="btn-create-task-modal" id="btnOpenCreateTaskModal" onclick="openCreateTaskModal(true)">
                             <span>✨</span> Create Activity
                         </button>
-                        <button type="button" class="btn-assign-modal" onclick="openAssignModal()">
-                            <span>+</span> Assign
-                        </button>
                     </div>
                 </div>
 
@@ -152,9 +147,9 @@
                         <span class="teacher-class-label">Class:</span>
                         <select class="class-dropdown-btn" id="teacherClassSelect" onchange="handleTeacherClassChange(this.value)">
                             <option value="I">Class I</option>
-                            <option value="II" selected>Class II</option>
+                            <option value="II">Class II</option>
                             <option value="III">Class III</option>
-                            <option value="IV">Class IV</option>
+                            <option value="IV" selected>Class IV</option>
                             <option value="V">Class V</option>
                             <option value="VI">Class VI</option>
                             <option value="VII">Class VII</option>
@@ -185,6 +180,14 @@
 
                     <div style="display: flex; gap: 8px; align-items: center; margin-left: auto;">
                         <input type="text" class="search-box-input" style="width: 190px;" id="teacherSearchInput" placeholder="Search activities..." oninput="filterTeacherActivities(this.value)">
+                        <button type="button" class="btn-teacher-assign-bar" id="btnTeacherAssignBar" onclick="openAssignModal()" title="Assign activities to students">
+                            <svg class="assign-icon-dotted" width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="8" cy="8" r="6.5" stroke-dasharray="2.2 2.2"/>
+                                <line x1="8" y1="5" x2="8" y2="11"/>
+                                <line x1="5" y1="8" x2="11" y2="8"/>
+                            </svg>
+                            <span>Assign</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -194,9 +197,9 @@
                 <table class="curriculum-table">
                     <thead>
                         <tr>
-                            <th style="width: 44%;">Learning Game</th>
-                            <th style="width: 28%;">Completion Progress</th>
-                            <th style="width: 28%;">Assigned Students</th>
+                            <th style="width: 54%;">Learning Game</th>
+                            <th style="width: 16%;">Completion Progress</th>
+                            <th style="width: 30%;">Assigned Student Names</th>
                         </tr>
                     </thead>
                     <tbody id="teacherTableBody">
@@ -262,8 +265,8 @@
         <div class="assign-modal-card">
             <div class="who-header-top">
                 <div>
-                    <h3 class="who-modal-title">Assign a Game</h3>
-                    <p class="who-modal-sub">Create fun curriculum quests for your students</p>
+                    <h3 class="who-modal-title">Assign Skill</h3>
+                    <p class="who-modal-sub">Assign curriculum activities for a skill to your students</p>
                 </div>
                 <button type="button" class="modal-close-btn" onclick="closeAssignModal()">✕</button>
             </div>
@@ -285,30 +288,27 @@
             <div class="assign-form-group">
                 <label class="assign-label">Subject</label>
                 <select class="assign-select" id="modalAssignSubject" onchange="handleModalSubjectChange(this.value)">
-                    <option value="all">All Subjects</option>
                 </select>
             </div>
 
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px;">
-                <div class="assign-form-group" style="margin-bottom: 0;">
-                    <label class="assign-label">Skill Area</label>
-                    <select class="assign-select" id="modalAssignSkillArea"
-                        onchange="handleModalSkillAreaChange(this.value)">
-                        <option value="all">🎯 All Skill Areas</option>
-                    </select>
-                </div>
-
-                <div class="assign-form-group" style="margin-bottom: 0;">
-                    <label class="assign-label">Learning Game</label>
-                    <select class="assign-select" id="modalAssignGame"></select>
-                </div>
+            <div class="assign-form-group">
+                <label class="assign-label">Skill Area</label>
+                <select class="assign-select" id="modalAssignSkillArea"
+                    onchange="handleModalSkillAreaChange(this.value)">
+                </select>
             </div>
 
-            <div class="assign-form-group" style="display: none;">
-                <label class="assign-label">Activity</label>
-                <select class="assign-select" id="modalAssignActivity" onchange="handleModalActivityChange(this.value)">
-                    <option value="all">⚡ All Activities</option>
-                </select>
+            <!-- Select Activities in this skill with Checkboxes -->
+            <div class="assign-form-group" id="modalSkillActivitiesPreview">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                    <label class="assign-label" style="margin: 0;">
+                        Select Activities (<span id="modalSkillActivityCount">0</span>)
+                    </label>
+                    <button type="button" id="modalToggleAllActivitiesBtn"
+                        style="background: none; border: none; color: var(--primary); font-size: 12px; font-weight: 700; cursor: pointer;"
+                        onclick="toggleAssignActivitiesSelectAll()">Toggle All</button>
+                </div>
+                <div class="assign-students-list" id="modalSkillActivitiesList" style="max-height: 140px;"></div>
             </div>
 
             <div class="assign-form-group">
@@ -322,7 +322,7 @@
             </div>
 
             <button type="button" class="btn-start-challenge" onclick="submitModalAssignment()">
-                <span>✨</span> Assign Game to Selected Students
+                <span>✨</span> Assign Selected Activities to Students
             </button>
         </div>
     </div>
@@ -372,7 +372,7 @@
                     </div>
                     <div>
                         <h3 class="who-modal-title" style="margin: 0; font-size: 20px;">Create New Activity</h3>
-                        <p class="who-modal-sub" style="margin: 2px 0 0;">Describe what you want to teach — AI will automatically design the title, instructions, and interactive quiz!</p>
+                        <p class="who-modal-sub" style="margin: 2px 0 0;">Fill in the task details first, then generate or build interactive quiz questions for your students!</p>
                     </div>
                 </div>
                 <button type="button" class="modal-close-btn" onclick="closeCreateTaskModal()">✕</button>
@@ -380,71 +380,7 @@
 
             <!-- Scrollable Form Body -->
             <div class="create-task-form-body">
-                <!-- AI Automatic Game & Quiz Generator Hero Card -->
-                <div class="ai-generator-panel" id="aiGeneratorPanel">
-                    <div class="ai-panel-header">
-                        <div class="ai-sparkle-icon">🪄</div>
-                        <div>
-                            <div class="ai-panel-title">
-                                <span>AI Game & Quiz Generator</span>
-                                <span class="ai-badge" id="aiModelBadge">Google Gemini AI 🟢</span>
-                            </div>
-                            <div class="ai-panel-sub">
-                                Enter any topic or prompt below — AI will automatically design the game title, skill topic, student instructions, and interactive quiz questions!
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="ai-prompt-box">
-                        <textarea id="aiTaskPrompt" class="ai-textarea" rows="2"
-                            placeholder="e.g. Electricity, circuits, batteries, and home appliances... or any topic!"></textarea>
-
-                        <div class="ai-prompt-controls">
-                            <div class="ai-quick-tags">
-                                <span class="ai-tag-label">💡 Ideas:</span>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Electricity: circuits, batteries, switches, and home appliances', 'EVS')">⚡ Electricity</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Planets in the Solar System, orbits and moons', 'Science')">🪐 Solar System</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Magnets: North and South poles, attraction, and repulsion', 'Science')">🧲 Magnets</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Fractions and decimals using pizzas, chocolates and money', 'Mathematics')">🍕 Fractions</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Plant parts, photosynthesis, and leaf functions', 'Science')">🌿 Plants</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Verbs, past tense forms, and sentence building', 'English')">🔤 Grammar</button>
-                                <button type="button" class="ai-tag-btn" onclick="setAiPrompt('Water Cycle: evaporation, condensation, and clouds', 'EVS')">💧 Water Cycle</button>
-                            </div>
-
-                            <div class="ai-actions-row">
-                                <div class="ai-select-group">
-                                    <label for="aiNumQuestions">Questions:</label>
-                                    <select id="aiNumQuestions" class="ai-mini-select">
-                                        <option value="3">3 Questions</option>
-                                        <option value="5" selected>5 Questions</option>
-                                        <option value="8">8 Questions</option>
-                                    </select>
-                                </div>
-
-                                <div class="ai-select-group">
-                                    <label for="aiDifficulty">Difficulty:</label>
-                                    <select id="aiDifficulty" class="ai-mini-select">
-                                        <option value="Easy">Easy</option>
-                                        <option value="Medium" selected>Medium</option>
-                                        <option value="Challenging">Challenging</option>
-                                    </select>
-                                </div>
-
-                                <button type="button" class="btn-generate-ai" id="btnGenerateAiTask" onclick="triggerAiTaskGeneration(false)">
-                                    <span id="aiBtnIcon">✨</span> <span id="aiBtnText">Generate with AI</span>
-                                </button>
-                                <button type="button" class="btn-generate-ai-fresh" id="btnGenerateAiFresh" onclick="triggerAiTaskGeneration(true)" title="Generate fresh new questions from Gemini AI (bypassing Question Bank Cache)">
-                                    <span>🔄</span> <span>Regenerate Fresh</span>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Live Status & Feedback Strip -->
-                        <div id="aiGenerationStatus" class="ai-status-strip" style="display: none;"></div>
-                    </div>
-                </div>
-
-                <!-- Section 1: Task Info -->
+                <!-- Section 1: Task Info (First as requested) -->
                 <div class="create-task-section">
                     <div class="create-task-sec-title">1. Task Details</div>
                     <div class="create-task-grid-2">
@@ -469,10 +405,10 @@
                         </div>
                     </div>
 
-                    <div class="create-task-grid-3">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;">
                         <div class="assign-form-group">
                             <label class="assign-label">Subject <span style="color:#ef4444;">*</span></label>
-                            <select class="assign-select" id="newTaskSubject">
+                            <select class="assign-select" id="newTaskSubject" onchange="handleCreateTaskSubjectChange(this.value)">
                                 <option value="Mathematics">Mathematics</option>
                                 <option value="English">English</option>
                                 <option value="EVS" selected>EVS</option>
@@ -480,10 +416,68 @@
                                 <option value="Social Science">Social Science</option>
                             </select>
                         </div>
+                        <div class="assign-form-group skill-picker-container" id="skillPickerContainer">
+                            <div class="skill-label-row">
+                                <label class="assign-label" for="newTaskSkillArea" style="margin-bottom: 0;">Skill Area / Topic</label>
+                                <button type="button" class="skill-browse-link" id="btnToggleSkillBrowse" onclick="toggleSkillAreaPicker(event)" title="Browse all curriculum skills in selected categories">
+                                    <span>📋 Browse</span>
+                                    <span class="skill-count-badge" id="skillPickerCountBadge">0</span>
+                                </button>
+                            </div>
+                            <div class="skill-input-wrapper">
+                                <input type="text" class="assign-input skill-input-field" id="newTaskSkillArea"
+                                    oninput="handleCreateTaskTopicInput(this.value); filterSkillAreaPicker(this.value)"
+                                    onclick="openSkillAreaPicker(event)"
+                                    onfocus="openSkillAreaPicker(event)"
+                                    autocomplete="off"
+                                    placeholder="Click or type to pick skill...">
+                                <button type="button" class="btn-skill-dropdown-toggle" id="btnToggleSkillPicker"
+                                    onclick="toggleSkillAreaPicker(event)"
+                                    title="Choose from skills in selected categories">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <!-- POPUP DROPDOWN LIST -->
+                            <div class="skill-picker-dropdown" id="skillAreaPickerDropdown" style="display: none;">
+                                <div class="skill-picker-header">
+                                    <div class="skill-picker-title-row">
+                                        <div class="skill-picker-category-chip" id="skillPickerCategoryChip">
+                                            <span class="chip-dot"></span>
+                                            <span id="skillPickerCategoryText">Science • Class VIII</span>
+                                        </div>
+                                        <span class="skill-picker-info" id="skillPickerAvailableCount">0 Skills</span>
+                                    </div>
+                                    <div class="skill-picker-search-box">
+                                        <span class="search-icon-decor">🔍</span>
+                                        <input type="text" class="skill-picker-search-input" id="skillPickerSearchInput"
+                                            placeholder="Search skills or activities..."
+                                            oninput="filterSkillAreaPicker(this.value)">
+                                    </div>
+                                </div>
+                                <div class="skill-picker-list" id="skillPickerList">
+                                    <!-- Populated dynamically based on selected Class & Subject -->
+                                </div>
+                                <div class="skill-picker-footer">
+                                    <span>💡 Click any skill to select</span>
+                                    <span style="font-weight: 700; color: #4f46e5;">Press Esc to close</span>
+                                </div>
+                            </div>
+                        </div>
                         <div class="assign-form-group">
-                            <label class="assign-label">Skill Area / Topic</label>
-                            <input type="text" class="assign-input" id="newTaskSkillArea"
-                                placeholder="e.g. Planets & Space, Fractions...">
+                            <label class="assign-label">Activity &amp; Game Type</label>
+                            <select class="assign-select" id="newTaskGameType" onchange="handleGameTypeSelectionChange(this.value)">
+                                <option value="auto" selected>✨ Auto-Select Best Game Mechanic</option>
+                                <option value="sort-and-group">🧺 Sort &amp; Group (Bucket Sorter)</option>
+                                <option value="match-pairs">🔗 Match Pairs (Connector Challenge)</option>
+                                <option value="sequence-order">🚂 Sequence Order (Step Train)</option>
+                                <option value="word-scramble">🧩 Word Scramble (Letter Arrange)</option>
+                                <option value="number-line-hopper">🐸 Number Line Hopper (Frog Jump)</option>
+                                <option value="bubble-pop">🫧 Bubble Pop (Fast Tapper)</option>
+                                <option value="mcq">📝 MCQ Quiz Quest (Standard Quiz)</option>
+                            </select>
                         </div>
                         <div class="assign-form-group">
                             <label class="assign-label">Estimated Time</label>
@@ -503,12 +497,131 @@
                     </div>
                 </div>
 
-                <!-- Section 2: Question Builder -->
+                <!-- Section 2: AI Game Developer Agent & Quiz Architect -->
+                <div class="ai-generator-panel" id="aiGeneratorPanel">
+                    <div class="ai-panel-header">
+                        <div class="ai-sparkle-icon">🤖</div>
+                        <div>
+                            <div class="ai-panel-title">
+                                <span>2. AI Game Developer Agent &amp; Interactive Builder</span>
+                                <span class="ai-badge" id="aiModelBadge">AI Agent 🟢</span>
+                            </div>
+                            <div class="ai-panel-sub">
+                                Ask the AI Agent to build a small-scale interactive game tailored to your conditions, rules, and lesson information!
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ai-prompt-box">
+                        <div style="font-size: 12px; font-weight: 700; color: #4338ca; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+                            <span>🎯 Primary Topic / Prompt:</span>
+                        </div>
+                        <textarea id="aiTaskPrompt" class="ai-textarea" rows="2"
+                            placeholder="e.g. States of Matter: Solids, Liquids, and Gases... or any topic!"></textarea>
+
+                        <div class="ai-prompt-controls">
+                            <div class="ai-quick-tags" id="aiQuickTagsWrapper">
+                                <span class="ai-tag-label" id="aiIdeasTagLabel">💡 Ideas for Class IV EVS:</span>
+                                <div id="aiDynamicIdeaButtons" style="display: inline-flex; flex-wrap: wrap; gap: 6px;">
+                                    <!-- Populated dynamically based on selected Class & Subject -->
+                                </div>
+                                <button type="button" class="ai-tag-btn ai-tag-refresh-btn" id="btnShuffleAiIdeas" onclick="shuffleAiIdeas()" title="Cycle and show more curriculum topics for this class">
+                                    🔄 More Ideas
+                                </button>
+                            </div>
+
+                            <!-- Conditions and Custom Information Inputs for AI Game Agent -->
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; width: 100%;">
+                                <div>
+                                    <label style="font-size: 11.5px; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                                        ⚙️ Conditions &amp; Rules (Optional):
+                                    </label>
+                                    <input type="text" id="aiGameConditions" class="assign-input" style="font-size: 12.5px; padding: 7px 10px;"
+                                        placeholder="e.g. 3 categories with 3 items each; timer 30s; easy vocabulary...">
+                                    <small style="color: #64748b; font-size: 10.5px; display: block; margin-top: 2px;">
+                                        Specify constraints: buckets count, items count, timer, or difficulty.
+                                    </small>
+                                </div>
+                                <div>
+                                    <label style="font-size: 11.5px; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                                        📋 Custom Information &amp; Content (Optional):
+                                    </label>
+                                    <textarea id="aiGameInformation" class="ai-textarea" rows="1" style="font-size: 12px; padding: 6px 10px; min-height: 38px;"
+                                        placeholder="e.g. Solids: Brick, Wood; Liquids: Water, Milk; Gases: Steam, Air..."></textarea>
+                                    <small style="color: #64748b; font-size: 10.5px; display: block; margin-top: 2px;">
+                                        Paste custom notes, vocabulary pairs, or steps — AI Agent will build using your text!
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="ai-actions-row" style="margin-top: 12px;">
+                                <div class="ai-select-group">
+                                    <label for="aiNumQuestions">Questions:</label>
+                                    <select id="aiNumQuestions" class="ai-mini-select">
+                                        <option value="3">3 Questions</option>
+                                        <option value="5" selected>5 Questions</option>
+                                        <option value="8">8 Questions</option>
+                                    </select>
+                                </div>
+
+                                <div class="ai-select-group">
+                                    <label for="aiDifficulty">Difficulty:</label>
+                                    <select id="aiDifficulty" class="ai-mini-select">
+                                        <option value="Easy">Easy</option>
+                                        <option value="Medium" selected>Medium</option>
+                                        <option value="Challenging">Challenging</option>
+                                    </select>
+                                </div>
+
+                                <button type="button" class="btn-generate-ai" id="btnBuildAiGame" onclick="triggerAiTaskGeneration(false, true)"
+                                    style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                                    <span id="aiBtnIcon">🎮</span> <span id="aiBtnText">Build Small-Scale Game with AI</span>
+                                </button>
+                                <button type="button" class="btn-generate-ai-fresh" id="btnGenerateAiQuizOnly" onclick="triggerAiTaskGeneration(false, false)"
+                                    title="Generate standard quiz questions only">
+                                    <span>📝</span> <span>Quiz Only</span>
+                                </button>
+                                <button type="button" class="btn-generate-ai-fresh" id="btnGenerateAiFresh" onclick="triggerAiTaskGeneration(true, true)"
+                                    title="Regenerate fresh game and questions bypassing cache">
+                                    <span>🔄</span> <span>Regenerate Fresh</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Live Status & Feedback Strip -->
+                        <div id="aiGenerationStatus" class="ai-status-strip" style="display: none;"></div>
+
+                        <!-- Live Built Game Preview Strip -->
+                        <div id="aiBuiltGamePreviewCard" style="display: none; margin-top: 10px; background: linear-gradient(135deg, #ecfdf5 0%, #dcfce7 100%); border: 2px solid #86efac; border-radius: 14px; padding: 12px 16px; align-items: center; justify-content: space-between; gap: 12px; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.12);">
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <div id="aiBuiltGameIcon" style="font-size: 26px; width: 42px; height: 42px; border-radius: 12px; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,0.06);">🎮</div>
+                                <div>
+                                    <div style="font-family: var(--font-heading); font-size: 14.5px; font-weight: 800; color: #166534;" id="aiBuiltGameTitle">
+                                        Interactive Mini-Game Built
+                                    </div>
+                                    <div style="font-size: 12px; color: #15803d; font-weight: 600;" id="aiBuiltGameSummary">
+                                        Ready for direct play in student runner
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <button type="button" class="btn-generate-ai" style="padding: 6px 14px; font-size: 12.5px; background: #15803d; border: 0;" onclick="testPlayCreatedGame()">
+                                    <span>▶️</span> Test Play Game
+                                </button>
+                                <button type="button" class="btn-clear-filters" style="margin: 0; padding: 6px 10px; font-size: 11.5px; background: #ffffff; border-color: #bbf7d0;" onclick="clearCreatedInteractiveConfig()">
+                                    ✕ Remove Game
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Question Builder -->
                 <div class="create-task-section">
                     <div
                         style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
                         <div class="create-task-sec-title" style="margin: 0;">
-                            2. Interactive Questions (<span id="questionCountBadge">1</span>)
+                            3. Interactive Questions (<span id="questionCountBadge">1</span>)
                         </div>
                         <div style="display: flex; gap: 8px;">
                             <button type="button" class="btn-sample-q" onclick="fillSampleQuestion()">
@@ -525,7 +638,7 @@
                     </div>
                 </div>
 
-                <!-- Section 3: Immediate Assignment Option -->
+                <!-- Section 4: Immediate Assignment Option -->
                 <div class="create-task-section">
                     <div
                         style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
@@ -533,7 +646,7 @@
                             style="display: flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-size: 13.5px; font-weight: 700; color: #0f172a; cursor: pointer;">
                             <input type="checkbox" id="newTaskAssignNow" checked
                                 onchange="toggleCreateTaskAssignList(this.checked)">
-                            <span>Assign immediately to students in this class</span>
+                            <span>4. Assign immediately to students in this class</span>
                         </label>
                         <button type="button" id="newTaskToggleAllBtn"
                             style="background: none; border: none; color: var(--primary); font-size: 12px; font-weight: 700; cursor: pointer;"
@@ -558,20 +671,29 @@
 
     <div class="modal-overlay" id="resetConfirmModal" onclick="if(event.target===this) closeResetModal()">
         <div class="who-modal-card"
-            style="max-width: 460px; text-align: center; border: 3px solid #fecaca; box-shadow: 0 25px 60px rgba(239, 68, 68, 0.2);">
-            <div style="font-size: 46px; margin-bottom: 8px;">🗑️✨</div>
-            <h3 style="font-family: var(--font-heading); font-size: 22px; color: #1e1b4b; margin-bottom: 8px;">Reset All
-                Assignments?</h3>
-            <p style="color: var(--text-muted); font-size: 14px; line-height: 1.5; margin-bottom: 22px;">
-                This will remove all assigned students and reset completion progress to zero across all activities.
+            style="max-width: 460px; text-align: center; border: 1.5px solid #fecaca; background: #ffffff; border-radius: 18px; padding: 28px 24px; box-shadow: 0 20px 48px rgba(239, 68, 68, 0.16);">
+            <div style="font-size: 42px; margin-bottom: 10px;">🗑️</div>
+            <h3 style="font-family: var(--font-heading); font-size: 20px; font-weight: 800; color: #0f172a; margin-bottom: 8px;">
+                Reset Assignments
+            </h3>
+            <p style="color: #64748b; font-size: 13.5px; line-height: 1.5; margin-bottom: 20px;">
+                Reset assigned activities and student progress back to zero. Choose your scope:
             </p>
             <div style="display: flex; flex-direction: column; gap: 10px;">
                 <button type="button" class="btn-start-challenge"
-                    style="background: linear-gradient(135deg, #ef4444, #b91c1c); justify-content: center;"
-                    onclick="clearAllAssignments()">
-                    <span>🗑️</span> Reset All Assignments to 0
+                    style="background: #ffffff; color: #b91c1c; border: 1.5px solid #fca5a5; justify-content: center; font-size: 14px; font-weight: 700; padding: 12px 18px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease;"
+                    onmouseover="this.style.background='#fef2f2'" onmouseout="this.style.background='#ffffff'"
+                    onclick="clearClassAssignments()">
+                    <span>🗑️</span> Reset <span id="resetModalClassBtnLabel">Current Class</span> Only
                 </button>
-                <button type="button" class="btn-clear-filters" style="margin: 6px auto 0; font-size: 13.5px;"
+                <button type="button" class="btn-start-challenge"
+                    style="background: #dc2626; color: #ffffff; border: 1px solid #b91c1c; justify-content: center; font-size: 14px; font-weight: 700; padding: 12px 18px; border-radius: 12px; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);"
+                    onmouseover="this.style.background='#b91c1c'" onmouseout="this.style.background='#dc2626'"
+                    onclick="clearAllAssignments()">
+                    <span>⚠️</span> Reset All Classes to 0
+                </button>
+                <button type="button" class="btn-clear-filters"
+                    style="margin: 6px auto 0; font-size: 13px; color: #64748b; background: none; border: none; cursor: pointer;"
                     onclick="closeResetModal()">
                     Cancel
                 </button>
@@ -590,12 +712,16 @@
 
             <!-- Top Controls Bar -->
             <div class="quest-top-bar">
-                <div class="quest-game-info">
-                    <span class="tac-badge tac-badge-subject math" id="questGameSubjectBadge">Mathematics</span>
-                    <h3 class="quest-game-title" id="questGameHeaderTitle">Multiply Maze</h3>
-                    <div class="quest-active-player-pill" id="questActivePlayerPill">
-                        <span>👤</span> <span id="questActivePlayerName">Player</span>
+                <div class="quest-top-row">
+                    <div class="quest-game-info">
+                        <span class="tac-badge tac-badge-subject math" id="questGameSubjectBadge">Mathematics</span>
+                        <h3 class="quest-game-title" id="questGameHeaderTitle">Multiply Maze</h3>
+                        <div class="quest-active-player-pill" id="questActivePlayerPill">
+                            <span>👤</span> <span id="questActivePlayerName">Player</span>
+                        </div>
                     </div>
+                    <button type="button" class="modal-close-btn" onclick="closeQuestRunner()"
+                        title="Close Quest">✕</button>
                 </div>
 
                 <div class="quest-top-controls">
@@ -611,8 +737,6 @@
                         onclick="toggleQuestFullscreen()" title="Toggle full screen arena">
                         <span>⛶</span> Fullscreen
                     </button>
-                    <button type="button" class="modal-close-btn" onclick="closeQuestRunner()"
-                        title="Close Quest">✕</button>
                 </div>
             </div>
 
@@ -620,6 +744,14 @@
             <div id="questActiveRunner">
                 <!-- Class 2 Interactive Mini-Game Engine Container -->
                 <div id="c2InteractiveGameContainer" style="display: none; width: 100%;"></div>
+
+                <!-- English Reading Comprehension Studio Container (Split Side-by-Side) -->
+                <div id="questReadingStudioContainer" style="display: none; width: 100%;">
+                    <div class="reading-studio-layout">
+                        <div class="reading-passage-pane" id="questReadingPassagePane"></div>
+                        <div class="reading-quiz-pane" id="questReadingQuizPane"></div>
+                    </div>
+                </div>
 
                 <!-- Stepper Question Pills (Q1, Q2, Q3...) -->
                 <div class="quest-stepper-row" id="questStepperRow">
@@ -635,6 +767,45 @@
 
                 <div class="quest-progress-track">
                     <div class="quest-progress-fill" id="questProgressFill" style="width: 33%;"></div>
+                </div>
+
+                <!-- Dedicated Context, Spoken Passage & Procedure Steps Studio Card -->
+                <div class="quest-context-card" id="questContextCard" style="display: none;">
+                    <div class="quest-context-header">
+                        <div class="quest-context-title-group">
+                            <span class="quest-context-icon" id="questContextIcon">🔬</span>
+                            <div>
+                                <div class="quest-context-title" id="questContextTitle">Laboratory Procedure & Steps</div>
+                                <div class="quest-context-subtitle" id="questContextSubtitle">Listen or follow the steps below to answer this quest</div>
+                            </div>
+                            <span class="quest-context-pill" id="questContextPill">Sequence Order</span>
+                        </div>
+                        <div class="quest-context-actions">
+                            <button type="button" class="btn-context-audio" id="btnContextAudioPlay" onclick="toggleContextAudio()" title="Listen to narration">
+                                <span class="audio-btn-icon" id="contextAudioBtnIcon">▶</span>
+                                <span class="audio-btn-label" id="contextAudioBtnLabel">Listen to Audio</span>
+                                <span class="audio-waveform-bars" id="contextAudioWaves">
+                                    <span class="wave-bar"></span>
+                                    <span class="wave-bar"></span>
+                                    <span class="wave-bar"></span>
+                                    <span class="wave-bar"></span>
+                                </span>
+                            </button>
+                            <button type="button" class="btn-context-practice" id="btnContextPracticeSeq" onclick="toggleSequenceOrderPractice()" style="display: none;" title="Practice re-ordering steps">
+                                <span>🔄</span> Arrange Steps
+                            </button>
+                            <button type="button" class="btn-context-toggle" id="btnContextToggle" onclick="toggleContextBody()" title="Collapse or expand context">
+                                <span id="contextToggleLabel">Hide Details</span> ▾
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Context Content: Procedure Steps, Spoken Transcript, or Ordering Interactive -->
+                    <div class="quest-context-body" id="questContextBody">
+                        <div class="quest-steps-list" id="questStepsList" style="display: none;"></div>
+                        <div class="quest-narrative-box" id="questNarrativeBox" style="display: none;"></div>
+                        <!-- Inline Interactive Step Re-ordering Practice Widget -->
+                        <div class="quest-seq-interactive-box" id="questSeqInteractiveBox" style="display: none;"></div>
+                    </div>
                 </div>
 
                 <!-- Big Interactive Prompt Card -->
@@ -705,14 +876,13 @@
                 <!-- Detailed Question-by-Question Review List -->
                 <div class="review-cards-list" id="reviewAnswersList"></div>
 
-                <div class="review-actions-row">
-                    <button type="button" class="btn-play-action played" style="padding: 12px 24px;"
-                        onclick="retakeCurrentQuest()">
-                        <span>↺</span> Retake Quiz
-                    </button>
-                    <button type="button" class="btn-hero-explore" style="padding: 12px 24px;"
+                <div class="review-actions-row" style="display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;">
+                    <div id="celebCompletedNotice" style="display: inline-flex; align-items: center; gap: 8px; color: #065f46; font-weight: 700; font-size: 13.5px; background: #ecfdf5; border: 1.5px solid #a7f3d0; padding: 10px 20px; border-radius: 999px;">
+                        <span>✓</span> Task Completed! No need to do this task again.
+                    </div>
+                    <button type="button" class="btn-hero-explore" style="padding: 12px 26px;"
                         onclick="closeQuestRunner()">
-                        <span>✓</span> Done & Return to Arena
+                        <span>✓</span> Done & Return to Activities
                     </button>
                 </div>
             </div>
@@ -721,8 +891,8 @@
     </div>
 
     <!-- JAVASCRIPT APP LOGIC -->
-    <script src="js/class2_games.js?v=2.0"></script>
-    <script src="js/app.js?v=2.0"></script>
+    <script src="js/class2_games.js?v=5.4"></script>
+    <script src="js/app.js?v=5.4"></script>
 </body>
 
 </html>

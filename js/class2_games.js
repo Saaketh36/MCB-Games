@@ -251,27 +251,30 @@
     "II-MAT-06": function () {
       const configs = [
         {
-          targetMl: pickRandom([500, 600]),
-          targetName: "🥣 500ml Bowl",
+          targetMl: 500,
+          targetName: "🥣 500ml Measuring Bowl",
+          ticks: [100, 200, 300, 400, 500],
           availableCups: [
             { ml: 100, label: "100ml Glass", icon: "🥛" },
             { ml: 250, label: "250ml Cup", icon: "🥤" }
           ]
         },
         {
-          targetMl: 1000,
-          targetName: "🫗 1000ml (1 Litre) Jug",
+          targetMl: 750,
+          targetName: "🍶 750ml Measuring Flask",
+          ticks: [250, 500, 750],
           availableCups: [
             { ml: 250, label: "250ml Glass", icon: "🥤" },
             { ml: 500, label: "500ml Bottle", icon: "🫖" }
           ]
         },
         {
-          targetMl: pickRandom([750, 800]),
-          targetName: "🍶 Measuring Flask",
+          targetMl: 1000,
+          targetName: "🫗 1000ml (1 Litre) Jug",
+          ticks: [250, 500, 750, 1000],
           availableCups: [
             { ml: 250, label: "250ml Glass", icon: "🥤" },
-            { ml: 100, label: "100ml Glass", icon: "🥛" }
+            { ml: 500, label: "500ml Bottle", icon: "🫖" }
           ]
         }
       ];
@@ -577,6 +580,353 @@
         speechPrompt: "Pop the bubbles that match the sound you are looking for!",
         rounds: pickMultiple(families, 2)
       };
+    },
+
+    /* ====================================================
+       CLASS 1 PROCEDURAL GENERATORS (AGES 5-6)
+       Tactile, Hands-On Mini-Games for Class 1
+       ==================================================== */
+
+    // 11. I-MAT-02: Add & Subtract Sprint (Froggy Lilypad Hopper 0-10)
+    "I-MAT-02": function () {
+      const shapePrizes = [
+        { icon: "⭐", shape: "star", name: "Golden Star", color: "#f59e0b" },
+        { icon: "💎", shape: "gem", name: "Sparkle Gem", color: "#06b6d4" },
+        { icon: "🌸", shape: "flower", name: "Water Lily", color: "#ec4899" },
+        { icon: "🍎", shape: "apple", name: "Red Apple", color: "#ef4444" },
+        { icon: "🥕", shape: "carrot", name: "Crispy Carrot", color: "#f97316" }
+      ];
+      const prizes = pickMultiple(shapePrizes, 3);
+      const t1 = pickRandom([3, 4, 5]);
+      const t2 = pickRandom([6, 7, 8]);
+      const t3 = pickRandom([9, 10]);
+
+      return {
+        engine: "number-line-hopper",
+        title: "Froggy Lilypad Sprint",
+        icon: "🐸",
+        instruction: "Help Freddie Frog hop along the lilypads to collect the prize!",
+        speechPrompt: "Choose your jumps to help Freddie Frog land directly on the prize!",
+        rounds: [
+          {
+            start: 0,
+            target: t1,
+            step: 1,
+            allowedHops: [1, 2],
+            itemAtTarget: prizes[0],
+            hint: `Start at 0 and take jumps of 1 or 2 to reach ${t1}!`
+          },
+          {
+            start: 1,
+            target: t2,
+            step: 1,
+            allowedHops: [1, 2, 3],
+            itemAtTarget: prizes[1],
+            hint: `Start at 1 and hop forward to reach ${t2}!`
+          },
+          {
+            start: 2,
+            target: t3,
+            step: 1,
+            allowedHops: [1, 2, 3],
+            itemAtTarget: prizes[2],
+            hint: `Start at 2 and hop forward to reach ${t3}!`
+          }
+        ]
+      };
+    },
+
+    // 12. I-MAT-06: Pattern Train (Word Train Engine for Shapes & Colors)
+    "I-MAT-06": function () {
+      const patternSets = [
+        {
+          items: ["🔴 Red", "🟦 Blue", "🔴 Red", "🟦 Blue"],
+          hint: "Follow the pattern: Red, Blue, Red, Blue!"
+        },
+        {
+          items: ["⭐ Star", "🌙 Moon", "⭐ Star", "🌙 Moon"],
+          hint: "Follow the pattern: Star, Moon, Star, Moon!"
+        },
+        {
+          items: ["🍎 Apple", "🍌 Banana", "🍎 Apple", "🍌 Banana"],
+          hint: "Follow the pattern: Apple, Banana, Apple, Banana!"
+        },
+        {
+          items: ["🔺 Triangle", "🟩 Square", "🔺 Triangle", "🟩 Square"],
+          hint: "Follow the pattern: Triangle, Square, Triangle, Square!"
+        },
+        {
+          items: ["🟢 Green", "🟡 Yellow", "🟢 Green", "🟡 Yellow"],
+          hint: "Follow the pattern: Green, Yellow, Green, Yellow!"
+        }
+      ];
+      const chosen = pickMultiple(patternSets, 3);
+
+      return {
+        engine: "word-train",
+        title: "Pattern Train Express",
+        icon: "🚂",
+        instruction: "Tap the items in the right order to complete the repeating pattern train!",
+        speechPrompt: "Look at the pattern! Put the cars in order to make the pattern complete.",
+        rounds: chosen.map(p => ({
+          words: p.items.slice(),
+          correctOrder: p.items.slice(),
+          hint: p.hint
+        }))
+      };
+    },
+
+    // 13. I-MAT-03: Odd One Out Zoo (4-Legged Animals vs 2-Legged Birds)
+    "I-MAT-03": function () {
+      const walkers = [
+        { text: "Lion", icon: "🦁", bucket: "walker" },
+        { text: "Elephant", icon: "🐘", bucket: "walker" },
+        { text: "Dog", icon: "🐶", bucket: "walker" },
+        { text: "Cat", icon: "🐱", bucket: "walker" },
+        { text: "Horse", icon: "🐴", bucket: "walker" },
+        { text: "Tiger", icon: "🐯", bucket: "walker" }
+      ];
+      const birds = [
+        { text: "Parrot", icon: "🦜", bucket: "bird" },
+        { text: "Duck", icon: "🦆", bucket: "bird" },
+        { text: "Peacock", icon: "🦚", bucket: "bird" },
+        { text: "Owl", icon: "🦉", bucket: "bird" },
+        { text: "Penguin", icon: "🐧", bucket: "bird" },
+        { text: "Sparrow", icon: "🐦", bucket: "bird" }
+      ];
+
+      return {
+        engine: "bucket-sorter",
+        title: "Zoo Animal Sorter",
+        icon: "🦁",
+        instruction: "Sort the animals into 4-Legged Animals and 2-Legged Birds!",
+        speechPrompt: "Sort the animals! Put 4-legged animals in green, and 2-legged birds in sky blue.",
+        buckets: [
+          { id: "walker", label: "🐾 4-Legged Animals", color: "#10b981", border: "#059669" },
+          { id: "bird", label: "🪶 2-Legged Birds", color: "#0ea5e9", border: "#0284c7" }
+        ],
+        items: pickMultiple(walkers, 3).concat(pickMultiple(birds, 3)).sort(() => Math.random() - 0.5)
+      };
+    },
+
+    // 14. I-MAT-04: Solid Shape Safari (Rolling vs Sliding)
+    "I-MAT-04": function () {
+      const rolling = [
+        { text: "Football", icon: "⚽", bucket: "roll" },
+        { text: "Orange", icon: "🍊", bucket: "roll" },
+        { text: "Marble", icon: "⚪", bucket: "roll" },
+        { text: "Globe", icon: "🌍", bucket: "roll" },
+        { text: "Tennis Ball", icon: "🎾", bucket: "roll" },
+        { text: "Apple", icon: "🍎", bucket: "roll" }
+      ];
+      const sliding = [
+        { text: "Book", icon: "📕", bucket: "slide" },
+        { text: "Dice", icon: "🎲", bucket: "slide" },
+        { text: "Eraser", icon: "🧼", bucket: "slide" },
+        { text: "Pencil Box", icon: "✏️", bucket: "slide" },
+        { text: "Brick", icon: "🧱", bucket: "slide" },
+        { text: "Gift Box", icon: "🎁", bucket: "slide" }
+      ];
+
+      return {
+        engine: "bucket-sorter",
+        title: "Roll or Slide Safari",
+        icon: "⚽",
+        instruction: "Sort objects into things that ROLL and things that SLIDE!",
+        speechPrompt: "Can it roll like a ball, or does it slide like a box? Sort each item.",
+        buckets: [
+          { id: "roll", label: "⚽ Objects that ROLL (Round)", color: "#f59e0b", border: "#d97706" },
+          { id: "slide", label: "📦 Objects that SLIDE (Flat)", color: "#8b5cf6", border: "#7c3aed" }
+        ],
+        items: pickMultiple(rolling, 3).concat(pickMultiple(sliding, 3)).sort(() => Math.random() - 0.5)
+      };
+    },
+
+    // 15. I-ENG-07: Letter Sound Safari (Phonics Bubble Pop)
+    "I-ENG-07": function () {
+      const soundGroups = [
+        {
+          prompt: "Pop all the pictures starting with the /B/ sound!",
+          speechText: "Pop bubbles starting with the sound B, like Ball and Bat!",
+          bubbles: [
+            { text: "BAT 🦇", correct: true },
+            { text: "BALL ⚽", correct: true },
+            { text: "BIRD 🐦", correct: true },
+            { text: "CAT 🐱", correct: false },
+            { text: "FISH 🐟", correct: false },
+            { text: "SUN ☀️", correct: false }
+          ]
+        },
+        {
+          prompt: "Pop all the pictures starting with the /S/ sound!",
+          speechText: "Pop bubbles starting with the sound S, like Sun and Star!",
+          bubbles: [
+            { text: "SUN ☀️", correct: true },
+            { text: "STAR ⭐", correct: true },
+            { text: "SNAKE 🐍", correct: true },
+            { text: "DOG 🐶", correct: false },
+            { text: "APPLE 🍎", correct: false },
+            { text: "MOON 🌙", correct: false }
+          ]
+        },
+        {
+          prompt: "Pop all the pictures starting with the /M/ sound!",
+          speechText: "Pop bubbles starting with the sound M, like Monkey and Moon!",
+          bubbles: [
+            { text: "MONKEY 🐵", correct: true },
+            { text: "MOON 🌙", correct: true },
+            { text: "MANGO 🥭", correct: true },
+            { text: "TREE 🌳", correct: false },
+            { text: "BOAT ⛵", correct: false },
+            { text: "BELL 🔔", correct: false }
+          ]
+        },
+        {
+          prompt: "Pop all the pictures starting with the /P/ sound!",
+          speechText: "Pop bubbles starting with the sound P, like Pen and Pig!",
+          bubbles: [
+            { text: "PEN 🖊️", correct: true },
+            { text: "PIG 🐷", correct: true },
+            { text: "PAN 🍳", correct: true },
+            { text: "COW 🐮", correct: false },
+            { text: "HAT 🎩", correct: false },
+            { text: "CUP 🥤", correct: false }
+          ]
+        }
+      ];
+
+      return {
+        engine: "bubble-pop",
+        title: "Letter Sound Safari",
+        icon: "🫧",
+        instruction: "Listen carefully to the sound and pop the matching bubbles!",
+        speechPrompt: "Pop the bubbles that start with the requested letter sound!",
+        rounds: pickMultiple(soundGroups, 2)
+      };
+    },
+
+    // 16. I-ENG-06: Sight Word Memory Match (Bubble Pop)
+    "I-ENG-06": function () {
+      const sightGroups = [
+        {
+          prompt: "Find and pop all bubbles with the sight word 'THE'!",
+          speechText: "Pop all the bubbles that say THE!",
+          bubbles: [
+            { text: "THE 🌟", correct: true },
+            { text: "THE 🌟", correct: true },
+            { text: "THE 🌟", correct: true },
+            { text: "AND 🎈", correct: false },
+            { text: "YOU 🎈", correct: false },
+            { text: "FOR 🎈", correct: false }
+          ]
+        },
+        {
+          prompt: "Find and pop all bubbles with the sight word 'SEE'!",
+          speechText: "Pop all the bubbles that say SEE!",
+          bubbles: [
+            { text: "SEE 👀", correct: true },
+            { text: "SEE 👀", correct: true },
+            { text: "SEE 👀", correct: true },
+            { text: "CAN 🥫", correct: false },
+            { text: "BIG 🐘", correct: false },
+            { text: "RED 🔴", correct: false }
+          ]
+        },
+        {
+          prompt: "Find and pop all bubbles with the sight word 'CAN'!",
+          speechText: "Pop all the bubbles that say CAN!",
+          bubbles: [
+            { text: "CAN 🥫", correct: true },
+            { text: "CAN 🥫", correct: true },
+            { text: "CAN 🥫", correct: true },
+            { text: "NOT ❌", correct: false },
+            { text: "RUN 🏃", correct: false },
+            { text: "ONE 1️⃣", correct: false }
+          ]
+        },
+        {
+          prompt: "Find and pop all bubbles with the sight word 'AND'!",
+          speechText: "Pop all the bubbles that say AND!",
+          bubbles: [
+            { text: "AND 🤝", correct: true },
+            { text: "AND 🤝", correct: true },
+            { text: "AND 🤝", correct: true },
+            { text: "SHE 👧", correct: false },
+            { text: "HE 👦", correct: false },
+            { text: "WE 👫", correct: false }
+          ]
+        }
+      ];
+
+      return {
+        engine: "bubble-pop",
+        title: "Sight Word Pop Star",
+        icon: "🌟",
+        instruction: "Spot the target sight word and pop all its bubbles!",
+        speechPrompt: "Find and pop all the bubbles with the target sight word!",
+        rounds: pickMultiple(sightGroups, 2)
+      };
+    },
+
+    // 17. I-ENG-09: Word Builder (CVC Phonics Train)
+    "I-ENG-09": function () {
+      const cvcBank = [
+        { word: "CAT", letters: ["C", "A", "T"], hint: "Spell C-A-T (Cat 🐱)" },
+        { word: "DOG", letters: ["D", "O", "G"], hint: "Spell D-O-G (Dog 🐶)" },
+        { word: "SUN", letters: ["S", "U", "N"], hint: "Spell S-U-N (Sun ☀️)" },
+        { word: "PEN", letters: ["P", "E", "N"], hint: "Spell P-E-N (Pen 🖊️)" },
+        { word: "BAT", letters: ["B", "A", "T"], hint: "Spell B-A-T (Bat 🦇)" },
+        { word: "CUP", letters: ["C", "U", "P"], hint: "Spell C-U-P (Cup 🥤)" },
+        { word: "PIG", letters: ["P", "I", "G"], hint: "Spell P-I-G (Pig 🐷)" },
+        { word: "BUS", letters: ["B", "U", "S"], hint: "Spell B-U-S (Bus 🚌)" }
+      ];
+      const selected = pickMultiple(cvcBank, 3);
+
+      return {
+        engine: "word-train",
+        title: "CVC Word Builder Train",
+        icon: "🚂",
+        instruction: "Put the letter wagons in the right order to spell the word!",
+        speechPrompt: "Tap the letters in the correct order to spell the word for the train.",
+        rounds: selected.map(item => ({
+          words: item.letters.slice(),
+          correctOrder: item.letters.slice(),
+          hint: item.hint
+        }))
+      };
+    },
+
+    // 18. I-ENG-11: Noun Basket Sort (Fruits vs Toys)
+    "I-ENG-11": function () {
+      const fruits = [
+        { text: "Apple", icon: "🍎", bucket: "fruit" },
+        { text: "Banana", icon: "🍌", bucket: "fruit" },
+        { text: "Mango", icon: "🥭", bucket: "fruit" },
+        { text: "Grapes", icon: "🍇", bucket: "fruit" },
+        { text: "Orange", icon: "🍊", bucket: "fruit" },
+        { text: "Strawberry", icon: "🍓", bucket: "fruit" }
+      ];
+      const toys = [
+        { text: "Teddy Bear", icon: "🧸", bucket: "toy" },
+        { text: "Toy Train", icon: "🚂", bucket: "toy" },
+        { text: "Yo-Yo", icon: "🪀", bucket: "toy" },
+        { text: "Spinning Top", icon: "🪀", bucket: "toy" },
+        { text: "Doll", icon: "🪆", bucket: "toy" },
+        { text: "Robot", icon: "🤖", bucket: "toy" }
+      ];
+
+      return {
+        engine: "bucket-sorter",
+        title: "Noun Basket Sorter",
+        icon: "🧺",
+        instruction: "Sort the items into the Fruit Basket and Toy Basket!",
+        speechPrompt: "Is it a fruit you can eat, or a fun toy to play with? Sort them into the baskets.",
+        buckets: [
+          { id: "fruit", label: "🍎 Fruit Basket", color: "#ec4899", border: "#db2777" },
+          { id: "toy", label: "🧸 Toy Basket", color: "#3b82f6", border: "#2563eb" }
+        ],
+        items: pickMultiple(fruits, 3).concat(pickMultiple(toys, 3)).sort(() => Math.random() - 0.5)
+      };
     }
   };
 
@@ -587,11 +937,12 @@
     isClass2Interactive(game) {
       if (!game) return false;
       if (game.interactiveConfig) return true;
-      if (String(game.id || '').startsWith('II-')) {
+      if (Class2Generators[game.id]) return true;
+      if (String(game.id || '').startsWith('II-') || String(game.id || '').startsWith('I-')) {
         return !!(Class2Generators[game.id]);
       }
       const cls = String(game.class || '').toUpperCase().replace(/^CLASS\s+/, '').trim();
-      if (cls === 'II' || cls === '2') {
+      if (cls === 'I' || cls === '1' || cls === 'II' || cls === '2') {
         return !!(Class2Generators[game.id]);
       }
       return false;
@@ -619,11 +970,36 @@
             { start: 0, target: t2, step: 5, allowedHops: [2, 5], itemAtTarget: sh[1], hint: `Hop by 5s to reach ${t2}!` }
           ];
         } else if (cloned.engine === 'liquid-pour') {
-          const v1 = pickRandom([400, 500, 600]);
-          const v2 = pickRandom([750, 800, 1000]);
+          const v1 = pickRandom([400, 500]);
+          const v2 = 1000;
           cloned.rounds = [
-            { targetMl: v1, targetName: `🥣 ${v1}ml Bowl`, availableCups: [{ ml: 100, label: "100ml Glass", icon: "🥛" }, { ml: 250, label: "250ml Cup", icon: "🥤" }] },
-            { targetMl: v2, targetName: `🫗 ${v2}ml Jug`, availableCups: [{ ml: 250, label: "250ml Glass", icon: "🥤" }, { ml: 500, label: "500ml Bottle", icon: "🫖" }] }
+            {
+              targetMl: v1,
+              targetName: `🥣 ${v1}ml Measuring Bowl`,
+              ticks: v1 === 500 ? [100, 200, 300, 400, 500] : [100, 200, 300, 400],
+              availableCups: [
+                { ml: 100, label: "100ml Glass", icon: "🥛" },
+                { ml: 250, label: "250ml Cup", icon: "🥤" }
+              ]
+            },
+            {
+              targetMl: 750,
+              targetName: "🍶 750ml Measuring Flask",
+              ticks: [250, 500, 750],
+              availableCups: [
+                { ml: 250, label: "250ml Glass", icon: "🥤" },
+                { ml: 500, label: "500ml Bottle", icon: "🫖" }
+              ]
+            },
+            {
+              targetMl: v2,
+              targetName: `🫗 ${v2}ml (1 Litre) Jug`,
+              ticks: [250, 500, 750, 1000],
+              availableCups: [
+                { ml: 250, label: "250ml Glass", icon: "🥤" },
+                { ml: 500, label: "500ml Bottle", icon: "🫖" }
+              ]
+            }
           ];
         } else if (cloned.engine === 'pan-balance') {
           const items = [
@@ -712,8 +1088,25 @@
       if (speakBtn) speakBtn.onclick = speakPrompt;
       setTimeout(speakPrompt, 400);
 
+      // Resolve canonical engine name across aliases
+      const rawEngine = (config.engine || '').toLowerCase().trim();
+      let canonicalEngine = rawEngine;
+      if (['bucket-sorter', 'sort-and-group', 'sorting challenge', 'categorization', 'sorter'].includes(rawEngine)) {
+        canonicalEngine = 'bucket-sorter';
+      } else if (['word-train', 'sequence-order', 'step sequence', 'order & rank', 'timeline', 'train', 'order'].includes(rawEngine)) {
+        canonicalEngine = 'word-train';
+      } else if (['pair-matcher', 'match-pairs', 'memory match', 'matching', 'pairs', 'matcher'].includes(rawEngine)) {
+        canonicalEngine = 'pair-matcher';
+      } else if (['word-scramble', 'scramble', 'anagram', 'letter-arrange', 'spelling'].includes(rawEngine)) {
+        canonicalEngine = 'word-scramble';
+      } else if (['bubble-pop', 'bubble', 'pop'].includes(rawEngine)) {
+        canonicalEngine = 'bubble-pop';
+      } else if (['number-line-hopper', 'hopper', 'number line', 'math hop'].includes(rawEngine)) {
+        canonicalEngine = 'number-line-hopper';
+      }
+
       // Dispatch to specific mini-engine
-      switch (config.engine) {
+      switch (canonicalEngine) {
         case 'number-line-hopper':
           this.runNumberLineHopper(boardCanvas, config, footer, onComplete);
           break;
@@ -741,8 +1134,14 @@
         case 'bubble-pop':
           this.runBubblePop(boardCanvas, config, footer, onComplete);
           break;
+        case 'pair-matcher':
+          this.runPairMatcher(boardCanvas, config, footer, onComplete);
+          break;
+        case 'word-scramble':
+          this.runWordScramble(boardCanvas, config, footer, onComplete);
+          break;
         default:
-          boardCanvas.innerHTML = `<p>Unknown engine: ${config.engine}</p>`;
+          boardCanvas.innerHTML = `<div style="padding:24px; text-align:center; color:#64748b; font-weight:700;">Engine <code>${config.engine}</code> ready. Starting challenge...</div>`;
       }
     },
 
@@ -943,10 +1342,12 @@
 
             <div class="c2-jug-stage-bench">
               <div class="c2-measuring-jug-wrap">
-                <div class="c2-jug-liquid-fill" id="c2LiquidFill" style="height: 0%;">
-                  <div class="c2-liquid-surface-wave"></div>
+                <div class="c2-jug-glass-body">
+                  <div class="c2-jug-liquid-fill" id="c2LiquidFill" style="height: 0%;">
+                    <div class="c2-liquid-surface-wave"></div>
+                  </div>
+                  <div class="c2-jug-tick-marks" id="c2JugTicks"></div>
                 </div>
-                <div class="c2-jug-tick-marks" id="c2JugTicks"></div>
               </div>
             </div>
 
@@ -956,13 +1357,16 @@
           </div>
         `;
 
-        // Render tick marks
+        // Render tick marks positioned accurately by exact percentage
         const ticksContainer = canvas.querySelector('#c2JugTicks');
-        [0.25, 0.5, 0.75, 1.0].forEach(pct => {
-          const val = Math.round(targetMl * pct);
+        ticksContainer.innerHTML = '';
+        const tickValues = R.ticks || [0.25, 0.5, 0.75, 1.0].map(pct => Math.round(targetMl * pct));
+        tickValues.forEach(val => {
+          const pct = Math.min(100, Math.round((val / targetMl) * 100));
           const tick = document.createElement('div');
-          tick.className = 'c2-jug-tick';
-          tick.textContent = `${val}ml`;
+          tick.className = 'c2-jug-tick' + (val === targetMl ? ' target-tick' : '');
+          tick.style.bottom = `${pct}%`;
+          tick.innerHTML = `<span>${val}ml</span>`;
           ticksContainer.appendChild(tick);
         });
 
@@ -983,10 +1387,13 @@
         emptyBtn.onclick = () => {
           AudioEngine.pop();
           currentMl = 0;
+          dock.querySelectorAll('button').forEach(b => b.disabled = false);
+          emptyBtn.classList.remove('pulse');
           updateJugUI();
         };
 
         function doPour(ml) {
+          if (currentMl >= targetMl) return;
           AudioEngine.pour();
           currentMl += ml;
           updateJugUI();
@@ -1006,13 +1413,19 @@
             nextBtn.disabled = false;
             dock.querySelectorAll('button').forEach(b => b.disabled = true);
             emptyBtn.style.display = 'none';
+            fillEl.style.background = 'linear-gradient(180deg, #34d399 0%, #059669 100%)';
             SpeechEngine.speak(`Splendid! Exactly ${targetMl} millilitres! The jug is filled perfectly!`);
           } else if (currentMl > targetMl) {
             AudioEngine.wrong();
             fillEl.style.background = 'linear-gradient(180deg, #f87171 0%, #dc2626 100%)';
+            dock.querySelectorAll('button').forEach(b => b.disabled = true);
+            emptyBtn.classList.add('pulse');
             SpeechEngine.speak(`Oh no, it overflowed! You have ${currentMl} ml. Tap Empty Jug to try again.`);
           } else {
             fillEl.style.background = 'linear-gradient(180deg, #38bdf8 0%, #0284c7 100%)';
+            dock.querySelectorAll('button').forEach(b => b.disabled = false);
+            emptyBtn.classList.remove('pulse');
+            emptyBtn.style.display = 'inline-block';
           }
         }
 
@@ -1522,10 +1935,11 @@
       function renderDock() {
         dock.innerHTML = '';
         unplaced.forEach(it => {
+          const itemText = it.text || it.label || '';
           const card = document.createElement('button');
           card.type = 'button';
           card.className = `c2-tactile-card ${selectedItem === it ? 'selected' : ''}`;
-          card.innerHTML = `<span>${it.icon || '🏷️'}</span> <span>${it.text}</span>`;
+          card.innerHTML = `<span>${it.icon || '🏷️'}</span> <span>${itemText}</span>`;
           card.onclick = () => {
             AudioEngine.pop();
             selectedItem = selectedItem === it ? null : it;
@@ -1565,7 +1979,8 @@
             chip.style.borderRadius = '8px';
             chip.style.fontSize = '13px';
             chip.style.fontWeight = '700';
-            chip.textContent = `${selectedItem.icon || ''} ${selectedItem.text}`;
+            const itemText = selectedItem.text || selectedItem.label || '';
+            chip.textContent = `${selectedItem.icon || ''} ${itemText}`;
             well.appendChild(chip);
 
             unplaced = unplaced.filter(x => x !== selectedItem);
@@ -1580,7 +1995,8 @@
           } else {
             mistakes++;
             AudioEngine.wrong();
-            SpeechEngine.speak(`Not quite. Try another bucket for ${selectedItem.text}.`);
+            const itName = selectedItem.text || selectedItem.label || 'this item';
+            SpeechEngine.speak(`Not quite. Try another bucket for ${itName}.`);
           }
         };
 
@@ -1762,6 +2178,342 @@
             onComplete({ score, total: rounds.length });
           }
         };
+      }
+
+      renderRound();
+    },
+
+    /* ----------------------------------------------------
+       10. TACTILE PAIR MATCHER (MATCH PAIRS / CONNECTOR)
+       ---------------------------------------------------- */
+    runPairMatcher(canvas, config, footer, onComplete) {
+      let rawRounds = config.rounds;
+      if (!rawRounds || !Array.isArray(rawRounds) || rawRounds.length === 0) {
+        const rawPairs = config.pairs || [];
+        rawRounds = [{
+          prompt: config.instruction || 'Match each item on the left with its partner on the right!',
+          pairs: rawPairs
+        }];
+      }
+
+      let roundIdx = 0;
+      let totalRounds = rawRounds.length;
+      let totalMatchesMade = 0;
+      let totalPossibleMatches = 0;
+
+      function renderRound() {
+        const R = rawRounds[roundIdx];
+        const rawPairs = R.pairs || [];
+        const normalizedPairs = rawPairs.map((p, idx) => {
+          let itemA = p.itemA || p.a || p.left || (Array.isArray(p) ? p[0] : `Item ${idx + 1}`);
+          let itemB = p.itemB || p.b || p.right || (Array.isArray(p) ? p[1] : `Match ${idx + 1}`);
+          return {
+            id: String(p.id !== undefined ? p.id : idx),
+            a: String(itemA).trim(),
+            b: String(itemB).trim()
+          };
+        });
+
+        totalPossibleMatches += normalizedPairs.length;
+        let matchedCount = 0;
+        let selectedA = null;
+
+        const progressPill = footer.querySelector('#c2ProgressPill');
+        const nextBtn = footer.querySelector('#c2BtnNext');
+        if (progressPill) progressPill.textContent = `Round ${roundIdx + 1} of ${totalRounds} · 0 / ${normalizedPairs.length} matched ⭐`;
+        if (nextBtn) {
+          nextBtn.disabled = true;
+          nextBtn.textContent = roundIdx + 1 < totalRounds ? 'Next Match →' : 'Finish Challenge! 🏆';
+        }
+
+        // Shuffle sides independently
+        const colAItems = normalizedPairs.slice().sort(() => Math.random() - 0.5);
+        const colBItems = normalizedPairs.slice().sort(() => Math.random() - 0.5);
+
+        canvas.innerHTML = `
+          <div class="c2-pair-arena">
+            <div class="c2-pair-prompt-bar">
+              <span>🎯</span> <span>${escapeHtml(R.prompt || config.instruction || 'Tap an item on the left, then tap its matching pair on the right!')}</span>
+            </div>
+            <div class="c2-pair-columns-wrap">
+              <div class="c2-pair-column" id="c2ColA"></div>
+              <div class="c2-pair-divider">
+                <span class="c2-pair-divider-line"></span>
+                <span class="c2-pair-connector-icon">⚡</span>
+                <span class="c2-pair-divider-line"></span>
+              </div>
+              <div class="c2-pair-column" id="c2ColB"></div>
+            </div>
+          </div>
+        `;
+
+        const colAEl = canvas.querySelector('#c2ColA');
+        const colBEl = canvas.querySelector('#c2ColB');
+
+        function redraw() {
+          colAEl.innerHTML = '';
+          colBEl.innerHTML = '';
+
+          colAItems.forEach(item => {
+            const card = document.createElement('button');
+            card.type = 'button';
+            card.className = `c2-pair-card c2-pair-card-a ${item.matched ? 'matched' : ''} ${selectedA === item ? 'selected' : ''}`;
+            card.dataset.pairId = item.id;
+            card.innerHTML = `
+              <span class="c2-pair-text">${escapeHtml(item.a)}</span>
+              ${item.matched ? '<span class="c2-pair-check">✓</span>' : '<span class="c2-pair-dot">●</span>'}
+            `;
+            if (!item.matched) {
+              card.onclick = () => {
+                AudioEngine.pop();
+                selectedA = (selectedA === item) ? null : item;
+                redraw();
+              };
+            }
+            colAEl.appendChild(card);
+          });
+
+          colBItems.forEach(item => {
+            const card = document.createElement('button');
+            card.type = 'button';
+            card.className = `c2-pair-card c2-pair-card-b ${item.matched ? 'matched' : ''}`;
+            card.dataset.pairId = item.id;
+            card.innerHTML = `
+              ${item.matched ? '<span class="c2-pair-check">✓</span>' : '<span class="c2-pair-dot">●</span>'}
+              <span class="c2-pair-text">${escapeHtml(item.b)}</span>
+            `;
+            if (!item.matched) {
+              card.onclick = () => {
+                if (!selectedA) {
+                  SpeechEngine.speak('Pick a card from the left side first!');
+                  card.classList.add('c2-pair-hint-wobble');
+                  setTimeout(() => card.classList.remove('c2-pair-hint-wobble'), 400);
+                  return;
+                }
+
+                if (selectedA.id === item.id) {
+                  // Correct Match!
+                  AudioEngine.success();
+                  selectedA.matched = true;
+                  item.matched = true;
+                  matchedCount++;
+                  totalMatchesMade++;
+                  selectedA = null;
+                  redraw();
+
+                  if (progressPill) progressPill.textContent = `Round ${roundIdx + 1} of ${totalRounds} · ${matchedCount} / ${normalizedPairs.length} matched ⭐`;
+
+                  if (matchedCount === normalizedPairs.length) {
+                    AudioEngine.success();
+                    if (nextBtn) nextBtn.disabled = false;
+                    SpeechEngine.speak('Sensational! All pairs connected perfectly!');
+                  } else {
+                    SpeechEngine.speak('Great match!');
+                  }
+                } else {
+                  // Mismatch
+                  AudioEngine.wrong();
+                  card.classList.add('mismatch');
+                  const activeCardA = colAEl.querySelector(`.c2-pair-card.selected`);
+                  if (activeCardA) activeCardA.classList.add('mismatch');
+                  SpeechEngine.speak('Not quite a match. Try another one!');
+                  setTimeout(() => {
+                    selectedA = null;
+                    redraw();
+                  }, 500);
+                }
+              };
+            }
+            colBEl.appendChild(card);
+          });
+        }
+
+        redraw();
+
+        if (nextBtn) {
+          nextBtn.onclick = () => {
+            roundIdx++;
+            if (roundIdx < totalRounds) {
+              renderRound();
+            } else {
+              onComplete({ score: totalMatchesMade, total: totalPossibleMatches });
+            }
+          };
+        }
+      }
+
+      renderRound();
+    },
+
+    /* ----------------------------------------------------
+       11. TACTILE WORD SCRAMBLE (SPELLING & LETTER ARRANGE)
+       ---------------------------------------------------- */
+    runWordScramble(canvas, config, footer, onComplete) {
+      let rawRounds = config.rounds;
+      if (!rawRounds || !Array.isArray(rawRounds) || rawRounds.length === 0) {
+        const words = config.words || [config.word || 'SCIENCE'];
+        rawRounds = words.map(w => ({
+          word: typeof w === 'string' ? w : (w.word || 'LEARN'),
+          clue: typeof w === 'object' ? (w.clue || '') : (config.clue || ''),
+          icon: typeof w === 'object' ? (w.icon || '🧩') : (config.icon || '🧩')
+        }));
+      }
+
+      let roundIdx = 0;
+      let totalRounds = rawRounds.length;
+      let score = 0;
+
+      function renderRound() {
+        const R = rawRounds[roundIdx];
+        const rawTarget = String(R.word || 'GAME').toUpperCase().replace(/[^A-Z0-9]/g, '');
+        const targetLetters = rawTarget.split('');
+        const clueText = R.clue || config.instruction || 'Unscramble the letters to reveal the secret word!';
+        const icon = R.icon || '🧩';
+
+        let placed = new Array(targetLetters.length).fill(null);
+        let pool = targetLetters.map((char, id) => ({ id, char })).sort(() => Math.random() - 0.5);
+
+        // Ensure scrambled order is not already the answer if length > 2
+        if (targetLetters.length > 2 && pool.map(p => p.char).join('') === rawTarget) {
+          pool.reverse();
+        }
+
+        const progressPill = footer.querySelector('#c2ProgressPill');
+        const nextBtn = footer.querySelector('#c2BtnNext');
+        if (progressPill) progressPill.textContent = `Word ${roundIdx + 1} of ${totalRounds} ⭐`;
+        if (nextBtn) {
+          nextBtn.disabled = true;
+          nextBtn.textContent = roundIdx + 1 < totalRounds ? 'Next Word →' : 'Finish Challenge! 🏆';
+        }
+
+        canvas.innerHTML = `
+          <div class="c2-scramble-arena">
+            <div class="c2-scramble-clue-card">
+              <span class="c2-scramble-icon">${icon}</span>
+              <div class="c2-scramble-clue-text">
+                <span class="c2-scramble-clue-label">Clue:</span>
+                <span class="c2-scramble-clue-body">${escapeHtml(clueText)}</span>
+              </div>
+            </div>
+
+            <div class="c2-scramble-slots-row" id="c2ScrambleSlots"></div>
+
+            <div class="c2-scramble-controls">
+              <button type="button" class="c2-scramble-ctrl-btn" id="c2BtnBackspace" title="Undo last letter">
+                <span>⌫</span> Backspace
+              </button>
+              <button type="button" class="c2-scramble-ctrl-btn" id="c2BtnClearAll" title="Clear all letters">
+                <span>🔄</span> Reset
+              </button>
+            </div>
+
+            <div style="font-size:13px; font-weight:700; color:#64748b; margin-top:14px;">Tap letters to place in order:</div>
+            <div class="c2-scramble-pool-row" id="c2ScramblePool"></div>
+          </div>
+        `;
+
+        const slotsEl = canvas.querySelector('#c2ScrambleSlots');
+        const poolEl = canvas.querySelector('#c2ScramblePool');
+        const btnBk = canvas.querySelector('#c2BtnBackspace');
+        const btnClr = canvas.querySelector('#c2BtnClearAll');
+
+        function redraw() {
+          // Render Slots
+          slotsEl.innerHTML = '';
+          placed.forEach((slotItem, idx) => {
+            const slot = document.createElement('button');
+            slot.type = 'button';
+            slot.className = `c2-scramble-slot ${slotItem ? 'filled' : ''}`;
+            slot.textContent = slotItem ? slotItem.char : '';
+            if (slotItem) {
+              slot.title = 'Tap to remove letter';
+              slot.onclick = () => {
+                AudioEngine.pop();
+                pool.push(slotItem);
+                placed[idx] = null;
+                redraw();
+              };
+            }
+            slotsEl.appendChild(slot);
+          });
+
+          // Render Available Tiles
+          poolEl.innerHTML = '';
+          pool.forEach((item, idx) => {
+            const tile = document.createElement('button');
+            tile.type = 'button';
+            tile.className = 'c2-scramble-tile';
+            tile.textContent = item.char;
+            tile.onclick = () => {
+              const firstEmpty = placed.indexOf(null);
+              if (firstEmpty !== -1) {
+                AudioEngine.pop();
+                placed[firstEmpty] = item;
+                pool.splice(idx, 1);
+                redraw();
+                checkCompletion();
+              }
+            };
+            poolEl.appendChild(tile);
+          });
+        }
+
+        function checkCompletion() {
+          if (!placed.includes(null)) {
+            const assembled = placed.map(p => p.char).join('');
+            if (assembled === rawTarget) {
+              AudioEngine.success();
+              score++;
+              slotsEl.querySelectorAll('.c2-scramble-slot').forEach(s => s.classList.add('correct'));
+              if (nextBtn) nextBtn.disabled = false;
+              SpeechEngine.speak(`Awesome! You spelled ${rawTarget}!`);
+            } else {
+              AudioEngine.wrong();
+              slotsEl.querySelectorAll('.c2-scramble-slot').forEach(s => s.classList.add('wrong'));
+              SpeechEngine.speak('Not quite. Tap letters or backspace to try again!');
+              setTimeout(() => {
+                slotsEl.querySelectorAll('.c2-scramble-slot').forEach(s => s.classList.remove('wrong'));
+              }, 600);
+            }
+          }
+        }
+
+        if (btnBk) {
+          btnBk.onclick = () => {
+            // Find last placed item
+            for (let i = placed.length - 1; i >= 0; i--) {
+              if (placed[i] !== null) {
+                AudioEngine.pop();
+                pool.push(placed[i]);
+                placed[i] = null;
+                redraw();
+                break;
+              }
+            }
+          };
+        }
+
+        if (btnClr) {
+          btnClr.onclick = () => {
+            AudioEngine.pop();
+            placed.forEach(it => { if (it) pool.push(it); });
+            placed = new Array(targetLetters.length).fill(null);
+            redraw();
+          };
+        }
+
+        redraw();
+
+        if (nextBtn) {
+          nextBtn.onclick = () => {
+            roundIdx++;
+            if (roundIdx < totalRounds) {
+              renderRound();
+            } else {
+              onComplete({ score, total: totalRounds });
+            }
+          };
+        }
       }
 
       renderRound();

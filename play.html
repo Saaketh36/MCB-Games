@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="css/class2_games.css">
+<link rel="stylesheet" href="css/reading_studio.css">
 <style>
 :root{--p:#667eea;--p2:#764ba2;--ok:#28a745;--bad:#dc3545;--ink:#2d3250;--bg:#f4f6ff}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -106,6 +107,7 @@ function quitGame(){
   goBack();
 }
 
+function cleanQ(s){ if (!s || typeof s !== 'string') return s || ''; return s.replace(/^\s*\[Class\s+[^\]]+\]\s*/i, '').trim(); }
 function el(tag, cls, text){ const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; }
 function shuffle(a){ a = a.slice(); for (let i = a.length-1; i > 0; i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; }
 function shuffleDiff(a){ if (a.length < 2) return a.slice(); let s; let n = 0; do { s = shuffle(a); n++; } while (s.every((v,i)=>v===a[i]) && n < 20); return s; }
@@ -191,7 +193,7 @@ function runMCQ(items, timedSeconds){
     stage.innerHTML = ''; setBar(i, items.length); intro(i === 0 && content.intro);
     if (timedSeconds) stage.append(timerEl);
     const it = items[i];
-    stage.append(el('div','qtext', (i+1) + '. ' + it.q));
+    stage.append(el('div','qtext', (i+1) + '. ' + cleanQ(it.q)));
     const box = el('div','options');
     shuffle(it.options.map((t,idx)=>({t,idx}))).forEach(o => {
       const b = el('button','opt',o.t); b.dataset.idx = o.idx;
@@ -218,7 +220,7 @@ function runTyping(items){
   function show(){
     stage.innerHTML = ''; setBar(i, items.length); intro(i === 0 && content.intro);
     const it = items[i];
-    stage.append(el('div','qtext',(i+1)+'. '+it.q));
+    stage.append(el('div','qtext',(i+1)+'. '+cleanQ(it.q)));
     const inp = el('input'); inp.type = 'text'; inp.placeholder = 'Type your answer…'; inp.autocomplete = 'off'; stage.append(inp);
     const fb = el('div','fb'); stage.append(fb);
     const btn = el('button','primary','Check'); stage.append(btn); inp.focus();
@@ -244,7 +246,7 @@ function runFill(items){
   function show(){
     stage.innerHTML = ''; setBar(i, items.length); intro(i === 0 && content.intro);
     const it = items[i]; let locked = false;
-    stage.append(el('div','qtext',(i+1)+'. '+it.text));
+    stage.append(el('div','qtext',(i+1)+'. '+cleanQ(it.text)));
     const fb = el('div','fb');
     const next = () => { i++; i < items.length ? show() : finish(score, items.length); };
     function judge(ok){
@@ -272,7 +274,7 @@ function runSequence(rounds){
   function show(){
     stage.innerHTML = ''; setBar(r, rounds.length); intro(r === 0 && content.intro);
     const R = rounds[r], n = R.steps.length;
-    stage.append(el('div','qtext', R.prompt || 'Put these in the correct order.'));
+    stage.append(el('div','qtext', cleanQ(R.prompt) || 'Put these in the correct order.'));
     const slots = el('div','slots'), pool = el('div','row'), picked = [];
     const slotEls = R.steps.map((_,k) => { const s = el('div','slot'); s.append(el('b','',k+1)); const t = el('span'); s.append(t); slots.append(s); return s; });
     const chips = shuffleDiff(R.steps).map(t => { const c = el('button','chip',t); c.onclick = () => { if (checked) return; picked.push({t,c}); c.classList.add('used'); redraw(); }; pool.append(c); return c; });
@@ -379,7 +381,7 @@ function runGuess(items){
 /* ---------- Sort & Group ---------- */
 function runSort(c){
   stage.innerHTML = ''; intro(content.intro);
-  if (c.prompt) stage.append(el('div','qtext',c.prompt));
+  if (c.prompt) stage.append(el('div','qtext',cleanQ(c.prompt)));
   const total = c.items.length; let placed = 0, mistakes = 0, sel = null;
   const pool = el('div','row'), cats = el('div','cats'), fb = el('div','fb');
   shuffle(c.items).forEach(it => { const b = el('button','chip',it.label); b.onclick = () => { if (b.classList.contains('done')) return; if (sel) sel.b.classList.remove('sel'); sel = {it,b}; b.classList.add('sel'); }; pool.append(b); });
@@ -412,6 +414,192 @@ function runStory(c){
   show();
 }
 
+/* ---------- Reading Comprehension Studio ---------- */
+function runReadingComprehension(c){
+  const card = document.querySelector('.card');
+  if (card) card.style.maxWidth = '1260px';
+
+  const passage = c.passage;
+  const questions = c.questions || [];
+  let i = 0, score = 0, locked = false;
+
+  let fontSize = 17;
+  let isSpeaking = false;
+
+  function stopSpeech(){
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    isSpeaking = false;
+    const btn = document.getElementById('playTtsBtn');
+    if (btn) btn.innerHTML = '<span>▶</span> Read Aloud';
+  }
+
+  function toggleSpeech(){
+    if (!('speechSynthesis' in window) || !passage) return;
+    if (isSpeaking){
+      stopSpeech();
+      return;
+    }
+    stopSpeech();
+    const utter = new SpeechSynthesisUtterance(passage.content.join('. '));
+    utter.rate = 0.92;
+    utter.pitch = 1.02;
+    isSpeaking = true;
+    const btn = document.getElementById('playTtsBtn');
+    if (btn) btn.innerHTML = '<span>⏹</span> Stop Audio';
+    utter.onend = stopSpeech;
+    utter.onerror = stopSpeech;
+    window.speechSynthesis.speak(utter);
+  }
+
+  function highlightEvidence(paraIdx){
+    const target = document.getElementById(`playPara-${paraIdx}`);
+    if (target){
+      target.classList.add('is-evidence-target');
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => target.classList.remove('is-evidence-target'), 3500);
+    }
+  }
+
+  function show(){
+    stopSpeech();
+    stage.innerHTML = '';
+    setBar(i, questions.length);
+
+    const layout = el('div', 'reading-studio-layout');
+
+    // Left pane: Passage
+    const pPane = el('div', 'reading-passage-pane');
+    
+    // Header
+    const pHeader = el('div', 'passage-meta-header');
+    const tags = el('div', 'passage-meta-tags');
+    if (passage.topic) tags.append(el('span', 'passage-badge passage-badge-topic', '🏷️ ' + passage.topic));
+    if (passage.genre) tags.append(el('span', 'passage-badge passage-badge-genre', '📚 ' + passage.genre));
+    if (passage.estimatedTime) tags.append(el('span', 'passage-badge passage-badge-time', '⏱️ ' + passage.estimatedTime));
+    pHeader.append(tags, el('h3', 'passage-title', passage.title));
+
+    // Toolbar
+    const toolbar = el('div', 'reading-toolbar');
+    const ttsBtn = el('button', 'btn-reading-tts', '▶ Read Aloud');
+    ttsBtn.id = 'playTtsBtn';
+    ttsBtn.type = 'button';
+    ttsBtn.onclick = toggleSpeech;
+
+    const fontBox = el('div', 'reading-font-controls');
+    fontBox.append(el('span', 'font-ctrl-label', 'Text:'));
+    const fDown = el('button', 'btn-font-size', 'A-');
+    fDown.type = 'button';
+    fDown.onclick = () => { fontSize = Math.max(14, fontSize - 2); pContent.style.fontSize = fontSize + 'px'; };
+    const fUp = el('button', 'btn-font-size', 'A+');
+    fUp.type = 'button';
+    fUp.onclick = () => { fontSize = Math.min(24, fontSize + 2); pContent.style.fontSize = fontSize + 'px'; };
+    fontBox.append(fDown, fUp);
+    toolbar.append(ttsBtn, fontBox);
+
+    // Paragraphs
+    const pContent = el('div', 'passage-text-container');
+    pContent.style.fontSize = fontSize + 'px';
+
+    const vocabMap = {};
+    (passage.vocabulary || []).forEach(v => vocabMap[v.word.toLowerCase()] = v);
+
+    passage.content.forEach((paraText, pIdx) => {
+      const pEl = el('div', 'passage-paragraph');
+      pEl.id = `playPara-${pIdx}`;
+      const badge = el('span', 'passage-para-badge', '¶ ' + (pIdx + 1));
+      pEl.append(badge);
+
+      let processed = paraText;
+      Object.keys(vocabMap).forEach(w => {
+        const regex = new RegExp(`\\b(${w})\\b`, 'gi');
+        processed = processed.replace(regex, `<span class="vocab-word-highlight" data-w="${w}">$1</span>`);
+      });
+      const txtSpan = document.createElement('span');
+      txtSpan.innerHTML = processed;
+      txtSpan.querySelectorAll('.vocab-word-highlight').forEach(vw => {
+        vw.onclick = (e) => {
+          e.stopPropagation();
+          const item = vocabMap[vw.dataset.w];
+          if (item) alert(`📖 ${item.word}\n\nDefinition: ${item.definition}\n${item.example ? 'Example: "' + item.example + '"' : ''}`);
+        };
+      });
+      pEl.append(txtSpan);
+      pContent.append(pEl);
+    });
+
+    pPane.append(pHeader, toolbar, pContent);
+
+    // Right pane: Quiz
+    const qPane = el('div', 'reading-quiz-pane');
+    const qCard = el('div', 'reading-question-card');
+
+    const it = questions[i];
+    const isTyped = it.type === 'typed';
+
+    const qHead = el('div', 'reading-question-header');
+    qHead.append(el('span', 'reading-type-badge', isTyped ? '✍️ Short Answer' : '🎯 Multiple Choice'));
+    if (it.evidenceParagraph !== undefined){
+      const evBtn = el('button', 'btn-show-evidence', `🔍 Find in Text (¶ ${it.evidenceParagraph + 1})`);
+      evBtn.type = 'button';
+      evBtn.onclick = () => highlightEvidence(it.evidenceParagraph);
+      qHead.append(evBtn);
+    }
+    qCard.append(qHead, el('h3', 'reading-question-title', (i + 1) + '. ' + cleanQ(it.q)));
+
+    const fb = el('div', 'fb');
+    const go = () => { i++; locked = false; i < questions.length ? show() : finish(score, questions.length); };
+
+    if (isTyped){
+      const inp = el('input', 'reading-typed-input');
+      inp.type = 'text';
+      inp.placeholder = 'Type your answer based on the passage...';
+      const checkBtn = el('button', 'btn-typed-submit', 'Check Answer ✓');
+      checkBtn.type = 'button';
+      function checkTyped(){
+        if (locked) return;
+        const val = inp.value.trim().toLowerCase();
+        if (!val) return;
+        locked = true; inp.disabled = true;
+        const keywords = it.keywords || [String(it.answer).toLowerCase()];
+        const ok = val === String(it.answer).toLowerCase() || keywords.some(kw => val.includes(kw.toLowerCase()));
+        if (ok){ score++; addPoints(10); sfx.ok(); fb.className = 'fb ok'; fb.textContent = '✅ Correct! Key concepts identified.'; }
+        else { sfx.bad(); fb.className = 'fb no'; fb.textContent = '❌ Expected answer: ' + it.answer; }
+        if (it.explain) fb.append(document.createElement('br'), el('span', '', it.explain));
+        const n = el('button', 'primary', i + 1 < questions.length ? 'Next Question →' : 'See Results');
+        n.onclick = go;
+        qCard.append(n);
+      }
+      checkBtn.onclick = checkTyped;
+      inp.onkeydown = e => { if (e.key === 'Enter') checkTyped(); };
+      qCard.append(inp, el('div', 'reading-typed-actions', checkBtn), fb);
+    } else {
+      const box = el('div', 'options');
+      shuffle(it.options.map((t, idx) => ({ t, idx }))).forEach(o => {
+        const b = el('button', 'opt', o.t);
+        b.dataset.idx = o.idx;
+        b.onclick = () => {
+          if (locked) return;
+          locked = true;
+          if (o.idx === it.answer){ b.classList.add('right'); score++; addPoints(10); sfx.ok(); }
+          else { b.classList.add('wrong'); [...box.children].find(c => +c.dataset.idx === it.answer)?.classList.add('right'); sfx.bad(); }
+          if (it.explain) qCard.append(el('div', 'explain', it.explain));
+          const n = el('button', 'primary', i + 1 < questions.length ? 'Next Question →' : 'See Results');
+          n.onclick = go;
+          qCard.append(n);
+        };
+        box.append(b);
+      });
+      qCard.append(box);
+    }
+
+    qPane.append(qCard);
+    layout.append(pPane, qPane);
+    stage.append(layout);
+  }
+
+  show();
+}
+
 /* ---------- Dispatcher ---------- */
 function toMCQItems(c){
   if (c.questions) return c.questions;
@@ -427,6 +615,7 @@ function start(){
   }
   const c = content, t = act.type;
   try {
+    if (c.passage || t === 'Reading Comprehension') return runReadingComprehension(c);
     if (t === 'MCQ Quiz') return runMCQ(toMCQItems(c));
     if (t === 'Odd One Out') return runMCQ(toMCQItems(c));
     if (t === 'Timed Challenge') return runMCQ(toMCQItems(c), c.seconds || 60);

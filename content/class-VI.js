@@ -1472,10 +1472,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'? Formula: 2(Length + Width)",
+        "q": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'?",
         "options": [
           "2x + 3",
-          "2(x + 3) meters (or 2x + 6)",
+          "2 meters",
           "3x",
           "x + 3"
         ],
@@ -1515,10 +1515,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'? Formula: 2(Length + Width)",
+        "q": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'?",
         "options": [
           "2x + 3",
-          "2(x + 3) meters (or 2x + 6)",
+          "2 meters",
           "3x",
           "x + 3"
         ],
@@ -1561,7 +1561,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In a pictograph where one 🪙 coin symbol represents ₹2,000, how many coin symbols will represent the Food budget (₹12,000)?",
         "options": [
           "2 coin symbols",
-          "6 coin symbols (12,000 / 2,000 = 6)",
+          "6 coin symbols",
           "12 coin symbols",
           "4 coin symbols"
         ],
@@ -1569,7 +1569,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "₹12,000 divided by the scale of ₹2,000 per symbol = exactly 6 symbols!"
       },
       {
-        "q": "What is the total monthly budget tracked by Priya? (12,000 + 6,000 + 2,000 + 4,000)",
+        "q": "What is the total monthly budget tracked by Priya?",
         "options": [
           "₹22,000",
           "₹20,000",
@@ -1585,7 +1585,7 @@ Object.assign(window.GAME_CONTENT, {
           "1/6",
           "1/3",
           "1/2",
-          "1/4 (6,000 / 24,000 = 1/4 = 25%)"
+          "1/4"
         ],
         "answer": 3,
         "explain": "6,000/24,000 simplifies to 1/4 (or 25% of the total family budget)!"
@@ -1604,7 +1604,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In a pictograph where one 🪙 coin symbol represents ₹2,000, how many coin symbols will represent the Food budget (₹12,000)?",
         "options": [
           "2 coin symbols",
-          "6 coin symbols (12,000 / 2,000 = 6)",
+          "6 coin symbols",
           "12 coin symbols",
           "4 coin symbols"
         ],
@@ -1612,7 +1612,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "₹12,000 divided by the scale of ₹2,000 per symbol = exactly 6 symbols!"
       },
       {
-        "q": "What is the total monthly budget tracked by Priya? (12,000 + 6,000 + 2,000 + 4,000)",
+        "q": "What is the total monthly budget tracked by Priya?",
         "options": [
           "₹22,000",
           "₹20,000",
@@ -1628,7 +1628,7 @@ Object.assign(window.GAME_CONTENT, {
           "1/6",
           "1/3",
           "1/2",
-          "1/4 (6,000 / 24,000 = 1/4 = 25%)"
+          "1/4"
         ],
         "answer": 3,
         "explain": "6,000/24,000 simplifies to 1/4 (or 25% of the total family budget)!"
@@ -1669,7 +1669,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Verify Euler's Formula for a Cube: Faces - Edges + Vertices (F - E + V). What is 6 - 12 + 8?",
         "options": [
           "0",
-          "2 (Euler's characteristic F - E + V = 2 holds true!)",
+          "2",
           "1",
           "4"
         ],
@@ -1712,7 +1712,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Verify Euler's Formula for a Cube: Faces - Edges + Vertices (F - E + V). What is 6 - 12 + 8?",
         "options": [
           "0",
-          "2 (Euler's characteristic F - E + V = 2 holds true!)",
+          "2",
           "1",
           "4"
         ],
@@ -2160,9 +2160,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the total FLOOR AREA to be covered with tiles? (Formula: Length x Width)",
+        "q": "What is the total FLOOR AREA to be covered with tiles?",
         "options": [
-          "48 square meters (8 x 6 = 48 sq m)",
+          "48 square meters",
           "96 square meters",
           "14 square meters",
           "28 square meters"
@@ -2171,11 +2171,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Area = 8 m x 6 m = 48 square meters of floor space!"
       },
       {
-        "q": "What length of wooden skirting baseboard is needed around the PERIMETER of the room? 2 x (L + W)",
+        "q": "What length of wooden skirting baseboard is needed around the PERIMETER of the room?",
         "options": [
           "14 meters",
           "48 meters",
-          "28 meters: 2 x (8 + 6) = 2 x 14 = 28 m",
+          "28 meters: 2 x = 2 x 14 = 28 m",
           "56 meters"
         ],
         "answer": 2,
@@ -2186,7 +2186,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "96 tiles",
           "24 tiles",
-          "48 tiles (48 / 1 = 48)",
+          "48 tiles",
           "28 tiles"
         ],
         "answer": 2,
@@ -2203,9 +2203,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the total FLOOR AREA to be covered with tiles? (Formula: Length x Width)",
+        "q": "What is the total FLOOR AREA to be covered with tiles?",
         "options": [
-          "48 square meters (8 x 6 = 48 sq m)",
+          "48 square meters",
           "96 square meters",
           "14 square meters",
           "28 square meters"
@@ -2214,11 +2214,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Area = 8 m x 6 m = 48 square meters of floor space!"
       },
       {
-        "q": "What length of wooden skirting baseboard is needed around the PERIMETER of the room? 2 x (L + W)",
+        "q": "What length of wooden skirting baseboard is needed around the PERIMETER of the room?",
         "options": [
           "14 meters",
           "48 meters",
-          "28 meters: 2 x (8 + 6) = 2 x 14 = 28 m",
+          "28 meters: 2 x = 2 x 14 = 28 m",
           "56 meters"
         ],
         "answer": 2,
@@ -2229,7 +2229,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "96 tiles",
           "24 tiles",
-          "48 tiles (48 / 1 = 48)",
+          "48 tiles",
           "28 tiles"
         ],
         "answer": 2,
@@ -2246,7 +2246,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "After how many minutes will both bells toll TOGETHER again? (Find the Lowest Common Multiple / LCM of 6 and 8)",
+        "q": "After how many minutes will both bells toll TOGETHER again?",
         "options": [
           "14 minutes",
           "2 minutes",
@@ -2289,7 +2289,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "After how many minutes will both bells toll TOGETHER again? (Find the Lowest Common Multiple / LCM of 6 and 8)",
+        "q": "After how many minutes will both bells toll TOGETHER again?",
         "options": [
           "14 minutes",
           "2 minutes",
@@ -2345,7 +2345,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are 'CO-PRIME NUMBERS' (e.g., the pair 4 and 9)?",
         "options": [
-          "Two numbers whose ONLY common factor is 1 (HCF = 1)",
+          "Two numbers whose ONLY common factor is 1",
           "Two numbers that are both prime",
           "Two negative numbers",
           "Two numbers that add up to 10"
@@ -2388,7 +2388,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are 'CO-PRIME NUMBERS' (e.g., the pair 4 and 9)?",
         "options": [
-          "Two numbers whose ONLY common factor is 1 (HCF = 1)",
+          "Two numbers whose ONLY common factor is 1",
           "Two numbers that are both prime",
           "Two negative numbers",
           "Two numbers that add up to 10"
@@ -2418,7 +2418,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the total weight of flour and sugar combined? (2 1/4 + 1 1/2 = 2 1/4 + 1 2/4)",
+        "q": "What is the total weight of flour and sugar combined?",
         "options": [
           "3 3/4 kg (or 3.75 kg)",
           "2 3/4 kg",
@@ -2429,7 +2429,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "2 1/4 + 1 2/4 = 3 3/4 kg = 3.75 kilograms in total!"
       },
       {
-        "q": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack? (5 - 2 1/4)",
+        "q": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack?",
         "options": [
           "3 kg",
           "1 3/4 kg",
@@ -2461,7 +2461,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the total weight of flour and sugar combined? (2 1/4 + 1 1/2 = 2 1/4 + 1 2/4)",
+        "q": "What is the total weight of flour and sugar combined?",
         "options": [
           "3 3/4 kg (or 3.75 kg)",
           "2 3/4 kg",
@@ -2472,7 +2472,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "2 1/4 + 1 2/4 = 3 3/4 kg = 3.75 kilograms in total!"
       },
       {
-        "q": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack? (5 - 2 1/4)",
+        "q": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack?",
         "options": [
           "3 kg",
           "1 3/4 kg",
@@ -2504,7 +2504,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much higher is the student's temperature of 38.6°C than normal 37.0°C? (38.6 - 37.0)",
+        "q": "How much higher is the student's temperature of 38.6°C than normal 37.0°C?",
         "options": [
           "16°C",
           "2.6°C",
@@ -2515,7 +2515,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "38.6 - 37.0 = 1.6°C above normal baseline temperature."
       },
       {
-        "q": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win? (12.45 - 12.38)",
+        "q": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win?",
         "options": [
           "0.13 seconds",
           "0.7 seconds",
@@ -2530,7 +2530,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "₹7.5",
           "₹0.075",
-          "₹0.75 (since ₹1 = 100 paise)",
+          "₹0.75",
           "₹75.0"
         ],
         "answer": 2,
@@ -2547,7 +2547,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much higher is the student's temperature of 38.6°C than normal 37.0°C? (38.6 - 37.0)",
+        "q": "How much higher is the student's temperature of 38.6°C than normal 37.0°C?",
         "options": [
           "16°C",
           "2.6°C",
@@ -2558,7 +2558,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "38.6 - 37.0 = 1.6°C above normal baseline temperature."
       },
       {
-        "q": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win? (12.45 - 12.38)",
+        "q": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win?",
         "options": [
           "0.13 seconds",
           "0.7 seconds",
@@ -2573,7 +2573,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "₹7.5",
           "₹0.075",
-          "₹0.75 (since ₹1 = 100 paise)",
+          "₹0.75",
           "₹75.0"
         ],
         "answer": 2,
@@ -2601,7 +2601,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "-50 + 20 = -30 meters (30 meters below the surface)!"
       },
       {
-        "q": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature? (-4 - 3) =",
+        "q": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature?",
         "options": [
           "-1°C",
           "+1°C",
@@ -2616,7 +2616,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Negative numbers cannot be compared",
           "-12 is greater",
-          "-5 is greater (on the number line, -5 lies to the right of -12)",
+          "-5 is greater",
           "Both are equal"
         ],
         "answer": 2,
@@ -2644,7 +2644,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "-50 + 20 = -30 meters (30 meters below the surface)!"
       },
       {
-        "q": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature? (-4 - 3) =",
+        "q": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature?",
         "options": [
           "-1°C",
           "+1°C",
@@ -2659,7 +2659,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Negative numbers cannot be compared",
           "-12 is greater",
-          "-5 is greater (on the number line, -5 lies to the right of -12)",
+          "-5 is greater",
           "Both are equal"
         ],
         "answer": 2,
@@ -2687,9 +2687,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "75,400 - 28,150 = 47,250!"
       },
       {
-        "q": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days? (2,500 x 30)",
+        "q": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days?",
         "options": [
-          "75,000 calculators (25 x 3 = 75, with three zeros)",
+          "75,000 calculators",
           "750,000",
           "25,030",
           "7,500"
@@ -2730,9 +2730,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "75,400 - 28,150 = 47,250!"
       },
       {
-        "q": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days? (2,500 x 30)",
+        "q": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days?",
         "options": [
-          "75,000 calculators (25 x 3 = 75, with three zeros)",
+          "75,000 calculators",
           "750,000",
           "25,030",
           "7,500"
@@ -2762,7 +2762,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form? (24/16)",
+        "q": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form?",
         "options": [
           "3:2 (divide both numbers by their HCF of 8)",
           "6:5",
@@ -2784,7 +2784,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A ratio compares the relative scale between two corresponding quantities."
       },
       {
-        "q": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there? (5 x 3 = 15, so 3 x 3 = ?)",
+        "q": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there?",
         "options": [
           "9 oranges",
           "12 oranges",
@@ -2805,7 +2805,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form? (24/16)",
+        "q": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form?",
         "options": [
           "3:2 (divide both numbers by their HCF of 8)",
           "6:5",
@@ -2827,7 +2827,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A ratio compares the relative scale between two corresponding quantities."
       },
       {
-        "q": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there? (5 x 3 = 15, so 3 x 3 = ?)",
+        "q": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there?",
         "options": [
           "9 oranges",
           "12 oranges",
@@ -2848,20 +2848,20 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook? (120 / 6)",
+        "q": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook?",
         "options": [
           "₹25",
           "₹15",
-          "₹20 per notebook (120 / 6 = 20)",
+          "₹20 per notebook",
           "₹10"
         ],
         "answer": 2,
         "explain": "Unitary method means finding the unit value (cost of 1) first: ₹120 / 6 = ₹20 per notebook!"
       },
       {
-        "q": "Step 2: What is the total cost for Kabir to purchase 4 notebooks? (4 x ₹20)",
+        "q": "Step 2: What is the total cost for Kabir to purchase 4 notebooks?",
         "options": [
-          "₹80 (4 x 20 = 80)",
+          "₹80",
           "₹50",
           "₹60",
           "₹100"
@@ -2870,9 +2870,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4 notebooks x ₹20 each = ₹80 total cost!"
       },
       {
-        "q": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours? (240 / 3 = 80 km/h; 80 x 5 = ?)",
+        "q": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours?",
         "options": [
-          "400 kilometers (80 km/h x 5 hours = 400 km)",
+          "400 kilometers",
           "350 km",
           "300 km",
           "500 km"
@@ -2891,20 +2891,20 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook? (120 / 6)",
+        "q": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook?",
         "options": [
           "₹25",
           "₹15",
-          "₹20 per notebook (120 / 6 = 20)",
+          "₹20 per notebook",
           "₹10"
         ],
         "answer": 2,
         "explain": "Unitary method means finding the unit value (cost of 1) first: ₹120 / 6 = ₹20 per notebook!"
       },
       {
-        "q": "Step 2: What is the total cost for Kabir to purchase 4 notebooks? (4 x ₹20)",
+        "q": "Step 2: What is the total cost for Kabir to purchase 4 notebooks?",
         "options": [
-          "₹80 (4 x 20 = 80)",
+          "₹80",
           "₹50",
           "₹60",
           "₹100"
@@ -2913,9 +2913,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4 notebooks x ₹20 each = ₹80 total cost!"
       },
       {
-        "q": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours? (240 / 3 = 80 km/h; 80 x 5 = ?)",
+        "q": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours?",
         "options": [
-          "400 kilometers (80 km/h x 5 hours = 400 km)",
+          "400 kilometers",
           "350 km",
           "300 km",
           "500 km"

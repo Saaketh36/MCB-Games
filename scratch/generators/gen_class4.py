@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class IV Educational Activities (Outcomes 96 - 147).
-English (96-114), EVS (115-129), Mathematics (130-147).
+Generator for Class IV Educational Activities.
+English, EVS, Mathematics.
 """
 
 CLASS4_GAMES = {
@@ -671,7 +671,7 @@ CLASS4_GAMES = {
             },
             {
                 "prompt": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
-                "options": ["6:30 PM in the evening (18:30 - 12:00)", "8:30 AM in the morning", "1:30 PM in the afternoon", "11:30 PM at night"],
+                "options": ["6:30 PM in the evening", "8:30 AM in the morning", "1:30 PM in the afternoon", "11:30 PM at night"],
                 "answer": 0,
                 "explanation": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
             }
@@ -833,7 +833,7 @@ CLASS4_GAMES = {
             },
             {
                 "prompt": "How many MORE students chose Football (12) than chose Badminton (8)?",
-                "options": ["4 students (12 - 8 = 4)", "20 students", "6 students", "2 students"],
+                "options": ["4 students", "20 students", "6 students", "2 students"],
                 "answer": 0,
                 "explanation": "12 minus 8 leaves a difference of 4 students."
             },
@@ -850,20 +850,20 @@ CLASS4_GAMES = {
         "story": "Farmer Ram wants to put a wooden fence around his rectangular vegetable patch which is 6 meters long and 4 meters wide.",
         "questions": [
             {
-                "prompt": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
-                "options": ["20 meters: 2 x (6 + 4) = 2 x 10 = 20 m", "24 meters", "10 meters", "12 meters"],
+                "prompt": "What is the PERIMETER (total distance around the boundary) of the garden?",
+                "options": ["20 meters: 2 x = 2 x 10 = 20 m", "24 meters", "10 meters", "12 meters"],
                 "answer": 0,
                 "explanation": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
             },
             {
-                "prompt": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
-                "options": ["24 square meters (6 x 4 = 24 sq m)", "20 square meters", "10 square meters", "48 square meters"],
+                "prompt": "What is the AREA (internal surface space) of the garden?",
+                "options": ["24 square meters", "20 square meters", "10 square meters", "48 square meters"],
                 "answer": 0,
                 "explanation": "Area = 6 m x 4 m = 24 square meters of planting space."
             },
             {
-                "prompt": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
-                "options": ["20 meters (4 x 5 = 20 m)", "25 meters", "10 meters", "15 meters"],
+                "prompt": "If a square sandbox has sides measuring 5 meters each, what is its perimeter?",
+                "options": ["20 meters", "25 meters", "10 meters", "15 meters"],
                 "answer": 0,
                 "explanation": "A square has 4 equal sides: 5 + 5 + 5 + 5 = 20 meters."
             }
@@ -898,19 +898,19 @@ CLASS4_GAMES = {
         "story": "A class of 24 students is planning a day trip. The bus rental costs ₹1,200 in total, and juice boxes cost ₹15 each.",
         "questions": [
             {
-                "prompt": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
-                "options": ["₹50 per student (24 x 50 = 1200)", "₹40 per student", "₹60 per student", "₹24 per student"],
+                "prompt": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel?",
+                "options": ["₹50 per student", "₹40 per student", "₹60 per student", "₹24 per student"],
                 "answer": 0,
                 "explanation": "1200 / 24 = ₹50 travel cost per student."
             },
             {
-                "prompt": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
-                "options": ["₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)", "₹300", "₹400", "₹240"],
+                "prompt": "How much will 24 juice boxes cost if each box is ₹15?",
+                "options": ["₹360", "₹300", "₹400", "₹240"],
                 "answer": 0,
                 "explanation": "24 x 15 = ₹360 total for refreshing juice boxes!"
             },
             {
-                "prompt": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+                "prompt": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back?",
                 "options": ["₹35", "₹45", "₹25", "₹50"],
                 "answer": 0,
                 "explanation": "100 - 65 = ₹35 in change."
@@ -923,7 +923,7 @@ CLASS4_GAMES = {
         "questions": [
             {
                 "prompt": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
-                "options": ["45 minutes (60 - 15 = 45)", "30 minutes", "15 minutes", "1 hour"],
+                "options": ["45 minutes", "30 minutes", "15 minutes", "1 hour"],
                 "answer": 0,
                 "explanation": "From 4:15 to 5:00 is exactly 45 minutes of focused study time."
             },
@@ -947,7 +947,7 @@ CLASS4_GAMES = {
         "questions": [
             {
                 "prompt": "What time is '14:20' on a standard 12-hour clock?",
-                "options": ["2:20 PM in the afternoon (14:20 - 12:00)", "4:20 AM", "12:20 PM", "2:20 AM in the middle of the night"],
+                "options": ["2:20 PM in the afternoon", "4:20 AM", "12:20 PM", "2:20 AM in the middle of the night"],
                 "answer": 0,
                 "explanation": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
             },
@@ -970,14 +970,14 @@ CLASS4_GAMES = {
         "story": "Arjun is measuring cloth for theatrical stage curtains. The banner measures 4 meters and 75 centimeters.",
         "questions": [
             {
-                "prompt": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
-                "options": ["400 cm (4 x 100)", "40 cm", "4000 cm", "140 cm"],
+                "prompt": "Convert 4 meters into centimeters.",
+                "options": ["400 cm", "40 cm", "4000 cm", "140 cm"],
                 "answer": 0,
                 "explanation": "4 m x 100 cm/m = 400 centimeters!"
             },
             {
                 "prompt": "How many total centimeters is 4 meters and 75 centimeters?",
-                "options": ["475 cm (400 + 75)", "4075 cm", "754 cm", "115 cm"],
+                "options": ["475 cm", "4075 cm", "754 cm", "115 cm"],
                 "answer": 0,
                 "explanation": "400 cm + 75 cm = 475 cm total length."
             },
@@ -994,19 +994,19 @@ CLASS4_GAMES = {
         "story": "The school canteen sells healthy snack combos. Over one week, 320 sandwiches were prepared, and each sandwich costs ₹25.",
         "questions": [
             {
-                "prompt": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+                "prompt": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week?",
                 "options": ["140 sandwiches", "160 sandwiches", "120 sandwiches", "200 sandwiches"],
                 "answer": 0,
                 "explanation": "320 minus 180 leaves 140 sandwiches."
             },
             {
-                "prompt": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
-                "options": ["₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)", "₹550", "₹500", "₹450"],
+                "prompt": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each?",
+                "options": ["₹600", "₹550", "₹500", "₹450"],
                 "answer": 0,
                 "explanation": "40 x 15 = ₹600 total snack revenue."
             },
             {
-                "prompt": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+                "prompt": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
                 "options": ["10 apples per basket", "8 apples", "12 apples", "15 apples"],
                 "answer": 0,
                 "explanation": "80 divided equally by 8 equals 10 apples per basket."
@@ -1024,8 +1024,8 @@ CLASS4_GAMES = {
                 "explanation": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
             },
             {
-                "prompt": "How many slices out of 4 equal parts make up HALF (1/2) of the pizza?",
-                "options": ["2 slices (2/4 = 1/2)", "1 slice", "3 slices", "4 slices"],
+                "prompt": "How many slices out of 4 equal parts make up HALF of the pizza?",
+                "options": ["2 slices", "1 slice", "3 slices", "4 slices"],
                 "answer": 0,
                 "explanation": "2 out of 4 parts equals one-half of the whole pizza!"
             },
@@ -1045,11 +1045,11 @@ CLASS4_GAMES = {
                 "prompt": "Which fraction is EQUIVALENT (equal in value) to 1/2?",
                 "options": ["2/4 (two-fourths)", "1/4", "3/4", "2/3"],
                 "answer": 0,
-                "explanation": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
+                "explanation": "Multiply numerator and denominator by 2:/ = 2/4. They are equivalent!"
             },
             {
-                "prompt": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
-                "options": ["2 eighths (2/8 = 1/4)", "4 eighths", "1 eighth", "8 eighths"],
+                "prompt": "How many eighths are needed to equal one-fourth?",
+                "options": ["2 eighths", "4 eighths", "1 eighth", "8 eighths"],
                 "answer": 0,
                 "explanation": "2/8 simplifies to 1/4 when dividing top and bottom by 2."
             },
@@ -1066,8 +1066,8 @@ CLASS4_GAMES = {
         "story": "Meera has 24 colored marbles and divides them equally into 6 small velvet pouches.",
         "questions": [
             {
-                "prompt": "How many marbles will each velvet pouch hold? (24 / 6)",
-                "options": ["4 marbles (6 x 4 = 24)", "6 marbles", "3 marbles", "5 marbles"],
+                "prompt": "How many marbles will each velvet pouch hold?",
+                "options": ["4 marbles", "6 marbles", "3 marbles", "5 marbles"],
                 "answer": 0,
                 "explanation": "24 divided into 6 equal groups gives 4 marbles in each pouch!"
             },
@@ -1079,7 +1079,7 @@ CLASS4_GAMES = {
             },
             {
                 "prompt": "If you divide 27 by 9, what is the quotient?",
-                "options": ["3 (9 x 3 = 27)", "4", "2", "9"],
+                "options": ["3", "4", "2", "9"],
                 "answer": 0,
                 "explanation": "9 fits into 27 exactly 3 times!"
             }
@@ -1090,8 +1090,8 @@ CLASS4_GAMES = {
         "story": "A community library orders 14 new book boxes, and each box contains 25 historical encyclopedias.",
         "questions": [
             {
-                "prompt": "How many total books did the library receive? (25 x 14)",
-                "options": ["350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)", "250 books", "300 books", "400 books"],
+                "prompt": "How many total books did the library receive?",
+                "options": ["350 books", "250 books", "300 books", "400 books"],
                 "answer": 0,
                 "explanation": "25 x 14 = 350 books in total!"
             },
@@ -1099,10 +1099,10 @@ CLASS4_GAMES = {
                 "prompt": "Calculate: 125 x 4 =",
                 "options": ["500", "450", "600", "525"],
                 "answer": 0,
-                "explanation": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
+                "explanation": "125 x 4 = 500!"
             },
             {
-                "prompt": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+                "prompt": "What happens to any number when you multiply it by 100?",
                 "options": ["Add two zeros to the end: 3,600", "Add one zero: 360", "Subtract two zeros", "The number stays 36"],
                 "answer": 0,
                 "explanation": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
@@ -1114,16 +1114,16 @@ CLASS4_GAMES = {
         "story": "Arun spots an amazing pattern in the 9 times table: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90...",
         "questions": [
             {
-                "prompt": "Notice the sum of the digits in multiples of 9: (1+8=9, 2+7=9, 3+6=9, 4+5=9). What is the sum of the digits in 72?",
-                "options": ["9 (7 + 2 = 9)", "8", "10", "14"],
+                "prompt": "Notice the sum of the digits in multiples of 9:. What is the sum of the digits in 72?",
+                "options": ["9", "8", "10", "14"],
                 "answer": 0,
                 "explanation": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
             },
             {
                 "prompt": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
-                "options": ["63 (54 + 9 = 63)", "60", "72", "64"],
+                "options": ["63", "60", "72", "64"],
                 "answer": 0,
-                "explanation": "Skip counting by 9: 54 + 9 = 63 (9 x 7 = 63)!"
+                "explanation": "Skip counting by 9: 54 + 9 = 63!"
             },
             {
                 "prompt": "If 9 x 8 = 72, what is 72 / 9?",
@@ -1175,7 +1175,7 @@ CLASS4_GAMES = {
             },
             {
                 "prompt": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
-                "options": ["Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)", "Diameter is half of radius", "Diameter is equal to radius", "They are unrelated"],
+                "options": ["Diameter is exactly TWICE the length of the radius", "Diameter is half of radius", "Diameter is equal to radius", "They are unrelated"],
                 "answer": 0,
                 "explanation": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
             }

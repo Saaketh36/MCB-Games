@@ -464,7 +464,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...' ",
+          "'I see your point, but I felt the ending was surprising because...'",
           "'Nobody asked you.'",
           "'I am leaving the room!'",
           "'You are wrong, stop talking!'"
@@ -507,7 +507,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...' ",
+          "'I see your point, but I felt the ending was surprising because...'",
           "'Nobody asked you.'",
           "'I am leaving the room!'",
           "'You are wrong, stop talking!'"
@@ -1057,14 +1057,14 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "0",
           "10 more children",
-          "2 more children (6 - 4 = 2)",
+          "2 more children",
           "1 more child"
         ],
         "answer": 2,
         "explain": "6 minus 4 equals 2! 2 more children walk than bike."
       },
       {
-        "q": "How many total children were surveyed across all three travel methods? (10 + 6 + 4)",
+        "q": "How many total children were surveyed across all three travel methods?",
         "options": [
           "20 children",
           "14 children",
@@ -1100,14 +1100,14 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "0",
           "10 more children",
-          "2 more children (6 - 4 = 2)",
+          "2 more children",
           "1 more child"
         ],
         "answer": 2,
         "explain": "6 minus 4 equals 2! 2 more children walk than bike."
       },
       {
-        "q": "How many total children were surveyed across all three travel methods? (10 + 6 + 4)",
+        "q": "How many total children were surveyed across all three travel methods?",
         "options": [
           "20 children",
           "14 children",
@@ -1131,7 +1131,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Tina finds that 4 small cups of water completely fill 1 mug. How many cups will she need to fill 2 identical mugs?",
         "options": [
           "12 cups",
-          "8 cups (4 + 4 = 8)",
+          "8 cups",
           "2 cups",
           "4 cups"
         ],
@@ -1155,7 +1155,7 @@ Object.assign(window.GAME_CONTENT, {
           "7 paperclips",
           "9 paperclips",
           "3 paperclips",
-          "5 paperclips longer (7 - 2 = 5)"
+          "5 paperclips longer"
         ],
         "answer": 3,
         "explain": "7 - 2 = 5 paperclips longer."
@@ -1174,7 +1174,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Tina finds that 4 small cups of water completely fill 1 mug. How many cups will she need to fill 2 identical mugs?",
         "options": [
           "12 cups",
-          "8 cups (4 + 4 = 8)",
+          "8 cups",
           "2 cups",
           "4 cups"
         ],
@@ -1198,7 +1198,7 @@ Object.assign(window.GAME_CONTENT, {
           "7 paperclips",
           "9 paperclips",
           "3 paperclips",
-          "5 paperclips longer (7 - 2 = 5)"
+          "5 paperclips longer"
         ],
         "answer": 3,
         "explain": "7 - 2 = 5 paperclips longer."
@@ -1236,7 +1236,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Five 10-rupee coins add up to ₹50!"
       },
       {
-        "q": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back? (100 - 60)",
+        "q": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back?",
         "options": [
           "₹10",
           "₹40",
@@ -1279,7 +1279,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Five 10-rupee coins add up to ₹50!"
       },
       {
-        "q": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back? (100 - 60)",
+        "q": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back?",
         "options": [
           "₹10",
           "₹40",
@@ -1558,7 +1558,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much money does Simran have now in total? (₹34 + ₹25)",
+        "q": "How much money does Simran have now in total?",
         "options": [
           "₹49",
           "₹51",
@@ -1569,7 +1569,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Add the ones: 4 + 5 = 9. Add the tens: 3 + 2 = 5. Total = ₹59!"
       },
       {
-        "q": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left? (48 - 23)",
+        "q": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left?",
         "options": [
           "21 muffins",
           "25 muffins",
@@ -1580,7 +1580,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8 - 3 = 5 ones, and 4 - 2 = 2 tens. 48 - 23 = 25 muffins left!"
       },
       {
-        "q": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all? (26 + 13)",
+        "q": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all?",
         "options": [
           "49 kites",
           "39 kites",
@@ -1601,7 +1601,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much money does Simran have now in total? (₹34 + ₹25)",
+        "q": "How much money does Simran have now in total?",
         "options": [
           "₹49",
           "₹51",
@@ -1612,7 +1612,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Add the ones: 4 + 5 = 9. Add the tens: 3 + 2 = 5. Total = ₹59!"
       },
       {
-        "q": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left? (48 - 23)",
+        "q": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left?",
         "options": [
           "21 muffins",
           "25 muffins",
@@ -1623,7 +1623,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8 - 3 = 5 ones, and 4 - 2 = 2 tens. 48 - 23 = 25 muffins left!"
       },
       {
-        "q": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all? (26 + 13)",
+        "q": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all?",
         "options": [
           "49 kites",
           "39 kites",

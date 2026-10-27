@@ -2356,7 +2356,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening (18:30 - 12:00)",
+          "6:30 PM in the evening",
           "11:30 PM at night",
           "1:30 PM in the afternoon",
           "8:30 AM in the morning"
@@ -2399,7 +2399,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening (18:30 - 12:00)",
+          "6:30 PM in the evening",
           "11:30 PM at night",
           "1:30 PM in the afternoon",
           "8:30 AM in the morning"
@@ -2949,7 +2949,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "2 students",
           "20 students",
-          "4 students (12 - 8 = 4)",
+          "4 students",
           "6 students"
         ],
         "answer": 2,
@@ -2992,7 +2992,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "2 students",
           "20 students",
-          "4 students (12 - 8 = 4)",
+          "4 students",
           "6 students"
         ],
         "answer": 2,
@@ -3020,31 +3020,31 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
+        "q": "What is the PERIMETER (total distance around the boundary) of the garden?",
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x (6 + 4) = 2 x 10 = 20 m",
+          "20 meters: 2 x = 2 x 10 = 20 m",
           "12 meters"
         ],
         "answer": 2,
         "explain": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
       },
       {
-        "q": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
+        "q": "What is the AREA (internal surface space) of the garden?",
         "options": [
           "48 square meters",
           "20 square meters",
-          "24 square meters (6 x 4 = 24 sq m)",
+          "24 square meters",
           "10 square meters"
         ],
         "answer": 2,
         "explain": "Area = 6 m x 4 m = 24 square meters of planting space."
       },
       {
-        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
+        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter?",
         "options": [
-          "20 meters (4 x 5 = 20 m)",
+          "20 meters",
           "15 meters",
           "10 meters",
           "25 meters"
@@ -3063,31 +3063,31 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
+        "q": "What is the PERIMETER (total distance around the boundary) of the garden?",
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x (6 + 4) = 2 x 10 = 20 m",
+          "20 meters: 2 x = 2 x 10 = 20 m",
           "12 meters"
         ],
         "answer": 2,
         "explain": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
       },
       {
-        "q": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
+        "q": "What is the AREA (internal surface space) of the garden?",
         "options": [
           "48 square meters",
           "20 square meters",
-          "24 square meters (6 x 4 = 24 sq m)",
+          "24 square meters",
           "10 square meters"
         ],
         "answer": 2,
         "explain": "Area = 6 m x 4 m = 24 square meters of planting space."
       },
       {
-        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
+        "q": "If a square sandbox has sides measuring 5 meters each, what is its perimeter?",
         "options": [
-          "20 meters (4 x 5 = 20 m)",
+          "20 meters",
           "15 meters",
           "10 meters",
           "25 meters"
@@ -3192,29 +3192,29 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
+        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel?",
         "options": [
           "₹24 per student",
           "₹60 per student",
           "₹40 per student",
-          "₹50 per student (24 x 50 = 1200)"
+          "₹50 per student"
         ],
         "answer": 3,
         "explain": "1200 / 24 = ₹50 travel cost per student."
       },
       {
-        "q": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
+        "q": "How much will 24 juice boxes cost if each box is ₹15?",
         "options": [
           "₹300",
           "₹240",
-          "₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)",
+          "₹360",
           "₹400"
         ],
         "answer": 2,
         "explain": "24 x 15 = ₹360 total for refreshing juice boxes!"
       },
       {
-        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back?",
         "options": [
           "₹45",
           "₹50",
@@ -3235,29 +3235,29 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
+        "q": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel?",
         "options": [
           "₹24 per student",
           "₹60 per student",
           "₹40 per student",
-          "₹50 per student (24 x 50 = 1200)"
+          "₹50 per student"
         ],
         "answer": 3,
         "explain": "1200 / 24 = ₹50 travel cost per student."
       },
       {
-        "q": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
+        "q": "How much will 24 juice boxes cost if each box is ₹15?",
         "options": [
           "₹300",
           "₹240",
-          "₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)",
+          "₹360",
           "₹400"
         ],
         "answer": 2,
         "explain": "24 x 15 = ₹360 total for refreshing juice boxes!"
       },
       {
-        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+        "q": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back?",
         "options": [
           "₹45",
           "₹50",
@@ -3280,7 +3280,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
         "options": [
-          "45 minutes (60 - 15 = 45)",
+          "45 minutes",
           "1 hour",
           "15 minutes",
           "30 minutes"
@@ -3323,7 +3323,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
         "options": [
-          "45 minutes (60 - 15 = 45)",
+          "45 minutes",
           "1 hour",
           "15 minutes",
           "30 minutes"
@@ -3368,7 +3368,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "4:20 AM",
           "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon (14:20 - 12:00)",
+          "2:20 PM in the afternoon",
           "12:20 PM"
         ],
         "answer": 2,
@@ -3411,7 +3411,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "4:20 AM",
           "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon (14:20 - 12:00)",
+          "2:20 PM in the afternoon",
           "12:20 PM"
         ],
         "answer": 2,
@@ -3450,11 +3450,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
+        "q": "Convert 4 meters into centimeters.",
         "options": [
           "4000 cm",
           "40 cm",
-          "400 cm (4 x 100)",
+          "400 cm",
           "140 cm"
         ],
         "answer": 2,
@@ -3465,7 +3465,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "754 cm",
           "115 cm",
-          "475 cm (400 + 75)",
+          "475 cm",
           "4075 cm"
         ],
         "answer": 2,
@@ -3493,11 +3493,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
+        "q": "Convert 4 meters into centimeters.",
         "options": [
           "4000 cm",
           "40 cm",
-          "400 cm (4 x 100)",
+          "400 cm",
           "140 cm"
         ],
         "answer": 2,
@@ -3508,7 +3508,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "754 cm",
           "115 cm",
-          "475 cm (400 + 75)",
+          "475 cm",
           "4075 cm"
         ],
         "answer": 2,
@@ -3536,7 +3536,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week?",
         "options": [
           "160 sandwiches",
           "140 sandwiches",
@@ -3547,18 +3547,18 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "320 minus 180 leaves 140 sandwiches."
       },
       {
-        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
+        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each?",
         "options": [
           "₹550",
           "₹450",
           "₹500",
-          "₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)"
+          "₹600"
         ],
         "answer": 3,
         "explain": "40 x 15 = ₹600 total snack revenue."
       },
       {
-        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
           "12 apples",
           "15 apples",
@@ -3579,7 +3579,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+        "q": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week?",
         "options": [
           "160 sandwiches",
           "140 sandwiches",
@@ -3590,18 +3590,18 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "320 minus 180 leaves 140 sandwiches."
       },
       {
-        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
+        "q": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each?",
         "options": [
           "₹550",
           "₹450",
           "₹500",
-          "₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)"
+          "₹600"
         ],
         "answer": 3,
         "explain": "40 x 15 = ₹600 total snack revenue."
       },
       {
-        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+        "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
           "12 apples",
           "15 apples",
@@ -3638,7 +3638,7 @@ Object.assign(window.GAME_CONTENT, {
           "3 slices",
           "4 slices",
           "1 slice",
-          "2 slices (2/4 = 1/2)"
+          "2 slices"
         ],
         "answer": 3,
         "explain": "2 out of 4 parts equals one-half of the whole pizza!"
@@ -3681,7 +3681,7 @@ Object.assign(window.GAME_CONTENT, {
           "3 slices",
           "4 slices",
           "1 slice",
-          "2 slices (2/4 = 1/2)"
+          "2 slices"
         ],
         "answer": 3,
         "explain": "2 out of 4 parts equals one-half of the whole pizza!"
@@ -3719,10 +3719,10 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
       },
       {
-        "q": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
+        "q": "How many eighths (1/8) are needed to equal one-fourth?",
         "options": [
           "1 eighth",
-          "2 eighths (2/8 = 1/4)",
+          "2 eighths",
           "4 eighths",
           "8 eighths"
         ],
@@ -3762,10 +3762,10 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
       },
       {
-        "q": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
+        "q": "How many eighths (1/8) are needed to equal one-fourth?",
         "options": [
           "1 eighth",
-          "2 eighths (2/8 = 1/4)",
+          "2 eighths",
           "4 eighths",
           "8 eighths"
         ],
@@ -3794,10 +3794,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many marbles will each velvet pouch hold? (24 / 6)",
+        "q": "How many marbles will each velvet pouch hold?",
         "options": [
           "5 marbles",
-          "4 marbles (6 x 4 = 24)",
+          "4 marbles",
           "6 marbles",
           "3 marbles"
         ],
@@ -3821,7 +3821,7 @@ Object.assign(window.GAME_CONTENT, {
           "9",
           "2",
           "4",
-          "3 (9 x 3 = 27)"
+          "3"
         ],
         "answer": 3,
         "explain": "9 fits into 27 exactly 3 times!"
@@ -3837,10 +3837,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many marbles will each velvet pouch hold? (24 / 6)",
+        "q": "How many marbles will each velvet pouch hold?",
         "options": [
           "5 marbles",
-          "4 marbles (6 x 4 = 24)",
+          "4 marbles",
           "6 marbles",
           "3 marbles"
         ],
@@ -3864,7 +3864,7 @@ Object.assign(window.GAME_CONTENT, {
           "9",
           "2",
           "4",
-          "3 (9 x 3 = 27)"
+          "3"
         ],
         "answer": 3,
         "explain": "9 fits into 27 exactly 3 times!"
@@ -3880,10 +3880,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many total books did the library receive? (25 x 14)",
+        "q": "How many total books did the library receive?",
         "options": [
           "400 books",
-          "350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)",
+          "350 books",
           "300 books",
           "250 books"
         ],
@@ -3902,7 +3902,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
       },
       {
-        "q": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+        "q": "What happens to any number when you multiply it by 100?",
         "options": [
           "Add one zero: 360",
           "Subtract two zeros",
@@ -3923,10 +3923,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many total books did the library receive? (25 x 14)",
+        "q": "How many total books did the library receive?",
         "options": [
           "400 books",
-          "350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)",
+          "350 books",
           "300 books",
           "250 books"
         ],
@@ -3945,7 +3945,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
       },
       {
-        "q": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+        "q": "What happens to any number when you multiply it by 100?",
         "options": [
           "Add one zero: 360",
           "Subtract two zeros",
@@ -3971,7 +3971,7 @@ Object.assign(window.GAME_CONTENT, {
           "8",
           "14",
           "10",
-          "9 (7 + 2 = 9)"
+          "9"
         ],
         "answer": 3,
         "explain": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
@@ -3980,7 +3980,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
         "options": [
           "72",
-          "63 (54 + 9 = 63)",
+          "63",
           "64",
           "60"
         ],
@@ -4014,7 +4014,7 @@ Object.assign(window.GAME_CONTENT, {
           "8",
           "14",
           "10",
-          "9 (7 + 2 = 9)"
+          "9"
         ],
         "answer": 3,
         "explain": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
@@ -4023,7 +4023,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
         "options": [
           "72",
-          "63 (54 + 9 = 63)",
+          "63",
           "64",
           "60"
         ],
@@ -4165,7 +4165,7 @@ Object.assign(window.GAME_CONTENT, {
           "They are unrelated",
           "Diameter is half of radius",
           "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)"
+          "Diameter is exactly TWICE the length of the radius"
         ],
         "answer": 3,
         "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
@@ -4208,7 +4208,7 @@ Object.assign(window.GAME_CONTENT, {
           "They are unrelated",
           "Diameter is half of radius",
           "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)"
+          "Diameter is exactly TWICE the length of the radius"
         ],
         "answer": 3,
         "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"

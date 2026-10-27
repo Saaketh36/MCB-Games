@@ -181,13 +181,5 @@ CREATE INDEX IF NOT EXISTS idx_games_skill ON games(skill_id);
 CREATE INDEX IF NOT EXISTS idx_skills_subject ON skills(subject_id);
 
 -- Insert Sample Classes
-INSERT INTO classes (name, description, level) VALUES
-('I', 'Class I - Age 5-6', 1),
-('II', 'Class II - Age 6-7', 2),
-('III', 'Class III - Age 7-8', 3),
-('IV', 'Class IV - Age 8-9', 4),
-('V', 'Class V - Age 9-10', 5),
-('VI', 'Class VI - Age 10-11', 6),
-('VII', 'Class VII - Age 11-12', 7),
-('VIII', 'Class VIII - Age 12-13', 8)
+INSERT INTO classes (name, description, level) VALUES,,,,,,,
 ON CONFLICT (name) DO NOTHING;

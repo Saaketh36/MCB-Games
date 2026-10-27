@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class III Educational Activities (Outcomes 48 - 95).
-English (48-62), EVS (63-77), Mathematics (78-95).
+Generator for Class III Educational Activities.
+English, EVS, Mathematics.
 """
 
 CLASS3_GAMES = {
@@ -419,7 +419,7 @@ CLASS3_GAMES = {
         "questions": [
             {
                 "prompt": "If 1 glass of lemonade needs 2 small teaspoons of lemon juice, how many teaspoons are needed for 3 glasses?",
-                "options": ["6 teaspoons (2 x 3 = 6)", "3 teaspoons", "5 teaspoons", "10 teaspoons"],
+                "options": ["6 teaspoons", "3 teaspoons", "5 teaspoons", "10 teaspoons"],
                 "answer": 0,
                 "explanation": "2 teaspoons per glass x 3 glasses = 6 teaspoons in total!"
             },
@@ -737,7 +737,7 @@ CLASS3_GAMES = {
             },
             {
                 "prompt": "Look at Priya's tally record: 卌 卌 ||| . How many total beanbags did the team toss successfully?",
-                "options": ["13 (5 + 5 + 3)", "10", "8", "15"],
+                "options": ["13", "10", "8", "15"],
                 "answer": 0,
                 "explanation": "Two bundles of 5 make 10, plus 3 single strokes = 13 beanbags in total!"
             },
@@ -760,8 +760,8 @@ CLASS3_GAMES = {
                 "explanation": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
             },
             {
-                "prompt": "How many 500 mL water bottles are needed to fill a 1-litre jug? (Hint: 1 Litre = 1000 mL)",
-                "options": ["2 bottles (500 mL + 500 mL = 1000 mL)", "1 bottle", "5 bottles", "10 bottles"],
+                "prompt": "How many 500 mL water bottles are needed to fill a 1-litre jug?",
+                "options": ["2 bottles", "1 bottle", "5 bottles", "10 bottles"],
                 "answer": 0,
                 "explanation": "500 mL + 500 mL = 1000 mL = 1 Litre! Exactly 2 bottles are needed."
             },
@@ -802,19 +802,19 @@ CLASS3_GAMES = {
         "story": "Arjun goes to the school stationery fair with ₹85 in his wallet. He buys a notebook for ₹35 and a gel pen for ₹20.",
         "questions": [
             {
-                "prompt": "How much money did Arjun spend in total on the notebook and gel pen? (₹35 + ₹20)",
+                "prompt": "How much money did Arjun spend in total on the notebook and gel pen?",
                 "options": ["₹55", "₹50", "₹65", "₹15"],
                 "answer": 0,
                 "explanation": "35 + 20 = ₹55 spent in total!"
             },
             {
-                "prompt": "How much money does Arjun have remaining from his original ₹85? (₹85 - ₹55)",
+                "prompt": "How much money does Arjun have remaining from his original ₹85?",
                 "options": ["₹30", "₹25", "₹40", "₹35"],
                 "answer": 0,
                 "explanation": "85 - 55 = ₹30 remaining in his pocket."
             },
             {
-                "prompt": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive? (₹20 - ₹12)",
+                "prompt": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive?",
                 "options": ["₹8", "₹6", "₹10", "₹2"],
                 "answer": 0,
                 "explanation": "20 - 12 = ₹8 in change."
@@ -827,13 +827,13 @@ CLASS3_GAMES = {
         "questions": [
             {
                 "prompt": "Simran buys 1 kg of apples (₹60) and 1 dozen bananas (₹30). What is the total bill amount?",
-                "options": ["₹90 (60 + 30)", "₹80", "₹100", "₹30"],
+                "options": ["₹90", "₹80", "₹100", "₹30"],
                 "answer": 0,
                 "explanation": "60 + 30 = ₹90 for both delicious fruits!"
             },
             {
                 "prompt": "If Simran hands Uncle Gopal a ₹100 note for her ₹90 fruit bill, how much change will he return?",
-                "options": ["₹10 (100 - 90)", "₹20", "₹5", "₹0"],
+                "options": ["₹10", "₹20", "₹5", "₹0"],
                 "answer": 0,
                 "explanation": "100 minus 90 leaves exactly ₹10 in change."
             },
@@ -850,8 +850,8 @@ CLASS3_GAMES = {
         "story": "Rohan is checking the calendar for October. Gandhi Jayanti is marked in red on October 2nd, which falls on a Wednesday.",
         "questions": [
             {
-                "prompt": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on? (Hint: add 7 days for one full week)",
-                "options": ["Wednesday (2 + 7 = 9)", "Thursday", "Tuesday", "Sunday"],
+                "prompt": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on?",
+                "options": ["Wednesday", "Thursday", "Tuesday", "Sunday"],
                 "answer": 0,
                 "explanation": "Adding 7 days always brings you to the exact same day of the week: Wednesday!"
             },
@@ -863,7 +863,7 @@ CLASS3_GAMES = {
             },
             {
                 "prompt": "If today is Friday, October 15th, what date was it last Friday?",
-                "options": ["October 8th (15 - 7 = 8)", "October 7th", "October 9th", "October 1st"],
+                "options": ["October 8th", "October 7th", "October 9th", "October 1st"],
                 "answer": 0,
                 "explanation": "One week earlier is 7 days before: 15 - 7 = October 8th!"
             }
@@ -905,12 +905,12 @@ CLASS3_GAMES = {
             },
             {
                 "prompt": "A grocer packs 3 kg of rice in a sack. How many grams of rice is that in total?",
-                "options": ["3000 grams (3 x 1000)", "300 grams", "30 grams", "1300 grams"],
+                "options": ["3000 grams", "300 grams", "30 grams", "1300 grams"],
                 "answer": 0,
                 "explanation": "3 kg x 1000 g/kg = 3000 grams."
             },
             {
-                "prompt": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left? (1000 g - 400 g)",
+                "prompt": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left?",
                 "options": ["600 grams", "500 grams", "400 grams", "1400 grams"],
                 "answer": 0,
                 "explanation": "1000 g - 400 g leaves 600 grams of flour in the bag."
@@ -929,7 +929,7 @@ CLASS3_GAMES = {
             },
             {
                 "prompt": "Which combination of standard iron weights equals 1 kilogram (1000 g)?",
-                "options": ["Two 500-gram weights (500 g + 500 g)", "Three 200-gram weights", "One 100-gram weight", "Four 100-gram weights"],
+                "options": ["Two 500-gram weights", "Three 200-gram weights", "One 100-gram weight", "Four 100-gram weights"],
                 "answer": 0,
                 "explanation": "500 g + 500 g = 1000 g = 1 kg!"
             },
@@ -946,13 +946,13 @@ CLASS3_GAMES = {
         "story": "In the inter-school sports meet, the Blue House scored 348 points and the Red House scored 215 points.",
         "questions": [
             {
-                "prompt": "How many total points did Blue House and Red House score together? (348 + 215)",
+                "prompt": "How many total points did Blue House and Red House score together?",
                 "options": ["563 points", "553 points", "5630 points", "551 points"],
                 "answer": 0,
                 "explanation": "8 + 5 = 13 (carry 1). 4 + 1 + 1 = 6. 3 + 2 = 5. Total = 563 points!"
             },
             {
-                "prompt": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves? (675 - 241)",
+                "prompt": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves?",
                 "options": ["434 books", "436 books", "424 books", "534 books"],
                 "answer": 0,
                 "explanation": "5 - 1 = 4 ones, 7 - 4 = 3 tens, 6 - 2 = 4 hundreds. 675 - 241 = 434 books!"
@@ -971,19 +971,19 @@ CLASS3_GAMES = {
         "questions": [
             {
                 "prompt": "Clue: 'A box has 6 rows of chocolate bars with 5 chocolates in each row. How many chocolates in total?' Which operation should you use?",
-                "options": ["Multiplication (6 x 5)", "Subtraction (6 - 5)", "Division (6 / 5)", "Addition only (6 + 5)"],
+                "options": ["Multiplication", "Subtraction", "Division", "Addition only"],
                 "answer": 0,
-                "explanation": "When equal groups repeat, multiplication (6 x 5 = 30) finds the total quickly!"
+                "explanation": "When equal groups repeat, multiplication finds the total quickly!"
             },
             {
                 "prompt": "Clue: 'A farmer had 50 pumpkins and sold 18 pumpkins at the mandi. How many are left?' Which operation should you use?",
-                "options": ["Subtraction (50 - 18)", "Addition (50 + 18)", "Multiplication (50 x 18)", "Division (50 / 18)"],
+                "options": ["Subtraction", "Addition", "Multiplication", "Division"],
                 "answer": 0,
                 "explanation": "Words like 'sold', 'gave away', and 'how many left' tell us to subtract!"
             },
             {
                 "prompt": "Clue: 'Share 20 candies equally among 4 friends.' Which operation gives the answer?",
-                "options": ["Division (20 / 4)", "Addition (20 + 4)", "Multiplication (20 x 4)", "Subtraction (20 - 4)"],
+                "options": ["Division", "Addition", "Multiplication", "Subtraction"],
                 "answer": 0,
                 "explanation": "Equal sharing means division: 20 divided by 4 = 5 candies each!"
             }
@@ -994,13 +994,13 @@ CLASS3_GAMES = {
         "story": "A bakery bakes delicious mini cupcakes in trays with 5 rows and 4 columns.",
         "questions": [
             {
-                "prompt": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row? (5 x 4)",
+                "prompt": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row?",
                 "options": ["20 cupcakes", "16 cupcakes", "25 cupcakes", "9 cupcakes"],
                 "answer": 0,
                 "explanation": "5 x 4 = 20 cupcakes on the baking tray!"
             },
             {
-                "prompt": "If an octopus has 8 arms, how many arms do 3 octopuses have in total? (3 x 8)",
+                "prompt": "If an octopus has 8 arms, how many arms do 3 octopuses have in total?",
                 "options": ["24 arms", "18 arms", "28 arms", "11 arms"],
                 "answer": 0,
                 "explanation": "3 x 8 = 24 arms!"
@@ -1018,8 +1018,8 @@ CLASS3_GAMES = {
         "story": "Grandma brings 12 freshly plucked guavas to share equally among her 3 grandchildren: Aisha, Kabir, and Rohan.",
         "questions": [
             {
-                "prompt": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive? (12 / 3)",
-                "options": ["4 guavas each (3 x 4 = 12)", "3 guavas each", "5 guavas each", "6 guavas each"],
+                "prompt": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive?",
+                "options": ["4 guavas each", "3 guavas each", "5 guavas each", "6 guavas each"],
                 "answer": 0,
                 "explanation": "12 shared into 3 equal piles gives 4 guavas per child!"
             },

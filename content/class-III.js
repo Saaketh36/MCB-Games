@@ -1476,7 +1476,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "3 teaspoons",
           "10 teaspoons",
-          "6 teaspoons (2 x 3 = 6)",
+          "6 teaspoons",
           "5 teaspoons"
         ],
         "answer": 2,
@@ -1519,7 +1519,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "3 teaspoons",
           "10 teaspoons",
-          "6 teaspoons (2 x 3 = 6)",
+          "6 teaspoons",
           "5 teaspoons"
         ],
         "answer": 2,
@@ -2606,7 +2606,7 @@ Object.assign(window.GAME_CONTENT, {
           "15",
           "10",
           "8",
-          "13 (5 + 5 + 3)"
+          "13"
         ],
         "answer": 3,
         "explain": "Two bundles of 5 make 10, plus 3 single strokes = 13 beanbags in total!"
@@ -2649,7 +2649,7 @@ Object.assign(window.GAME_CONTENT, {
           "15",
           "10",
           "8",
-          "13 (5 + 5 + 3)"
+          "13"
         ],
         "answer": 3,
         "explain": "Two bundles of 5 make 10, plus 3 single strokes = 13 beanbags in total!"
@@ -2687,11 +2687,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
       },
       {
-        "q": "How many 500 mL water bottles are needed to fill a 1-litre jug? (Hint: 1 Litre = 1000 mL)",
+        "q": "How many 500 mL water bottles are needed to fill a 1-litre jug?",
         "options": [
           "10 bottles",
           "1 bottle",
-          "2 bottles (500 mL + 500 mL = 1000 mL)",
+          "2 bottles",
           "5 bottles"
         ],
         "answer": 2,
@@ -2730,11 +2730,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
       },
       {
-        "q": "How many 500 mL water bottles are needed to fill a 1-litre jug? (Hint: 1 Litre = 1000 mL)",
+        "q": "How many 500 mL water bottles are needed to fill a 1-litre jug?",
         "options": [
           "10 bottles",
           "1 bottle",
-          "2 bottles (500 mL + 500 mL = 1000 mL)",
+          "2 bottles",
           "5 bottles"
         ],
         "answer": 2,
@@ -2848,7 +2848,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much money did Arjun spend in total on the notebook and gel pen? (₹35 + ₹20)",
+        "q": "How much money did Arjun spend in total on the notebook and gel pen?",
         "options": [
           "₹50",
           "₹65",
@@ -2859,7 +2859,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35 + 20 = ₹55 spent in total!"
       },
       {
-        "q": "How much money does Arjun have remaining from his original ₹85? (₹85 - ₹55)",
+        "q": "How much money does Arjun have remaining from his original ₹85?",
         "options": [
           "₹30",
           "₹40",
@@ -2870,7 +2870,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "85 - 55 = ₹30 remaining in his pocket."
       },
       {
-        "q": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive? (₹20 - ₹12)",
+        "q": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive?",
         "options": [
           "₹2",
           "₹8",
@@ -2891,7 +2891,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How much money did Arjun spend in total on the notebook and gel pen? (₹35 + ₹20)",
+        "q": "How much money did Arjun spend in total on the notebook and gel pen?",
         "options": [
           "₹50",
           "₹65",
@@ -2902,7 +2902,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35 + 20 = ₹55 spent in total!"
       },
       {
-        "q": "How much money does Arjun have remaining from his original ₹85? (₹85 - ₹55)",
+        "q": "How much money does Arjun have remaining from his original ₹85?",
         "options": [
           "₹30",
           "₹40",
@@ -2913,7 +2913,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "85 - 55 = ₹30 remaining in his pocket."
       },
       {
-        "q": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive? (₹20 - ₹12)",
+        "q": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive?",
         "options": [
           "₹2",
           "₹8",
@@ -2937,7 +2937,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Simran buys 1 kg of apples (₹60) and 1 dozen bananas (₹30). What is the total bill amount?",
         "options": [
           "₹80",
-          "₹90 (60 + 30)",
+          "₹90",
           "₹30",
           "₹100"
         ],
@@ -2950,7 +2950,7 @@ Object.assign(window.GAME_CONTENT, {
           "₹0",
           "₹20",
           "₹5",
-          "₹10 (100 - 90)"
+          "₹10"
         ],
         "answer": 3,
         "explain": "100 minus 90 leaves exactly ₹10 in change."
@@ -2980,7 +2980,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Simran buys 1 kg of apples (₹60) and 1 dozen bananas (₹30). What is the total bill amount?",
         "options": [
           "₹80",
-          "₹90 (60 + 30)",
+          "₹90",
           "₹30",
           "₹100"
         ],
@@ -2993,7 +2993,7 @@ Object.assign(window.GAME_CONTENT, {
           "₹0",
           "₹20",
           "₹5",
-          "₹10 (100 - 90)"
+          "₹10"
         ],
         "answer": 3,
         "explain": "100 minus 90 leaves exactly ₹10 in change."
@@ -3020,11 +3020,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on? (Hint: add 7 days for one full week)",
+        "q": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on?",
         "options": [
           "Thursday",
           "Sunday",
-          "Wednesday (2 + 7 = 9)",
+          "Wednesday",
           "Tuesday"
         ],
         "answer": 2,
@@ -3046,7 +3046,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "October 7th",
           "October 1st",
-          "October 8th (15 - 7 = 8)",
+          "October 8th",
           "October 9th"
         ],
         "answer": 2,
@@ -3063,11 +3063,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on? (Hint: add 7 days for one full week)",
+        "q": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on?",
         "options": [
           "Thursday",
           "Sunday",
-          "Wednesday (2 + 7 = 9)",
+          "Wednesday",
           "Tuesday"
         ],
         "answer": 2,
@@ -3089,7 +3089,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "October 7th",
           "October 1st",
-          "October 8th (15 - 7 = 8)",
+          "October 8th",
           "October 9th"
         ],
         "answer": 2,
@@ -3205,7 +3205,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A grocer packs 3 kg of rice in a sack. How many grams of rice is that in total?",
         "options": [
-          "3000 grams (3 x 1000)",
+          "3000 grams",
           "1300 grams",
           "30 grams",
           "300 grams"
@@ -3214,7 +3214,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "3 kg x 1000 g/kg = 3000 grams."
       },
       {
-        "q": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left? (1000 g - 400 g)",
+        "q": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left?",
         "options": [
           "400 grams",
           "1400 grams",
@@ -3248,7 +3248,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A grocer packs 3 kg of rice in a sack. How many grams of rice is that in total?",
         "options": [
-          "3000 grams (3 x 1000)",
+          "3000 grams",
           "1300 grams",
           "30 grams",
           "300 grams"
@@ -3257,7 +3257,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "3 kg x 1000 g/kg = 3000 grams."
       },
       {
-        "q": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left? (1000 g - 400 g)",
+        "q": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left?",
         "options": [
           "400 grams",
           "1400 grams",
@@ -3292,7 +3292,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which combination of standard iron weights equals 1 kilogram (1000 g)?",
         "options": [
           "Four 100-gram weights",
-          "Two 500-gram weights (500 g + 500 g)",
+          "Two 500-gram weights",
           "One 100-gram weight",
           "Three 200-gram weights"
         ],
@@ -3335,7 +3335,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which combination of standard iron weights equals 1 kilogram (1000 g)?",
         "options": [
           "Four 100-gram weights",
-          "Two 500-gram weights (500 g + 500 g)",
+          "Two 500-gram weights",
           "One 100-gram weight",
           "Three 200-gram weights"
         ],
@@ -3364,7 +3364,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many total points did Blue House and Red House score together? (348 + 215)",
+        "q": "How many total points did Blue House and Red House score together?",
         "options": [
           "553 points",
           "563 points",
@@ -3375,7 +3375,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8 + 5 = 13 (carry 1). 4 + 1 + 1 = 6. 3 + 2 = 5. Total = 563 points!"
       },
       {
-        "q": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves? (675 - 241)",
+        "q": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves?",
         "options": [
           "424 books",
           "534 books",
@@ -3407,7 +3407,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many total points did Blue House and Red House score together? (348 + 215)",
+        "q": "How many total points did Blue House and Red House score together?",
         "options": [
           "553 points",
           "563 points",
@@ -3418,7 +3418,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8 + 5 = 13 (carry 1). 4 + 1 + 1 = 6. 3 + 2 = 5. Total = 563 points!"
       },
       {
-        "q": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves? (675 - 241)",
+        "q": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves?",
         "options": [
           "424 books",
           "534 books",
@@ -3452,10 +3452,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'A box has 6 rows of chocolate bars with 5 chocolates in each row. How many chocolates in total?' Which operation should you use?",
         "options": [
-          "Subtraction (6 - 5)",
-          "Addition only (6 + 5)",
-          "Multiplication (6 x 5)",
-          "Division (6 / 5)"
+          "Subtraction",
+          "Addition only",
+          "Multiplication",
+          "Division"
         ],
         "answer": 2,
         "explain": "When equal groups repeat, multiplication (6 x 5 = 30) finds the total quickly!"
@@ -3463,10 +3463,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'A farmer had 50 pumpkins and sold 18 pumpkins at the mandi. How many are left?' Which operation should you use?",
         "options": [
-          "Multiplication (50 x 18)",
-          "Division (50 / 18)",
-          "Subtraction (50 - 18)",
-          "Addition (50 + 18)"
+          "Multiplication",
+          "Division",
+          "Subtraction",
+          "Addition"
         ],
         "answer": 2,
         "explain": "Words like 'sold', 'gave away', and 'how many left' tell us to subtract!"
@@ -3474,10 +3474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'Share 20 candies equally among 4 friends.' Which operation gives the answer?",
         "options": [
-          "Multiplication (20 x 4)",
-          "Addition (20 + 4)",
-          "Subtraction (20 - 4)",
-          "Division (20 / 4)"
+          "Multiplication",
+          "Addition",
+          "Subtraction",
+          "Division"
         ],
         "answer": 3,
         "explain": "Equal sharing means division: 20 divided by 4 = 5 candies each!"
@@ -3495,10 +3495,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'A box has 6 rows of chocolate bars with 5 chocolates in each row. How many chocolates in total?' Which operation should you use?",
         "options": [
-          "Subtraction (6 - 5)",
-          "Addition only (6 + 5)",
-          "Multiplication (6 x 5)",
-          "Division (6 / 5)"
+          "Subtraction",
+          "Addition only",
+          "Multiplication",
+          "Division"
         ],
         "answer": 2,
         "explain": "When equal groups repeat, multiplication (6 x 5 = 30) finds the total quickly!"
@@ -3506,10 +3506,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'A farmer had 50 pumpkins and sold 18 pumpkins at the mandi. How many are left?' Which operation should you use?",
         "options": [
-          "Multiplication (50 x 18)",
-          "Division (50 / 18)",
-          "Subtraction (50 - 18)",
-          "Addition (50 + 18)"
+          "Multiplication",
+          "Division",
+          "Subtraction",
+          "Addition"
         ],
         "answer": 2,
         "explain": "Words like 'sold', 'gave away', and 'how many left' tell us to subtract!"
@@ -3517,10 +3517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Clue: 'Share 20 candies equally among 4 friends.' Which operation gives the answer?",
         "options": [
-          "Multiplication (20 x 4)",
-          "Addition (20 + 4)",
-          "Subtraction (20 - 4)",
-          "Division (20 / 4)"
+          "Multiplication",
+          "Addition",
+          "Subtraction",
+          "Division"
         ],
         "answer": 3,
         "explain": "Equal sharing means division: 20 divided by 4 = 5 candies each!"
@@ -3536,7 +3536,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row? (5 x 4)",
+        "q": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row?",
         "options": [
           "16 cupcakes",
           "9 cupcakes",
@@ -3547,7 +3547,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "5 x 4 = 20 cupcakes on the baking tray!"
       },
       {
-        "q": "If an octopus has 8 arms, how many arms do 3 octopuses have in total? (3 x 8)",
+        "q": "If an octopus has 8 arms, how many arms do 3 octopuses have in total?",
         "options": [
           "28 arms",
           "24 arms",
@@ -3579,7 +3579,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row? (5 x 4)",
+        "q": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row?",
         "options": [
           "16 cupcakes",
           "9 cupcakes",
@@ -3590,7 +3590,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "5 x 4 = 20 cupcakes on the baking tray!"
       },
       {
-        "q": "If an octopus has 8 arms, how many arms do 3 octopuses have in total? (3 x 8)",
+        "q": "If an octopus has 8 arms, how many arms do 3 octopuses have in total?",
         "options": [
           "28 arms",
           "24 arms",
@@ -3622,10 +3622,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive? (12 / 3)",
+        "q": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive?",
         "options": [
           "5 guavas each",
-          "4 guavas each (3 x 4 = 12)",
+          "4 guavas each",
           "3 guavas each",
           "6 guavas each"
         ],
@@ -3665,10 +3665,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive? (12 / 3)",
+        "q": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive?",
         "options": [
           "5 guavas each",
-          "4 guavas each (3 x 4 = 12)",
+          "4 guavas each",
           "3 guavas each",
           "6 guavas each"
         ],

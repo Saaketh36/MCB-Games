@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class VIII Educational Activities (Outcomes 350 - 440).
-English (350-376), Mathematics (377-396), Science (397-411), Social Science (412-440).
+Generator for Class VIII Educational Activities.
+English, Mathematics, Science, Social Science.
 """
 
 CLASS8_GAMES = {
@@ -451,7 +451,7 @@ CLASS8_GAMES = {
                 "prompt": "In physics, what does 'WORK' mean (Work = Force x Displacement), contrasting with everyday usage?",
                 "options": ["Work is done only when a physical force causes an object to displace in the direction of the force", "Sitting at a desk thinking hard without moving", "Feeling tired after an exam", "Going to an office"],
                 "answer": 0,
-                "explanation": "Scientifically, holding a heavy load motionless does zero work because displacement is zero (W = F x 0 = 0)!"
+                "explanation": "Scientifically, holding a heavy load motionless does zero work because displacement is zero!"
             },
             {
                 "prompt": "What is an 'OXYMORON' in figurative English (e.g., 'deafening silence', 'cruel kindness')?",
@@ -466,7 +466,7 @@ CLASS8_GAMES = {
         "story": "For their term project on the Indus Valley Civilization, students evaluate sources: peer-reviewed excavation reports from the Archaeological Survey of India (ASI) vs sensationalist internet forums.",
         "questions": [
             {
-                "prompt": "What standardized criteria should researchers use to evaluate digital information sources? (The CRAAP Test)",
+                "prompt": "What standardized criteria should researchers use to evaluate digital information sources?",
                 "options": ["Currency (timeliness), Relevance, Authority (author credentials), Accuracy (verifiable citations), and Purpose (lack of commercial bias)", "How many viral likes it has on social media", "Whether it has colorful cartoon animations", "If it appears first on a commercial search ad"],
                 "answer": 0,
                 "explanation": "The CRAAP test filters out misinformation by verifying credentials, empirical accuracy, and objectivity!"
@@ -655,23 +655,23 @@ CLASS8_GAMES = {
     },
     377: {
         "title": "Algebraic Identities in Real Life: (a+b)² and (a-b)² 🧮📐",
-        "story": "Architect Maya designs a square courtyard garden. When the garden side is expanded by 2 meters (x + 2), she uses standard algebraic identities to calculate the new area.",
+        "story": "Architect Maya designs a square courtyard garden. When the garden side is expanded by 2 meters, she uses standard algebraic identities to calculate the new area.",
         "questions": [
             {
-                "prompt": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
-                "options": ["x² + 4x + 4 (a=x, b=2: x² + 2(x)(2) + 2² = x² + 4x + 4)", "x² + 4", "x² + 2x + 4", "2x² + 4"],
+                "prompt": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area²:",
+                "options": ["x² + 4x + 4(2) + 2² = x² + 4x + 4)", "x² + 4", "x² + 2x + 4", "2x² + 4"],
                 "answer": 0,
-                "explanation": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
+                "explanation": "(a + b)² = a² + 2ab + b²! For², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
             },
             {
-                "prompt": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b² by treating 99 as (100 - 1)²: 100² - 2(100)(1) + 1² =",
-                "options": ["9,801 (10,000 - 200 + 1 = 9,801)", "9,901", "9,800", "9,999"],
+                "prompt": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b²:",
+                "options": ["9,801", "9,901", "9,800", "9,999"],
                 "answer": 0,
-                "explanation": "(100 - 1)² = 10,000 - 200 + 1 = 9,801! Mental math magic with algebraic identities."
+                "explanation": "² = 10,000 - 200 + 1 = 9,801! Mental math magic with algebraic identities."
             },
             {
-                "prompt": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47: (50 + 3)(50 - 3) = 50² - 3² =",
-                "options": ["2,491 (2,500 - 9 = 2,491)", "2,509", "2,400", "2,500"],
+                "prompt": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47:",
+                "options": ["2,491", "2,509", "2,400", "2,500"],
                 "answer": 0,
                 "explanation": "50² - 3² = 2,500 - 9 = 2,491! Multiplying numbers symmetric around a round tens base in seconds."
             }
@@ -682,13 +682,13 @@ CLASS8_GAMES = {
         "story": "Students multiply multi-term algebraic expressions by applying the distributive property systematically to every term.",
         "questions": [
             {
-                "prompt": "Expand the product of the binomials: (2x - 5)(3x + 4) = 2x(3x + 4) - 5(3x + 4) =",
-                "options": ["6x² - 7x - 20 (6x² + 8x - 15x - 20 = 6x² - 7x - 20)", "6x² + 7x - 20", "6x² - 20", "5x² - 7x - 20"],
+                "prompt": "Expand the product of the binomials: =",
+                "options": ["6x² - 7x - 20", "6x² + 7x - 20", "6x² - 20", "5x² - 7x - 20"],
                 "answer": 0,
-                "explanation": "FOIL method: First (6x²), Outside (+8x), Inside (-15x), Last (-20). Combining like terms: 6x² - 7x - 20!"
+                "explanation": "FOIL method: First (6x²), Outside, Inside, Last. Combining like terms: 6x² - 7x - 20!"
             },
             {
-                "prompt": "Expand: (x + 3)(x² - 3x + 9) =",
+                "prompt": "Expand: =",
                 "options": ["x³ + 27 (Sum of cubes identity: (a+b)(a²-ab+b²) = a³ + b³)", "x³ - 27", "x³ + 9x + 27", "x³ - 6x² + 27"],
                 "answer": 0,
                 "explanation": "All middle cross-terms cancel out, yielding the famous sum of cubes: x³ + 3³ = x³ + 27!"
@@ -706,20 +706,20 @@ CLASS8_GAMES = {
         "story": "Rohan's mother is three times as old as Rohan. In 12 years, she will be twice as old as Rohan will be then. Let's find Rohan's present age (x).",
         "questions": [
             {
-                "prompt": "Set up the equation: Mother's age = 3x. In 12 years: (3x + 12) = 2(x + 12). Solve for Rohan's present age 'x':",
-                "options": ["x = 12 years old (3x + 12 = 2x + 24 -> 3x - 2x = 24 - 12 -> x = 12)", "x = 10 years old", "x = 15 years old", "x = 8 years old"],
+                "prompt": "Set up the equation: Mother's age = 3x. In 12 years: = 2. Solve for Rohan's present age 'x':",
+                "options": ["x = 12 years old", "x = 10 years old", "x = 15 years old", "x = 8 years old"],
                 "answer": 0,
                 "explanation": "3x + 12 = 2x + 24. Subtract 2x and 12 from both sides: x = 12 years old (Mother is 36)!"
             },
             {
                 "prompt": "The sum of three consecutive EVEN integers is 54. Let the integers be x, x+2, x+4. What is the smallest integer 'x'?",
-                "options": ["x = 16 (3x + 6 = 54 -> 3x = 48 -> x = 16; integers are 16, 18, 20)", "x = 18", "x = 14", "x = 12"],
+                "options": ["x = 16", "x = 18", "x = 14", "x = 12"],
                 "answer": 0,
                 "explanation": "3x + 6 = 54 -> 3x = 48 -> x = 16. Verify: 16 + 18 + 20 = 54!"
             },
             {
                 "prompt": "A piggy bank contains ₹370 in ₹5 and ₹10 notes. If there are 50 notes in total, how many ₹10 notes are there?",
-                "options": ["24 notes (Let ten-rupee notes = n. 10n + 5(50 - n) = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)", "20 notes", "26 notes", "30 notes"],
+                "options": ["24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)", "20 notes", "26 notes", "30 notes"],
                 "answer": 0,
                 "explanation": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
             }
@@ -731,21 +731,21 @@ CLASS8_GAMES = {
         "questions": [
             {
                 "prompt": "How do you calculate the CENTRAL ANGLE for the 'Metro' sector (180 households out of 360 total) in a 360-degree Pie Chart?",
-                "options": ["180°: (180 / 360) x 360° = 180° (exactly half of the circle)", "90°", "360°", "45°"],
+                "options": ["180°: x 360° = 180° (exactly half of the circle)", "90°", "360°", "45°"],
                 "answer": 0,
-                "explanation": "Formula: Sector Angle = (Value / Total) x 360°. (180/360) x 360° = 180°!"
+                "explanation": "Formula: Sector Angle = (Value / Total) x 360°. x 360° = 180°!"
             },
             {
                 "prompt": "What is the central angle for the 'Bicycle' commuters (60 households out of 360)?",
-                "options": ["60°: (60 / 360) x 360° = 60°", "30°", "90°", "120°"],
+                "options": ["60°: x 360° = 60°", "30°", "90°", "120°"],
                 "answer": 0,
-                "explanation": "(60 / 360) x 360° = 60° slice of the pie chart!"
+                "explanation": " x 360° = 60° slice of the pie chart!"
             },
             {
                 "prompt": "What is the difference between a standard BAR GRAPH and a HISTOGRAM in statistics?",
                 "options": ["A bar graph displays categorical data with gaps between bars; a histogram displays continuous numerical class intervals with NO gaps between bars", "Histograms are circular; bar graphs are square", "They mean the exact same chart", "Histograms never use numbers"],
                 "answer": 0,
-                "explanation": "Histograms group continuous numerical ranges (e.g., ages 10-20, 20-30) into touching adjacent columns!"
+                "explanation": "Histograms group continuous numerical ranges into touching adjacent columns!"
             }
         ]
     },
@@ -766,7 +766,7 @@ CLASS8_GAMES = {
                 "explanation": "There are 6 combinations summing to 7 out of 36 total possible pairs: 6/36 = 1/6!"
             },
             {
-                "prompt": "What is the probability of an IMPOSSIBLE EVENT (e.g., rolling an 8 on a standard 6-sided die)?",
+                "prompt": "What is the probability of an IMPOSSIBLE EVENT?",
                 "options": ["0 (Zero probability)", "1", "-1", "0.5"],
                 "answer": 0,
                 "explanation": "Impossible events have a probability of 0, while certain events have a probability of 1!"
@@ -790,8 +790,8 @@ CLASS8_GAMES = {
                 "explanation": "Oblique sketches place the front face flat against the viewing plane, projecting depth along 45° receding lines."
             },
             {
-                "prompt": "How many unit cubes (1x1x1 cm) are packed inside a solid cuboid measuring 4 cm by 3 cm by 2 cm?",
-                "options": ["24 unit cubes (Volume = 4 x 3 x 2 = 24 cm³)", "9 cubes", "14 cubes", "48 cubes"],
+                "prompt": "How many unit cubes are packed inside a solid cuboid measuring 4 cm by 3 cm by 2 cm?",
+                "options": ["24 unit cubes", "9 cubes", "14 cubes", "48 cubes"],
                 "answer": 0,
                 "explanation": "Volume = Length x Width x Height = 4 x 3 x 2 = 24 unit cubes!"
             }
@@ -851,19 +851,19 @@ CLASS8_GAMES = {
         "questions": [
             {
                 "prompt": "Calculate the missing angle 'x' in quadrilateral ABCD: 70° + 80° + 120° + x = 360°:",
-                "options": ["90° (70 + 80 + 120 = 270; 360 - 270 = 90°)", "100°", "80°", "110°"],
+                "options": ["90°", "100°", "80°", "110°"],
                 "answer": 0,
                 "explanation": "The sum of all four interior angles in any quadrilateral is 360°! 360° - 270° = 90°."
             },
             {
-                "prompt": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
-                "options": ["Any n-sided polygon can be triangulated into (n - 2) non-overlapping triangles from one vertex, each contributing 180°", "Because 360 is a magic number", "Because circles have 360 degrees", "It is only a rough guess"],
+                "prompt": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula x 180°?",
+                "options": ["Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°", "Because 360 is a magic number", "Because circles have 360 degrees", "It is only a rough guess"],
                 "answer": 0,
-                "explanation": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
+                "explanation": "A quadrilateral splits into 4 - 2 = 2 triangles; a pentagon into 3 triangles (540°)!"
             },
             {
-                "prompt": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)? Formula: (5-2)x180° / 5 =",
-                "options": ["108° (540° / 5 = 108°)", "120°", "90°", "100°"],
+                "prompt": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)?",
+                "options": ["108°", "120°", "90°", "100°"],
                 "answer": 0,
                 "explanation": "Total sum = 3 x 180° = 540°. Dividing by 5 equal angles gives 108° for every corner!"
             }
@@ -875,7 +875,7 @@ CLASS8_GAMES = {
         "questions": [
             {
                 "prompt": "In parallelogram ABCD, if Angle A measures 75°, what is the measure of adjacent consecutive Angle B?",
-                "options": ["105° (Consecutive adjacent angles in a parallelogram are SUPPLEMENTARY: 180° - 75° = 105°)", "75°", "90°", "15°"],
+                "options": ["105°", "75°", "90°", "15°"],
                 "answer": 0,
                 "explanation": "Because opposite sides are parallel, consecutive interior angles are co-interior and sum to 180°!"
             },
@@ -898,8 +898,8 @@ CLASS8_GAMES = {
         "story": "A highway embankment cross-section is shaped like a trapezium with parallel bases measuring a = 12 meters and b = 8 meters, with perpendicular height h = 5 meters.",
         "questions": [
             {
-                "prompt": "What is the cross-sectional AREA of the trapezium embankment? Formula: Area = 1/2 x (a + b) x h",
-                "options": ["50 square meters: 1/2 x (12 + 8) x 5 = 1/2 x 20 x 5 = 50 m²", "100 m²", "48 m²", "60 m²"],
+                "prompt": "What is the cross-sectional AREA of the trapezium embankment?",
+                "options": ["50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²", "100 m²", "48 m²", "60 m²"],
                 "answer": 0,
                 "explanation": "Area of trapezium = half the sum of parallel sides times height: 1/2 x 20 x 5 = 50 m²!"
             },
@@ -911,7 +911,7 @@ CLASS8_GAMES = {
             },
             {
                 "prompt": "If a trapezium has parallel sides of 14 cm and 6 cm and an area of 80 cm², what is its perpendicular height 'h'?",
-                "options": ["h = 8 cm: 1/2 x (14 + 6) x h = 80 -> 10 x h = 80 -> h = 8 cm", "h = 10 cm", "h = 4 cm", "h = 16 cm"],
+                "options": ["h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm", "h = 10 cm", "h = 4 cm", "h = 16 cm"],
                 "answer": 0,
                 "explanation": "10 x h = 80 -> h = 80 / 10 = 8 centimeters!"
             }
@@ -928,8 +928,8 @@ CLASS8_GAMES = {
                 "explanation": "Triangulation: partitioning complex polygons into standard triangles and trapeziums yields exact computable areas!"
             },
             {
-                "prompt": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
-                "options": ["550 square meters (120 + 250 + 180 = 550 m²)", "450 m²", "600 m²", "500 m²"],
+                "prompt": "A surveyor splits a field into Triangle 1, Trapezium 2, and Triangle 3. What is the total field area?",
+                "options": ["550 square meters", "450 m²", "600 m²", "500 m²"],
                 "answer": 0,
                 "explanation": "Total Area = Sum of component areas: 120 + 250 + 180 = 550 m²!"
             },
@@ -946,14 +946,14 @@ CLASS8_GAMES = {
         "story": "A municipal water supply department constructs a cylindrical water storage tank with radius r = 7 meters and height h = 10 meters.",
         "questions": [
             {
-                "prompt": "What is the VOLUME of the cylindrical tank? (Formula: V = πr²h, use π = 22/7)",
-                "options": ["1,540 cubic meters: (22/7) x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³", "1,450 m³", "700 m³", "2,200 m³"],
+                "prompt": "What is the VOLUME of the cylindrical tank?",
+                "options": ["1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³", "1,450 m³", "700 m³", "2,200 m³"],
                 "answer": 0,
-                "explanation": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
+                "explanation": "V = πr²h = x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
             },
             {
-                "prompt": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder? Formula: 2πr(r + h)",
-                "options": ["2πr(r + h) = 2 x (22/7) x 7 x (7 + 10) = 44 x 17 = 748 m²", "440 m²", "154 m²", "892 m²"],
+                "prompt": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
+                "options": ["2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²", "440 m²", "154 m²", "892 m²"],
                 "answer": 0,
                 "explanation": "TSA = Curved Surface Area (2πrh) + 2 Circular Base Caps (2πr²) = 2πr(r + h) = 748 m²!"
             },
@@ -970,20 +970,20 @@ CLASS8_GAMES = {
         "story": "In mathematics lab, students use the long division method and prime factorization to extract square roots and cube roots.",
         "questions": [
             {
-                "prompt": "What is the SQUARE ROOT of 729 (√729)? (Hint: 20² = 400, 30² = 900; ends in 9)",
-                "options": ["27 (since 27 x 27 = 729)", "23", "33", "29"],
+                "prompt": "What is the SQUARE ROOT of 729 (√729)?",
+                "options": ["27", "23", "33", "29"],
                 "answer": 0,
                 "explanation": "27² = 729, so √729 = 27!"
             },
             {
                 "prompt": "What is the CUBE ROOT of 512 (∛512)?",
-                "options": ["8 (since 8 x 8 x 8 = 64 x 8 = 512)", "6", "7", "9"],
+                "options": ["8", "6", "7", "9"],
                 "answer": 0,
                 "explanation": "8³ = 512, so the cube root ∛512 = 8!"
             },
             {
-                "prompt": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE? (72 = 2³ x 3²)",
-                "options": ["3 (multiplying by 3 makes 3² into 3³, giving 2³ x 3³ = 216 = 6³)", "2", "4", "6"],
+                "prompt": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE?",
+                "options": ["3", "2", "4", "6"],
                 "answer": 0,
                 "explanation": "Prime factorization of 72 = 2 x 2 x 2 x 3 x 3. The 3s need one more factor of 3 to form a triplet: 72 x 3 = 216 = 6³!"
             }
@@ -994,19 +994,19 @@ CLASS8_GAMES = {
         "story": "Microbiologists write the size of a bacterial cell measuring 0.000005 meters using negative powers of 10.",
         "questions": [
             {
-                "prompt": "How is 0.000005 meters written in standard SCIENTIFIC NOTATION (a x 10ⁿ)?",
+                "prompt": "How is 0.000005 meters written in standard SCIENTIFIC NOTATION?",
                 "options": ["5 x 10⁻⁶ meters", "5 x 10⁶", "50 x 10⁻⁵", "0.5 x 10⁻⁴"],
                 "answer": 0,
                 "explanation": "Shift the decimal point 6 places to the right to place it after 5: 5 x 10⁻⁶ meters!"
             },
             {
-                "prompt": "What is the value of 3⁻²? (By negative exponent rule: a⁻ⁿ = 1 / aⁿ)",
-                "options": ["1/9 (1 / 3² = 1 / 9)", "-6", "-9", "1/6"],
+                "prompt": "What is the value of 3⁻²?",
+                "options": ["1/9", "-6", "-9", "1/6"],
                 "answer": 0,
                 "explanation": "A negative power denotes the reciprocal of the positive power: 3⁻² = 1 / 3² = 1/9!"
             },
             {
-                "prompt": "Simplify: (2⁻³ x 2⁵) = 2^(-3 + 5) =",
+                "prompt": "Simplify: = 2^ =",
                 "options": ["2² = 4", "2⁻¹⁵", "2⁸ = 256", "0"],
                 "answer": 0,
                 "explanation": "Add powers: -3 + 5 = 2. 2² = 4!"
@@ -1025,13 +1025,13 @@ CLASS8_GAMES = {
             },
             {
                 "prompt": "What is the DIVISIBILITY RULE FOR 11? Test the number 1,364:",
-                "options": ["The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: (1+6) - (3+4) = 7 - 7 = 0 (Divisible!)", "The number must end in 1", "Divide by 2 and add 1", "The number has four digits"],
+                "options": ["The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)", "The number must end in 1", "Divide by 2 and add 1", "The number has four digits"],
                 "answer": 0,
-                "explanation": "Sum at odd places (1+6=7) minus sum at even places (3+4=7) = 0. Since 0 is divisible by 11, 1,364 is divisible by 11!"
+                "explanation": "Sum at odd places minus sum at even places = 0. Since 0 is divisible by 11, 1,364 is divisible by 11!"
             },
             {
                 "prompt": "Which of these numbers is divisible by 6 (must be divisible by BOTH 2 and 3)?",
-                "options": ["432 (ends in even 2, and sum 4+3+2 = 9 is divisible by 3)", "435 (odd number)", "430 (sum 4+3+0 = 7, not divisible by 3)", "431"],
+                "options": ["432", "435 (odd number)", "430", "431"],
                 "answer": 0,
                 "explanation": "432 is even (divisible by 2) and its digits sum to 9 (divisible by 3). Therefore, it is divisible by 6!"
             }
@@ -1042,14 +1042,14 @@ CLASS8_GAMES = {
         "story": "Between any two rational numbers, there are not just one or two numbers, but an infinite ocean of fractions!",
         "questions": [
             {
-                "prompt": "How many rational numbers exist between ANY two given rational numbers (e.g., between 1/3 and 1/2)?",
+                "prompt": "How many rational numbers exist between ANY two given rational numbers?",
                 "options": ["Infinitely many rational numbers", "Only 1", "Exactly 10", "Zero"],
                 "answer": 0,
                 "explanation": "The Rational Number Line is 'dense': you can insert infinitely many fractions between any two points!"
             },
             {
-                "prompt": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) = 1/2 x (1/4 + 2/4) =",
-                "options": ["3/8 (1/2 x 3/4 = 3/8)", "1/3", "2/6", "5/8"],
+                "prompt": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x =",
+                "options": ["3/8", "1/3", "2/6", "5/8"],
                 "answer": 0,
                 "explanation": "The mean of a and b is (a + b)/2: 1/2 x 3/4 = 3/8 (which equals 0.375, right between 0.25 and 0.50)!"
             },
@@ -1073,13 +1073,13 @@ CLASS8_GAMES = {
             },
             {
                 "prompt": "Which operation on rational numbers is NOT commutative (i.e., a ○ b ≠ b ○ a)?",
-                "options": ["Subtraction and Division (e.g., 5 - 3 ≠ 3 - 5; 8 ÷ 2 ≠ 2 ÷ 8)", "Addition (a + b = b + a)", "Multiplication (a x b = b x a)", "All operations are commutative"],
+                "options": ["Subtraction and Division", "Addition (a + b = b + a)", "Multiplication (a x b = b x a)", "All operations are commutative"],
                 "answer": 0,
                 "explanation": "5 - 3 = 2, but 3 - 5 = -2! Subtraction and division depend on order, so they are NOT commutative."
             },
             {
                 "prompt": "What is the ADDITIVE INVERSE of the rational number -7/11 (the number you add to get 0)?",
-                "options": ["+7/11 (since -7/11 + 7/11 = 0)", "-11/7", "+11/7", "0"],
+                "options": ["+7/11", "-11/7", "+11/7", "0"],
                 "answer": 0,
                 "explanation": "The additive inverse of -x is +x, because their sum equals the additive identity zero!"
             }
@@ -1090,7 +1090,7 @@ CLASS8_GAMES = {
         "story": "Kabir deposits ₹10,000 in a fixed deposit for 2 years compounded annually at 10% interest rate.",
         "questions": [
             {
-                "prompt": "Calculate the final AMOUNT (A) using the Compound Interest formula: A = P(1 + R/100)ⁿ. For P = 10,000, R = 10%, n = 2 years: 10,000 x (1.10)² =",
+                "prompt": "Calculate the final AMOUNT (A) using the Compound Interest formula: A = Pⁿ. For P = 10,000, R = 10%, n = 2 years: 10,000 x (1.10)² =",
                 "options": ["₹12,100: 10,000 x 1.21 = ₹12,100 (Compound Interest = ₹2,100)", "₹12,000", "₹11,000", "₹14,000"],
                 "answer": 0,
                 "explanation": "Compound interest earns 'interest on interest': Year 1 earns ₹1,000; Year 2 earns 10% on ₹11,000 = ₹1,100! Total = ₹12,100!"
@@ -1114,20 +1114,20 @@ CLASS8_GAMES = {
         "story": "If 6 workers can construct a community boundary wall in 12 days, how many days will 12 workers take working at the same pace?",
         "questions": [
             {
-                "prompt": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers: (6 x 12 = 12 x days)",
-                "options": ["INVERSE PROPORTION: 6 days (More workers mean FEWER days: 72 / 12 = 6 days)", "Direct proportion: 24 days", "12 days", "3 days"],
+                "prompt": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
+                "options": ["INVERSE PROPORTION: 6 days", "Direct proportion: 24 days", "12 days", "3 days"],
                 "answer": 0,
                 "explanation": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
             },
             {
                 "prompt": "A car travels at a constant speed of 60 km/h: in 1 hour it covers 60 km, in 2 hours 120 km, in 3 hours 180 km. Is distance vs time direct or inverse?",
-                "options": ["DIRECT PROPORTION (as time increases, distance increases at constant ratio y/x = 60)", "Inverse proportion", "Zero proportion", "Negative proportion"],
+                "options": ["DIRECT PROPORTION", "Inverse proportion", "Zero proportion", "Negative proportion"],
                 "answer": 0,
                 "explanation": "Direct proportion: y/x = k (constant). More driving time directly yields proportionally greater distance!"
             },
             {
-                "prompt": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours? (Speed x Time = 60 x 4 = 240 km. Speed = 240 / 3)",
-                "options": ["80 km/h (240 / 3 = 80 km/h)", "75 km/h", "90 km/h", "70 km/h"],
+                "prompt": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours?",
+                "options": ["80 km/h", "75 km/h", "90 km/h", "70 km/h"],
                 "answer": 0,
                 "explanation": "Total distance is 240 km. To cover it in 3 hours requires 240 / 3 = 80 km/h!"
             }
@@ -1366,10 +1366,10 @@ CLASS8_GAMES = {
                 "explanation": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
             },
             {
-                "prompt": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees? Formula: Number of images n = (360° / θ) - 1",
-                "options": ["3 images: (360 / 90) - 1 = 4 - 1 = 3 images", "4 images", "2 images", "Infinite images"],
+                "prompt": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
+                "options": ["3 images: - 1 = 4 - 1 = 3 images", "4 images", "2 images", "Infinite images"],
                 "answer": 0,
-                "explanation": "n = (360/90) - 1 = 4 - 1 = 3 images! (When mirrors are parallel at 0°, n = infinity, as in barbershops)!"
+                "explanation": "n = - 1 = 4 - 1 = 3 images! (When mirrors are parallel at 0°, n = infinity, as in barbershops)!"
             }
         ]
     },
@@ -1577,7 +1577,7 @@ CLASS8_GAMES = {
             },
             {
                 "prompt": "While Prairie farms produce high yield PER WORKER through machinery, why do Gangetic Plains farms produce high yield PER HECTARE?",
-                "options": ["Intensive manual multi-cropping (growing 2-3 crops per year on the same plot with meticulous irrigation and care)", "They use robots exclusively", "Gangetic farms never harvest crops", "Because land is completely empty"],
+                "options": ["Intensive manual multi-cropping", "They use robots exclusively", "Gangetic farms never harvest crops", "Because land is completely empty"],
                 "answer": 0,
                 "explanation": "Year-round subtropical warmth and dense family labor extract maximum biological yield from every square meter!"
             },
@@ -1673,7 +1673,7 @@ CLASS8_GAMES = {
             },
             {
                 "prompt": "What is India's 'DEMOGRAPHIC DIVIDEND'?",
-                "options": ["India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket (15-64 years), fueling economic growth", "A one-time government dividend check mailed to all rural families", "A mandatory national tax imposed on families with more than two children", "An old-age pension fund reserved exclusively for retired government employees"],
+                "options": ["India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth", "A one-time government dividend check mailed to all rural families", "A mandatory national tax imposed on families with more than two children", "An old-age pension fund reserved exclusively for retired government employees"],
                 "answer": 0,
                 "explanation": "A low dependency ratio and massive working-age cohort provide historic potential for economic transformation!"
             },

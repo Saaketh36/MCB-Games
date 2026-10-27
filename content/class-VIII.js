@@ -1644,7 +1644,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What standardized criteria should researchers use to evaluate digital information sources? (The CRAAP Test)",
+        "q": "What standardized criteria should researchers use to evaluate digital information sources?",
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
@@ -1687,7 +1687,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What standardized criteria should researchers use to evaluate digital information sources? (The CRAAP Test)",
+        "q": "What standardized criteria should researchers use to evaluate digital information sources?",
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
@@ -2334,7 +2334,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4 (a=x, b=2: x² + 2(x)(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
           "x² + 2x + 4",
           "2x² + 4",
           "x² + 4"
@@ -2343,22 +2343,22 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
       },
       {
-        "q": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b² by treating 99 as (100 - 1)²: 100² - 2(100)(1) + 1² =",
+        "q": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b²:",
         "options": [
           "9,999",
           "9,901",
-          "9,801 (10,000 - 200 + 1 = 9,801)",
+          "9,801",
           "9,800"
         ],
         "answer": 2,
         "explain": "(100 - 1)² = 10,000 - 200 + 1 = 9,801! Mental math magic with algebraic identities."
       },
       {
-        "q": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47: (50 + 3)(50 - 3) = 50² - 3² =",
+        "q": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47:",
         "options": [
           "2,500",
           "2,400",
-          "2,491 (2,500 - 9 = 2,491)",
+          "2,491",
           "2,509"
         ],
         "answer": 2,
@@ -2377,7 +2377,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4 (a=x, b=2: x² + 2(x)(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
           "x² + 2x + 4",
           "2x² + 4",
           "x² + 4"
@@ -2386,22 +2386,22 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
       },
       {
-        "q": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b² by treating 99 as (100 - 1)²: 100² - 2(100)(1) + 1² =",
+        "q": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b²:",
         "options": [
           "9,999",
           "9,901",
-          "9,801 (10,000 - 200 + 1 = 9,801)",
+          "9,801",
           "9,800"
         ],
         "answer": 2,
         "explain": "(100 - 1)² = 10,000 - 200 + 1 = 9,801! Mental math magic with algebraic identities."
       },
       {
-        "q": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47: (50 + 3)(50 - 3) = 50² - 3² =",
+        "q": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47:",
         "options": [
           "2,500",
           "2,400",
-          "2,491 (2,500 - 9 = 2,491)",
+          "2,491",
           "2,509"
         ],
         "answer": 2,
@@ -2418,12 +2418,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Expand the product of the binomials: (2x - 5)(3x + 4) = 2x(3x + 4) - 5(3x + 4) =",
+        "q": "Expand the product of the binomials: (2x - 5)(3x + 4) =",
         "options": [
           "6x² + 7x - 20",
           "5x² - 7x - 20",
           "6x² - 20",
-          "6x² - 7x - 20 (6x² + 8x - 15x - 20 = 6x² - 7x - 20)"
+          "6x² - 7x - 20"
         ],
         "answer": 3,
         "explain": "FOIL method: First (6x²), Outside (+8x), Inside (-15x), Last (-20). Combining like terms: 6x² - 7x - 20!"
@@ -2461,12 +2461,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Expand the product of the binomials: (2x - 5)(3x + 4) = 2x(3x + 4) - 5(3x + 4) =",
+        "q": "Expand the product of the binomials: (2x - 5)(3x + 4) =",
         "options": [
           "6x² + 7x - 20",
           "5x² - 7x - 20",
           "6x² - 20",
-          "6x² - 7x - 20 (6x² + 8x - 15x - 20 = 6x² - 7x - 20)"
+          "6x² - 7x - 20"
         ],
         "answer": 3,
         "explain": "FOIL method: First (6x²), Outside (+8x), Inside (-15x), Last (-20). Combining like terms: 6x² - 7x - 20!"
@@ -2509,7 +2509,7 @@ Object.assign(window.GAME_CONTENT, {
           "x = 8 years old",
           "x = 15 years old",
           "x = 10 years old",
-          "x = 12 years old (3x + 12 = 2x + 24 -> 3x - 2x = 24 - 12 -> x = 12)"
+          "x = 12 years old"
         ],
         "answer": 3,
         "explain": "3x + 12 = 2x + 24. Subtract 2x and 12 from both sides: x = 12 years old (Mother is 36)!"
@@ -2519,7 +2519,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "x = 12",
           "x = 18",
-          "x = 16 (3x + 6 = 54 -> 3x = 48 -> x = 16; integers are 16, 18, 20)",
+          "x = 16",
           "x = 14"
         ],
         "answer": 2,
@@ -2531,7 +2531,7 @@ Object.assign(window.GAME_CONTENT, {
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes (Let ten-rupee notes = n. 10n + 5(50 - n) = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
         ],
         "answer": 3,
         "explain": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -2552,7 +2552,7 @@ Object.assign(window.GAME_CONTENT, {
           "x = 8 years old",
           "x = 15 years old",
           "x = 10 years old",
-          "x = 12 years old (3x + 12 = 2x + 24 -> 3x - 2x = 24 - 12 -> x = 12)"
+          "x = 12 years old"
         ],
         "answer": 3,
         "explain": "3x + 12 = 2x + 24. Subtract 2x and 12 from both sides: x = 12 years old (Mother is 36)!"
@@ -2562,7 +2562,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "x = 12",
           "x = 18",
-          "x = 16 (3x + 6 = 54 -> 3x = 48 -> x = 16; integers are 16, 18, 20)",
+          "x = 16",
           "x = 14"
         ],
         "answer": 2,
@@ -2574,7 +2574,7 @@ Object.assign(window.GAME_CONTENT, {
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes (Let ten-rupee notes = n. 10n + 5(50 - n) = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
         ],
         "answer": 3,
         "explain": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -2594,7 +2594,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "90°",
-          "180°: (180 / 360) x 360° = 180° (exactly half of the circle)",
+          "180°: x 360° = 180° (exactly half of the circle)",
           "360°"
         ],
         "answer": 2,
@@ -2605,7 +2605,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "30°",
           "90°",
-          "60°: (60 / 360) x 360° = 60°",
+          "60°: x 360° = 60°",
           "120°"
         ],
         "answer": 2,
@@ -2637,7 +2637,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "90°",
-          "180°: (180 / 360) x 360° = 180° (exactly half of the circle)",
+          "180°: x 360° = 180° (exactly half of the circle)",
           "360°"
         ],
         "answer": 2,
@@ -2648,7 +2648,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "30°",
           "90°",
-          "60°: (60 / 360) x 360° = 60°",
+          "60°: x 360° = 60°",
           "120°"
         ],
         "answer": 2,
@@ -2698,7 +2698,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "There are 6 combinations summing to 7 out of 36 total possible pairs: 6/36 = 1/6!"
       },
       {
-        "q": "What is the probability of an IMPOSSIBLE EVENT (e.g., rolling an 8 on a standard 6-sided die)?",
+        "q": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
           "0 (Zero probability)",
           "1",
@@ -2741,7 +2741,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "There are 6 combinations summing to 7 out of 36 total possible pairs: 6/36 = 1/6!"
       },
       {
-        "q": "What is the probability of an IMPOSSIBLE EVENT (e.g., rolling an 8 on a standard 6-sided die)?",
+        "q": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
           "0 (Zero probability)",
           "1",
@@ -2786,7 +2786,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many unit cubes (1x1x1 cm) are packed inside a solid cuboid measuring 4 cm by 3 cm by 2 cm?",
         "options": [
-          "24 unit cubes (Volume = 4 x 3 x 2 = 24 cm³)",
+          "24 unit cubes",
           "14 cubes",
           "9 cubes",
           "48 cubes"
@@ -2829,7 +2829,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many unit cubes (1x1x1 cm) are packed inside a solid cuboid measuring 4 cm by 3 cm by 2 cm?",
         "options": [
-          "24 unit cubes (Volume = 4 x 3 x 2 = 24 cm³)",
+          "24 unit cubes",
           "14 cubes",
           "9 cubes",
           "48 cubes"
@@ -3024,7 +3024,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "80°",
           "100°",
-          "90° (70 + 80 + 120 = 270; 360 - 270 = 90°)",
+          "90°",
           "110°"
         ],
         "answer": 2,
@@ -3034,7 +3034,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
           "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into (n - 2) non-overlapping triangles from one vertex, each contributing 180°",
+          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
           "Because 360 is a magic number",
           "It is only a rough guess"
         ],
@@ -3042,11 +3042,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
       },
       {
-        "q": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)? Formula: (5-2)x180° / 5 =",
+        "q": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)?",
         "options": [
           "100°",
           "120°",
-          "108° (540° / 5 = 108°)",
+          "108°",
           "90°"
         ],
         "answer": 2,
@@ -3067,7 +3067,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "80°",
           "100°",
-          "90° (70 + 80 + 120 = 270; 360 - 270 = 90°)",
+          "90°",
           "110°"
         ],
         "answer": 2,
@@ -3077,7 +3077,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
           "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into (n - 2) non-overlapping triangles from one vertex, each contributing 180°",
+          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
           "Because 360 is a magic number",
           "It is only a rough guess"
         ],
@@ -3085,11 +3085,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
       },
       {
-        "q": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)? Formula: (5-2)x180° / 5 =",
+        "q": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)?",
         "options": [
           "100°",
           "120°",
-          "108° (540° / 5 = 108°)",
+          "108°",
           "90°"
         ],
         "answer": 2,
@@ -3109,7 +3109,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In parallelogram ABCD, if Angle A measures 75°, what is the measure of adjacent consecutive Angle B?",
         "options": [
           "90°",
-          "105° (Consecutive adjacent angles in a parallelogram are SUPPLEMENTARY: 180° - 75° = 105°)",
+          "105°",
           "75°",
           "15°"
         ],
@@ -3152,7 +3152,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In parallelogram ABCD, if Angle A measures 75°, what is the measure of adjacent consecutive Angle B?",
         "options": [
           "90°",
-          "105° (Consecutive adjacent angles in a parallelogram are SUPPLEMENTARY: 180° - 75° = 105°)",
+          "105°",
           "75°",
           "15°"
         ],
@@ -3192,11 +3192,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the cross-sectional AREA of the trapezium embankment? Formula: Area = 1/2 x (a + b) x h",
+        "q": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
           "60 m²",
           "48 m²",
-          "50 square meters: 1/2 x (12 + 8) x 5 = 1/2 x 20 x 5 = 50 m²",
+          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
           "100 m²"
         ],
         "answer": 2,
@@ -3218,7 +3218,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "h = 16 cm",
           "h = 10 cm",
-          "h = 8 cm: 1/2 x (14 + 6) x h = 80 -> 10 x h = 80 -> h = 8 cm",
+          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
           "h = 4 cm"
         ],
         "answer": 2,
@@ -3235,11 +3235,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the cross-sectional AREA of the trapezium embankment? Formula: Area = 1/2 x (a + b) x h",
+        "q": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
           "60 m²",
           "48 m²",
-          "50 square meters: 1/2 x (12 + 8) x 5 = 1/2 x 20 x 5 = 50 m²",
+          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
           "100 m²"
         ],
         "answer": 2,
@@ -3261,7 +3261,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "h = 16 cm",
           "h = 10 cm",
-          "h = 8 cm: 1/2 x (14 + 6) x h = 80 -> 10 x h = 80 -> h = 8 cm",
+          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
           "h = 4 cm"
         ],
         "answer": 2,
@@ -3292,7 +3292,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
           "600 m²",
-          "550 square meters (120 + 250 + 180 = 550 m²)",
+          "550 square meters",
           "500 m²",
           "450 m²"
         ],
@@ -3335,7 +3335,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
           "600 m²",
-          "550 square meters (120 + 250 + 180 = 550 m²)",
+          "550 square meters",
           "500 m²",
           "450 m²"
         ],
@@ -3364,9 +3364,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the VOLUME of the cylindrical tank? (Formula: V = πr²h, use π = 22/7)",
+        "q": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: (22/7) x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
+          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
           "700 m³",
           "2,200 m³",
           "1,450 m³"
@@ -3375,9 +3375,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
       },
       {
-        "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder? Formula: 2πr(r + h)",
+        "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x (22/7) x 7 x (7 + 10) = 44 x 17 = 748 m²",
+          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
           "892 m²",
           "154 m²",
           "440 m²"
@@ -3407,9 +3407,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the VOLUME of the cylindrical tank? (Formula: V = πr²h, use π = 22/7)",
+        "q": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: (22/7) x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
+          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
           "700 m³",
           "2,200 m³",
           "1,450 m³"
@@ -3418,9 +3418,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
       },
       {
-        "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder? Formula: 2πr(r + h)",
+        "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x (22/7) x 7 x (7 + 10) = 44 x 17 = 748 m²",
+          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
           "892 m²",
           "154 m²",
           "440 m²"
@@ -3450,9 +3450,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the SQUARE ROOT of 729 (√729)? (Hint: 20² = 400, 30² = 900; ends in 9)",
+        "q": "What is the SQUARE ROOT of 729 (√729)?",
         "options": [
-          "27 (since 27 x 27 = 729)",
+          "27",
           "29",
           "33",
           "23"
@@ -3463,7 +3463,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the CUBE ROOT of 512 (∛512)?",
         "options": [
-          "8 (since 8 x 8 x 8 = 64 x 8 = 512)",
+          "8",
           "9",
           "6",
           "7"
@@ -3472,10 +3472,10 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8³ = 512, so the cube root ∛512 = 8!"
       },
       {
-        "q": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE? (72 = 2³ x 3²)",
+        "q": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE?",
         "options": [
           "2",
-          "3 (multiplying by 3 makes 3² into 3³, giving 2³ x 3³ = 216 = 6³)",
+          "3",
           "6",
           "4"
         ],
@@ -3493,9 +3493,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the SQUARE ROOT of 729 (√729)? (Hint: 20² = 400, 30² = 900; ends in 9)",
+        "q": "What is the SQUARE ROOT of 729 (√729)?",
         "options": [
-          "27 (since 27 x 27 = 729)",
+          "27",
           "29",
           "33",
           "23"
@@ -3506,7 +3506,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the CUBE ROOT of 512 (∛512)?",
         "options": [
-          "8 (since 8 x 8 x 8 = 64 x 8 = 512)",
+          "8",
           "9",
           "6",
           "7"
@@ -3515,10 +3515,10 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "8³ = 512, so the cube root ∛512 = 8!"
       },
       {
-        "q": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE? (72 = 2³ x 3²)",
+        "q": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE?",
         "options": [
           "2",
-          "3 (multiplying by 3 makes 3² into 3³, giving 2³ x 3³ = 216 = 6³)",
+          "3",
           "6",
           "4"
         ],
@@ -3547,12 +3547,12 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Shift the decimal point 6 places to the right to place it after 5: 5 x 10⁻⁶ meters!"
       },
       {
-        "q": "What is the value of 3⁻²? (By negative exponent rule: a⁻ⁿ = 1 / aⁿ)",
+        "q": "What is the value of 3⁻²?",
         "options": [
           "-6",
           "-9",
           "1/6",
-          "1/9 (1 / 3² = 1 / 9)"
+          "1/9"
         ],
         "answer": 3,
         "explain": "A negative power denotes the reciprocal of the positive power: 3⁻² = 1 / 3² = 1/9!"
@@ -3590,12 +3590,12 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Shift the decimal point 6 places to the right to place it after 5: 5 x 10⁻⁶ meters!"
       },
       {
-        "q": "What is the value of 3⁻²? (By negative exponent rule: a⁻ⁿ = 1 / aⁿ)",
+        "q": "What is the value of 3⁻²?",
         "options": [
           "-6",
           "-9",
           "1/6",
-          "1/9 (1 / 3² = 1 / 9)"
+          "1/9"
         ],
         "answer": 3,
         "explain": "A negative power denotes the reciprocal of the positive power: 3⁻² = 1 / 3² = 1/9!"
@@ -3637,7 +3637,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Divide by 2 and add 1",
           "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: (1+6) - (3+4) = 7 - 7 = 0 (Divisible!)",
+          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
           "The number must end in 1"
         ],
         "answer": 2,
@@ -3648,8 +3648,8 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "435 (odd number)",
           "431",
-          "430 (sum 4+3+0 = 7, not divisible by 3)",
-          "432 (ends in even 2, and sum 4+3+2 = 9 is divisible by 3)"
+          "430",
+          "432"
         ],
         "answer": 3,
         "explain": "432 is even (divisible by 2) and its digits sum to 9 (divisible by 3). Therefore, it is divisible by 6!"
@@ -3680,7 +3680,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Divide by 2 and add 1",
           "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: (1+6) - (3+4) = 7 - 7 = 0 (Divisible!)",
+          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
           "The number must end in 1"
         ],
         "answer": 2,
@@ -3691,8 +3691,8 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "435 (odd number)",
           "431",
-          "430 (sum 4+3+0 = 7, not divisible by 3)",
-          "432 (ends in even 2, and sum 4+3+2 = 9 is divisible by 3)"
+          "430",
+          "432"
         ],
         "answer": 3,
         "explain": "432 is even (divisible by 2) and its digits sum to 9 (divisible by 3). Therefore, it is divisible by 6!"
@@ -3708,7 +3708,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many rational numbers exist between ANY two given rational numbers (e.g., between 1/3 and 1/2)?",
+        "q": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
           "Only 1",
           "Zero",
@@ -3719,11 +3719,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "The Rational Number Line is 'dense': you can insert infinitely many fractions between any two points!"
       },
       {
-        "q": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) = 1/2 x (1/4 + 2/4) =",
+        "q": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) =",
         "options": [
           "2/6",
           "1/3",
-          "3/8 (1/2 x 3/4 = 3/8)",
+          "3/8",
           "5/8"
         ],
         "answer": 2,
@@ -3751,7 +3751,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many rational numbers exist between ANY two given rational numbers (e.g., between 1/3 and 1/2)?",
+        "q": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
           "Only 1",
           "Zero",
@@ -3762,11 +3762,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "The Rational Number Line is 'dense': you can insert infinitely many fractions between any two points!"
       },
       {
-        "q": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) = 1/2 x (1/4 + 2/4) =",
+        "q": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) =",
         "options": [
           "2/6",
           "1/3",
-          "3/8 (1/2 x 3/4 = 3/8)",
+          "3/8",
           "5/8"
         ],
         "answer": 2,
@@ -3810,7 +3810,7 @@ Object.assign(window.GAME_CONTENT, {
           "Addition (a + b = b + a)",
           "Multiplication (a x b = b x a)",
           "All operations are commutative",
-          "Subtraction and Division (e.g., 5 - 3 ≠ 3 - 5; 8 ÷ 2 ≠ 2 ÷ 8)"
+          "Subtraction and Division"
         ],
         "answer": 3,
         "explain": "5 - 3 = 2, but 3 - 5 = -2! Subtraction and division depend on order, so they are NOT commutative."
@@ -3820,7 +3820,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "0",
           "+11/7",
-          "+7/11 (since -7/11 + 7/11 = 0)",
+          "+7/11",
           "-11/7"
         ],
         "answer": 2,
@@ -3853,7 +3853,7 @@ Object.assign(window.GAME_CONTENT, {
           "Addition (a + b = b + a)",
           "Multiplication (a x b = b x a)",
           "All operations are commutative",
-          "Subtraction and Division (e.g., 5 - 3 ≠ 3 - 5; 8 ÷ 2 ≠ 2 ÷ 8)"
+          "Subtraction and Division"
         ],
         "answer": 3,
         "explain": "5 - 3 = 2, but 3 - 5 = -2! Subtraction and division depend on order, so they are NOT commutative."
@@ -3863,7 +3863,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "0",
           "+11/7",
-          "+7/11 (since -7/11 + 7/11 = 0)",
+          "+7/11",
           "-11/7"
         ],
         "answer": 2,
@@ -3966,12 +3966,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers: (6 x 12 = 12 x days)",
+        "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
           "Direct proportion: 24 days",
           "12 days",
           "3 days",
-          "INVERSE PROPORTION: 6 days (More workers mean FEWER days: 72 / 12 = 6 days)"
+          "INVERSE PROPORTION: 6 days"
         ],
         "answer": 3,
         "explain": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -3982,16 +3982,16 @@ Object.assign(window.GAME_CONTENT, {
           "Zero proportion",
           "Inverse proportion",
           "Negative proportion",
-          "DIRECT PROPORTION (as time increases, distance increases at constant ratio y/x = 60)"
+          "DIRECT PROPORTION"
         ],
         "answer": 3,
         "explain": "Direct proportion: y/x = k (constant). More driving time directly yields proportionally greater distance!"
       },
       {
-        "q": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours? (Speed x Time = 60 x 4 = 240 km. Speed = 240 / 3)",
+        "q": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours?",
         "options": [
           "90 km/h",
-          "80 km/h (240 / 3 = 80 km/h)",
+          "80 km/h",
           "70 km/h",
           "75 km/h"
         ],
@@ -4009,12 +4009,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers: (6 x 12 = 12 x days)",
+        "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
           "Direct proportion: 24 days",
           "12 days",
           "3 days",
-          "INVERSE PROPORTION: 6 days (More workers mean FEWER days: 72 / 12 = 6 days)"
+          "INVERSE PROPORTION: 6 days"
         ],
         "answer": 3,
         "explain": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -4025,16 +4025,16 @@ Object.assign(window.GAME_CONTENT, {
           "Zero proportion",
           "Inverse proportion",
           "Negative proportion",
-          "DIRECT PROPORTION (as time increases, distance increases at constant ratio y/x = 60)"
+          "DIRECT PROPORTION"
         ],
         "answer": 3,
         "explain": "Direct proportion: y/x = k (constant). More driving time directly yields proportionally greater distance!"
       },
       {
-        "q": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours? (Speed x Time = 60 x 4 = 240 km. Speed = 240 / 3)",
+        "q": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours?",
         "options": [
           "90 km/h",
-          "80 km/h (240 / 3 = 80 km/h)",
+          "80 km/h",
           "70 km/h",
           "75 km/h"
         ],
@@ -4848,11 +4848,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
       },
       {
-        "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees? Formula: Number of images n = (360° / θ) - 1",
+        "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
           "2 images",
           "4 images",
-          "3 images: (360 / 90) - 1 = 4 - 1 = 3 images",
+          "3 images: - 1 = 4 - 1 = 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -4891,11 +4891,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
       },
       {
-        "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees? Formula: Number of images n = (360° / θ) - 1",
+        "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
           "2 images",
           "4 images",
-          "3 images: (360 / 90) - 1 = 4 - 1 = 3 images",
+          "3 images: - 1 = 4 - 1 = 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -5613,7 +5613,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "While Prairie farms produce high yield PER WORKER through machinery, why do Gangetic Plains farms produce high yield PER HECTARE?",
         "options": [
-          "Intensive manual multi-cropping (growing 2-3 crops per year on the same plot with meticulous irrigation and care)",
+          "Intensive manual multi-cropping",
           "They use robots exclusively",
           "Gangetic farms never harvest crops",
           "Because land is completely empty"
@@ -5656,7 +5656,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "While Prairie farms produce high yield PER WORKER through machinery, why do Gangetic Plains farms produce high yield PER HECTARE?",
         "options": [
-          "Intensive manual multi-cropping (growing 2-3 crops per year on the same plot with meticulous irrigation and care)",
+          "Intensive manual multi-cropping",
           "They use robots exclusively",
           "Gangetic farms never harvest crops",
           "Because land is completely empty"
@@ -5959,7 +5959,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "An old-age pension fund reserved exclusively for retired government employees",
           "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket (15-64 years), fueling economic growth",
+          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
           "A mandatory national tax imposed on families with more than two children"
         ],
         "answer": 2,
@@ -6002,7 +6002,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "An old-age pension fund reserved exclusively for retired government employees",
           "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket (15-64 years), fueling economic growth",
+          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
           "A mandatory national tax imposed on families with more than two children"
         ],
         "answer": 2,

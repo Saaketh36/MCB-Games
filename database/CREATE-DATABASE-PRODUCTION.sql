@@ -2033,7 +2033,7 @@ ON CONFLICT (name) DO UPDATE SET
     questions_count = EXCLUDED.questions_count,
     updated_at = CURRENT_TIMESTAMP;
 INSERT INTO games (name, description, skill_id, class_id, game_type, file_path, difficulty_level, max_score, questions_count, duration_minutes, is_active, order_index)
-SELECT 'Division by Equal Sharing & Repeated Subtraction (''12 ÷ 3'')', 'Explains the meaning of division facts by equal grouping/sharing and finds it by repeated subtraction (e.g., 12 ÷ 3)', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-090', 'intermediate', 3, 3, 5, TRUE, 90
+SELECT 'Division by Equal Sharing & Repeated Subtraction', 'Explains the meaning of division facts by equal grouping/sharing and finds it by repeated subtraction', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-090', 'intermediate', 3, 3, 5, TRUE, 90
 FROM skills sk
 JOIN subjects s ON sk.subject_id = s.id
 JOIN classes c ON sk.class_id = c.id
@@ -2341,7 +2341,7 @@ ON CONFLICT (name) DO UPDATE SET
     questions_count = EXCLUDED.questions_count,
     updated_at = CURRENT_TIMESTAMP;
 INSERT INTO games (name, description, skill_id, class_id, game_type, file_path, difficulty_level, max_score, questions_count, duration_minutes, is_active, order_index)
-SELECT 'Writing Studio: Dictation (LO #112)', 'Writes/types dictation of short paragraphs (7-8 sentences)', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-112', 'intermediate', 3, 3, 5, TRUE, 112
+SELECT 'Writing Studio: Dictation (LO #112)', 'Writes/types dictation of short paragraphs', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-112', 'intermediate', 3, 3, 5, TRUE, 112
 FROM skills sk
 JOIN subjects s ON sk.subject_id = s.id
 JOIN classes c ON sk.class_id = c.id
@@ -3713,7 +3713,7 @@ ON CONFLICT (name) DO UPDATE SET
     questions_count = EXCLUDED.questions_count,
     updated_at = CURRENT_TIMESTAMP;
 INSERT INTO games (name, description, skill_id, class_id, game_type, file_path, difficulty_level, max_score, questions_count, duration_minutes, is_active, order_index)
-SELECT 'Algebra: Variables & Generalised Perimeter (''2(x+3)'')', 'Uses variables with different operations to generalise a given situation (e.g., perimeter of a rectangle with sides x units and 3 units is 2(x+3) units)', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-210', 'advanced', 3, 3, 5, TRUE, 210
+SELECT 'Algebra: Variables & Generalised Perimeter'')', 'Uses variables with different operations to generalise a given situation units)', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-210', 'advanced', 3, 3, 5, TRUE, 210
 FROM skills sk
 JOIN subjects s ON sk.subject_id = s.id
 JOIN classes c ON sk.class_id = c.id
@@ -6065,7 +6065,7 @@ ON CONFLICT (name) DO UPDATE SET
     questions_count = EXCLUDED.questions_count,
     updated_at = CURRENT_TIMESTAMP;
 INSERT INTO games (name, description, skill_id, class_id, game_type, file_path, difficulty_level, max_score, questions_count, duration_minutes, is_active, order_index)
-SELECT 'Algebra: Variables & Algebraic Expressions (LO #378)', 'Multiplies algebraic expressions (e.g., expands (2x-5)(3x²+7))', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-378', 'advanced', 3, 3, 5, TRUE, 378
+SELECT 'Algebra: Variables & Algebraic Expressions (LO #378)', 'Multiplies algebraic expressions)', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-378', 'advanced', 3, 3, 5, TRUE, 378
 FROM skills sk
 JOIN subjects s ON sk.subject_id = s.id
 JOIN classes c ON sk.class_id = c.id
@@ -6135,7 +6135,7 @@ ON CONFLICT (name) DO UPDATE SET
     questions_count = EXCLUDED.questions_count,
     updated_at = CURRENT_TIMESTAMP;
 INSERT INTO games (name, description, skill_id, class_id, game_type, file_path, difficulty_level, max_score, questions_count, duration_minutes, is_active, order_index)
-SELECT 'Euler''s Relation for Polyhedra (F + V - E = 2)', 'Verifies Euler''s relation through pattern', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-383', 'advanced', 3, 3, 5, TRUE, 383
+SELECT 'Euler''s Relation for Polyhedra', 'Verifies Euler''s relation through pattern', sk.id, c.id, 'MCQ Quiz', 'index.html#quest=LO-383', 'advanced', 3, 3, 5, TRUE, 383
 FROM skills sk
 JOIN subjects s ON sk.subject_id = s.id
 JOIN classes c ON sk.class_id = c.id

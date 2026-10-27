@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class VI Educational Activities (Outcomes 193 - 263).
-English (193-209), Mathematics (210-226), Science (227-239), Social Science (240-263).
+Generator for Class VI Educational Activities.
+English, Mathematics, Science, Social Science.
 """
 
 CLASS6_GAMES = {
@@ -418,16 +418,16 @@ CLASS6_GAMES = {
         "story": "Farmer Ramesh builds a rectangular goat pen. The width is fixed at 3 meters, but the length can change depending on how many goats he buys. He calls the length 'x'.",
         "questions": [
             {
-                "prompt": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'? Formula: 2(Length + Width)",
-                "options": ["2(x + 3) meters (or 2x + 6)", "x + 3", "3x", "2x + 3"],
+                "prompt": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'?",
+                "options": ["2 meters", "x + 3", "3x", "2x + 3"],
                 "answer": 0,
-                "explanation": "Perimeter = 2 x (x + 3) = 2x + 6 meters!"
+                "explanation": "Perimeter = 2 x = 2x + 6 meters!"
             },
             {
-                "prompt": "If Ramesh decides to make the length x = 7 meters, what is the perimeter of the pen? 2(7 + 3) =",
+                "prompt": "If Ramesh decides to make the length x = 7 meters, what is the perimeter of the pen? 2 =",
                 "options": ["20 meters: 2(10) = 20 m", "21 meters", "14 meters", "10 meters"],
                 "answer": 0,
-                "explanation": "Substitute x = 7: 2 x (7 + 3) = 2 x 10 = 20 meters!"
+                "explanation": "Substitute x = 7: 2 x = 2 x 10 = 20 meters!"
             },
             {
                 "prompt": "In algebra, what is a 'VARIABLE' (like x, y, or n)?",
@@ -443,19 +443,19 @@ CLASS6_GAMES = {
         "questions": [
             {
                 "prompt": "In a pictograph where one 🪙 coin symbol represents ₹2,000, how many coin symbols will represent the Food budget (₹12,000)?",
-                "options": ["6 coin symbols (12,000 / 2,000 = 6)", "12 coin symbols", "2 coin symbols", "4 coin symbols"],
+                "options": ["6 coin symbols", "12 coin symbols", "2 coin symbols", "4 coin symbols"],
                 "answer": 0,
                 "explanation": "₹12,000 divided by the scale of ₹2,000 per symbol = exactly 6 symbols!"
             },
             {
-                "prompt": "What is the total monthly budget tracked by Priya? (12,000 + 6,000 + 2,000 + 4,000)",
+                "prompt": "What is the total monthly budget tracked by Priya?",
                 "options": ["₹24,000", "₹20,000", "₹22,000", "₹26,000"],
                 "answer": 0,
                 "explanation": "12,000 + 6,000 + 2,000 + 4,000 = ₹24,000 total expenditure and savings."
             },
             {
                 "prompt": "What fraction of the total ₹24,000 monthly budget is allocated to Education (₹6,000)?",
-                "options": ["1/4 (6,000 / 24,000 = 1/4 = 25%)", "1/2", "1/3", "1/6"],
+                "options": ["1/4", "1/2", "1/3", "1/6"],
                 "answer": 0,
                 "explanation": "6,000/24,000 simplifies to 1/4 (or 25% of the total family budget)!"
             }
@@ -479,7 +479,7 @@ CLASS6_GAMES = {
             },
             {
                 "prompt": "Verify Euler's Formula for a Cube: Faces - Edges + Vertices (F - E + V). What is 6 - 12 + 8?",
-                "options": ["2 (Euler's characteristic F - E + V = 2 holds true!)", "0", "1", "4"],
+                "options": ["2", "0", "1", "4"],
                 "answer": 0,
                 "explanation": "For any convex polyhedron: F - E + V = 2. For a cube: 6 - 12 + 8 = 2!"
             }
@@ -553,7 +553,7 @@ CLASS6_GAMES = {
                 "prompt": "What is the sum of all FOUR internal angles in ANY quadrilateral?",
                 "options": ["360 degrees (360°)", "180°", "90°", "540°"],
                 "answer": 0,
-                "explanation": "Every quadrilateral can be divided into 2 triangles (2 x 180° = 360°)!"
+                "explanation": "Every quadrilateral can be divided into 2 triangles!"
             }
         ]
     },
@@ -610,20 +610,20 @@ CLASS6_GAMES = {
         "story": "The school is laying new linoleum floor tiles in Class 6. The classroom floor is 8 meters long and 6 meters wide.",
         "questions": [
             {
-                "prompt": "What is the total FLOOR AREA to be covered with tiles? (Formula: Length x Width)",
-                "options": ["48 square meters (8 x 6 = 48 sq m)", "28 square meters", "14 square meters", "96 square meters"],
+                "prompt": "What is the total FLOOR AREA to be covered with tiles?",
+                "options": ["48 square meters", "28 square meters", "14 square meters", "96 square meters"],
                 "answer": 0,
                 "explanation": "Area = 8 m x 6 m = 48 square meters of floor space!"
             },
             {
-                "prompt": "What length of wooden skirting baseboard is needed around the PERIMETER of the room? 2 x (L + W)",
-                "options": ["28 meters: 2 x (8 + 6) = 2 x 14 = 28 m", "48 meters", "14 meters", "56 meters"],
+                "prompt": "What length of wooden skirting baseboard is needed around the PERIMETER of the room?",
+                "options": ["28 meters: 2 x = 2 x 14 = 28 m", "48 meters", "14 meters", "56 meters"],
                 "answer": 0,
                 "explanation": "Perimeter = 8 + 6 + 8 + 6 = 28 meters of baseboard boundary!"
             },
             {
                 "prompt": "If each square floor tile measures 1 meter by 1 meter (1 sq m), how many tiles are required to pave the entire 48 sq m classroom floor?",
-                "options": ["48 tiles (48 / 1 = 48)", "28 tiles", "24 tiles", "96 tiles"],
+                "options": ["48 tiles", "28 tiles", "24 tiles", "96 tiles"],
                 "answer": 0,
                 "explanation": "48 square meters divided by 1 square meter per tile = exactly 48 tiles!"
             }
@@ -634,7 +634,7 @@ CLASS6_GAMES = {
         "story": "Two bells in the school tower toll at intervals: Bell A tolls every 6 minutes, and Bell B tolls every 8 minutes. They both toll together at 8:00 AM.",
         "questions": [
             {
-                "prompt": "After how many minutes will both bells toll TOGETHER again? (Find the Lowest Common Multiple / LCM of 6 and 8)",
+                "prompt": "After how many minutes will both bells toll TOGETHER again?",
                 "options": ["24 minutes (LCM of 6 and 8 is 24)", "48 minutes", "14 minutes", "2 minutes"],
                 "answer": 0,
                 "explanation": "Multiples of 6: 6, 12, 18, 24... Multiples of 8: 8, 16, 24... The lowest common multiple is 24 minutes!"
@@ -665,7 +665,7 @@ CLASS6_GAMES = {
             },
             {
                 "prompt": "What are 'CO-PRIME NUMBERS' (e.g., the pair 4 and 9)?",
-                "options": ["Two numbers whose ONLY common factor is 1 (HCF = 1)", "Two numbers that are both prime", "Two numbers that add up to 10", "Two negative numbers"],
+                "options": ["Two numbers whose ONLY common factor is 1", "Two numbers that are both prime", "Two numbers that add up to 10", "Two negative numbers"],
                 "answer": 0,
                 "explanation": "4 (factors 1, 2, 4) and 9 (factors 1, 3, 9) share no common factor other than 1, making them co-prime!"
             },
@@ -682,13 +682,13 @@ CLASS6_GAMES = {
         "story": "Chef Anita combines 2 1/4 kg of flour with 1 1/2 kg of brown sugar to bake fruit cakes for a community festival.",
         "questions": [
             {
-                "prompt": "What is the total weight of flour and sugar combined? (2 1/4 + 1 1/2 = 2 1/4 + 1 2/4)",
+                "prompt": "What is the total weight of flour and sugar combined?",
                 "options": ["3 3/4 kg (or 3.75 kg)", "3 1/4 kg", "4 kg", "2 3/4 kg"],
                 "answer": 0,
                 "explanation": "2 1/4 + 1 2/4 = 3 3/4 kg = 3.75 kilograms in total!"
             },
             {
-                "prompt": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack? (5 - 2 1/4)",
+                "prompt": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack?",
                 "options": ["2 3/4 kg (or 2.75 kg)", "3 kg", "2 1/4 kg", "1 3/4 kg"],
                 "answer": 0,
                 "explanation": "5 - 2.25 = 2.75 kg = 2 3/4 kilograms left!"
@@ -706,20 +706,20 @@ CLASS6_GAMES = {
         "story": "During a fever check, the school nurse's digital thermometer reads 38.6°C (normal body temperature is 37.0°C).",
         "questions": [
             {
-                "prompt": "How much higher is the student's temperature of 38.6°C than normal 37.0°C? (38.6 - 37.0)",
+                "prompt": "How much higher is the student's temperature of 38.6°C than normal 37.0°C?",
                 "options": ["1.6 degrees Celsius (1.6°C)", "0.6°C", "2.6°C", "16°C"],
                 "answer": 0,
                 "explanation": "38.6 - 37.0 = 1.6°C above normal baseline temperature."
             },
             {
-                "prompt": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win? (12.45 - 12.38)",
+                "prompt": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win?",
                 "options": ["0.07 seconds", "0.7 seconds", "0.13 seconds", "0.05 seconds"],
                 "answer": 0,
                 "explanation": "12.45 minus 12.38 = 0.07 seconds (seven hundredths of a second)!"
             },
             {
                 "prompt": "Express 75 paise in decimal Rupees (₹):",
-                "options": ["₹0.75 (since ₹1 = 100 paise)", "₹7.5", "₹0.075", "₹75.0"],
+                "options": ["₹0.75", "₹7.5", "₹0.075", "₹75.0"],
                 "answer": 0,
                 "explanation": "75 divided by 100 paise per rupee = ₹0.75."
             }
@@ -727,7 +727,7 @@ CLASS6_GAMES = {
     },
     223: {
         "title": "Integer Submarine: Exploring Positive & Negative Numbers ⚓🌊",
-        "story": "A research submarine dives 50 meters below sea level (-50 m). It then ascends (climbs upward) 20 meters.",
+        "story": "A research submarine dives 50 meters below sea level. It then ascends (climbs upward) 20 meters.",
         "questions": [
             {
                 "prompt": "What is the submarine's new depth relative to sea level? Calculate: -50 + 20 =",
@@ -736,14 +736,14 @@ CLASS6_GAMES = {
                 "explanation": "-50 + 20 = -30 meters (30 meters below the surface)!"
             },
             {
-                "prompt": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature? (-4 - 3) =",
+                "prompt": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature? =",
                 "options": ["-7°C", "-1°C", "+7°C", "+1°C"],
                 "answer": 0,
                 "explanation": "Starting at -4 and dropping 3 degrees more: -4 - 3 = -7°C!"
             },
             {
                 "prompt": "Which integer is GREATER: -5 or -12?",
-                "options": ["-5 is greater (on the number line, -5 lies to the right of -12)", "-12 is greater", "Both are equal", "Negative numbers cannot be compared"],
+                "options": ["-5 is greater", "-12 is greater", "Both are equal", "Negative numbers cannot be compared"],
                 "answer": 0,
                 "explanation": "On a horizontal number line, numbers further to the right are always greater: -5 > -12!"
             }
@@ -760,8 +760,8 @@ CLASS6_GAMES = {
                 "explanation": "75,400 - 28,150 = 47,250!"
             },
             {
-                "prompt": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days? (2,500 x 30)",
-                "options": ["75,000 calculators (25 x 3 = 75, with three zeros)", "7,500", "750,000", "25,030"],
+                "prompt": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days?",
+                "options": ["75,000 calculators", "7,500", "750,000", "25,030"],
                 "answer": 0,
                 "explanation": "2,500 x 30 = 75,000 solar calculators!"
             },
@@ -778,7 +778,7 @@ CLASS6_GAMES = {
         "story": "To mix a perfect shade of sky blue paint, an artist mixes 3 cans of blue paint with 2 cans of white paint. The ratio is 3:2.",
         "questions": [
             {
-                "prompt": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form? (24/16)",
+                "prompt": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form?",
                 "options": ["3:2 (divide both numbers by their HCF of 8)", "4:3", "2:3", "6:5"],
                 "answer": 0,
                 "explanation": "24 / 8 = 3, and 16 / 8 = 2. The simplified ratio is 3:2!"
@@ -790,7 +790,7 @@ CLASS6_GAMES = {
                 "explanation": "A ratio compares the relative scale between two corresponding quantities."
             },
             {
-                "prompt": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there? (5 x 3 = 15, so 3 x 3 = ?)",
+                "prompt": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there?",
                 "options": ["9 oranges", "6 oranges", "12 oranges", "15 oranges"],
                 "answer": 0,
                 "explanation": "Equivalent ratio: 5:3 = 15:9. There are 9 oranges!"
@@ -802,20 +802,20 @@ CLASS6_GAMES = {
         "story": "At the stationery store, a pack of 6 notebooks costs ₹120. Kabir wants to buy 4 notebooks for his upcoming science project.",
         "questions": [
             {
-                "prompt": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook? (120 / 6)",
-                "options": ["₹20 per notebook (120 / 6 = 20)", "₹15", "₹25", "₹10"],
+                "prompt": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook?",
+                "options": ["₹20 per notebook", "₹15", "₹25", "₹10"],
                 "answer": 0,
                 "explanation": "Unitary method means finding the unit value (cost of 1) first: ₹120 / 6 = ₹20 per notebook!"
             },
             {
-                "prompt": "Step 2: What is the total cost for Kabir to purchase 4 notebooks? (4 x ₹20)",
-                "options": ["₹80 (4 x 20 = 80)", "₹60", "₹100", "₹50"],
+                "prompt": "Step 2: What is the total cost for Kabir to purchase 4 notebooks?",
+                "options": ["₹80", "₹60", "₹100", "₹50"],
                 "answer": 0,
                 "explanation": "4 notebooks x ₹20 each = ₹80 total cost!"
             },
             {
-                "prompt": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours? (240 / 3 = 80 km/h; 80 x 5 = ?)",
-                "options": ["400 kilometers (80 km/h x 5 hours = 400 km)", "300 km", "350 km", "500 km"],
+                "prompt": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours?",
+                "options": ["400 kilometers", "300 km", "350 km", "500 km"],
                 "answer": 0,
                 "explanation": "Speed = 240 / 3 = 80 km/h. Distance in 5 hours = 80 x 5 = 400 km!"
             }
@@ -1234,7 +1234,7 @@ CLASS6_GAMES = {
         "story": "Kabir sketches a formal neighborhood survey map including scale, cardinal orientation, and conventional survey symbols.",
         "questions": [
             {
-                "prompt": "What does a map 'SCALE' (e.g., 1 cm = 100 meters) tell the map reader?",
+                "prompt": "What does a map 'SCALE' tell the map reader?",
                 "options": ["The proportional ratio between a distance measured on the paper map and the actual distance on the ground", "The weight of the paper", "How hot the city is", "The number of trees in the forest"],
                 "answer": 0,
                 "explanation": "Scale bridges the drawing to reality: 1 cm on paper equals 100 meters of ground terrain!"

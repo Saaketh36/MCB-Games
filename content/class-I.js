@@ -1322,7 +1322,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Priya counted exactly 2 green pears."
       },
       {
-        "q": "How many apples and pears are there when you count them together (4 + 2)?",
+        "q": "How many apples and pears are there when you count them together?",
         "options": [
           "7",
           "2",
@@ -1365,7 +1365,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Priya counted exactly 2 green pears."
       },
       {
-        "q": "How many apples and pears are there when you count them together (4 + 2)?",
+        "q": "How many apples and pears are there when you count them together?",
         "options": [
           "7",
           "2",
@@ -1472,7 +1472,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many toy cars does Rishi have altogether now? (5 + 4)",
+        "q": "How many toy cars does Rishi have altogether now?",
         "options": [
           "1 car",
           "8 cars",
@@ -1483,7 +1483,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "5 + 4 = 9! Counting forward from 5: 6, 7, 8, 9."
       },
       {
-        "q": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left? (9 - 3)",
+        "q": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left?",
         "options": [
           "5 cars",
           "6 cars",
@@ -1515,7 +1515,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many toy cars does Rishi have altogether now? (5 + 4)",
+        "q": "How many toy cars does Rishi have altogether now?",
         "options": [
           "1 car",
           "8 cars",
@@ -1526,7 +1526,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "5 + 4 = 9! Counting forward from 5: 6, 7, 8, 9."
       },
       {
-        "q": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left? (9 - 3)",
+        "q": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left?",
         "options": [
           "5 cars",
           "6 cars",
@@ -1558,7 +1558,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many cookies are left on Grandma's plate now? (3 - 3)",
+        "q": "How many cookies are left on Grandma's plate now?",
         "options": [
           "0 (Zero)",
           "1",
@@ -1601,7 +1601,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many cookies are left on Grandma's plate now? (3 - 3)",
+        "q": "How many cookies are left on Grandma's plate now?",
         "options": [
           "0 (Zero)",
           "1",

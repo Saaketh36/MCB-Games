@@ -17,6 +17,46 @@ load_dotenv()
 logger = logging.getLogger("ai_helper")
 
 # =====================================================================
+# STRICT CLEAN-FORMATTING HELPERS (NO ANSWER LEAKS)
+# =====================================================================
+OPT_MATH_PAREN_RE = re.compile(
+    r'\s*\([^)]*(?:[₹$]?\d+[^)]*[\+\-\*\/\=x×÷][^)]*(?:\d+|side|length|width)|[\+\-\*\/\=x×÷]\s*\d+)[^)]*\)',
+    re.IGNORECASE
+)
+
+def clean_option_text(opt):
+    """Strip parenthesized math, proofs, steps, and calculations from option text."""
+    if not isinstance(opt, str):
+        return str(opt or "")
+    return OPT_MATH_PAREN_RE.sub('', opt).strip()
+
+def clean_prompt_text(prompt):
+    """Strip math operators, formulas, and calculation hints from question stem."""
+    if not isinstance(prompt, str):
+        return str(prompt or "")
+    p = prompt.strip()
+    if '?' in p:
+        p = re.sub(
+            r'\?\s*(?:\([^)]*[\+\-\*\/\=x×÷][^)]*\)|[0-9x\s\*\/\+\-]+\([A-Z\s\+\-]+\)|Formula:.*|Hint:.*|Remember:.*|\(Find the Lowest Common Multiple.*|\(By negative exponent rule.*|\(Slope\s*=.*|\(Speed\s*x\s*Time.*|\(Step\s*\d+.*).*$',
+            '?',
+            p,
+            flags=re.IGNORECASE
+        ).strip()
+    p = re.sub(
+        r'\s*\((?:(?:e\.g\.|Hint|Remember|Formula|Formulae|Clue|Step \d+)?:?\s*)?(?:[₹$]?\d+[^)]*[\+\-\*\/\=x×÷][^)]+|(?:Hint|Remember|Formula|Step \d+)[^)]+)\)\s*\?',
+        '?',
+        p,
+        flags=re.IGNORECASE
+    )
+    p = re.sub(
+        r'\s*\((?:(?:e\.g\.|Hint|Remember|Formula|Formulae|Clue|Step \d+)?:?\s*)?(?:[₹$]?\d+[^)]*[\+\-\*\/\=x×÷][^)]+|(?:Hint|Remember|Formula|Step \d+)[^)]+)\)\s*$',
+        '',
+        p,
+        flags=re.IGNORECASE
+    )
+    return p.strip()
+
+# =====================================================================
 # 1. LIVE GEMINI GENERATION
 # =====================================================================
 
@@ -463,11 +503,24 @@ CRITICAL RULES:
 1. TOPIC ACCURACY IS MANDATORY: Every single question MUST be strictly, directly, and exclusively about "{effective_topic}".
    - For example, if the topic is "Electricity", ALL questions must be about electricity, electric current, appliances, switches, circuits, batteries, conductors, or electrical safety.
    - Do NOT include questions from other topics like plants or solar system unless specifically requested.
-2. MULTI-MODAL VISUAL LEARNING (Especially critical for Classes I-IV):
+2. STRICT CLEAN-FORMATTING RULES (NO ANSWER LEAKS):
+   a. DO NOT LEAK MATH OPERATORS OR FORMULAS IN THE QUESTION:
+      - NEVER place the formula or calculation hint in parentheses inside the question stem.
+      - BAD EXAMPLE: "If the ₹1,200 bus rental is shared equally among 24 students, how much does each student pay? (1200 / 24)"
+      - GOOD EXAMPLE: "If the ₹1,200 bus rental is shared equally among 24 students, how much does each student pay for travel?"
+   b. KEEP ALL OPTIONS CLEAN & MATCHING IN FORMAT:
+      - The correct answer option MUST look identical in structure and length to all other options.
+      - NEVER include calculations, proofs, or explanations inside any option text.
+      - BAD EXAMPLE: "₹50 per student (24 x 50 = 1200)"
+      - GOOD EXAMPLE: "₹50 per student"
+   c. SEPARATE THE EXPLANATION FIELD ENTIRELY:
+      - Put all steps, proofs, and working out ONLY inside the separate 'explanation' field so it is shown to the student AFTER they answer.
+      - explanation: "Dividing the total cost ₹1,200 by 24 students gives ₹50 per student (24 × 50 = 1,200)."
+3. MULTI-MODAL VISUAL LEARNING (Especially critical for Classes I-IV):
    - Provide a "visual_hint": An encouraging, age-appropriate emoji-rich clue sentence helping kids visualize the concept (e.g., "💡 Visual Clue: 🔋 A complete circuit needs an unbroken loop to light the bulb!").
    - Optionally provide "svg_diagram": A compact, colorful, valid inline SVG diagram (<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">...</svg>) illustrating the concept (e.g. circuit diagram, fraction circle, plant parts, magnet poles). Must have viewBox, nice colors, and no external resources.
-3. Target audience: Class {class_name} students. Adjust vocabulary and difficulty to be perfectly age-appropriate.
-4. Return ONLY a valid JSON object matching the schema below. No markdown fences, no explanatory text outside JSON.
+4. Target audience: Class {class_name} students. Adjust vocabulary and difficulty to be perfectly age-appropriate.
+5. Return ONLY a valid JSON object matching the schema below. No markdown fences, no explanatory text outside JSON.
 
 JSON Schema:
 {{
@@ -520,11 +573,15 @@ Ensure the "questions" list contains EXACTLY {num_questions} questions, with exa
             if not (svg_diagram.startswith("<svg") and "</svg>" in svg_diagram and "viewBox" in svg_diagram):
                 svg_diagram = fallback_svg
 
+            # Sanitize prompt and options according to strict no-leak rules
+            clean_opts = [clean_option_text(o) for o in opts[:4]]
+            clean_p = clean_prompt_text(str(q.get("prompt", "Question")))
+
             cleaned_questions.append({
-                "prompt": str(q.get("prompt", "Question")),
-                "options": opts,
+                "prompt": clean_p,
+                "options": clean_opts,
                 "answer": ans,
-                "explanation": str(q.get("explanation", f"Correct answer is {opts[ans]}.")),
+                "explanation": str(q.get("explanation", f"Correct answer is {clean_opts[ans]}.")),
                 "visual_hint": visual_hint,
                 "svg_diagram": svg_diagram
             })
@@ -1073,8 +1130,12 @@ ENGINE SCHEMAS:
 
 MANDATORY RULES:
 1. STRICT ADHERENCE: Strictly incorporate the teacher's given conditions and custom information into the game elements!
-2. AGE APPROPRIATENESS: Target Class {class_name} students with engaging emoji and clear language.
-3. Return ONLY valid JSON matching this schema:
+2. STRICT CLEAN-FORMATTING RULES (NO ANSWER LEAKS):
+   - Never leak math operators, formulas, or calculation hints in parentheses inside the question stem (e.g. write "how much does each student pay?", never "... pay? (1200 / 24)").
+   - All 4 options must be identical in structure and length. NEVER include calculations, steps, or explanations inside option text (e.g. write "₹50 per student", never "₹50 per student (24 x 50 = 1200)").
+   - Put all steps, proofs, and working out ONLY inside the separate 'explanation' field.
+3. AGE APPROPRIATENESS: Target Class {class_name} students with engaging emoji and clear language.
+4. Return ONLY valid JSON matching this schema:
 {{
   "title": "Catchy Game Title with Emoji (max 45 chars)",
   "class": "{class_name}",
@@ -1115,12 +1176,15 @@ MANDATORY RULES:
                 if not isinstance(ans, int) or ans < 0 or ans >= len(opts):
                     ans = 0
 
+                clean_opts = [clean_option_text(o) for o in opts[:4]]
+                clean_p = clean_prompt_text(str(q.get("prompt", "Question")))
+
                 clue, svg = get_topic_visual_clue_and_svg(effective_topic, subject, class_name, idx)
                 cleaned_questions.append({
-                    "prompt": str(q.get("prompt", "Question")),
-                    "options": opts,
+                    "prompt": clean_p,
+                    "options": clean_opts,
                     "answer": ans,
-                    "explanation": str(q.get("explanation", f"Correct answer: {opts[ans]}.")),
+                    "explanation": str(q.get("explanation", f"Correct answer: {clean_opts[ans]}.")),
                     "visual_hint": str(q.get("visual_hint", clue)).strip() or clue,
                     "svg_diagram": svg
                 })

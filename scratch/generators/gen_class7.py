@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class VII Educational Activities (Outcomes 264 - 349).
-English (264-285), Mathematics (286-305), Science (306-321), Social Science (322-349).
+Generator for Class VII Educational Activities.
+English, Mathematics, Science, Social Science.
 """
 
 CLASS7_GAMES = {
@@ -535,17 +535,17 @@ CLASS7_GAMES = {
     },
     286: {
         "title": "Linear Equation Sleuths: Solving Real-Life Riddles 🧮🔍",
-        "story": "Farmer Ram says: 'If you add 7 to five times the number of sheep I own (5x + 7), you get 42!' Let's solve for the number of sheep (x).",
+        "story": "Farmer Ram says: 'If you add 7 to five times the number of sheep I own, you get 42!' Let's solve for the number of sheep (x).",
         "questions": [
             {
-                "prompt": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42. (Step 1: 5x = 42 - 7 = 35; Step 2: x = 35 / 5)",
+                "prompt": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42.",
                 "options": ["x = 7 sheep", "x = 5 sheep", "x = 8 sheep", "x = 35 sheep"],
                 "answer": 0,
                 "explanation": "5x = 42 - 7 = 35. Therefore, x = 35 / 5 = 7 sheep!"
             },
             {
                 "prompt": "The perimeter of a rectangular playing field is 50 meters. If its length is 15 meters, solve for its width 'w' using: 2(15 + w) = 50.",
-                "options": ["w = 10 meters (15 + w = 25; w = 25 - 15 = 10 m)", "w = 20 m", "w = 5 m", "w = 15 m"],
+                "options": ["w = 10 meters", "w = 20 m", "w = 5 m", "w = 15 m"],
                 "answer": 0,
                 "explanation": "2(15 + w) = 50 -> 15 + w = 25 -> w = 10 meters!"
             },
@@ -562,16 +562,16 @@ CLASS7_GAMES = {
         "story": "Students simplify polynomial expressions by combining like terms (terms with identical variable powers).",
         "questions": [
             {
-                "prompt": "Simplify by combining LIKE TERMS: (4x² + 3x - 5) + (2x² - 5x + 8) =",
-                "options": ["6x² - 2x + 3 (Combine: 4x²+2x² = 6x²; 3x-5x = -2x; -5+8 = +3)", "6x² + 8x + 13", "8x² - 2x - 3", "6x⁴ - 2x² + 3"],
+                "prompt": "Simplify by combining LIKE TERMS: + =",
+                "options": ["6x² - 2x + 3", "6x² + 8x + 13", "8x² - 2x - 3", "6x⁴ - 2x² + 3"],
                 "answer": 0,
-                "explanation": "Combine corresponding like terms: (4+2)x² + (3-5)x + (-5+8) = 6x² - 2x + 3!"
+                "explanation": "Combine corresponding like terms:x² +x + = 6x² - 2x + 3!"
             },
             {
-                "prompt": "Subtract (2x - 3) from (5x + 7). Remember: (5x + 7) - (2x - 3) = 5x + 7 - 2x + 3 =",
+                "prompt": "Subtract from. Remember: - = 5x + 7 - 2x + 3 =",
                 "options": ["3x + 10", "3x + 4", "7x + 10", "3x - 4"],
                 "answer": 0,
-                "explanation": "Distribute the negative sign: 5x - 2x = 3x, and 7 - (-3) = 7 + 3 = 10. Result: 3x + 10!"
+                "explanation": "Distribute the negative sign: 5x - 2x = 3x, and 7 - = 7 + 3 = 10. Result: 3x + 10!"
             },
             {
                 "prompt": "What is the numerical COEFFICIENT of the term '-7xy'?",
@@ -598,7 +598,7 @@ CLASS7_GAMES = {
                 "explanation": "Contrasting adjacent bars and a legend allow effortless direct visual comparison across categories!"
             },
             {
-                "prompt": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block? (90 / 10)",
+                "prompt": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block?",
                 "options": ["9.0 runs per over", "6.0 runs per over", "15 runs per over", "7.5 runs per over"],
                 "answer": 0,
                 "explanation": "90 runs divided by 10 overs = a brisk run rate of 9.0 runs per over!"
@@ -610,8 +610,8 @@ CLASS7_GAMES = {
         "story": "Virat scored the following runs in 5 consecutive cricket innings: [ 40, 50, 50, 60, 100 ].",
         "questions": [
             {
-                "prompt": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings. (40 + 50 + 50 + 60 + 100) / 5 =",
-                "options": ["60 runs (300 / 5 = 60)", "50 runs", "70 runs", "65 runs"],
+                "prompt": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings.",
+                "options": ["60 runs", "50 runs", "70 runs", "65 runs"],
                 "answer": 0,
                 "explanation": "Total sum = 300 runs. 300 divided by 5 innings = Mean of 60 runs!"
             },
@@ -671,7 +671,7 @@ CLASS7_GAMES = {
             },
             {
                 "prompt": "Can a triangle be constructed with side lengths 2 cm, 3 cm, and 6 cm?",
-                "options": ["No (because 2 + 3 = 5, which is LESS than 6 cm; the sides cannot reach to close)", "Yes, it forms an acute triangle", "Yes, it forms an obtuse triangle", "Yes, an equilateral triangle"],
+                "options": ["No", "Yes, it forms an acute triangle", "Yes, it forms an obtuse triangle", "Yes, an equilateral triangle"],
                 "answer": 0,
                 "explanation": "2 + 3 = 5 < 6. Since the sum of the shorter sides fails to exceed 6 cm, no triangle can physically exist!"
             }
@@ -689,13 +689,13 @@ CLASS7_GAMES = {
             },
             {
                 "prompt": "Two angles are SUPPLEMENTARY if their measures sum to 180°. If one angle is 110°, what is its supplement?",
-                "options": ["70° (180° - 110° = 70°)", "80°", "90°", "20°"],
+                "options": ["70°", "80°", "90°", "20°"],
                 "answer": 0,
                 "explanation": "180 - 110 = 70 degrees!"
             },
             {
                 "prompt": "Two angles are COMPLEMENTARY if their measures sum to 90°. If an angle is 35°, what is its complement?",
-                "options": ["55° (90° - 35° = 55°)", "65°", "145°", "45°"],
+                "options": ["55°", "65°", "145°", "45°"],
                 "answer": 0,
                 "explanation": "90 - 35 = 55 degrees!"
             }
@@ -754,10 +754,10 @@ CLASS7_GAMES = {
         "story": "In a triangular solar panel bracket, two internal angles measure 65° and 75°. Engineer Kabir needs to calculate the third angle 'x'.",
         "questions": [
             {
-                "prompt": "Calculate the unknown angle 'x': 65° + 75° + x = 180°. (65 + 75 = 140; 180 - 140 = ?)",
-                "options": ["40° (180° - 140° = 40°)", "50°", "30°", "45°"],
+                "prompt": "Calculate the unknown angle 'x': 65° + 75° + x = 180°.",
+                "options": ["40°", "50°", "30°", "45°"],
                 "answer": 0,
-                "explanation": "The angle sum of any triangle is 180°! 180° - (65° + 75°) = 180° - 140° = 40°."
+                "explanation": "The angle sum of any triangle is 180°! 180° - = 180° - 140° = 40°."
             },
             {
                 "prompt": "What does the EXTERIOR ANGLE THEOREM state for any triangle?",
@@ -766,8 +766,8 @@ CLASS7_GAMES = {
                 "explanation": "Exterior Angle = Sum of Two Interior Opposite Angles (e.g., Exterior = Angle A + Angle B)!"
             },
             {
-                "prompt": "In an EQUILATERAL TRIANGLE where all three angles are equal (x + x + x = 180°), what is the measure of each angle?",
-                "options": ["60° (180° / 3 = 60°)", "90°", "45°", "50°"],
+                "prompt": "In an EQUILATERAL TRIANGLE where all three angles are equal, what is the measure of each angle?",
+                "options": ["60°", "90°", "45°", "50°"],
                 "answer": 0,
                 "explanation": "180 divided by 3 equal angles = exactly 60° for every angle in an equilateral triangle!"
             }
@@ -778,20 +778,20 @@ CLASS7_GAMES = {
         "story": "A community sports club designs a square basketball court of side 20 meters, and an adjacent rectangular tennis lawn measuring 30 m by 12 m.",
         "questions": [
             {
-                "prompt": "What is the area of the SQUARE basketball court? (Formula: side² = 20 x 20)",
-                "options": ["400 square meters (20 x 20 = 400 m²)", "80 m²", "40 m²", "200 m²"],
+                "prompt": "What is the area of the SQUARE basketball court?",
+                "options": ["400 square meters", "80 m²", "40 m²", "200 m²"],
                 "answer": 0,
                 "explanation": "Area of a square = side x side = 20 m x 20 m = 400 m²!"
             },
             {
-                "prompt": "What is the area of the RECTANGULAR tennis lawn? (Formula: Length x Width = 30 x 12)",
-                "options": ["360 square meters (30 x 12 = 360 m²)", "84 m²", "42 m²", "300 m²"],
+                "prompt": "What is the area of the RECTANGULAR tennis lawn?",
+                "options": ["360 square meters", "84 m²", "42 m²", "300 m²"],
                 "answer": 0,
                 "explanation": "Area of rectangle = Length x Breadth = 30 m x 12 m = 360 m²!"
             },
             {
                 "prompt": "What is the formula for the AREA OF A TRIANGLE with base 'b' and perpendicular height 'h'?",
-                "options": ["1/2 x Base x Height (1/2 x b x h)", "Base x Height", "Base + Height", "2 x (Base + Height)"],
+                "options": ["1/2 x Base x Height", "Base x Height", "Base + Height", "2 x (Base + Height)"],
                 "answer": 0,
                 "explanation": "A triangle is half of a parallelogram or rectangle with the same base and height: Area = 1/2 x b x h!"
             }
@@ -809,7 +809,7 @@ CLASS7_GAMES = {
             },
             {
                 "prompt": "If a lake outline covers 42 full grid squares and 16 half-filled squares (1 cm² each), what is the estimated area?",
-                "options": ["50 cm²: 42 + (16 x 0.5) = 42 + 8 = 50 cm²", "58 cm²", "42 cm²", "26 cm²"],
+                "options": ["50 cm²: 42 + = 42 + 8 = 50 cm²", "58 cm²", "42 cm²", "26 cm²"],
                 "answer": 0,
                 "explanation": "42 full squares + 8 (from 16 halves) = 50 cm² total estimated area!"
             },
@@ -827,19 +827,19 @@ CLASS7_GAMES = {
         "questions": [
             {
                 "prompt": "Using the exponent law of multiplication (aᵐ x aⁿ = aᵐ⁺ⁿ), simplify: 10³ x 10⁵ =",
-                "options": ["10⁸ (add powers: 3 + 5 = 8)", "10¹⁵", "10²", "100⁸"],
+                "options": ["10⁸", "10¹⁵", "10²", "100⁸"],
                 "answer": 0,
                 "explanation": "When multiplying identical bases, add the exponents: 10³⁺⁵ = 10⁸!"
             },
             {
                 "prompt": "Simplify using the exponent division law (aᵐ / aⁿ = aᵐ⁻ⁿ): 7⁶ / 7² =",
-                "options": ["7⁴ (subtract powers: 6 - 2 = 4)", "7⁸", "7³", "1⁴"],
+                "options": ["7⁴", "7⁸", "7³", "1⁴"],
                 "answer": 0,
                 "explanation": "When dividing matching bases, subtract powers: 7⁶⁻² = 7⁴!"
             },
             {
                 "prompt": "What is the value of ANY non-zero number raised to the power of ZERO (a⁰)?",
-                "options": ["Always 1 (e.g., 5⁰ = 1, 100⁰ = 1)", "0", "Infinity", "The number itself"],
+                "options": ["Always 1", "0", "Infinity", "The number itself"],
                 "answer": 0,
                 "explanation": "By exponent division law: aⁿ / aⁿ = aⁿ⁻ⁿ = a⁰ = 1!"
             }
@@ -850,8 +850,8 @@ CLASS7_GAMES = {
         "story": "Chef Kabir has 3/4 kg of gourmet spice blend. He divides it into portions of 1/8 kg each to put into small glass jars.",
         "questions": [
             {
-                "prompt": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8. (Remember: multiply by the reciprocal 8/1)",
-                "options": ["6 jars (3/4 x 8/1 = 24/4 = 6)", "4 jars", "2 jars", "8 jars"],
+                "prompt": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8.",
+                "options": ["6 jars", "4 jars", "2 jars", "8 jars"],
                 "answer": 0,
                 "explanation": "Dividing by a fraction is multiplying by its reciprocal: 3/4 x 8/1 = 24/4 = 6 jars!"
             },
@@ -863,9 +863,9 @@ CLASS7_GAMES = {
             },
             {
                 "prompt": "Solve: 2/3 x 9/10 =",
-                "options": ["3/5 (18/30 simplifies by dividing top and bottom by 6)", "11/13", "18/13", "1/2"],
+                "options": ["3/5", "11/13", "18/13", "1/2"],
                 "answer": 0,
-                "explanation": "(2 x 9)/(3 x 10) = 18/30. Dividing by 6/6 gives the simplified fraction 3/5!"
+                "explanation": "/ = 18/30. Dividing by 6/6 gives the simplified fraction 3/5!"
             }
         ]
     },
@@ -880,14 +880,14 @@ CLASS7_GAMES = {
                 "explanation": "Rational numbers include integers, fractions, terminating decimals, and recurring decimals (p/q with q ≠ 0)!"
             },
             {
-                "prompt": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation? (-2.5 + 10.75)",
+                "prompt": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation?",
                 "options": ["+8.25 meters above sea level", "+13.25 meters", "-8.25 meters", "+7.75 meters"],
                 "answer": 0,
                 "explanation": "10.75 - 2.50 = +8.25 meters above sea level!"
             },
             {
                 "prompt": "Which of these rational numbers is GREATER: -3/4 or -1/4?",
-                "options": ["-1/4 is greater (it is closer to 0 on the number line: -0.25 > -0.75)", "-3/4 is greater", "Both are equal", "Negative fractions cannot be compared"],
+                "options": ["-1/4 is greater", "-3/4 is greater", "Both are equal", "Negative fractions cannot be compared"],
                 "answer": 0,
                 "explanation": "On a horizontal number line, -0.25 lies to the right of -0.75, so -1/4 > -3/4!"
             }
@@ -898,19 +898,19 @@ CLASS7_GAMES = {
         "story": "A lab technician calculates drug dosages: 0.25 mL of active solution is multiplied by 1.6 to prepare an emergency dose.",
         "questions": [
             {
-                "prompt": "Calculate: 0.25 x 1.6 = (Hint: 25 x 16 = 400; count 2 + 1 = 3 decimal places)",
+                "prompt": "Calculate: 0.25 x 1.6 =",
                 "options": ["0.400 (or 0.4)", "4.0", "0.04", "0.416"],
                 "answer": 0,
                 "explanation": "25 x 16 = 400. Shift decimal 3 places left: 0.400 = 0.4!"
             },
             {
-                "prompt": "Calculate: 4.8 ÷ 0.6 = (Hint: multiply numerator and denominator by 10 to get 48 ÷ 6)",
+                "prompt": "Calculate: 4.8 ÷ 0.6 =",
                 "options": ["8", "0.8", "80", "0.08"],
                 "answer": 0,
                 "explanation": "Shift decimal by 1 place: 48 / 6 = 8!"
             },
             {
-                "prompt": "What happens when you DIVIDE any decimal number by 1,000 (e.g., 345.2 ÷ 1,000)?",
+                "prompt": "What happens when you DIVIDE any decimal number by 1,000?",
                 "options": ["The decimal point shifts 3 places to the LEFT: 0.3452", "The decimal point shifts 3 places to the right: 345,200", "Three zeros are added at the end", "The number stays identical"],
                 "answer": 0,
                 "explanation": "Dividing by 10³ shifts the decimal point three places to the left, making the number 1,000 times smaller!"
@@ -922,20 +922,20 @@ CLASS7_GAMES = {
         "story": "A deep sea diver records temperature drop: for every 10 meters deeper, the water temperature drops by -2°C.",
         "questions": [
             {
-                "prompt": "What is the product of multiplying two NEGATIVE integers: (-6) x (-4) = ?",
+                "prompt": "What is the product of multiplying two NEGATIVE integers: x = ?",
                 "options": ["+24 (a negative times a negative equals a POSITIVE)", "-24", "-10", "+10"],
                 "answer": 0,
-                "explanation": "Golden Rule of Signs: (-a) x (-b) = +ab! (-6) x (-4) = +24."
+                "explanation": "Golden Rule of Signs: (-a) x (-b) = +ab! x = +24."
             },
             {
-                "prompt": "What is the result when a POSITIVE integer is divided by a NEGATIVE integer: (+36) ÷ (-9) = ?",
+                "prompt": "What is the result when a POSITIVE integer is divided by a NEGATIVE integer: ÷ = ?",
                 "options": ["-4 (unlike signs produce a NEGATIVE quotient)", "+4", "-27", "+45"],
                 "answer": 0,
                 "explanation": "Dividing unlike signs always yields a negative quotient: 36 / -9 = -4."
             },
             {
-                "prompt": "Evaluate: (-3) x (-2) x (-5) =",
-                "options": ["-30 (two negatives make +6; then +6 x -5 = -30)", "+30", "-10", "+15"],
+                "prompt": "Evaluate: x x =",
+                "options": ["-30", "+30", "-10", "+15"],
                 "answer": 0,
                 "explanation": "An odd number of negative factors (three negatives) results in a negative product: -30!"
             }
@@ -946,20 +946,20 @@ CLASS7_GAMES = {
         "story": "Shopkeeper Anita buys a bicycle for ₹3,000 (Cost Price, CP) and sells it for ₹3,600 (Selling Price, SP).",
         "questions": [
             {
-                "prompt": "What is Anita's PROFIT PERCENTAGE? Formula: (Profit / CP) x 100%. Profit = 3,600 - 3,000 = ₹600.",
-                "options": ["20% profit: (600 / 3000) x 100% = 20%", "15%", "25%", "60%"],
+                "prompt": "What is Anita's PROFIT PERCENTAGE?",
+                "options": ["20% profit: x 100% = 20%", "15%", "25%", "60%"],
                 "answer": 0,
                 "explanation": "600/3000 = 1/5 = 20% profit!"
             },
             {
                 "prompt": "Calculate the SIMPLE INTEREST (SI) on a principal of ₹5,000 borrowed for 2 years at an annual interest rate of 6%. Formula: SI = (P x R x T) / 100",
-                "options": ["₹600: (5000 x 6 x 2) / 100 = 60,000 / 100 = ₹600", "₹300", "₹1,200", "₹500"],
+                "options": ["₹600: / 100 = 60,000 / 100 = ₹600", "₹300", "₹1,200", "₹500"],
                 "answer": 0,
-                "explanation": "SI = (5,000 x 6 x 2) / 100 = ₹600 in simple interest!"
+                "explanation": "SI = / 100 = ₹600 in simple interest!"
             },
             {
-                "prompt": "What is the total AMOUNT (A) repayable to the bank after 2 years? Formula: Principal + Interest",
-                "options": ["₹5,600 (5,000 + 600 = ₹5,600)", "₹5,000", "₹6,200", "₹6,000"],
+                "prompt": "What is the total AMOUNT (A) repayable to the bank after 2 years?",
+                "options": ["₹5,600", "₹5,000", "₹6,200", "₹6,000"],
                 "answer": 0,
                 "explanation": "Total Amount = Principal (₹5,000) + Simple Interest (₹600) = ₹5,600!"
             }
@@ -970,20 +970,20 @@ CLASS7_GAMES = {
         "story": "In an exam of 80 marks, Vikram scored 60 marks. He wants to convert his test fraction into a clean percentage.",
         "questions": [
             {
-                "prompt": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%): (60/80 x 100%)",
+                "prompt": "Convert Vikram's test score fraction into a PERCENTAGE (%):",
                 "options": ["75%: 60/80 = 3/4 = 0.75 = 75%", "60%", "80%", "70%"],
                 "answer": 0,
                 "explanation": "60/80 simplifies to 3/4. 3/4 x 100% = 75%!"
             },
             {
-                "prompt": "Convert 35% into a simplified common fraction: (35 / 100)",
+                "prompt": "Convert 35% into a simplified common fraction:",
                 "options": ["7/20 (divide top and bottom by 5)", "3/5", "7/10", "35/10"],
                 "answer": 0,
                 "explanation": "35/100 simplifies by 5: 35÷5 / 100÷5 = 7/20!"
             },
             {
-                "prompt": "What is 15% of ₹400? (15/100 x 400)",
-                "options": ["₹60 (15 x 4 = 60)", "₹40", "₹15", "₹80"],
+                "prompt": "What is 15% of ₹400?",
+                "options": ["₹60", "₹40", "₹15", "₹80"],
                 "answer": 0,
                 "explanation": "10% of 400 is 40, and 5% is 20. 40 + 20 = ₹60!"
             }
@@ -994,19 +994,19 @@ CLASS7_GAMES = {
         "story": "In mathematics workshop, students check whether four numbers [ 15, 45, 40, 120 ] are in TRUE PROPORTION.",
         "questions": [
             {
-                "prompt": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes (a x d) and Product of Means (b x c)?",
+                "prompt": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes and Product of Means?",
                 "options": ["Product of Extremes MUST EQUAL Product of Means (a x d = b x c)", "They must sum to zero", "Extremes must be larger than means", "Means must equal 100"],
                 "answer": 0,
                 "explanation": "Cross-multiplication rule: a/b = c/d means a x d = b x c!"
             },
             {
                 "prompt": "Test [ 15, 45, 40, 120 ]: Extremes = 15 x 120 = 1,800. Means = 45 x 40 = 1,800. Are they in proportion?",
-                "options": ["Yes, they are in true proportion (1,800 = 1,800; both ratios simplify to 1:3)", "No, they are not", "Only during multiplication", "Impossible to determine"],
+                "options": ["Yes, they are in true proportion", "No, they are not", "Only during multiplication", "Impossible to determine"],
                 "answer": 0,
                 "explanation": "15/45 = 1/3, and 40/120 = 1/3. Both ratios are identical (1:3), so they are in proportion!"
             },
             {
-                "prompt": "Find 'x' in the proportion: 4 : 5 :: 12 : x. (4x = 5 x 12 = 60; x = 60 / 4)",
+                "prompt": "Find 'x' in the proportion: 4 : 5 :: 12 : x.",
                 "options": ["x = 15", "x = 20", "x = 10", "x = 25"],
                 "answer": 0,
                 "explanation": "4x = 60 -> x = 60 / 4 = 15!"
@@ -1031,7 +1031,7 @@ CLASS7_GAMES = {
             },
             {
                 "prompt": "Why is burning magnesium ribbon in air considered a chemical reaction?",
-                "options": ["Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide (2Mg + O₂ -> 2MgO)", "It is just melting like butter", "The metal is simply evaporating", "It can be bent back into ribbon"],
+                "options": ["Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide", "It is just melting like butter", "The metal is simply evaporating", "It can be bent back into ribbon"],
                 "answer": 0,
                 "explanation": "2Mg + O₂ -> 2MgO is a synthesis combustion reaction creating a novel compound!"
             }
@@ -1240,14 +1240,14 @@ CLASS7_GAMES = {
                 "explanation": "Equal distance covered in equal intervals of time produces a linear constant-slope graph (uniform speed)!"
             },
             {
-                "prompt": "What does the SLOPE (gradient) of a Distance-Time graph represent physically? (Slope = Change in Distance / Change in Time)",
+                "prompt": "What does the SLOPE (gradient) of a Distance-Time graph represent physically?",
                 "options": ["Speed (Velocity)", "Acceleration", "Mass of the car", "Total fuel consumed"],
                 "answer": 0,
                 "explanation": "Speed = Distance / Time! The steeper the slope of the line, the greater the speed of the moving body."
             },
             {
                 "prompt": "If the Distance-Time line on graph paper becomes completely HORIZONTAL (flat parallel to time axis), what is the state of the object?",
-                "options": ["The object is at REST (stationary, speed = 0)", "The object is moving at light speed", "The object is falling down", "Time has stopped"],
+                "options": ["The object is at REST", "The object is moving at light speed", "The object is falling down", "Time has stopped"],
                 "answer": 0,
                 "explanation": "Distance does not change as time advances, meaning the object is completely stationary!"
             }
@@ -1288,8 +1288,8 @@ CLASS7_GAMES = {
                 "explanation": "Time period is the duration required for one complete cyclic swing from extreme to extreme and back!"
             },
             {
-                "prompt": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period? (40 s / 20 oscillations)",
-                "options": ["2.0 seconds (40 / 20 = 2.0 s)", "0.5 seconds", "20 seconds", "800 seconds"],
+                "prompt": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period?",
+                "options": ["2.0 seconds", "0.5 seconds", "20 seconds", "800 seconds"],
                 "answer": 0,
                 "explanation": "Total time divided by number of oscillations: 40 / 20 = 2.0 seconds per oscillation!"
             },
@@ -1501,7 +1501,7 @@ CLASS7_GAMES = {
                 "prompt": "What are the three concentric compositional layers of Earth from surface to center?",
                 "options": ["Crust -> Mantle -> Core (Outer liquid core & Inner solid core)", "Soil -> Water -> Air", "Lava -> Granite -> Gas", "Sand -> Clay -> Mud"],
                 "answer": 0,
-                "explanation": "Crust (0-35 km), Mantle (down to 2,900 km), and Metallic Core (down to 6,371 km at Earth's center)!"
+                "explanation": "Crust, Mantle (down to 2,900 km), and Metallic Core (down to 6,371 km at Earth's center)!"
             },
             {
                 "prompt": "What heavy metallic elements compose Earth's dense central CORE (nicknamed NIFE)?",

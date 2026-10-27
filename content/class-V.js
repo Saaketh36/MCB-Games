@@ -2418,10 +2418,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance? (4 x 2 km)",
+        "q": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance?",
         "options": [
           "4 kilometers",
-          "8 kilometers (4 cm x 2 km/cm = 8 km)",
+          "8 kilometers",
           "2 kilometers",
           "16 kilometers"
         ],
@@ -2461,10 +2461,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance? (4 x 2 km)",
+        "q": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance?",
         "options": [
           "4 kilometers",
-          "8 kilometers (4 cm x 2 km/cm = 8 km)",
+          "8 kilometers",
           "2 kilometers",
           "16 kilometers"
         ],
@@ -2773,11 +2773,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35 is the highest recorded number, occurring on Friday!"
       },
       {
-        "q": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135. (135 / 5)",
+        "q": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135.",
         "options": [
           "25 students",
           "30 students",
-          "27 students per day (135 / 5 = 27)",
+          "27 students per day",
           "35 students"
         ],
         "answer": 2,
@@ -2787,7 +2787,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If you draw a bar graph with a scale where 1 grid block = 5 students, how many blocks tall will the bar for Friday (35 students) be?",
         "options": [
           "35 blocks",
-          "7 blocks tall (35 / 5 = 7)",
+          "7 blocks tall",
           "10 blocks",
           "5 blocks"
         ],
@@ -2816,11 +2816,11 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35 is the highest recorded number, occurring on Friday!"
       },
       {
-        "q": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135. (135 / 5)",
+        "q": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135.",
         "options": [
           "25 students",
           "30 students",
-          "27 students per day (135 / 5 = 27)",
+          "27 students per day",
           "35 students"
         ],
         "answer": 2,
@@ -2830,7 +2830,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If you draw a bar graph with a scale where 1 grid block = 5 students, how many blocks tall will the bar for Friday (35 students) be?",
         "options": [
           "35 blocks",
-          "7 blocks tall (35 / 5 = 7)",
+          "7 blocks tall",
           "10 blocks",
           "5 blocks"
         ],
@@ -2848,9 +2848,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many 500 mL mugs does it take to fill a 10-Litre bucket? (Remember: 1 Litre = 1000 mL, so 10 L = 10,000 mL)",
+        "q": "How many 500 mL mugs does it take to fill a 10-Litre bucket?",
         "options": [
-          "20 mugs (10,000 / 500 = 20)",
+          "20 mugs",
           "2 mugs",
           "50 mugs",
           "10 mugs"
@@ -2863,16 +2863,16 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "1000 mL",
           "300 mL",
-          "700 mL (500 + 200 = 700 mL)",
+          "700 mL",
           "500 mL with no change"
         ],
         "answer": 2,
         "explain": "A submerged solid displaces its own volume of water: 500 mL + 200 mL = 700 mL!"
       },
       {
-        "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm? (Formula: L x W x H)",
+        "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
-          "180 cubic centimeters (15 x 6 x 2 = 180 cm³)",
+          "180 cubic centimeters",
           "23 cm³",
           "60 cm³",
           "90 cm³"
@@ -2891,9 +2891,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many 500 mL mugs does it take to fill a 10-Litre bucket? (Remember: 1 Litre = 1000 mL, so 10 L = 10,000 mL)",
+        "q": "How many 500 mL mugs does it take to fill a 10-Litre bucket?",
         "options": [
-          "20 mugs (10,000 / 500 = 20)",
+          "20 mugs",
           "2 mugs",
           "50 mugs",
           "10 mugs"
@@ -2906,16 +2906,16 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "1000 mL",
           "300 mL",
-          "700 mL (500 + 200 = 700 mL)",
+          "700 mL",
           "500 mL with no change"
         ],
         "answer": 2,
         "explain": "A submerged solid displaces its own volume of water: 500 mL + 200 mL = 700 mL!"
       },
       {
-        "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm? (Formula: L x W x H)",
+        "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
-          "180 cubic centimeters (15 x 6 x 2 = 180 cm³)",
+          "180 cubic centimeters",
           "23 cm³",
           "60 cm³",
           "90 cm³"
@@ -2936,7 +2936,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the total distance covered by the 4 relay runners combined? 4 x (10 km 500 m)",
         "options": [
-          "42 kilometers (4 x 10 km = 40 km; 4 x 500 m = 2000 m = 2 km; 40 + 2 = 42 km)",
+          "42 kilometers",
           "40 km 500 m",
           "400 km",
           "14 km"
@@ -2945,18 +2945,18 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4 x 10.5 km = 42 kilometers total distance!"
       },
       {
-        "q": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all? (150 L = 150,000 mL)",
+        "q": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all?",
         "options": [
           "600 pouches",
           "75 pouches",
-          "300 pouches (150,000 / 500 = 300)",
+          "300 pouches",
           "150 pouches"
         ],
         "answer": 2,
         "explain": "Each litre fills 2 half-litre pouches: 150 x 2 = 300 pouches!"
       },
       {
-        "q": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack? (50.000 kg - 18.750 kg)",
+        "q": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack?",
         "options": [
           "38 kg 250 g",
           "31 kg 250 g",
@@ -2979,7 +2979,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the total distance covered by the 4 relay runners combined? 4 x (10 km 500 m)",
         "options": [
-          "42 kilometers (4 x 10 km = 40 km; 4 x 500 m = 2000 m = 2 km; 40 + 2 = 42 km)",
+          "42 kilometers",
           "40 km 500 m",
           "400 km",
           "14 km"
@@ -2988,18 +2988,18 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4 x 10.5 km = 42 kilometers total distance!"
       },
       {
-        "q": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all? (150 L = 150,000 mL)",
+        "q": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all?",
         "options": [
           "600 pouches",
           "75 pouches",
-          "300 pouches (150,000 / 500 = 300)",
+          "300 pouches",
           "150 pouches"
         ],
         "answer": 2,
         "explain": "Each litre fills 2 half-litre pouches: 150 x 2 = 300 pouches!"
       },
       {
-        "q": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack? (50.000 kg - 18.750 kg)",
+        "q": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack?",
         "options": [
           "38 kg 250 g",
           "31 kg 250 g",
@@ -3020,10 +3020,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert 3.5 kilometers into meters. (Remember: 1 km = 1,000 m)",
+        "q": "Convert 3.5 kilometers into meters.",
         "options": [
           "350 meters",
-          "3,500 meters (3.5 x 1000)",
+          "3,500 meters",
           "35,000 meters",
           "35 meters"
         ],
@@ -3031,7 +3031,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "3.5 x 1,000 = 3,500 meters!"
       },
       {
-        "q": "How many kilograms is 4,750 grams? (Remember: 1,000 g = 1 kg)",
+        "q": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
           "4.75 kg (or 4 kg 750 g)",
@@ -3042,12 +3042,12 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4,750 divided by 1,000 = 4.75 kilograms."
       },
       {
-        "q": "Convert 2.25 litres into millilitres (mL). (1 L = 1,000 mL)",
+        "q": "Convert 2.25 litres into millilitres (mL).",
         "options": [
           "250 mL",
           "22,500 mL",
           "225 mL",
-          "2,250 mL (2.25 x 1000)"
+          "2,250 mL"
         ],
         "answer": 3,
         "explain": "2.25 x 1,000 = 2,250 millilitres."
@@ -3063,10 +3063,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert 3.5 kilometers into meters. (Remember: 1 km = 1,000 m)",
+        "q": "Convert 3.5 kilometers into meters.",
         "options": [
           "350 meters",
-          "3,500 meters (3.5 x 1000)",
+          "3,500 meters",
           "35,000 meters",
           "35 meters"
         ],
@@ -3074,7 +3074,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "3.5 x 1,000 = 3,500 meters!"
       },
       {
-        "q": "How many kilograms is 4,750 grams? (Remember: 1,000 g = 1 kg)",
+        "q": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
           "4.75 kg (or 4 kg 750 g)",
@@ -3085,12 +3085,12 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "4,750 divided by 1,000 = 4.75 kilograms."
       },
       {
-        "q": "Convert 2.25 litres into millilitres (mL). (1 L = 1,000 mL)",
+        "q": "Convert 2.25 litres into millilitres (mL).",
         "options": [
           "250 mL",
           "22,500 mL",
           "225 mL",
-          "2,250 mL (2.25 x 1000)"
+          "2,250 mL"
         ],
         "answer": 3,
         "explain": "2.25 x 1,000 = 2,250 millilitres."
@@ -3109,7 +3109,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Round each price to the nearest hundred (₹295 -> ₹300, ₹408 -> ₹400, ₹192 -> ₹200). What is the estimated total cost?",
         "options": [
           "₹700",
-          "₹900 (300 + 400 + 200 = 900)",
+          "₹900",
           "₹800",
           "₹1,000"
         ],
@@ -3122,7 +3122,7 @@ Object.assign(window.GAME_CONTENT, {
           "500",
           "800",
           "1,200",
-          "1,000 (50 x 20 = 1000)"
+          "1,000"
         ],
         "answer": 3,
         "explain": "50 x 20 = 1,000. (The exact product 48 x 21 = 1,008, so the estimate is 99% accurate!)"
@@ -3152,7 +3152,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Round each price to the nearest hundred (₹295 -> ₹300, ₹408 -> ₹400, ₹192 -> ₹200). What is the estimated total cost?",
         "options": [
           "₹700",
-          "₹900 (300 + 400 + 200 = 900)",
+          "₹900",
           "₹800",
           "₹1,000"
         ],
@@ -3165,7 +3165,7 @@ Object.assign(window.GAME_CONTENT, {
           "500",
           "800",
           "1,200",
-          "1,000 (50 x 20 = 1000)"
+          "1,000"
         ],
         "answer": 3,
         "explain": "50 x 20 = 1,000. (The exact product 48 x 21 = 1,008, so the estimate is 99% accurate!)"
@@ -3216,7 +3216,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Convert 1/5 into a decimal fraction:",
         "options": [
-          "0.2 (since 2/10 = 0.2)",
+          "0.2",
           "0.5",
           "0.02",
           "0.15"
@@ -3259,7 +3259,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Convert 1/5 into a decimal fraction:",
         "options": [
-          "0.2 (since 2/10 = 0.2)",
+          "0.2",
           "0.5",
           "0.02",
           "0.15"
@@ -3278,9 +3278,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many oranges is 3/4 of 24 oranges? (Step 1: find 1/4 of 24; Step 2: multiply by 3)",
+        "q": "How many oranges is 3/4 of 24 oranges?",
         "options": [
-          "18 oranges (24 / 4 = 6; 6 x 3 = 18)",
+          "18 oranges",
           "20 oranges",
           "16 oranges",
           "12 oranges"
@@ -3294,7 +3294,7 @@ Object.assign(window.GAME_CONTENT, {
           "9 crayons",
           "6 crayons",
           "15 crayons",
-          "12 crayons (18 / 3 = 6; 6 x 2 = 12)"
+          "12 crayons"
         ],
         "answer": 3,
         "explain": "18 divided by 3 is 6; 6 x 2 = 12 crayons!"
@@ -3321,9 +3321,9 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many oranges is 3/4 of 24 oranges? (Step 1: find 1/4 of 24; Step 2: multiply by 3)",
+        "q": "How many oranges is 3/4 of 24 oranges?",
         "options": [
-          "18 oranges (24 / 4 = 6; 6 x 3 = 18)",
+          "18 oranges",
           "20 oranges",
           "16 oranges",
           "12 oranges"
@@ -3337,7 +3337,7 @@ Object.assign(window.GAME_CONTENT, {
           "9 crayons",
           "6 crayons",
           "15 crayons",
-          "12 crayons (18 / 3 = 6; 6 x 2 = 12)"
+          "12 crayons"
         ],
         "answer": 3,
         "explain": "18 divided by 3 is 6; 6 x 2 = 12 crayons!"
@@ -3364,11 +3364,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many food packets will each relief camp receive? (4,500 / 15)",
+        "q": "How many food packets will each relief camp receive?",
         "options": [
           "30 packets",
           "150 packets",
-          "300 packets (since 15 x 3 = 45, so 15 x 300 = 4,500)",
+          "300 packets",
           "450 packets"
         ],
         "answer": 2,
@@ -3380,7 +3380,7 @@ Object.assign(window.GAME_CONTENT, {
           "Quotient = 1,220, Remainder = 2",
           "Quotient = 1,234, Remainder = 5",
           "Quotient = 1,200, Remainder = 0",
-          "Quotient = 1,223, Remainder = 4 (6 x 1223 = 7338; 7338 + 4 = 7342)"
+          "Quotient = 1,223, Remainder = 4"
         ],
         "answer": 3,
         "explain": "7342 = (6 x 1223) + 4! Quotient is 1,223 with remainder 4."
@@ -3389,7 +3389,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Multiply: 2,400 x 30 =",
         "options": [
           "24,030",
-          "72,000 (24 x 3 = 72, plus three zeros)",
+          "72,000",
           "720,000",
           "7,200"
         ],
@@ -3407,11 +3407,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many food packets will each relief camp receive? (4,500 / 15)",
+        "q": "How many food packets will each relief camp receive?",
         "options": [
           "30 packets",
           "150 packets",
-          "300 packets (since 15 x 3 = 45, so 15 x 300 = 4,500)",
+          "300 packets",
           "450 packets"
         ],
         "answer": 2,
@@ -3423,7 +3423,7 @@ Object.assign(window.GAME_CONTENT, {
           "Quotient = 1,220, Remainder = 2",
           "Quotient = 1,234, Remainder = 5",
           "Quotient = 1,200, Remainder = 0",
-          "Quotient = 1,223, Remainder = 4 (6 x 1223 = 7338; 7338 + 4 = 7342)"
+          "Quotient = 1,223, Remainder = 4"
         ],
         "answer": 3,
         "explain": "7342 = (6 x 1223) + 4! Quotient is 1,223 with remainder 4."
@@ -3432,7 +3432,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Multiply: 2,400 x 30 =",
         "options": [
           "24,030",
-          "72,000 (24 x 3 = 72, plus three zeros)",
+          "72,000",
           "720,000",
           "7,200"
         ],
@@ -3477,7 +3477,7 @@ Object.assign(window.GAME_CONTENT, {
           "89,600",
           "88,500",
           "99,500",
-          "90,500 (89,500 + 1,000)"
+          "90,500"
         ],
         "answer": 3,
         "explain": "89,500 + 1,000 = 90,500!"
@@ -3520,7 +3520,7 @@ Object.assign(window.GAME_CONTENT, {
           "89,600",
           "88,500",
           "99,500",
-          "90,500 (89,500 + 1,000)"
+          "90,500"
         ],
         "answer": 3,
         "explain": "89,500 + 1,000 = 90,500!"
@@ -3536,10 +3536,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the 5th SQUARE NUMBER (formed by a 5 x 5 square array of dots)?",
+        "q": "What is the 5th SQUARE NUMBER?",
         "options": [
           "15",
-          "25 (5 x 5 = 25)",
+          "25",
           "20",
           "30"
         ],
@@ -3547,23 +3547,23 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A square number is an integer multiplied by itself: 5 x 5 = 25!"
       },
       {
-        "q": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number? (Hint: add 5 to the previous term)",
+        "q": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number?",
         "options": [
           "14",
           "20",
           "12",
-          "15 (10 + 5 = 15)"
+          "15"
         ],
         "answer": 3,
         "explain": "Triangular numbers add successive integers: +2, +3, +4, +5. So 10 + 5 = 15!"
       },
       {
-        "q": "What happens when you add any two consecutive triangular numbers together (e.g., 1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16)?",
+        "q": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
           "You get a negative number",
           "You get an odd number only",
           "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER! (4 = 2², 9 = 3², 16 = 4²)"
+          "You ALWAYS get a perfect SQUARE NUMBER!"
         ],
         "answer": 3,
         "explain": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
@@ -3579,10 +3579,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the 5th SQUARE NUMBER (formed by a 5 x 5 square array of dots)?",
+        "q": "What is the 5th SQUARE NUMBER?",
         "options": [
           "15",
-          "25 (5 x 5 = 25)",
+          "25",
           "20",
           "30"
         ],
@@ -3590,23 +3590,23 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "A square number is an integer multiplied by itself: 5 x 5 = 25!"
       },
       {
-        "q": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number? (Hint: add 5 to the previous term)",
+        "q": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number?",
         "options": [
           "14",
           "20",
           "12",
-          "15 (10 + 5 = 15)"
+          "15"
         ],
         "answer": 3,
         "explain": "Triangular numbers add successive integers: +2, +3, +4, +5. So 10 + 5 = 15!"
       },
       {
-        "q": "What happens when you add any two consecutive triangular numbers together (e.g., 1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16)?",
+        "q": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
           "You get a negative number",
           "You get an odd number only",
           "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER! (4 = 2², 9 = 3², 16 = 4²)"
+          "You ALWAYS get a perfect SQUARE NUMBER!"
         ],
         "answer": 3,
         "explain": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"

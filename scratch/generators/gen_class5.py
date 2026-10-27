@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Generator for Class V Educational Activities (Outcomes 148 - 192).
-English (148-166), EVS (167-179), Mathematics (180-192).
+Generator for Class V Educational Activities.
+English, EVS, Mathematics.
 """
 
 CLASS5_GAMES = {
@@ -682,8 +682,8 @@ CLASS5_GAMES = {
         "story": "Maya plans a bicycle expedition using a survey map with a scale: 1 centimeter on the map = 2 kilometers on the actual ground.",
         "questions": [
             {
-                "prompt": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance? (4 x 2 km)",
-                "options": ["8 kilometers (4 cm x 2 km/cm = 8 km)", "4 kilometers", "16 kilometers", "2 kilometers"],
+                "prompt": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance?",
+                "options": ["8 kilometers", "4 kilometers", "16 kilometers", "2 kilometers"],
                 "answer": 0,
                 "explanation": "4 cm x 2 km per cm = 8 kilometers on the road!"
             },
@@ -784,14 +784,14 @@ CLASS5_GAMES = {
                 "explanation": "35 is the highest recorded number, occurring on Friday!"
             },
             {
-                "prompt": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135. (135 / 5)",
-                "options": ["27 students per day (135 / 5 = 27)", "30 students", "25 students", "35 students"],
+                "prompt": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135.",
+                "options": ["27 students per day", "30 students", "25 students", "35 students"],
                 "answer": 0,
                 "explanation": "Sum of values (135) divided by number of days (5) = 27 riders per day!"
             },
             {
                 "prompt": "If you draw a bar graph with a scale where 1 grid block = 5 students, how many blocks tall will the bar for Friday (35 students) be?",
-                "options": ["7 blocks tall (35 / 5 = 7)", "5 blocks", "10 blocks", "35 blocks"],
+                "options": ["7 blocks tall", "5 blocks", "10 blocks", "35 blocks"],
                 "answer": 0,
                 "explanation": "35 divided by the scale factor of 5 gives a bar height of exactly 7 grid blocks!"
             }
@@ -802,20 +802,20 @@ CLASS5_GAMES = {
         "story": "Diya fills a 10-litre garden bucket using a 500 mL water mug to estimate its comparative volume.",
         "questions": [
             {
-                "prompt": "How many 500 mL mugs does it take to fill a 10-Litre bucket? (Remember: 1 Litre = 1000 mL, so 10 L = 10,000 mL)",
-                "options": ["20 mugs (10,000 / 500 = 20)", "10 mugs", "50 mugs", "2 mugs"],
+                "prompt": "How many 500 mL mugs does it take to fill a 10-Litre bucket?",
+                "options": ["20 mugs", "10 mugs", "50 mugs", "2 mugs"],
                 "answer": 0,
                 "explanation": "Each mug is 0.5 L, so two mugs make 1 L. For 10 L, you need 2 x 10 = 20 mugs!"
             },
             {
                 "prompt": "If you submerge a solid iron cube of volume 200 cm³ into a graduated beaker filled with water up to 500 mL mark, what will the new water level read?",
-                "options": ["700 mL (500 + 200 = 700 mL)", "300 mL", "500 mL with no change", "1000 mL"],
+                "options": ["700 mL", "300 mL", "500 mL with no change", "1000 mL"],
                 "answer": 0,
                 "explanation": "A submerged solid displaces its own volume of water: 500 mL + 200 mL = 700 mL!"
             },
             {
-                "prompt": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm? (Formula: L x W x H)",
-                "options": ["180 cubic centimeters (15 x 6 x 2 = 180 cm³)", "23 cm³", "90 cm³", "60 cm³"],
+                "prompt": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
+                "options": ["180 cubic centimeters", "23 cm³", "90 cm³", "60 cm³"],
                 "answer": 0,
                 "explanation": "15 x 6 = 90; 90 x 2 = 180 cm³ of internal volume!"
             }
@@ -827,18 +827,18 @@ CLASS5_GAMES = {
         "questions": [
             {
                 "prompt": "What is the total distance covered by the 4 relay runners combined? 4 x (10 km 500 m)",
-                "options": ["42 kilometers (4 x 10 km = 40 km; 4 x 500 m = 2000 m = 2 km; 40 + 2 = 42 km)", "40 km 500 m", "14 km", "400 km"],
+                "options": ["42 kilometers", "40 km 500 m", "14 km", "400 km"],
                 "answer": 0,
                 "explanation": "4 x 10.5 km = 42 kilometers total distance!"
             },
             {
-                "prompt": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all? (150 L = 150,000 mL)",
-                "options": ["300 pouches (150,000 / 500 = 300)", "150 pouches", "75 pouches", "600 pouches"],
+                "prompt": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all?",
+                "options": ["300 pouches", "150 pouches", "75 pouches", "600 pouches"],
                 "answer": 0,
                 "explanation": "Each litre fills 2 half-litre pouches: 150 x 2 = 300 pouches!"
             },
             {
-                "prompt": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack? (50.000 kg - 18.750 kg)",
+                "prompt": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack?",
                 "options": ["31 kg 250 g", "32 kg 250 g", "31 kg 750 g", "38 kg 250 g"],
                 "answer": 0,
                 "explanation": "50,000 g - 18,750 g = 31,250 g = 31 kg 250 g!"
@@ -850,20 +850,20 @@ CLASS5_GAMES = {
         "story": "Kabir learns that the metric system is built on powers of 10, making conversions simple and elegant.",
         "questions": [
             {
-                "prompt": "Convert 3.5 kilometers into meters. (Remember: 1 km = 1,000 m)",
-                "options": ["3,500 meters (3.5 x 1000)", "350 meters", "35,000 meters", "35 meters"],
+                "prompt": "Convert 3.5 kilometers into meters.",
+                "options": ["3,500 meters", "350 meters", "35,000 meters", "35 meters"],
                 "answer": 0,
                 "explanation": "3.5 x 1,000 = 3,500 meters!"
             },
             {
-                "prompt": "How many kilograms is 4,750 grams? (Remember: 1,000 g = 1 kg)",
+                "prompt": "How many kilograms is 4,750 grams?",
                 "options": ["4.75 kg (or 4 kg 750 g)", "47.5 kg", "0.475 kg", "475 kg"],
                 "answer": 0,
                 "explanation": "4,750 divided by 1,000 = 4.75 kilograms."
             },
             {
-                "prompt": "Convert 2.25 litres into millilitres (mL). (1 L = 1,000 mL)",
-                "options": ["2,250 mL (2.25 x 1000)", "225 mL", "22,500 mL", "250 mL"],
+                "prompt": "Convert 2.25 litres into millilitres (mL).",
+                "options": ["2,250 mL", "225 mL", "22,500 mL", "250 mL"],
                 "answer": 0,
                 "explanation": "2.25 x 1,000 = 2,250 millilitres."
             }
@@ -874,16 +874,16 @@ CLASS5_GAMES = {
         "story": "At the school book store, Rhea wants to buy three books priced at ₹295, ₹408, and ₹192. She estimates the total cost before opening her wallet.",
         "questions": [
             {
-                "prompt": "Round each price to the nearest hundred (₹295 -> ₹300, ₹408 -> ₹400, ₹192 -> ₹200). What is the estimated total cost?",
-                "options": ["₹900 (300 + 400 + 200 = 900)", "₹800", "₹1,000", "₹700"],
+                "prompt": "Round each price to the nearest hundred. What is the estimated total cost?",
+                "options": ["₹900", "₹800", "₹1,000", "₹700"],
                 "answer": 0,
                 "explanation": "Rounding to nearest hundreds gives 300 + 400 + 200 = ₹900 (actual sum is ₹895, an amazingly close estimate)!"
             },
             {
-                "prompt": "Estimate the product of 48 x 21 by rounding to the nearest ten: (50 x 20) =",
-                "options": ["1,000 (50 x 20 = 1000)", "800", "1,200", "500"],
+                "prompt": "Estimate the product of 48 x 21 by rounding to the nearest ten: =",
+                "options": ["1,000", "800", "1,200", "500"],
                 "answer": 0,
-                "explanation": "50 x 20 = 1,000. (The exact product 48 x 21 = 1,008, so the estimate is 99% accurate!)"
+                "explanation": "50 x 20 = 1,000."
             },
             {
                 "prompt": "Why is mental estimation a powerful daily life math skill?",
@@ -911,7 +911,7 @@ CLASS5_GAMES = {
             },
             {
                 "prompt": "Convert 1/5 into a decimal fraction:",
-                "options": ["0.2 (since 2/10 = 0.2)", "0.5", "0.15", "0.02"],
+                "options": ["0.2", "0.5", "0.15", "0.02"],
                 "answer": 0,
                 "explanation": "Multiply numerator and denominator by 2: 1/5 = 2/10 = 0.2!"
             }
@@ -922,14 +922,14 @@ CLASS5_GAMES = {
         "story": "A fruit crate contains 24 juicy oranges. Grandmother says: 'Take 3/4 of the oranges to make fresh juice for the family.'",
         "questions": [
             {
-                "prompt": "How many oranges is 3/4 of 24 oranges? (Step 1: find 1/4 of 24; Step 2: multiply by 3)",
-                "options": ["18 oranges (24 / 4 = 6; 6 x 3 = 18)", "12 oranges", "16 oranges", "20 oranges"],
+                "prompt": "How many oranges is 3/4 of 24 oranges?",
+                "options": ["18 oranges", "12 oranges", "16 oranges", "20 oranges"],
                 "answer": 0,
                 "explanation": "One-fourth of 24 is 6. Three-fourths is 6 x 3 = 18 oranges!"
             },
             {
                 "prompt": "What is 2/3 of 18 colored crayons?",
-                "options": ["12 crayons (18 / 3 = 6; 6 x 2 = 12)", "9 crayons", "15 crayons", "6 crayons"],
+                "options": ["12 crayons", "9 crayons", "15 crayons", "6 crayons"],
                 "answer": 0,
                 "explanation": "18 divided by 3 is 6; 6 x 2 = 12 crayons!"
             },
@@ -937,7 +937,7 @@ CLASS5_GAMES = {
                 "prompt": "Which fraction is EQUIVALENT to 3/5?",
                 "options": ["6/10 (multiply top and bottom by 2)", "4/6", "5/3", "9/20"],
                 "answer": 0,
-                "explanation": "(3 x 2)/(5 x 2) = 6/10. They represent the exact same proportional value!"
+                "explanation": "/ = 6/10. They represent the exact same proportional value!"
             }
         ]
     },
@@ -946,20 +946,20 @@ CLASS5_GAMES = {
         "story": "A charity relief organization has 4,500 food packets to distribute equally among 15 relief camps.",
         "questions": [
             {
-                "prompt": "How many food packets will each relief camp receive? (4,500 / 15)",
-                "options": ["300 packets (since 15 x 3 = 45, so 15 x 300 = 4,500)", "30 packets", "450 packets", "150 packets"],
+                "prompt": "How many food packets will each relief camp receive?",
+                "options": ["300 packets", "30 packets", "450 packets", "150 packets"],
                 "answer": 0,
                 "explanation": "45 hundreds divided by 15 = 3 hundreds = 300 packets!"
             },
             {
                 "prompt": "Divide 7,342 by 6 using the standard division algorithm. What is the quotient and remainder?",
-                "options": ["Quotient = 1,223, Remainder = 4 (6 x 1223 = 7338; 7338 + 4 = 7342)", "Quotient = 1,220, Remainder = 2", "Quotient = 1,200, Remainder = 0", "Quotient = 1,234, Remainder = 5"],
+                "options": ["Quotient = 1,223, Remainder = 4", "Quotient = 1,220, Remainder = 2", "Quotient = 1,200, Remainder = 0", "Quotient = 1,234, Remainder = 5"],
                 "answer": 0,
-                "explanation": "7342 = (6 x 1223) + 4! Quotient is 1,223 with remainder 4."
+                "explanation": "7342 = + 4! Quotient is 1,223 with remainder 4."
             },
             {
                 "prompt": "Multiply: 2,400 x 30 =",
-                "options": ["72,000 (24 x 3 = 72, plus three zeros)", "7,200", "720,000", "24,030"],
+                "options": ["72,000", "7,200", "720,000", "24,030"],
                 "answer": 0,
                 "explanation": "24 x 3 = 72, followed by three trailing zeros: 72,000!"
             }
@@ -983,7 +983,7 @@ CLASS5_GAMES = {
             },
             {
                 "prompt": "Which number is exactly ONE THOUSAND MORE than 89,500?",
-                "options": ["90,500 (89,500 + 1,000)", "89,600", "99,500", "88,500"],
+                "options": ["90,500", "89,600", "99,500", "88,500"],
                 "answer": 0,
                 "explanation": "89,500 + 1,000 = 90,500!"
             }
@@ -994,20 +994,20 @@ CLASS5_GAMES = {
         "story": "Leo arranges marbles into geometric shapes. Square arrays make Square Numbers (1, 4, 9, 16...), and bowling pin stacks make Triangular Numbers (1, 3, 6, 10, 15...).",
         "questions": [
             {
-                "prompt": "What is the 5th SQUARE NUMBER (formed by a 5 x 5 square array of dots)?",
-                "options": ["25 (5 x 5 = 25)", "20", "30", "15"],
+                "prompt": "What is the 5th SQUARE NUMBER?",
+                "options": ["25", "20", "30", "15"],
                 "answer": 0,
                 "explanation": "A square number is an integer multiplied by itself: 5 x 5 = 25!"
             },
             {
-                "prompt": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number? (Hint: add 5 to the previous term)",
-                "options": ["15 (10 + 5 = 15)", "12", "14", "20"],
+                "prompt": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number?",
+                "options": ["15", "12", "14", "20"],
                 "answer": 0,
                 "explanation": "Triangular numbers add successive integers: +2, +3, +4, +5. So 10 + 5 = 15!"
             },
             {
-                "prompt": "What happens when you add any two consecutive triangular numbers together (e.g., 1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16)?",
-                "options": ["You ALWAYS get a perfect SQUARE NUMBER! (4 = 2², 9 = 3², 16 = 4²)", "You get zero", "You get an odd number only", "You get a negative number"],
+                "prompt": "What happens when you add any two consecutive triangular numbers together?",
+                "options": ["You ALWAYS get a perfect SQUARE NUMBER!", "You get zero", "You get an odd number only", "You get a negative number"],
                 "answer": 0,
                 "explanation": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
             }

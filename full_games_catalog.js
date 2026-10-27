@@ -898,7 +898,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Priya counted exactly 2 green pears."
       },
       {
-        "prompt": "How many apples and pears are there when you count them together (4 + 2)?",
+        "prompt": "How many apples and pears are there when you count them together?",
         "options": [
           "7",
           "2",
@@ -990,7 +990,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Addition & Subtraction",
     "questions": [
       {
-        "prompt": "How many toy cars does Rishi have altogether now? (5 + 4)",
+        "prompt": "How many toy cars does Rishi have altogether now?",
         "options": [
           "1 car",
           "8 cars",
@@ -1001,7 +1001,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "5 + 4 = 9! Counting forward from 5: 6, 7, 8, 9."
       },
       {
-        "prompt": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left? (9 - 3)",
+        "prompt": "Later, Rishi shared 3 of his 9 cars with his sister Diya. How many cars does Rishi have left?",
         "options": [
           "5 cars",
           "6 cars",
@@ -1047,7 +1047,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Number Sense & Place Value",
     "questions": [
       {
-        "prompt": "How many cookies are left on Grandma's plate now? (3 - 3)",
+        "prompt": "How many cookies are left on Grandma's plate now?",
         "options": [
           "0 (Zero)",
           "1",
@@ -1755,7 +1755,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...' ",
+          "'I see your point, but I felt the ending was surprising because...'",
           "'Nobody asked you.'",
           "'I am leaving the room!'",
           "'You are wrong, stop talking!'"
@@ -2145,14 +2145,14 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "0",
           "10 more children",
-          "2 more children (6 - 4 = 2)",
+          "2 more children",
           "1 more child"
         ],
         "answer": 2,
         "explanation": "6 minus 4 equals 2! 2 more children walk than bike."
       },
       {
-        "prompt": "How many total children were surveyed across all three travel methods? (10 + 6 + 4)",
+        "prompt": "How many total children were surveyed across all three travel methods?",
         "options": [
           "20 children",
           "14 children",
@@ -2190,7 +2190,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Tina finds that 4 small cups of water completely fill 1 mug. How many cups will she need to fill 2 identical mugs?",
         "options": [
           "12 cups",
-          "8 cups (4 + 4 = 8)",
+          "8 cups",
           "2 cups",
           "4 cups"
         ],
@@ -2214,7 +2214,7 @@ const FULL_GAMES_CATALOG = [
           "7 paperclips",
           "9 paperclips",
           "3 paperclips",
-          "5 paperclips longer (7 - 2 = 5)"
+          "5 paperclips longer"
         ],
         "answer": 3,
         "explanation": "7 - 2 = 5 paperclips longer."
@@ -2266,7 +2266,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Five 10-rupee coins add up to ₹50!"
       },
       {
-        "prompt": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back? (100 - 60)",
+        "prompt": "If Kunal pays with a ₹100 note for a ₹60 book, how much change should the shopkeeper give back?",
         "options": [
           "₹10",
           "₹40",
@@ -2472,7 +2472,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Addition & Subtraction",
     "questions": [
       {
-        "prompt": "How much money does Simran have now in total? (₹34 + ₹25)",
+        "prompt": "How much money does Simran have now in total?",
         "options": [
           "₹49",
           "₹51",
@@ -2483,7 +2483,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Add the ones: 4 + 5 = 9. Add the tens: 3 + 2 = 5. Total = ₹59!"
       },
       {
-        "prompt": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left? (48 - 23)",
+        "prompt": "A baker had 48 muffins on his shelf. He sold 23 muffins in the morning. How many muffins are left?",
         "options": [
           "21 muffins",
           "25 muffins",
@@ -2494,7 +2494,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "8 - 3 = 5 ones, and 4 - 2 = 2 tens. 48 - 23 = 25 muffins left!"
       },
       {
-        "prompt": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all? (26 + 13)",
+        "prompt": "There are 26 red kites and 13 blue kites in the park. How many kites are flying in all?",
         "options": [
           "49 kites",
           "39 kites",
@@ -3673,7 +3673,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "3 teaspoons",
           "10 teaspoons",
-          "6 teaspoons (2 x 3 = 6)",
+          "6 teaspoons",
           "5 teaspoons"
         ],
         "answer": 2,
@@ -4426,7 +4426,7 @@ const FULL_GAMES_CATALOG = [
           "15",
           "10",
           "8",
-          "13 (5 + 5 + 3)"
+          "13"
         ],
         "answer": 3,
         "explanation": "Two bundles of 5 make 10, plus 3 single strokes = 13 beanbags in total!"
@@ -4478,11 +4478,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
       },
       {
-        "prompt": "How many 500 mL water bottles are needed to fill a 1-litre jug? (Hint: 1 Litre = 1000 mL)",
+        "prompt": "How many 500 mL water bottles are needed to fill a 1-litre jug?",
         "options": [
           "10 bottles",
           "1 bottle",
-          "2 bottles (500 mL + 500 mL = 1000 mL)",
+          "2 bottles",
           "5 bottles"
         ],
         "answer": 2,
@@ -4581,7 +4581,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Money",
     "questions": [
       {
-        "prompt": "How much money did Arjun spend in total on the notebook and gel pen? (₹35 + ₹20)",
+        "prompt": "How much money did Arjun spend in total on the notebook and gel pen?",
         "options": [
           "₹50",
           "₹65",
@@ -4592,7 +4592,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "35 + 20 = ₹55 spent in total!"
       },
       {
-        "prompt": "How much money does Arjun have remaining from his original ₹85? (₹85 - ₹55)",
+        "prompt": "How much money does Arjun have remaining from his original ₹85?",
         "options": [
           "₹30",
           "₹40",
@@ -4603,7 +4603,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "85 - 55 = ₹30 remaining in his pocket."
       },
       {
-        "prompt": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive? (₹20 - ₹12)",
+        "prompt": "If you buy a bookmark for ₹12 and pay with a ₹20 note, how much change should you receive?",
         "options": [
           "₹2",
           "₹8",
@@ -4641,7 +4641,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Simran buys 1 kg of apples (₹60) and 1 dozen bananas (₹30). What is the total bill amount?",
         "options": [
           "₹80",
-          "₹90 (60 + 30)",
+          "₹90",
           "₹30",
           "₹100"
         ],
@@ -4654,7 +4654,7 @@ const FULL_GAMES_CATALOG = [
           "₹0",
           "₹20",
           "₹5",
-          "₹10 (100 - 90)"
+          "₹10"
         ],
         "answer": 3,
         "explanation": "100 minus 90 leaves exactly ₹10 in change."
@@ -4695,11 +4695,11 @@ const FULL_GAMES_CATALOG = [
     "topic": "Time & Calendar",
     "questions": [
       {
-        "prompt": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on? (Hint: add 7 days for one full week)",
+        "prompt": "If October 2nd is on a Wednesday, which day of the week will October 9th fall on?",
         "options": [
           "Thursday",
           "Sunday",
-          "Wednesday (2 + 7 = 9)",
+          "Wednesday",
           "Tuesday"
         ],
         "answer": 2,
@@ -4721,7 +4721,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "October 7th",
           "October 1st",
-          "October 8th (15 - 7 = 8)",
+          "October 8th",
           "October 9th"
         ],
         "answer": 2,
@@ -4822,7 +4822,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "A grocer packs 3 kg of rice in a sack. How many grams of rice is that in total?",
         "options": [
-          "3000 grams (3 x 1000)",
+          "3000 grams",
           "1300 grams",
           "30 grams",
           "300 grams"
@@ -4831,7 +4831,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "3 kg x 1000 g/kg = 3000 grams."
       },
       {
-        "prompt": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left? (1000 g - 400 g)",
+        "prompt": "If you have a 1 kg bag of flour and use 400 grams to bake bread, how many grams of flour are left?",
         "options": [
           "400 grams",
           "1400 grams",
@@ -4880,7 +4880,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Which combination of standard iron weights equals 1 kilogram (1000 g)?",
         "options": [
           "Four 100-gram weights",
-          "Two 500-gram weights (500 g + 500 g)",
+          "Two 500-gram weights",
           "One 100-gram weight",
           "Three 200-gram weights"
         ],
@@ -4923,7 +4923,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Addition & Subtraction",
     "questions": [
       {
-        "prompt": "How many total points did Blue House and Red House score together? (348 + 215)",
+        "prompt": "How many total points did Blue House and Red House score together?",
         "options": [
           "553 points",
           "563 points",
@@ -4934,7 +4934,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "8 + 5 = 13 (carry 1). 4 + 1 + 1 = 6. 3 + 2 = 5. Total = 563 points!"
       },
       {
-        "prompt": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves? (675 - 241)",
+        "prompt": "A library has 675 storybooks on its shelves. Students borrow 241 books this week. How many storybooks remain on the shelves?",
         "options": [
           "424 books",
           "534 books",
@@ -4982,10 +4982,10 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Clue: 'A box has 6 rows of chocolate bars with 5 chocolates in each row. How many chocolates in total?' Which operation should you use?",
         "options": [
-          "Subtraction (6 - 5)",
-          "Addition only (6 + 5)",
-          "Multiplication (6 x 5)",
-          "Division (6 / 5)"
+          "Subtraction",
+          "Addition only",
+          "Multiplication",
+          "Division"
         ],
         "answer": 2,
         "explanation": "When equal groups repeat, multiplication (6 x 5 = 30) finds the total quickly!"
@@ -4993,10 +4993,10 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Clue: 'A farmer had 50 pumpkins and sold 18 pumpkins at the mandi. How many are left?' Which operation should you use?",
         "options": [
-          "Multiplication (50 x 18)",
-          "Division (50 / 18)",
-          "Subtraction (50 - 18)",
-          "Addition (50 + 18)"
+          "Multiplication",
+          "Division",
+          "Subtraction",
+          "Addition"
         ],
         "answer": 2,
         "explanation": "Words like 'sold', 'gave away', and 'how many left' tell us to subtract!"
@@ -5004,10 +5004,10 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Clue: 'Share 20 candies equally among 4 friends.' Which operation gives the answer?",
         "options": [
-          "Multiplication (20 x 4)",
-          "Addition (20 + 4)",
-          "Subtraction (20 - 4)",
-          "Division (20 / 4)"
+          "Multiplication",
+          "Addition",
+          "Subtraction",
+          "Division"
         ],
         "answer": 3,
         "explanation": "Equal sharing means division: 20 divided by 4 = 5 candies each!"
@@ -5037,7 +5037,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Multiplication & Division",
     "questions": [
       {
-        "prompt": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row? (5 x 4)",
+        "prompt": "How many cupcakes are on a tray with 5 rows and 4 cupcakes in each row?",
         "options": [
           "16 cupcakes",
           "9 cupcakes",
@@ -5048,7 +5048,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "5 x 4 = 20 cupcakes on the baking tray!"
       },
       {
-        "prompt": "If an octopus has 8 arms, how many arms do 3 octopuses have in total? (3 x 8)",
+        "prompt": "If an octopus has 8 arms, how many arms do 3 octopuses have in total?",
         "options": [
           "28 arms",
           "24 arms",
@@ -5094,10 +5094,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Multiplication & Division",
     "questions": [
       {
-        "prompt": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive? (12 / 3)",
+        "prompt": "If 12 guavas are shared equally among 3 children, how many guavas does each child receive?",
         "options": [
           "5 guavas each",
-          "4 guavas each (3 x 4 = 12)",
+          "4 guavas each",
           "3 guavas each",
           "6 guavas each"
         ],
@@ -6999,7 +6999,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening (18:30 - 12:00)",
+          "6:30 PM in the evening",
           "11:30 PM at night",
           "1:30 PM in the afternoon",
           "8:30 AM in the morning"
@@ -7389,7 +7389,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "2 students",
           "20 students",
-          "4 students (12 - 8 = 4)",
+          "4 students",
           "6 students"
         ],
         "answer": 2,
@@ -7431,31 +7431,31 @@ const FULL_GAMES_CATALOG = [
     "topic": "Area & Perimeter",
     "questions": [
       {
-        "prompt": "What is the PERIMETER (total distance around the boundary) of the garden? Formula: 2 x (Length + Width)",
+        "prompt": "What is the PERIMETER (total distance around the boundary) of the garden?",
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x (6 + 4) = 2 x 10 = 20 m",
+          "20 meters: 2 x = 2 x 10 = 20 m",
           "12 meters"
         ],
         "answer": 2,
         "explanation": "Perimeter = 6 + 4 + 6 + 4 = 20 meters of fence needed!"
       },
       {
-        "prompt": "What is the AREA (internal surface space) of the garden? Formula: Length x Width",
+        "prompt": "What is the AREA (internal surface space) of the garden?",
         "options": [
           "48 square meters",
           "20 square meters",
-          "24 square meters (6 x 4 = 24 sq m)",
+          "24 square meters",
           "10 square meters"
         ],
         "answer": 2,
         "explanation": "Area = 6 m x 4 m = 24 square meters of planting space."
       },
       {
-        "prompt": "If a square sandbox has sides measuring 5 meters each, what is its perimeter? (4 x side)",
+        "prompt": "If a square sandbox has sides measuring 5 meters each, what is its perimeter?",
         "options": [
-          "20 meters (4 x 5 = 20 m)",
+          "20 meters",
           "15 meters",
           "10 meters",
           "25 meters"
@@ -7545,29 +7545,29 @@ const FULL_GAMES_CATALOG = [
     "topic": "Problem Solving with Measures",
     "questions": [
       {
-        "prompt": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel? (1200 / 24)",
+        "prompt": "If the ₹1,200 bus rental is shared equally among all 24 students, how much does each student pay for travel?",
         "options": [
           "₹24 per student",
           "₹60 per student",
           "₹40 per student",
-          "₹50 per student (24 x 50 = 1200)"
+          "₹50 per student"
         ],
         "answer": 3,
         "explanation": "1200 / 24 = ₹50 travel cost per student."
       },
       {
-        "prompt": "How much will 24 juice boxes cost if each box is ₹15? (24 x 15)",
+        "prompt": "How much will 24 juice boxes cost if each box is ₹15?",
         "options": [
           "₹300",
           "₹240",
-          "₹360 (24 x 10 = 240, 24 x 5 = 120; 240 + 120 = 360)",
+          "₹360",
           "₹400"
         ],
         "answer": 2,
         "explanation": "24 x 15 = ₹360 total for refreshing juice boxes!"
       },
       {
-        "prompt": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back? (100 - 65)",
+        "prompt": "If a student pays with a ₹100 note for their ₹50 bus fare and ₹15 juice box (₹65 total), how much change do they get back?",
         "options": [
           "₹45",
           "₹50",
@@ -7604,7 +7604,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "How many minutes did Kabir spend completing his homework (from 4:15 PM to 5:00 PM)?",
         "options": [
-          "45 minutes (60 - 15 = 45)",
+          "45 minutes",
           "1 hour",
           "15 minutes",
           "30 minutes"
@@ -7663,7 +7663,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "4:20 AM",
           "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon (14:20 - 12:00)",
+          "2:20 PM in the afternoon",
           "12:20 PM"
         ],
         "answer": 2,
@@ -7716,11 +7716,11 @@ const FULL_GAMES_CATALOG = [
     "topic": "Unit Conversion",
     "questions": [
       {
-        "prompt": "Convert 4 meters into centimeters. (Remember: 1 m = 100 cm)",
+        "prompt": "Convert 4 meters into centimeters.",
         "options": [
           "4000 cm",
           "40 cm",
-          "400 cm (4 x 100)",
+          "400 cm",
           "140 cm"
         ],
         "answer": 2,
@@ -7731,7 +7731,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "754 cm",
           "115 cm",
-          "475 cm (400 + 75)",
+          "475 cm",
           "4075 cm"
         ],
         "answer": 2,
@@ -7773,7 +7773,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Estimation & Problem Solving",
     "questions": [
       {
-        "prompt": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week? (320 - 180)",
+        "prompt": "If 180 sandwiches were sold on Monday and Tuesday, how many of the 320 sandwiches were left for the rest of the week?",
         "options": [
           "160 sandwiches",
           "140 sandwiches",
@@ -7784,18 +7784,18 @@ const FULL_GAMES_CATALOG = [
         "explanation": "320 minus 180 leaves 140 sandwiches."
       },
       {
-        "prompt": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each? (40 x 15)",
+        "prompt": "How much money does the canteen earn from selling 40 fruit bowls at ₹15 each?",
         "options": [
           "₹550",
           "₹450",
           "₹500",
-          "₹600 (40 x 10 = 400, 40 x 5 = 200; 400 + 200 = 600)"
+          "₹600"
         ],
         "answer": 3,
         "explanation": "40 x 15 = ₹600 total snack revenue."
       },
       {
-        "prompt": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket? (80 / 8)",
+        "prompt": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
           "12 apples",
           "15 apples",
@@ -7846,7 +7846,7 @@ const FULL_GAMES_CATALOG = [
           "3 slices",
           "4 slices",
           "1 slice",
-          "2 slices (2/4 = 1/2)"
+          "2 slices"
         ],
         "answer": 3,
         "explanation": "2 out of 4 parts equals one-half of the whole pizza!"
@@ -7898,10 +7898,10 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
       },
       {
-        "prompt": "How many eighths (1/8) are needed to equal one-fourth (1/4)?",
+        "prompt": "How many eighths (1/8) are needed to equal one-fourth?",
         "options": [
           "1 eighth",
-          "2 eighths (2/8 = 1/4)",
+          "2 eighths",
           "4 eighths",
           "8 eighths"
         ],
@@ -7944,10 +7944,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Multiplication & Division",
     "questions": [
       {
-        "prompt": "How many marbles will each velvet pouch hold? (24 / 6)",
+        "prompt": "How many marbles will each velvet pouch hold?",
         "options": [
           "5 marbles",
-          "4 marbles (6 x 4 = 24)",
+          "4 marbles",
           "6 marbles",
           "3 marbles"
         ],
@@ -7971,7 +7971,7 @@ const FULL_GAMES_CATALOG = [
           "9",
           "2",
           "4",
-          "3 (9 x 3 = 27)"
+          "3"
         ],
         "answer": 3,
         "explanation": "9 fits into 27 exactly 3 times!"
@@ -8001,10 +8001,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Multiplication & Division",
     "questions": [
       {
-        "prompt": "How many total books did the library receive? (25 x 14)",
+        "prompt": "How many total books did the library receive?",
         "options": [
           "400 books",
-          "350 books (25 x 10 = 250, 25 x 4 = 100; 250 + 100 = 350)",
+          "350 books",
           "300 books",
           "250 books"
         ],
@@ -8023,7 +8023,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "125 x 4 = 500 (100 x 4 = 400, 25 x 4 = 100; 400 + 100 = 500)!"
       },
       {
-        "prompt": "What happens to any number when you multiply it by 100 (e.g., 36 x 100)?",
+        "prompt": "What happens to any number when you multiply it by 100?",
         "options": [
           "Add one zero: 360",
           "Subtract two zeros",
@@ -8063,7 +8063,7 @@ const FULL_GAMES_CATALOG = [
           "8",
           "14",
           "10",
-          "9 (7 + 2 = 9)"
+          "9"
         ],
         "answer": 3,
         "explanation": "The sum of the digits of any multiple of 9 is always 9 (or a multiple of 9)!"
@@ -8072,7 +8072,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "What is the next multiple of 9 after 54 in the sequence: 36, 45, 54, ___?",
         "options": [
           "72",
-          "63 (54 + 9 = 63)",
+          "63",
           "64",
           "60"
         ],
@@ -8199,7 +8199,7 @@ const FULL_GAMES_CATALOG = [
           "They are unrelated",
           "Diameter is half of radius",
           "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius (Diameter = 2 x Radius)"
+          "Diameter is exactly TWICE the length of the radius"
         ],
         "answer": 3,
         "explanation": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
@@ -9996,10 +9996,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Map Reading & Directions",
     "questions": [
       {
-        "prompt": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance? (4 x 2 km)",
+        "prompt": "If the distance between Maya's home and the lakeside fort measures 4 cm on the map, what is the ACTUAL real-world distance?",
         "options": [
           "4 kilometers",
-          "8 kilometers (4 cm x 2 km/cm = 8 km)",
+          "8 kilometers",
           "2 kilometers",
           "16 kilometers"
         ],
@@ -10235,11 +10235,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "35 is the highest recorded number, occurring on Friday!"
       },
       {
-        "prompt": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135. (135 / 5)",
+        "prompt": "What is the average (mean) number of bicycle riders per day over the 5 days? Total = 20 + 25 + 30 + 25 + 35 = 135.",
         "options": [
           "25 students",
           "30 students",
-          "27 students per day (135 / 5 = 27)",
+          "27 students per day",
           "35 students"
         ],
         "answer": 2,
@@ -10249,7 +10249,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "If you draw a bar graph with a scale where 1 grid block = 5 students, how many blocks tall will the bar for Friday (35 students) be?",
         "options": [
           "35 blocks",
-          "7 blocks tall (35 / 5 = 7)",
+          "7 blocks tall",
           "10 blocks",
           "5 blocks"
         ],
@@ -10281,9 +10281,9 @@ const FULL_GAMES_CATALOG = [
     "topic": "Estimation & Verification of Measures",
     "questions": [
       {
-        "prompt": "How many 500 mL mugs does it take to fill a 10-Litre bucket? (Remember: 1 Litre = 1000 mL, so 10 L = 10,000 mL)",
+        "prompt": "How many 500 mL mugs does it take to fill a 10-Litre bucket?",
         "options": [
-          "20 mugs (10,000 / 500 = 20)",
+          "20 mugs",
           "2 mugs",
           "50 mugs",
           "10 mugs"
@@ -10296,16 +10296,16 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "1000 mL",
           "300 mL",
-          "700 mL (500 + 200 = 700 mL)",
+          "700 mL",
           "500 mL with no change"
         ],
         "answer": 2,
         "explanation": "A submerged solid displaces its own volume of water: 500 mL + 200 mL = 700 mL!"
       },
       {
-        "prompt": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm? (Formula: L x W x H)",
+        "prompt": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
-          "180 cubic centimeters (15 x 6 x 2 = 180 cm³)",
+          "180 cubic centimeters",
           "23 cm³",
           "60 cm³",
           "90 cm³"
@@ -10340,7 +10340,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "What is the total distance covered by the 4 relay runners combined? 4 x (10 km 500 m)",
         "options": [
-          "42 kilometers (4 x 10 km = 40 km; 4 x 500 m = 2000 m = 2 km; 40 + 2 = 42 km)",
+          "42 kilometers",
           "40 km 500 m",
           "400 km",
           "14 km"
@@ -10349,18 +10349,18 @@ const FULL_GAMES_CATALOG = [
         "explanation": "4 x 10.5 km = 42 kilometers total distance!"
       },
       {
-        "prompt": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all? (150 L = 150,000 mL)",
+        "prompt": "A milk dairy produces 150 litres of milk. They package it into 500 mL pouches. How many pouches do they fill in all?",
         "options": [
           "600 pouches",
           "75 pouches",
-          "300 pouches (150,000 / 500 = 300)",
+          "300 pouches",
           "150 pouches"
         ],
         "answer": 2,
         "explanation": "Each litre fills 2 half-litre pouches: 150 x 2 = 300 pouches!"
       },
       {
-        "prompt": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack? (50.000 kg - 18.750 kg)",
+        "prompt": "A sack of sugar weighs 50 kg. If 18 kg 750 g is sold, how much sugar remains in the sack?",
         "options": [
           "38 kg 250 g",
           "31 kg 250 g",
@@ -10395,10 +10395,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Unit Conversion",
     "questions": [
       {
-        "prompt": "Convert 3.5 kilometers into meters. (Remember: 1 km = 1,000 m)",
+        "prompt": "Convert 3.5 kilometers into meters.",
         "options": [
           "350 meters",
-          "3,500 meters (3.5 x 1000)",
+          "3,500 meters",
           "35,000 meters",
           "35 meters"
         ],
@@ -10406,7 +10406,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "3.5 x 1,000 = 3,500 meters!"
       },
       {
-        "prompt": "How many kilograms is 4,750 grams? (Remember: 1,000 g = 1 kg)",
+        "prompt": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
           "4.75 kg (or 4 kg 750 g)",
@@ -10417,12 +10417,12 @@ const FULL_GAMES_CATALOG = [
         "explanation": "4,750 divided by 1,000 = 4.75 kilograms."
       },
       {
-        "prompt": "Convert 2.25 litres into millilitres (mL). (1 L = 1,000 mL)",
+        "prompt": "Convert 2.25 litres into millilitres (mL).",
         "options": [
           "250 mL",
           "22,500 mL",
           "225 mL",
-          "2,250 mL (2.25 x 1000)"
+          "2,250 mL"
         ],
         "answer": 3,
         "explanation": "2.25 x 1,000 = 2,250 millilitres."
@@ -10455,7 +10455,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Round each price to the nearest hundred (₹295 -> ₹300, ₹408 -> ₹400, ₹192 -> ₹200). What is the estimated total cost?",
         "options": [
           "₹700",
-          "₹900 (300 + 400 + 200 = 900)",
+          "₹900",
           "₹800",
           "₹1,000"
         ],
@@ -10468,7 +10468,7 @@ const FULL_GAMES_CATALOG = [
           "500",
           "800",
           "1,200",
-          "1,000 (50 x 20 = 1000)"
+          "1,000"
         ],
         "answer": 3,
         "explanation": "50 x 20 = 1,000. (The exact product 48 x 21 = 1,008, so the estimate is 99% accurate!)"
@@ -10533,7 +10533,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Convert 1/5 into a decimal fraction:",
         "options": [
-          "0.2 (since 2/10 = 0.2)",
+          "0.2",
           "0.5",
           "0.02",
           "0.15"
@@ -10566,9 +10566,9 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions & Decimals",
     "questions": [
       {
-        "prompt": "How many oranges is 3/4 of 24 oranges? (Step 1: find 1/4 of 24; Step 2: multiply by 3)",
+        "prompt": "How many oranges is 3/4 of 24 oranges?",
         "options": [
-          "18 oranges (24 / 4 = 6; 6 x 3 = 18)",
+          "18 oranges",
           "20 oranges",
           "16 oranges",
           "12 oranges"
@@ -10582,7 +10582,7 @@ const FULL_GAMES_CATALOG = [
           "9 crayons",
           "6 crayons",
           "15 crayons",
-          "12 crayons (18 / 3 = 6; 6 x 2 = 12)"
+          "12 crayons"
         ],
         "answer": 3,
         "explanation": "18 divided by 3 is 6; 6 x 2 = 12 crayons!"
@@ -10623,11 +10623,11 @@ const FULL_GAMES_CATALOG = [
     "topic": "Multiplication & Division",
     "questions": [
       {
-        "prompt": "How many food packets will each relief camp receive? (4,500 / 15)",
+        "prompt": "How many food packets will each relief camp receive?",
         "options": [
           "30 packets",
           "150 packets",
-          "300 packets (since 15 x 3 = 45, so 15 x 300 = 4,500)",
+          "300 packets",
           "450 packets"
         ],
         "answer": 2,
@@ -10639,7 +10639,7 @@ const FULL_GAMES_CATALOG = [
           "Quotient = 1,220, Remainder = 2",
           "Quotient = 1,234, Remainder = 5",
           "Quotient = 1,200, Remainder = 0",
-          "Quotient = 1,223, Remainder = 4 (6 x 1223 = 7338; 7338 + 4 = 7342)"
+          "Quotient = 1,223, Remainder = 4"
         ],
         "answer": 3,
         "explanation": "7342 = (6 x 1223) + 4! Quotient is 1,223 with remainder 4."
@@ -10648,7 +10648,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Multiply: 2,400 x 30 =",
         "options": [
           "24,030",
-          "72,000 (24 x 3 = 72, plus three zeros)",
+          "72,000",
           "720,000",
           "7,200"
         ],
@@ -10707,7 +10707,7 @@ const FULL_GAMES_CATALOG = [
           "89,600",
           "88,500",
           "99,500",
-          "90,500 (89,500 + 1,000)"
+          "90,500"
         ],
         "answer": 3,
         "explanation": "89,500 + 1,000 = 90,500!"
@@ -10737,10 +10737,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Number Patterns",
     "questions": [
       {
-        "prompt": "What is the 5th SQUARE NUMBER (formed by a 5 x 5 square array of dots)?",
+        "prompt": "What is the 5th SQUARE NUMBER?",
         "options": [
           "15",
-          "25 (5 x 5 = 25)",
+          "25",
           "20",
           "30"
         ],
@@ -10748,23 +10748,23 @@ const FULL_GAMES_CATALOG = [
         "explanation": "A square number is an integer multiplied by itself: 5 x 5 = 25!"
       },
       {
-        "prompt": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number? (Hint: add 5 to the previous term)",
+        "prompt": "Look at the triangular numbers sequence: 1, 3, 6, 10, ___. What is the next triangular number?",
         "options": [
           "14",
           "20",
           "12",
-          "15 (10 + 5 = 15)"
+          "15"
         ],
         "answer": 3,
         "explanation": "Triangular numbers add successive integers: +2, +3, +4, +5. So 10 + 5 = 15!"
       },
       {
-        "prompt": "What happens when you add any two consecutive triangular numbers together (e.g., 1 + 3 = 4, 3 + 6 = 9, 6 + 10 = 16)?",
+        "prompt": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
           "You get a negative number",
           "You get an odd number only",
           "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER! (4 = 2², 9 = 3², 16 = 4²)"
+          "You ALWAYS get a perfect SQUARE NUMBER!"
         ],
         "answer": 3,
         "explanation": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
@@ -11934,10 +11934,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Variables & Algebraic Expressions",
     "questions": [
       {
-        "prompt": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'? Formula: 2(Length + Width)",
+        "prompt": "What is the algebraic expression for the PERIMETER of Ramesh's goat pen with length 'x' and width '3'?",
         "options": [
           "2x + 3",
-          "2(x + 3) meters (or 2x + 6)",
+          "2 meters",
           "3x",
           "x + 3"
         ],
@@ -11994,7 +11994,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "In a pictograph where one 🪙 coin symbol represents ₹2,000, how many coin symbols will represent the Food budget (₹12,000)?",
         "options": [
           "2 coin symbols",
-          "6 coin symbols (12,000 / 2,000 = 6)",
+          "6 coin symbols",
           "12 coin symbols",
           "4 coin symbols"
         ],
@@ -12002,7 +12002,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "₹12,000 divided by the scale of ₹2,000 per symbol = exactly 6 symbols!"
       },
       {
-        "prompt": "What is the total monthly budget tracked by Priya? (12,000 + 6,000 + 2,000 + 4,000)",
+        "prompt": "What is the total monthly budget tracked by Priya?",
         "options": [
           "₹22,000",
           "₹20,000",
@@ -12018,7 +12018,7 @@ const FULL_GAMES_CATALOG = [
           "1/6",
           "1/3",
           "1/2",
-          "1/4 (6,000 / 24,000 = 1/4 = 25%)"
+          "1/4"
         ],
         "answer": 3,
         "explanation": "6,000/24,000 simplifies to 1/4 (or 25% of the total family budget)!"
@@ -12073,7 +12073,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Verify Euler's Formula for a Cube: Faces - Edges + Vertices (F - E + V). What is 6 - 12 + 8?",
         "options": [
           "0",
-          "2 (Euler's characteristic F - E + V = 2 holds true!)",
+          "2",
           "1",
           "4"
         ],
@@ -12390,9 +12390,9 @@ const FULL_GAMES_CATALOG = [
     "topic": "Perimeter & Area",
     "questions": [
       {
-        "prompt": "What is the total FLOOR AREA to be covered with tiles? (Formula: Length x Width)",
+        "prompt": "What is the total FLOOR AREA to be covered with tiles?",
         "options": [
-          "48 square meters (8 x 6 = 48 sq m)",
+          "48 square meters",
           "96 square meters",
           "14 square meters",
           "28 square meters"
@@ -12401,11 +12401,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Area = 8 m x 6 m = 48 square meters of floor space!"
       },
       {
-        "prompt": "What length of wooden skirting baseboard is needed around the PERIMETER of the room? 2 x (L + W)",
+        "prompt": "What length of wooden skirting baseboard is needed around the PERIMETER of the room?",
         "options": [
           "14 meters",
           "48 meters",
-          "28 meters: 2 x (8 + 6) = 2 x 14 = 28 m",
+          "28 meters: 2 x = 2 x 14 = 28 m",
           "56 meters"
         ],
         "answer": 2,
@@ -12416,7 +12416,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "96 tiles",
           "24 tiles",
-          "48 tiles (48 / 1 = 48)",
+          "48 tiles",
           "28 tiles"
         ],
         "answer": 2,
@@ -12447,7 +12447,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Factors, Multiples & Divisibility",
     "questions": [
       {
-        "prompt": "After how many minutes will both bells toll TOGETHER again? (Find the Lowest Common Multiple / LCM of 6 and 8)",
+        "prompt": "After how many minutes will both bells toll TOGETHER again?",
         "options": [
           "14 minutes",
           "2 minutes",
@@ -12517,7 +12517,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "What are 'CO-PRIME NUMBERS' (e.g., the pair 4 and 9)?",
         "options": [
-          "Two numbers whose ONLY common factor is 1 (HCF = 1)",
+          "Two numbers whose ONLY common factor is 1",
           "Two numbers that are both prime",
           "Two negative numbers",
           "Two numbers that add up to 10"
@@ -12561,7 +12561,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions, Decimals & Rational Numbers",
     "questions": [
       {
-        "prompt": "What is the total weight of flour and sugar combined? (2 1/4 + 1 1/2 = 2 1/4 + 1 2/4)",
+        "prompt": "What is the total weight of flour and sugar combined?",
         "options": [
           "3 3/4 kg (or 3.75 kg)",
           "2 3/4 kg",
@@ -12572,7 +12572,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "2 1/4 + 1 2/4 = 3 3/4 kg = 3.75 kilograms in total!"
       },
       {
-        "prompt": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack? (5 - 2 1/4)",
+        "prompt": "If Chef Anita had 5 kg of flour originally and used 2 1/4 kg, how much flour is left in the sack?",
         "options": [
           "3 kg",
           "1 3/4 kg",
@@ -12618,7 +12618,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions, Decimals & Rational Numbers",
     "questions": [
       {
-        "prompt": "How much higher is the student's temperature of 38.6°C than normal 37.0°C? (38.6 - 37.0)",
+        "prompt": "How much higher is the student's temperature of 38.6°C than normal 37.0°C?",
         "options": [
           "16°C",
           "2.6°C",
@@ -12629,7 +12629,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "38.6 - 37.0 = 1.6°C above normal baseline temperature."
       },
       {
-        "prompt": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win? (12.45 - 12.38)",
+        "prompt": "A runner ran 100 meters in 12.38 seconds. The second runner finished in 12.45 seconds. By how many hundredths of a second did the winner win?",
         "options": [
           "0.13 seconds",
           "0.7 seconds",
@@ -12644,7 +12644,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "₹7.5",
           "₹0.075",
-          "₹0.75 (since ₹1 = 100 paise)",
+          "₹0.75",
           "₹75.0"
         ],
         "answer": 2,
@@ -12686,7 +12686,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "-50 + 20 = -30 meters (30 meters below the surface)!"
       },
       {
-        "prompt": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature? (-4 - 3) =",
+        "prompt": "In the cold desert of Leh, the temperature at midnight was -4°C. By early morning, it dropped another 3°C colder. What was the morning temperature?",
         "options": [
           "-1°C",
           "+1°C",
@@ -12701,7 +12701,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "Negative numbers cannot be compared",
           "-12 is greater",
-          "-5 is greater (on the number line, -5 lies to the right of -12)",
+          "-5 is greater",
           "Both are equal"
         ],
         "answer": 2,
@@ -12743,9 +12743,9 @@ const FULL_GAMES_CATALOG = [
         "explanation": "75,400 - 28,150 = 47,250!"
       },
       {
-        "prompt": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days? (2,500 x 30)",
+        "prompt": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days?",
         "options": [
-          "75,000 calculators (25 x 3 = 75, with three zeros)",
+          "75,000 calculators",
           "750,000",
           "25,030",
           "7,500"
@@ -12789,7 +12789,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Ratio & Proportion",
     "questions": [
       {
-        "prompt": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form? (24/16)",
+        "prompt": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form?",
         "options": [
           "3:2 (divide both numbers by their HCF of 8)",
           "6:5",
@@ -12811,7 +12811,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "A ratio compares the relative scale between two corresponding quantities."
       },
       {
-        "prompt": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there? (5 x 3 = 15, so 3 x 3 = ?)",
+        "prompt": "If the ratio of apples to oranges in a fruit bowl is 5:3 and there are 15 apples, how many oranges are there?",
         "options": [
           "9 oranges",
           "12 oranges",
@@ -12846,20 +12846,20 @@ const FULL_GAMES_CATALOG = [
     "topic": "Unitary Method",
     "questions": [
       {
-        "prompt": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook? (120 / 6)",
+        "prompt": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook?",
         "options": [
           "₹25",
           "₹15",
-          "₹20 per notebook (120 / 6 = 20)",
+          "₹20 per notebook",
           "₹10"
         ],
         "answer": 2,
         "explanation": "Unitary method means finding the unit value (cost of 1) first: ₹120 / 6 = ₹20 per notebook!"
       },
       {
-        "prompt": "Step 2: What is the total cost for Kabir to purchase 4 notebooks? (4 x ₹20)",
+        "prompt": "Step 2: What is the total cost for Kabir to purchase 4 notebooks?",
         "options": [
-          "₹80 (4 x 20 = 80)",
+          "₹80",
           "₹50",
           "₹60",
           "₹100"
@@ -12868,9 +12868,9 @@ const FULL_GAMES_CATALOG = [
         "explanation": "4 notebooks x ₹20 each = ₹80 total cost!"
       },
       {
-        "prompt": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours? (240 / 3 = 80 km/h; 80 x 5 = ?)",
+        "prompt": "If an electric train travels 240 kilometers in 3 hours at constant speed, how far will it travel in 5 hours?",
         "options": [
-          "400 kilometers (80 km/h x 5 hours = 400 km)",
+          "400 kilometers",
           "350 km",
           "300 km",
           "500 km"
@@ -16270,7 +16270,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Linear Equations",
     "questions": [
       {
-        "prompt": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42. (Step 1: 5x = 42 - 7 = 35; Step 2: x = 35 / 5)",
+        "prompt": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42.",
         "options": [
           "x = 7 sheep",
           "x = 35 sheep",
@@ -16283,7 +16283,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "The perimeter of a rectangular playing field is 50 meters. If its length is 15 meters, solve for its width 'w' using: 2(15 + w) = 50.",
         "options": [
-          "w = 10 meters (15 + w = 25; w = 25 - 15 = 10 m)",
+          "w = 10 meters",
           "w = 15 m",
           "w = 20 m",
           "w = 5 m"
@@ -16330,7 +16330,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Simplify by combining LIKE TERMS: (4x² + 3x - 5) + (2x² - 5x + 8) =",
         "options": [
           "6x⁴ - 2x² + 3",
-          "6x² - 2x + 3 (Combine: 4x²+2x² = 6x²; 3x-5x = -2x; -5+8 = +3)",
+          "6x² - 2x + 3",
           "6x² + 8x + 13",
           "8x² - 2x - 3"
         ],
@@ -16406,7 +16406,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Contrasting adjacent bars and a legend allow effortless direct visual comparison across categories!"
       },
       {
-        "prompt": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block? (90 / 10)",
+        "prompt": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block?",
         "options": [
           "6.0 runs per over",
           "9.0 runs per over",
@@ -16441,11 +16441,11 @@ const FULL_GAMES_CATALOG = [
     "topic": "Measures of Central Tendency",
     "questions": [
       {
-        "prompt": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings. (40 + 50 + 50 + 60 + 100) / 5 =",
+        "prompt": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings.",
         "options": [
           "65 runs",
           "50 runs",
-          "60 runs (300 / 5 = 60)",
+          "60 runs",
           "70 runs"
         ],
         "answer": 2,
@@ -16580,7 +16580,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Can a triangle be constructed with side lengths 2 cm, 3 cm, and 6 cm?",
         "options": [
           "Yes, it forms an obtuse triangle",
-          "No (because 2 + 3 = 5, which is LESS than 6 cm; the sides cannot reach to close)",
+          "No",
           "Yes, it forms an acute triangle",
           "Yes, an equilateral triangle"
         ],
@@ -16627,7 +16627,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "20°",
           "90°",
-          "70° (180° - 110° = 70°)",
+          "70°",
           "80°"
         ],
         "answer": 2,
@@ -16638,7 +16638,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "45°",
           "145°",
-          "55° (90° - 35° = 55°)",
+          "55°",
           "65°"
         ],
         "answer": 2,
@@ -16783,12 +16783,12 @@ const FULL_GAMES_CATALOG = [
     "topic": "Triangles & Congruence",
     "questions": [
       {
-        "prompt": "Calculate the unknown angle 'x': 65° + 75° + x = 180°. (65 + 75 = 140; 180 - 140 = ?)",
+        "prompt": "Calculate the unknown angle 'x': 65° + 75° + x = 180°.",
         "options": [
           "30°",
           "50°",
           "45°",
-          "40° (180° - 140° = 40°)"
+          "40°"
         ],
         "answer": 3,
         "explanation": "The angle sum of any triangle is 180°! 180° - (65° + 75°) = 180° - 140° = 40°."
@@ -16808,7 +16808,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "In an EQUILATERAL TRIANGLE where all three angles are equal (x + x + x = 180°), what is the measure of each angle?",
         "options": [
           "50°",
-          "60° (180° / 3 = 60°)",
+          "60°",
           "90°",
           "45°"
         ],
@@ -16840,23 +16840,23 @@ const FULL_GAMES_CATALOG = [
     "topic": "Perimeter & Area",
     "questions": [
       {
-        "prompt": "What is the area of the SQUARE basketball court? (Formula: side² = 20 x 20)",
+        "prompt": "What is the area of the SQUARE basketball court?",
         "options": [
           "80 m²",
           "200 m²",
           "40 m²",
-          "400 square meters (20 x 20 = 400 m²)"
+          "400 square meters"
         ],
         "answer": 3,
         "explanation": "Area of a square = side x side = 20 m x 20 m = 400 m²!"
       },
       {
-        "prompt": "What is the area of the RECTANGULAR tennis lawn? (Formula: Length x Width = 30 x 12)",
+        "prompt": "What is the area of the RECTANGULAR tennis lawn?",
         "options": [
           "84 m²",
           "42 m²",
           "300 m²",
-          "360 square meters (30 x 12 = 360 m²)"
+          "360 square meters"
         ],
         "answer": 3,
         "explanation": "Area of rectangle = Length x Breadth = 30 m x 12 m = 360 m²!"
@@ -16865,7 +16865,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "What is the formula for the AREA OF A TRIANGLE with base 'b' and perpendicular height 'h'?",
         "options": [
           "2 x (Base + Height)",
-          "1/2 x Base x Height (1/2 x b x h)",
+          "1/2 x Base x Height",
           "Base + Height",
           "Base x Height"
         ],
@@ -16913,7 +16913,7 @@ const FULL_GAMES_CATALOG = [
           "42 cm²",
           "26 cm²",
           "58 cm²",
-          "50 cm²: 42 + (16 x 0.5) = 42 + 8 = 50 cm²"
+          "50 cm²: 42 + = 42 + 8 = 50 cm²"
         ],
         "answer": 3,
         "explanation": "42 full squares + 8 (from 16 halves) = 50 cm² total estimated area!"
@@ -16959,7 +16959,7 @@ const FULL_GAMES_CATALOG = [
           "100⁸",
           "10²",
           "10¹⁵",
-          "10⁸ (add powers: 3 + 5 = 8)"
+          "10⁸"
         ],
         "answer": 3,
         "explanation": "When multiplying identical bases, add the exponents: 10³⁺⁵ = 10⁸!"
@@ -16970,7 +16970,7 @@ const FULL_GAMES_CATALOG = [
           "1⁴",
           "7³",
           "7⁸",
-          "7⁴ (subtract powers: 6 - 2 = 4)"
+          "7⁴"
         ],
         "answer": 3,
         "explanation": "When dividing matching bases, subtract powers: 7⁶⁻² = 7⁴!"
@@ -16980,7 +16980,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "The number itself",
           "Infinity",
-          "Always 1 (e.g., 5⁰ = 1, 100⁰ = 1)",
+          "Always 1",
           "0"
         ],
         "answer": 2,
@@ -17011,12 +17011,12 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions, Decimals & Rational Numbers",
     "questions": [
       {
-        "prompt": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8. (Remember: multiply by the reciprocal 8/1)",
+        "prompt": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8.",
         "options": [
           "4 jars",
           "2 jars",
           "8 jars",
-          "6 jars (3/4 x 8/1 = 24/4 = 6)"
+          "6 jars"
         ],
         "answer": 3,
         "explanation": "Dividing by a fraction is multiplying by its reciprocal: 3/4 x 8/1 = 24/4 = 6 jars!"
@@ -17037,7 +17037,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "11/13",
           "1/2",
-          "3/5 (18/30 simplifies by dividing top and bottom by 6)",
+          "3/5",
           "18/13"
         ],
         "answer": 2,
@@ -17079,7 +17079,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Rational numbers include integers, fractions, terminating decimals, and recurring decimals (p/q with q ≠ 0)!"
       },
       {
-        "prompt": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation? (-2.5 + 10.75)",
+        "prompt": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation?",
         "options": [
           "+8.25 meters above sea level",
           "-8.25 meters",
@@ -17092,7 +17092,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Which of these rational numbers is GREATER: -3/4 or -1/4?",
         "options": [
-          "-1/4 is greater (it is closer to 0 on the number line: -0.25 > -0.75)",
+          "-1/4 is greater",
           "Negative fractions cannot be compared",
           "-3/4 is greater",
           "Both are equal"
@@ -17125,7 +17125,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions, Decimals & Rational Numbers",
     "questions": [
       {
-        "prompt": "Calculate: 0.25 x 1.6 = (Hint: 25 x 16 = 400; count 2 + 1 = 3 decimal places)",
+        "prompt": "Calculate: 0.25 x 1.6 =",
         "options": [
           "0.400 (or 0.4)",
           "0.04",
@@ -17136,7 +17136,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "25 x 16 = 400. Shift decimal 3 places left: 0.400 = 0.4!"
       },
       {
-        "prompt": "Calculate: 4.8 ÷ 0.6 = (Hint: multiply numerator and denominator by 10 to get 48 ÷ 6)",
+        "prompt": "Calculate: 4.8 ÷ 0.6 =",
         "options": [
           "0.8",
           "80",
@@ -17147,7 +17147,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Shift decimal by 1 place: 48 / 6 = 8!"
       },
       {
-        "prompt": "What happens when you DIVIDE any decimal number by 1,000 (e.g., 345.2 ÷ 1,000)?",
+        "prompt": "What happens when you DIVIDE any decimal number by 1,000?",
         "options": [
           "Three zeros are added at the end",
           "The number stays identical",
@@ -17208,7 +17208,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "+15",
           "-10",
-          "-30 (two negatives make +6; then +6 x -5 = -30)",
+          "-30",
           "+30"
         ],
         "answer": 2,
@@ -17239,10 +17239,10 @@ const FULL_GAMES_CATALOG = [
     "topic": "Percentage, Profit & Loss, Interest",
     "questions": [
       {
-        "prompt": "What is Anita's PROFIT PERCENTAGE? Formula: (Profit / CP) x 100%. Profit = 3,600 - 3,000 = ₹600.",
+        "prompt": "What is Anita's PROFIT PERCENTAGE?",
         "options": [
           "15%",
-          "20% profit: (600 / 3000) x 100% = 20%",
+          "20% profit: x 100% = 20%",
           "60%",
           "25%"
         ],
@@ -17254,16 +17254,16 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "₹500",
           "₹1,200",
-          "₹600: (5000 x 6 x 2) / 100 = 60,000 / 100 = ₹600",
+          "₹600: / 100 = 60,000 / 100 = ₹600",
           "₹300"
         ],
         "answer": 2,
         "explanation": "SI = (5,000 x 6 x 2) / 100 = ₹600 in simple interest!"
       },
       {
-        "prompt": "What is the total AMOUNT (A) repayable to the bank after 2 years? Formula: Principal + Interest",
+        "prompt": "What is the total AMOUNT (A) repayable to the bank after 2 years?",
         "options": [
-          "₹5,600 (5,000 + 600 = ₹5,600)",
+          "₹5,600",
           "₹5,000",
           "₹6,200",
           "₹6,000"
@@ -17296,7 +17296,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Percentage, Profit & Loss, Interest",
     "questions": [
       {
-        "prompt": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%): (60/80 x 100%)",
+        "prompt": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%):",
         "options": [
           "80%",
           "75%: 60/80 = 3/4 = 0.75 = 75%",
@@ -17307,7 +17307,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "60/80 simplifies to 3/4. 3/4 x 100% = 75%!"
       },
       {
-        "prompt": "Convert 35% into a simplified common fraction: (35 / 100)",
+        "prompt": "Convert 35% into a simplified common fraction:",
         "options": [
           "3/5",
           "7/10",
@@ -17318,9 +17318,9 @@ const FULL_GAMES_CATALOG = [
         "explanation": "35/100 simplifies by 5: 35÷5 / 100÷5 = 7/20!"
       },
       {
-        "prompt": "What is 15% of ₹400? (15/100 x 400)",
+        "prompt": "What is 15% of ₹400?",
         "options": [
-          "₹60 (15 x 4 = 60)",
+          "₹60",
           "₹15",
           "₹80",
           "₹40"
@@ -17353,7 +17353,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Ratio & Proportion",
     "questions": [
       {
-        "prompt": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes (a x d) and Product of Means (b x c)?",
+        "prompt": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes and Product of Means?",
         "options": [
           "Product of Extremes MUST EQUAL Product of Means (a x d = b x c)",
           "They must sum to zero",
@@ -17366,7 +17366,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Test [ 15, 45, 40, 120 ]: Extremes = 15 x 120 = 1,800. Means = 45 x 40 = 1,800. Are they in proportion?",
         "options": [
-          "Yes, they are in true proportion (1,800 = 1,800; both ratios simplify to 1:3)",
+          "Yes, they are in true proportion",
           "Impossible to determine",
           "No, they are not",
           "Only during multiplication"
@@ -17375,7 +17375,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "15/45 = 1/3, and 40/120 = 1/3. Both ratios are identical (1:3), so they are in proportion!"
       },
       {
-        "prompt": "Find 'x' in the proportion: 4 : 5 :: 12 : x. (4x = 5 x 12 = 60; x = 60 / 4)",
+        "prompt": "Find 'x' in the proportion: 4 : 5 :: 12 : x.",
         "options": [
           "x = 10",
           "x = 25",
@@ -17437,7 +17437,7 @@ const FULL_GAMES_CATALOG = [
           "It can be bent back into ribbon",
           "It is just melting like butter",
           "The metal is simply evaporating",
-          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide (2Mg + O₂ -> 2MgO)"
+          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide"
         ],
         "answer": 3,
         "explanation": "2Mg + O₂ -> 2MgO is a synthesis combustion reaction creating a novel compound!"
@@ -17934,7 +17934,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Equal distance covered in equal intervals of time produces a linear constant-slope graph (uniform speed)!"
       },
       {
-        "prompt": "What does the SLOPE (gradient) of a Distance-Time graph represent physically? (Slope = Change in Distance / Change in Time)",
+        "prompt": "What does the SLOPE (gradient) of a Distance-Time graph represent physically?",
         "options": [
           "Total fuel consumed",
           "Speed (Velocity)",
@@ -17947,7 +17947,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "If the Distance-Time line on graph paper becomes completely HORIZONTAL (flat parallel to time axis), what is the state of the object?",
         "options": [
-          "The object is at REST (stationary, speed = 0)",
+          "The object is at REST",
           "The object is moving at light speed",
           "Time has stopped",
           "The object is falling down"
@@ -18048,9 +18048,9 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Time period is the duration required for one complete cyclic swing from extreme to extreme and back!"
       },
       {
-        "prompt": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period? (40 s / 20 oscillations)",
+        "prompt": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period?",
         "options": [
-          "2.0 seconds (40 / 20 = 2.0 s)",
+          "2.0 seconds",
           "20 seconds",
           "800 seconds",
           "0.5 seconds"
@@ -21001,7 +21001,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Vocabulary",
     "questions": [
       {
-        "prompt": "What standardized criteria should researchers use to evaluate digital information sources? (The CRAAP Test)",
+        "prompt": "What standardized criteria should researchers use to evaluate digital information sources?",
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
@@ -21459,7 +21459,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4 (a=x, b=2: x² + 2(x)(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
           "x² + 2x + 4",
           "2x² + 4",
           "x² + 4"
@@ -21468,22 +21468,22 @@ const FULL_GAMES_CATALOG = [
         "explanation": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
       },
       {
-        "prompt": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b² by treating 99 as (100 - 1)²: 100² - 2(100)(1) + 1² =",
+        "prompt": "Calculate 99² mentally using the identity (a - b)² = a² - 2ab + b²:",
         "options": [
           "9,999",
           "9,901",
-          "9,801 (10,000 - 200 + 1 = 9,801)",
+          "9,801",
           "9,800"
         ],
         "answer": 2,
         "explanation": "(100 - 1)² = 10,000 - 200 + 1 = 9,801! Mental math magic with algebraic identities."
       },
       {
-        "prompt": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47: (50 + 3)(50 - 3) = 50² - 3² =",
+        "prompt": "Use the difference of squares identity (a + b)(a - b) = a² - b² to compute 53 x 47:",
         "options": [
           "2,500",
           "2,400",
-          "2,491 (2,500 - 9 = 2,491)",
+          "2,491",
           "2,509"
         ],
         "answer": 2,
@@ -21514,12 +21514,12 @@ const FULL_GAMES_CATALOG = [
     "topic": "Variables & Algebraic Expressions",
     "questions": [
       {
-        "prompt": "Expand the product of the binomials: (2x - 5)(3x + 4) = 2x(3x + 4) - 5(3x + 4) =",
+        "prompt": "Expand the product of the binomials: (2x - 5)(3x + 4) =",
         "options": [
           "6x² + 7x - 20",
           "5x² - 7x - 20",
           "6x² - 20",
-          "6x² - 7x - 20 (6x² + 8x - 15x - 20 = 6x² - 7x - 20)"
+          "6x² - 7x - 20"
         ],
         "answer": 3,
         "explanation": "FOIL method: First (6x²), Outside (+8x), Inside (-15x), Last (-20). Combining like terms: 6x² - 7x - 20!"
@@ -21576,7 +21576,7 @@ const FULL_GAMES_CATALOG = [
           "x = 8 years old",
           "x = 15 years old",
           "x = 10 years old",
-          "x = 12 years old (3x + 12 = 2x + 24 -> 3x - 2x = 24 - 12 -> x = 12)"
+          "x = 12 years old"
         ],
         "answer": 3,
         "explanation": "3x + 12 = 2x + 24. Subtract 2x and 12 from both sides: x = 12 years old (Mother is 36)!"
@@ -21586,7 +21586,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "x = 12",
           "x = 18",
-          "x = 16 (3x + 6 = 54 -> 3x = 48 -> x = 16; integers are 16, 18, 20)",
+          "x = 16",
           "x = 14"
         ],
         "answer": 2,
@@ -21598,7 +21598,7 @@ const FULL_GAMES_CATALOG = [
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes (Let ten-rupee notes = n. 10n + 5(50 - n) = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
         ],
         "answer": 3,
         "explanation": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -21632,7 +21632,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "45°",
           "90°",
-          "180°: (180 / 360) x 360° = 180° (exactly half of the circle)",
+          "180°: x 360° = 180° (exactly half of the circle)",
           "360°"
         ],
         "answer": 2,
@@ -21643,7 +21643,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "30°",
           "90°",
-          "60°: (60 / 360) x 360° = 60°",
+          "60°: x 360° = 60°",
           "120°"
         ],
         "answer": 2,
@@ -21707,7 +21707,7 @@ const FULL_GAMES_CATALOG = [
         "explanation": "There are 6 combinations summing to 7 out of 36 total possible pairs: 6/36 = 1/6!"
       },
       {
-        "prompt": "What is the probability of an IMPOSSIBLE EVENT (e.g., rolling an 8 on a standard 6-sided die)?",
+        "prompt": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
           "0 (Zero probability)",
           "1",
@@ -21766,7 +21766,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "How many unit cubes (1x1x1 cm) are packed inside a solid cuboid measuring 4 cm by 3 cm by 2 cm?",
         "options": [
-          "24 unit cubes (Volume = 4 x 3 x 2 = 24 cm³)",
+          "24 unit cubes",
           "14 cubes",
           "9 cubes",
           "48 cubes"
@@ -21917,7 +21917,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "80°",
           "100°",
-          "90° (70 + 80 + 120 = 270; 360 - 270 = 90°)",
+          "90°",
           "110°"
         ],
         "answer": 2,
@@ -21927,7 +21927,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
           "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into (n - 2) non-overlapping triangles from one vertex, each contributing 180°",
+          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
           "Because 360 is a magic number",
           "It is only a rough guess"
         ],
@@ -21935,11 +21935,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
       },
       {
-        "prompt": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)? Formula: (5-2)x180° / 5 =",
+        "prompt": "What is the measure of each interior angle in a REGULAR PENTAGON (5 equal sides and 5 equal angles)?",
         "options": [
           "100°",
           "120°",
-          "108° (540° / 5 = 108°)",
+          "108°",
           "90°"
         ],
         "answer": 2,
@@ -21973,7 +21973,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "In parallelogram ABCD, if Angle A measures 75°, what is the measure of adjacent consecutive Angle B?",
         "options": [
           "90°",
-          "105° (Consecutive adjacent angles in a parallelogram are SUPPLEMENTARY: 180° - 75° = 105°)",
+          "105°",
           "75°",
           "15°"
         ],
@@ -22027,11 +22027,11 @@ const FULL_GAMES_CATALOG = [
     "topic": "Perimeter & Area",
     "questions": [
       {
-        "prompt": "What is the cross-sectional AREA of the trapezium embankment? Formula: Area = 1/2 x (a + b) x h",
+        "prompt": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
           "60 m²",
           "48 m²",
-          "50 square meters: 1/2 x (12 + 8) x 5 = 1/2 x 20 x 5 = 50 m²",
+          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
           "100 m²"
         ],
         "answer": 2,
@@ -22053,7 +22053,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "h = 16 cm",
           "h = 10 cm",
-          "h = 8 cm: 1/2 x (14 + 6) x h = 80 -> 10 x h = 80 -> h = 8 cm",
+          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
           "h = 4 cm"
         ],
         "answer": 2,
@@ -22098,7 +22098,7 @@ const FULL_GAMES_CATALOG = [
         "prompt": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
           "600 m²",
-          "550 square meters (120 + 250 + 180 = 550 m²)",
+          "550 square meters",
           "500 m²",
           "450 m²"
         ],
@@ -22141,9 +22141,9 @@ const FULL_GAMES_CATALOG = [
     "topic": "Surface Area & Volume",
     "questions": [
       {
-        "prompt": "What is the VOLUME of the cylindrical tank? (Formula: V = πr²h, use π = 22/7)",
+        "prompt": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: (22/7) x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
+          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
           "700 m³",
           "2,200 m³",
           "1,450 m³"
@@ -22152,9 +22152,9 @@ const FULL_GAMES_CATALOG = [
         "explanation": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
       },
       {
-        "prompt": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder? Formula: 2πr(r + h)",
+        "prompt": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x (22/7) x 7 x (7 + 10) = 44 x 17 = 748 m²",
+          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
           "892 m²",
           "154 m²",
           "440 m²"
@@ -22198,9 +22198,9 @@ const FULL_GAMES_CATALOG = [
     "topic": "Exponents, Squares & Roots",
     "questions": [
       {
-        "prompt": "What is the SQUARE ROOT of 729 (√729)? (Hint: 20² = 400, 30² = 900; ends in 9)",
+        "prompt": "What is the SQUARE ROOT of 729 (√729)?",
         "options": [
-          "27 (since 27 x 27 = 729)",
+          "27",
           "29",
           "33",
           "23"
@@ -22211,7 +22211,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "What is the CUBE ROOT of 512 (∛512)?",
         "options": [
-          "8 (since 8 x 8 x 8 = 64 x 8 = 512)",
+          "8",
           "9",
           "6",
           "7"
@@ -22220,10 +22220,10 @@ const FULL_GAMES_CATALOG = [
         "explanation": "8³ = 512, so the cube root ∛512 = 8!"
       },
       {
-        "prompt": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE? (72 = 2³ x 3²)",
+        "prompt": "What is the SMALLEST whole number by which 72 must be multiplied to make it a PERFECT CUBE?",
         "options": [
           "2",
-          "3 (multiplying by 3 makes 3² into 3³, giving 2³ x 3³ = 216 = 6³)",
+          "3",
           "6",
           "4"
         ],
@@ -22266,12 +22266,12 @@ const FULL_GAMES_CATALOG = [
         "explanation": "Shift the decimal point 6 places to the right to place it after 5: 5 x 10⁻⁶ meters!"
       },
       {
-        "prompt": "What is the value of 3⁻²? (By negative exponent rule: a⁻ⁿ = 1 / aⁿ)",
+        "prompt": "What is the value of 3⁻²?",
         "options": [
           "-6",
           "-9",
           "1/6",
-          "1/9 (1 / 3² = 1 / 9)"
+          "1/9"
         ],
         "answer": 3,
         "explanation": "A negative power denotes the reciprocal of the positive power: 3⁻² = 1 / 3² = 1/9!"
@@ -22327,7 +22327,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "Divide by 2 and add 1",
           "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: (1+6) - (3+4) = 7 - 7 = 0 (Divisible!)",
+          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
           "The number must end in 1"
         ],
         "answer": 2,
@@ -22338,8 +22338,8 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "435 (odd number)",
           "431",
-          "430 (sum 4+3+0 = 7, not divisible by 3)",
-          "432 (ends in even 2, and sum 4+3+2 = 9 is divisible by 3)"
+          "430",
+          "432"
         ],
         "answer": 3,
         "explanation": "432 is even (divisible by 2) and its digits sum to 9 (divisible by 3). Therefore, it is divisible by 6!"
@@ -22369,7 +22369,7 @@ const FULL_GAMES_CATALOG = [
     "topic": "Fractions, Decimals & Rational Numbers",
     "questions": [
       {
-        "prompt": "How many rational numbers exist between ANY two given rational numbers (e.g., between 1/3 and 1/2)?",
+        "prompt": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
           "Only 1",
           "Zero",
@@ -22380,11 +22380,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "The Rational Number Line is 'dense': you can insert infinitely many fractions between any two points!"
       },
       {
-        "prompt": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) = 1/2 x (1/4 + 2/4) =",
+        "prompt": "Find a rational number exactly MIDWAY (average) between 1/4 and 1/2: 1/2 x (1/4 + 1/2) =",
         "options": [
           "2/6",
           "1/3",
-          "3/8 (1/2 x 3/4 = 3/8)",
+          "3/8",
           "5/8"
         ],
         "answer": 2,
@@ -22442,7 +22442,7 @@ const FULL_GAMES_CATALOG = [
           "Addition (a + b = b + a)",
           "Multiplication (a x b = b x a)",
           "All operations are commutative",
-          "Subtraction and Division (e.g., 5 - 3 ≠ 3 - 5; 8 ÷ 2 ≠ 2 ÷ 8)"
+          "Subtraction and Division"
         ],
         "answer": 3,
         "explanation": "5 - 3 = 2, but 3 - 5 = -2! Subtraction and division depend on order, so they are NOT commutative."
@@ -22452,7 +22452,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "0",
           "+11/7",
-          "+7/11 (since -7/11 + 7/11 = 0)",
+          "+7/11",
           "-11/7"
         ],
         "answer": 2,
@@ -22540,12 +22540,12 @@ const FULL_GAMES_CATALOG = [
     "topic": "Ratio & Proportion",
     "questions": [
       {
-        "prompt": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers: (6 x 12 = 12 x days)",
+        "prompt": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
           "Direct proportion: 24 days",
           "12 days",
           "3 days",
-          "INVERSE PROPORTION: 6 days (More workers mean FEWER days: 72 / 12 = 6 days)"
+          "INVERSE PROPORTION: 6 days"
         ],
         "answer": 3,
         "explanation": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -22556,16 +22556,16 @@ const FULL_GAMES_CATALOG = [
           "Zero proportion",
           "Inverse proportion",
           "Negative proportion",
-          "DIRECT PROPORTION (as time increases, distance increases at constant ratio y/x = 60)"
+          "DIRECT PROPORTION"
         ],
         "answer": 3,
         "explanation": "Direct proportion: y/x = k (constant). More driving time directly yields proportionally greater distance!"
       },
       {
-        "prompt": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours? (Speed x Time = 60 x 4 = 240 km. Speed = 240 / 3)",
+        "prompt": "If a car travels from Delhi to Agra in 4 hours at 60 km/h, how fast must it drive to make the trip in 3 hours?",
         "options": [
           "90 km/h",
-          "80 km/h (240 / 3 = 80 km/h)",
+          "80 km/h",
           "70 km/h",
           "75 km/h"
         ],
@@ -23132,11 +23132,11 @@ const FULL_GAMES_CATALOG = [
         "explanation": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
       },
       {
-        "prompt": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees? Formula: Number of images n = (360° / θ) - 1",
+        "prompt": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
           "2 images",
           "4 images",
-          "3 images: (360 / 90) - 1 = 4 - 1 = 3 images",
+          "3 images: - 1 = 4 - 1 = 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -23636,7 +23636,7 @@ const FULL_GAMES_CATALOG = [
       {
         "prompt": "While Prairie farms produce high yield PER WORKER through machinery, why do Gangetic Plains farms produce high yield PER HECTARE?",
         "options": [
-          "Intensive manual multi-cropping (growing 2-3 crops per year on the same plot with meticulous irrigation and care)",
+          "Intensive manual multi-cropping",
           "They use robots exclusively",
           "Gangetic farms never harvest crops",
           "Because land is completely empty"
@@ -23866,7 +23866,7 @@ const FULL_GAMES_CATALOG = [
         "options": [
           "An old-age pension fund reserved exclusively for retired government employees",
           "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket (15-64 years), fueling economic growth",
+          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
           "A mandatory national tax imposed on families with more than two children"
         ],
         "answer": 2,

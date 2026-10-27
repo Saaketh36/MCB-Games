@@ -1902,7 +1902,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42. (Step 1: 5x = 42 - 7 = 35; Step 2: x = 35 / 5)",
+        "q": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42.",
         "options": [
           "x = 7 sheep",
           "x = 35 sheep",
@@ -1915,7 +1915,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "The perimeter of a rectangular playing field is 50 meters. If its length is 15 meters, solve for its width 'w' using: 2(15 + w) = 50.",
         "options": [
-          "w = 10 meters (15 + w = 25; w = 25 - 15 = 10 m)",
+          "w = 10 meters",
           "w = 15 m",
           "w = 20 m",
           "w = 5 m"
@@ -1945,7 +1945,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42. (Step 1: 5x = 42 - 7 = 35; Step 2: x = 35 / 5)",
+        "q": "Solve the linear equation for the number of sheep 'x': 5x + 7 = 42.",
         "options": [
           "x = 7 sheep",
           "x = 35 sheep",
@@ -1958,7 +1958,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "The perimeter of a rectangular playing field is 50 meters. If its length is 15 meters, solve for its width 'w' using: 2(15 + w) = 50.",
         "options": [
-          "w = 10 meters (15 + w = 25; w = 25 - 15 = 10 m)",
+          "w = 10 meters",
           "w = 15 m",
           "w = 20 m",
           "w = 5 m"
@@ -1991,7 +1991,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Simplify by combining LIKE TERMS: (4x² + 3x - 5) + (2x² - 5x + 8) =",
         "options": [
           "6x⁴ - 2x² + 3",
-          "6x² - 2x + 3 (Combine: 4x²+2x² = 6x²; 3x-5x = -2x; -5+8 = +3)",
+          "6x² - 2x + 3",
           "6x² + 8x + 13",
           "8x² - 2x - 3"
         ],
@@ -2034,7 +2034,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Simplify by combining LIKE TERMS: (4x² + 3x - 5) + (2x² - 5x + 8) =",
         "options": [
           "6x⁴ - 2x² + 3",
-          "6x² - 2x + 3 (Combine: 4x²+2x² = 6x²; 3x-5x = -2x; -5+8 = +3)",
+          "6x² - 2x + 3",
           "6x² + 8x + 13",
           "8x² - 2x - 3"
         ],
@@ -2096,7 +2096,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Contrasting adjacent bars and a legend allow effortless direct visual comparison across categories!"
       },
       {
-        "q": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block? (90 / 10)",
+        "q": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block?",
         "options": [
           "6.0 runs per over",
           "9.0 runs per over",
@@ -2139,7 +2139,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Contrasting adjacent bars and a legend allow effortless direct visual comparison across categories!"
       },
       {
-        "q": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block? (90 / 10)",
+        "q": "If a cricket team scored 60 runs in the first 10 overs and 90 runs in the next 10 overs, what was their run rate in the second block?",
         "options": [
           "6.0 runs per over",
           "9.0 runs per over",
@@ -2160,11 +2160,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings. (40 + 50 + 50 + 60 + 100) / 5 =",
+        "q": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings.",
         "options": [
           "65 runs",
           "50 runs",
-          "60 runs (300 / 5 = 60)",
+          "60 runs",
           "70 runs"
         ],
         "answer": 2,
@@ -2203,11 +2203,11 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings. (40 + 50 + 50 + 60 + 100) / 5 =",
+        "q": "Calculate the ARITHMETIC MEAN (average) score: Sum of runs / Number of innings.",
         "options": [
           "65 runs",
           "50 runs",
-          "60 runs (300 / 5 = 60)",
+          "60 runs",
           "70 runs"
         ],
         "answer": 2,
@@ -2357,7 +2357,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Can a triangle be constructed with side lengths 2 cm, 3 cm, and 6 cm?",
         "options": [
           "Yes, it forms an obtuse triangle",
-          "No (because 2 + 3 = 5, which is LESS than 6 cm; the sides cannot reach to close)",
+          "No",
           "Yes, it forms an acute triangle",
           "Yes, an equilateral triangle"
         ],
@@ -2400,7 +2400,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Can a triangle be constructed with side lengths 2 cm, 3 cm, and 6 cm?",
         "options": [
           "Yes, it forms an obtuse triangle",
-          "No (because 2 + 3 = 5, which is LESS than 6 cm; the sides cannot reach to close)",
+          "No",
           "Yes, it forms an acute triangle",
           "Yes, an equilateral triangle"
         ],
@@ -2433,7 +2433,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "20°",
           "90°",
-          "70° (180° - 110° = 70°)",
+          "70°",
           "80°"
         ],
         "answer": 2,
@@ -2444,7 +2444,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "145°",
-          "55° (90° - 35° = 55°)",
+          "55°",
           "65°"
         ],
         "answer": 2,
@@ -2476,7 +2476,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "20°",
           "90°",
-          "70° (180° - 110° = 70°)",
+          "70°",
           "80°"
         ],
         "answer": 2,
@@ -2487,7 +2487,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "145°",
-          "55° (90° - 35° = 55°)",
+          "55°",
           "65°"
         ],
         "answer": 2,
@@ -2676,12 +2676,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate the unknown angle 'x': 65° + 75° + x = 180°. (65 + 75 = 140; 180 - 140 = ?)",
+        "q": "Calculate the unknown angle 'x': 65° + 75° + x = 180°.",
         "options": [
           "30°",
           "50°",
           "45°",
-          "40° (180° - 140° = 40°)"
+          "40°"
         ],
         "answer": 3,
         "explain": "The angle sum of any triangle is 180°! 180° - (65° + 75°) = 180° - 140° = 40°."
@@ -2701,7 +2701,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In an EQUILATERAL TRIANGLE where all three angles are equal (x + x + x = 180°), what is the measure of each angle?",
         "options": [
           "50°",
-          "60° (180° / 3 = 60°)",
+          "60°",
           "90°",
           "45°"
         ],
@@ -2719,12 +2719,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate the unknown angle 'x': 65° + 75° + x = 180°. (65 + 75 = 140; 180 - 140 = ?)",
+        "q": "Calculate the unknown angle 'x': 65° + 75° + x = 180°.",
         "options": [
           "30°",
           "50°",
           "45°",
-          "40° (180° - 140° = 40°)"
+          "40°"
         ],
         "answer": 3,
         "explain": "The angle sum of any triangle is 180°! 180° - (65° + 75°) = 180° - 140° = 40°."
@@ -2744,7 +2744,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In an EQUILATERAL TRIANGLE where all three angles are equal (x + x + x = 180°), what is the measure of each angle?",
         "options": [
           "50°",
-          "60° (180° / 3 = 60°)",
+          "60°",
           "90°",
           "45°"
         ],
@@ -2762,23 +2762,23 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the area of the SQUARE basketball court? (Formula: side² = 20 x 20)",
+        "q": "What is the area of the SQUARE basketball court?",
         "options": [
           "80 m²",
           "200 m²",
           "40 m²",
-          "400 square meters (20 x 20 = 400 m²)"
+          "400 square meters"
         ],
         "answer": 3,
         "explain": "Area of a square = side x side = 20 m x 20 m = 400 m²!"
       },
       {
-        "q": "What is the area of the RECTANGULAR tennis lawn? (Formula: Length x Width = 30 x 12)",
+        "q": "What is the area of the RECTANGULAR tennis lawn?",
         "options": [
           "84 m²",
           "42 m²",
           "300 m²",
-          "360 square meters (30 x 12 = 360 m²)"
+          "360 square meters"
         ],
         "answer": 3,
         "explain": "Area of rectangle = Length x Breadth = 30 m x 12 m = 360 m²!"
@@ -2787,7 +2787,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the formula for the AREA OF A TRIANGLE with base 'b' and perpendicular height 'h'?",
         "options": [
           "2 x (Base + Height)",
-          "1/2 x Base x Height (1/2 x b x h)",
+          "1/2 x Base x Height",
           "Base + Height",
           "Base x Height"
         ],
@@ -2805,23 +2805,23 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is the area of the SQUARE basketball court? (Formula: side² = 20 x 20)",
+        "q": "What is the area of the SQUARE basketball court?",
         "options": [
           "80 m²",
           "200 m²",
           "40 m²",
-          "400 square meters (20 x 20 = 400 m²)"
+          "400 square meters"
         ],
         "answer": 3,
         "explain": "Area of a square = side x side = 20 m x 20 m = 400 m²!"
       },
       {
-        "q": "What is the area of the RECTANGULAR tennis lawn? (Formula: Length x Width = 30 x 12)",
+        "q": "What is the area of the RECTANGULAR tennis lawn?",
         "options": [
           "84 m²",
           "42 m²",
           "300 m²",
-          "360 square meters (30 x 12 = 360 m²)"
+          "360 square meters"
         ],
         "answer": 3,
         "explain": "Area of rectangle = Length x Breadth = 30 m x 12 m = 360 m²!"
@@ -2830,7 +2830,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the formula for the AREA OF A TRIANGLE with base 'b' and perpendicular height 'h'?",
         "options": [
           "2 x (Base + Height)",
-          "1/2 x Base x Height (1/2 x b x h)",
+          "1/2 x Base x Height",
           "Base + Height",
           "Base x Height"
         ],
@@ -2864,7 +2864,7 @@ Object.assign(window.GAME_CONTENT, {
           "42 cm²",
           "26 cm²",
           "58 cm²",
-          "50 cm²: 42 + (16 x 0.5) = 42 + 8 = 50 cm²"
+          "50 cm²: 42 + = 42 + 8 = 50 cm²"
         ],
         "answer": 3,
         "explain": "42 full squares + 8 (from 16 halves) = 50 cm² total estimated area!"
@@ -2907,7 +2907,7 @@ Object.assign(window.GAME_CONTENT, {
           "42 cm²",
           "26 cm²",
           "58 cm²",
-          "50 cm²: 42 + (16 x 0.5) = 42 + 8 = 50 cm²"
+          "50 cm²: 42 + = 42 + 8 = 50 cm²"
         ],
         "answer": 3,
         "explain": "42 full squares + 8 (from 16 halves) = 50 cm² total estimated area!"
@@ -2939,7 +2939,7 @@ Object.assign(window.GAME_CONTENT, {
           "100⁸",
           "10²",
           "10¹⁵",
-          "10⁸ (add powers: 3 + 5 = 8)"
+          "10⁸"
         ],
         "answer": 3,
         "explain": "When multiplying identical bases, add the exponents: 10³⁺⁵ = 10⁸!"
@@ -2950,7 +2950,7 @@ Object.assign(window.GAME_CONTENT, {
           "1⁴",
           "7³",
           "7⁸",
-          "7⁴ (subtract powers: 6 - 2 = 4)"
+          "7⁴"
         ],
         "answer": 3,
         "explain": "When dividing matching bases, subtract powers: 7⁶⁻² = 7⁴!"
@@ -2960,7 +2960,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The number itself",
           "Infinity",
-          "Always 1 (e.g., 5⁰ = 1, 100⁰ = 1)",
+          "Always 1",
           "0"
         ],
         "answer": 2,
@@ -2982,7 +2982,7 @@ Object.assign(window.GAME_CONTENT, {
           "100⁸",
           "10²",
           "10¹⁵",
-          "10⁸ (add powers: 3 + 5 = 8)"
+          "10⁸"
         ],
         "answer": 3,
         "explain": "When multiplying identical bases, add the exponents: 10³⁺⁵ = 10⁸!"
@@ -2993,7 +2993,7 @@ Object.assign(window.GAME_CONTENT, {
           "1⁴",
           "7³",
           "7⁸",
-          "7⁴ (subtract powers: 6 - 2 = 4)"
+          "7⁴"
         ],
         "answer": 3,
         "explain": "When dividing matching bases, subtract powers: 7⁶⁻² = 7⁴!"
@@ -3003,7 +3003,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The number itself",
           "Infinity",
-          "Always 1 (e.g., 5⁰ = 1, 100⁰ = 1)",
+          "Always 1",
           "0"
         ],
         "answer": 2,
@@ -3020,12 +3020,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8. (Remember: multiply by the reciprocal 8/1)",
+        "q": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8.",
         "options": [
           "4 jars",
           "2 jars",
           "8 jars",
-          "6 jars (3/4 x 8/1 = 24/4 = 6)"
+          "6 jars"
         ],
         "answer": 3,
         "explain": "Dividing by a fraction is multiplying by its reciprocal: 3/4 x 8/1 = 24/4 = 6 jars!"
@@ -3046,7 +3046,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "11/13",
           "1/2",
-          "3/5 (18/30 simplifies by dividing top and bottom by 6)",
+          "3/5",
           "18/13"
         ],
         "answer": 2,
@@ -3063,12 +3063,12 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8. (Remember: multiply by the reciprocal 8/1)",
+        "q": "How many 1/8 kg jars can Chef Kabir fill? Calculate: 3/4 ÷ 1/8.",
         "options": [
           "4 jars",
           "2 jars",
           "8 jars",
-          "6 jars (3/4 x 8/1 = 24/4 = 6)"
+          "6 jars"
         ],
         "answer": 3,
         "explain": "Dividing by a fraction is multiplying by its reciprocal: 3/4 x 8/1 = 24/4 = 6 jars!"
@@ -3089,7 +3089,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "11/13",
           "1/2",
-          "3/5 (18/30 simplifies by dividing top and bottom by 6)",
+          "3/5",
           "18/13"
         ],
         "answer": 2,
@@ -3117,7 +3117,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Rational numbers include integers, fractions, terminating decimals, and recurring decimals (p/q with q ≠ 0)!"
       },
       {
-        "q": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation? (-2.5 + 10.75)",
+        "q": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation?",
         "options": [
           "+8.25 meters above sea level",
           "-8.25 meters",
@@ -3130,7 +3130,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these rational numbers is GREATER: -3/4 or -1/4?",
         "options": [
-          "-1/4 is greater (it is closer to 0 on the number line: -0.25 > -0.75)",
+          "-1/4 is greater",
           "Negative fractions cannot be compared",
           "-3/4 is greater",
           "Both are equal"
@@ -3160,7 +3160,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Rational numbers include integers, fractions, terminating decimals, and recurring decimals (p/q with q ≠ 0)!"
       },
       {
-        "q": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation? (-2.5 + 10.75)",
+        "q": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation?",
         "options": [
           "+8.25 meters above sea level",
           "-8.25 meters",
@@ -3173,7 +3173,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these rational numbers is GREATER: -3/4 or -1/4?",
         "options": [
-          "-1/4 is greater (it is closer to 0 on the number line: -0.25 > -0.75)",
+          "-1/4 is greater",
           "Negative fractions cannot be compared",
           "-3/4 is greater",
           "Both are equal"
@@ -3192,7 +3192,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate: 0.25 x 1.6 = (Hint: 25 x 16 = 400; count 2 + 1 = 3 decimal places)",
+        "q": "Calculate: 0.25 x 1.6 =",
         "options": [
           "0.400 (or 0.4)",
           "0.04",
@@ -3203,7 +3203,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "25 x 16 = 400. Shift decimal 3 places left: 0.400 = 0.4!"
       },
       {
-        "q": "Calculate: 4.8 ÷ 0.6 = (Hint: multiply numerator and denominator by 10 to get 48 ÷ 6)",
+        "q": "Calculate: 4.8 ÷ 0.6 =",
         "options": [
           "0.8",
           "80",
@@ -3214,7 +3214,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Shift decimal by 1 place: 48 / 6 = 8!"
       },
       {
-        "q": "What happens when you DIVIDE any decimal number by 1,000 (e.g., 345.2 ÷ 1,000)?",
+        "q": "What happens when you DIVIDE any decimal number by 1,000?",
         "options": [
           "Three zeros are added at the end",
           "The number stays identical",
@@ -3235,7 +3235,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Calculate: 0.25 x 1.6 = (Hint: 25 x 16 = 400; count 2 + 1 = 3 decimal places)",
+        "q": "Calculate: 0.25 x 1.6 =",
         "options": [
           "0.400 (or 0.4)",
           "0.04",
@@ -3246,7 +3246,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "25 x 16 = 400. Shift decimal 3 places left: 0.400 = 0.4!"
       },
       {
-        "q": "Calculate: 4.8 ÷ 0.6 = (Hint: multiply numerator and denominator by 10 to get 48 ÷ 6)",
+        "q": "Calculate: 4.8 ÷ 0.6 =",
         "options": [
           "0.8",
           "80",
@@ -3257,7 +3257,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Shift decimal by 1 place: 48 / 6 = 8!"
       },
       {
-        "q": "What happens when you DIVIDE any decimal number by 1,000 (e.g., 345.2 ÷ 1,000)?",
+        "q": "What happens when you DIVIDE any decimal number by 1,000?",
         "options": [
           "Three zeros are added at the end",
           "The number stays identical",
@@ -3304,7 +3304,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "+15",
           "-10",
-          "-30 (two negatives make +6; then +6 x -5 = -30)",
+          "-30",
           "+30"
         ],
         "answer": 2,
@@ -3347,7 +3347,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "+15",
           "-10",
-          "-30 (two negatives make +6; then +6 x -5 = -30)",
+          "-30",
           "+30"
         ],
         "answer": 2,
@@ -3364,10 +3364,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is Anita's PROFIT PERCENTAGE? Formula: (Profit / CP) x 100%. Profit = 3,600 - 3,000 = ₹600.",
+        "q": "What is Anita's PROFIT PERCENTAGE?",
         "options": [
           "15%",
-          "20% profit: (600 / 3000) x 100% = 20%",
+          "20% profit: x 100% = 20%",
           "60%",
           "25%"
         ],
@@ -3379,16 +3379,16 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "₹500",
           "₹1,200",
-          "₹600: (5000 x 6 x 2) / 100 = 60,000 / 100 = ₹600",
+          "₹600: / 100 = 60,000 / 100 = ₹600",
           "₹300"
         ],
         "answer": 2,
         "explain": "SI = (5,000 x 6 x 2) / 100 = ₹600 in simple interest!"
       },
       {
-        "q": "What is the total AMOUNT (A) repayable to the bank after 2 years? Formula: Principal + Interest",
+        "q": "What is the total AMOUNT (A) repayable to the bank after 2 years?",
         "options": [
-          "₹5,600 (5,000 + 600 = ₹5,600)",
+          "₹5,600",
           "₹5,000",
           "₹6,200",
           "₹6,000"
@@ -3407,10 +3407,10 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "What is Anita's PROFIT PERCENTAGE? Formula: (Profit / CP) x 100%. Profit = 3,600 - 3,000 = ₹600.",
+        "q": "What is Anita's PROFIT PERCENTAGE?",
         "options": [
           "15%",
-          "20% profit: (600 / 3000) x 100% = 20%",
+          "20% profit: x 100% = 20%",
           "60%",
           "25%"
         ],
@@ -3422,16 +3422,16 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "₹500",
           "₹1,200",
-          "₹600: (5000 x 6 x 2) / 100 = 60,000 / 100 = ₹600",
+          "₹600: / 100 = 60,000 / 100 = ₹600",
           "₹300"
         ],
         "answer": 2,
         "explain": "SI = (5,000 x 6 x 2) / 100 = ₹600 in simple interest!"
       },
       {
-        "q": "What is the total AMOUNT (A) repayable to the bank after 2 years? Formula: Principal + Interest",
+        "q": "What is the total AMOUNT (A) repayable to the bank after 2 years?",
         "options": [
-          "₹5,600 (5,000 + 600 = ₹5,600)",
+          "₹5,600",
           "₹5,000",
           "₹6,200",
           "₹6,000"
@@ -3450,7 +3450,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%): (60/80 x 100%)",
+        "q": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%):",
         "options": [
           "80%",
           "75%: 60/80 = 3/4 = 0.75 = 75%",
@@ -3461,7 +3461,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "60/80 simplifies to 3/4. 3/4 x 100% = 75%!"
       },
       {
-        "q": "Convert 35% into a simplified common fraction: (35 / 100)",
+        "q": "Convert 35% into a simplified common fraction:",
         "options": [
           "3/5",
           "7/10",
@@ -3472,9 +3472,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35/100 simplifies by 5: 35÷5 / 100÷5 = 7/20!"
       },
       {
-        "q": "What is 15% of ₹400? (15/100 x 400)",
+        "q": "What is 15% of ₹400?",
         "options": [
-          "₹60 (15 x 4 = 60)",
+          "₹60",
           "₹15",
           "₹80",
           "₹40"
@@ -3493,7 +3493,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%): (60/80 x 100%)",
+        "q": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%):",
         "options": [
           "80%",
           "75%: 60/80 = 3/4 = 0.75 = 75%",
@@ -3504,7 +3504,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "60/80 simplifies to 3/4. 3/4 x 100% = 75%!"
       },
       {
-        "q": "Convert 35% into a simplified common fraction: (35 / 100)",
+        "q": "Convert 35% into a simplified common fraction:",
         "options": [
           "3/5",
           "7/10",
@@ -3515,9 +3515,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "35/100 simplifies by 5: 35÷5 / 100÷5 = 7/20!"
       },
       {
-        "q": "What is 15% of ₹400? (15/100 x 400)",
+        "q": "What is 15% of ₹400?",
         "options": [
-          "₹60 (15 x 4 = 60)",
+          "₹60",
           "₹15",
           "₹80",
           "₹40"
@@ -3536,7 +3536,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes (a x d) and Product of Means (b x c)?",
+        "q": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes and Product of Means?",
         "options": [
           "Product of Extremes MUST EQUAL Product of Means (a x d = b x c)",
           "They must sum to zero",
@@ -3549,7 +3549,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Test [ 15, 45, 40, 120 ]: Extremes = 15 x 120 = 1,800. Means = 45 x 40 = 1,800. Are they in proportion?",
         "options": [
-          "Yes, they are in true proportion (1,800 = 1,800; both ratios simplify to 1:3)",
+          "Yes, they are in true proportion",
           "Impossible to determine",
           "No, they are not",
           "Only during multiplication"
@@ -3558,7 +3558,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "15/45 = 1/3, and 40/120 = 1/3. Both ratios are identical (1:3), so they are in proportion!"
       },
       {
-        "q": "Find 'x' in the proportion: 4 : 5 :: 12 : x. (4x = 5 x 12 = 60; x = 60 / 4)",
+        "q": "Find 'x' in the proportion: 4 : 5 :: 12 : x.",
         "options": [
           "x = 10",
           "x = 25",
@@ -3579,7 +3579,7 @@ Object.assign(window.GAME_CONTENT, {
     "instructions": [],
     "questions": [
       {
-        "q": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes (a x d) and Product of Means (b x c)?",
+        "q": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes and Product of Means?",
         "options": [
           "Product of Extremes MUST EQUAL Product of Means (a x d = b x c)",
           "They must sum to zero",
@@ -3592,7 +3592,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Test [ 15, 45, 40, 120 ]: Extremes = 15 x 120 = 1,800. Means = 45 x 40 = 1,800. Are they in proportion?",
         "options": [
-          "Yes, they are in true proportion (1,800 = 1,800; both ratios simplify to 1:3)",
+          "Yes, they are in true proportion",
           "Impossible to determine",
           "No, they are not",
           "Only during multiplication"
@@ -3601,7 +3601,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "15/45 = 1/3, and 40/120 = 1/3. Both ratios are identical (1:3), so they are in proportion!"
       },
       {
-        "q": "Find 'x' in the proportion: 4 : 5 :: 12 : x. (4x = 5 x 12 = 60; x = 60 / 4)",
+        "q": "Find 'x' in the proportion: 4 : 5 :: 12 : x.",
         "options": [
           "x = 10",
           "x = 25",
@@ -3649,7 +3649,7 @@ Object.assign(window.GAME_CONTENT, {
           "It can be bent back into ribbon",
           "It is just melting like butter",
           "The metal is simply evaporating",
-          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide (2Mg + O₂ -> 2MgO)"
+          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide"
         ],
         "answer": 3,
         "explain": "2Mg + O₂ -> 2MgO is a synthesis combustion reaction creating a novel compound!"
@@ -3692,7 +3692,7 @@ Object.assign(window.GAME_CONTENT, {
           "It can be bent back into ribbon",
           "It is just melting like butter",
           "The metal is simply evaporating",
-          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide (2Mg + O₂ -> 2MgO)"
+          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide"
         ],
         "answer": 3,
         "explain": "2Mg + O₂ -> 2MgO is a synthesis combustion reaction creating a novel compound!"
@@ -4407,7 +4407,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Equal distance covered in equal intervals of time produces a linear constant-slope graph (uniform speed)!"
       },
       {
-        "q": "What does the SLOPE (gradient) of a Distance-Time graph represent physically? (Slope = Change in Distance / Change in Time)",
+        "q": "What does the SLOPE (gradient) of a Distance-Time graph represent physically?",
         "options": [
           "Total fuel consumed",
           "Speed (Velocity)",
@@ -4420,7 +4420,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the Distance-Time line on graph paper becomes completely HORIZONTAL (flat parallel to time axis), what is the state of the object?",
         "options": [
-          "The object is at REST (stationary, speed = 0)",
+          "The object is at REST",
           "The object is moving at light speed",
           "Time has stopped",
           "The object is falling down"
@@ -4450,7 +4450,7 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Equal distance covered in equal intervals of time produces a linear constant-slope graph (uniform speed)!"
       },
       {
-        "q": "What does the SLOPE (gradient) of a Distance-Time graph represent physically? (Slope = Change in Distance / Change in Time)",
+        "q": "What does the SLOPE (gradient) of a Distance-Time graph represent physically?",
         "options": [
           "Total fuel consumed",
           "Speed (Velocity)",
@@ -4463,7 +4463,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the Distance-Time line on graph paper becomes completely HORIZONTAL (flat parallel to time axis), what is the state of the object?",
         "options": [
-          "The object is at REST (stationary, speed = 0)",
+          "The object is at REST",
           "The object is moving at light speed",
           "Time has stopped",
           "The object is falling down"
@@ -4579,9 +4579,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Time period is the duration required for one complete cyclic swing from extreme to extreme and back!"
       },
       {
-        "q": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period? (40 s / 20 oscillations)",
+        "q": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period?",
         "options": [
-          "2.0 seconds (40 / 20 = 2.0 s)",
+          "2.0 seconds",
           "20 seconds",
           "800 seconds",
           "0.5 seconds"
@@ -4622,9 +4622,9 @@ Object.assign(window.GAME_CONTENT, {
         "explain": "Time period is the duration required for one complete cyclic swing from extreme to extreme and back!"
       },
       {
-        "q": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period? (40 s / 20 oscillations)",
+        "q": "If a student counts 20 complete oscillations of a pendulum in 40 seconds, what is its Time Period?",
         "options": [
-          "2.0 seconds (40 / 20 = 2.0 s)",
+          "2.0 seconds",
           "20 seconds",
           "800 seconds",
           "0.5 seconds"

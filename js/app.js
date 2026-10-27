@@ -462,7 +462,7 @@ function renderGamesGrid() {
         card.className = `game-card ${allCompleted ? 'game-card-all-completed' : ''}`;
         card.innerHTML = `
                     <div class="game-thumb-wrap" style="height: 135px;">
-                        <img src="${game.thumb}" alt="${game.title}" class="game-thumb-img" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80'">
+                        <img src="${game.thumb}" alt="${game.title}" class="game-thumb-img" onerror="if(!this.src.endsWith('.svg')){this.src='images/thumbnails/${game.id}.svg';}">
                         <span class="subject-badge-pill ${game.badgeClass}">${game.subject}</span>
                         ${game.isCustom ? '<span class="tac-badge tac-badge-custom" style="position: absolute; top: 10px; right: 10px; z-index: 3; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">⭐ Custom</span>' : ''}
                         ${allCompleted
@@ -2984,7 +2984,7 @@ function renderSplitViews() {
         return `
                             <div class="game-card" style="box-shadow: 0 4px 14px rgba(0,0,0,0.05); border-radius: 16px; overflow: hidden;">
                                 <div class="game-thumb-wrap" style="height: 110px;">
-                                    <img src="${game.thumb}" alt="${game.title}" class="game-thumb-img">
+                                    <img src="${game.thumb}" alt="${game.title}" class="game-thumb-img" onerror="if(!this.src.endsWith('.svg')){this.src='images/thumbnails/${game.id}.svg';}">
                                     <span class="subject-badge-pill ${game.badgeClass}">${game.subject}</span>
                                     ${isDone ? '<span class="game-status-pill"><span>✓</span> Progress Active</span>' : ''}
                                 </div>

@@ -557,8 +557,16 @@ def build_all():
 
     for idx, game in enumerate(games):
         entry = generate_diorama_scene(game)
+        gid = entry['id']
+        jpg_path = os.path.join('images', 'thumbnails', f"{gid}.jpg")
+        if os.path.exists(jpg_path):
+            thumb_path = f"images/thumbnails/{gid}.jpg"
+        else:
+            thumb_path = f"images/thumbnails/{gid}.svg"
+        entry['thumb'] = thumb_path
         thumbnails_dataset.append(entry)
         # Enrich the game record directly
+        game['thumb'] = thumb_path
         game['dioramaScene'] = entry['dioramaScene']
         game['imagePrompt'] = entry['imagePrompt']
 
@@ -638,3 +646,4 @@ def build_all():
 
 if __name__ == '__main__':
     build_all()
+

@@ -28,6 +28,15 @@ print(f"All 440 have structured diorama scenes: {all_have_scenes}")
 print(f"All 440 preserve UI constraint (clean top-right gradient sky for badge): {all_have_top_right_sky}")
 print(f"All 440 feature floating green island diorama aesthetic: {all_have_island}")
 
+# Validate thumbnail file references
+import os
+zero_old_placeholders = all('game_' not in g.get('thumb', '') for g in games)
+all_thumbs_exist = all(os.path.exists(g.get('thumb', '')) for g in games)
+print(f"All 440 have replaced generic placeholders with bespoke thumbnails: {zero_old_placeholders}")
+print(f"All 440 thumbnail image files exist on disk: {all_thumbs_exist}")
+assert zero_old_placeholders, "Error: Some games still reference old generic placeholders!"
+assert all_thumbs_exist, "Error: Some thumbnail image files do not exist on disk!"
+
 # Check breakdown by class
 by_class = {}
 for t in thumbnails:
@@ -47,3 +56,4 @@ for t in thumbnails:
 print("\nActivity Breakdown by Subject:")
 for s, count in sorted(by_subj.items()):
     print(f"  {s}: {count} activities")
+

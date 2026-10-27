@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "install": "npm install",
-    "dev": "concurrently -k -n server,browser \"python app.py\" \"node open-browser.js\"",
+    "dev": "concurrently -k -n server,browser \"python app.py\" \"node scripts/open-browser.js\"",
     "dev:full": "npm run dev",
     "start": "python app.py",
     "start:full": "python app.py",

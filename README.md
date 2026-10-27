@@ -79,12 +79,12 @@ Open your browser and navigate to:
 ├── setup_database.py            # Automated PostgreSQL database initializer
 ├── RUN_SETUP.bat                # 1-click Windows database setup launcher
 ├── full_games_catalog.js        # Catalog of 325 curriculum games with rich question data
-├── score_client.js              # Client-side scoring and audio integration script
 ├── curriculum-data.js           # Curriculum hierarchy (Classes, Subjects, Skills, Activities)
 ├── curriculum_catalog.json      # Valid curriculum combinations for validation
 ├── requirements.txt             # Python dependencies
 ├── package.json                 # Node scripts & dependencies
-├── .env                         # Environment settings & database URL
+├── .env                         # Local environment settings & database URL (git-ignored)
+├── .env.example                 # Sanitized environment configuration template
 │
 ├── audio/                       # Spoken voice narrations (WAV) & sound effects
 ├── content/                     # Class-specific modular game content (class-I.js ... class-VIII.js)
@@ -100,7 +100,11 @@ Open your browser and navigate to:
 │   ├── reports/                 # Verification certificates and audit logs
 │   └── design/                  # UI design tokens, templates, and wireframes
 ├── images/                      # Game thumbnails, subject banners, and UI icons
-├── legacy/                      # Archived early multi-page portals & dashboards
+├── scripts/                     # Developer automation & launcher scripts (open-browser.js)
+├── legacy/                      # Archived early iterations, standalone games & flat JSON stores
+│   ├── standalone_games/        # 46 early standalone HTML games & score_client.js
+│   ├── data/                    # Legacy flat JSON stores (assignments, completions, games-data)
+│   └── generators/              # Early standalone game generators (create_all_games.py)
 ├── tools/                       # Maintenance scripts, bank auditors, and audio generators
 └── videos/                      # Lesson video metadata and content
 ```
@@ -128,7 +132,7 @@ Open your browser and navigate to:
 
 ## 📚 Documentation Library
 
-For in-depth guides, architecture specifications, and setup instructions, consult the [docs/](file:///d:/New%20folder/Games/docs/README.md) directory:
+For in-depth guides, architecture specifications, and setup instructions, consult the [docs/](docs/README.md) directory:
 
 * [Database Setup Guide](docs/setup/DATABASE-SETUP-GUIDE.md)
 * [Environment Configuration Guide](docs/setup/ENV-SETUP-GUIDE.md)

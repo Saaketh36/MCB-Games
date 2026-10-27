@@ -1252,7 +1252,17 @@ document.addEventListener('click', (e) => {
 
 function cleanQuestionPrompt(text) {
     if (!text || typeof text !== 'string') return text || '';
-    return text.replace(/^\s*\[Class\s+[^\]]+\]\s*/i, '').trim();
+    // Strip any leading bracketed metadata tags like [IV Science], [Class IV], [Science], [Grade 4 Math]
+    return text.replace(/^\s*\[(?:Class\s*|Grade\s*)?[IVXLCDM\d\s\-_:\/|a-zA-Z]+\]\s*/i, '').trim();
+}
+
+function cleanVisualHint(hint) {
+    if (!hint || typeof hint !== 'string') return '';
+    let h = hint.trim();
+    for (let i = 0; i < 3; i++) {
+        h = h.replace(/^(?:(?:[\uD800-\uDBFF][\uDC00-\uDFFF]|[\u2600-\u27BF]|\uFE0F|\s)*(?:Visual\s*Clue|Clue|Hint)\s*:\s*)+/gi, '').trim();
+    }
+    return h;
 }
 
 function selectReadingMCQAnswer(idx) {
@@ -1563,7 +1573,7 @@ function renderQuestStep() {
             }
 
             if (hasClue) {
-                cluePill.textContent = q.visual_hint;
+                cluePill.textContent = '💡 Visual Clue: ' + cleanVisualHint(q.visual_hint);
                 cluePill.style.display = 'inline-flex';
             } else {
                 cluePill.textContent = '';
@@ -2104,7 +2114,7 @@ function finishQuestAndShowReview() {
 
                     ${q.visual_hint ? `
                     <div style="font-size: 12.5px; color: #4338ca; background: #eef2ff; border-radius: 8px; padding: 6px 12px; margin-top: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
-                        <span>🎨 Visual Clue:</span> ${escapeHtml(q.visual_hint)}
+                        <span>🎨 Visual Clue:</span> ${escapeHtml(cleanVisualHint(q.visual_hint))}
                     </div>
                     ` : ''}
                 `;
@@ -4779,7 +4789,7 @@ function renderQuestionBlocks() {
                     </div>
                     ${q.visual_hint ? `
                         <div style="font-size: 12px; color: #4338ca; background: #eef2ff; border-radius: 8px; padding: 5px 10px; margin-bottom: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
-                            <span>💡 Clue:</span> ${escapeHtml(q.visual_hint)}
+                            <span>💡 Clue:</span> ${escapeHtml(cleanVisualHint(q.visual_hint))}
                         </div>
                     ` : ''}
                     ${q.svg_diagram ? `

@@ -1935,7 +1935,7 @@
       function renderDock() {
         dock.innerHTML = '';
         unplaced.forEach(it => {
-          const itemText = it.text || it.label || '';
+          const itemText = it.card_text || it.content || it.text || it.label || '';
           const card = document.createElement('button');
           card.type = 'button';
           card.className = `c2-tactile-card ${selectedItem === it ? 'selected' : ''}`;
@@ -1959,7 +1959,7 @@
         bucket.dataset.bucketId = b.id;
 
         bucket.innerHTML = `
-          <div class="c2-bucket-title">${b.label}</div>
+          <div class="c2-bucket-title">${b.basket_label || b.category_name || b.label}</div>
           <div class="c2-bucket-items-well" id="well_${b.id}"></div>
         `;
 

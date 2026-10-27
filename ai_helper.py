@@ -31,10 +31,17 @@ def clean_option_text(opt):
     return OPT_MATH_PAREN_RE.sub('', opt).strip()
 
 def clean_prompt_text(prompt):
-    """Strip math operators, formulas, and calculation hints from question stem."""
+    """Strip math operators, formulas, calculation hints, and internal metadata tags from question stem."""
     if not isinstance(prompt, str):
         return str(prompt or "")
     p = prompt.strip()
+    # Strip leading bracketed metadata tags like [IV Science], [Class IV], [Science], [Grade 4 Math]
+    p = re.sub(
+        r'^\s*\[(?:Class\s*|Grade\s*)?[IVXLCDM\d\s\-_:\/|a-zA-Z]+\]\s*',
+        '',
+        p,
+        flags=re.IGNORECASE
+    ).strip()
     if '?' in p:
         p = re.sub(
             r'\?\s*(?:\([^)]*[\+\-\*\/\=x×÷][^)]*\)|[0-9x\s\*\/\+\-]+\([A-Z\s\+\-]+\)|Formula:.*|Hint:.*|Remember:.*|\(Find the Lowest Common Multiple.*|\(By negative exponent rule.*|\(Slope\s*=.*|\(Speed\s*x\s*Time.*|\(Step\s*\d+.*).*$',
@@ -55,6 +62,21 @@ def clean_prompt_text(prompt):
         flags=re.IGNORECASE
     )
     return p.strip()
+
+def clean_visual_hint(hint):
+    """Strip repeated label prefixes like 'Visual Clue:', '💡 Visual Clue:', or redundant duplicate markers."""
+    if not isinstance(hint, str):
+        return ""
+    h = hint.strip()
+    # Iteratively strip repeated label prefixes like "Visual Clue: 🪐 Visual Clue: ☀️ ..."
+    for _ in range(3):
+        h = re.sub(
+            r'^(?:(?:[\U00010000-\U0010ffff\u2600-\u27bf\u2300-\u23ff\u2b50\ufe0f\s]*)(?:Visual\s*Clue|Clue|Hint)\s*:\s*)+',
+            '',
+            h,
+            flags=re.IGNORECASE
+        ).strip()
+    return h
 
 # =====================================================================
 # 1. LIVE GEMINI GENERATION
@@ -151,75 +173,216 @@ def get_topic_visual_clue_and_svg(topic, subject, class_name, q_index=0):
 
     if any(k in t for k in ["electric", "circuit", "bulb", "current", "switch", "battery"]):
         clues = [
-            "💡 Visual Clue: 🔋 A circuit needs an unbroken loop from battery to bulb!",
-            "⚡ Visual Clue: 🔌 Copper wires conduct electricity; switches safely open and close circuits!",
-            "⚠️ Visual Clue: 💧 Water conducts electricity—always keep hands dry around plugs!"
+            "A circuit needs an unbroken loop from battery to bulb! 🔋💡",
+            "Copper wires conduct electricity; switches safely open and close circuits! 🔌⚡",
+            "Water conducts electricity—always keep hands dry around plugs! 💧⚠️"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["electricity"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["electricity"]
 
     elif any(k in t for k in ["magnet", "pole", "compass", "attract", "repel"]):
         clues = [
-            "🧲 Visual Clue: Opposite poles attract (N + S), while like poles repel (N + N)!",
-            "🧭 Visual Clue: A magnetic compass needle always aligns towards Earth's North!",
-            "📎 Visual Clue: Magnets pull iron, steel, and nickel, but leave wood and plastic alone!"
+            "Opposite poles attract (N + S), while like poles repel (N + N)! 🧲",
+            "A magnetic compass needle always aligns towards Earth's North! 🧭",
+            "Magnets pull iron, steel, and nickel, but leave wood and plastic alone! 📎"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["magnet"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["magnet"]
 
     elif any(k in t for k in ["plant", "leaf", "root", "photosynth", "seed", "flower", "tree"]):
         clues = [
-            "🌱 Visual Clue: ☀️ Sunlight + 💧 Soil Water + 🍃 Chlorophyll = Delicious plant food!",
-            "🌸 Visual Clue: Roots drink water underground, while green leaves capture the sunshine!",
-            "🌿 Visual Clue: Tiny stomata pores on leaves breathe in carbon dioxide and exhale fresh oxygen!"
+            "Sunlight + Soil Water + Chlorophyll = Delicious plant food! ☀️🌱🍃",
+            "Roots drink water underground, while green leaves capture the sunshine! 🌸🌾",
+            "Tiny stomata pores on leaves breathe in carbon dioxide and exhale fresh oxygen! 🌿"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["plants"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["plants"]
 
     elif any(k in t for k in ["planet", "solar", "sun", "moon", "space", "orbit", "mars", "earth"]):
         clues = [
-            "🪐 Visual Clue: ☀️ The Sun anchors the center; planets orbit in curved paths!",
-            "🌍 Visual Clue: Earth takes 365 days to orbit the Sun, and 24 hours to spin on its axis!",
-            "🔴 Visual Clue: Mars appears red because its soil is rich in iron rust!"
+            "The Sun anchors the center; planets orbit in curved paths! ☀️🪐",
+            "Earth takes 365 days to orbit the Sun, and 24 hours to spin on its axis! 🌍",
+            "Mars appears red because its soil is rich in iron rust! 🔴"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["solar system"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["solar system"]
 
     elif any(k in t for k in ["water", "rain", "evaporat", "condens", "cloud", "cycle"]):
         clues = [
-            "🌧️ Visual Clue: ☀️ Heat evaporates water into clouds, which then cool and rain back down!",
-            "💧 Visual Clue: Water freezes into solid ice at 0°C (32°F) and boils into steam at 100°C!",
-            "☁️ Visual Clue: Floating clouds are made of billions of tiny condensed water droplets!"
+            "Heat evaporates water into clouds, which then cool and rain back down! 🌧️💧",
+            "Water freezes into solid ice at 0°C (32°F) and boils into steam at 100°C! 🧊☕",
+            "Floating clouds are made of billions of tiny condensed water droplets! ☁️"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["water"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["water"]
 
     elif any(k in t for k in ["fraction", "ratio", "half", "quarter", "percent", "divide"]):
         clues = [
-            "🍕 Visual Clue: Sharing a pizza into 4 equal slices makes each slice 1/4 of the whole!",
-            "🍰 Visual Clue: The denominator (bottom) is total parts; numerator (top) is the chosen parts!",
-            "📊 Visual Clue: 1/2 is equal to 50% and 2/4!"
+            "Sharing a pizza into 4 equal slices makes each slice 1/4 of the whole! 🍕",
+            "The denominator (bottom) is total parts; numerator (top) is the chosen parts! 🍰",
+            "1/2 is equal to 50% and 2/4! 📊"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["fractions"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["fractions"]
 
     elif any(k in t for k in ["shape", "geometry", "triangle", "angle", "polygon", "circle"]):
         clues = [
-            "📐 Visual Clue: Count corners and sides: Triangle = 3, Rectangle = 4, Pentagon = 5!",
-            "🔷 Visual Clue: A square has 4 equal sides and four right (90°) angles!",
-            "⚪ Visual Clue: A circle has zero straight sides and curves continuously 360°!"
+            "Count corners and sides: Triangle = 3, Rectangle = 4, Pentagon = 5! 📐",
+            "A square has 4 equal sides and four right (90°) angles! 🔷",
+            "A circle has zero straight sides and curves continuously 360°! ⚪"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["shapes"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["shapes"]
 
     elif any(k in t for k in ["body", "heart", "organ", "bone", "skeleton", "blood", "lung"]):
         clues = [
-            "❤️ Visual Clue: Your heart beats ~100,000 times a day to pump life-giving blood!",
-            "🫁 Visual Clue: Lungs expand like sponges to exchange oxygen into your bloodstream!",
-            "🦴 Visual Clue: 206 bones form your skeletal frame to protect vital organs and let you move!"
+            "Your heart beats ~100,000 times a day to pump life-giving blood! ❤️",
+            "Lungs expand like sponges to exchange oxygen into your bloodstream! 🫁",
+            "206 bones form your skeletal frame to protect vital organs and let you move! 🦴"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["human body"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["human body"]
 
     else:
         clues = [
-            f"✨ Visual Clue: Focus on fundamental {subject} principles for Class {class_name}!",
-            "🔍 Visual Clue: Eliminate options that contradict basic classroom rules!",
-            "🎯 Visual Clue: Look for key definitions and think step-by-step!"
+            f"Focus on fundamental {subject} principles for Class {class_name}! ✨",
+            "Eliminate options that contradict basic classroom rules! 🔍",
+            "Look for key definitions and think step-by-step! 🎯"
         ]
-        return clues[q_index % len(clues)], TOPIC_SVG_LIBRARY["default"]
+        return clean_visual_hint(clues[q_index % len(clues)]), TOPIC_SVG_LIBRARY["default"]
+
+
+def get_curriculum_interactive_sorter_data(topic, target_bucket_count=2):
+    """
+    Returns authentic curriculum-aligned categories and educational cards for sorter game templates.
+    NEVER uses generic placeholders like 'Group A', 'Group B', 'Primary Fact', or 'Application 1'.
+    Every card item contains 'text', 'card_text', and 'content'.
+    Every bucket container contains 'id', 'label', 'basket_label', and 'category_name'.
+    """
+    clean_topic = str(topic or "General Knowledge").strip()
+    t_low = clean_topic.lower()
+
+    if any(k in t_low for k in ["solar", "planet", "sun", "moon", "space", "orbit", "universe", "astronomy"]):
+        buckets = [
+            {"id": "b1", "label": "Planets 🪐", "basket_label": "Planets 🪐", "category_name": "Planets", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": "Moons & Comets ☄️", "basket_label": "Moons & Comets ☄️", "category_name": "Moons & Comets", "color": "#8b5cf6", "border": "#7c3aed"}
+        ]
+        items = [
+            {"text": "Mercury", "card_text": "Mercury", "content": "Mercury", "icon": "🪐", "bucket": "b1"},
+            {"text": "Jupiter", "card_text": "Jupiter", "content": "Jupiter", "icon": "🪐", "bucket": "b1"},
+            {"text": "Mars", "card_text": "Mars", "content": "Mars", "icon": "🪐", "bucket": "b1"},
+            {"text": "Venus", "card_text": "Venus", "content": "Venus", "icon": "🪐", "bucket": "b1"},
+            {"text": "Halley's Comet", "card_text": "Halley's Comet", "content": "Halley's Comet", "icon": "☄️", "bucket": "b2"},
+            {"text": "Titan (Moon)", "card_text": "Titan (Moon)", "content": "Titan (Moon)", "icon": "🌕", "bucket": "b2"},
+            {"text": "Earth's Moon", "card_text": "Earth's Moon", "content": "Earth's Moon", "icon": "🌙", "bucket": "b2"},
+            {"text": "Ceres (Asteroid)", "card_text": "Ceres (Asteroid)", "content": "Ceres (Asteroid)", "icon": "☄️", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["electric", "circuit", "conductor", "insulator", "switch", "wire", "battery"]):
+        buckets = [
+            {"id": "b1", "label": "Conductors (Pass Current) ⚡", "basket_label": "Conductors ⚡", "category_name": "Electrical Conductors", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": "Insulators (Block Current) 🛡️", "basket_label": "Insulators 🛡️", "category_name": "Electrical Insulators", "color": "#f59e0b", "border": "#d97706"}
+        ]
+        items = [
+            {"text": "Copper Wire", "card_text": "Copper Wire", "content": "Copper Wire", "icon": "🔌", "bucket": "b1"},
+            {"text": "Iron Nail", "card_text": "Iron Nail", "content": "Iron Nail", "icon": "🔩", "bucket": "b1"},
+            {"text": "Steel Spoon", "card_text": "Steel Spoon", "content": "Steel Spoon", "icon": "🥄", "bucket": "b1"},
+            {"text": "Rubber Eraser", "card_text": "Rubber Eraser", "content": "Rubber Eraser", "icon": "🧼", "bucket": "b2"},
+            {"text": "Plastic Ruler", "card_text": "Plastic Ruler", "content": "Plastic Ruler", "icon": "📏", "bucket": "b2"},
+            {"text": "Dry Wood", "card_text": "Dry Wood", "content": "Dry Wood", "icon": "🪵", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["matter", "solid", "liquid", "gas", "state", "freeze", "boil"]):
+        buckets = [
+            {"id": "b1", "label": "Solids & Liquids 🧊💧", "basket_label": "Solids & Liquids 🧊💧", "category_name": "Solids & Liquids", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": "Gases & Vapours 💨", "basket_label": "Gases & Vapours 💨", "category_name": "Gases & Vapours", "color": "#8b5cf6", "border": "#7c3aed"}
+        ]
+        items = [
+            {"text": "Ice Cube", "card_text": "Ice Cube", "content": "Ice Cube", "icon": "🧊", "bucket": "b1"},
+            {"text": "Wooden Block", "card_text": "Wooden Block", "content": "Wooden Block", "icon": "🪵", "bucket": "b1"},
+            {"text": "Pure Water", "card_text": "Pure Water", "content": "Pure Water", "icon": "💧", "bucket": "b1"},
+            {"text": "Fresh Milk", "card_text": "Fresh Milk", "content": "Fresh Milk", "icon": "🥛", "bucket": "b1"},
+            {"text": "Water Vapour", "card_text": "Water Vapour", "content": "Water Vapour", "icon": "💨", "bucket": "b2"},
+            {"text": "Oxygen Gas", "card_text": "Oxygen Gas", "content": "Oxygen Gas", "icon": "🫧", "bucket": "b2"},
+            {"text": "Helium Balloon", "card_text": "Helium Balloon", "content": "Helium Balloon", "icon": "🎈", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["diet", "herbivore", "carnivore", "omnivore", "animal", "bird", "wild", "claws"]):
+        buckets = [
+            {"id": "b1", "label": "Herbivores (Plant Eaters) 🌿", "basket_label": "Herbivores (Plant Eaters) 🌿", "category_name": "Herbivores", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": "Carnivores (Meat Eaters) 🥩", "basket_label": "Carnivores (Meat Eaters) 🥩", "category_name": "Carnivores", "color": "#ef4444", "border": "#dc2626"}
+        ]
+        items = [
+            {"text": "Elephant", "card_text": "Elephant", "content": "Elephant", "icon": "🐘", "bucket": "b1"},
+            {"text": "Spotted Deer", "card_text": "Spotted Deer", "content": "Spotted Deer", "icon": "🦌", "bucket": "b1"},
+            {"text": "Giraffe", "card_text": "Giraffe", "content": "Giraffe", "icon": "🦒", "bucket": "b1"},
+            {"text": "Bengal Tiger", "card_text": "Bengal Tiger", "content": "Bengal Tiger", "icon": "🐅", "bucket": "b2"},
+            {"text": "Golden Eagle", "card_text": "Golden Eagle", "content": "Golden Eagle", "icon": "🦅", "bucket": "b2"},
+            {"text": "African Lion", "card_text": "African Lion", "content": "African Lion", "icon": "🦁", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["plant", "leaf", "root", "flower", "fruit", "botanical", "seed", "bloom"]):
+        buckets = [
+            {"id": "b1", "label": "Underground Roots & Stems 🥕", "basket_label": "Underground Roots 🥕", "category_name": "Underground Roots", "color": "#f59e0b", "border": "#d97706"},
+            {"id": "b2", "label": "Above-Ground Leaves & Flowers 🌸", "basket_label": "Leaves & Flowers 🌸", "category_name": "Leaves & Flowers", "color": "#10b981", "border": "#059669"}
+        ]
+        items = [
+            {"text": "Carrot Taproot", "card_text": "Carrot Taproot", "content": "Carrot Taproot", "icon": "🥕", "bucket": "b1"},
+            {"text": "Radish Root", "card_text": "Radish Root", "content": "Radish Root", "icon": "🌱", "bucket": "b1"},
+            {"text": "Potato Underground Stem", "card_text": "Potato Underground Stem", "content": "Potato Underground Stem", "icon": "🥔", "bucket": "b1"},
+            {"text": "Spinach Leaf", "card_text": "Spinach Leaf", "content": "Spinach Leaf", "icon": "🍃", "bucket": "b2"},
+            {"text": "Rose Bloom", "card_text": "Rose Bloom", "content": "Rose Bloom", "icon": "🌹", "bucket": "b2"},
+            {"text": "Sunflower", "card_text": "Sunflower", "content": "Sunflower", "icon": "🌻", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["magnet", "attract", "pole", "repel"]):
+        buckets = [
+            {"id": "b1", "label": "Magnetic Materials 🧲", "basket_label": "Magnetic Materials 🧲", "category_name": "Magnetic Materials", "color": "#ef4444", "border": "#dc2626"},
+            {"id": "b2", "label": "Non-Magnetic Materials 🪵", "basket_label": "Non-Magnetic Materials 🪵", "category_name": "Non-Magnetic Materials", "color": "#10b981", "border": "#059669"}
+        ]
+        items = [
+            {"text": "Iron Nail", "card_text": "Iron Nail", "content": "Iron Nail", "icon": "🔩", "bucket": "b1"},
+            {"text": "Steel Paperclip", "card_text": "Steel Paperclip", "content": "Steel Paperclip", "icon": "📎", "bucket": "b1"},
+            {"text": "Nickel Coin", "card_text": "Nickel Coin", "content": "Nickel Coin", "icon": "🪙", "bucket": "b1"},
+            {"text": "Wooden Pencil", "card_text": "Wooden Pencil", "content": "Wooden Pencil", "icon": "✏️", "bucket": "b2"},
+            {"text": "Plastic Toy", "card_text": "Plastic Toy", "content": "Plastic Toy", "icon": "🧸", "bucket": "b2"},
+            {"text": "Glass Marble", "card_text": "Glass Marble", "content": "Glass Marble", "icon": "⚪", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["noun", "verb", "speech", "grammar", "english", "word"]):
+        buckets = [
+            {"id": "b1", "label": "Naming Words (Nouns) 🏷️", "basket_label": "Nouns 🏷️", "category_name": "Nouns", "color": "#3b82f6", "border": "#2563eb"},
+            {"id": "b2", "label": "Action Words (Verbs) 🏃", "basket_label": "Verbs 🏃", "category_name": "Verbs", "color": "#10b981", "border": "#059669"}
+        ]
+        items = [
+            {"text": "School Building", "card_text": "School Building", "content": "School Building", "icon": "🏫", "bucket": "b1"},
+            {"text": "Friendly Puppy", "card_text": "Friendly Puppy", "content": "Friendly Puppy", "icon": "🐶", "bucket": "b1"},
+            {"text": "Story Book", "card_text": "Story Book", "content": "Story Book", "icon": "📖", "bucket": "b1"},
+            {"text": "Sprint Quickly", "card_text": "Sprint Quickly", "content": "Sprint Quickly", "icon": "🏃", "bucket": "b2"},
+            {"text": "Clap Hands", "card_text": "Clap Hands", "content": "Clap Hands", "icon": "👏", "bucket": "b2"},
+            {"text": "Listen Attentively", "card_text": "Listen Attentively", "content": "Listen Attentively", "icon": "👂", "bucket": "b2"}
+        ]
+
+    elif any(k in t_low for k in ["odd", "even", "number", "math"]):
+        buckets = [
+            {"id": "b1", "label": "Even Numbers 🔢", "basket_label": "Even Numbers 🔢", "category_name": "Even Numbers", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": "Odd Numbers 🎲", "basket_label": "Odd Numbers 🎲", "category_name": "Odd Numbers", "color": "#8b5cf6", "border": "#7c3aed"}
+        ]
+        items = [
+            {"text": "Number 24", "card_text": "Number 24", "content": "Number 24", "icon": "🔢", "bucket": "b1"},
+            {"text": "Number 18", "card_text": "Number 18", "content": "Number 18", "icon": "🔢", "bucket": "b1"},
+            {"text": "Number 42", "card_text": "Number 42", "content": "Number 42", "icon": "🔢", "bucket": "b1"},
+            {"text": "Number 15", "card_text": "Number 15", "content": "Number 15", "icon": "🎲", "bucket": "b2"},
+            {"text": "Number 37", "card_text": "Number 37", "content": "Number 37", "icon": "🎲", "bucket": "b2"},
+            {"text": "Number 53", "card_text": "Number 53", "content": "Number 53", "icon": "🎲", "bucket": "b2"}
+        ]
+
+    else:
+        # Authentic procedural semantic categories for any custom topic
+        buckets = [
+            {"id": "b1", "label": f"{clean_topic} Core Principles 🌟", "basket_label": f"{clean_topic} Core Principles 🌟", "category_name": f"{clean_topic} Principles", "color": "#10b981", "border": "#059669"},
+            {"id": "b2", "label": f"{clean_topic} Everyday Examples 🔍", "basket_label": f"{clean_topic} Everyday Examples 🔍", "category_name": f"{clean_topic} Examples", "color": "#8b5cf6", "border": "#7c3aed"}
+        ]
+        items = [
+            {"text": f"Fundamental Rule of {clean_topic}", "card_text": f"Fundamental Rule of {clean_topic}", "content": f"Fundamental Rule of {clean_topic}", "icon": "⭐", "bucket": "b1"},
+            {"text": f"Defining Characteristic of {clean_topic}", "card_text": f"Defining Characteristic of {clean_topic}", "content": f"Defining Characteristic of {clean_topic}", "icon": "📋", "bucket": "b1"},
+            {"text": f"Everyday Interaction with {clean_topic}", "card_text": f"Everyday Interaction with {clean_topic}", "content": f"Everyday Interaction with {clean_topic}", "icon": "🔍", "bucket": "b2"},
+            {"text": f"Practical Application of {clean_topic}", "card_text": f"Practical Application of {clean_topic}", "content": f"Practical Application of {clean_topic}", "icon": "🚀", "bucket": "b2"}
+        ]
+
+    return buckets[:target_bucket_count if target_bucket_count <= len(buckets) else len(buckets)], items
 
 
 def build_class2_interactive_config(topic, subject):
@@ -451,24 +614,15 @@ def build_class2_interactive_config(topic, subject):
 
     # 8. Categorization / Sorter
     else:
-        b1_name = f"{topic} Group A 🌟"
-        b2_name = f"{topic} Group B 🎯"
+        buckets, items = get_curriculum_interactive_sorter_data(topic, target_bucket_count=2)
         return {
             "engine": "bucket-sorter",
-            "title": f"{topic} Tactile Sorter",
+            "title": f"🧺 {topic} Tactile Sorter",
             "icon": "🧺",
             "instruction": f"Sort the cards into their matching baskets for {topic}!",
             "speechPrompt": "Sort each card into its correct basket!",
-            "buckets": [
-                {"id": "b1", "label": b1_name, "color": "#10b981", "border": "#059669"},
-                {"id": "b2", "label": b2_name, "color": "#8b5cf6", "border": "#7c3aed"}
-            ],
-            "items": [
-                {"text": "Card 1", "icon": "⭐", "bucket": "b1"},
-                {"text": "Card 2", "icon": "🎯", "bucket": "b2"},
-                {"text": "Card 3", "icon": "⭐", "bucket": "b1"},
-                {"text": "Card 4", "icon": "🎯", "bucket": "b2"}
-            ]
+            "buckets": buckets,
+            "items": items
         }
 
 
@@ -516,11 +670,27 @@ CRITICAL RULES:
    c. SEPARATE THE EXPLANATION FIELD ENTIRELY:
       - Put all steps, proofs, and working out ONLY inside the separate 'explanation' field so it is shown to the student AFTER they answer.
       - explanation: "Dividing the total cost ₹1,200 by 24 students gives ₹50 per student (24 × 50 = 1,200)."
-3. MULTI-MODAL VISUAL LEARNING (Especially critical for Classes I-IV):
-   - Provide a "visual_hint": An encouraging, age-appropriate emoji-rich clue sentence helping kids visualize the concept (e.g., "💡 Visual Clue: 🔋 A complete circuit needs an unbroken loop to light the bulb!").
+3. REMOVE INTERNAL METADATA FROM QUESTION TEXT:
+   - NEVER prefix question stems with grade or subject tags like "[IV Science]" or "[Class IV]".
+   - BAD: "[IV Science] Which planet is closest to the Sun in our Solar System?"
+   - GOOD: "Which planet is closest to the Sun in our Solar System?"
+4. CLEAN UP FIELD LABELS & DUPLICATE PREFIXES:
+   - In "visual_hint", do NOT repeat the label prefix like "Visual Clue: 🪐 Visual Clue: ☀️ ...".
+   - Provide ONLY the direct, encouraging clue sentence without repetitive label tags.
+   - BAD: "Visual Clue: 🪐 Visual Clue: ☀️ The Sun anchors..."
+   - GOOD: "The Sun anchors the center; planets orbit in curved paths! ☀️🪐"
+5. GENERATE REAL CONTENT FOR INTERACTIVE GAMES (NO PLACEHOLDERS):
+   - When generating data for game templates (e.g. Card Sorter, Matching, Categorization), NEVER use placeholder names like "Primary Fact 1", "Application 2", "Group A", or "Group B".
+   - Replace generic basket names with meaningful categories (e.g., "Planets" vs "Moons & Comets", "Electrical Conductors" vs "Insulators").
+   - Replace card texts with real educational facts and items (e.g., "Mercury", "Jupiter", "Halley's Comet", "Titan").
+6. FORMATTING DIRECTIVE FOR GAME SCHEMAS:
+   - Every card object in interactive payloads must contain actual kid-friendly learning text in "card_text" and "content" (as well as "text").
+   - Every basket/container object must contain explicit category names in "basket_label" and "category_name" (as well as "label").
+7. MULTI-MODAL VISUAL LEARNING (Especially critical for Classes I-IV):
+   - Provide a "visual_hint": An encouraging, age-appropriate emoji-rich clue sentence helping kids visualize the concept (e.g., "A complete circuit needs an unbroken loop to light the bulb! 🔋💡"). Do NOT prepend 'Visual Clue:' to it.
    - Optionally provide "svg_diagram": A compact, colorful, valid inline SVG diagram (<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">...</svg>) illustrating the concept (e.g. circuit diagram, fraction circle, plant parts, magnet poles). Must have viewBox, nice colors, and no external resources.
-4. Target audience: Class {class_name} students. Adjust vocabulary and difficulty to be perfectly age-appropriate.
-5. Return ONLY a valid JSON object matching the schema below. No markdown fences, no explanatory text outside JSON.
+8. Target audience: Class {class_name} students. Adjust vocabulary and difficulty to be perfectly age-appropriate.
+9. Return ONLY a valid JSON object matching the schema below. No markdown fences, no explanatory text outside JSON.
 
 JSON Schema:
 {{
@@ -533,11 +703,11 @@ JSON Schema:
   "time": "{max(3, num_questions * 2)} min",
   "questions": [
     {{
-      "prompt": "Engaging question sentence about {effective_topic}?",
+      "prompt": "Engaging direct question sentence about {effective_topic}?",
       "options": ["Option A", "Option B", "Option C", "Option D"],
       "answer": 0,
       "explanation": "Friendly 1-sentence explanation telling why the chosen option is correct.",
-      "visual_hint": "Fun emoji clue guiding younger learners (e.g. '💡 Clue: Look for the device that opens and closes the circuit!')",
+      "visual_hint": "Fun emoji clue guiding younger learners (e.g. 'Look for the device that opens and closes the circuit! 🔌💡')",
       "svg_diagram": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'>...</svg>"
     }}
   ]
@@ -562,12 +732,14 @@ Ensure the "questions" list contains EXACTLY {num_questions} questions, with exa
                 ans = 0
 
             # Multi-Modal Visual Clue & Diagram Verification
-            visual_hint = str(q.get("visual_hint", "")).strip()
+            visual_hint = clean_visual_hint(str(q.get("visual_hint", "")).strip())
             svg_diagram = str(q.get("svg_diagram", "")).strip()
 
             fallback_clue, fallback_svg = get_topic_visual_clue_and_svg(effective_topic, subject, class_name, idx)
             if not visual_hint or len(visual_hint) < 5:
                 visual_hint = fallback_clue
+            else:
+                visual_hint = clean_visual_hint(visual_hint)
 
             # Clean and validate SVG diagram
             if not (svg_diagram.startswith("<svg") and "</svg>" in svg_diagram and "viewBox" in svg_diagram):
@@ -720,6 +892,8 @@ def build_fallback_small_scale_game(prompt, class_name, subject, topic, engine_k
                     parsed_buckets.append({
                         "id": b_id,
                         "label": b_name.strip() + " ⭐",
+                        "basket_label": b_name.strip() + " ⭐",
+                        "category_name": b_name.strip(),
                         "color": c["color"],
                         "border": c["border"]
                     })
@@ -729,71 +903,26 @@ def build_fallback_small_scale_game(prompt, class_name, subject, topic, engine_k
                         if clean_tok:
                             parsed_items.append({
                                 "text": clean_tok,
+                                "card_text": clean_tok,
+                                "content": clean_tok,
                                 "icon": "🏷️",
                                 "bucket": b_id
                             })
 
         # If teacher didn't provide parseable items, use rich curriculum procedural defaults
         if len(parsed_buckets) < 2 or len(parsed_items) < 3:
-            t_low = clean_topic.lower()
-            if any(k in t_low for k in ["matter", "solid", "liquid", "gas", "state"]):
-                parsed_buckets = [
-                    {"id": "b1", "label": "Solids 🧊", "color": "#10b981", "border": "#059669"},
-                    {"id": "b2", "label": "Liquids 💧", "color": "#0ea5e9", "border": "#0284c7"},
-                    {"id": "b3", "label": "Gases 💨", "color": "#8b5cf6", "border": "#7c3aed"}
-                ]
-                parsed_items = [
-                    {"text": "Ice Cube", "icon": "🧊", "bucket": "b1"},
-                    {"text": "Wooden Block", "icon": "🪵", "bucket": "b1"},
-                    {"text": "Iron Nail", "icon": "🔩", "bucket": "b1"},
-                    {"text": "Pure Water", "icon": "💧", "bucket": "b2"},
-                    {"text": "Fresh Milk", "icon": "🥛", "bucket": "b2"},
-                    {"text": "Orange Juice", "icon": "🧃", "bucket": "b2"},
-                    {"text": "Water Vapour", "icon": "💨", "bucket": "b3"},
-                    {"text": "Oxygen Gas", "icon": "🫧", "bucket": "b3"},
-                    {"text": "Helium Balloon", "icon": "🎈", "bucket": "b3"}
-                ]
-            elif any(k in t_low for k in ["diet", "herbivore", "carnivore", "omnivore", "animal"]):
-                parsed_buckets = [
-                    {"id": "b1", "label": "Herbivores (Plants) 🌿", "color": "#10b981", "border": "#059669"},
-                    {"id": "b2", "label": "Carnivores (Meat) 🥩", "color": "#ef4444", "border": "#dc2626"},
-                    {"id": "b3", "label": "Omnivores (Both) 🥗", "color": "#f59e0b", "border": "#d97706"}
-                ]
-                parsed_items = [
-                    {"text": "Cow", "icon": "🐄", "bucket": "b1"},
-                    {"text": "Deer", "icon": "🦌", "bucket": "b1"},
-                    {"text": "Rabbit", "icon": "🐇", "bucket": "b1"},
-                    {"text": "Lion", "icon": "🦁", "bucket": "b2"},
-                    {"text": "Tiger", "icon": "🐅", "bucket": "b2"},
-                    {"text": "Eagle", "icon": "🦅", "bucket": "b2"},
-                    {"text": "Bear", "icon": "🐻", "bucket": "b3"},
-                    {"text": "Crow", "icon": "🐦", "bucket": "b3"},
-                    {"text": "Human", "icon": "👤", "bucket": "b3"}
-                ]
-            elif any(k in t_low for k in ["electric", "circuit", "conductor", "insulator"]):
-                parsed_buckets = [
-                    {"id": "b1", "label": "Conductors (Pass Current) ⚡", "color": "#10b981", "border": "#059669"},
-                    {"id": "b2", "label": "Insulators (Block Current) 🛡️", "color": "#f59e0b", "border": "#d97706"}
-                ]
-                parsed_items = [
-                    {"text": "Copper Wire", "icon": "🔌", "bucket": "b1"},
-                    {"text": "Iron Nail", "icon": "🔩", "bucket": "b1"},
-                    {"text": "Steel Spoon", "icon": "🥄", "bucket": "b1"},
-                    {"text": "Rubber Eraser", "icon": "🧼", "bucket": "b2"},
-                    {"text": "Plastic Ruler", "icon": "📏", "bucket": "b2"},
-                    {"text": "Dry Wood", "icon": "🪵", "bucket": "b2"}
-                ]
-            else:
-                parsed_buckets = [
-                    {"id": "b1", "label": f"{clean_topic} Group A 🌟", "color": "#10b981", "border": "#059669"},
-                    {"id": "b2", "label": f"{clean_topic} Group B 🎯", "color": "#8b5cf6", "border": "#7c3aed"}
-                ]
-                parsed_items = [
-                    {"text": f"{clean_topic} Primary Fact 1", "icon": "🌟", "bucket": "b1"},
-                    {"text": f"{clean_topic} Primary Fact 2", "icon": "🌟", "bucket": "b1"},
-                    {"text": f"{clean_topic} Application 1", "icon": "🎯", "bucket": "b2"},
-                    {"text": f"{clean_topic} Application 2", "icon": "🎯", "bucket": "b2"}
-                ]
+            parsed_buckets, parsed_items = get_curriculum_interactive_sorter_data(clean_topic, target_bucket_count)
+
+        for it in parsed_items:
+            if "card_text" not in it:
+                it["card_text"] = it.get("text", "")
+            if "content" not in it:
+                it["content"] = it.get("text", "")
+        for b in parsed_buckets:
+            if "basket_label" not in b:
+                b["basket_label"] = b.get("label", "")
+            if "category_name" not in b:
+                b["category_name"] = re.sub(r'[^\w\s]', '', b.get("label", "")).strip() or b.get("label", "")
 
         random.shuffle(parsed_items)
         interactive_cfg = {
@@ -852,9 +981,9 @@ def build_fallback_small_scale_game(prompt, class_name, subject, topic, engine_k
                 ]
             else:
                 parsed_pairs = [
-                    {"id": "1", "itemA": f"{clean_topic} Concept A 🌟", "itemB": f"Primary definition and rule for {clean_topic}"},
-                    {"id": "2", "itemA": f"{clean_topic} Observation 🔍", "itemB": f"Real-world everyday example of {clean_topic}"},
-                    {"id": "3", "itemA": f"{clean_topic} Application 🚀", "itemB": f"How we interact with {clean_topic} in daily life"}
+                    {"id": "1", "itemA": f"{clean_topic} Core Principle 🌟", "itemB": f"Primary scientific or mathematical foundation of {clean_topic}"},
+                    {"id": "2", "itemA": f"{clean_topic} Real Observation 🔍", "itemB": f"Authentic real-world evidence and behavior of {clean_topic}"},
+                    {"id": "3", "itemA": f"{clean_topic} Practical Use 🚀", "itemB": f"Everyday tools, benefits, and activities powered by {clean_topic}"}
                 ]
 
         interactive_cfg = {
@@ -1446,11 +1575,11 @@ def generate_smart_task(prompt="", class_name="IV", subject="Science", topic="",
 
         clue, svg = get_topic_visual_clue_and_svg(clean_topic, subject, class_name, idx)
         questions.append({
-            "prompt": f"[{class_name} {subject}] {q_prompt}",
-            "options": new_opts,
+            "prompt": clean_prompt_text(q_prompt),
+            "options": [clean_option_text(o) for o in new_opts],
             "answer": new_ans_idx,
             "explanation": exp,
-            "visual_hint": clue,
+            "visual_hint": clean_visual_hint(clue),
             "svg_diagram": svg
         })
 

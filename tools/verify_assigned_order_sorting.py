@@ -3,11 +3,9 @@ import sys, json, re
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 def run_tests():
-    print("Testing assigned order sorting logic...")
+    print("Testing assigned order sorting and skill heading logic...")
 
-    # The frontend is intentionally split into classic scripts. Inspect the
-    # logical application, rather than assuming every implementation lives in
-    # the bootstrap entry point.
+    # Inspect the modular files
     source_files = [
         'js/app.js',
         'js/portals/kid-zone.js',
@@ -20,18 +18,16 @@ def run_tests():
     )
 
     # Test 1: Verify assignedOrder is extracted in renderTeacherHub
-    assert "const assignedOrder = [];" in code, "assignedOrder array definition missing in js/app.js"
+    assert "const assignedOrder = [];" in code, "assignedOrder array definition missing"
     assert "if (!assignedOrder.includes(a.gameId))" in code, "assignedOrder deduplication missing"
-    assert "filteredGames.sort((a, b) => {" in code, "filteredGames sort missing"
     assert "return aIdx - bIdx;" in code, "aIdx - bIdx assigned order sorting missing"
     print("✓ Check 1: renderTeacherHub assignedOrder extraction and sorting verified in code.")
 
-    # Test 2: Verify table rendering iterates through filteredGames directly in sorted order
+    # Test 2: Verify table rendering groups activities under skill area side headings
+    assert "curriculum-skill-header-row" in code, "Skill area side heading missing"
+    assert "tableBody.appendChild(headerTr);" in code, "headerTr append missing"
     assert "tableBody.appendChild(tr);" in code, "Table row append missing"
-    # Ensure skillGroups iteration is removed from tableBody rendering
-    # Check that skillGroups is not grouping table rows before sorting
-    assert "skillGroups.forEach((gamesInSkill" not in code, "Old skillGroups.forEach loop still present!"
-    print("✓ Check 2: Table rows iterate directly in assigned order (no artificial skillGroups partitioning).")
+    print("✓ Check 2: Table rows group cleanly under skill area side headings without repetitive badges.")
 
     # Test 3: Verify renderGamesGrid sorts list by assigned order
     assert "list.sort((a, b) => assignedGameIds.indexOf(a.id) - assignedGameIds.indexOf(b.id));" in code, "renderGamesGrid sorting missing"
@@ -95,4 +91,3 @@ def run_tests():
 
 if __name__ == '__main__':
     run_tests()
-

@@ -193,8 +193,7 @@ function renderTeacherHub() {
                                     ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
                                     ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
                                     ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge tac-badge-mini">🎮 Mini-Game</span>' : ''}
-                                    <span class="curriculum-title" title="${escapeHtml(g.title)}">${g.title}</span>
-                                    <button type="button" class="btn-tac-preview-sm" style="margin-left: auto; flex-shrink: 0;" onclick="previewActivity('${g.id}')" title="Preview activity before assigning">👁️ Preview</button>
+                                    <span class="curriculum-title" onclick="previewActivity('${g.id}')" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ')previewActivity('${g.id}')" title="Click to preview: ${escapeHtml(g.title)}">${g.title}</span>
                                 </div>
                             </td>
                             <td>
@@ -304,7 +303,7 @@ function renderTeacherHub() {
                                     ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
                                     ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
                                     ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:10.5px; font-weight:800; border-radius:999px; padding:2px 7px;">🎮 Mini-Game</span>' : ''}
-                                    <h4 class="tac-title" style="font-size: 15.5px; margin: 0; display: inline-block;">${g.title}</h4>
+                                    <h4 class="tac-title" style="font-size: 15.5px; margin: 0; display: inline-block; cursor: pointer;" onclick="previewActivity('${g.id}')" title="Click to preview: ${escapeHtml(g.title)}">${g.title}</h4>
                                 </div>
                             </div>
 

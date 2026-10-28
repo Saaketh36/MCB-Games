@@ -8,12 +8,11 @@ import sys
 import os
 
 # Ensure the project root is on the path so `backend.*` imports resolve
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-from backend.app import app  # noqa: F401
+from backend.app import app, main  # noqa: F401
 
 if __name__ == '__main__':
-    from backend.app import app as _app
-    port = int(os.getenv('PORT', 5000))
-    debug = os.getenv('FLASK_DEBUG', 'True').lower() == 'true'
-    _app.run(debug=debug, port=port)
+    main()

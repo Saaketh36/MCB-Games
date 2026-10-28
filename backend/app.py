@@ -5,26 +5,36 @@ Complete Python backend for managing games, students, and assignments
 Using PostgreSQL with SQLAlchemy ORM
 """
 
-from flask import Flask, render_template, request, jsonify, send_from_directory
-from flask_cors import CORS
-from dotenv import load_dotenv
-from backend.models import db, Class, Subject, Skill, Game, Teacher, Student, Assignment, Score, Analytics, ApiLog, SystemSettings, AudioFeedback
-from sqlalchemy import func
 import os
 import sys
-import json
-from datetime import datetime
-import logging
 
 for _stream in (sys.stdout, sys.stderr):
     if hasattr(_stream, 'reconfigure'):
         _stream.reconfigure(encoding='utf-8', errors='replace')
 
-# Load environment variables from .env file
-load_dotenv()
+# Ensure project root is in sys.path so 'backend' package and all root modules resolve
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-# Initialize Flask app
-app = Flask(__name__)
+from flask import Flask, render_template, request, jsonify, send_from_directory
+from flask_cors import CORS
+from dotenv import load_dotenv
+from backend.models import db, Class, Subject, Skill, Game, Teacher, Student, Assignment, Score, Analytics, ApiLog, SystemSettings, AudioFeedback
+from sqlalchemy import func
+import json
+from datetime import datetime
+import logging
+
+# Load environment variables from .env file in project root
+dotenv_path = os.path.join(PROJECT_ROOT, '.env')
+if os.path.exists(dotenv_path):
+    load_dotenv(dotenv_path)
+else:
+    load_dotenv()
+
+# Initialize Flask app pointing root_path to project root
+app = Flask(__name__, root_path=PROJECT_ROOT)
 CORS(app)
 
 # Configuration
@@ -62,7 +72,7 @@ logger = logging.getLogger(__name__)
 
 def _load_curriculum_and_games():
     """Load curriculum structure strictly from skill_areas_data.json and games catalog."""
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = PROJECT_ROOT
     curr = {}
     games_by_skill = {}
     avail_games = {}
@@ -177,7 +187,12 @@ def get_available_games():
     try:
         games = db.session.query(Game).filter_by(is_active=True).all()
         available_games = {g.name: g.file_path for g in games if g.file_path}
-        total_defined = db.session.query(func.count(Game.id)).scalar()
+        total_defined = db.session.query(func.count(Game.id)).scalar() or 0
+
+        # Fall back to in-memory catalog loaded from full_games_catalog.json if DB table not yet populated
+        if not available_games and AVAILABLE_GAMES:
+            available_games = AVAILABLE_GAMES
+            total_defined = len(AVAILABLE_GAMES)
 
         return jsonify({
             'status': 'success',
@@ -187,6 +202,13 @@ def get_available_games():
         })
     except Exception as e:
         logger.error(f"Error fetching available games: {e}")
+        if AVAILABLE_GAMES:
+            return jsonify({
+                'status': 'success',
+                'available_games': AVAILABLE_GAMES,
+                'total_available': len(AVAILABLE_GAMES),
+                'total_defined': len(AVAILABLE_GAMES)
+            })
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
 # ============================================================
@@ -558,11 +580,11 @@ def api_ai_status():
 @app.route('/')
 def index():
     """Serve main portal"""
-    return send_from_directory('.', 'index.html')
+    return send_from_directory(PROJECT_ROOT, 'index.html')
 
 # Only web assets are public. Source code, .env, SQL, dotfiles and node_modules are never served.
 PUBLIC_EXTENSIONS = {'.html', '.js', '.css', '.png', '.jpg', '.jpeg', '.gif', '.svg', '.ico',
-                     '.mp3', '.wav', '.ogg', '.woff', '.woff2', '.ttf'}
+                     '.mp3', '.wav', '.ogg', '.woff', '.woff2', '.ttf', '.json'}
 
 @app.route('/<path:filename>')
 def serve_static(filename):
@@ -570,8 +592,9 @@ def serve_static(filename):
     parts = filename.replace('\\', '/').split('/')
     extension = os.path.splitext(filename)[1].lower()
     hidden = any(p.startswith('.') or p == 'node_modules' for p in parts)
-    if not hidden and extension in PUBLIC_EXTENSIONS and os.path.isfile(filename):
-        return send_from_directory('.', filename)
+    file_path = os.path.join(PROJECT_ROOT, filename)
+    if not hidden and extension in PUBLIC_EXTENSIONS and os.path.isfile(file_path):
+        return send_from_directory(PROJECT_ROOT, filename)
     return jsonify({'status': 'error', 'message': 'File not found'}), 404
 
 # ============================================================
@@ -615,36 +638,49 @@ def init_db():
 # INITIALIZATION & STARTUP
 # ============================================================
 
-if __name__ == '__main__':
+def main():
+    db_ok = False
     try:
         init_db()
-        print("=" * 60)
-        print("MyClassboard Games Platform - Flask Backend")
-        print("Database: PostgreSQL ✅")
-        print("=" * 60)
-        print(f"📚 Total Classes: {len(CURRICULUM)}")
-        print(f"🎮 Total Games Defined: {sum(len(g) for g in GAMES.values())}")
-        print(f"✅ Games Available: {len(AVAILABLE_GAMES)}")
-        print("=" * 60)
-        print("Starting Flask server on http://localhost:5000")
-        print("API endpoints:")
-        print("  - GET  /api/curriculum")
-        print("  - GET  /api/subjects/<class_id>")
-        print("  - GET  /api/skills/<class_id>/<subject>")
-        print("  - GET  /api/games/<skill>")
-        print("  - GET  /api/available-games")
-        print("  - GET  /api/assignments")
-        print("  - POST /api/assignments")
-        print("  - GET  /api/assignments/<id>")
-        print("  - POST /api/assignments/<id>/complete")
-        print("  - GET  /api/students")
-        print("  - POST /api/students")
-        print("  - GET  /api/students/<id>/assignments")
-        print("  - GET  /api/reports/class/<class_id>")
-        print("  - GET  /api/reports/skill/<skill_id>")
-        print("=" * 60)
-        app.run(debug=True, host='0.0.0.0', port=5000)
+        db_ok = True
     except Exception as e:
-        logger.error(f"Failed to start application: {e}")
-        print(f"❌ Error: {e}")
-        print("Make sure PostgreSQL is running and database credentials in .env are correct")
+        logger.warning(f"Database connection could not be established: {e}")
+        print(f"⚠️  Database connection warning: {e}")
+        print("ℹ️  Web server will run in offline/localStorage mode.")
+
+    port = int(os.getenv('PORT', 5000))
+    debug = os.getenv('FLASK_DEBUG', 'True').lower() == 'true'
+
+    print("=" * 60)
+    print("MyClassboard Games Platform - Flask Backend")
+    print(f"Database: {'PostgreSQL ✅' if db_ok else 'Offline / LocalStorage Mode ⚠️'}")
+    print("=" * 60)
+    print(f"📚 Total Classes: {len(CURRICULUM)}")
+    print(f"🎮 Total Games Defined: {sum(len(g) for g in GAMES.values())}")
+    print(f"✅ Games Available: {len(AVAILABLE_GAMES)}")
+    print("=" * 60)
+    print(f"Starting Flask server on http://localhost:{port}")
+    print("API endpoints:")
+    print("  - GET  /api/curriculum")
+    print("  - GET  /api/subjects/<class_id>")
+    print("  - GET  /api/skills/<class_id>/<subject>")
+    print("  - GET  /api/games/<skill>")
+    print("  - GET  /api/available-games")
+    print("  - GET  /api/assignments")
+    print("  - POST /api/assignments")
+    print("  - GET  /api/assignments/<id>")
+    print("  - POST /api/assignments/<id>/complete")
+    print("  - GET  /api/students")
+    print("  - POST /api/students")
+    print("  - GET  /api/students/<id>/assignments")
+    print("  - GET  /api/reports/class/<class_id>")
+    print("  - GET  /api/reports/skill/<skill_id>")
+    print("=" * 60)
+    try:
+        app.run(debug=debug, host='0.0.0.0', port=port)
+    except Exception as e:
+        logger.error(f"Failed to start server: {e}")
+        print(f"❌ Error starting server: {e}")
+
+if __name__ == '__main__':
+    main()

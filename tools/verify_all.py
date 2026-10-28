@@ -19,6 +19,7 @@ SUITES = (
     ("Clean question formatting", "tools/verify_clean_formatting.py"),
     ("Assigned-order rendering", "tools/verify_assigned_order_sorting.py"),
     ("Diorama catalog integrity", "tools/verify_diorama_catalog.py"),
+    ("Server endpoints & static assets", "tools/verify_server_endpoints.py"),
 )
 
 

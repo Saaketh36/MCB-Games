@@ -500,15 +500,24 @@ function resetTeacherFilters() {
 /* ====================================================
    ASSIGN MODAL LOGIC (ASSIGN BY SKILL AREA)
    ==================================================== */
-function openAssignModal() {
-    document.getElementById('modalAssignClass').value = AppState.selectedClass;
+function openAssignModal(targetClass) {
+    if (targetClass && typeof targetClass === 'string') {
+        AppState.selectedClass = targetClass;
+    }
+    const clsSelect = document.getElementById('modalAssignClass');
+    if (clsSelect) clsSelect.value = AppState.selectedClass;
     updateModalSubjectOptions(AppState.teacherSubjectFilter !== 'all' ? AppState.teacherSubjectFilter : undefined);
     renderAssignStudentsList();
-    document.getElementById('teacherAssignModal').classList.add('active');
+    const modal = document.getElementById('teacherAssignModal');
+    if (modal) modal.classList.add('active');
 }
 
-function openAssignModalForSkill(skillName) {
-    document.getElementById('modalAssignClass').value = AppState.selectedClass;
+function openAssignModalForSkill(skillName, targetClass) {
+    if (targetClass && typeof targetClass === 'string') {
+        AppState.selectedClass = targetClass;
+    }
+    const clsSelect = document.getElementById('modalAssignClass');
+    if (clsSelect) clsSelect.value = AppState.selectedClass;
     renderAssignStudentsList();
 
     const cls = AppState.selectedClass;
@@ -516,7 +525,8 @@ function openAssignModalForSkill(skillName) {
     const sub = matchingGame ? matchingGame.subject : (AppState.teacherSubjectFilter !== 'all' ? AppState.teacherSubjectFilter : undefined);
 
     updateModalSubjectOptions(sub, skillName);
-    document.getElementById('teacherAssignModal').classList.add('active');
+    const modal = document.getElementById('teacherAssignModal');
+    if (modal) modal.classList.add('active');
 }
 
 // Backward compatibility fallback

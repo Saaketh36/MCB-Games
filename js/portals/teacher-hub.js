@@ -63,17 +63,17 @@ function renderTeacherHub() {
     });
 
     // Group filtered games by Skill Area in curriculum order
-    const skillGroups = new Map();
+    const rawSkillGroups = new Map();
     filteredGames.forEach(g => {
         const skill = (g.skillArea || 'Other Topics').trim();
-        if (!skillGroups.has(skill)) {
-            skillGroups.set(skill, []);
+        if (!rawSkillGroups.has(skill)) {
+            rawSkillGroups.set(skill, []);
         }
-        skillGroups.get(skill).push(g);
+        rawSkillGroups.get(skill).push(g);
     });
 
     // Within each skill group, sort assigned games first (in assigned order), followed by unassigned
-    skillGroups.forEach((gamesList) => {
+    rawSkillGroups.forEach((gamesList) => {
         gamesList.sort((a, b) => {
             const aIdx = assignedOrder.indexOf(a.id);
             const bIdx = assignedOrder.indexOf(b.id);
@@ -86,6 +86,35 @@ function renderTeacherHub() {
             return 0;
         });
     });
+
+    // Sort Skill Areas: skills with assigned activities come to the top,
+    // sorted strictly by the number of assigned activities in the skill (descending)
+    const sortedSkillEntries = Array.from(rawSkillGroups.entries()).sort((a, b) => {
+        const [skillA, listA] = a;
+        const [skillB, listB] = b;
+
+        const countA = listA.filter(g => assignedGameIds.has(g.id)).length;
+        const countB = listB.filter(g => assignedGameIds.has(g.id)).length;
+
+        // When either or both skills have assigned activities:
+        if (countA > 0 || countB > 0) {
+            if (countB !== countA) {
+                return countB - countA; // Higher number of assigned activities comes first
+            }
+            // Tie-break: earlier assigned activity comes first
+            const firstA = listA.find(g => assignedGameIds.has(g.id));
+            const firstB = listB.find(g => assignedGameIds.has(g.id));
+            const idxA = firstA ? assignedOrder.indexOf(firstA.id) : Infinity;
+            const idxB = firstB ? assignedOrder.indexOf(firstB.id) : Infinity;
+            if (idxA !== idxB) {
+                return idxA - idxB;
+            }
+        }
+
+        return 0; // Maintain natural curriculum order for unassigned skills
+    });
+
+    const skillGroups = new Map(sortedSkillEntries);
 
     const badgeCount = document.getElementById('teacherBadgeAssignedCount');
     if (badgeCount) badgeCount.textContent = `${filteredGames.length} activities`;
@@ -116,17 +145,25 @@ function renderTeacherHub() {
                 const isSpecificSubject = AppState.teacherSubjectFilter !== 'all';
 
                 skillGroups.forEach((gamesInSkill, skillName) => {
-                    const hasAnyAssignedInSkill = gamesInSkill.some(g => classAsgs.some(a => a.gameId === g.id));
+                    const assignedInSkill = gamesInSkill.filter(g => assignedGameIds.has(g.id));
+                    const assignedCountInSkill = assignedInSkill.length;
+                    const hasAnyAssignedInSkill = assignedCountInSkill > 0;
+
                     // Skill Area Header Row (Order of Skill Area, stated once as side heading, NOT on every game!)
                     const headerTr = document.createElement('tr');
-                    headerTr.className = 'curriculum-skill-header-row';
+                    headerTr.className = `curriculum-skill-header-row ${hasAnyAssignedInSkill ? 'is-assigned-skill' : ''}`;
                     headerTr.innerHTML = `
                         <td colspan="3">
                             <div class="skill-header-content">
                                 <div class="skill-header-left">
-                                    <span class="skill-header-icon-badge">🎯</span>
+                                    <span class="skill-header-icon-badge">${hasAnyAssignedInSkill ? '⭐' : '🎯'}</span>
                                     <span class="skill-header-title">${escapeHtml(skillName)}</span>
                                     <span class="skill-header-count">${gamesInSkill.length} ${gamesInSkill.length === 1 ? 'activity' : 'activities'}</span>
+                                    ${hasAnyAssignedInSkill ? `
+                                    <span class="skill-header-assigned-pill" style="background: #e0e7ff; color: #3730a3; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid #c7d2fe;">
+                                        ✓ ${assignedCountInSkill} assigned
+                                    </span>
+                                    ` : ''}
                                 </div>
                                 <div class="skill-header-right">
                                     ${hasAnyAssignedInSkill ? `
@@ -221,17 +258,25 @@ function renderTeacherHub() {
                 const isSpecificSubject = AppState.teacherSubjectFilter !== 'all';
 
                 skillGroups.forEach((gamesInSkill, skillName) => {
-                    const hasAnyAssignedInSkill = gamesInSkill.some(g => classAsgs.some(a => a.gameId === g.id));
+                    const assignedInSkill = gamesInSkill.filter(g => assignedGameIds.has(g.id));
+                    const assignedCountInSkill = assignedInSkill.length;
+                    const hasAnyAssignedInSkill = assignedCountInSkill > 0;
+
                     // Section Banner for Skill Area in Grid
                     const banner = document.createElement('div');
-                    banner.style.cssText = 'grid-column: 1 / -1; margin-top: 14px; margin-bottom: 6px; padding: 10px 16px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;';
+                    banner.style.cssText = `grid-column: 1 / -1; margin-top: 14px; margin-bottom: 6px; padding: 10px 16px; background: ${hasAnyAssignedInSkill ? '#f5f3ff' : '#f8fafc'}; border: 1.5px solid ${hasAnyAssignedInSkill ? '#c4b5fd' : '#e2e8f0'}; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;`;
                     banner.innerHTML = `
                         <div style="display: flex; align-items: center; gap: 8px;">
-                            <span style="font-size: 16px;">🎯</span>
+                            <span style="font-size: 16px;">${hasAnyAssignedInSkill ? '⭐' : '🎯'}</span>
                             <span style="font-family: var(--font-heading); font-size: 15px; font-weight: 800; color: #1e1b4b;">${escapeHtml(skillName)}</span>
+                            ${hasAnyAssignedInSkill ? `
+                            <span style="background: #e0e7ff; color: #3730a3; font-family: var(--font-heading); font-weight: 700; font-size: 11.5px; padding: 2px 10px; border-radius: 999px; border: 1px solid #c7d2fe;">
+                                ✓ ${assignedCountInSkill} assigned
+                            </span>
+                            ` : ''}
                         </div>
                         <div style="display: flex; align-items: center; gap: 8px;">
-                            <span style="background: #ede9fe; color: #5b21b6; font-family: var(--font-heading); font-weight: 700; font-size: 11.5px; padding: 2px 10px; border-radius: 999px; border: 1px solid #ddd6fe;">
+                            <span style="background: #f1f5f9; color: #475569; font-family: var(--font-heading); font-weight: 700; font-size: 11.5px; padding: 2px 10px; border-radius: 999px; border: 1px solid #e2e8f0;">
                                 ${gamesInSkill.length} ${gamesInSkill.length === 1 ? 'activity' : 'activities'}
                             </span>
                             ${hasAnyAssignedInSkill ? `

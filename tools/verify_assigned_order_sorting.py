@@ -49,16 +49,16 @@ def run_tests():
     ]
 
     mock_catalog = [
-        {"id": "LO-096", "title": "Assembly Announcement: Lost & Found! 📢", "subject": "English"},
-        {"id": "LO-097", "title": "Radio Wildlife: The Elephant Whisperer 🐘", "subject": "English"},
-        {"id": "LO-100", "title": "Unassigned English Activity", "subject": "English"},
-        {"id": "LO-124", "title": "Wild Adaptations: Claws, Teeth & Ears 🐾 👂", "subject": "EVS"},
-        {"id": "LO-125", "title": "Family Reunion: Extended Family Bonds 👨‍👩‍👧‍👦", "subject": "EVS"},
-        {"id": "LO-126", "title": "Botanical Wonders: Roots, Fruits & Fragrant Blooms 🌺 🥕", "subject": "EVS"},
-        {"id": "LO-130", "title": "Unassigned EVS Activity", "subject": "EVS"},
-        {"id": "LO-133", "title": "Everyday Problem Solvers: The School Picnic 🧺", "subject": "Mathematics"},
-        {"id": "LO-136", "title": "Metric Converters: Meters and Centimeters 📏", "subject": "Mathematics"},
-        {"id": "LO-140", "title": "Unassigned Math Activity", "subject": "Mathematics"},
+        {"id": "LO-096", "title": "Assembly Announcement: Lost & Found! 📢", "subject": "English", "skillArea": "Listening"},
+        {"id": "LO-097", "title": "Radio Wildlife: The Elephant Whisperer 🐘", "subject": "English", "skillArea": "Listening"},
+        {"id": "LO-100", "title": "Unassigned English Activity", "subject": "English", "skillArea": "Listening"},
+        {"id": "LO-124", "title": "Wild Adaptations: Claws, Teeth & Ears 🐾 👂", "subject": "EVS", "skillArea": "Observation & Identification"},
+        {"id": "LO-125", "title": "Family Reunion: Extended Family Bonds 👨‍👩‍👧‍👦", "subject": "EVS", "skillArea": "Observation & Identification"},
+        {"id": "LO-126", "title": "Botanical Wonders: Roots, Fruits & Fragrant Blooms 🌺 🥕", "subject": "EVS", "skillArea": "Observation & Identification"},
+        {"id": "LO-130", "title": "Unassigned EVS Activity", "subject": "EVS", "skillArea": "Observation & Identification"},
+        {"id": "LO-133", "title": "Everyday Problem Solvers: The School Picnic 🧺", "subject": "Mathematics", "skillArea": "Measurement"},
+        {"id": "LO-136", "title": "Metric Converters: Meters and Centimeters 📏", "subject": "Mathematics", "skillArea": "Measurement"},
+        {"id": "LO-140", "title": "Unassigned Math Activity", "subject": "Mathematics", "skillArea": "Numbers & Operations"},
     ]
 
     # Replicate the exact sorting algorithm from js/app.js:
@@ -85,9 +85,39 @@ def run_tests():
     assert sorted_ids[:7] == expected_assigned_order, f"Order mismatch: got {sorted_ids[:7]}"
     # Verify remaining 3 are unassigned
     assert sorted_ids[7:] == ["LO-100", "LO-130", "LO-140"], f"Unassigned mismatch: got {sorted_ids[7:]}"
-
     print(f"✓ Check 5: Simulated sorting strictly matched expected assigned order: {sorted_ids[:7]}")
-    print("\nALL ASSIGNED ORDER TESTS PASSED SUCCESSFULLY! 🎯")
+
+    # Test 6: Verify skill area sorting by number of assigned activities
+    # EVS (Observation & Identification) has 3 assigned activities
+    # English (Listening) has 2 assigned activities
+    # Math (Measurement) has 2 assigned activities
+    # Math (Numbers & Operations) has 0 assigned activities
+    assigned_ids_set = set(assignedOrder)
+    skills_map = {}
+    for g in mock_catalog:
+        sa = g["skillArea"]
+        skills_map.setdefault(sa, []).append(g)
+
+    def skill_sort_key(entry):
+        skill_name, games = entry
+        assigned_count = sum(1 for g in games if g["id"] in assigned_ids_set)
+        # Higher assigned count first (negative count for descending sort)
+        if assigned_count > 0:
+            first_idx = min(assignedOrder.index(g["id"]) for g in games if g["id"] in assigned_ids_set)
+            return (-assigned_count, first_idx)
+        return (0, 0)
+
+    sorted_skills = [s[0] for s in sorted(skills_map.items(), key=skill_sort_key)]
+    # Observation & Identification (3 assigned) must be #1
+    assert sorted_skills[0] == "Observation & Identification", f"Expected 'Observation & Identification' first, got {sorted_skills[0]}"
+    # Listening (2 assigned, earlier assigned index 0) must be before Measurement (2 assigned, index 5)
+    assert sorted_skills[1] == "Listening", f"Expected 'Listening' second, got {sorted_skills[1]}"
+    assert sorted_skills[2] == "Measurement", f"Expected 'Measurement' third, got {sorted_skills[2]}"
+    # Numbers & Operations (0 assigned) must be last
+    assert sorted_skills[3] == "Numbers & Operations", f"Expected 'Numbers & Operations' last, got {sorted_skills[3]}"
+    print(f"✓ Check 6: Skill areas sort order verified by number of assigned activities: {sorted_skills}")
+
+    print("\nALL ASSIGNED ORDER & SKILL HEADING TESTS PASSED SUCCESSFULLY! 🎯")
 
 if __name__ == '__main__':
     run_tests()

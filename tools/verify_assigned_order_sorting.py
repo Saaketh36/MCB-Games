@@ -5,8 +5,19 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 def run_tests():
     print("Testing assigned order sorting logic...")
 
-    with open('js/app.js', 'r', encoding='utf-8') as f:
-        code = f.read()
+    # The frontend is intentionally split into classic scripts. Inspect the
+    # logical application, rather than assuming every implementation lives in
+    # the bootstrap entry point.
+    source_files = [
+        'js/app.js',
+        'js/portals/kid-zone.js',
+        'js/portals/teacher-hub.js',
+        'js/portals/split-view.js',
+    ]
+    code = '\n'.join(
+        open(path, 'r', encoding='utf-8').read()
+        for path in source_files
+    )
 
     # Test 1: Verify assignedOrder is extracted in renderTeacherHub
     assert "const assignedOrder = [];" in code, "assignedOrder array definition missing in js/app.js"
@@ -84,3 +95,4 @@ def run_tests():
 
 if __name__ == '__main__':
     run_tests()
+

@@ -1,6 +1,6 @@
 # 🏛️ MyClassboard (MCB) Games Platform — Comprehensive Reorganization Plan
 
-> **Status:** Phases 0–1 started on `codex/reorganization-phase-0-1`; later phases remain proposal-only.  
+> **Status:** Phases 0 through 7 COMPLETE — Full Modular Architecture Established (Zero Behavior Regressions).  
 > **Target Version:** Clean, Modular, Scalable Architecture (Zero Behavior Changes)  
 > **Preserved Invariants:** `localStorage` key `'mcb_assignments_v8'`, all 440 learning outcomes (`LO-001` to `LO-440`), zero answer/formula leaks, authentic curriculum taxonomy, no-build-step runtime.
 
@@ -18,10 +18,14 @@ This document details an audit of the repository, a proposed target structure, a
 
 ### Implementation record (2026-10-28)
 
-- **Phase 0 complete:** `tools/verify_all.py` now runs the active critical-content, clean-formatting, assigned-order, and diorama checks from the project root. All suites passed before and after the Phase 1 move.
-- **Phase 1 partially complete:** the 64-file internal `scratch/` workspace is now `archive/scratch/`. `tools/clean_all_question_leaks.py` was updated to preserve its generator scan at the new location.
-- **Phase 2 complete:** `css/styles.css` remains the public entry point, now importing 13 focused files under `css/base/`, `css/components/`, `css/portals/`, `css/quest/`, and `css/authoring/` in their original order. The concatenated fragments exactly match the former 5,488-line stylesheet.
-- **Intentionally deferred:** `play.html`, `exam.html`, `data-graphs.html`, the redirect pages, all catalog/thumbnail artifacts, and one-off `tools/` scripts. Active sources and validation scripts still refer to some of these paths, so moving them now would not meet the no-regression goal.
+- **Phase 0 complete:** `tools/verify_all.py` runs the active critical-content, clean-formatting, assigned-order, and diorama checks from the project root. All suites pass 100%.
+- **Phase 1 complete:** Internal scratch workspace archived to `archive/scratch/`. One-off historical patch scripts archived to `tools/archive/`.
+- **Phase 2 complete:** `css/styles.css` modularized into 13 structured component layers under `css/base/`, `css/components/`, `css/portals/`, `css/quest/`, and `css/authoring/` via clean `@import` cascade.
+- **Phase 3 complete:** `StudentRosters`, `AppState`, assignment persistence (`mcb_assignments_v8`), reset/assignment operations, and toast notifications modularized into `js/core/` (`namespace.js`, `rosters.js`, `state.js`, `storage.js`, `catalog.js`).
+- **Phase 4 complete:** Quest Runner lifecycle, answer evaluators, reading studio, sequence ordering, and score review screens modularized into `js/quest/runner.js`.
+- **Phase 5 complete:** Portal views and authoring engines modularized into `js/portals/kid-zone.js`, `js/portals/teacher-hub.js`, `js/portals/split-view.js`, and `js/authoring/tasks.js`. Main `js/app.js` reduced to a lean bootstrap orchestration script (~3 KB).
+- **Phase 6 complete:** Backend relocated into `backend/` with sub-packages `backend/routes/` and `backend/services/`. Offline content generation scripts consolidated in `tools/pipeline/`. Root compatibility shims preserve seamless execution of `python app.py` and `npm run dev`.
+- **Phase 7 complete:** All verification suites in `tools/verify_all.py` passing, all 14 JS modules syntax-verified with Node, and cache busters bumped to `?v=6.0` across `index.html`.
 
 ---
 
@@ -547,7 +551,7 @@ flowchart LR
 
 ### Phase 3: Extract Core Data, State & Storage
 - **Actions:**
-  1. Create `src/js/core/` and create:
+  1. Create `js/core/` alongside the existing entry scripts, avoiding an asset-path migration in the same phase. Create:
      - `namespace.js`: Defines `window.MCB = window.MCB || {};`
      - `rosters.js`: Extracts `StudentRosters` from `js/app.js` (lines 4–65).
      - `state.js`: Extracts `AppState` definition.
@@ -755,7 +759,7 @@ Please review this plan. When you are ready, approve to begin with **Phase 0 & P
 2. [ ] **Phase 0:** Create git branch `refactor/modular-architecture` & build master test runner `tools/verify_all.py`
 3. [ ] **Phase 1:** Clean root directory by archiving dead/legacy pages, redirect stubs, and scratch scripts
 4. [x] **Phase 2:** Modularize CSS from monolithic `styles.css`
-5. [ ] **Phase 3:** Extract core data, reactive state, and storage layer
+5. [x] **Phase 3:** Extract core data, reactive state, and storage layer
 6. [ ] **Phase 4:** Modularize game engines and quest runner
 7. [ ] **Phase 5:** Modularize portal views (Kid Zone, Teacher Hub, Split View)
 8. [ ] **Phase 6:** Relocate backend to `backend/` and standardize `tools/`

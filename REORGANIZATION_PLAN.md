@@ -20,6 +20,7 @@ This document details an audit of the repository, a proposed target structure, a
 
 - **Phase 0 complete:** `tools/verify_all.py` now runs the active critical-content, clean-formatting, assigned-order, and diorama checks from the project root. All suites passed before and after the Phase 1 move.
 - **Phase 1 partially complete:** the 64-file internal `scratch/` workspace is now `archive/scratch/`. `tools/clean_all_question_leaks.py` was updated to preserve its generator scan at the new location.
+- **Phase 2 complete:** `css/styles.css` remains the public entry point, now importing 13 focused files under `css/base/`, `css/components/`, `css/portals/`, `css/quest/`, and `css/authoring/` in their original order. The concatenated fragments exactly match the former 5,488-line stylesheet.
 - **Intentionally deferred:** `play.html`, `exam.html`, `data-graphs.html`, the redirect pages, all catalog/thumbnail artifacts, and one-off `tools/` scripts. Active sources and validation scripts still refer to some of these paths, so moving them now would not meet the no-regression goal.
 
 ---
@@ -527,7 +528,7 @@ flowchart LR
 
 ### Phase 2: CSS Modularization (Zero HTML Changes)
 - **Actions:**
-  1. Create `src/css/` directory tree: `base/`, `components/`, `portals/`, `quest/`.
+  1. Create the existing public `css/` directory tree: `base/`, `components/`, `portals/`, `quest/`, and `authoring/`. Retaining `css/styles.css` as an import-only entry point avoids changing the HTML URL or deployment/static-server configuration; moving it to `src/css/` can be considered later as part of an explicitly tested asset-path migration.
   2. Extract sections from `css/styles.css` into modular files:
      - `src/css/base/variables.css` (tokens, theme colors, candy scrollbars)
      - `src/css/base/layout.css` (navbar, shell, main containers)
@@ -753,7 +754,7 @@ Please review this plan. When you are ready, approve to begin with **Phase 0 & P
 1. [ ] **Approve Reorganization Plan**
 2. [ ] **Phase 0:** Create git branch `refactor/modular-architecture` & build master test runner `tools/verify_all.py`
 3. [ ] **Phase 1:** Clean root directory by archiving dead/legacy pages, redirect stubs, and scratch scripts
-4. [ ] **Phase 2:** Modularize CSS from monolithic `styles.css`
+4. [x] **Phase 2:** Modularize CSS from monolithic `styles.css`
 5. [ ] **Phase 3:** Extract core data, reactive state, and storage layer
 6. [ ] **Phase 4:** Modularize game engines and quest runner
 7. [ ] **Phase 5:** Modularize portal views (Kid Zone, Teacher Hub, Split View)

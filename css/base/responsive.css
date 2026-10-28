@@ -1,0 +1,95 @@
+        /* ====================================================
+           RESPONSIVE BREAKPOINTS - TABLET & MOBILE
+           ==================================================== */
+
+        /* Tablet: up to 1024px */
+        @media (max-width: 1024px) {
+            .top-navbar { padding: 10px 20px; }
+            .view-pill-btn { padding: 7px 14px; font-size: 12.5px; }
+            .nav-slogan { display: none; }
+            .main-content { padding: 16px 20px; }
+            .games-grid, .full-width-grid { grid-template-columns: repeat(2, 1fr); }
+            .ltp-outcomes-grid { grid-template-columns: repeat(2, 1fr); }
+            .ltp-activity-grid { grid-template-columns: repeat(2, 1fr); }
+            .teacher-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        }
+
+        /* Mobile: up to 768px */
+        @media (max-width: 768px) {
+            .top-navbar {
+                padding: 10px 16px;
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+            .nav-view-switcher {
+                order: 3;
+                width: 100%;
+                justify-content: center;
+                border-radius: 14px;
+            }
+            .view-pill-btn { padding: 6px 12px; font-size: 11.5px; }
+            .nav-avatar { width: 34px; height: 34px; font-size: 14px; }
+            .brand-title { font-size: 18px; }
+            .main-content { padding: 12px 14px; }
+
+            /* Banners */
+            .ltp-jump-banner {
+                flex-direction: column;
+                gap: 12px;
+                padding: 16px;
+                border-radius: 16px;
+            }
+            .ltp-btn-jump { width: 100%; justify-content: center; }
+
+            /* Control Panels */
+            .unified-control-panel { padding: 12px 14px; border-radius: 14px; }
+            .ucp-top-row { flex-direction: column; gap: 10px; align-items: flex-start; }
+            .ucp-bottom-row { flex-wrap: wrap; gap: 8px; }
+            .subject-filter-chips { flex-wrap: wrap; gap: 6px; }
+
+            /* Games Grid */
+            .games-grid, .full-width-grid { grid-template-columns: repeat(1, 1fr); gap: 14px; }
+
+
+            /* Quest Runner */
+            .quest-runner-modal-overlay { padding: 0; align-items: flex-end; }
+            .quest-runner-card {
+                border-radius: 20px 20px 0 0;
+                max-height: 95vh;
+                max-height: 95dvh;
+                height: auto;
+            }
+            .quest-runner-header { padding: 12px 14px; flex-wrap: wrap; gap: 8px; }
+            .quest-prompt-title { font-size: 17px; }
+            .quest-choices-grid { grid-template-columns: 1fr; gap: 8px; }
+            .quest-choice-btn { padding: 12px 14px; font-size: 14px; }
+
+            /* Who is Playing */
+            .who-modal-card {
+                padding: 20px 16px;
+                margin: 10px;
+                border-radius: 20px;
+                max-height: 90dvh;
+                overflow-y: auto;
+            }
+
+            /* Celebration */
+            .review-stats-row { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .celebration-view { padding: 20px 16px; }
+
+            /* Match Pairs */
+            .ltp-match-columns { flex-direction: column; gap: 16px; }
+        }
+
+        /* Small Mobile: up to 480px */
+        @media (max-width: 480px) {
+            .view-pill-btn { padding: 5px 9px; font-size: 10.5px; }
+            .view-pill-btn span { display: none; }
+            .brand-title { font-size: 16px; }
+            .nav-logo-icon { width: 36px; height: 36px; font-size: 17px; }
+            .ltp-hero-title { font-size: 22px; }
+            .ltp-stat-val { font-size: 26px; }
+            .quest-prompt-title { font-size: 15px; }
+            .review-stat-val { font-size: 24px; }
+        }
+

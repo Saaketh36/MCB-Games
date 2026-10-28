@@ -1,0 +1,717 @@
+        /* ====================================================
+           FULLSCREEN & IMMERSIVE GAME RUNNER ARENA (UPGRADED)
+           ==================================================== */
+        .quest-runner-card {
+            background: #ffffff;
+            border-radius: 24px;
+            width: 95vw;
+            max-width: 1120px;
+            min-height: 84vh;
+            max-height: 92vh;
+            overflow-y: auto;
+            margin: auto;
+            padding: 28px 36px;
+            box-shadow: 0 20px 50px rgba(15, 23, 42, 0.16);
+            animation: modalIn 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 16px;
+            transition: all 0.22s ease;
+        }
+
+        /* True Fullscreen Mode */
+        .quest-runner-card.is-fullscreen {
+            width: 100vw !important;
+            max-width: 100vw !important;
+            height: 100vh !important;
+            max-height: 100vh !important;
+            border-radius: 0 !important;
+            border: none !important;
+            margin: 0 !important;
+            padding: 28px 48px !important;
+            position: fixed !important;
+            inset: 0 !important;
+            z-index: 9999 !important;
+            box-shadow: none !important;
+        }
+
+        .quest-top-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #f1f5f9;
+            margin-bottom: 14px;
+        }
+
+        .quest-top-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            width: 100%;
+        }
+
+        .quest-game-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .quest-top-row .modal-close-btn {
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+
+        .quest-game-title {
+            font-family: var(--font-heading);
+            font-size: 21px;
+            font-weight: 800;
+            color: #1e1b4b;
+            letter-spacing: -0.3px;
+        }
+
+        .quest-active-player-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
+            color: #6d28d9;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 700;
+            border: 1.5px solid #ddd6fe;
+            box-shadow: 0 2px 6px rgba(109, 40, 217, 0.1);
+        }
+
+        .quest-top-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .btn-quest-ctrl {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 7px 15px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 12.5px;
+            font-weight: 700;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 2px 5px rgba(15, 23, 42, 0.04);
+        }
+
+        .btn-quest-ctrl:hover {
+            background: #f1f5f9;
+            border-color: #f59e0b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 12px rgba(245, 158, 11, 0.2);
+        }
+
+        .btn-quest-ctrl:active {
+            transform: translateY(0);
+        }
+
+        /* Interactive Question Stepper Pills (Q1, Q2, Q3...) */
+        .quest-stepper-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px;
+            overflow-x: auto;
+            padding: 4px 2px;
+        }
+
+        .quest-step-pill {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 12.5px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+            background: #f1f5f9;
+            color: #64748b;
+            border: 2px solid #e2e8f0;
+        }
+
+        .quest-step-pill:hover {
+            border-color: #cbd5e1;
+            transform: translateY(-1px);
+        }
+
+        .quest-step-pill.active {
+            background: #6366f1;
+            color: #ffffff;
+            border-color: #4f46e5;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.35);
+            transform: scale(1.06);
+        }
+
+        .quest-step-pill.answered {
+            background: #ecfdf5;
+            color: #059669;
+            border-color: #6ee7b7;
+        }
+
+        .quest-step-pill.answered.active {
+            background: #10b981;
+            color: #ffffff;
+            border-color: #047857;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        }
+
+        /* Smooth Candy Progress Track */
+        .quest-progress-track {
+            height: 12px;
+            background: #f1f5f9;
+            border-radius: 999px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border: 2px solid #e2e8f0;
+            position: relative;
+        }
+
+        .quest-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #6366f1, #8b5cf6, #ec4899, #f59e0b, #10b981);
+            background-size: 200% 100%;
+            border-radius: 999px;
+            transition: width 0.38s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 0 12px rgba(99, 102, 241, 0.5);
+            animation: progressGradient 3s ease infinite;
+        }
+
+        @keyframes progressGradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Question prompt display arena (Enhanced & Tactile) */
+        .quest-prompt-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 24px;
+            padding: 26px 32px;
+            margin-bottom: 22px;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            position: relative;
+        }
+
+        .quest-prompt-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .btn-prompt-listen {
+            background: #ede9fe;
+            color: #6d28d9;
+            border: 1.5px solid #ddd6fe;
+            padding: 5px 14px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 12.5px;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.15s;
+        }
+
+        .btn-prompt-listen:hover {
+            background: #ddd6fe;
+            transform: translateY(-1px);
+        }
+
+        .quest-prompt-title {
+            font-family: var(--font-body);
+            font-size: 21px;
+            font-weight: 700;
+            color: #0f172a;
+            line-height: 1.45;
+            letter-spacing: -0.2px;
+        }
+
+        /* Multi-Modal Visual Clue & Diagram Area */
+        .quest-visual-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 1.5px solid #e2e8f0;
+            border-radius: 20px;
+            margin-top: 8px;
+            transition: all 0.25s ease;
+        }
+
+        .quest-diagram-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-height: 140px;
+            overflow: hidden;
+        }
+
+        .quest-diagram-box svg {
+            max-height: 130px;
+            width: auto;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            filter: drop-shadow(0 4px 12px rgba(15, 23, 42, 0.06));
+            transition: transform 0.2s ease;
+        }
+
+        .quest-diagram-box svg:hover {
+            transform: scale(1.02);
+        }
+
+        .quest-clue-pill {
+            background: #eef2ff;
+            color: #4338ca;
+            border: 1.5px solid #c7d2fe;
+            border-radius: 999px;
+            padding: 6px 16px;
+            font-size: 13.5px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 6px rgba(99, 102, 241, 0.08);
+            text-align: center;
+            max-width: 100%;
+            line-height: 1.4;
+        }
+
+        .badge-cache-indicator {
+            background: #ecfdf5;
+            color: #047857;
+            border: 1px solid #a7f3d0;
+            border-radius: 999px;
+            padding: 3px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* 2x2 Clean Question Choice Grid */
+        .quest-choices-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+
+        @media (max-width: 680px) {
+            .quest-choices-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .quest-choice-btn {
+            background: #ffffff;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 16px 20px;
+            font-family: var(--font-body);
+            font-size: 15.5px;
+            font-weight: 600;
+            color: #1e293b;
+            cursor: pointer;
+            transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            text-align: left;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+            position: relative;
+            outline: none;
+        }
+
+        .quest-choice-btn:hover {
+            border-color: #6366f1;
+            background: #f8fafc;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(99, 102, 241, 0.12);
+        }
+
+        .quest-choice-btn:active {
+            transform: translateY(0);
+        }
+
+        .quest-choice-btn.selected {
+            border-color: #4f46e5;
+            background: #f5f3ff;
+            box-shadow: 0 4px 14px rgba(79, 70, 229, 0.16);
+            transform: translateY(-1px);
+        }
+
+        .choice-main-content {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex: 1;
+        }
+
+        .choice-key-badge {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: #f1f5f9;
+            color: #475569;
+            font-family: var(--font-body);
+            font-weight: 700;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.18s;
+            border: 1px solid #e2e8f0;
+        }
+
+        /* Color-coded keys with refined subtle tints */
+        .choice-key-badge.badge-a {
+            background: #eef2ff;
+            color: #4338ca;
+            border-color: #c7d2fe;
+        }
+
+        .choice-key-badge.badge-b {
+            background: #ecfdf5;
+            color: #047857;
+            border-color: #a7f3d0;
+        }
+
+        .choice-key-badge.badge-c {
+            background: #f8fafc;
+            color: #b45309;
+            border-color: #e2e8f0;
+        }
+
+        .choice-key-badge.badge-d {
+            background: #fff1f2;
+            color: #be123c;
+            border-color: #fecdd3;
+        }
+
+        .quest-choice-btn.selected .choice-key-badge {
+            background: #4f46e5 !important;
+            color: #ffffff !important;
+            border-color: #4f46e5 !important;
+            box-shadow: 0 2px 6px rgba(79, 70, 229, 0.35);
+        }
+
+        .choice-check-indicator {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            border: 2px solid #cbd5e1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            color: transparent;
+            transition: all 0.18s;
+            flex-shrink: 0;
+        }
+
+        .quest-choice-btn.selected .choice-check-indicator {
+            border-color: #6366f1;
+            background: #6366f1;
+            color: #ffffff;
+            box-shadow: 0 2px 6px rgba(99, 102, 241, 0.4);
+        }
+
+        .quest-footer-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 14px;
+            border-top: 1px solid #f1f5f9;
+        }
+
+        .quest-footer-hint {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13.5px;
+            color: #64748b;
+            font-weight: 600;
+            background: #f8fafc;
+            padding: 8px 16px;
+            border-radius: 999px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .btn-quest-back {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: var(--radius-md);
+            padding: 12px 20px;
+            font-family: var(--font-heading);
+            font-size: 14px;
+            font-weight: 700;
+            color: #64748b;
+            cursor: pointer;
+            transition: all 0.15s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-quest-back:hover {
+            background: #f1f5f9;
+            color: #0f172a;
+        }
+
+        .btn-quest-next-step {
+            background: #10b981;
+            border: 1px solid #10b981;
+            border-radius: 10px;
+            padding: 12px 26px;
+            font-family: var(--font-body);
+            font-size: 14.5px;
+            font-weight: 700;
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.18s ease;
+            box-shadow: 0 2px 6px rgba(16, 185, 129, 0.25);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-quest-next-step:hover {
+            background: #059669;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+        }
+
+        .btn-quest-next-step:active {
+            transform: translateY(0);
+        }
+
+        /* Celebration & Answer Review Screen */
+        .celebration-view {
+            text-align: center;
+            padding: 24px 10px;
+        }
+
+        .celeb-trophy-icon {
+            font-size: 64px;
+            margin-bottom: 8px;
+            animation: bounce 1.2s infinite;
+        }
+
+        .celeb-title {
+            font-family: var(--font-heading);
+            font-size: 28px;
+            font-weight: 700;
+            color: #1e1b4b;
+            margin-bottom: 6px;
+        }
+
+        .celeb-subtitle {
+            font-size: 15px;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .review-stats-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+        }
+
+        .review-stat-item {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-lg);
+            padding: 16px 24px;
+            min-width: 130px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+        }
+
+        .review-stat-val {
+            font-family: var(--font-heading);
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .review-stat-lbl {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        .review-cards-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-bottom: 28px;
+            text-align: left;
+            max-height: 380px;
+            overflow-y: auto;
+            padding-right: 6px;
+        }
+
+        .review-q-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #10b981;
+            border-radius: 12px;
+            padding: 16px 20px;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+        }
+
+        .review-q-card.is-correct {
+            border-color: #e2e8f0;
+            border-left: 4px solid #10b981;
+            background: #ffffff;
+        }
+
+        .review-q-card.is-wrong {
+            border-color: #e2e8f0;
+            border-left: 4px solid #ef4444;
+            background: #ffffff;
+        }
+
+        .review-card-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .review-q-prompt-text {
+            font-family: var(--font-body);
+            font-size: 15px;
+            font-weight: 600;
+            color: #0f172a;
+            line-height: 1.45;
+        }
+
+        .review-badge-status {
+            font-family: var(--font-heading);
+            font-size: 11.5px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 999px;
+            flex-shrink: 0;
+        }
+
+        .badge-ans-correct {
+            background: #dcfce7;
+            color: #15803d;
+            border: 1.5px solid #86efac;
+        }
+
+        .badge-ans-wrong {
+            background: #fee2e2;
+            color: #b91c1c;
+            border: 1.5px solid #fca5a5;
+        }
+
+        .review-pills-row {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .ans-pill {
+            padding: 7px 12px;
+            border-radius: 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .ans-pill-user {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .ans-pill-user-correct {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .ans-pill-solution {
+            background: #ecfdf5;
+            color: #065f46;
+            border: 1.5px solid #a7f3d0;
+        }
+
+        .review-exp-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 8px 12px;
+            font-size: 12.5px;
+            color: #64748b;
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        .review-actions-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+

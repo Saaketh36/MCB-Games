@@ -1,0 +1,182 @@
+        /* ====================================================
+           TOP GLOBAL NAVIGATION BAR (CLEAN & MODERN)
+           ==================================================== */
+        .top-navbar {
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+            padding: 12px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03), 0 4px 12px rgba(15, 23, 42, 0.02);
+            transition: all 0.2s ease;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .nav-left:hover {
+            transform: scale(1.02);
+        }
+
+        .nav-logo-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            border: none;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            box-shadow: 0 4px 16px rgba(79, 70, 229, 0.35);
+            animation: bounceLogo 3.5s ease-in-out infinite alternate;
+        }
+
+        @keyframes bounceLogo {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-3px) rotate(4deg);
+            }
+        }
+
+        .nav-brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .brand-title {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 800;
+            color: #0f172a;
+            letter-spacing: -0.4px;
+            line-height: 1.1;
+        }
+
+        .brand-title span {
+            color: #f43f5e;
+        }
+
+        .brand-subtitle {
+            font-family: var(--font-heading);
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.9px;
+            color: #4f46e5;
+            background: #eef2ff;
+            border: 1px solid #c7d2fe;
+            padding: 2px 8px;
+            border-radius: 999px;
+            margin-top: 3px;
+            display: inline-block;
+            width: fit-content;
+        }
+
+        /* Segmented View Switcher (Clean Modern Pills) */
+        .nav-view-switcher {
+            display: flex;
+            align-items: center;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            padding: 4px;
+            border-radius: 999px;
+            gap: 4px;
+        }
+
+        .view-pill-btn {
+            border: 1px solid transparent;
+            background: transparent;
+            padding: 8px 20px;
+            border-radius: 999px;
+            font-family: var(--font-body);
+            font-size: 13.5px;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        .view-pill-btn:hover {
+            color: #0f172a;
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        .view-pill-btn.active {
+            background: #ffffff;
+            color: #4f46e5;
+            border-color: rgba(226, 232, 240, 0.9);
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+            font-weight: 700;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .nav-slogan {
+            font-family: var(--font-body);
+            font-size: 13px;
+            font-weight: 600;
+            color: #475569;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            padding: 6px 14px;
+            border-radius: 999px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #bbf7d0, #86efac);
+            color: #15803d;
+            font-family: var(--font-heading);
+            font-size: 16px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2.5px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(22, 163, 74, 0.22);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .nav-avatar:hover {
+            transform: scale(1.08) rotate(5deg);
+        }
+
+        /* Container Layout */
+        .main-content {
+            max-width: 1360px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 24px 28px 48px;
+            flex: 1;
+        }
+

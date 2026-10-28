@@ -1,0 +1,274 @@
+        /* ====================================================
+           KID ZONE: HERO BANNER & STATS (COLORFUL & CHEERFUL)
+           ==================================================== */
+        .kid-hero-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f5f3ff 50%, #eff6ff 100%);
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-xl);
+            padding: 38px 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 36px;
+            margin-bottom: 26px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(15, 23, 42, 0.05);
+        }
+
+        .kid-hero-text {
+            max-width: 620px;
+        }
+
+        .hero-eyebrow {
+            font-family: var(--font-heading);
+            font-size: 12.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #6d28d9;
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(4px);
+            padding: 5px 14px;
+            border-radius: 999px;
+            margin-bottom: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 2px 8px rgba(109, 40, 217, 0.12);
+        }
+
+        .hero-title {
+            font-family: var(--font-heading);
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e1b4b;
+            line-height: 1.15;
+            letter-spacing: -0.6px;
+            margin-bottom: 12px;
+        }
+
+        .hero-subtitle {
+            font-size: 17px;
+            line-height: 1.55;
+            color: #334155;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .hero-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        /* 3D Tactile Kid Button */
+        .btn-hero-explore {
+            background: linear-gradient(180deg, #6366f1 0%, #4f46e5 100%);
+            color: #ffffff;
+            border: none;
+            padding: 13px 26px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 5px 0 #3730a3, 0 10px 20px rgba(79, 70, 229, 0.35);
+        }
+
+        .btn-hero-explore:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 0 #3730a3, 0 14px 24px rgba(79, 70, 229, 0.4);
+        }
+
+        .btn-hero-explore:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 0 #3730a3, 0 4px 10px rgba(79, 70, 229, 0.2);
+        }
+
+        .hero-badge-tag {
+            font-family: var(--font-heading);
+            font-size: 13.5px;
+            font-weight: 600;
+            color: #475569;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 8px 16px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        }
+
+        .hero-badge-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #10b981;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.25);
+        }
+
+        .kid-hero-visual {
+            position: relative;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-astronaut-img {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+            border-radius: 28px;
+            filter: drop-shadow(0 15px 25px rgba(99, 102, 241, 0.22));
+            animation: floatAstronaut 6s ease-in-out infinite alternate;
+        }
+
+        @keyframes floatAstronaut {
+            0% {
+                transform: translateY(0px) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-10px) rotate(2deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(0deg);
+            }
+        }
+
+        .hero-sticker-pill {
+            position: absolute;
+            bottom: -8px;
+            left: -12px;
+            background: #ffffff;
+            padding: 8px 18px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 700;
+            color: #1e293b;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+            border: 1px solid #e2e8f0;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            white-space: nowrap;
+            animation: pulseSticker 3s infinite alternate;
+        }
+
+        @keyframes pulseSticker {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.04);
+            }
+        }
+
+        /* 4 Quick Stat Cards (Candy Themed) */
+        .kid-stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+            margin-bottom: 34px;
+        }
+
+        .kid-stat-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-lg);
+            padding: 22px 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04);
+            transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .kid-stat-card:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 14px 30px rgba(245, 158, 11, 0.16);
+        }
+
+        .kid-stat-card:nth-child(1) {
+            border-color: #ddd6fe;
+            background: linear-gradient(145deg, #ffffff 60%, #faf5ff 100%);
+        }
+
+        .kid-stat-card:nth-child(2) {
+            border-color: #e2e8f0;
+            background: linear-gradient(145deg, #ffffff 60%, #fefce8 100%);
+        }
+
+        .kid-stat-card:nth-child(3) {
+            border-color: #bbf7d0;
+            background: linear-gradient(145deg, #ffffff 60%, #f0fdf4 100%);
+        }
+
+        .kid-stat-card:nth-child(4) {
+            border-color: #fecdd3;
+            background: linear-gradient(145deg, #ffffff 60%, #fff1f2 100%);
+        }
+
+        .stat-icon-wrap {
+            width: 52px;
+            height: 52px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            flex-shrink: 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        .stat-icon-purple {
+            background: #ede9fe;
+            color: #7c3aed;
+        }
+
+        .stat-icon-amber {
+            background: #f1f5f9;
+            color: #d97706;
+        }
+
+        .stat-icon-emerald {
+            background: #dcfce7;
+            color: #16a34a;
+        }
+
+        .stat-icon-coral {
+            background: #ffe4e6;
+            color: #e11d48;
+        }
+
+        .stat-data {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stat-main-val {
+            font-family: var(--font-heading);
+            font-size: 30px;
+            font-weight: 700;
+            color: #0f172a;
+            line-height: 1.15;
+        }
+
+        .stat-label-text {
+            font-family: var(--font-heading);
+            font-size: 13.5px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-top: 3px;
+        }
+

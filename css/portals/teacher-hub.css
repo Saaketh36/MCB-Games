@@ -1,0 +1,535 @@
+        /* ====================================================
+           TEACHER HUB VIEW
+           ==================================================== */
+        .teacher-view-wrap {
+            display: none;
+        }
+
+        .teacher-view-wrap.active {
+            display: block;
+        }
+
+        .teacher-header-box {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .teacher-title-area h2 {
+            font-family: var(--font-heading);
+            font-size: 34px;
+            font-weight: 700;
+            color: #1e1b4b;
+            letter-spacing: -0.6px;
+            margin-bottom: 6px;
+        }
+
+        .teacher-title-area p {
+            font-size: 15px;
+            color: var(--text-muted);
+        }
+
+        .teacher-actions-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .btn-assign-modal {
+            background: #4f46e5;
+            color: #ffffff;
+            border: 1px solid transparent;
+            padding: 9px 18px;
+            border-radius: 10px;
+            font-family: var(--font-body);
+            font-size: 13.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            box-shadow: 0 2px 6px rgba(79, 70, 229, 0.22);
+        }
+
+        .btn-assign-modal:hover {
+            background: #4338ca;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.32);
+        }
+
+        .btn-assign-modal:active {
+            transform: translateY(0);
+        }
+
+        .teacher-table-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: var(--radius-xl);
+            padding: 26px 28px;
+            box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
+            margin-top: 24px;
+        }
+
+        .table-heading-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .table-heading-row h3 {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 700;
+            color: #1e1b4b;
+        }
+
+        /* Class Selector Pills (Warm & Playful) */
+        .teacher-class-selector-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .teacher-class-label {
+            font-family: var(--font-heading);
+            font-size: 13.5px;
+            font-weight: 700;
+            color: #4338ca;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        .teacher-class-pill-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+            background: #f1f5f9;
+            padding: 4px;
+            border-radius: 999px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .teacher-class-pill {
+            border: none;
+            background: transparent;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 700;
+            color: #475569;
+            cursor: pointer;
+            transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .teacher-class-pill:hover {
+            color: #0f172a;
+            background: rgba(255, 255, 255, 0.6);
+            transform: translateY(-1px);
+        }
+
+        .teacher-class-pill.active {
+            background: #ffffff;
+            color: #4f46e5;
+            box-shadow: 0 3px 10px rgba(79, 70, 229, 0.18);
+            transform: scale(1.04);
+        }
+
+        /* Activities & Progress Grid */
+        .teacher-activities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 20px;
+            margin-top: 18px;
+        }
+
+        .teacher-activity-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 20px 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+            box-shadow: 0 6px 18px rgba(15, 23, 42, 0.03);
+            position: relative;
+        }
+
+        .teacher-activity-card:hover {
+            transform: translateY(-3px);
+            border-color: #f59e0b;
+            box-shadow: 0 12px 28px rgba(245, 158, 11, 0.14);
+        }
+
+        .teacher-activity-card.is-assigned {
+            border-color: #c7d2fe;
+            background: linear-gradient(180deg, #ffffff 0%, #faf5ff 100%);
+        }
+
+        .teacher-activity-card.is-assigned:hover {
+            border-color: #818cf8;
+            box-shadow: 0 12px 28px rgba(99, 102, 241, 0.14);
+        }
+
+        .tac-top-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .tac-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .tac-badge {
+            font-family: var(--font-heading);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .tac-badge-subject {
+            background: #ede9fe;
+            color: #6d28d9;
+            border: 1.5px solid #ddd6fe;
+        }
+
+        .tac-badge-subject.badge-math {
+            background: #e0e7ff;
+            color: #4338ca;
+            border-color: #c7d2fe;
+        }
+
+        .tac-badge-subject.badge-eng {
+            background: #fce7f3;
+            color: #be185d;
+            border-color: #fbcfe8;
+        }
+
+        .tac-badge-subject.badge-sci {
+            background: #dcfce7;
+            color: #15803d;
+            border-color: #bbf7d0;
+        }
+
+        .tac-badge-subject.badge-evs {
+            background: #ecfdf5;
+            color: #047857;
+            border-color: #a7f3d0;
+        }
+
+        .tac-badge-subject.badge-soc {
+            background: #ffedd5;
+            color: #c2410c;
+            border-color: #fed7aa;
+        }
+
+        .tac-badge-skill {
+            background: #ede9fe;
+            color: #5b21b6;
+            border: 1.5px solid #ddd6fe;
+        }
+
+        .tac-badge-act {
+            background: #f1f5f9;
+            color: #64748b;
+            border: 1px solid #e2e8f0;
+        }
+
+        .tac-type-pill {
+            font-family: var(--font-heading);
+            font-size: 10.5px;
+            font-weight: 700;
+            color: #64748b;
+            background: #f1f5f9;
+            padding: 3px 8px;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+
+        .tac-title {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e1b4b;
+            margin-bottom: 5px;
+            line-height: 1.25;
+        }
+
+        .tac-desc {
+            font-size: 12.5px;
+            color: var(--text-muted);
+            line-height: 1.45;
+            margin-bottom: 14px;
+        }
+
+        /* Progress Bar Box */
+        .tac-progress-wrap {
+            background: #f8fafc;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 10px 14px;
+            margin-bottom: 12px;
+        }
+
+        .tac-progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            margin-bottom: 6px;
+        }
+
+        .tac-progress-label {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: #475569;
+        }
+
+        .tac-progress-metric {
+            font-family: var(--font-heading);
+            font-size: 12px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .tac-progress-metric.completed {
+            color: #15803d;
+        }
+
+        .tac-progress-metric.unassigned {
+            color: #94a3b8;
+            font-weight: 600;
+        }
+
+        .tac-progress-bar {
+            height: 10px;
+            background: #e2e8f0;
+            border-radius: 999px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .tac-progress-fill {
+            height: 100%;
+            border-radius: 999px;
+            background: linear-gradient(90deg, #f59e0b, #10b981);
+            transition: width 0.35s ease;
+        }
+
+        .tac-progress-fill.full {
+            background: linear-gradient(90deg, #10b981, #059669);
+        }
+
+        /* Students Section */
+        .tac-students-wrap {
+            margin-bottom: 14px;
+        }
+
+        .tac-students-label {
+            font-family: var(--font-heading);
+            font-size: 11.5px;
+            font-weight: 700;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tac-student-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tac-chip {
+            font-family: var(--font-heading);
+            font-size: 11.5px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: transform 0.15s;
+        }
+
+        .tac-chip:hover {
+            transform: scale(1.04);
+        }
+
+        .tac-chip.completed {
+            background: #dcfce7;
+            color: #15803d;
+            border: 1.5px solid #86efac;
+        }
+
+        .tac-chip.pending {
+            background: #fef3c7;
+            color: #b45309;
+            border: 1px solid #fde68a;
+        }
+
+        .tac-chip.unassigned-pill {
+            background: #f8fafc;
+            color: #475569;
+            border: 1px dashed #cbd5e1;
+            cursor: pointer;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 999px;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .tac-chip.unassigned-pill:hover {
+            background: #ede9fe;
+            color: #6d28d9;
+            border-color: #8b5cf6;
+            transform: translateY(-1px);
+        }
+
+        .btn-assign-all-sm {
+            background: #eef2ff;
+            color: #4338ca;
+            border: 1px solid #c7d2fe;
+            font-family: var(--font-heading);
+            font-size: 10.5px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+
+        .btn-assign-all-sm:hover {
+            background: #e0e7ff;
+            border-color: #818cf8;
+            transform: translateY(-1px);
+        }
+
+        .who-student-card.completed-locked {
+            opacity: 0.75;
+            cursor: not-allowed !important;
+            background: #f0fdf4 !important;
+            border: 1.5px solid #86efac !important;
+        }
+
+        .who-student-card.completed-locked:hover {
+            transform: none !important;
+            box-shadow: none !important;
+        }
+
+        .btn-play-action.played-all-done {
+            background: #ecfdf5 !important;
+            color: #065f46 !important;
+            border: 1.5px solid #a7f3d0 !important;
+            box-shadow: none !important;
+        }
+
+        .tac-chip-stars {
+            font-size: 11px;
+            font-weight: 700;
+            color: #d97706;
+        }
+
+        .tac-no-students-notice {
+            font-size: 12px;
+            color: #94a3b8;
+            font-style: italic;
+            background: #f8fafc;
+            padding: 5px 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        /* Card Footer Actions */
+        .tac-footer {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 12px;
+            border-top: 1px solid #f1f5f9;
+        }
+
+        .btn-tac-assign {
+            flex: 1;
+            background: linear-gradient(180deg, #6366f1 0%, #4f46e5 100%);
+            color: white;
+            border: none;
+            padding: 9px 14px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.15s ease;
+            box-shadow: 0 3px 0 #3730a3, 0 6px 12px rgba(79, 70, 229, 0.2);
+        }
+
+        .btn-tac-assign:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 0 #3730a3, 0 8px 16px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn-tac-assign:active {
+            transform: translateY(2px);
+            box-shadow: 0 1px 0 #3730a3;
+        }
+
+        .btn-tac-preview {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            color: #475569;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-family: var(--font-heading);
+            font-size: 12px;
+            font-weight: 700;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.15s ease;
+        }
+
+        .btn-tac-preview:hover {
+            background: #f1f5f9;
+            border-color: #f59e0b;
+            color: #0f172a;
+            transform: translateY(-1px);
+        }
+

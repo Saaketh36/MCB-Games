@@ -169,14 +169,7 @@ function renderTeacherHub() {
                                 ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
                                 ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge tac-badge-mini">🎮 Mini-Game</span>' : ''}
                                 <span class="curriculum-title" title="${escapeHtml(g.title)}">${g.title}</span>
-                                <div style="margin-left: auto; display: flex; align-items: center; gap: 6px; flex-shrink: 0;">
-                                    <button type="button" class="btn-tac-preview-sm" onclick="previewActivity('${g.id}')" title="Preview activity before assigning">👁️ Preview</button>
-                                    ${isAssigned ? `
-                                        <button type="button" class="btn-clear-assignments-sm" style="padding: 4px 10px; font-size: 11px; border-radius: 6px;" onclick="unassignActivity('${g.id}')" title="Unassign this activity from Class ${cls}">✕ Unassign</button>
-                                    ` : `
-                                        <button type="button" class="btn-tac-preview-sm" style="background: #e0e7ff; color: #3730a3; border-color: #c7d2fe; font-weight: 700;" onclick="openAssignModalForGame('${g.id}')" title="Assign this activity to students">+ Assign</button>
-                                    `}
-                                </div>
+                                <button type="button" class="btn-tac-preview-sm" style="margin-left: auto; flex-shrink: 0;" onclick="previewActivity('${g.id}')" title="Preview activity before assigning">👁️ Preview</button>
                             </div>
                         </td>
                         <td>
@@ -335,18 +328,9 @@ function renderTeacherHub() {
                         </div>
 
                         <div class="tac-footer" style="padding-top: 8px; display: flex; gap: 6px; justify-content: flex-end;">
-                            <button type="button" class="btn-tac-preview" style="padding: 7px 14px; font-size: 12px; flex: 1; justify-content: center; gap: 6px;" onclick="previewActivity('${g.id}')" title="Preview this activity before assigning">
-                                <span>👁️</span> Preview
+                            <button type="button" class="btn-tac-preview" style="padding: 7px 14px; font-size: 12px; width: 100%; justify-content: center; gap: 6px;" onclick="previewActivity('${g.id}')" title="Preview this activity before assigning">
+                                <span>👁️</span> Preview Activity
                             </button>
-                            ${isAssigned ? `
-                                <button type="button" class="btn-clear-assignments-sm" style="padding: 7px 14px; font-size: 12px; border-radius: 8px;" onclick="unassignActivity('${g.id}')" title="Unassign this activity from Class ${cls}">
-                                    ✕ Unassign
-                                </button>
-                            ` : `
-                                <button type="button" class="btn-tac-assign" style="padding: 7px 14px; font-size: 12px; border-radius: 8px; background: #6366f1; color: #ffffff; border: none; font-weight: 600; cursor: pointer;" onclick="openAssignModalForGame('${g.id}')" title="Assign this activity">
-                                    + Assign
-                                </button>
-                            `}
                         </div>
                     `;
                     grid.appendChild(card);

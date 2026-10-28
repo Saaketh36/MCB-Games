@@ -55,12 +55,17 @@ python setup_database.py
 
 ### 4. Run the Application
 ```bash
-python app.py
+npm run dev
+# or: python backend/app.py
 ```
-*(Or run `npm run dev` to start the server and automatically launch your default browser).*
-
 Open your browser and navigate to:
-👉 **[http://localhost:5000](http://localhost:5000)**
+👉 **[http://localhost:5000](http://localhost:5000)** *(or open `index.html` directly)*
+
+### 5. Run Verification Suites
+```bash
+npm test
+# or: python tools/verify_all.py
+```
 
 ---
 
@@ -68,45 +73,55 @@ Open your browser and navigate to:
 
 ```
 ├── index.html                   # Main application: Kids Learning Arena & Teacher Hub SPA
-├── play.html                    # Interactive activity player
-├── exam.html                    # PIN-based student exam taker
-├── data-graphs.html             # Student performance data visualization & Chart.js graphs
-├── app.py                       # Main Flask web application and API server
-├── models.py                    # SQLAlchemy database models
-├── assignment_routes.py         # Blueprint for /api/portal (assignments, PINs, student scores)
-├── scoring_routes.py            # Blueprint for /api/scoring (score calculations & feedback)
-├── scoring_system.py            # Scoring rules and audio feedback helper
-├── setup_database.py            # Automated PostgreSQL database initializer
-├── RUN_SETUP.bat                # 1-click Windows database setup launcher
-├── full_games_catalog.js        # Catalog of 325 curriculum games with rich question data
-├── curriculum-data.js           # Curriculum hierarchy (Classes, Subjects, Skills, Activities)
-├── curriculum_catalog.json      # Valid curriculum combinations for validation
+├── package.json                 # Node scripts (npm run dev, npm test)
 ├── requirements.txt             # Python dependencies
-├── package.json                 # Node scripts & dependencies
-├── .env                         # Local environment settings & database URL (git-ignored)
+├── REORGANIZATION_PLAN.md       # Comprehensive modular architectural plan
+├── RUN_SETUP.bat                # 1-click Windows database setup launcher
+├── full_games_catalog.js        # Authoritative catalog of all 440 curriculum games & questions
+├── full_games_catalog.json      # JSON mirror of the 440-activity dataset
 ├── .env.example                 # Sanitized environment configuration template
 │
+├── js/                          # Modular Frontend JavaScript Architecture
+│   ├── core/                    # Reactive state, rosters, storage ('mcb_assignments_v8')
+│   ├── portals/                 # Kid Zone, Teacher Hub (table with assigned-order sort), Split View
+│   ├── quest/                   # Fullscreen Quest Arena, question evaluators, review screen
+│   ├── authoring/               # Custom task builder, hierarchical skill picker, offline AI generator
+│   ├── class2_games.js          # Interactive mini-game engine
+│   └── app.js                   # Application bootstrap & lifecycle orchestrator
+│
+├── css/                         # Modular CSS Component Layers
+│   ├── base/                    # Resets, typography, tokens, responsive breakpoints
+│   ├── components/              # Navigation, badges, cards, assignment modals
+│   ├── portals/                 # Kid Zone hero/grid, Teacher Hub, Split View
+│   ├── quest/                   # Quest runner, question screen, context studio
+│   ├── authoring/               # Create task dialog, skill area tree picker
+│   └── styles.css               # Main entry point importing component layers
+│
+├── backend/                     # Structured Python / Flask API Backend
+│   ├── app.py                   # Canonical Flask REST server & routes
+│   ├── models.py                # SQLAlchemy ORM models (PostgreSQL)
+│   ├── ai_helper.py             # Gemini AI question generator
+│   ├── ai_cache.py              # Local task & question cache
+│   ├── routes/                  # Modular Blueprints (assignment_routes.py, scoring_routes.py)
+│   └── services/                # Business logic (scoring_system.py, setup_database.py)
+│
+├── database/                    # SQL Database Schemas & Setup Scripts
+│   ├── CREATE-DATABASE-PRODUCTION.sql # Production PostgreSQL DDL & seeds
+│   └── create_tables.sql        # Table definitions
+│
+├── tools/                       # Active Verification Suites & Content Pipeline
+│   ├── verify_all.py            # Master CLI runner executing all active quality suites
+│   ├── verify_critical_content_fixes.py # Content directives & prompt cleaner
+│   ├── verify_clean_formatting.py # Formula and answer leak validator
+│   ├── verify_assigned_order_sorting.py # Teacher table assigned-order sort validator
+│   ├── verify_diorama_catalog.py # 3D diorama thumbnail integrity suite
+│   ├── pipeline/                # Offline media, audio, and reading passage generators
+│   └── archive/                 # Archived historical one-off patch scripts
+│
 ├── audio/                       # Spoken voice narrations (WAV) & sound effects
-├── content/                     # Class-specific modular game content (class-I.js ... class-VIII.js)
-├── curriculum/                  # Official curriculum specifications and PDF references
-├── database/                    # SQL database schemas & setup scripts
-│   ├── CREATE-DATABASE-PRODUCTION.sql # Production PostgreSQL database DDL
-│   ├── create_tables.sql              # Table creation scripts
-│   └── scripts/                       # Migration & auxiliary database tools
+├── images/                      # Bespoke 3D diorama thumbnails & UI assets
 ├── docs/                        # Complete project documentation library
-│   ├── README.md                # Documentation index & map
-│   ├── guides/                  # Architecture, feature, and scoring guides
-│   ├── setup/                   # Setup guides for PostgreSQL, Python, and Node
-│   ├── reports/                 # Verification certificates and audit logs
-│   └── design/                  # UI design tokens, templates, and wireframes
-├── images/                      # Game thumbnails, subject banners, and UI icons
-├── scripts/                     # Developer automation & launcher scripts (open-browser.js)
-├── legacy/                      # Archived early iterations, standalone games & flat JSON stores
-│   ├── standalone_games/        # 46 early standalone HTML games & score_client.js
-│   ├── data/                    # Legacy flat JSON stores (assignments, completions, games-data)
-│   └── generators/              # Early standalone game generators (create_all_games.py)
-├── tools/                       # Maintenance scripts, bank auditors, and audio generators
-└── videos/                      # Lesson video metadata and content
+└── archive/                     # Historical prototypes, legacy pages, and scratch scripts
 ```
 
 ---

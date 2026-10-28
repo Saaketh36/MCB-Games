@@ -12,10 +12,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the coach yells: 'Sprint to the finish line!', what should the runner do?",
         "options": [
-          "Run as fast as possible across the marked ribbon finish line",
-          "Stop and tie both shoes",
-          "Turn around and walk to the locker room",
-          "Sit down in the middle of the track"
+          "Run at maximum forward speed to cross the marked ribbon finish line",
+          "Jog at a gentle steady pace while conserving energy for later races",
+          "Stop near the starting blocks to adjust running shoes and laces",
+          "Turn around and walk slowly back toward the team locker room area"
         ],
         "answer": 0,
         "explain": "'Sprint' means running at your maximum speed to cross the goal line!"
@@ -23,10 +23,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In a game of Ring Toss, what does the instruction 'Throw the ring over the wooden peg' mean?",
         "options": [
-          "Drop the ring at your feet",
-          "Hide the ring in your pocket",
-          "Kick the peg over with your foot",
-          "Aim and toss the ring so it lands circling the peg"
+          "Slide the circular ring along the smooth playing floor toward the target base",
+          "Spin the ring around your fingers without releasing it toward the target peg",
+          "Balance the ring gently on top of your palm while standing behind the mark",
+          "Aim and toss the ring through the air so it lands looping around the target peg"
         ],
         "answer": 3,
         "explain": "Ring toss tests your hand-eye coordination to loop the ring around the target peg."
@@ -34,10 +34,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In cricket or baseball, when the batter hears 'Hit the ball towards deep mid-wicket!', what is the action?",
         "options": [
-          "Swing the bat to strike the approaching ball into the field",
-          "Catch the ball with your cap",
-          "Duck down and let the ball hit the stumps",
-          "Throw the bat into the air"
+          "Swing the bat firmly to strike the approaching ball into that outfield area",
+          "Leave the incoming delivery untouched so that the wicketkeeper can take it",
+          "Block the delivery softly right back toward the bowler along the pitch turf",
+          "Step backward away from the crease and allow the ball to strike the stumps"
         ],
         "answer": 0,
         "explain": "Hitting the ball firmly into the outfield is the core batting objective!"
@@ -55,10 +55,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the coach yells: 'Sprint to the finish line!', what should the runner do?",
         "options": [
-          "Run as fast as possible across the marked ribbon finish line",
-          "Stop and tie both shoes",
-          "Turn around and walk to the locker room",
-          "Sit down in the middle of the track"
+          "Run at maximum forward speed to cross the marked ribbon finish line",
+          "Jog at a gentle steady pace while conserving energy for later races",
+          "Stop near the starting blocks to adjust running shoes and laces",
+          "Turn around and walk slowly back toward the team locker room area"
         ],
         "answer": 0,
         "explain": "'Sprint' means running at your maximum speed to cross the goal line!"
@@ -66,10 +66,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In a game of Ring Toss, what does the instruction 'Throw the ring over the wooden peg' mean?",
         "options": [
-          "Drop the ring at your feet",
-          "Hide the ring in your pocket",
-          "Kick the peg over with your foot",
-          "Aim and toss the ring so it lands circling the peg"
+          "Slide the circular ring along the smooth playing floor toward the target base",
+          "Spin the ring around your fingers without releasing it toward the target peg",
+          "Balance the ring gently on top of your palm while standing behind the mark",
+          "Aim and toss the ring through the air so it lands looping around the target peg"
         ],
         "answer": 3,
         "explain": "Ring toss tests your hand-eye coordination to loop the ring around the target peg."
@@ -77,10 +77,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In cricket or baseball, when the batter hears 'Hit the ball towards deep mid-wicket!', what is the action?",
         "options": [
-          "Swing the bat to strike the approaching ball into the field",
-          "Catch the ball with your cap",
-          "Duck down and let the ball hit the stumps",
-          "Throw the bat into the air"
+          "Swing the bat firmly to strike the approaching ball into that outfield area",
+          "Leave the incoming delivery untouched so that the wicketkeeper can take it",
+          "Block the delivery softly right back toward the bowler along the pitch turf",
+          "Step backward away from the crease and allow the ball to strike the stumps"
         ],
         "answer": 0,
         "explain": "Hitting the ball firmly into the outfield is the core batting objective!"
@@ -98,10 +98,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was the tiny sparrow carrying drops of water towards the raging forest fire?",
         "options": [
-          "Because it disliked the river",
-          "To do its absolute best to help put out the fire, even with its small capacity",
-          "Because it wanted to take a bath in the fire",
-          "To drop water on other birds' feathers"
+          "To cool down the riverbank soil so other forest birds could build nests safely",
+          "To do its absolute best to help put out the blaze, despite its tiny capacity",
+          "To wash away ash from burning tree branches so wild berries would stay edible",
+          "To moisten the dry woodland path so wandering animals could cross more easily"
         ],
         "answer": 1,
         "explain": "The brave sparrow showed that even the smallest creature can contribute courageously in a crisis!"
@@ -109,10 +109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the elephant asked the sparrow, 'Do you really think you can extinguish this huge blaze?', what was the moral point of the sparrow's action?",
         "options": [
-          "'Elephants are scared'",
-          "'Water burns like wood'",
-          "'Nobody should ever help'",
-          "'I may not put it out alone, but I am doing my part instead of giving up'"
+          "One should only take action when complete success is guaranteed from the start",
+          "Large and powerful animals are solely responsible for solving major challenges",
+          "Standing quietly aside is far wiser than attempting a difficult collective task",
+          "Doing your personal best to help matters far more than standing by helplessly"
         ],
         "answer": 3,
         "explain": "Doing whatever you can with dedication matters more than standing by helplessly."
@@ -120,10 +120,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does answering comprehension questions in complete, clear sentences help your learning?",
         "options": [
-          "It develops structured critical thinking and clear English communication",
-          "It makes stories disappear",
-          "It allows you to avoid reading the text",
-          "It teaches you how to memorize without understanding"
+          "It develops structured critical thinking and clear English expression",
+          "It speeds up copying words directly without needing to interpret ideas",
+          "It allows students to guess story details without reading passage lines",
+          "It replaces independent paragraph writing with simple memorized words"
         ],
         "answer": 0,
         "explain": "Writing clear answers sharpens your ability to extract meaning, analyze themes, and express ideas!"
@@ -141,10 +141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was the tiny sparrow carrying drops of water towards the raging forest fire?",
         "options": [
-          "Because it disliked the river",
-          "To do its absolute best to help put out the fire, even with its small capacity",
-          "Because it wanted to take a bath in the fire",
-          "To drop water on other birds' feathers"
+          "To cool down the riverbank soil so other forest birds could build nests safely",
+          "To do its absolute best to help put out the blaze, despite its tiny capacity",
+          "To wash away ash from burning tree branches so wild berries would stay edible",
+          "To moisten the dry woodland path so wandering animals could cross more easily"
         ],
         "answer": 1,
         "explain": "The brave sparrow showed that even the smallest creature can contribute courageously in a crisis!"
@@ -152,10 +152,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the elephant asked the sparrow, 'Do you really think you can extinguish this huge blaze?', what was the moral point of the sparrow's action?",
         "options": [
-          "'Elephants are scared'",
-          "'Water burns like wood'",
-          "'Nobody should ever help'",
-          "'I may not put it out alone, but I am doing my part instead of giving up'"
+          "One should only take action when complete success is guaranteed from the start",
+          "Large and powerful animals are solely responsible for solving major challenges",
+          "Standing quietly aside is far wiser than attempting a difficult collective task",
+          "Doing your personal best to help matters far more than standing by helplessly"
         ],
         "answer": 3,
         "explain": "Doing whatever you can with dedication matters more than standing by helplessly."
@@ -163,10 +163,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does answering comprehension questions in complete, clear sentences help your learning?",
         "options": [
-          "It develops structured critical thinking and clear English communication",
-          "It makes stories disappear",
-          "It allows you to avoid reading the text",
-          "It teaches you how to memorize without understanding"
+          "It develops structured critical thinking and clear English expression",
+          "It speeds up copying words directly without needing to interpret ideas",
+          "It allows students to guess story details without reading passage lines",
+          "It replaces independent paragraph writing with simple memorized words"
         ],
         "answer": 0,
         "explain": "Writing clear answers sharpens your ability to extract meaning, analyze themes, and express ideas!"
@@ -184,10 +184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Connecting this story to your own school experience, how can you make a newcomer feel welcomed?",
         "options": [
-          "Laugh when they mispronounce a word",
-          "Ignore them until they learn every word perfectly",
-          "Walk away and tell others not to talk to them",
-          "Invite them to sit at your lunch table, share a smile, and show them around the campus"
+          "Wait until the newcomer approaches the entire class and introduces themselves first",
+          "Ask them to observe classroom routines silently from the back row for several weeks",
+          "Direct them solely to the school notice board instead of offering personal guidance",
+          "Invite them to share your table, offer a warm smile, and guide them around the school"
         ],
         "answer": 3,
         "explain": "Empathy and friendship bridge language barriers and help new classmates feel at home!"
@@ -195,10 +195,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When a character overcomes stage fright in a book, how can that inspire you before a school speech?",
         "options": [
-          "It reminds you that practicing, breathing deeply, and being brave can overcome fear",
-          "It tells you to run away from school",
-          "It proves speeches are impossible",
-          "It makes you forget everything"
+          "It shows that practicing, breathing steadily, and staying calm can overcome fear",
+          "It suggests that natural public speakers never feel nervous before addressing crowds",
+          "It proves that memorizing speeches quickly eliminates the necessity for preparation",
+          "It demonstrates that avoiding classroom presentations is the best way to handle fear"
         ],
         "answer": 0,
         "explain": "Literature shows us that fear is normal and that courage is acting despite being nervous!"
@@ -206,10 +206,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'making a text-to-self connection' mean while reading?",
         "options": [
-          "Counting how many letters are on the cover",
-          "Writing your name on every page with marker",
-          "Relating events, feelings, or choices in the book to your own personal life experiences",
-          "Pretending the book was written about you only"
+          "Comparing the font and page layout of two different textbooks used in class",
+          "Checking whether the printed story matches a famous movie version you watched",
+          "Relating story events and characters to your own personal life experiences",
+          "Guessing the ending of a mystery tale before reaching the concluding chapters"
         ],
         "answer": 2,
         "explain": "Text-to-self connections deepen your understanding by linking book events to your own life memories."
@@ -227,10 +227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Connecting this story to your own school experience, how can you make a newcomer feel welcomed?",
         "options": [
-          "Laugh when they mispronounce a word",
-          "Ignore them until they learn every word perfectly",
-          "Walk away and tell others not to talk to them",
-          "Invite them to sit at your lunch table, share a smile, and show them around the campus"
+          "Wait until the newcomer approaches the entire class and introduces themselves first",
+          "Ask them to observe classroom routines silently from the back row for several weeks",
+          "Direct them solely to the school notice board instead of offering personal guidance",
+          "Invite them to share your table, offer a warm smile, and guide them around the school"
         ],
         "answer": 3,
         "explain": "Empathy and friendship bridge language barriers and help new classmates feel at home!"
@@ -238,10 +238,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When a character overcomes stage fright in a book, how can that inspire you before a school speech?",
         "options": [
-          "It reminds you that practicing, breathing deeply, and being brave can overcome fear",
-          "It tells you to run away from school",
-          "It proves speeches are impossible",
-          "It makes you forget everything"
+          "It shows that practicing, breathing steadily, and staying calm can overcome fear",
+          "It suggests that natural public speakers never feel nervous before addressing crowds",
+          "It proves that memorizing speeches quickly eliminates the necessity for preparation",
+          "It demonstrates that avoiding classroom presentations is the best way to handle fear"
         ],
         "answer": 0,
         "explain": "Literature shows us that fear is normal and that courage is acting despite being nervous!"
@@ -249,10 +249,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'making a text-to-self connection' mean while reading?",
         "options": [
-          "Counting how many letters are on the cover",
-          "Writing your name on every page with marker",
-          "Relating events, feelings, or choices in the book to your own personal life experiences",
-          "Pretending the book was written about you only"
+          "Comparing the font and page layout of two different textbooks used in class",
+          "Checking whether the printed story matches a famous movie version you watched",
+          "Relating story events and characters to your own personal life experiences",
+          "Guessing the ending of a mystery tale before reaching the concluding chapters"
         ],
         "answer": 2,
         "explain": "Text-to-self connections deepen your understanding by linking book events to your own life memories."
@@ -270,10 +270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Rhea spots a sign showing a person walking down steps with a yellow caution triangle: 'CAUTION: WET FLOOR'. What should she do?",
         "options": [
-          "Sit down and pour more water",
-          "Walk slowly and carefully to avoid slipping on the wet floor",
-          "Run and slide across the tiles",
-          "Jump with both feet forward"
+          "Hurry across the wet corridor to leave the area as quickly as possible",
+          "Walk slowly and take careful footsteps to avoid slipping on damp tiles",
+          "Continue walking at full speed while holding books tightly in both hands",
+          "Look for another pathway only if the caution sign has flashing red lights"
         ],
         "answer": 1,
         "explain": "The safety sign warns that the floor is slippery and requires slow, careful footsteps."
@@ -283,7 +283,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The sports playground",
           "The public swimming pool",
-          "Emergency Exit (Fire Escape route)",
+          "Emergency Exit",
           "The ice cream shop"
         ],
         "answer": 2,
@@ -292,10 +292,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a medicine bottle, what does the label 'KEEP OUT OF REACH OF CHILDREN' instruct?",
         "options": [
-          "Store the medicine on a high shelf so young children cannot accidentally ingest it",
-          "Throw the medicine on the floor",
-          "Give the bottle to a baby to play with",
-          "Children must drink the whole bottle"
+          "Store the bottle securely on a high shelf so young children cannot ingest it",
+          "Place the bottle inside a classroom desk so older students can distribute it",
+          "Keep the bottle inside the family refrigerator next to everyday fruit juices",
+          "Leave the bottle on a dining table where family members can reach it quickly"
         ],
         "answer": 0,
         "explain": "Medicine labels protect child safety by requiring storage out of reach of little hands."
@@ -313,10 +313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Rhea spots a sign showing a person walking down steps with a yellow caution triangle: 'CAUTION: WET FLOOR'. What should she do?",
         "options": [
-          "Sit down and pour more water",
-          "Walk slowly and carefully to avoid slipping on the wet floor",
-          "Run and slide across the tiles",
-          "Jump with both feet forward"
+          "Hurry across the wet corridor to leave the area as quickly as possible",
+          "Walk slowly and take careful footsteps to avoid slipping on damp tiles",
+          "Continue walking at full speed while holding books tightly in both hands",
+          "Look for another pathway only if the caution sign has flashing red lights"
         ],
         "answer": 1,
         "explain": "The safety sign warns that the floor is slippery and requires slow, careful footsteps."
@@ -326,7 +326,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The sports playground",
           "The public swimming pool",
-          "Emergency Exit (Fire Escape route)",
+          "Emergency Exit",
           "The ice cream shop"
         ],
         "answer": 2,
@@ -335,10 +335,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a medicine bottle, what does the label 'KEEP OUT OF REACH OF CHILDREN' instruct?",
         "options": [
-          "Store the medicine on a high shelf so young children cannot accidentally ingest it",
-          "Throw the medicine on the floor",
-          "Give the bottle to a baby to play with",
-          "Children must drink the whole bottle"
+          "Store the bottle securely on a high shelf so young children cannot ingest it",
+          "Place the bottle inside a classroom desk so older students can distribute it",
+          "Keep the bottle inside the family refrigerator next to everyday fruit juices",
+          "Leave the bottle on a dining table where family members can reach it quickly"
         ],
         "answer": 0,
         "explain": "Medicine labels protect child safety by requiring storage out of reach of little hands."
@@ -356,10 +356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "After reading an exciting chapter on volcanic islands, what is the best way for Aarav to draft a short summary paragraph?",
         "options": [
-          "Draw unrelated doodles without words",
-          "Write down five math addition problems",
-          "State the main topic, explain two key facts about lava forming new land, and write a concluding thought",
-          "Copy every third word from the page"
+          "Copy the opening paragraph word for word without altering any vocabulary terms",
+          "List every unfamiliar scientific word in alphabetical order without descriptions",
+          "State the main topic, include two key facts about lava, and add a concluding thought",
+          "Express personal opinions on volcanoes while omitting specific details from the text"
         ],
         "answer": 2,
         "explain": "A great summary states the central topic, key supporting details, and wraps up neatly!"
@@ -367,10 +367,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the benefit of 'extensive reading' (reading widely for pleasure outside class)?",
         "options": [
-          "It makes your eyesight turn blue",
-          "It stops you from learning anything new",
-          "It is only done as a punishment",
-          "It enriches your vocabulary, boosts imagination, and develops natural fluency in language"
+          "It guarantees high test scores by memorizing grammatical definitions and rules",
+          "It reduces the time needed for daily subject revisions and written assignments",
+          "It replaces formal classroom instruction with independent leisure storytelling",
+          "It broadens vocabulary, sparks creative thought, and builds language fluency"
         ],
         "answer": 3,
         "explain": "Reading for joy exposes you to thousands of words, ideas, and cultures naturally!"
@@ -378,10 +378,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where can a reader look in a book to quickly see the list of chapters and page numbers?",
         "options": [
-          "Page 100",
-          "The barcode on the back cover",
-          "The Table of Contents at the front of the book",
-          "The copyright page fine print"
+          "The alphabetical index located at the back of the book",
+          "The publisher imprint found beside the copyright details",
+          "The table of contents placed near the front of the book",
+          "The author biography printed on the inside back book jacket"
         ],
         "answer": 2,
         "explain": "The Table of Contents gives a neat roadmap of all chapters and their starting pages."
@@ -399,10 +399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "After reading an exciting chapter on volcanic islands, what is the best way for Aarav to draft a short summary paragraph?",
         "options": [
-          "Draw unrelated doodles without words",
-          "Write down five math addition problems",
-          "State the main topic, explain two key facts about lava forming new land, and write a concluding thought",
-          "Copy every third word from the page"
+          "Copy the opening paragraph word for word without altering any vocabulary terms",
+          "List every unfamiliar scientific word in alphabetical order without descriptions",
+          "State the main topic, include two key facts about lava, and add a concluding thought",
+          "Express personal opinions on volcanoes while omitting specific details from the text"
         ],
         "answer": 2,
         "explain": "A great summary states the central topic, key supporting details, and wraps up neatly!"
@@ -410,10 +410,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the benefit of 'extensive reading' (reading widely for pleasure outside class)?",
         "options": [
-          "It makes your eyesight turn blue",
-          "It stops you from learning anything new",
-          "It is only done as a punishment",
-          "It enriches your vocabulary, boosts imagination, and develops natural fluency in language"
+          "It guarantees high test scores by memorizing grammatical definitions and rules",
+          "It reduces the time needed for daily subject revisions and written assignments",
+          "It replaces formal classroom instruction with independent leisure storytelling",
+          "It broadens vocabulary, sparks creative thought, and builds language fluency"
         ],
         "answer": 3,
         "explain": "Reading for joy exposes you to thousands of words, ideas, and cultures naturally!"
@@ -421,10 +421,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where can a reader look in a book to quickly see the list of chapters and page numbers?",
         "options": [
-          "Page 100",
-          "The barcode on the back cover",
-          "The Table of Contents at the front of the book",
-          "The copyright page fine print"
+          "The alphabetical index located at the back of the book",
+          "The publisher imprint found beside the copyright details",
+          "The table of contents placed near the front of the book",
+          "The author biography printed on the inside back book jacket"
         ],
         "answer": 2,
         "explain": "The Table of Contents gives a neat roadmap of all chapters and their starting pages."
@@ -453,10 +453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What extraordinary ability do Mudskipper fish display when the tide is low?",
         "options": [
-          "They fly high into the clouds like eagles",
-          "They build stone houses",
-          "They climb onto stilt roots and breathe air while foraging on mudflats",
-          "They burrow to the center of the Earth"
+          "They burrow deep into dry sand dunes and enter a state of winter hibernation",
+          "They swim into deep ocean trenches to escape predatory seabirds along the bay",
+          "They walk on exposed mudflats using pelvic fins and absorb oxygen on land",
+          "They change their scale colors instantly to match surrounding coastal rocks"
         ],
         "answer": 2,
         "explain": "Mudskippers are amphibious fish adapted to hop on land and breathe through skin and gill chambers!"
@@ -464,10 +464,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are mangrove forests vital along coastal shorelines?",
         "options": [
-          "They stop all rain from falling",
-          "They make ocean water turn into fresh milk",
-          "They destroy all ocean coral reefs",
-          "Their dense stilt roots trap sediment, prevent coastal erosion, and protect shores from cyclone waves"
+          "They provide timber for deep-sea ships while preventing ocean waves from forming",
+          "They absorb excess salt from ocean currents to make seawater suitable for crops",
+          "They cool tropical ocean waters by shading wide stretches of deep coastal sea",
+          "They trap sediment with stilt roots, curb erosion, and shield shores from waves"
         ],
         "answer": 3,
         "explain": "Mangrove trees are nature's shock-absorbers against coastal storms, tsunamis, and erosion."
@@ -496,10 +496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What extraordinary ability do Mudskipper fish display when the tide is low?",
         "options": [
-          "They fly high into the clouds like eagles",
-          "They build stone houses",
-          "They climb onto stilt roots and breathe air while foraging on mudflats",
-          "They burrow to the center of the Earth"
+          "They burrow deep into dry sand dunes and enter a state of winter hibernation",
+          "They swim into deep ocean trenches to escape predatory seabirds along the bay",
+          "They walk on exposed mudflats using pelvic fins and absorb oxygen on land",
+          "They change their scale colors instantly to match surrounding coastal rocks"
         ],
         "answer": 2,
         "explain": "Mudskippers are amphibious fish adapted to hop on land and breathe through skin and gill chambers!"
@@ -507,10 +507,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are mangrove forests vital along coastal shorelines?",
         "options": [
-          "They stop all rain from falling",
-          "They make ocean water turn into fresh milk",
-          "They destroy all ocean coral reefs",
-          "Their dense stilt roots trap sediment, prevent coastal erosion, and protect shores from cyclone waves"
+          "They provide timber for deep-sea ships while preventing ocean waves from forming",
+          "They absorb excess salt from ocean currents to make seawater suitable for crops",
+          "They cool tropical ocean waters by shading wide stretches of deep coastal sea",
+          "They trap sediment with stilt roots, curb erosion, and shield shores from waves"
         ],
         "answer": 3,
         "explain": "Mangrove trees are nature's shock-absorbers against coastal storms, tsunamis, and erosion."
@@ -528,10 +528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary definition of 'MIGRATION' in the animal kingdom?",
         "options": [
-          "Animals going to sleep for five minutes",
-          "Seasonal movement of animals from one region to another for food, breeding, or warmer climate",
-          "A sudden loud noise in the forest",
-          "A kind of bird cage"
+          "The daily journey of wild creatures searching for clean drinking water nearby",
+          "The seasonal journey of animals to another region for food, warmth, or breeding",
+          "The permanent departure of young animals after leaving family nests or dens",
+          "The temporary retreat of forest animals into caves during heavy storm showers"
         ],
         "answer": 1,
         "explain": "Migration is the regular seasonal journey animals make to survive harsh winters and find food."
@@ -539,10 +539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Look at the dictionary notation: 'migrate (verb)'. What part of speech is 'migrate'?",
         "options": [
-          "A Noun (a person, place, or thing)",
-          "A Verb (an action word)",
+          "A Noun",
+          "A Verb",
           "A Preposition",
-          "An Adjective (a describing word)"
+          "An Adjective"
         ],
         "answer": 1,
         "explain": "To migrate is an action, making it a verb."
@@ -550,10 +550,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which syllable receives the primary stress when pronouncing 'mi-GRA-tion'?",
         "options": [
-          "The second syllable (-GRA-)",
-          "The first syllable (mi-)",
+          "The second syllable",
+          "The first syllable",
           "All syllables are silent",
-          "The last syllable (-tion)"
+          "The last syllable"
         ],
         "answer": 0,
         "explain": "In words ending in -tion, the syllable immediately before the suffix carries primary stress: mi-GRA-tion!"
@@ -571,10 +571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary definition of 'MIGRATION' in the animal kingdom?",
         "options": [
-          "Animals going to sleep for five minutes",
-          "Seasonal movement of animals from one region to another for food, breeding, or warmer climate",
-          "A sudden loud noise in the forest",
-          "A kind of bird cage"
+          "The daily journey of wild creatures searching for clean drinking water nearby",
+          "The seasonal journey of animals to another region for food, warmth, or breeding",
+          "The permanent departure of young animals after leaving family nests or dens",
+          "The temporary retreat of forest animals into caves during heavy storm showers"
         ],
         "answer": 1,
         "explain": "Migration is the regular seasonal journey animals make to survive harsh winters and find food."
@@ -582,10 +582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Look at the dictionary notation: 'migrate (verb)'. What part of speech is 'migrate'?",
         "options": [
-          "A Noun (a person, place, or thing)",
-          "A Verb (an action word)",
+          "A Noun",
+          "A Verb",
           "A Preposition",
-          "An Adjective (a describing word)"
+          "An Adjective"
         ],
         "answer": 1,
         "explain": "To migrate is an action, making it a verb."
@@ -593,10 +593,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which syllable receives the primary stress when pronouncing 'mi-GRA-tion'?",
         "options": [
-          "The second syllable (-GRA-)",
-          "The first syllable (mi-)",
+          "The second syllable",
+          "The first syllable",
           "All syllables are silent",
-          "The last syllable (-tion)"
+          "The last syllable"
         ],
         "answer": 0,
         "explain": "In words ending in -tion, the syllable immediately before the suffix carries primary stress: mi-GRA-tion!"
@@ -614,10 +614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a polite, insightful question for Kabir to ask the school gardener?",
         "options": [
-          "'How old is your shovel?'",
-          "'Mr. Joseph, what natural compost do you prepare to keep our school roses blooming so beautifully?'",
-          "'Can I pull out all your flowers right now?'",
-          "'Why are you covered in dirt?'"
+          "Mr. Joseph, how many different plant species have been planted across our garden?",
+          "Mr. Joseph, what natural compost do you use to keep the flowerbeds blooming well?",
+          "Mr. Joseph, why do you spend so much time watering plants instead of pruning bushes?",
+          "Mr. Joseph, which chemical fertilizer works fastest when preparing the garden beds?"
         ],
         "answer": 1,
         "explain": "Respectful, focused questions invite the expert to share their rich craft and knowledge!"
@@ -625,10 +625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should an interviewer do while the other person is answering?",
         "options": [
-          "Talk over the person loudly",
-          "Listen attentively, take accurate notes, and avoid interrupting until they finish",
-          "Stare out the window",
-          "Look at their watch and tap their feet impatiently"
+          "Prepare the following question in mind while glancing around the interview room",
+          "Listen attentively, record key notes, and avoid interrupting until they finish",
+          "Rephrase each spoken sentence immediately to ensure the discussion moves fast",
+          "Check the recording timer continuously and prompt the speaker to wrap up quickly"
         ],
         "answer": 1,
         "explain": "Active listening and courteous note-taking are the hallmarks of a great reporter!"
@@ -636,10 +636,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should Kabir close the interview politely?",
         "options": [
-          "'No more questions forever.'",
-          "'I am done, you can go now.'",
-          "'Thank you so much for your time and for sharing your wonderful gardening wisdom, Mr. Joseph!'",
-          "'Throw away your plants!'"
+          "Thank you, Mr. Joseph; I will make sure our school magazine prints every word.",
+          "Thank you, Mr. Joseph; please review these written responses before I submit them.",
+          "Thank you, Mr. Joseph, for your valuable time and helpful insights on our garden.",
+          "Thank you, Mr. Joseph; let us meet again tomorrow to discuss remaining topics."
         ],
         "answer": 2,
         "explain": "Expressing sincere thanks shows warmth, gratitude, and professionalism."
@@ -657,10 +657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a polite, insightful question for Kabir to ask the school gardener?",
         "options": [
-          "'How old is your shovel?'",
-          "'Mr. Joseph, what natural compost do you prepare to keep our school roses blooming so beautifully?'",
-          "'Can I pull out all your flowers right now?'",
-          "'Why are you covered in dirt?'"
+          "Mr. Joseph, how many different plant species have been planted across our garden?",
+          "Mr. Joseph, what natural compost do you use to keep the flowerbeds blooming well?",
+          "Mr. Joseph, why do you spend so much time watering plants instead of pruning bushes?",
+          "Mr. Joseph, which chemical fertilizer works fastest when preparing the garden beds?"
         ],
         "answer": 1,
         "explain": "Respectful, focused questions invite the expert to share their rich craft and knowledge!"
@@ -668,10 +668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should an interviewer do while the other person is answering?",
         "options": [
-          "Talk over the person loudly",
-          "Listen attentively, take accurate notes, and avoid interrupting until they finish",
-          "Stare out the window",
-          "Look at their watch and tap their feet impatiently"
+          "Prepare the following question in mind while glancing around the interview room",
+          "Listen attentively, record key notes, and avoid interrupting until they finish",
+          "Rephrase each spoken sentence immediately to ensure the discussion moves fast",
+          "Check the recording timer continuously and prompt the speaker to wrap up quickly"
         ],
         "answer": 1,
         "explain": "Active listening and courteous note-taking are the hallmarks of a great reporter!"
@@ -679,10 +679,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should Kabir close the interview politely?",
         "options": [
-          "'No more questions forever.'",
-          "'I am done, you can go now.'",
-          "'Thank you so much for your time and for sharing your wonderful gardening wisdom, Mr. Joseph!'",
-          "'Throw away your plants!'"
+          "Thank you, Mr. Joseph; I will make sure our school magazine prints every word.",
+          "Thank you, Mr. Joseph; please review these written responses before I submit them.",
+          "Thank you, Mr. Joseph, for your valuable time and helpful insights on our garden.",
+          "Thank you, Mr. Joseph; let us meet again tomorrow to discuss remaining topics."
         ],
         "answer": 2,
         "explain": "Expressing sincere thanks shows warmth, gratitude, and professionalism."
@@ -701,7 +701,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which harvest festival is celebrated in Assam with lively community dancing, traditional dhol drums, and peetha sweets?",
         "options": [
           "Pongal",
-          "Bihu (Rongali Bihu)",
+          "Bihu",
           "Lohri",
           "Onam"
         ],
@@ -722,10 +722,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is cultural diversity in food, languages, and clothing considered India's greatest strength?",
         "options": [
-          "It means people should never interact",
-          "It has no cultural significance",
-          "It enriches our collective heritage, fosters mutual respect, and demonstrates unity in diversity",
-          "It makes everyone dress identically in grey suits"
+          "It encourages every region to preserve its traditions without interacting with others",
+          "It simplifies administrative governance by establishing identical customs across states",
+          "It enriches national heritage, fosters mutual respect, and unites diverse traditions",
+          "It ensures that festive celebrations and culinary tastes remain uniform nationwide"
         ],
         "answer": 2,
         "explain": "'Unity in Diversity' celebrates how rich regional traditions unite into one vibrant national family!"
@@ -744,7 +744,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which harvest festival is celebrated in Assam with lively community dancing, traditional dhol drums, and peetha sweets?",
         "options": [
           "Pongal",
-          "Bihu (Rongali Bihu)",
+          "Bihu",
           "Lohri",
           "Onam"
         ],
@@ -765,10 +765,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is cultural diversity in food, languages, and clothing considered India's greatest strength?",
         "options": [
-          "It means people should never interact",
-          "It has no cultural significance",
-          "It enriches our collective heritage, fosters mutual respect, and demonstrates unity in diversity",
-          "It makes everyone dress identically in grey suits"
+          "It encourages every region to preserve its traditions without interacting with others",
+          "It simplifies administrative governance by establishing identical customs across states",
+          "It enriches national heritage, fosters mutual respect, and unites diverse traditions",
+          "It ensures that festive celebrations and culinary tastes remain uniform nationwide"
         ],
         "answer": 2,
         "explain": "'Unity in Diversity' celebrates how rich regional traditions unite into one vibrant national family!"
@@ -786,10 +786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which statement best expresses the true meaning of PEACE in a school community?",
         "options": [
-          "Treating everyone with fairness, resolving disputes through calm dialogue, and respecting differences",
-          "Winning every fight with physical strength",
-          "Being so scared that nobody makes a sound",
-          "Letting bullies decide all playground rules"
+          "Treating others fairly, resolving disputes with dialogue, and respecting differences",
+          "Keeping students silent during all breaks so that disagreements never occur in class",
+          "Allowing stronger students to settle playground conflicts without teacher guidance",
+          "Avoiding any group discussions or teamwork activities where opposing opinions arise"
         ],
         "answer": 0,
         "explain": "Peace thrives when fairness, mutual empathy, and constructive dialogue resolve conflicts."
@@ -797,10 +797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'EQUALITY' mean when selecting players for a school science quiz team?",
         "options": [
-          "Picking only students who live on your street",
-          "Selecting only boys for science",
-          "Giving every student an equal chance to participate based on effort, regardless of gender or background",
-          "Excluding students who wear glasses"
+          "Choosing students who have previously represented the school in regional quiz contests",
+          "Selecting participants primarily from higher grade sections to ensure greater knowledge",
+          "Offering every student a fair chance to participate based on effort, merit, and interest",
+          "Reserving team spots for students who can provide their own reference study materials"
         ],
         "answer": 2,
         "explain": "Equality guarantees fair, unbiased opportunity for everyone to learn, compete, and excel!"
@@ -829,10 +829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which statement best expresses the true meaning of PEACE in a school community?",
         "options": [
-          "Treating everyone with fairness, resolving disputes through calm dialogue, and respecting differences",
-          "Winning every fight with physical strength",
-          "Being so scared that nobody makes a sound",
-          "Letting bullies decide all playground rules"
+          "Treating others fairly, resolving disputes with dialogue, and respecting differences",
+          "Keeping students silent during all breaks so that disagreements never occur in class",
+          "Allowing stronger students to settle playground conflicts without teacher guidance",
+          "Avoiding any group discussions or teamwork activities where opposing opinions arise"
         ],
         "answer": 0,
         "explain": "Peace thrives when fairness, mutual empathy, and constructive dialogue resolve conflicts."
@@ -840,10 +840,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'EQUALITY' mean when selecting players for a school science quiz team?",
         "options": [
-          "Picking only students who live on your street",
-          "Selecting only boys for science",
-          "Giving every student an equal chance to participate based on effort, regardless of gender or background",
-          "Excluding students who wear glasses"
+          "Choosing students who have previously represented the school in regional quiz contests",
+          "Selecting participants primarily from higher grade sections to ensure greater knowledge",
+          "Offering every student a fair chance to participate based on effort, merit, and interest",
+          "Reserving team spots for students who can provide their own reference study materials"
         ],
         "answer": 2,
         "explain": "Equality guarantees fair, unbiased opportunity for everyone to learn, compete, and excel!"
@@ -872,10 +872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Say this rapidly without stumbling: 'Fresh fried fish, fish fresh fried!' What phonetic sound does this twister challenge?",
         "options": [
-          "Counting syllables",
-          "The rapid alternating of /f/, /r/, and /sh/ fricative sounds",
-          "Vowel rhyming only",
-          "Silent letters like the 'k' in knife"
+          "The distinct articulation of voiced nasal consonants like m and n",
+          "The rapid alternating of f, r, and sh consonant and blend sounds",
+          "The careful separation of long and short vowel sounds in syllables",
+          "The soft blending of silent letters such as the k in knife or knee"
         ],
         "answer": 1,
         "explain": "The brisk transition between /fr/, /ai/, and /sh/ exercises rapid tongue and lip articulation!"
@@ -894,10 +894,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are verbal word games, puns, and tongue twisters fantastic for language learners?",
         "options": [
-          "They force you to forget your grammar rules",
-          "They are only used in silence",
-          "They are designed to confuse adults",
-          "They train motor speech control, enhance phonemic awareness, and make language playful"
+          "They help students memorize formal spelling lists without needing regular reading practice",
+          "They replace the need to study structured grammatical syntax during classroom writing tasks",
+          "They test how fast readers can scan encyclopedia pages while searching for reference terms",
+          "They train speech articulation, build phonemic awareness, and make learning words engaging"
         ],
         "answer": 3,
         "explain": "Word games build speech agility, active listening, and a joyous love of words!"
@@ -915,10 +915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Say this rapidly without stumbling: 'Fresh fried fish, fish fresh fried!' What phonetic sound does this twister challenge?",
         "options": [
-          "Counting syllables",
-          "The rapid alternating of /f/, /r/, and /sh/ fricative sounds",
-          "Vowel rhyming only",
-          "Silent letters like the 'k' in knife"
+          "The distinct articulation of voiced nasal consonants like m and n",
+          "The rapid alternating of f, r, and sh consonant and blend sounds",
+          "The careful separation of long and short vowel sounds in syllables",
+          "The soft blending of silent letters such as the k in knife or knee"
         ],
         "answer": 1,
         "explain": "The brisk transition between /fr/, /ai/, and /sh/ exercises rapid tongue and lip articulation!"
@@ -937,10 +937,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are verbal word games, puns, and tongue twisters fantastic for language learners?",
         "options": [
-          "They force you to forget your grammar rules",
-          "They are only used in silence",
-          "They are designed to confuse adults",
-          "They train motor speech control, enhance phonemic awareness, and make language playful"
+          "They help students memorize formal spelling lists without needing regular reading practice",
+          "They replace the need to study structured grammatical syntax during classroom writing tasks",
+          "They test how fast readers can scan encyclopedia pages while searching for reference terms",
+          "They train speech articulation, build phonemic awareness, and make learning words engaging"
         ],
         "answer": 3,
         "explain": "Word games build speech agility, active listening, and a joyous love of words!"
@@ -958,10 +958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence frames a grammatically correct question to investigate how the rescue happened?",
         "options": [
-          "'Goat pull dog how out?'",
-          "'How did the brave dog pull the struggling goat out of the deep mud?'",
-          "'Did how dog pull goat?'",
-          "'How the dog pull goat out mud did?'"
+          "How the brave dog did pull the struggling goat out from the muddy ditch?",
+          "How did the brave dog pull the struggling goat out of the deep mud hole?",
+          "How was the brave dog pulling the struggling goat without any rope used?",
+          "How does the brave dog pulled the struggling goat away from muddy water?"
         ],
         "answer": 1,
         "explain": "Question structure: Question word (How) + auxiliary (did) + subject (the brave dog) + base verb (pull)!"
@@ -969,10 +969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence is a vivid, grammatically correct narrative description of the moment?",
         "options": [
-          "'Leaped shepherd shallow water without hesitation dog assisting.'",
-          "'Shepherd water leaping shallow dog loyal.'",
-          "'Assisting water dog shepherd without leap.'",
-          "'Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog.'"
+          "The shepherd leaped without hesitation, assisting water shallow toward his dog loyal.",
+          "Leaping without hesitation into shallow water, the loyal dog was assisted shepherd.",
+          "Without hesitating, shallow water was leaped into by the shepherd assisting loyal dog.",
+          "Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog."
         ],
         "answer": 3,
         "explain": "Clear syntax, appropriate prepositional phrase, and vivid action make this sentence shine!"
@@ -1001,10 +1001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence frames a grammatically correct question to investigate how the rescue happened?",
         "options": [
-          "'Goat pull dog how out?'",
-          "'How did the brave dog pull the struggling goat out of the deep mud?'",
-          "'Did how dog pull goat?'",
-          "'How the dog pull goat out mud did?'"
+          "How the brave dog did pull the struggling goat out from the muddy ditch?",
+          "How did the brave dog pull the struggling goat out of the deep mud hole?",
+          "How was the brave dog pulling the struggling goat without any rope used?",
+          "How does the brave dog pulled the struggling goat away from muddy water?"
         ],
         "answer": 1,
         "explain": "Question structure: Question word (How) + auxiliary (did) + subject (the brave dog) + base verb (pull)!"
@@ -1012,10 +1012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence is a vivid, grammatically correct narrative description of the moment?",
         "options": [
-          "'Leaped shepherd shallow water without hesitation dog assisting.'",
-          "'Shepherd water leaping shallow dog loyal.'",
-          "'Assisting water dog shepherd without leap.'",
-          "'Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog.'"
+          "The shepherd leaped without hesitation, assisting water shallow toward his dog loyal.",
+          "Leaping without hesitation into shallow water, the loyal dog was assisted shepherd.",
+          "Without hesitating, shallow water was leaped into by the shepherd assisting loyal dog.",
+          "Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog."
         ],
         "answer": 3,
         "explain": "Clear syntax, appropriate prepositional phrase, and vivid action make this sentence shine!"
@@ -1055,10 +1055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the sentence: 'The swallows FLY south every autumn, but last year they FLEW early.' What are 'fly' and 'flew'?",
         "options": [
-          "Both are nouns",
-          "'Fly' is simple present tense; 'flew' is simple past tense",
-          "Both are future tense",
-          "'Fly' is past; 'flew' is future"
+          "Both words are action verbs conjugated in the present continuous tense",
+          "Fly is simple present tense while flew is simple past tense",
+          "Both words are descriptive adverbs modifying seasonal migration patterns",
+          "Fly is simple past tense while flew is future continuous tense"
         ],
         "answer": 1,
         "explain": "'Fly' describes recurring present routine, while 'flew' is its irregular simple past form."
@@ -1068,7 +1068,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Plains",
           "Cheetah",
-          "Effortlessly (tells HOW the cheetah sprinted)",
+          "Effortlessly",
           "Sprinted"
         ],
         "answer": 2,
@@ -1098,10 +1098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the sentence: 'The swallows FLY south every autumn, but last year they FLEW early.' What are 'fly' and 'flew'?",
         "options": [
-          "Both are nouns",
-          "'Fly' is simple present tense; 'flew' is simple past tense",
-          "Both are future tense",
-          "'Fly' is past; 'flew' is future"
+          "Both words are action verbs conjugated in the present continuous tense",
+          "Fly is simple present tense while flew is simple past tense",
+          "Both words are descriptive adverbs modifying seasonal migration patterns",
+          "Fly is simple past tense while flew is future continuous tense"
         ],
         "answer": 1,
         "explain": "'Fly' describes recurring present routine, while 'flew' is its irregular simple past form."
@@ -1111,7 +1111,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Plains",
           "Cheetah",
-          "Effortlessly (tells HOW the cheetah sprinted)",
+          "Effortlessly",
           "Sprinted"
         ],
         "answer": 2,
@@ -1216,10 +1216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which catchy, rhyming slogan is most effective for an animal welfare poster?",
         "options": [
-          "'Please buy paper.'",
-          "'Notice is hereby given.'",
-          "'Paws and claws need our care—kindness to animals everywhere!'",
-          "'Dogs are animals with four legs.'"
+          "Animals live in forests and villages, so keep public pathways clean and clear!",
+          "Feeding stray animals is important, so read community welfare rules today!",
+          "Paws and claws need our care, so show true kindness to animals everywhere!",
+          "Pets require daily nutrition, so consult a local veterinary clinic nearby!"
         ],
         "answer": 2,
         "explain": "A rhyming, compassionate slogan creates an instant emotional connection and call to action!"
@@ -1227,10 +1227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What elements should a compelling visual poster balance?",
         "options": [
-          "Bold clear headline, expressive artwork, and essential actionable details",
-          "Ten thousand words crammed together",
-          "Tiny microscopic text with no pictures",
-          "Only blank white space"
+          "Bold headline typography, expressive artwork, and essential practical details",
+          "Lengthy informational paragraphs, multiple font colors, and complex tables",
+          "Elaborate background patterns, decorative borders, and minimal readable text",
+          "Standard textbook definitions, monochrome diagrams, and formal author citations"
         ],
         "answer": 0,
         "explain": "Visual harmony, readable typography, and strong focal art make posters impactful!"
@@ -1238,10 +1238,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In creative story writing, what is the 'climax' of a tale?",
         "options": [
-          "The blank back cover",
-          "The most intense, exciting turning point where the hero faces the main conflict",
-          "The first five words",
-          "The page where the title is printed"
+          "The opening paragraphs introducing the main characters and setting the initial story mood",
+          "The peak dramatic turning point where characters confront the central challenge or conflict",
+          "The quiet final section where loose plot threads are resolved after all struggles conclude",
+          "The brief list of chapter headings outlining the sequential events of the entire narrative"
         ],
         "answer": 1,
         "explain": "The climax is the peak dramatic moment where the central mystery or battle is decided!"
@@ -1259,10 +1259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which catchy, rhyming slogan is most effective for an animal welfare poster?",
         "options": [
-          "'Please buy paper.'",
-          "'Notice is hereby given.'",
-          "'Paws and claws need our care—kindness to animals everywhere!'",
-          "'Dogs are animals with four legs.'"
+          "Animals live in forests and villages, so keep public pathways clean and clear!",
+          "Feeding stray animals is important, so read community welfare rules today!",
+          "Paws and claws need our care, so show true kindness to animals everywhere!",
+          "Pets require daily nutrition, so consult a local veterinary clinic nearby!"
         ],
         "answer": 2,
         "explain": "A rhyming, compassionate slogan creates an instant emotional connection and call to action!"
@@ -1270,10 +1270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What elements should a compelling visual poster balance?",
         "options": [
-          "Bold clear headline, expressive artwork, and essential actionable details",
-          "Ten thousand words crammed together",
-          "Tiny microscopic text with no pictures",
-          "Only blank white space"
+          "Bold headline typography, expressive artwork, and essential practical details",
+          "Lengthy informational paragraphs, multiple font colors, and complex tables",
+          "Elaborate background patterns, decorative borders, and minimal readable text",
+          "Standard textbook definitions, monochrome diagrams, and formal author citations"
         ],
         "answer": 0,
         "explain": "Visual harmony, readable typography, and strong focal art make posters impactful!"
@@ -1281,10 +1281,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In creative story writing, what is the 'climax' of a tale?",
         "options": [
-          "The blank back cover",
-          "The most intense, exciting turning point where the hero faces the main conflict",
-          "The first five words",
-          "The page where the title is printed"
+          "The opening paragraphs introducing the main characters and setting the initial story mood",
+          "The peak dramatic turning point where characters confront the central challenge or conflict",
+          "The quiet final section where loose plot threads are resolved after all struggles conclude",
+          "The brief list of chapter headings outlining the sequential events of the entire narrative"
         ],
         "answer": 1,
         "explain": "The climax is the peak dramatic moment where the central mystery or battle is decided!"
@@ -1302,10 +1302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between an AUTOBIOGRAPHY and a BIOGRAPHY?",
         "options": [
-          "An autobiography is written by a person about their OWN life; a biography is written by someone ELSE about another person",
-          "They mean the exact same thing with no difference",
-          "An autobiography is about planets; a biography is about numbers",
-          "Biographies are only written about fictional wizards"
+          "An autobiography is written by an author about their own life, while a biography is written by someone else about another person",
+          "An autobiography deals exclusively with fictional heroic adventures, while a biography focuses strictly on real historical rulers",
+          "An autobiography is composed by close relatives after an author passes away, while a biography is recorded during early childhood",
+          "An autobiography describes scientific discoveries made by teams of researchers, while a biography analyzes poetry and drama styles"
         ],
         "answer": 0,
         "explain": "'Auto' means self! An autobiography is a self-written life story (like Kalam's 'Wings of Fire')."
@@ -1313,10 +1313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which pronoun is primarily used in an AUTOBIOGRAPHY when narrating personal memories?",
         "options": [
-          "Third person only: 'He', 'she', 'they'",
-          "None at all",
-          "Second person: 'You', 'your'",
-          "First person pronouns: 'I', 'me', 'my', 'we'"
+          "Third person pronouns such as he, she, it, or they",
+          "Impersonal relative pronouns like who, which, or that",
+          "Second person pronouns such as you, your, and yourself",
+          "First person pronouns such as I, me, my, and we"
         ],
         "answer": 3,
         "explain": "When telling your own life story, you write from the personal perspective: 'I was born in...'!"
@@ -1324,10 +1324,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key factual milestones should a mini-biography include?",
         "options": [
-          "Rumors with no verification",
-          "The color of their favorite shoelaces only",
-          "A list of food they disliked",
-          "Early childhood, major achievements, struggles overcome, and contributions to society"
+          "Fictional adventure stories and unverified rumours circulating among local towns",
+          "A catalogue of daily personal possessions and favorite leisure hobbies of the author",
+          "Detailed transcripts of casual household conversations with childhood friends",
+          "Early upbringing, key milestones, challenges overcome, and lasting contributions"
         ],
         "answer": 3,
         "explain": "A biography highlights formative experiences, pivotal milestones, and lasting impact on the world."
@@ -1345,10 +1345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between an AUTOBIOGRAPHY and a BIOGRAPHY?",
         "options": [
-          "An autobiography is written by a person about their OWN life; a biography is written by someone ELSE about another person",
-          "They mean the exact same thing with no difference",
-          "An autobiography is about planets; a biography is about numbers",
-          "Biographies are only written about fictional wizards"
+          "An autobiography is written by an author about their own life, while a biography is written by someone else about another person",
+          "An autobiography deals exclusively with fictional heroic adventures, while a biography focuses strictly on real historical rulers",
+          "An autobiography is composed by close relatives after an author passes away, while a biography is recorded during early childhood",
+          "An autobiography describes scientific discoveries made by teams of researchers, while a biography analyzes poetry and drama styles"
         ],
         "answer": 0,
         "explain": "'Auto' means self! An autobiography is a self-written life story (like Kalam's 'Wings of Fire')."
@@ -1356,10 +1356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which pronoun is primarily used in an AUTOBIOGRAPHY when narrating personal memories?",
         "options": [
-          "Third person only: 'He', 'she', 'they'",
-          "None at all",
-          "Second person: 'You', 'your'",
-          "First person pronouns: 'I', 'me', 'my', 'we'"
+          "Third person pronouns such as he, she, it, or they",
+          "Impersonal relative pronouns like who, which, or that",
+          "Second person pronouns such as you, your, and yourself",
+          "First person pronouns such as I, me, my, and we"
         ],
         "answer": 3,
         "explain": "When telling your own life story, you write from the personal perspective: 'I was born in...'!"
@@ -1367,10 +1367,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key factual milestones should a mini-biography include?",
         "options": [
-          "Rumors with no verification",
-          "The color of their favorite shoelaces only",
-          "A list of food they disliked",
-          "Early childhood, major achievements, struggles overcome, and contributions to society"
+          "Fictional adventure stories and unverified rumours circulating among local towns",
+          "A catalogue of daily personal possessions and favorite leisure hobbies of the author",
+          "Detailed transcripts of casual household conversations with childhood friends",
+          "Early upbringing, key milestones, challenges overcome, and lasting contributions"
         ],
         "answer": 3,
         "explain": "A biography highlights formative experiences, pivotal milestones, and lasting impact on the world."
@@ -1388,10 +1388,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How are the exact spoken words of a character enclosed in a written script?",
         "options": [
-          "With question marks only",
-          "Inside quotation marks / speech marks: \"...\"",
-          "Underline every word with red crayon",
-          "Inside square math brackets: [...]"
+          "Between paired question marks at both ends",
+          "Inside quotation marks or speech marks",
+          "Underlined with double solid red strokes",
+          "Wrapped within decorative asterisks signs"
         ],
         "answer": 1,
         "explain": "Quotation marks (\" \") frame direct speech so the reader knows the exact words uttered!"
@@ -1431,10 +1431,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How are the exact spoken words of a character enclosed in a written script?",
         "options": [
-          "With question marks only",
-          "Inside quotation marks / speech marks: \"...\"",
-          "Underline every word with red crayon",
-          "Inside square math brackets: [...]"
+          "Between paired question marks at both ends",
+          "Inside quotation marks or speech marks",
+          "Underlined with double solid red strokes",
+          "Wrapped within decorative asterisks signs"
         ],
         "answer": 1,
         "explain": "Quotation marks (\" \") frame direct speech so the reader knows the exact words uttered!"
@@ -1474,10 +1474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should Diya write in the 'SUBJECT' line of her school email?",
         "options": [
-          "'Request to borrow school microscope for leaf investigation - Diya (Class 5B)'",
-          "'Can I play games?'",
-          "'HELLO HELLO CLICK HERE NOW!!!'",
-          "'No subject'"
+          "Request to borrow school microscope for science project from Diya",
+          "Urgent notification about classroom games and upcoming sports break",
+          "Inquiry regarding cafeteria lunch menus and afternoon snack options",
+          "Casual greeting to classmates about weekend homework assignments"
         ],
         "answer": 0,
         "explain": "A clear, specific subject line lets the recipient know immediately who is writing and what the topic is."
@@ -1485,10 +1485,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which salutation is appropriate for an email addressed to your school teacher?",
         "options": [
-          "'Hey buddy what's up,'",
-          "'Listen to me now,'",
-          "'Dear Mr. Verma,' or 'Respected Mr. Verma,'",
-          "'Yo Verma,'"
+          "Hey buddy, hope you are doing well today",
+          "Attention please, read this message now",
+          "Respected Mr. Verma, or Dear Mr. Verma",
+          "What is happening, let us talk quickly"
         ],
         "answer": 2,
         "explain": "Respectful greetings show proper academic etiquette and courtesy."
@@ -1496,10 +1496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Before hitting the 'SEND' button on an email, what crucial step must every good writer take?",
         "options": [
-          "Delete your account",
-          "Forward it to 50 strangers",
-          "Proofread the message carefully to check spelling, grammar, and tone",
-          "Shut your laptop as hard as possible"
+          "Reformat the entire text into decorative artistic fonts to look fancy",
+          "Forward the draft immediately to multiple random contacts for opinions",
+          "Proofread the email carefully to verify spelling, grammar, and courtesy",
+          "Clear the recipient address box so that the draft can be rewritten again"
         ],
         "answer": 2,
         "explain": "Proofreading ensures your email is courteous, clear, accurate, and free of typos!"
@@ -1517,10 +1517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should Diya write in the 'SUBJECT' line of her school email?",
         "options": [
-          "'Request to borrow school microscope for leaf investigation - Diya (Class 5B)'",
-          "'Can I play games?'",
-          "'HELLO HELLO CLICK HERE NOW!!!'",
-          "'No subject'"
+          "Request to borrow school microscope for science project from Diya",
+          "Urgent notification about classroom games and upcoming sports break",
+          "Inquiry regarding cafeteria lunch menus and afternoon snack options",
+          "Casual greeting to classmates about weekend homework assignments"
         ],
         "answer": 0,
         "explain": "A clear, specific subject line lets the recipient know immediately who is writing and what the topic is."
@@ -1528,10 +1528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which salutation is appropriate for an email addressed to your school teacher?",
         "options": [
-          "'Hey buddy what's up,'",
-          "'Listen to me now,'",
-          "'Dear Mr. Verma,' or 'Respected Mr. Verma,'",
-          "'Yo Verma,'"
+          "Hey buddy, hope you are doing well today",
+          "Attention please, read this message now",
+          "Respected Mr. Verma, or Dear Mr. Verma",
+          "What is happening, let us talk quickly"
         ],
         "answer": 2,
         "explain": "Respectful greetings show proper academic etiquette and courtesy."
@@ -1539,10 +1539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Before hitting the 'SEND' button on an email, what crucial step must every good writer take?",
         "options": [
-          "Delete your account",
-          "Forward it to 50 strangers",
-          "Proofread the message carefully to check spelling, grammar, and tone",
-          "Shut your laptop as hard as possible"
+          "Reformat the entire text into decorative artistic fonts to look fancy",
+          "Forward the draft immediately to multiple random contacts for opinions",
+          "Proofread the email carefully to verify spelling, grammar, and courtesy",
+          "Clear the recipient address box so that the draft can be rewritten again"
         ],
         "answer": 2,
         "explain": "Proofreading ensures your email is courteous, clear, accurate, and free of typos!"
@@ -1560,10 +1560,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence serves as the ideal TOPIC SENTENCE that states the main idea of Aarav's paragraph?",
         "options": [
-          "'There are many insects in the world.'",
-          "'Honeybees use an extraordinary form of body language known as the waggle dance to communicate nectar locations.'",
-          "'Honey is sweet.'",
-          "'Finally, they return to the hive.'"
+          "Insects of all kinds can be found thriving in natural habitats across the globe",
+          "Honeybees perform a specialized waggle dance to signal rich floral nectar sites",
+          "Sweet golden honey is harvested by beekeepers during the pleasant spring months",
+          "In conclusion, garden insects play an active role in pollinating flowering plants"
         ],
         "answer": 1,
         "explain": "The topic sentence clearly defines the subject and focal claim of the entire paragraph!"
@@ -1571,10 +1571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which transitional linker shows CAUSE AND EFFECT between sentences in a scientific explanation?",
         "options": [
-          "'Once upon a time'",
-          "'Meanwhile'",
-          "'Consequently' / 'As a result'",
-          "'Suddenly'"
+          "Once upon a time, signaling an imaginary story opening",
+          "Meanwhile, indicating actions happening simultaneously",
+          "Consequently or As a result, showing logical outcomes",
+          "Suddenly, introducing an unexpected narrative surprise"
         ],
         "answer": 2,
         "explain": "'Consequently' and 'As a result' signal logical cause-and-effect reasoning."
@@ -1582,10 +1582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the purpose of the CONCLUDING SENTENCE in an explanatory paragraph?",
         "options": [
-          "To summarize the central insight and leave a memorable final takeaway for the reader",
-          "To apologize for writing the paragraph",
-          "To introduce five brand new unrelated topics",
-          "To repeat the first word twenty times"
+          "To summarize key insights and provide a satisfying takeaway for the reader",
+          "To introduce new arguments and raise unexpected questions for later chapters",
+          "To restate every supporting detail in identical phrasing used in earlier lines",
+          "To define unfamiliar dictionary terms that appeared within the opening passage"
         ],
         "answer": 0,
         "explain": "The concluding sentence ties all supporting points together with satisfying closure."
@@ -1603,10 +1603,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence serves as the ideal TOPIC SENTENCE that states the main idea of Aarav's paragraph?",
         "options": [
-          "'There are many insects in the world.'",
-          "'Honeybees use an extraordinary form of body language known as the waggle dance to communicate nectar locations.'",
-          "'Honey is sweet.'",
-          "'Finally, they return to the hive.'"
+          "Insects of all kinds can be found thriving in natural habitats across the globe",
+          "Honeybees perform a specialized waggle dance to signal rich floral nectar sites",
+          "Sweet golden honey is harvested by beekeepers during the pleasant spring months",
+          "In conclusion, garden insects play an active role in pollinating flowering plants"
         ],
         "answer": 1,
         "explain": "The topic sentence clearly defines the subject and focal claim of the entire paragraph!"
@@ -1614,10 +1614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which transitional linker shows CAUSE AND EFFECT between sentences in a scientific explanation?",
         "options": [
-          "'Once upon a time'",
-          "'Meanwhile'",
-          "'Consequently' / 'As a result'",
-          "'Suddenly'"
+          "Once upon a time, signaling an imaginary story opening",
+          "Meanwhile, indicating actions happening simultaneously",
+          "Consequently or As a result, showing logical outcomes",
+          "Suddenly, introducing an unexpected narrative surprise"
         ],
         "answer": 2,
         "explain": "'Consequently' and 'As a result' signal logical cause-and-effect reasoning."
@@ -1625,10 +1625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the purpose of the CONCLUDING SENTENCE in an explanatory paragraph?",
         "options": [
-          "To summarize the central insight and leave a memorable final takeaway for the reader",
-          "To apologize for writing the paragraph",
-          "To introduce five brand new unrelated topics",
-          "To repeat the first word twenty times"
+          "To summarize key insights and provide a satisfying takeaway for the reader",
+          "To introduce new arguments and raise unexpected questions for later chapters",
+          "To restate every supporting detail in identical phrasing used in earlier lines",
+          "To define unfamiliar dictionary terms that appeared within the opening passage"
         ],
         "answer": 0,
         "explain": "The concluding sentence ties all supporting points together with satisfying closure."
@@ -1646,10 +1646,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sensory property best distinguishes the LEMON WEDGE from the glass marble?",
         "options": [
-          "Being solid",
-          "Rolling ability",
-          "Color only",
-          "Sour taste and citrus aroma"
+          "Having a defined solid shape",
+          "Ability to roll along surfaces",
+          "Possessing visible bright tint",
+          "Distinct sour taste and aroma"
         ],
         "answer": 3,
         "explain": "Taste buds detect sour citric acid, while olfactory nerves catch the citrus aroma!"
@@ -1657,10 +1657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Touch a piece of sandpaper versus a polished pane of window glass. How do their textures differ?",
         "options": [
-          "Glass is spiky and hairy",
-          "Sandpaper is abrasive and rough; glass is slick, flat, and smooth",
-          "Sandpaper is completely liquid",
-          "Both feel like fluffy cotton"
+          "Sandpaper feels cool and polished, while glass has deep uneven grooves across its surface",
+          "Sandpaper has an abrasive gritty feel, whereas glass offers a sleek, flat, and glossy texture",
+          "Sandpaper behaves like flexible rubber cloth, while glass exhibits a velvety, ribbed coating",
+          "Sandpaper absorbs heat very quickly, while glass always stays freezing cold regardless of touch"
         ],
         "answer": 1,
         "explain": "Sandpaper has gritty mineral grains for abrasion, while glass is polished completely smooth."
@@ -1668,7 +1668,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When a metal tuning fork is struck with a rubber mallet, what sensory trait does it immediately produce?",
         "options": [
-          "A clear vibrating musical hum (sound vibration)",
+          "A clear vibrating musical hum",
           "A cold puddle of milk",
           "A sweet strawberry smell",
           "A rainbow of sparks"
@@ -1689,10 +1689,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sensory property best distinguishes the LEMON WEDGE from the glass marble?",
         "options": [
-          "Being solid",
-          "Rolling ability",
-          "Color only",
-          "Sour taste and citrus aroma"
+          "Having a defined solid shape",
+          "Ability to roll along surfaces",
+          "Possessing visible bright tint",
+          "Distinct sour taste and aroma"
         ],
         "answer": 3,
         "explain": "Taste buds detect sour citric acid, while olfactory nerves catch the citrus aroma!"
@@ -1700,10 +1700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Touch a piece of sandpaper versus a polished pane of window glass. How do their textures differ?",
         "options": [
-          "Glass is spiky and hairy",
-          "Sandpaper is abrasive and rough; glass is slick, flat, and smooth",
-          "Sandpaper is completely liquid",
-          "Both feel like fluffy cotton"
+          "Sandpaper feels cool and polished, while glass has deep uneven grooves across its surface",
+          "Sandpaper has an abrasive gritty feel, whereas glass offers a sleek, flat, and glossy texture",
+          "Sandpaper behaves like flexible rubber cloth, while glass exhibits a velvety, ribbed coating",
+          "Sandpaper absorbs heat very quickly, while glass always stays freezing cold regardless of touch"
         ],
         "answer": 1,
         "explain": "Sandpaper has gritty mineral grains for abrasion, while glass is polished completely smooth."
@@ -1711,7 +1711,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When a metal tuning fork is struck with a rubber mallet, what sensory trait does it immediately produce?",
         "options": [
-          "A clear vibrating musical hum (sound vibration)",
+          "A clear vibrating musical hum",
           "A cold puddle of milk",
           "A sweet strawberry smell",
           "A rainbow of sparks"
@@ -1732,10 +1732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What architectural marvel is the Sun Temple at Konark designed to resemble?",
         "options": [
-          "An underground submarine",
-          "A colossal 24-wheeled chariot of Surya, the Sun God, pulled by seven horses",
-          "A modern steam locomotive",
-          "A tall glass skyscraper"
+          "A fortified royal fortress featuring high defensive bastions and deep moats",
+          "A monumental stone chariot of the Sun God Surya, complete with carved horses",
+          "An ancient stepped reservoir surrounded by decorated galleries and pavilions",
+          "A multi-tiered Buddhist stupa crowned with ornate parasols and stone gateways"
         ],
         "answer": 1,
         "explain": "Konark was built in the 13th century as an immense monumental stone chariot dedicated to the Sun God!"
@@ -1743,10 +1743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key information should an engaging travelogue include?",
         "options": [
-          "Only a receipt of bus tickets",
-          "Historical background, vivid descriptions of sights and local food, personal feelings, and travel tips",
-          "A list of every car license plate seen",
-          "A fictional story about outer space"
+          "An itemized list of transportation receipts and daily ticket fares without any descriptive prose",
+          "Historical context, vivid scenery, local culinary traditions, personal impressions, and travel advice",
+          "A collection of imaginary legends featuring mythical creatures unrelated to the visited destination",
+          "Technical engineering drawings showing the exact dimensions of highway roads and municipal bridges"
         ],
         "answer": 1,
         "explain": "A travelogue weaves factual history, sensory descriptions, and personal reflections into an inspiring journey!"
@@ -1754,10 +1754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can 3D architectural models be constructed using eco-friendly materials?",
         "options": [
-          "By burning plastic bottles",
-          "Models cannot be made by hand",
-          "Using non-biodegradable styrofoam and toxic sprays",
-          "Using corrugated cardboard, clay, discarded wooden sticks, and non-toxic glue"
+          "By molding non-recyclable synthetic plastic sheets and sealing them with chemical paints",
+          "By cutting sheets of industrial fiberglass insulation and spraying petroleum based lacquer",
+          "By carving blocks of rigid styrofoam foam and bonding them with solvent based contact adhesives",
+          "By assembling recycled corrugated cardboard, natural clay, craft sticks, and water based glue"
         ],
         "answer": 3,
         "explain": "Upcycled cardboard and clay create beautiful, structurally sound, environmentally safe models!"
@@ -1775,10 +1775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What architectural marvel is the Sun Temple at Konark designed to resemble?",
         "options": [
-          "An underground submarine",
-          "A colossal 24-wheeled chariot of Surya, the Sun God, pulled by seven horses",
-          "A modern steam locomotive",
-          "A tall glass skyscraper"
+          "A fortified royal fortress featuring high defensive bastions and deep moats",
+          "A monumental stone chariot of the Sun God Surya, complete with carved horses",
+          "An ancient stepped reservoir surrounded by decorated galleries and pavilions",
+          "A multi-tiered Buddhist stupa crowned with ornate parasols and stone gateways"
         ],
         "answer": 1,
         "explain": "Konark was built in the 13th century as an immense monumental stone chariot dedicated to the Sun God!"
@@ -1786,10 +1786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key information should an engaging travelogue include?",
         "options": [
-          "Only a receipt of bus tickets",
-          "Historical background, vivid descriptions of sights and local food, personal feelings, and travel tips",
-          "A list of every car license plate seen",
-          "A fictional story about outer space"
+          "An itemized list of transportation receipts and daily ticket fares without any descriptive prose",
+          "Historical context, vivid scenery, local culinary traditions, personal impressions, and travel advice",
+          "A collection of imaginary legends featuring mythical creatures unrelated to the visited destination",
+          "Technical engineering drawings showing the exact dimensions of highway roads and municipal bridges"
         ],
         "answer": 1,
         "explain": "A travelogue weaves factual history, sensory descriptions, and personal reflections into an inspiring journey!"
@@ -1797,10 +1797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can 3D architectural models be constructed using eco-friendly materials?",
         "options": [
-          "By burning plastic bottles",
-          "Models cannot be made by hand",
-          "Using non-biodegradable styrofoam and toxic sprays",
-          "Using corrugated cardboard, clay, discarded wooden sticks, and non-toxic glue"
+          "By molding non-recyclable synthetic plastic sheets and sealing them with chemical paints",
+          "By cutting sheets of industrial fiberglass insulation and spraying petroleum based lacquer",
+          "By carving blocks of rigid styrofoam foam and bonding them with solvent based contact adhesives",
+          "By assembling recycled corrugated cardboard, natural clay, craft sticks, and water based glue"
         ],
         "answer": 3,
         "explain": "Upcycled cardboard and clay create beautiful, structurally sound, environmentally safe models!"
@@ -1818,10 +1818,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A solid iron needle sinks immediately to the bottom, but a wide iron bowl floats on the water surface! Why does the bowl float?",
         "options": [
-          "The bowl has magical wings",
-          "Needles dislike water",
-          "Its wide hollow shape displaces a volume of water whose weight is greater than the bowl itself (buoyancy)",
-          "The bowl is made of lighter wood inside"
+          "The bowl is coated with a waterproof chemical paint that resists downward water gravity",
+          "The surrounding surface tension of water becomes twice as strong around wide metal shapes",
+          "Its hollow shape displaces a volume of water weighing as much as the bowl itself",
+          "Metal bowls contain tiny trapped air pockets inside their metallic crystal structure"
         ],
         "answer": 2,
         "explain": "Archimedes' Principle! Hollow shapes displace enough water weight to generate upward buoyant force."
@@ -1829,10 +1829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when you add a large amount of salt to a bowl of water holding a sunken fresh egg?",
         "options": [
-          "The egg sinks deeper into the glass",
-          "The egg turns into solid gold",
-          "The dense salty water pushes the egg upward so it begins to FLOAT",
-          "The egg explodes"
+          "The egg remains resting on the bottom because dissolved salt has no impact on buoyancy",
+          "The egg shell softens quickly and absorbs water until the egg expands and sinks deeper",
+          "The dense salt solution creates greater buoyant force, allowing the egg to rise and float",
+          "The egg begins to spin rapidly in circles due to chemical reactions with the sodium ions"
         ],
         "answer": 2,
         "explain": "Adding salt increases the water's density; when the saline water becomes denser than the egg, the egg floats (just like in the Dead Sea)!"
@@ -1840,10 +1840,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does moist bread left inside a warm plastic bag turn green and fuzzy after three days?",
         "options": [
-          "Microscopic fungal spores (bread mold) germinate and grow in the warm, moist environment",
-          "Bread melts into liquid",
-          "Bread turns into lettuce",
-          "The plastic bag was dyed green"
+          "Airborne fungal mold spores germinate and flourish in the warm, humid environment",
+          "Chemical preservatives inside the bread react with sunlight to produce green pigments",
+          "Moisture transforms starch molecules directly into tiny photosynthetic plant seedlings",
+          "Enclosed condensation dissolves the outer crust until the inner bread dough decays"
         ],
         "answer": 0,
         "explain": "Moisture and warmth are the ideal conditions for fungal bread mold (Rhizopus) to germinate and spoil food."
@@ -1861,10 +1861,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A solid iron needle sinks immediately to the bottom, but a wide iron bowl floats on the water surface! Why does the bowl float?",
         "options": [
-          "The bowl has magical wings",
-          "Needles dislike water",
-          "Its wide hollow shape displaces a volume of water whose weight is greater than the bowl itself (buoyancy)",
-          "The bowl is made of lighter wood inside"
+          "The bowl is coated with a waterproof chemical paint that resists downward water gravity",
+          "The surrounding surface tension of water becomes twice as strong around wide metal shapes",
+          "Its hollow shape displaces a volume of water weighing as much as the bowl itself",
+          "Metal bowls contain tiny trapped air pockets inside their metallic crystal structure"
         ],
         "answer": 2,
         "explain": "Archimedes' Principle! Hollow shapes displace enough water weight to generate upward buoyant force."
@@ -1872,10 +1872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when you add a large amount of salt to a bowl of water holding a sunken fresh egg?",
         "options": [
-          "The egg sinks deeper into the glass",
-          "The egg turns into solid gold",
-          "The dense salty water pushes the egg upward so it begins to FLOAT",
-          "The egg explodes"
+          "The egg remains resting on the bottom because dissolved salt has no impact on buoyancy",
+          "The egg shell softens quickly and absorbs water until the egg expands and sinks deeper",
+          "The dense salt solution creates greater buoyant force, allowing the egg to rise and float",
+          "The egg begins to spin rapidly in circles due to chemical reactions with the sodium ions"
         ],
         "answer": 2,
         "explain": "Adding salt increases the water's density; when the saline water becomes denser than the egg, the egg floats (just like in the Dead Sea)!"
@@ -1883,10 +1883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does moist bread left inside a warm plastic bag turn green and fuzzy after three days?",
         "options": [
-          "Microscopic fungal spores (bread mold) germinate and grow in the warm, moist environment",
-          "Bread melts into liquid",
-          "Bread turns into lettuce",
-          "The plastic bag was dyed green"
+          "Airborne fungal mold spores germinate and flourish in the warm, humid environment",
+          "Chemical preservatives inside the bread react with sunlight to produce green pigments",
+          "Moisture transforms starch molecules directly into tiny photosynthetic plant seedlings",
+          "Enclosed condensation dissolves the outer crust until the inner bread dough decays"
         ],
         "answer": 0,
         "explain": "Moisture and warmth are the ideal conditions for fungal bread mold (Rhizopus) to germinate and spoil food."
@@ -1904,10 +1904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Looking at the city's annual rainfall chart: June = 50 mm, July = 280 mm, August = 310 mm, September = 120 mm. Which season brings the heaviest rainfall?",
         "options": [
-          "Spring season",
-          "The Southwest Monsoon season (July and August)",
-          "The cold winter",
-          "The dry hot summer"
+          "The pleasant spring flowering season",
+          "The Southwest summer monsoon season",
+          "The cold and dry winter retreat season",
+          "The scorching pre-monsoon summer season"
         ],
         "answer": 1,
         "explain": "July and August receive over 280 mm and 310 mm, marking the peak of the Indian summer monsoon!"
@@ -1915,10 +1915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do temperatures drop significantly on cloudy, rainy monsoon days compared to scorching May afternoons?",
         "options": [
-          "The sun turns off during monsoon",
-          "The Earth moves billions of miles away from the sun",
-          "Winter arrived overnight",
-          "Thick storm clouds block direct solar radiation, and rain cools the ambient surface air"
+          "The distance between Earth and the sun increases sharply throughout the rainy months",
+          "Atmospheric oxygen levels decrease when heavy rain showers fall over coastal plains",
+          "Cool ocean currents replace all warm land breezes, causing winter conditions to appear",
+          "Dense rain clouds block incoming solar rays, while evaporating rain cools surface air"
         ],
         "answer": 3,
         "explain": "Cloud cover reflects sunlight away while evaporating rain absorbs heat, cooling the environment."
@@ -1926,10 +1926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do organized tables and bar graphs help meteorologists predict seasonal weather patterns?",
         "options": [
-          "They change the weather outside",
-          "They make rain fall on command",
-          "They predict lottery numbers",
-          "They reveal cyclical trends and cause-and-effect relationships over time"
+          "They control local cloud formation by regulating atmospheric air pressure readings",
+          "They allow scientists to prevent severe storms by calculating exact wind direction",
+          "They replace satellite radar scans by recording historical precipitation estimates",
+          "They highlight cyclical climate patterns and temperature relationships over time"
         ],
         "answer": 3,
         "explain": "Historical climate charts reveal long-term seasonal rhythms and atmospheric cycles!"
@@ -1947,10 +1947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Looking at the city's annual rainfall chart: June = 50 mm, July = 280 mm, August = 310 mm, September = 120 mm. Which season brings the heaviest rainfall?",
         "options": [
-          "Spring season",
-          "The Southwest Monsoon season (July and August)",
-          "The cold winter",
-          "The dry hot summer"
+          "The pleasant spring flowering season",
+          "The Southwest summer monsoon season",
+          "The cold and dry winter retreat season",
+          "The scorching pre-monsoon summer season"
         ],
         "answer": 1,
         "explain": "July and August receive over 280 mm and 310 mm, marking the peak of the Indian summer monsoon!"
@@ -1958,10 +1958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do temperatures drop significantly on cloudy, rainy monsoon days compared to scorching May afternoons?",
         "options": [
-          "The sun turns off during monsoon",
-          "The Earth moves billions of miles away from the sun",
-          "Winter arrived overnight",
-          "Thick storm clouds block direct solar radiation, and rain cools the ambient surface air"
+          "The distance between Earth and the sun increases sharply throughout the rainy months",
+          "Atmospheric oxygen levels decrease when heavy rain showers fall over coastal plains",
+          "Cool ocean currents replace all warm land breezes, causing winter conditions to appear",
+          "Dense rain clouds block incoming solar rays, while evaporating rain cools surface air"
         ],
         "answer": 3,
         "explain": "Cloud cover reflects sunlight away while evaporating rain absorbs heat, cooling the environment."
@@ -1969,10 +1969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do organized tables and bar graphs help meteorologists predict seasonal weather patterns?",
         "options": [
-          "They change the weather outside",
-          "They make rain fall on command",
-          "They predict lottery numbers",
-          "They reveal cyclical trends and cause-and-effect relationships over time"
+          "They control local cloud formation by regulating atmospheric air pressure readings",
+          "They allow scientists to prevent severe storms by calculating exact wind direction",
+          "They replace satellite radar scans by recording historical precipitation estimates",
+          "They highlight cyclical climate patterns and temperature relationships over time"
         ],
         "answer": 3,
         "explain": "Historical climate charts reveal long-term seasonal rhythms and atmospheric cycles!"
@@ -2001,10 +2001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Snakes do not have external ears. How do they detect approaching footsteps of predators or prey on the ground?",
         "options": [
-          "By sensing vibrations through their belly scales and jawbones resting against the earth",
-          "By feeling air drafts with sensitive facial whiskers",
-          "By listening through tiny hidden ear holes behind their eyes",
-          "By flicking their forked tongue to capture airborne sound waves"
+          "By picking up ground vibrations through their belly scales and lower jawbones",
+          "By feeling tiny air pressure changes with sensitive tactile facial whiskers",
+          "By funneling airborne sounds into concealed acoustic openings behind each eye",
+          "By capturing high frequency sound waves directly with their flicking tongues"
         ],
         "answer": 0,
         "explain": "Snakes feel ground vibrations transmitted through their lower jaw directly to their inner ear bones!"
@@ -2012,10 +2012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can an eagle or kite spot a tiny scampering mouse in an open field from hundreds of meters up in the sky?",
         "options": [
-          "They fly down close to the ground and follow prey scents with their nostrils",
-          "They can only see prey when it stands completely motionless in bright sunlight",
-          "They emit shrill screeches and navigate by echolocation like bats",
-          "Their eyes have specialized retinas with high photoreceptor density and dual foveas for sharp magnification"
+          "They rely on keen olfactory receptors in their beaks to track faint scent trails",
+          "They possess reflective eye membranes that detect thermal heat signatures in soil",
+          "They emit ultrasonic clicking calls that bounce off moving prey across the meadow",
+          "Their retinas have high photoreceptor density and dual foveas for razor-sharp focus"
         ],
         "answer": 3,
         "explain": "Raptor eyes have extraordinarily sharp focal vision, magnifying distant prey with razor precision!"
@@ -2044,10 +2044,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Snakes do not have external ears. How do they detect approaching footsteps of predators or prey on the ground?",
         "options": [
-          "By sensing vibrations through their belly scales and jawbones resting against the earth",
-          "By feeling air drafts with sensitive facial whiskers",
-          "By listening through tiny hidden ear holes behind their eyes",
-          "By flicking their forked tongue to capture airborne sound waves"
+          "By picking up ground vibrations through their belly scales and lower jawbones",
+          "By feeling tiny air pressure changes with sensitive tactile facial whiskers",
+          "By funneling airborne sounds into concealed acoustic openings behind each eye",
+          "By capturing high frequency sound waves directly with their flicking tongues"
         ],
         "answer": 0,
         "explain": "Snakes feel ground vibrations transmitted through their lower jaw directly to their inner ear bones!"
@@ -2055,10 +2055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can an eagle or kite spot a tiny scampering mouse in an open field from hundreds of meters up in the sky?",
         "options": [
-          "They fly down close to the ground and follow prey scents with their nostrils",
-          "They can only see prey when it stands completely motionless in bright sunlight",
-          "They emit shrill screeches and navigate by echolocation like bats",
-          "Their eyes have specialized retinas with high photoreceptor density and dual foveas for sharp magnification"
+          "They rely on keen olfactory receptors in their beaks to track faint scent trails",
+          "They possess reflective eye membranes that detect thermal heat signatures in soil",
+          "They emit ultrasonic clicking calls that bounce off moving prey across the meadow",
+          "Their retinas have high photoreceptor density and dual foveas for razor-sharp focus"
         ],
         "answer": 3,
         "explain": "Raptor eyes have extraordinarily sharp focal vision, magnifying distant prey with razor precision!"
@@ -2087,10 +2087,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do traditional Indian grandmothers add generous amounts of oil, salt, and spices to mango and lemon pickles?",
         "options": [
-          "Oil acts as an antiseptic disinfectant that chemically dissolves bacterial cells",
-          "Salt and spices freeze the pickle mixture into a solid non-decaying state",
-          "Salt draws out water by osmosis and oil forms an airtight seal that prevents airborne microbes",
-          "The dark spices hide the pickle from airborne spores"
+          "Oil dissolves bacterial cell membranes chemically, while spices freeze moisture",
+          "Salt neutralizes acidic fruit juices, while aromatic spices eliminate all fungi",
+          "Salt removes moisture through osmosis, and oil forms a barrier against microbes",
+          "Spices darken the jar contents so light cannot trigger bacterial reproduction"
         ],
         "answer": 2,
         "explain": "Salt and oil are natural preservatives that create an environment where harmful bacteria cannot survive!"
@@ -2130,10 +2130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do traditional Indian grandmothers add generous amounts of oil, salt, and spices to mango and lemon pickles?",
         "options": [
-          "Oil acts as an antiseptic disinfectant that chemically dissolves bacterial cells",
-          "Salt and spices freeze the pickle mixture into a solid non-decaying state",
-          "Salt draws out water by osmosis and oil forms an airtight seal that prevents airborne microbes",
-          "The dark spices hide the pickle from airborne spores"
+          "Oil dissolves bacterial cell membranes chemically, while spices freeze moisture",
+          "Salt neutralizes acidic fruit juices, while aromatic spices eliminate all fungi",
+          "Salt removes moisture through osmosis, and oil forms a barrier against microbes",
+          "Spices darken the jar contents so light cannot trigger bacterial reproduction"
         ],
         "answer": 2,
         "explain": "Salt and oil are natural preservatives that create an environment where harmful bacteria cannot survive!"
@@ -2173,10 +2173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What critical financial services does a Bank provide for families and farmers?",
         "options": [
-          "Issuing voter identity cards and supervising assembly elections",
-          "Safely keeping savings, earning interest, providing agricultural loans, and enabling digital payments",
-          "Distributing agricultural seeds and fertilizers directly at subsidized rates",
-          "Collecting municipal property taxes and building neighborhood drainage systems"
+          "Issuing official voter identity documents and supervising municipal local elections",
+          "Safeguarding savings, earning interest, granting crop loans, and processing payments",
+          "Distributing subsidized crop seeds and modern chemical fertilizers directly to fields",
+          "Assessing residential property values and maintaining neighborhood drainage networks"
         ],
         "answer": 1,
         "explain": "Banks protect citizens' savings, provide capital loans for farming/business, and process transactions."
@@ -2184,10 +2184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary duty of the local Police Station in a neighborhood?",
         "options": [
-          "Passing municipal bylaws for zoning and new building construction",
-          "Presiding over court trials and sentencing convicted offenders to prison",
-          "Managing state highway toll collection and bus transport timetables",
-          "Maintaining public law and order, protecting citizens, preventing crime, and investigating complaints"
+          "Enacting local municipal building codes and approving new residential housing plans",
+          "Conducting judicial courtroom trials and determining prison sentences for offenders",
+          "Collecting interstate commercial highway tolls and managing public bus route schedules",
+          "Maintaining law and order, protecting citizens, preventing crime, and investigating cases"
         ],
         "answer": 3,
         "explain": "Police officers uphold the law, ensure neighborhood safety, and protect citizens' legal rights."
@@ -2216,10 +2216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What critical financial services does a Bank provide for families and farmers?",
         "options": [
-          "Issuing voter identity cards and supervising assembly elections",
-          "Safely keeping savings, earning interest, providing agricultural loans, and enabling digital payments",
-          "Distributing agricultural seeds and fertilizers directly at subsidized rates",
-          "Collecting municipal property taxes and building neighborhood drainage systems"
+          "Issuing official voter identity documents and supervising municipal local elections",
+          "Safeguarding savings, earning interest, granting crop loans, and processing payments",
+          "Distributing subsidized crop seeds and modern chemical fertilizers directly to fields",
+          "Assessing residential property values and maintaining neighborhood drainage networks"
         ],
         "answer": 1,
         "explain": "Banks protect citizens' savings, provide capital loans for farming/business, and process transactions."
@@ -2227,10 +2227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary duty of the local Police Station in a neighborhood?",
         "options": [
-          "Passing municipal bylaws for zoning and new building construction",
-          "Presiding over court trials and sentencing convicted offenders to prison",
-          "Managing state highway toll collection and bus transport timetables",
-          "Maintaining public law and order, protecting citizens, preventing crime, and investigating complaints"
+          "Enacting local municipal building codes and approving new residential housing plans",
+          "Conducting judicial courtroom trials and determining prison sentences for offenders",
+          "Collecting interstate commercial highway tolls and managing public bus route schedules",
+          "Maintaining law and order, protecting citizens, preventing crime, and investigating cases"
         ],
         "answer": 3,
         "explain": "Police officers uphold the law, ensure neighborhood safety, and protect citizens' legal rights."
@@ -2248,10 +2248,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do animals and birds help plants reproduce and spread across vast landscapes?",
         "options": [
-          "By drinking all the water in rivers",
-          "By pollinating flowers and dispersing seeds through eating fruits and dropping seeds in new soil",
-          "By painting leaves green",
-          "By chopping down mature trees"
+          "By pruning overhead canopy foliage so smaller woodland seedlings receive bright sunlight",
+          "By transferring flower pollen and dispersing fruit seeds across distant fertile soil beds",
+          "By packing topsoil firmly with hooves to prevent wild plant roots from shifting in winds",
+          "By consuming wilted wildflowers to accelerate the natural decomposition of leaf litter"
         ],
         "answer": 1,
         "explain": "Animals carry sticky burs on their fur, eat fleshy fruits and excrete seeds, planting new forests!"
@@ -2259,10 +2259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do plants return the favor to animals and humans in nature's reciprocal partnership?",
         "options": [
-          "They make soil disappear",
-          "They produce oxygen for breathing, provide nourishing food (fruits/grains), and offer cooling shade and shelter",
-          "They take away all oxygen from the atmosphere",
-          "They only help other plants"
+          "They absorb carbon dioxide while warming the surrounding ground to maintain dry habitats",
+          "They produce oxygen for breathing, yield nourishing food, and offer shade and shelter",
+          "They bind minerals into solid stones to protect underground burrowing animals from rain",
+          "They release fragrant perfumes that mask the scent of herbivores from stalking predators"
         ],
         "answer": 1,
         "explain": "Plants are primary producers: generating atmospheric oxygen and nourishing the entire global food web!"
@@ -2270,10 +2270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which community relies on camels for desert transportation, wool, and milk in the arid sands of Rajasthan?",
         "options": [
-          "Forest woodcutters in mangroves",
-          "Himalayan mountaineers",
-          "Desert pastoralists and camel herders (like the Raika community)",
-          "Deep sea fishermen"
+          "Coastal fishermen along tidal estuaries",
+          "High altitude Himalayan mountain guides",
+          "Desert pastoralists and camel herders",
+          "River valley farmers along lush deltas"
         ],
         "answer": 2,
         "explain": "The Raika community shares a deep cultural and economic partnership with the 'Ship of the Desert'!"
@@ -2291,10 +2291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do animals and birds help plants reproduce and spread across vast landscapes?",
         "options": [
-          "By drinking all the water in rivers",
-          "By pollinating flowers and dispersing seeds through eating fruits and dropping seeds in new soil",
-          "By painting leaves green",
-          "By chopping down mature trees"
+          "By pruning overhead canopy foliage so smaller woodland seedlings receive bright sunlight",
+          "By transferring flower pollen and dispersing fruit seeds across distant fertile soil beds",
+          "By packing topsoil firmly with hooves to prevent wild plant roots from shifting in winds",
+          "By consuming wilted wildflowers to accelerate the natural decomposition of leaf litter"
         ],
         "answer": 1,
         "explain": "Animals carry sticky burs on their fur, eat fleshy fruits and excrete seeds, planting new forests!"
@@ -2302,10 +2302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do plants return the favor to animals and humans in nature's reciprocal partnership?",
         "options": [
-          "They make soil disappear",
-          "They produce oxygen for breathing, provide nourishing food (fruits/grains), and offer cooling shade and shelter",
-          "They take away all oxygen from the atmosphere",
-          "They only help other plants"
+          "They absorb carbon dioxide while warming the surrounding ground to maintain dry habitats",
+          "They produce oxygen for breathing, yield nourishing food, and offer shade and shelter",
+          "They bind minerals into solid stones to protect underground burrowing animals from rain",
+          "They release fragrant perfumes that mask the scent of herbivores from stalking predators"
         ],
         "answer": 1,
         "explain": "Plants are primary producers: generating atmospheric oxygen and nourishing the entire global food web!"
@@ -2313,10 +2313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which community relies on camels for desert transportation, wool, and milk in the arid sands of Rajasthan?",
         "options": [
-          "Forest woodcutters in mangroves",
-          "Himalayan mountaineers",
-          "Desert pastoralists and camel herders (like the Raika community)",
-          "Deep sea fishermen"
+          "Coastal fishermen along tidal estuaries",
+          "High altitude Himalayan mountain guides",
+          "Desert pastoralists and camel herders",
+          "River valley farmers along lush deltas"
         ],
         "answer": 2,
         "explain": "The Raika community shares a deep cultural and economic partnership with the 'Ship of the Desert'!"
@@ -2334,10 +2334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is Ladakh described as a 'COLD DESERT' despite being surrounded by snow-capped mountains?",
         "options": [
-          "It has hot sandy dunes reaching 50°C",
-          "It sits in the rain-shadow of the Himalayas, receiving very little rainfall, with freezing dry winds",
-          "It is covered in dense tropical jungle",
-          "It rains continuously 365 days a year"
+          "It experiences scorching hot sandstorms throughout the summer with temperatures exceeding 45°C",
+          "It sits in the Himalayan rain shadow, receiving minimal rainfall alongside freezing dry winds",
+          "It is covered by dense evergreen mountain forests that block moisture from reaching lowlands",
+          "It receives continuous torrential rainfall year round, which washes away topsoil from peaks"
         ],
         "answer": 1,
         "explain": "Ladakh's high altitude creates an arid, high-radiation, freezing climate with sparse rainfall!"
@@ -2345,10 +2345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do traditional houses in Ladakh stay warm during sub-zero winters?",
         "options": [
-          "Metal containers without doors",
-          "Thick stone and sun-dried mud-brick walls with wooden ceilings and animals kept on the ground floor for warmth",
-          "Paper-thin glass tents with no roof",
-          "Houses are built entirely of ice that never melts"
+          "By installing large single-pane glass skylights that channel freezing winds across all living spaces",
+          "By using thick stone or mud-brick walls, timber ceilings, and housing livestock below for natural warmth",
+          "By constructing elevated wooden stilts that allow sub-zero blizzards to circulate beneath the floorboards",
+          "By lining exterior walls with thin metal sheets that radiate ambient winter cold into household bedrooms"
         ],
         "answer": 1,
         "explain": "Ladakhi homes use thick insulated mud walls and smart thermal architecture to trap solar warmth!"
@@ -2358,7 +2358,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The Indian Rhinoceros",
           "The Desert Camel",
-          "The Changthangi Mountain Goat (Pashmina goat)",
+          "The Changthangi Mountain Goat",
           "The Royal Bengal Tiger"
         ],
         "answer": 2,
@@ -2377,10 +2377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is Ladakh described as a 'COLD DESERT' despite being surrounded by snow-capped mountains?",
         "options": [
-          "It has hot sandy dunes reaching 50°C",
-          "It sits in the rain-shadow of the Himalayas, receiving very little rainfall, with freezing dry winds",
-          "It is covered in dense tropical jungle",
-          "It rains continuously 365 days a year"
+          "It experiences scorching hot sandstorms throughout the summer with temperatures exceeding 45°C",
+          "It sits in the Himalayan rain shadow, receiving minimal rainfall alongside freezing dry winds",
+          "It is covered by dense evergreen mountain forests that block moisture from reaching lowlands",
+          "It receives continuous torrential rainfall year round, which washes away topsoil from peaks"
         ],
         "answer": 1,
         "explain": "Ladakh's high altitude creates an arid, high-radiation, freezing climate with sparse rainfall!"
@@ -2388,10 +2388,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do traditional houses in Ladakh stay warm during sub-zero winters?",
         "options": [
-          "Metal containers without doors",
-          "Thick stone and sun-dried mud-brick walls with wooden ceilings and animals kept on the ground floor for warmth",
-          "Paper-thin glass tents with no roof",
-          "Houses are built entirely of ice that never melts"
+          "By installing large single-pane glass skylights that channel freezing winds across all living spaces",
+          "By using thick stone or mud-brick walls, timber ceilings, and housing livestock below for natural warmth",
+          "By constructing elevated wooden stilts that allow sub-zero blizzards to circulate beneath the floorboards",
+          "By lining exterior walls with thin metal sheets that radiate ambient winter cold into household bedrooms"
         ],
         "answer": 1,
         "explain": "Ladakhi homes use thick insulated mud walls and smart thermal architecture to trap solar warmth!"
@@ -2401,7 +2401,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The Indian Rhinoceros",
           "The Desert Camel",
-          "The Changthangi Mountain Goat (Pashmina goat)",
+          "The Changthangi Mountain Goat",
           "The Royal Bengal Tiger"
         ],
         "answer": 2,
@@ -2432,7 +2432,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What does a conventional map symbol showing a blue circle or curved ribbon represent?",
         "options": [
           "A railway station",
-          "A water body (lake, pond, or flowing river)",
+          "A water body",
           "A post office",
           "A metal highway"
         ],
@@ -2475,7 +2475,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What does a conventional map symbol showing a blue circle or curved ribbon represent?",
         "options": [
           "A railway station",
-          "A water body (lake, pond, or flowing river)",
+          "A water body",
           "A post office",
           "A metal highway"
         ],
@@ -2506,10 +2506,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are ancient coins invaluable sources of evidence for historians?",
         "options": [
-          "They are made of magnetic plastic",
-          "They can be spent at modern candy shops",
-          "They prove coins were invented last year",
-          "They display the ruler's name, reign dates, religious emblems, script, and reveal trade prosperity"
+          "They provide detailed geographical maps of ancient city streets and private residential estates",
+          "They list the complete legal codes and criminal courtroom judgments enacted by ancient monarchs",
+          "They preserve original handwritten literary manuscripts and philosophical poetry from the era",
+          "They reveal ruler names, reign dates, royal titles, religious symbols, scripts, and trade links"
         ],
         "answer": 3,
         "explain": "Coins reveal dynasties, chronology, metallurgy, economic wealth, and artistic styles of bygone eras!"
@@ -2517,10 +2517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did historical kingdoms construct hilltop forts with rounded protruding stone bastions (burj) and narrow slits in the walls?",
         "options": [
-          "To survey distant enemy armies from high angles and fire arrows safely from behind stone cover",
-          "To let wind blow away all the soldiers",
-          "To make the fort look like a toy",
-          "To trap soldiers inside with no light"
+          "To spot approaching forces from wide vantage angles and shoot arrows safely from stone cover",
+          "To allow strong mountain gales to ventilate underground treasury vaults during summer days",
+          "To display decorative architectural patterns that intimidated passing foreign merchant caravans",
+          "To trap defending archers within narrow chambers so they could not retreat during an assault"
         ],
         "answer": 0,
         "explain": "Bastions provided wide defensive angles to protect fort gateways from siege battering rams!"
@@ -2528,10 +2528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What traditional water harvesting structure was built inside medieval Indian forts (like Golconda or Chittorgarh) to survive long sieges?",
         "options": [
-          "Draining all water into the valley",
-          "Deep stepwells (baolis), rock-cut cisterns, and rainwater filtration tanks",
-          "Relying on ocean water pipes",
-          "Modern electric water pumps"
+          "Continuous canals pumping saline river water upwards from distant ocean bays",
+          "Deep stepwells, rock-cut cisterns, and interconnected rainwater storage tanks",
+          "Modern mechanized tube wells powered by pressurized underground steam pumps",
+          "Open earthen ditches that drained all seasonal mountain runoff down valleys"
         ],
         "answer": 1,
         "explain": "Ingenious baolis and gravity channels stored millions of litres of fresh rainwater inside fortresses!"
@@ -2549,10 +2549,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are ancient coins invaluable sources of evidence for historians?",
         "options": [
-          "They are made of magnetic plastic",
-          "They can be spent at modern candy shops",
-          "They prove coins were invented last year",
-          "They display the ruler's name, reign dates, religious emblems, script, and reveal trade prosperity"
+          "They provide detailed geographical maps of ancient city streets and private residential estates",
+          "They list the complete legal codes and criminal courtroom judgments enacted by ancient monarchs",
+          "They preserve original handwritten literary manuscripts and philosophical poetry from the era",
+          "They reveal ruler names, reign dates, royal titles, religious symbols, scripts, and trade links"
         ],
         "answer": 3,
         "explain": "Coins reveal dynasties, chronology, metallurgy, economic wealth, and artistic styles of bygone eras!"
@@ -2560,10 +2560,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did historical kingdoms construct hilltop forts with rounded protruding stone bastions (burj) and narrow slits in the walls?",
         "options": [
-          "To survey distant enemy armies from high angles and fire arrows safely from behind stone cover",
-          "To let wind blow away all the soldiers",
-          "To make the fort look like a toy",
-          "To trap soldiers inside with no light"
+          "To spot approaching forces from wide vantage angles and shoot arrows safely from stone cover",
+          "To allow strong mountain gales to ventilate underground treasury vaults during summer days",
+          "To display decorative architectural patterns that intimidated passing foreign merchant caravans",
+          "To trap defending archers within narrow chambers so they could not retreat during an assault"
         ],
         "answer": 0,
         "explain": "Bastions provided wide defensive angles to protect fort gateways from siege battering rams!"
@@ -2571,10 +2571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What traditional water harvesting structure was built inside medieval Indian forts (like Golconda or Chittorgarh) to survive long sieges?",
         "options": [
-          "Draining all water into the valley",
-          "Deep stepwells (baolis), rock-cut cisterns, and rainwater filtration tanks",
-          "Relying on ocean water pipes",
-          "Modern electric water pumps"
+          "Continuous canals pumping saline river water upwards from distant ocean bays",
+          "Deep stepwells, rock-cut cisterns, and interconnected rainwater storage tanks",
+          "Modern mechanized tube wells powered by pressurized underground steam pumps",
+          "Open earthen ditches that drained all seasonal mountain runoff down valleys"
         ],
         "answer": 1,
         "explain": "Ingenious baolis and gravity channels stored millions of litres of fresh rainwater inside fortresses!"
@@ -2592,10 +2592,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'GENDER STEREOTYPE'?",
         "options": [
-          "A piece of sports equipment used in basketball",
-          "A narrow, unfair belief that boys and girls are only suited for certain tasks, games, or emotions",
-          "A rule written in the Constitution",
-          "A scientific law of gravity"
+          "A scientific biological distinction explaining physical endurance differences between athletes",
+          "An unfair preconceived belief that individuals must behave in certain ways based on gender alone",
+          "A constitutional legal provision protecting equal rights and educational opportunities for youth",
+          "A formal athletic rule governing team composition during international championship tournaments"
         ],
         "answer": 1,
         "explain": "Stereotypes limit human potential by pre-judging what people can achieve based on gender alone."
@@ -2603,10 +2603,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can families and schools support every child's unique passion?",
         "options": [
-          "By stopping girls from entering sports grounds",
-          "By telling boys they must never cook or paint",
-          "By providing equal encouragement, training, and resources regardless of whether the child is a boy or a girl",
-          "By locking up sports equipment"
+          "By steering girls solely toward domestic arts and guiding boys strictly toward competitive sports",
+          "By deciding each student's career path based exclusively on traditional village cultural customs",
+          "By offering equal encouragement, coaching, and opportunities to all students regardless of gender",
+          "By restricting participation in science clubs and athletic leagues to high scoring test takers"
         ],
         "answer": 2,
         "explain": "When children are supported equally, they break barriers and achieve greatness for the country!"
@@ -2614,10 +2614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What inspiring message did Indian women champions (like Mary Kom, PV Sindhu, and the Indian Women's Cricket Team) prove to the world?",
         "options": [
-          "Only boys can win medals",
-          "Sports are not important in life",
-          "Determination, hard work, and talent know no gender boundaries; girls can conquer any global sport",
-          "Nobody should play games"
+          "Athletic success depends primarily on international coaching rather than personal dedication",
+          "Traditional sports should be reserved for athletes from specialized sporting family backgrounds",
+          "Dedication, resilience, and talent know no gender limits; women can excel on world athletic stages",
+          "Sporting careers should be pursued only after completing university degrees in science or commerce"
         ],
         "answer": 2,
         "explain": "Our champion women athletes show that grit, passion, and skill triumph on every world stage!"
@@ -2635,10 +2635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'GENDER STEREOTYPE'?",
         "options": [
-          "A piece of sports equipment used in basketball",
-          "A narrow, unfair belief that boys and girls are only suited for certain tasks, games, or emotions",
-          "A rule written in the Constitution",
-          "A scientific law of gravity"
+          "A scientific biological distinction explaining physical endurance differences between athletes",
+          "An unfair preconceived belief that individuals must behave in certain ways based on gender alone",
+          "A constitutional legal provision protecting equal rights and educational opportunities for youth",
+          "A formal athletic rule governing team composition during international championship tournaments"
         ],
         "answer": 1,
         "explain": "Stereotypes limit human potential by pre-judging what people can achieve based on gender alone."
@@ -2646,10 +2646,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can families and schools support every child's unique passion?",
         "options": [
-          "By stopping girls from entering sports grounds",
-          "By telling boys they must never cook or paint",
-          "By providing equal encouragement, training, and resources regardless of whether the child is a boy or a girl",
-          "By locking up sports equipment"
+          "By steering girls solely toward domestic arts and guiding boys strictly toward competitive sports",
+          "By deciding each student's career path based exclusively on traditional village cultural customs",
+          "By offering equal encouragement, coaching, and opportunities to all students regardless of gender",
+          "By restricting participation in science clubs and athletic leagues to high scoring test takers"
         ],
         "answer": 2,
         "explain": "When children are supported equally, they break barriers and achieve greatness for the country!"
@@ -2657,10 +2657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What inspiring message did Indian women champions (like Mary Kom, PV Sindhu, and the Indian Women's Cricket Team) prove to the world?",
         "options": [
-          "Only boys can win medals",
-          "Sports are not important in life",
-          "Determination, hard work, and talent know no gender boundaries; girls can conquer any global sport",
-          "Nobody should play games"
+          "Athletic success depends primarily on international coaching rather than personal dedication",
+          "Traditional sports should be reserved for athletes from specialized sporting family backgrounds",
+          "Dedication, resilience, and talent know no gender limits; women can excel on world athletic stages",
+          "Sporting careers should be pursued only after completing university degrees in science or commerce"
         ],
         "answer": 2,
         "explain": "Our champion women athletes show that grit, passion, and skill triumph on every world stage!"
@@ -2678,10 +2678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the safest immediate action to take if an EARTHQUAKE shakes your classroom building?",
         "options": [
-          "Run in panic towards the crowded narrow staircase",
-          "Jump out of high multi-story windows",
-          "Stand right beneath hanging glass chandeliers or glass windows",
-          "Drop under a sturdy desk, cover your head and neck, and hold onto the desk legs until shaking stops"
+          "Rush immediately into crowded corridor stairwells to exit the multi-story school building",
+          "Stand directly beside expansive glass display cases and heavy overhead hanging light fixtures",
+          "Gather near high brick perimeter walls while calling out loudly to alert other classrooms",
+          "Drop under a sturdy desk, cover your head and neck, and hold firmly until tremors cease"
         ],
         "answer": 3,
         "explain": "Drop, Cover, and Hold On shields you from falling plaster, ceiling fans, and shattered glass!"
@@ -2689,10 +2689,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you are already outside on the sports ground when an earthquake occurs, where should you stay?",
         "options": [
-          "Climb to the top of a telephone pole",
-          "Run inside a collapsing stone building",
-          "Stay in the open field away from tall buildings, overhead electric power lines, and falling signboards",
-          "Stand under a glass canopy"
+          "Run quickly into the nearest school building to seek shelter inside concrete stairwells",
+          "Stand directly beneath tall utility poles, overhead electrical lines, and streetlights",
+          "Stay in the open ground away from tall structures, overhead cables, and falling hazards",
+          "Gather beneath decorative exterior balconies, roof gutters, and glass entrance canopies"
         ],
         "answer": 2,
         "explain": "Open clear spaces with nothing overhead are the safest place during seismic tremors."
@@ -2700,10 +2700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What items belong in an Emergency Family First-Aid Disaster Kit?",
         "options": [
-          "Wet mud and leaves",
-          "Video game consoles only",
-          "Flashlight with spare batteries, first-aid bandages/antiseptic, bottled drinking water, non-perishable food, and a whistle",
-          "Heavy bricks"
+          "Expensive electronic entertainment tablets, extra charging cables, and board games",
+          "Heavy garden bricks, loose scrap metal pipes, building mortar, and spare buckets",
+          "A flashlight with extra batteries, bandages and antiseptic, water, and dry rations",
+          "Heavy winter blankets, delicate porcelain teacups, and large family photo albums"
         ],
         "answer": 2,
         "explain": "Emergency kits provide essential survival, medical, and signaling tools during rescue operations."
@@ -2721,10 +2721,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the safest immediate action to take if an EARTHQUAKE shakes your classroom building?",
         "options": [
-          "Run in panic towards the crowded narrow staircase",
-          "Jump out of high multi-story windows",
-          "Stand right beneath hanging glass chandeliers or glass windows",
-          "Drop under a sturdy desk, cover your head and neck, and hold onto the desk legs until shaking stops"
+          "Rush immediately into crowded corridor stairwells to exit the multi-story school building",
+          "Stand directly beside expansive glass display cases and heavy overhead hanging light fixtures",
+          "Gather near high brick perimeter walls while calling out loudly to alert other classrooms",
+          "Drop under a sturdy desk, cover your head and neck, and hold firmly until tremors cease"
         ],
         "answer": 3,
         "explain": "Drop, Cover, and Hold On shields you from falling plaster, ceiling fans, and shattered glass!"
@@ -2732,10 +2732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you are already outside on the sports ground when an earthquake occurs, where should you stay?",
         "options": [
-          "Climb to the top of a telephone pole",
-          "Run inside a collapsing stone building",
-          "Stay in the open field away from tall buildings, overhead electric power lines, and falling signboards",
-          "Stand under a glass canopy"
+          "Run quickly into the nearest school building to seek shelter inside concrete stairwells",
+          "Stand directly beneath tall utility poles, overhead electrical lines, and streetlights",
+          "Stay in the open ground away from tall structures, overhead cables, and falling hazards",
+          "Gather beneath decorative exterior balconies, roof gutters, and glass entrance canopies"
         ],
         "answer": 2,
         "explain": "Open clear spaces with nothing overhead are the safest place during seismic tremors."
@@ -2743,10 +2743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What items belong in an Emergency Family First-Aid Disaster Kit?",
         "options": [
-          "Wet mud and leaves",
-          "Video game consoles only",
-          "Flashlight with spare batteries, first-aid bandages/antiseptic, bottled drinking water, non-perishable food, and a whistle",
-          "Heavy bricks"
+          "Expensive electronic entertainment tablets, extra charging cables, and board games",
+          "Heavy garden bricks, loose scrap metal pipes, building mortar, and spare buckets",
+          "A flashlight with extra batteries, bandages and antiseptic, water, and dry rations",
+          "Heavy winter blankets, delicate porcelain teacups, and large family photo albums"
         ],
         "answer": 2,
         "explain": "Emergency kits provide essential survival, medical, and signaling tools during rescue operations."
@@ -2764,10 +2764,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which day had the HIGHEST number of students riding bicycles to school according to Arjun's table?",
         "options": [
-          "Wednesday (30 students)",
-          "Tuesday (25 students)",
-          "Friday (35 students)",
-          "Monday (20 students)"
+          "Wednesday",
+          "Tuesday",
+          "Friday",
+          "Monday"
         ],
         "answer": 2,
         "explain": "35 is the highest recorded number, occurring on Friday!"
@@ -2807,10 +2807,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which day had the HIGHEST number of students riding bicycles to school according to Arjun's table?",
         "options": [
-          "Wednesday (30 students)",
-          "Tuesday (25 students)",
-          "Friday (35 students)",
-          "Monday (20 students)"
+          "Wednesday",
+          "Tuesday",
+          "Friday",
+          "Monday"
         ],
         "answer": 2,
         "explain": "35 is the highest recorded number, occurring on Friday!"
@@ -2873,9 +2873,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
           "180 cubic centimeters",
-          "23 cm³",
-          "60 cm³",
-          "90 cm³"
+          "120 cubic centimeters",
+          "230 cubic centimeters",
+          "90 cubic centimeters"
         ],
         "answer": 0,
         "explain": "15 x 6 = 90; 90 x 2 = 180 cm³ of internal volume!"
@@ -2916,9 +2916,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
           "180 cubic centimeters",
-          "23 cm³",
-          "60 cm³",
-          "90 cm³"
+          "120 cubic centimeters",
+          "230 cubic centimeters",
+          "90 cubic centimeters"
         ],
         "answer": 0,
         "explain": "15 x 6 = 90; 90 x 2 = 180 cm³ of internal volume!"
@@ -3034,7 +3034,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
-          "4.75 kg (or 4 kg 750 g)",
+          "4.75 kg",
           "0.475 kg",
           "47.5 kg"
         ],
@@ -3077,7 +3077,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
-          "4.75 kg (or 4 kg 750 g)",
+          "4.75 kg",
           "0.475 kg",
           "47.5 kg"
         ],
@@ -3130,10 +3130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is mental estimation a powerful daily life math skill?",
         "options": [
-          "It lets you quickly check whether cash totals, change, or calculations make sense",
-          "It is only used when guessing answers in tests",
-          "It eliminates the need to ever learn math",
-          "Because numbers do not need to be accurate"
+          "It allows you to rapidly check whether billing totals, change, and calculations are sensible",
+          "It replaces formal mathematical proofs by substituting intuitive rough guesses on written tests",
+          "It removes the necessity of learning multiplication tables and basic arithmetic principles",
+          "It guarantees exact fractional precision when measuring architectural building blueprints"
         ],
         "answer": 0,
         "explain": "Quick estimation prevents errors, detects billing mistakes, and guides smart financial decisions!"
@@ -3173,10 +3173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is mental estimation a powerful daily life math skill?",
         "options": [
-          "It lets you quickly check whether cash totals, change, or calculations make sense",
-          "It is only used when guessing answers in tests",
-          "It eliminates the need to ever learn math",
-          "Because numbers do not need to be accurate"
+          "It allows you to rapidly check whether billing totals, change, and calculations are sensible",
+          "It replaces formal mathematical proofs by substituting intuitive rough guesses on written tests",
+          "It removes the necessity of learning multiplication tables and basic arithmetic principles",
+          "It guarantees exact fractional precision when measuring architectural building blueprints"
         ],
         "answer": 0,
         "explain": "Quick estimation prevents errors, detects billing mistakes, and guides smart financial decisions!"
@@ -3194,7 +3194,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Convert the fraction 1/2 into its decimal equivalent:",
         "options": [
-          "0.5 (or 0.50)",
+          "0.5",
           "0.25",
           "0.2",
           "0.05"
@@ -3237,7 +3237,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Convert the fraction 1/2 into its decimal equivalent:",
         "options": [
-          "0.5 (or 0.50)",
+          "0.5",
           "0.25",
           "0.2",
           "0.05"
@@ -3305,7 +3305,7 @@ Object.assign(window.GAME_CONTENT, {
           "5/3",
           "4/6",
           "9/20",
-          "6/10 (multiply top and bottom by 2)"
+          "6/10"
         ],
         "answer": 3,
         "explain": "(3 x 2)/(5 x 2) = 6/10. They represent the exact same proportional value!"
@@ -3348,7 +3348,7 @@ Object.assign(window.GAME_CONTENT, {
           "5/3",
           "4/6",
           "9/20",
-          "6/10 (multiply top and bottom by 2)"
+          "6/10"
         ],
         "answer": 3,
         "explain": "(3 x 2)/(5 x 2) = 6/10. They represent the exact same proportional value!"
@@ -3463,10 +3463,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the PLACE VALUE of the digit '7' in the numeral 4,75,820?",
         "options": [
-          "7,000 (7 thousands)",
+          "7,000",
           "700,000",
           "700",
-          "70,000 (7 ten-thousands)"
+          "70,000"
         ],
         "answer": 3,
         "explain": "The 7 sits in the Ten-Thousands place: 7 x 10,000 = 70,000!"
@@ -3506,10 +3506,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the PLACE VALUE of the digit '7' in the numeral 4,75,820?",
         "options": [
-          "7,000 (7 thousands)",
+          "7,000",
           "700,000",
           "700",
-          "70,000 (7 ten-thousands)"
+          "70,000"
         ],
         "answer": 3,
         "explain": "The 7 sits in the Ten-Thousands place: 7 x 10,000 = 70,000!"
@@ -3560,10 +3560,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
-          "You get a negative number",
-          "You get an odd number only",
-          "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER!"
+          "The resulting sum is always a negative integer",
+          "The resulting sum is always a prime number value",
+          "The resulting sum always equals zero in value",
+          "The resulting sum always forms a square number"
         ],
         "answer": 3,
         "explain": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
@@ -3603,10 +3603,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
-          "You get a negative number",
-          "You get an odd number only",
-          "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER!"
+          "The resulting sum is always a negative integer",
+          "The resulting sum is always a prime number value",
+          "The resulting sum always equals zero in value",
+          "The resulting sum always forms a square number"
         ],
         "answer": 3,
         "explain": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
@@ -3624,10 +3624,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What flat shapes make up the net of a CYLINDER (like a soup tin)?",
         "options": [
-          "One circle and one diamond",
-          "One rectangular sheet and two identical circles for the top and bottom",
-          "Three triangles and one square",
-          "Six squares"
+          "One curved triangular wedge and two identical oval bases at either end",
+          "One rectangular body sheet and two identical circles for the top and base",
+          "Three matching equilateral triangles attached to a central square panel",
+          "Six congruent square faces arranged in a cross pattern along the edges"
         ],
         "answer": 1,
         "explain": "Rolling the rectangle forms the curved pipe, and the two circles cap the top and bottom!"
@@ -3635,10 +3635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What flat 2D shapes form the net of a CONE (like a party hat)?",
         "options": [
-          "Three circles",
-          "A sector of a circle (pie slice) and one circular base",
-          "Four rectangles",
-          "Two squares"
+          "Three identical semicircles folded along their curved edges",
+          "A sector of a circle alongside one flat circular base shape",
+          "Four congruent rectangles joined around an open central area",
+          "Two matching square panels flanked by triangular side flaps"
         ],
         "answer": 1,
         "explain": "A curved sector wraps into the pointed conical wall, capped by a circular flat base."
@@ -3649,7 +3649,7 @@ Object.assign(window.GAME_CONTENT, {
           "8 vertices",
           "4 vertices",
           "2 vertices",
-          "0 vertices (it has curved rims and flat faces, but no sharp corners)"
+          "0 vertices"
         ],
         "answer": 3,
         "explain": "A cylinder has 2 circular edges and 3 surfaces, but zero sharp corner vertices!"
@@ -3667,10 +3667,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What flat shapes make up the net of a CYLINDER (like a soup tin)?",
         "options": [
-          "One circle and one diamond",
-          "One rectangular sheet and two identical circles for the top and bottom",
-          "Three triangles and one square",
-          "Six squares"
+          "One curved triangular wedge and two identical oval bases at either end",
+          "One rectangular body sheet and two identical circles for the top and base",
+          "Three matching equilateral triangles attached to a central square panel",
+          "Six congruent square faces arranged in a cross pattern along the edges"
         ],
         "answer": 1,
         "explain": "Rolling the rectangle forms the curved pipe, and the two circles cap the top and bottom!"
@@ -3678,10 +3678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What flat 2D shapes form the net of a CONE (like a party hat)?",
         "options": [
-          "Three circles",
-          "A sector of a circle (pie slice) and one circular base",
-          "Four rectangles",
-          "Two squares"
+          "Three identical semicircles folded along their curved edges",
+          "A sector of a circle alongside one flat circular base shape",
+          "Four congruent rectangles joined around an open central area",
+          "Two matching square panels flanked by triangular side flaps"
         ],
         "answer": 1,
         "explain": "A curved sector wraps into the pointed conical wall, capped by a circular flat base."
@@ -3692,7 +3692,7 @@ Object.assign(window.GAME_CONTENT, {
           "8 vertices",
           "4 vertices",
           "2 vertices",
-          "0 vertices (it has curved rims and flat faces, but no sharp corners)"
+          "0 vertices"
         ],
         "answer": 3,
         "explain": "A cylinder has 2 circular edges and 3 surfaces, but zero sharp corner vertices!"
@@ -3712,7 +3712,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "An Acute Angle",
           "A Straight Line",
-          "A Right Angle (90°)",
+          "A Right Angle",
           "An Obtuse Angle"
         ],
         "answer": 2,
@@ -3721,7 +3721,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "An angle that is SHARPER and SMALLER than a right angle (less than 90°) is called:",
         "options": [
-          "An Acute Angle (like an open bird's beak)",
+          "An Acute Angle",
           "A Reflex Angle",
           "A Straight Angle",
           "An Obtuse Angle"
@@ -3732,7 +3732,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the hands of a clock read 4:00, the angle between the hour hand (at 4) and minute hand (at 12) is 120°. What kind of angle is this?",
         "options": [
-          "An Obtuse Angle (greater than 90° and less than 180°)",
+          "An Obtuse Angle",
           "A Zero Angle",
           "An Acute Angle",
           "A Right Angle"
@@ -3755,7 +3755,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "An Acute Angle",
           "A Straight Line",
-          "A Right Angle (90°)",
+          "A Right Angle",
           "An Obtuse Angle"
         ],
         "answer": 2,
@@ -3764,7 +3764,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "An angle that is SHARPER and SMALLER than a right angle (less than 90°) is called:",
         "options": [
-          "An Acute Angle (like an open bird's beak)",
+          "An Acute Angle",
           "A Reflex Angle",
           "A Straight Angle",
           "An Obtuse Angle"
@@ -3775,7 +3775,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the hands of a clock read 4:00, the angle between the hour hand (at 4) and minute hand (at 12) is 120°. What kind of angle is this?",
         "options": [
-          "An Obtuse Angle (greater than 90° and less than 180°)",
+          "An Obtuse Angle",
           "A Zero Angle",
           "An Acute Angle",
           "A Right Angle"
@@ -3807,7 +3807,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these capital letters has BOTH horizontal and vertical reflection symmetry: [ H, J, P, R ]?",
         "options": [
-          "H (folds cleanly in half horizontally and vertically)",
+          "H",
           "R",
           "P",
           "J"
@@ -3818,7 +3818,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the order of rotational symmetry for a regular 4-bladed electric ceiling fan?",
         "options": [
-          "Order 4 (it looks identical at 90°, 180°, 270°, and 360°)",
+          "Order 4",
           "Order 2",
           "Order 8",
           "Order 1"
@@ -3850,7 +3850,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these capital letters has BOTH horizontal and vertical reflection symmetry: [ H, J, P, R ]?",
         "options": [
-          "H (folds cleanly in half horizontally and vertically)",
+          "H",
           "R",
           "P",
           "J"
@@ -3861,7 +3861,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the order of rotational symmetry for a regular 4-bladed electric ceiling fan?",
         "options": [
-          "Order 4 (it looks identical at 90°, 180°, 270°, and 360°)",
+          "Order 4",
           "Order 2",
           "Order 8",
           "Order 1"

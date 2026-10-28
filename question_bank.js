@@ -117,10 +117,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a classmate cannot hear spoken words, how can you share a warm hello?",
         "options": [
-          "By turning your back to them",
-          "By shouting louder into their ear",
-          "By closing your eyes tightly",
-          "By smiling and waving your hand in sign language"
+          "By turning away and looking down at the classroom floor",
+          "By shouting loudly into their ear from a close distance",
+          "By staying completely silent without making any gestures",
+          "By smiling warmly and waving your hand in greeting"
         ],
         "answer": 3,
         "explanation": "Wonderful! Waving your hand and signing hello is an inclusive, friendly greeting."
@@ -301,10 +301,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which picture matches the word 'TREE'?",
         "options": [
-          "A tall green plant with a wooden trunk and fluttering leaves",
-          "A furry kitten drinking milk",
-          "A flying kite in the sky",
-          "A clock ticking on the wall"
+          "A tall leafy plant with a brown wooden trunk and green branches",
+          "A soft playful kitten drinking sweet white milk from a shallow bowl",
+          "A bright diamond kite soaring high among the windy afternoon clouds",
+          "A round wooden clock ticking quietly on the classroom wall"
         ],
         "answer": 0,
         "explanation": "Spot on! A tree has a wooden trunk, green leaves, and branches."
@@ -336,10 +336,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was the clever crow dropping pebbles into the tall jug?",
         "options": [
-          "To hide his pebbles from other birds",
-          "To wash the dirty stones",
-          "To make the water rise so he could drink it",
-          "To break the glass jug into pieces"
+          "To hide his collection of small shiny pebbles from the other forest birds",
+          "To wash the dusty garden stones clean before building a warm winter nest",
+          "To make the water level rise to the top so his beak could drink it",
+          "To crack the heavy clay water jug into pieces and find food underneath"
         ],
         "answer": 2,
         "explanation": "Clever crow! As each stone dropped, the water level rose until he could reach it with his beak."
@@ -358,10 +358,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does this story teach us about solving problems?",
         "options": [
-          "Using your brain and trying step-by-step can solve tricky problems",
-          "Give up the second something looks hard",
-          "Fly away and cry immediately",
-          "Wait for someone else to do everything"
+          "Thinking patiently and trying step-by-step can help you solve tricky problems",
+          "Giving up and walking away the moment a difficult challenge appears before you",
+          "Flying away in distress and expecting someone else to solve your task for you",
+          "Ignoring the problem completely and waiting for luck to change everything"
         ],
         "answer": 0,
         "explanation": "The crow didn't give up; he used patience and pebbles to solve his problem!"
@@ -393,10 +393,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When describing a picture of your family having a picnic, what could you say?",
         "options": [
-          "'We are sitting on the green grass eating sandwiches.'",
-          "'Pencils are inside the desk.'",
-          "'A train runs on iron tracks.'",
-          "'Zero is less than ten.'"
+          "We are sitting together on the green grass eating tasty sandwiches.",
+          "A heavy freight train speeds along the railway tracks outside the city.",
+          "Sharp wooden pencils are stored neatly inside the classroom desk drawer.",
+          "The number zero represents less value than ten in our counting lesson."
         ],
         "answer": 0,
         "explanation": "That describes the picnic scene directly and paints a happy picture!"
@@ -450,10 +450,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What curious question could you ask about the story to learn more?",
         "options": [
-          "'Can a chair dance?'",
-          "'What color is my school bag?'",
-          "'Why is math easy?'",
-          "'How long did the caterpillar sleep inside his cocoon?'"
+          "How many fresh green leaves did the hungry caterpillar eat each morning?",
+          "What bright colors and patterns appeared on the new butterfly wings?",
+          "Where did the busy little caterpillar find shelter during rainy weather?",
+          "How many long weeks did the caterpillar sleep inside his silky cocoon?"
         ],
         "answer": 3,
         "explanation": "Asking how long he stayed in the cocoon is a wonderful question about the story events!"
@@ -496,10 +496,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do we use body actions and hand gestures while singing rhymes?",
         "options": [
-          "Because rhymes cannot be spoken aloud",
-          "So that we get tired and fall asleep",
-          "It makes the rhyme fun to remember and helps us express the words",
-          "Because we are not allowed to say any words"
+          "Because rhyming poems are never allowed to be spoken with a normal voice",
+          "So that everyone gets tired quickly and goes to sleep before story time",
+          "It makes the rhyme joyful to remember and helps us express what the words mean",
+          "Because children are supposed to use hand gestures instead of learning words"
         ],
         "answer": 2,
         "explanation": "Actions make rhymes exciting, memorable, and full of musical energy!"
@@ -612,10 +612,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If the poem was about a rainy day, which shapes and colors would best show rain falling from clouds?",
         "options": [
-          "A giant yellow desert with no clouds",
-          "Fluffy gray clouds with blue diagonal raindrops falling down",
-          "Black scribble circles with no paper left",
-          "A bright red fire truck on fire"
+          "A dry sunny desert scene painted in bright yellow and orange with zero clouds",
+          "Fluffy gray clouds painted with slanted blue raindrops falling toward the ground",
+          "Tangled dark scribble circles drawn across the entire page with no open sky",
+          "A roaring red campfire crackling brightly beside a row of tall green pine trees"
         ],
         "answer": 1,
         "explanation": "Drawing raindrops falling from clouds matches the poem's rainy theme beautifully."
@@ -623,10 +623,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do artists first make light pencil scribbles and outlines before coloring?",
         "options": [
-          "To plan where characters and shapes will go on the page",
-          "So nobody can see what you are making",
-          "To rip the paper before using paints",
-          "Because you must always erase every single line"
+          "To carefully plan where characters and shapes will appear on the drawing page",
+          "To hide their picture ideas so nobody in the room can tell what they are drawing",
+          "To press down hard and test whether the paper will tear before applying paints",
+          "Because art rules say that every light pencil line must be erased at the end"
         ],
         "answer": 0,
         "explanation": "Light planning sketches help you decide where to place trees, animals, and houses!"
@@ -704,10 +704,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Looking at Priya's fruit chart, which fruit is there the MOST of?",
         "options": [
-          "Apples (4)",
-          "Bananas (6)",
+          "Apples",
+          "Bananas",
           "All are equal",
-          "Pears (2)"
+          "Pears"
         ],
         "answer": 1,
         "explanation": "Bananas have the highest count at 6, which is more than 4 or 2!"
@@ -761,10 +761,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Meera walks heel-to-toe from her bed to the bedroom door and counts 8 steps. What did she measure?",
         "options": [
-          "How hot the bedroom floor is",
-          "The distance across the room using footsteps",
-          "The weight of her school shoes",
-          "The time it takes to brush her teeth"
+          "The warmth and temperature of the smooth bedroom floor tiles",
+          "The total distance across the bedroom floor measured in footsteps",
+          "The heavy weight of her school shoes placed inside the shoe rack",
+          "The total number of minutes needed to brush her teeth every morning"
         ],
         "answer": 1,
         "explanation": "Footsteps measure the length or distance between two spots on the floor."
@@ -772,10 +772,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why might Dev count 6 hand spans across the desk while his teacher counts only 4 hand spans?",
         "options": [
-          "Because the desk shrunk while measuring",
-          "Because hand spans cannot measure wood",
-          "Because the teacher's hands are bigger than Dev's little hands",
-          "Because Dev counted backwards"
+          "Because the wooden classroom desk shrank in size while the teacher was measuring",
+          "Because hand spans can only be used to measure soft objects like pillows or clothes",
+          "Because the teacher has larger hands that cover more distance than Dev's small hands",
+          "Because Dev got confused and accidentally counted the edge of the desk backwards"
         ],
         "answer": 2,
         "explanation": "Since adult hands are bigger, fewer hand spans are needed to cover the same desk!"
@@ -842,7 +842,7 @@ const QUESTION_BANK = {
       {
         "prompt": "How many cookies are left on Grandma's plate now?",
         "options": [
-          "0 (Zero)",
+          "0",
           "1",
           "3",
           "6"
@@ -853,10 +853,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the numeral '0' tell us in counting?",
         "options": [
-          "There are zero objects / nothing in the group",
-          "It is the biggest number in the universe",
-          "It means you have two pairs",
-          "There are ten objects"
+          "It indicates that there are zero objects and nothing remaining in the group",
+          "It represents the largest possible number found anywhere in the counting system",
+          "It indicates that there are exactly two pairs of matching items in the collection",
+          "It shows that there are ten complete bundles of items stacked together neatly"
         ],
         "answer": 0,
         "explanation": "Zero represents an empty set or having no items left."
@@ -890,7 +890,7 @@ const QUESTION_BANK = {
         "options": [
           "10",
           "16",
-          "15 (fifteen)",
+          "15",
           "20"
         ],
         "answer": 2,
@@ -946,9 +946,9 @@ const QUESTION_BANK = {
         "prompt": "In the number 63, what does the digit '6' stand for?",
         "options": [
           "Zero",
-          "6 tens (which equals 60)",
+          "6 tens",
           "600",
-          "6 ones (which equals 6)"
+          "6 ones"
         ],
         "answer": 1,
         "explanation": "In the tens place, 6 represents 6 groups of ten, or 60."
@@ -981,9 +981,9 @@ const QUESTION_BANK = {
         "prompt": "Which team has MORE players on the field?",
         "options": [
           "Both have the same",
-          "Team Green (12 players)",
+          "Team Green",
           "Neither team has players",
-          "Team Yellow (15 players)"
+          "Team Yellow"
         ],
         "answer": 3,
         "explanation": "15 is greater than 12 (15 > 12), so Team Yellow has more players!"
@@ -991,10 +991,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sign correctly compares 8 and 14: 8 [ ___ ] 14?",
         "options": [
-          "= (8 is equal to 14)",
-          "< (8 is less than 14)",
+          "=",
+          "<",
           "+",
-          "> (8 is greater than 14)"
+          ">"
         ],
         "answer": 1,
         "explanation": "The alligator mouth opens to the bigger number: 8 < 14."
@@ -1095,7 +1095,7 @@ const QUESTION_BANK = {
         "prompt": "Which of these everyday objects can BOTH roll and slide?",
         "options": [
           "A soft square pillow",
-          "A round coin (rolls on its edge, slides on its flat face)",
+          "A round coin",
           "A flat piece of paper",
           "A spiky jack toy"
         ],
@@ -1130,7 +1130,7 @@ const QUESTION_BANK = {
         "prompt": "How did Tina sort these buttons: [ Tiny red button, Medium red button, Giant red button ]?",
         "options": [
           "By how loud they are",
-          "By size (small, medium, large)",
+          "By size",
           "By color only",
           "By their weight in kilograms"
         ],
@@ -1140,10 +1140,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If Tina wants to stack items into a tall, stable tower, which shapes are best to use?",
         "options": [
-          "Round slippery marbles",
-          "Pointy party hats",
-          "Blocks with flat square surfaces",
-          "Oval eggs"
+          "Smooth round marbles that easily roll in every direction",
+          "Pointed cone hats that have only one sharp tip at the top",
+          "Solid wooden blocks that feature flat, wide square faces",
+          "Curved oval eggs that roll and wobble on their round sides"
         ],
         "answer": 2,
         "explanation": "Flat surfaces rest securely on top of each other without rolling off!"
@@ -1164,10 +1164,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Where should you draw the cozy house according to Teacher Maya?",
         "options": [
-          "In the top right corner",
-          "Underneath the desk",
-          "Hidden on the back of the paper",
-          "In the middle of your drawing sheet"
+          "Near the very top right edge of the drawing paper",
+          "Along the bottom left margin of the drawing paper",
+          "Directly on the blank reverse side of the drawing paper",
+          "Right in the open center of your clean drawing paper"
         ],
         "answer": 3,
         "explanation": "Teacher Maya clearly said: 'a cozy red roof house in the middle'!"
@@ -1221,10 +1221,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When someone asks you: 'How was your weekend?', what is a cheerful, polite response?",
         "options": [
-          "'It was great, thank you! I went to the park. How was yours?'",
-          "'Why are you asking me?'",
-          "'No weekend for you!'",
-          "'I don't remember anything.'"
+          "It was wonderful, thank you! I visited the park with family. How was yours?",
+          "Why do you always ask me personal questions when we arrive at school today?",
+          "I do not feel like talking to anyone this morning, so please do not ask me.",
+          "I spent my weekend at home and I have completely forgotten everything about it."
         ],
         "answer": 0,
         "explanation": "Sharing a polite sentence and asking in return makes a wonderful conversation!"
@@ -1232,10 +1232,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When you want to borrow a blue crayon from your desk partner, how should you ask?",
         "options": [
-          "'Give it here!'",
-          "'Hand over the blue crayon right now!'",
-          "'I am taking your crayon!'",
-          "'Please may I borrow your blue crayon?'"
+          "Give me that blue crayon immediately because I need it for my picture!",
+          "I am going to take your blue crayon right now whether you like it or not!",
+          "Hand over your drawing supplies quickly so I can finish coloring first!",
+          "Excuse me, please may I borrow your blue crayon for a few moments?"
         ],
         "answer": 3,
         "explanation": "Using 'Please may I...' is the polite, respectful way to ask."
@@ -1324,10 +1324,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the very FIRST event in this story?",
         "options": [
-          "The flower was harvested by a farmer",
-          "The butterfly landed on the stem",
-          "The seed was sleeping deep in the dark soil",
-          "Leaves fell off in winter"
+          "The blooming yellow flower was gently picked by a smiling farmer",
+          "A colorful striped butterfly fluttered down and rested on the leaf",
+          "A tiny plant seed lay quietly resting deep underneath the damp soil",
+          "Dry autumn leaves turned brown and drifted down during the cold breeze"
         ],
         "answer": 2,
         "explanation": "The story began with the seed sleeping in the soil."
@@ -1394,10 +1394,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a thoughtful question to ask about the characters in the story?",
         "options": [
-          "'What color are my socks?'",
-          "'Why did the clever rooster fly up to the high branch when he saw the fox?'",
-          "'Is it raining outside right now?'",
-          "'What is 5 plus 5?'"
+          "How many total printed pages are bound together inside this reading book?",
+          "Why did the clever rooster fly up to the high tree branch when he saw the fox?",
+          "What is the price printed in rupees on the back cover of this library book?",
+          "Who was sitting quietly at the front desk when the morning bell rang today?"
         ],
         "answer": 1,
         "explanation": "Asking about the rooster's choice connects directly to character decisions in the story!"
@@ -1405,10 +1405,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can Varun express his personal opinion about the tale politely?",
         "options": [
-          "'I liked the rooster because he stayed calm and outsmarted the fox.'",
-          "'Characters are people or animals.'",
-          "'This book has paper pages.'",
-          "'I won't say anything.'"
+          "I enjoyed the rooster character because he stayed calm and outsmarted the hungry fox.",
+          "A dictionary explains that fictional characters are either people or talking animals.",
+          "This paperback storybook was manufactured using thin white paper sheets and staples.",
+          "I refuse to answer any questions about the characters because reading is boring to me."
         ],
         "answer": 0,
         "explanation": "Sharing why you liked a character explains your personal opinion clearly."
@@ -1416,10 +1416,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...'",
-          "'Nobody asked you.'",
-          "'I am leaving the room!'",
-          "'You are wrong, stop talking!'"
+          "I understand your viewpoint, but I thought the ending was surprising because the fox fled.",
+          "Your opinion is completely silly and nobody in our entire reading circle agreed with you.",
+          "I am packing up my notebooks and leaving the classroom right now so I do not have to listen.",
+          "You are completely mistaken about the story, so you should stop talking immediately."
         ],
         "answer": 0,
         "explanation": "Polite discussions respect others' ideas while explaining your own thoughts."
@@ -1440,10 +1440,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What action do children do with their hands when singing 'Twinkle, twinkle'?",
         "options": [
-          "Open and close their fingers like sparkling stars",
-          "Fold their arms tightly",
-          "Cover their knees with both hands",
-          "Stomp their heavy shoes loudly"
+          "Open and close their outstretched fingers like glittering, sparkling stars",
+          "Cross their arms tightly over their chest without moving a single finger",
+          "Press both palms firmly against their knees while keeping completely still",
+          "Clench their hands into tight fists and hold them hidden behind their backs"
         ],
         "answer": 0,
         "explanation": "Fluttering open and closed fingers looks just like glittering starlight!"
@@ -1451,10 +1451,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the song, where does the little star shine so bright?",
         "options": [
-          "'Underneath the carpet on the floor'",
-          "'Up above the world so high, like a diamond in the sky'",
-          "'Behind the kitchen sink'",
-          "'Inside the closed lunchbox'"
+          "Hidden quietly underneath the thick woven carpet on the bedroom floor",
+          "Up above the world so high, shining like a bright diamond in the dark sky",
+          "Tucked away in the shadowy darkness behind the cold kitchen water tap",
+          "Locked safely inside the bottom compartment of a heavy metal school desk"
         ],
         "answer": 1,
         "explanation": "The rhyme sings: 'Up above the world so high, like a diamond in the sky!'"
@@ -1635,10 +1635,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If you want to write one sentence about how the poem made you feel, which is the best start?",
         "options": [
-          "'The poem made me feel happy and cheerful.'",
-          "'Pencils have erasers.'",
-          "'A noun is a naming word.'",
-          "'I have two shoes.'"
+          "Reading this gentle poem made me feel peaceful, happy, and cheerful inside.",
+          "Wooden writing pencils come equipped with small pink rubber erasers on top.",
+          "An English grammar book states that a common noun is simply a naming word.",
+          "I laced up my pair of black sports shoes before walking out to the playground."
         ],
         "answer": 0,
         "explanation": "This sentence clearly expresses your personal feeling about the poem."
@@ -1647,7 +1647,7 @@ const QUESTION_BANK = {
         "prompt": "What should always come at the very end of your written sentence?",
         "options": [
           "A capital letter",
-          "A full stop (period)",
+          "A full stop",
           "A comma in the middle",
           "A blank blank space"
         ],
@@ -1672,7 +1672,7 @@ const QUESTION_BANK = {
         "options": [
           "The dog ran fast.",
           "Thed ogranf ast.",
-          "The  dog   ran      fast .",
+          "The dog ran fast .",
           "Thedogranfast."
         ],
         "answer": 0,
@@ -1681,10 +1681,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do we leave a small space between words when writing?",
         "options": [
-          "To waste space on the page",
-          "Because letters do not like each other",
-          "So the reader can tell where one word ends and the next begins",
-          "To make the writing impossible to read"
+          "To spread our sentences across the page and fill up the entire notebook line faster",
+          "Because uppercase and lowercase letters will get damaged if they touch one another",
+          "So the reader can clearly tell where one word ends and the next word starts to read",
+          "To create wide gaps so that the reader finds it difficult to connect the sentences"
         ],
         "answer": 2,
         "explanation": "Spaces make words easy and clear to read!"
@@ -1716,10 +1716,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Based on the collected survey data, how do the GREATEST number of children travel to school?",
         "options": [
-          "On foot (6 children)",
+          "On foot",
           "By airplane",
-          "By school bus (10 children)",
-          "By bicycle (4 children)"
+          "By school bus",
+          "By bicycle"
         ],
         "answer": 2,
         "explanation": "10 is the largest number in the survey, so the school bus is used most!"
@@ -1808,9 +1808,9 @@ const QUESTION_BANK = {
       {
         "prompt": "Which combination of play money notes exactly equals ₹75?",
         "options": [
-          "Three ₹10 notes and one ₹5 coin",
-          "Two ₹20 notes only",
-          "One ₹100 note with no change",
+          "Three ₹20 notes, one ₹10 note, and one ₹5 coin",
+          "Two ₹20 notes, two ₹10 notes, and one ₹5 coin",
+          "One ₹50 note, two ₹10 notes, and two ₹5 coins",
           "One ₹50 note, one ₹20 note, and one ₹5 coin"
         ],
         "answer": 3,
@@ -1821,7 +1821,7 @@ const QUESTION_BANK = {
         "options": [
           "2 coins",
           "50 coins",
-          "5 coins (10, 20, 30, 40, 50)",
+          "5 coins",
           "10 coins"
         ],
         "answer": 2,
@@ -1900,10 +1900,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which daily activity takes the LONGEST amount of time?",
         "options": [
-          "Tying your shoelaces (30 seconds)",
-          "Eating an apple (5 minutes)",
-          "Brushing your teeth (2 minutes)",
-          "Sleeping through the night (8 to 9 hours)"
+          "Tying your shoelaces",
+          "Eating an apple",
+          "Brushing your teeth",
+          "Sleeping through the night"
         ],
         "answer": 3,
         "explanation": "A full night's restful sleep lasts about 8 to 9 hours, the longest duration!"
@@ -1911,8 +1911,8 @@ const QUESTION_BANK = {
       {
         "prompt": "Does a child typically spend a longer time at school or eating a meal?",
         "options": [
-          "Eating a meal (about 20 minutes)",
-          "At school (about 6 hours)",
+          "Eating a meal",
+          "At school",
           "Both take the exact same time",
           "Neither takes any time"
         ],
@@ -1946,10 +1946,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens to the pan holding the heavy watermelon?",
         "options": [
-          "It sinks lower down because it has more weight",
-          "It disappears",
-          "It floats up into the ceiling",
-          "It stays completely flat with the apple"
+          "It tilts downward because the heavy watermelon exerts more downward weight",
+          "It rises upward toward the ceiling because heavy objects naturally float higher",
+          "It stays perfectly level with the small apple because both fruits are round",
+          "It wobbles back and forth without shifting either pan up or down on the scale"
         ],
         "answer": 0,
         "explanation": "The heavier side pushes down, making that pan sink lower!"
@@ -1968,10 +1968,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When both pans of the balance scale stay exactly level at the same height, what does that tell you?",
         "options": [
-          "The left side is much heavier",
-          "Both sides have the exact same weight (equal)",
-          "The right side is much heavier",
-          "The scale is broken"
+          "The tray on the left side holds an object with significantly greater weight",
+          "Both trays hold objects that have the exact same balanced weight",
+          "The tray on the right side holds an object with significantly greater weight",
+          "The center beam of the balance scale is jammed and unable to move properly"
         ],
         "answer": 1,
         "explanation": "When the pans balance level, the weights on both sides are equal!"
@@ -2187,10 +2187,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the polite way for Aisha to end the phone call?",
         "options": [
-          "'Drop the phone without saying anything'",
-          "'Thank you Uncle Vikram, I will give Dad the message. Goodbye!'",
-          "'Why did you call our house?'",
-          "'Talk to Dad yourself'"
+          "Put the receiver down suddenly on the table without speaking",
+          "Thank you Uncle Vikram, I will give Dad the message. Goodbye!",
+          "Tell the caller you are too busy right now and disconnect",
+          "Ask the caller to ring back tomorrow and abruptly hang up"
         ],
         "answer": 1,
         "explanation": "Thanking the caller and promising to deliver the message shows courteous telephone manners."
@@ -2198,10 +2198,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If Aisha could not hear the time clearly because of static on the line, what should she say?",
         "options": [
-          "'Could you please repeat the time once more, Uncle Vikram?'",
-          "'Goodbye'",
-          "'You are speaking too quietly!'",
-          "'I will guess the time myself'"
+          "Could you please repeat the meeting time once more, Uncle?",
+          "I cannot hear anything at all, so I will just hang up now.",
+          "You are speaking far too quietly for anyone to understand.",
+          "I will just write down whatever time I think sounds right."
         ],
         "answer": 0,
         "explanation": "Asking politely to repeat ensures the message is recorded accurately without guessing!"
@@ -2222,10 +2222,10 @@ const QUESTION_BANK = {
       {
         "prompt": "According to the yellow poster, what action should students take at the washbasin?",
         "options": [
-          "Drink water directly from the floor",
-          "Wash toys in the sink",
-          "Leave taps running to fill the floor",
-          "Turn off the tap tightly after washing hands"
+          "Splash water across the floor while washing faces",
+          "Leave the water running while drying your fingers",
+          "Wash muddy outdoor toys inside the drinking sink",
+          "Turn off the tap tightly after washing your hands"
         ],
         "answer": 3,
         "explanation": "The poster clearly reminds everyone to turn off taps to conserve water."
@@ -2233,10 +2233,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do schools put up colorful posters on classroom walls?",
         "options": [
-          "To share important helpful reminders and exciting news with everyone",
-          "To stop children from talking to teachers",
-          "Because blank walls are forbidden",
-          "To cover up all the windows"
+          "To share important helpful reminders and exciting school news with everyone",
+          "To decorate the room so students do not need to look at the blackboard",
+          "To cover up cracks on the walls without having to paint them with color",
+          "To display advertisements for outside shops and commercial toy products"
         ],
         "answer": 0,
         "explanation": "Wall posters share inspiring, helpful information that everyone can see and follow!"
@@ -2244,10 +2244,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a notice board says: 'Library Books due this Friday', what must students bring on Friday?",
         "options": [
-          "Their borrowed library books to return",
-          "A packed picnic lunch",
-          "New drawing crayons",
-          "Their sports shoes"
+          "Their borrowed storybooks to return to the shelf",
+          "Their new coloring crayons for the drawing period",
+          "A packed picnic lunch box to share with friends",
+          "Their clean sports uniform for physical exercise"
         ],
         "answer": 0,
         "explanation": "'Due' means borrowed library books must be returned on Friday."
@@ -2268,10 +2268,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When Kabir reaches a comma ( , ) in the middle of a sentence, what should his reading voice do?",
         "options": [
-          "Skip the next three words",
-          "Take a short, gentle pause before continuing",
-          "Shout the next word as loud as possible",
-          "Stop reading and shut the book"
+          "Speed up and skip ahead past the next three words",
+          "Take a short, gentle pause before reading forward",
+          "Raise your voice suddenly and shout the next word",
+          "Stop reading immediately and close the storybook"
         ],
         "answer": 1,
         "explanation": "A comma indicates a brief pause to let the listener understand the grouping of words."
@@ -2291,9 +2291,9 @@ const QUESTION_BANK = {
         "prompt": "When you encounter a question mark ( ? ) at the end of a sentence, how should your voice tone change?",
         "options": [
           "Rise slightly at the end to show you are asking something",
-          "Turn into a song shout",
-          "Drop completely flat like a stone",
-          "Stay completely silent"
+          "Drop into a flat, steady whisper with no change in pitch",
+          "Shout the final word as loud as you can to show surprise",
+          "Speed up rapidly through the words without any hesitation"
         ],
         "answer": 0,
         "explanation": "In English questions, your pitch rises slightly at the end to invite an answer."
@@ -2325,10 +2325,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the MAIN idea of this short passage?",
         "options": [
-          "Children enjoying nature and drawing birds from their treehouse",
-          "Why dogs dislike climbing trees",
-          "The price of wooden planks at the hardware store",
-          "How to build a brick house on the ground"
+          "Children enjoying nature and observing birds from their treehouse",
+          "A carpenter explaining how to cut wooden planks for garden sheds",
+          "Neighborhood dogs learning how to climb tall branches safely",
+          "Workers clearing fallen dry leaves and twigs from the city park"
         ],
         "answer": 0,
         "explanation": "The main theme is the children's Saturday nature adventures from their treehouse club."
@@ -2452,10 +2452,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When the poem line says: 'Whoosh went the gale, blowing the sail!', how should the performer speak the word 'Whoosh'?",
         "options": [
-          "With a brisk, swooshing breath of sound",
-          "Spelling each letter W-H-O-O-S-H",
-          "In a dead silent whisper",
-          "Like an angry dog growl"
+          "With a brisk, swooshing rush of flowing wind",
+          "By spelling out each separate letter slowly",
+          "In a silent whisper that nobody can hear at all",
+          "With a short, sharp bark like an angry watchdog"
         ],
         "answer": 0,
         "explanation": "Imitating the sound of the wind brings the onomatopoeia to life!"
@@ -2463,10 +2463,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'intonation' mean when you recite a poem?",
         "options": [
-          "Reading without opening your lips",
-          "Standing completely frozen like a statue",
-          "Skipping the rhyming words",
-          "The natural rise and fall of your voice musical pitch"
+          "Reading all lines quietly without opening your lips",
+          "Standing completely still like an unmoving statue",
+          "Skipping the rhyming words to finish the poem fast",
+          "The expressive rising and falling melody of voice pitch"
         ],
         "answer": 3,
         "explanation": "Intonation is the expressive musical melody of your voice."
@@ -2474,10 +2474,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should a performer stand on stage while reciting?",
         "options": [
-          "Turned backwards facing the curtain",
-          "Tall with confident posture, making friendly eye contact with the audience",
-          "Slumped over looking down at their shoe laces",
-          "Constantly spinning in circles"
+          "Turned backwards toward the curtain while whispering the words quietly",
+          "Tall with confident posture, making friendly eye contact with listeners",
+          "Slumped over looking down at shoe laces without glancing at the crowd",
+          "Restlessly pacing and spinning around the stage without facing forward"
         ],
         "answer": 1,
         "explanation": "Standing tall with good eye contact engages your listeners warmly."
@@ -2545,9 +2545,9 @@ const QUESTION_BANK = {
         "prompt": "Which sentence is in the SIMPLE PAST tense (something that already happened yesterday)?",
         "options": [
           "Ravi swam five laps across the pool yesterday.",
-          "Ravi is swimming every day.",
-          "Ravi will swim tomorrow morning.",
-          "Ravi swims five laps right now."
+          "Ravi is swimming five laps in the pool right now.",
+          "Ravi will swim five laps in the pool on Saturday.",
+          "Ravi swims five laps across the pool every morning."
         ],
         "answer": 0,
         "explanation": "'Swam' is the simple past tense of the irregular verb 'swim'."
@@ -2555,10 +2555,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Change this present sentence into past tense: 'Maya PLAYS football every evening.'",
         "options": [
-          "Maya playing football.",
-          "Maya plays football.",
-          "Maya will play football.",
-          "Maya PLAYED football yesterday evening."
+          "Maya was playing football every evening.",
+          "Maya will play football tomorrow evening.",
+          "Maya is playing football right now today.",
+          "Maya played football yesterday evening."
         ],
         "answer": 3,
         "explanation": "Adding -ed to regular verbs creates the simple past form: 'played'."
@@ -2739,7 +2739,7 @@ const QUESTION_BANK = {
       {
         "prompt": "When writing the names of specific cities like 'Delhi' or 'Mumbai', how must they begin?",
         "options": [
-          "With a Capital letter (Proper Noun)",
+          "With a Capital letter",
           "With a small letter",
           "With a number",
           "With a quotation mark"
@@ -2750,10 +2750,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Where should a comma be placed in this shopping list sentence: 'Mom bought apples bananas and oranges'?",
         "options": [
-          "At the end of the sentence",
-          "After bought: 'Mom bought, apples'",
-          "Between apples and bananas: 'apples, bananas, and oranges'",
-          "No comma is ever used in lists"
+          "After the word bought so it reads Mom bought, apples",
+          "At the very end of the sentence right after oranges",
+          "Between the list items as apples, bananas, and oranges",
+          "Between the subject and verb as Mom, bought the fruit"
         ],
         "answer": 2,
         "explanation": "Commas separate items in a series to make the list clear to read."
@@ -2774,10 +2774,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a complete, meaningful sentence?",
         "options": [
-          "Flying kites fast in.",
-          "Because tomorrow very.",
+          "Flying colorful kites very high in the sky.",
+          "Because tomorrow morning will be very sunny.",
           "The wind is perfect for flying kites today.",
-          "Underneath the green grass."
+          "Underneath the thick green grass by the pond."
         ],
         "answer": 2,
         "explanation": "'The wind is perfect for flying kites today' has a subject and predicate forming a complete thought."
@@ -2785,9 +2785,9 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence clearly explains why Kabir brought an umbrella?",
         "options": [
-          "Carrying rain cloudy.",
-          "Because rain umbrella carrying.",
-          "Umbrella sky dark raining.",
+          "He carried an umbrella so that the hot sun was shining.",
+          "Kabir took an umbrella although the sunny sky was clear.",
+          "The bright blue umbrella was kept inside the school bag.",
           "He carried an umbrella because dark clouds filled the sky."
         ],
         "answer": 3,
@@ -2820,9 +2820,9 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence makes the best OPENING topic sentence for Meena's paragraph?",
         "options": [
-          "The ticket cost fifty rupees.",
-          "Then we walked back home in the dark.",
-          "Cotton candy is pink.",
+          "The entrance tickets for the rides cost fifty rupees for each child.",
+          "After eating delicious snacks, we walked slowly home in the evening.",
+          "Sweet pink cotton candy is sold by vendors near the giant swing ride.",
           "Last Sunday, my family and I visited the lively neighborhood mela."
         ],
         "answer": 3,
@@ -2842,10 +2842,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence provides a satisfying concluding sentence for Meena's trip to the fair?",
         "options": [
-          "My shoes are black.",
+          "My new walking shoes got quite dusty after standing near the ticket counter.",
           "Exhausted but smiling, we returned home with wonderful memories of the day.",
-          "I need a pencil.",
-          "A Ferris wheel is round."
+          "A tall Ferris wheel spins in large circles high above the festive grounds.",
+          "Before entering the fairgrounds, we purchased four blue tokens at the gate."
         ],
         "answer": 1,
         "explanation": "A strong conclusion wraps up the experience with personal feeling and reflection."
@@ -2877,10 +2877,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Dev sees a duck swimming in the pond. What special body feature helps ducks paddle smoothly in water?",
         "options": [
-          "Long curly fur",
-          "Sharp curved hunting claws",
-          "Webbed feet with skin between their toes",
-          "Heavy hooves"
+          "Thick curly fur growing all over their legs",
+          "Sharp curved talons for catching tree prey",
+          "Webbed feet with thin skin between the toes",
+          "Heavy split hooves for running across rocks"
         ],
         "answer": 2,
         "explanation": "Webbed feet act like natural paddles or flippers in the water!"
@@ -2923,10 +2923,10 @@ const QUESTION_BANK = {
       {
         "prompt": "On a classroom map, what do symbols and color codes (like a small book icon) represent?",
         "options": [
-          "Mistakes made by the artist",
-          "Secrets only the teacher can read",
-          "A key/legend showing where specific areas like the reading corner are located",
-          "Doodles to make the paper messy"
+          "Random decorative drawings added simply to fill up blank corner spaces",
+          "Confidential teacher codes used strictly for grading classroom tests",
+          "A map legend showing where important spots like reading corners sit",
+          "Accidental pencil marks left on the sheet while measuring the floor"
         ],
         "answer": 2,
         "explanation": "A map key uses simple symbols so anyone can navigate the layout easily."
@@ -2980,10 +2980,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens when Diya stirs sugar into warm water?",
         "options": [
-          "The sugar dissolves completely and becomes invisible in the solution",
-          "The sugar turns into ice crystals",
-          "The sugar floats like wood chips",
-          "The water turns into solid rock"
+          "The sugar dissolves completely to form a clear sweet liquid",
+          "The sugar crystals clump together and settle as hard pebbles",
+          "The sugar floats on the surface like lightweight wood chips",
+          "The warm water quickly freezes into solid sweet ice blocks"
         ],
         "answer": 0,
         "explanation": "Sugar is soluble in water, dissolving into a clear, sweet mixture."
@@ -3005,8 +3005,8 @@ const QUESTION_BANK = {
         "prompt": "Aarav noticed the visible glowing moon grew from a thin sliver to a full round glowing plate. What is this phase called when it is completely round?",
         "options": [
           "Crescent Moon",
-          "New Moon (Amavasya)",
-          "Full Moon (Purnima)",
+          "New Moon",
+          "Full Moon",
           "Half Moon"
         ],
         "answer": 2,
@@ -3015,10 +3015,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does the shape of the illuminated moon appear to change night after night?",
         "options": [
-          "Because clouds cut the moon into pieces",
-          "Because the Moon orbits around the Earth, changing how much of its sunlit side we see",
-          "Because stars push the moon away",
-          "Because the Moon melts in hot air"
+          "Because passing dark rain clouds physically block out different portions of the moon",
+          "Because the Moon orbits Earth, changing how much of its sunlit surface faces us",
+          "Because the Moon slowly shrinks and expands as the night air cools down and warms up",
+          "Because bright stars slowly move across the moon and cover up its glowing edges"
         ],
         "answer": 1,
         "explanation": "As the Moon circles Earth, our angle of view of its sunlit half changes in a predictable cycle."
@@ -3027,7 +3027,7 @@ const QUESTION_BANK = {
         "prompt": "How many days does it roughly take for the Moon to cycle from one Full Moon to the next Full Moon?",
         "options": [
           "Exactly 2 days",
-          "About 29 to 30 days (roughly one month)",
+          "About 29 to 30 days",
           "7 days",
           "365 days"
         ],
@@ -3050,10 +3050,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does living in an extended family help everyone during busy or sick days?",
         "options": [
-          "Family members share household chores and support each other with love",
-          "Only one person is forced to do every single job",
-          "Everyone leaves the house",
-          "Nobody ever talks to each other"
+          "Family members share household chores and support each other warmly",
+          "One single person is expected to carry out every task on their own",
+          "Relatives avoid speaking to one another during difficult afternoons",
+          "Everyone leaves home immediately so that no work needs to be done"
         ],
         "answer": 0,
         "explanation": "Joint families share responsibilities, care for the elderly, and nurture children together."
@@ -3061,7 +3061,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the relationship between you and your mother's brother?",
         "options": [
-          "He is your Maternal Uncle (Mama)",
+          "He is your Maternal Uncle",
           "He is your Nephew",
           "He is your Grandfather",
           "He is your Brother"
@@ -3072,10 +3072,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What physical trait or talent might you inherit from your parents or grandparents?",
         "options": [
-          "The school notebook you buy",
-          "The color of your pencil box",
-          "The brand of shoes you wear",
-          "Eye color, curly hair, or a musical smile"
+          "The brand of school notebook you buy at the store",
+          "The bright shade of plastic on your pencil box",
+          "The type of sports shoes you wear to the ground",
+          "Eye color, curly hair texture, or height features"
         ],
         "answer": 3,
         "explanation": "Genetic traits like eye color, height, and hair texture are passed down through families!"
@@ -3096,10 +3096,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do newborn babies drink only breast milk and not chew hard crunchy nuts?",
         "options": [
-          "Because they have no teeth yet and their digestive system is just developing",
-          "Because babies are not hungry",
-          "Because milk is the only white food",
-          "Because babies dislike all food"
+          "They have no teeth yet and their gentle digestive system is still maturing",
+          "They do not require any energy or nutrients during their first several months",
+          "Their stomach can only process foods that have a bright white liquid color",
+          "They naturally refuse solid food because they dislike chewing crunchy items"
         ],
         "answer": 0,
         "explanation": "Babies do not have teeth for chewing and need gentle, nutrient-rich milk to grow."
@@ -3107,10 +3107,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why must every living animal, bird, and human drink clean water regularly?",
         "options": [
-          "Water keeps bodies hydrated and helps digest food and maintain life",
-          "Water is only used for washing clothes",
-          "Living things can survive years without water",
-          "Water makes animals turn into fish"
+          "Water hydrates the body, helps digest food, and maintains vital organs",
+          "Water is mainly needed by living creatures to wash their outer coats",
+          "Animals only consume liquids when they want to cool down during winter",
+          "Living organisms can easily survive without any fluids for many months"
         ],
         "answer": 0,
         "explanation": "Water is essential for every biological cell, organ, and life process."
@@ -3118,10 +3118,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What simple step saves water in the kitchen when washing vegetables?",
         "options": [
-          "Never washing fruits before eating",
-          "Throwing clean water into the street drain",
-          "Leaving the tap running at full blast while talking",
-          "Washing vegetables in a bowl of water and reusing that water for garden plants"
+          "Skipping the washing step completely so that no household tap is turned on",
+          "Leaving the sink tap running at full force while peeling all the vegetables",
+          "Rinsing each single vegetable separately under an open gushing kitchen pipe",
+          "Washing vegetables in a bowl and reusing that water for potted garden plants"
         ],
         "answer": 3,
         "explanation": "Washing produce in a bowl and watering plants with the leftover water is smart conservation!"
@@ -3153,7 +3153,7 @@ const QUESTION_BANK = {
       {
         "prompt": "While facing East, which cardinal direction is directly BEHIND Arjun's back?",
         "options": [
-          "West (where the sun sets in the evening)",
+          "West",
           "South",
           "North",
           "East"
@@ -3188,10 +3188,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does a parrot have a strong, curved hooked beak?",
         "options": [
-          "To crack open hard seeds, nuts, and tough fruit rinds",
-          "To suck nectar like a tiny needle",
-          "To catch fish under deep ocean water",
-          "To scoop gallons of mud"
+          "To crack open hard nuts, tough seeds, and fruit rinds",
+          "To probe deep into flower blossoms for sugary nectar",
+          "To scoop up slippery fish from deep freshwater lakes",
+          "To strain tiny pond insects and weeds from soft mud"
         ],
         "answer": 0,
         "explanation": "A parrot's powerful curved beak acts like a nutcracker for tough seeds and nuts."
@@ -3237,7 +3237,7 @@ const QUESTION_BANK = {
           "Your neighbor's cousins",
           "Your school teacher and principal",
           "Your mother's brother and sister",
-          "Your father's mother and father (Dadi and Dada)"
+          "Your father's mother and father"
         ],
         "answer": 3,
         "explanation": "Paternal relatives are on your father's side of the family (Dada and Dadi)."
@@ -3256,10 +3256,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can children show respect and care for elderly family members at home?",
         "options": [
-          "By helping them carry things, listening to their stories, and spending loving time together",
-          "By making loud noises while they rest",
-          "By hiding their walking sticks",
-          "By ignoring their needs completely"
+          "By carrying items for them, listening to their memories, and offering caring support",
+          "By playing noisy music in their bedroom while they are trying to take an afternoon nap",
+          "By setting aside their eyeglasses and walking sticks without telling where they are",
+          "By letting them manage heavy household chores alone while ignoring their daily needs"
         ],
         "answer": 0,
         "explanation": "Listening with affection and helping with daily tasks brings deep joy to elders."
@@ -3282,7 +3282,7 @@ const QUESTION_BANK = {
         "options": [
           "A blade of lawn grass",
           "A dry pine needle",
-          "Mint (Pudina) or Tulsi",
+          "Mint or Tulsi",
           "A cactus thorn"
         ],
         "answer": 2,
@@ -3302,10 +3302,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do the leaves of different plants have different shapes (like fan-shaped palm leaves versus needle-shaped pine leaves)?",
         "options": [
-          "Their shapes help them adapt to their climate, sunlight, and moisture needs",
-          "All leaves actually have the identical shape",
-          "Because gardeners cut each leaf with scissors",
-          "Leaves change shape every five minutes"
+          "Their shapes help them adapt to local sunlight, climate, and moisture levels",
+          "All plant leaves share the exact same outline regardless of their habitat",
+          "Gardeners regularly trim every outdoor leaf using specialized hedge shears",
+          "Leaves shift their physical patterns every few days to confuse caterpillars"
         ],
         "answer": 0,
         "explanation": "Leaf adaptations help plants catch light or survive winds and winter snow!"
@@ -3327,9 +3327,9 @@ const QUESTION_BANK = {
         "prompt": "Where should a family go immediately if someone feels very ill or has an emergency injury?",
         "options": [
           "To the hospital or neighborhood health clinic",
-          "To the post office",
-          "To the playground swings",
-          "To the movie theater"
+          "To the local post office counter for stamps",
+          "To the playground swings in the public park",
+          "To the ticket window at the cinema theater"
         ],
         "answer": 0,
         "explanation": "Doctors and nurses at hospitals provide immediate medical care and treatment."
@@ -3337,10 +3337,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What important service does the local Post Office provide for the community?",
         "options": [
-          "Repairing bicycle flat tires",
-          "Selling train tickets for overseas flights",
-          "Pumping fuel into motorcars",
-          "Delivering letters, parcels, and money orders to people far and wide"
+          "Fixing flat bicycle tires and replacing broken chains for commuters",
+          "Selling flight boarding passes and booking international hotel trips",
+          "Pumping diesel fuel and motor oil into heavy transport vehicles",
+          "Delivering letters, parcels, and savings services across the country"
         ],
         "answer": 3,
         "explanation": "Post offices handle letters, postcards, parcels, and savings services."
@@ -3348,10 +3348,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What sign on a public bus or metro train shows a seat is reserved for senior citizens or people with disabilities?",
         "options": [
-          "A sign that says 'Children Only'",
-          "A picture of an ice cream cone",
-          "A painted arrow pointing up",
-          "A clear pictorial sign showing a person with a walking stick or pregnant mother"
+          "A brightly painted board indicating that the seats are kept for young toddlers",
+          "A colorful advertisement symbol displaying an iced dessert or refreshment shop",
+          "A standard route guidance marker pointing straight toward the driver compartment",
+          "A pictorial sign showing an elderly traveler with a cane or an expectant mother"
         ],
         "answer": 3,
         "explanation": "Special reservation signs ensure elderly and differently abled passengers have comfortable seating."
@@ -3383,10 +3383,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the past, cooking was often done on clay chulhas using firewood. What clean fuels do most modern homes use today?",
         "options": [
-          "Burning piles of plastic",
-          "Dry leaves inside closed bedrooms",
-          "Kerosene torches only",
-          "LPG gas stoves and electric induction cookers"
+          "Discarded plastic scraps and synthetic foam sheets",
+          "Piles of dry leaves burning inside closed rooms",
+          "Open kerosene torches placed on wooden tables",
+          "LPG piped gas stoves and electric induction units"
         ],
         "answer": 3,
         "explanation": "LPG piped gas and electricity provide clean, smokeless heat for modern kitchens."
@@ -3397,7 +3397,7 @@ const QUESTION_BANK = {
           "Online video console games",
           "Virtual reality rollercoasters",
           "Drone racing in the sky",
-          "Hopscotch (Stapoo) and Gilli-Danda"
+          "Hopscotch and Gilli-Danda"
         ],
         "answer": 3,
         "explanation": "Stapoo (hopscotch), kho-kho, and gilli-danda were beloved active outdoor games played with simple natural items!"
@@ -3429,10 +3429,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If anyone touches you in a way that feels uncomfortable, wrong, or confusing, what should you do immediately?",
         "options": [
-          "Keep it a secret forever",
-          "Think it is your own fault",
-          "Say a loud, firm 'NO!', run away to a safe place, and tell a trusted adult immediately",
-          "Hide under your blanket and cry alone"
+          "Keep the feeling a secret and never talk about it with your parents or teachers",
+          "Assume that you made a serious mistake and quietly blame yourself for the event",
+          "Say a firm and loud no, move quickly to a safe spot, and inform a trusted adult",
+          "Hide away silently under a blanket and hope that the problem disappears on its own"
         ],
         "answer": 2,
         "explanation": "Remember the safety rule: Say NO firmly, GO to safety, and TELL a trusted adult (like parents or teachers)!"
@@ -3440,10 +3440,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Should household tasks like cooking or sweeping be done only by girls, or can both boys and girls share the work?",
         "options": [
-          "Only girls should ever cook and clean",
-          "Chores should never be done by anyone",
-          "Boys should never wash their own plates",
-          "Both boys and girls can equally learn and share all household chores"
+          "Only girls and women should be expected to prepare food and clean",
+          "Daily household chores should be completely avoided by all children",
+          "Boys ought to avoid helping around the kitchen or washing dishes",
+          "Both boys and girls can equally learn and share household chores"
         ],
         "answer": 3,
         "explanation": "Chores are life skills! Everyone in the family benefits when work is shared equally."
@@ -3464,10 +3464,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are clear rules important before starting any sport or playground game?",
         "options": [
-          "Rules are made so nobody can score any points",
-          "Rules allow one team to cheat freely",
-          "Rules ensure fairness, prevent disputes, and keep all players safe",
-          "Rules make the game boring and slow"
+          "Rules are created so that neither side can ever score any match points",
+          "Rules give unfair privileges so one team can break rules without penalty",
+          "Rules ensure fairness, prevent disputes, and keep all participants safe",
+          "Rules make athletic activities slow, confusing, and dull for spectators"
         ],
         "answer": 2,
         "explanation": "Rules create fair, exciting, and safe play where everyone knows the expectations."
@@ -3475,10 +3475,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If the referee calls you 'OUT' in Kho-Kho or Dodgeball, what is the sportsmanlike reaction?",
         "options": [
-          "Argue loudly and push other players",
-          "Throw a tantrum and kick the cones",
-          "Accept the referee's call calmly, cheer on your teammates from the sideline, and wait for your next turn",
-          "Refuse to leave the pitch"
+          "Argue heatedly with the match official and push other players off the game court",
+          "Throw an angry tantrum on the grass, kick marker cones, and tear up the scorecard",
+          "Accept the official call calmly, cheer from the sideline, and await your next turn",
+          "Cross your arms stubbornly and refuse to leave the field until the call is changed"
         ],
         "answer": 2,
         "explanation": "True sportsmanship means respecting the referee and supporting your team with grace!"
@@ -3486,10 +3486,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does being a great teammate mean?",
         "options": [
-          "Sitting down and refusing to run",
-          "Demanding that you take every single shot yourself",
-          "Blaming your goalkeeper if a goal is scored",
-          "Encouraging your partners, passing the ball, and celebrating everyone's effort"
+          "Sitting down on the court grass and refusing to run whenever you feel tired",
+          "Demanding that you take every single shot yourself without passing to peers",
+          "Blaming the defender or goalkeeper whenever the opposing side scores points",
+          "Encouraging your partners, passing the ball, and celebrating team achievements"
         ],
         "answer": 3,
         "explanation": "Great teammates build each other up with encouragement and cooperation!"
@@ -3511,9 +3511,9 @@ const QUESTION_BANK = {
         "prompt": "Why is keeping a shallow clay water bowl on the balcony or terrace helpful during hot sunny months?",
         "options": [
           "It provides cool, life-saving drinking water for thirsty birds and squirrels",
-          "It makes the balcony slippery on purpose",
-          "To wash muddy boots outside",
-          "It attracts mosquitoes to bite people"
+          "It makes the balcony tiles slippery so children do not run along the edges",
+          "It serves as an outdoor cleaning basin for washing muddy gardening boots",
+          "It helps collect stale rainwater to attract biting insects into the garden"
         ],
         "answer": 0,
         "explanation": "Urban wildlife often struggles to find water; a clean bowl is a true lifesaver in summer!"
@@ -3521,10 +3521,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can students make their school friendly and accessible for a classmate who uses a wheelchair?",
         "options": [
-          "Ignore them completely",
-          "Ensure ramps are clear and assist them warmly so they can join all games and activities",
-          "Tell them they cannot enter the library",
-          "Leave heavy school bags blocking the doorway ramps"
+          "Walk past them without speaking and leave them alone during recess play periods",
+          "Keep access ramps clear and assist them warmly so they join all school activities",
+          "Remind them that wheelchair users should avoid entering the library or laboratory",
+          "Leave heavy school bags and desks piled up across the main corridor entry ramps"
         ],
         "answer": 1,
         "explanation": "Ramps, wide doors, and welcoming friendship ensure all classmates participate fully!"
@@ -3532,10 +3532,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the best way to handle dry fallen leaves in a school garden?",
         "options": [
-          "Burn them in a giant smoky fire that pollutes the air",
-          "Sweep them under a car",
-          "Collect them in a compost pit to make rich organic fertilizer for garden plants",
-          "Pack them in plastic bags and dump them in a river"
+          "Set fire to the dry piles creating thick smoke that pollutes neighboring air",
+          "Sweep all the leaves underneath parked school buses to hide them out of sight",
+          "Collect them in a compost pit to produce rich natural fertilizer for plants",
+          "Seal them inside large polythene bags and throw them into the nearby canal"
         ],
         "answer": 2,
         "explanation": "Composting turns organic leaf waste into nutrient-packed soil without any harmful smoke!"
@@ -3556,10 +3556,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How is the number 5 drawn using standard tally marks?",
         "options": [
-          "A star shape with five points",
-          "Five separate dots in a circle",
-          "A square with one line inside",
-          "Four vertical lines with a diagonal slash across them (卌)"
+          "Five small round dots arranged around a wide circle",
+          "A single geometric star shape containing five points",
+          "A closed square outline drawn with one center stroke",
+          "Four vertical lines with one diagonal slash across"
         ],
         "answer": 3,
         "explanation": "In tally marks, groups of five are bundled with 4 vertical strokes and 1 diagonal cross!"
@@ -3578,10 +3578,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are tally marks organized into bundles of 5 rather than just drawing 50 straight lines in a row?",
         "options": [
-          "Bundling by 5s makes it fast and easy to skip-count without losing your place",
-          "Because tally marks cannot count past four",
-          "Because rulers only go up to five",
-          "Because the paper runs out of ink"
+          "Bundling by fives makes it quick and easy to skip-count without confusion",
+          "Because mathematical tally marks are never permitted to exceed four strokes",
+          "Because standard classroom rulers only display measurements up to five units",
+          "Because drawing more than five consecutive lines causes notebooks to tear"
         ],
         "answer": 0,
         "explanation": "Counting by 5s is lightning fast: 5, 10, 15, 20...!"
@@ -3604,8 +3604,8 @@ const QUESTION_BANK = {
         "options": [
           "Neither can hold water",
           "Both hold the exact same volume",
-          "The sports bottle (holds 3 glasses)",
-          "The glass pitcher (holds 6 glasses)"
+          "The sports bottle",
+          "The glass pitcher"
         ],
         "answer": 3,
         "explanation": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
@@ -3659,7 +3659,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Meera places the tip of her pencil at the 0 cm mark on her ruler. The eraser ends right at the 8 cm mark. How long is her pencil?",
         "options": [
-          "8 centimeters (8 cm)",
+          "8 centimeters",
           "0 cm",
           "8 meters",
           "15 cm"
@@ -3670,10 +3670,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which unit would you use to measure the distance between two different cities, such as Delhi and Agra?",
         "options": [
-          "Centimeters (cm)",
-          "Millimeters (mm)",
-          "Kilometers (km)",
-          "Grams (g)"
+          "Centimeters",
+          "Millimeters",
+          "Kilometers",
+          "Grams"
         ],
         "answer": 2,
         "explanation": "Long road distances between cities are measured in kilometers (km)!"
@@ -3762,10 +3762,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do storekeepers write item names, quantities, and prices on a cash bill?",
         "options": [
-          "To keep it as a secret from everyone",
-          "Because math cannot be done in your head",
-          "To practice their handwriting on scrap paper",
-          "So the customer can see the exact breakdown and verify the total calculation"
+          "To hide the individual product prices from competing shopkeepers nearby",
+          "Because shopkeepers are not allowed to calculate totals using mental math",
+          "To fill out blank receipt sheets for extra handwriting practice during work",
+          "So the customer can review every purchase and verify the total calculation"
         ],
         "answer": 3,
         "explanation": "A bill provides an honest, clear record of all items purchased and paid for!"
@@ -3833,9 +3833,9 @@ const QUESTION_BANK = {
         "prompt": "When the short hour hand points directly at 4, and the long minute hand points straight up at 12, what time is it?",
         "options": [
           "12 o'clock",
-          "4:12",
-          "12:04",
-          "4 o'clock (4:00)"
+          "4",
+          "12",
+          "4 o'clock"
         ],
         "answer": 3,
         "explanation": "Minute hand at 12 means an exact hour: 4 o'clock!"
@@ -3845,7 +3845,7 @@ const QUESTION_BANK = {
         "options": [
           "3 hours",
           "2 hours",
-          "4 hours (9 to 10, 10 to 11, 11 to 12, 12 to 1)",
+          "4 hours",
           "5 hours"
         ],
         "answer": 2,
@@ -3946,10 +3946,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which object would you weigh in GRAMS rather than Kilograms?",
         "options": [
-          "A school bus",
-          "A small silver ring or a postage stamp",
-          "An adult elephant",
-          "A heavy sack of wheat"
+          "A large yellow school transport bus",
+          "A small silver finger ring or stamp",
+          "A full-grown adult African elephant",
+          "A heavy sack of whole wheat grains"
         ],
         "answer": 1,
         "explanation": "Tiny, lightweight objects like jewelry or postage stamps are measured in grams."
@@ -4119,10 +4119,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can division be shown as repeated subtraction for 12 / 3?",
         "options": [
-          "Add 3 four times to 12",
-          "Subtract 12 from 0",
-          "Multiply 12 by 3",
-          "Subtract 3 repeatedly: 12 - 3 = 9; 9 - 3 = 6; 6 - 3 = 3; 3 - 3 = 0 (subtracted 4 times)"
+          "Add 3 repeatedly to 12 four times over",
+          "Subtract 12 repeatedly until reaching 0",
+          "Multiply 12 by 3 repeatedly four times",
+          "Subtract 3 repeatedly until reaching 0"
         ],
         "answer": 3,
         "explanation": "You can subtract 3 four times until reaching zero. So 12 / 3 = 4!"
@@ -4154,9 +4154,9 @@ const QUESTION_BANK = {
       {
         "prompt": "In the number 749, what is the place value of the digit '7'?",
         "options": [
-          "70 (7 tens)",
-          "7 (7 ones)",
-          "700 (7 hundreds)",
+          "70",
+          "7",
+          "700",
           "7000"
         ],
         "answer": 2,
@@ -4168,7 +4168,7 @@ const QUESTION_BANK = {
           "528 > 582",
           "582 = 528",
           "582 < 528",
-          "582 > 528 (582 is greater than 528)"
+          "582 > 528"
         ],
         "answer": 3,
         "explanation": "Both have 5 hundreds, but 582 has 8 tens while 528 has only 2 tens! So 582 > 528."
@@ -4257,10 +4257,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'diagonal' in a polygon like a square or rectangle?",
         "options": [
-          "The center dot of the shape",
-          "A straight line connecting two opposite (non-adjacent) corners",
-          "A curved line around the edge",
-          "The table where the shape sits"
+          "A single center point located inside the shape",
+          "A straight line joining two opposite corners",
+          "A curved boundary drawn along the outer border",
+          "The flat wooden table surface below the polygon"
         ],
         "answer": 1,
         "explanation": "A diagonal connects opposite corners across the inside of the polygon."
@@ -4292,7 +4292,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these geometric shapes can tile a flat floor seamlessly with NO gaps left between them?",
         "options": [
-          "Round circles (which leave gaps between them)",
+          "Round circles",
           "Squares and Rectangles",
           "Oval egg shapes",
           "Star shapes with gaps"
@@ -4303,10 +4303,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why can round circles NOT tile a flat floor completely on their own?",
         "options": [
-          "Because circles are too heavy",
-          "Because circles only roll away",
-          "Because round edges leave curved empty diamond-like gaps between them",
-          "Because circles cannot touch each other"
+          "Because circular tiles are far too heavy to lay flat across a room",
+          "Because curved objects constantly roll away when placed on floors",
+          "Because circular edges leave curved empty open gaps between tiles",
+          "Because circular shapes are mathematically forbidden from touching"
         ],
         "answer": 2,
         "explanation": "When circles touch, they leave empty spaces between their curved boundaries."
@@ -4316,7 +4316,7 @@ const QUESTION_BANK = {
         "options": [
           "A measuring tape",
           "A subtraction problem",
-          "A tessellation (tiling pattern)",
+          "A tessellation",
           "A fraction number"
         ],
         "answer": 2,
@@ -4349,10 +4349,10 @@ const QUESTION_BANK = {
       {
         "prompt": "On a dot grid paper, how many dots do you connect in a row to draw a straight line segment?",
         "options": [
-          "Connect dots along a straight path using a ruler",
-          "Dots cannot be connected with lines",
-          "Only one dot is needed for a line",
-          "Connect dots in random loops"
+          "Connect dots along a straight path with a ruler",
+          "Draw wavy looping arcs that touch every dot once",
+          "Place a single dot without drawing connecting rays",
+          "Dot grid marks are never allowed to be connected"
         ],
         "answer": 0,
         "explanation": "Connecting dots with a ruler allows you to draw precise polygons and geometric shapes."
@@ -4430,10 +4430,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who leads an elephant family herd in the wild?",
         "options": [
-          "A solitary male lion",
-          "A flock of birds",
-          "The oldest and wisest female elephant (the matriarch)",
-          "The youngest playful baby calf"
+          "A solitary roaming male forest lion",
+          "A flock of migratory hornbill birds",
+          "The oldest and wisest female elephant",
+          "The youngest playful baby elephant"
         ],
         "answer": 2,
         "explanation": "Elephant herds are matriarchal, guided by experienced older females who know water sources!"
@@ -4442,9 +4442,9 @@ const QUESTION_BANK = {
         "prompt": "How do elephants send messages to other herds far away across the savannah?",
         "options": [
           "Using deep, low rumbles that vibrate through the ground",
-          "By waving flags with their trunks",
-          "By whistling high bird songs",
-          "By tapping on wooden logs"
+          "By tapping rhythmic patterns on hollow fallen tree logs",
+          "By whistling high-pitched tunes like migratory songbirds",
+          "By waving branches and leaves high up in their trunks"
         ],
         "answer": 0,
         "explanation": "Low-frequency infrasound travels through the ground, which elephants sense through sensitive foot pads!"
@@ -4452,10 +4452,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does this passage reveal about elephant social life?",
         "options": [
-          "They are deeply caring, cooperative, and communicative social animals",
-          "They cannot hear any sounds",
-          "They never help other elephants",
-          "They prefer living completely alone without families"
+          "They are deeply caring, cooperative, and highly social herd animals",
+          "They are unable to perceive sound vibrations or communicate at all",
+          "They avoid helping other herd members and compete for food supplies",
+          "They prefer living solitary lives in isolation without family units"
         ],
         "answer": 0,
         "explanation": "Elephants form lifelong familial bonds, protect calves together, and mourn their loved ones."
@@ -4522,9 +4522,9 @@ const QUESTION_BANK = {
       {
         "prompt": "What clean energy source are city schools adopting according to the headline?",
         "options": [
-          "Firewood chulhas",
-          "Diesel generators",
-          "Coal-burning furnaces",
+          "Smoky firewood burned in clay stoves",
+          "Diesel fuel burned inside generators",
+          "Coal furnaces heating boiler engines",
           "Solar power from rooftop solar panels"
         ],
         "answer": 3,
@@ -4545,9 +4545,9 @@ const QUESTION_BANK = {
         "prompt": "Why are headlines in newspapers written in bold, concise, catchy language?",
         "options": [
           "To grab the reader's attention and summarize the main event instantly",
-          "Because sentences cannot be longer than five words",
-          "To confuse readers about the topic",
-          "Because the printer ran out of letters"
+          "Because printed newspaper sentences are legally limited to five words",
+          "To intentionally mislead readers about the real topic of the article",
+          "Because printing presses lack enough metallic type for full sentences"
         ],
         "answer": 0,
         "explanation": "Headlines provide an instant, high-impact overview of breaking news stories!"
@@ -4568,10 +4568,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What should Aarav's voice do when he reads 'Wait!' followed by an exclamation mark?",
         "options": [
-          "Speak with a sudden, energetic stop to show urgent attention",
-          "Yawn slowly",
-          "Laugh out loud",
-          "Mumble quietly while walking away"
+          "Speak with an energetic, sudden pause to show urgent attention",
+          "Yawn slowly and drag out the vowel sound in a sleepy manner",
+          "Laugh out loud before moving forward to the next sentence",
+          "Mumble the word under his breath while glancing at the floor"
         ],
         "answer": 0,
         "explanation": "The exclamation mark (!) commands immediate, dramatic attention."
@@ -4579,10 +4579,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should his voice conclude the question: '...rustle in the bushes, Anita?'",
         "options": [
-          "By whispering the name backwards",
-          "With a flat robotic drone",
-          "With a rising tone that asks for Anita's reaction",
-          "By skipping the word Anita"
+          "By whispering the final character name backwards",
+          "With a flat, emotionless tone lacking inflection",
+          "With a rising pitch that asks for Anita's answer",
+          "By omitting the character name from the sentence"
         ],
         "answer": 2,
         "explanation": "A question mark (?) naturally guides your pitch upward to invite an answer."
@@ -4590,10 +4590,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is proper phrasing and pausing essential when reading aloud to an audience?",
         "options": [
-          "Because books are not allowed to be read quickly",
-          "To make the story last as long as possible until everyone sleeps",
-          "So the audience gets confused",
-          "It brings the story characters to life and helps listeners understand the meaning easily"
+          "Because school rules strictly forbid reading narrative paragraphs at a normal pace",
+          "To stretch out the recitation time until the entire audience eventually falls asleep",
+          "To intentionally confuse listeners about what each fictional character is doing",
+          "It brings characters to life and helps listeners understand the story meaning easily"
         ],
         "answer": 3,
         "explanation": "Expressive phrasing transforms printed text into an exciting, clear mental movie for listeners!"
@@ -4625,10 +4625,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a dictionary entry provide besides the word's definition?",
         "options": [
-          "The author's home telephone number",
-          "Pronunciation guide, part of speech (noun/verb), and example sentences",
-          "The price of the paper",
-          "A photo of every student in school"
+          "The author's personal phone number and private home address",
+          "Pronunciation guide, part of speech, and example sentences",
+          "The current store market value of the printed paper pages",
+          "A photographic portrait of every student enrolled in school"
         ],
         "answer": 1,
         "explanation": "Dictionaries tell you how to pronounce a word, its part of speech, and how to use it in a sentence."
@@ -4636,10 +4636,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are the two 'guide words' printed at the top of a dictionary page used for?",
         "options": [
-          "They are secret codes for spies",
-          "They show the first and last word on that page so you can find words quickly",
-          "They are the names of the printers",
-          "They tell you what page number to skip"
+          "They provide secret coded instructions meant exclusively for foreign spies",
+          "They show the first and last word on that page to help you search quickly",
+          "They list the personal names of the printing press technicians who set type",
+          "They indicate which specific book sections the reader should skip entirely"
         ],
         "answer": 1,
         "explanation": "Guide words show the alphabetical range of words printed on that exact page."
@@ -4682,10 +4682,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do context clues help you become a stronger independent reader?",
         "options": [
-          "They change the story ending automatically",
-          "They let you skip reading all paragraphs",
-          "You can figure out the meaning of new words by looking at the surrounding story clues",
-          "They tell you to close the book immediately"
+          "They automatically rewrite confusing plot endings without requiring extra reading",
+          "They allow you to skip past difficult descriptive paragraphs during comprehension",
+          "You can deduce the meaning of unfamiliar words using clues in neighboring sentences",
+          "They prompt you to close the book whenever an unfamiliar difficult word appears"
         ],
         "answer": 2,
         "explanation": "Context clues empower you to understand new vocabulary naturally as you read!"
@@ -4706,10 +4706,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence uses rich sensory details (sight and sound) to describe Vikram's campfire night?",
         "options": [
-          "'Orange sparks danced into the dark sky while the dry pine logs crackled in the cool breeze.'",
-          "'The scout master was there.'",
-          "'We ate things.'",
-          "'A camp has fire.'"
+          "Orange sparks danced into the dark sky while dry pine logs crackled in the cool night breeze.",
+          "The scout leader stood beside the campsite boundary while blowing a loud metal whistle.",
+          "We sat together near our green camping tents and ate warm roasted potatoes for dinner.",
+          "Campfire logs are made of chopped forest wood and can produce smoke when burned outside."
         ],
         "answer": 0,
         "explanation": "Sensory words (orange sparks, crackled, cool breeze) bring the scene vividly alive!"
@@ -4717,10 +4717,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When sharing a personal experience orally with your class, what helps keep your listeners engaged?",
         "options": [
-          "Staring out the window",
-          "Speaking in one flat tone without pausing",
-          "Speaking clearly, showing genuine excitement, and organizing events in order",
-          "Looking down at your shoes and whispering"
+          "Staring silently out the classroom window while waiting for the bell to ring",
+          "Speaking continuously in a monotone mumble without making any natural pauses",
+          "Speaking clearly, showing genuine excitement, and sequencing events in order",
+          "Glancing down at your shoes while whispering barely audible words to yourself"
         ],
         "answer": 2,
         "explanation": "Clear voice, enthusiasm, and good structure make your stories a joy to hear!"
@@ -4728,10 +4728,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the best way to conclude a narrative about a fun camping trip?",
         "options": [
-          "'End of story.'",
-          "'The tent is blue.'",
-          "'As we packed our tents the next morning, I couldn't wait for our next outdoor adventure.'",
-          "'Grass is green.'"
+          "That marks the absolute end of the camping trip and I have nothing more to share.",
+          "Our waterproof camping shelter was constructed with bright blue nylon canvas panels.",
+          "As we packed our tents next morning, I looked forward to our next outdoor adventure.",
+          "Green grass grows across forest camping clearings where visitors assemble in summer."
         ],
         "answer": 2,
         "explanation": "Reflecting on the joyful memory and looking forward to the future creates a satisfying ending."
@@ -4752,10 +4752,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are the three core highlight needs for tiger conservation mentioned by the officer?",
         "options": [
-          "Air-conditioned rooms, cages, and dog food",
-          "Building highways through national parks",
-          "Large connected forests, clean water sources, and anti-poaching protection",
-          "Training tigers to live in city apartments"
+          "Air-conditioned indoor enclosures, metal cages, and processed domestic pet food",
+          "Paving multi-lane highways and building concrete shopping malls across reserves",
+          "Large connected forest corridors, clean water sources, and wildlife protection",
+          "Domesticating wild predators so that they can live safely inside family houses"
         ],
         "answer": 2,
         "explanation": "Tigers thrive when their wild forest habitats are vast, protected, and free from poaching."
@@ -4763,10 +4763,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'summarizing' a speech or video mean?",
         "options": [
-          "Picking out the main ideas and key facts and presenting them briefly in your own words",
-          "Making up your own different story",
-          "Copying down every single cough and sneeze the speaker made",
-          "Ignoring the speaker completely"
+          "Identifying the main ideas and key facts and stating them briefly in your own words",
+          "Inventing an entirely fictional tale that replaces the factual points presented",
+          "Transcribing every single cough, stumble, and unrelated comment the speaker uttered",
+          "Ignoring the presentation entirely and writing about an unrelated personal hobby"
         ],
         "answer": 0,
         "explanation": "A summary captures the heart and main points of a presentation concisely!"
@@ -4774,10 +4774,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are tigers considered an 'umbrella species' in forest ecosystems?",
         "options": [
-          "Because they protect city trees",
-          "Protecting tiger habitats automatically safeguards thousands of other plants, insects, and animals in the same forest",
-          "Because they use umbrellas during rainy seasons",
-          "Because they live only in rain clouds"
+          "Because their presence in urban gardens helps shield municipal street trees from storm damage and pollution",
+          "Protecting tiger habitats automatically safeguards thousands of plants, insects, and animals in that forest",
+          "Because adult tigers carry large palm fronds over their cubs to shelter them from heavy monsoon downpours",
+          "Because their orange and black striped coats resemble traditional umbrellas used in rural village markets"
         ],
         "answer": 1,
         "explanation": "Saving the top predator's habitat preserves the entire balanced food web below it!"
@@ -4799,7 +4799,7 @@ const QUESTION_BANK = {
         "prompt": "What is the clever answer to Arjun's computer riddle?",
         "options": [
           "A sports car",
-          "A computer keyboard (has space bar, enter key)",
+          "A computer keyboard",
           "A wooden wardrobe",
           "A treasure chest"
         ],
@@ -4809,10 +4809,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Try saying this fast three times: 'She sells seashells on the seashore.' What sound does this tongue-twister practice?",
         "options": [
-          "The tricky difference between the /sh/ and /s/ sounds",
-          "The /k/ and /g/ clicking sounds",
-          "The /b/ and /p/ popping sounds",
-          "The /m/ and /n/ nasal sounds"
+          "The clear distinction between the sh and s sounds",
+          "The subtle contrast between the hard c and g sounds",
+          "The explosive contrast between the b and p sounds",
+          "The humming transition between the m and n sounds"
         ],
         "answer": 0,
         "explanation": "Switching rapidly between /sh/ and /s/ trains sharp articulation and pronunciation control!"
@@ -4844,10 +4844,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a practical, impactful tip Diya can share in her water conservation speech?",
         "options": [
-          "Dump plastic bottles into natural streams",
-          "Wash one spoon in a full tub of water",
-          "Fix leaking taps promptly and collect rainwater for gardening",
-          "Leave garden hoses running on sidewalks all afternoon"
+          "Discard empty plastic bottles into local flowing river streams",
+          "Fill an entire washing tub with fresh water to rinse one spoon",
+          "Repair leaky taps quickly and harvest rainwater for home gardens",
+          "Leave garden hoses running continuously across outdoor pavements"
         ],
         "answer": 2,
         "explanation": "Fixing leaks and harvesting rainwater conserve precious freshwater resources directly."
@@ -4855,10 +4855,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can families practice water conservation during teeth-brushing?",
         "options": [
-          "Never brush teeth",
-          "Let the water overflow into the hallway",
-          "Turn off the tap while scrubbing teeth and use a mug of water to rinse",
-          "Keep the tap gushing at maximum pressure"
+          "Avoid brushing teeth altogether so that running water is never required",
+          "Let the bathroom washbasin overflow until water spills into the hallway",
+          "Turn off the tap while scrubbing teeth and use a small mug to rinse out",
+          "Keep the tap valve running at maximum pressure throughout the routine"
         ],
         "answer": 2,
         "explanation": "Turning off the tap during brushing saves up to 10 litres of water every single time!"
@@ -4869,7 +4869,7 @@ const QUESTION_BANK = {
           "About 90%",
           "Exactly 50%",
           "100%",
-          "Less than 3% (most is salty ocean water)"
+          "Less than 3%"
         ],
         "answer": 3,
         "explanation": "Only about 2.5% to 3% of Earth's water is freshwater, making its protection vital!"
@@ -4890,10 +4890,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When playing the role of Amrita Devi standing before the tree cutters, what dialogue demonstrates courage and environmental love?",
         "options": [
-          "'I don't care about the forest.'",
-          "'Take all the wood for free.'",
-          "'A chopped head is cheap if it saves a living tree!'",
-          "'Cut down all the trees and build me a palace!'"
+          "Take whatever timber you want, as forests have no value",
+          "I shall step aside so you can chop down every green bough",
+          "A severed head is a small cost if it saves a living tree",
+          "Fell this entire woodland grove to build royal palace halls"
         ],
         "answer": 2,
         "explanation": "Amrita Devi's historic words reflect supreme selfless dedication to protecting living nature."
@@ -4901,10 +4901,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do stage props (like paper leaf headbands and cardboard axes) enhance a school drama?",
         "options": [
-          "They make the stage so crowded that nobody can walk",
-          "They are made to throw at the audience",
-          "They help the audience visualize the setting and characters clearly",
-          "They replace the need for actors to speak"
+          "They clutter the platform floor so actors cannot move around easily",
+          "They provide decorative missiles to toss playfully toward spectators",
+          "They help the audience visualize historical characters and the setting",
+          "They eliminate any requirement for the student performers to speak out"
         ],
         "answer": 2,
         "explanation": "Thoughtful props set the visual atmosphere and make historical events feel tangible!"
@@ -4912,10 +4912,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What lesson does the Bishnoi Khejarli story teach modern children?",
         "options": [
-          "Trees are useless and should be cleared",
-          "Only kings make decisions about nature",
-          "Wood should only be burned for luxury",
-          "Communities have the power to protect forests and wildlife through unity and courage"
+          "Ancient forests are troublesome obstacles that should be cleared for urbanization",
+          "Only powerful monarchs have the authority to decide how natural habitats are managed",
+          "Timber from rare trees should be gathered freely to build lavish decorative homes",
+          "Communities have the power to protect trees and wildlife through unity and bravery"
         ],
         "answer": 3,
         "explanation": "The Bishnoi movement is an inspiring historic example of grassroots forest and biodiversity conservation."
@@ -4936,10 +4936,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What speaker in nature is reciting this poem?",
         "options": [
-          "A bubbling, flowing mountain brook (stream)",
-          "An old steam locomotive",
-          "A flying airplane",
-          "A stationary rock on a hill"
+          "A bubbling, flowing mountain brook",
+          "A vintage steam railway locomotive",
+          "A high-altitude passenger aircraft",
+          "A motionless boulder upon the hill"
         ],
         "answer": 0,
         "explanation": "The poem personifies a lively mountain brook as it journeys onward to join the river!"
@@ -4958,10 +4958,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should a student pace their reading during a rhythmic poem?",
         "options": [
-          "Race as fast as humanly possible without taking a breath",
-          "Whisper backwards",
-          "Stop after every single syllable for five seconds",
-          "Match the natural musical bounce and cadence of the verses without rushing"
+          "Recite as rapidly as possible without pausing for any natural breath breaks",
+          "Whisper each phrase backwards while keeping your eyes shut upon the stage",
+          "Pause after every single syllable for several seconds to break the rhythm",
+          "Match the natural musical bounce and cadence of verses without any rush"
         ],
         "answer": 3,
         "explanation": "A steady, rhythmic cadence lets the rhyme and music of the poetry shine brightly!"
@@ -5004,10 +5004,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are sequence linkers (First, Next, Then, After that, Finally) vital when writing experiments or recipes?",
         "options": [
-          "Because recipes cannot use verbs",
-          "They scramble instructions so nobody can follow them",
-          "They ensure the reader performs steps in the exact correct order to succeed",
-          "They are just extra words to make sentences longer"
+          "Because kitchen recipes are forbidden from containing ordinary action verbs",
+          "They scramble the instructions so that readers cannot follow the procedure",
+          "They guide the reader to carry out every step in the correct planned order",
+          "They are merely filler terms meant to make instructional sentences longer"
         ],
         "answer": 2,
         "explanation": "Linkers keep instructions crystal clear so every step happens in the right chronological order!"
@@ -5085,10 +5085,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In a crossword puzzle, what is the difference between ACROSS clues and DOWN clues?",
         "options": [
-          "Down words must be written backwards",
-          "Across words go horizontally left-to-right; Down words go vertically top-to-bottom",
-          "Across words are math numbers; Down words are colors",
-          "They mean the exact same direction"
+          "Down words are spelled in reverse order, while Across words follow normal spelling",
+          "Across words run horizontally along rows, while Down words read vertically downward",
+          "Across clues represent numeric values, while Down clues exclusively describe colors",
+          "Both terms refer to the exact same straight direction across the square grid lines"
         ],
         "answer": 1,
         "explanation": "Across fills rows from left to right; Down fills columns from top to bottom."
@@ -5099,7 +5099,7 @@ const QUESTION_BANK = {
           "drop",
           "water",
           "coat",
-          "bow (Rainbow)"
+          "bow"
         ],
         "answer": 3,
         "explanation": "Rain + Bow = Rainbow, the glowing 7-color arch in the sky!"
@@ -5177,10 +5177,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What vital details MUST be included in a party invitation letter?",
         "options": [
-          "The price of every present you want",
-          "Your secret diary entries",
-          "The color of your socks",
-          "Date, time, venue/address, and what the celebration is about"
+          "A wishlist showing the purchase price of preferred gifts",
+          "Confidential journal entries sharing your private secrets",
+          "A specific description of the colorful shoes you will wear",
+          "The date, starting time, venue location, and event purpose"
         ],
         "answer": 3,
         "explanation": "Guests need to know WHEN (date and time) and WHERE (location) to arrive!"
@@ -5224,7 +5224,7 @@ const QUESTION_BANK = {
         "prompt": "When should an apostrophe ( ' ) be used?",
         "options": [
           "At the start of every sentence",
-          "To show possession (e.g., Rohan's book) or contractions (e.g., don't = do not)",
+          "To show possession or contractions",
           "Whenever a word ends in the letter 's'",
           "In place of every vowel"
         ],
@@ -5234,10 +5234,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these words should ALWAYS be capitalized anywhere in a sentence?",
         "options": [
-          "The single-letter pronoun 'I' and proper nouns like 'India' or 'Ganga'",
-          "Words with more than five letters",
-          "Every verb",
-          "Every preposition like 'in' or 'on'"
+          "The pronoun I and specific proper names like India or the river Ganga",
+          "Any descriptive adjective that contains more than six English letters",
+          "Every action verb that appears near the middle of a completed clause",
+          "Common spatial prepositions like inside, upon, beneath, or behind"
         ],
         "answer": 0,
         "explanation": "The pronoun 'I' and specific proper names (India, Ganga) are always capitalized!"
@@ -5271,7 +5271,7 @@ const QUESTION_BANK = {
         "options": [
           "Green bin",
           "Red bin",
-          "Blue bin (for dry recyclables)",
+          "Blue bin",
           "Black bin"
         ],
         "answer": 0,
@@ -5280,10 +5280,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do desert animals like camels survive for days without drinking water?",
         "options": [
-          "They drink seawater through their hooves",
-          "They eat metal cans",
-          "They store fat in their humps for energy, lose very little water in sweat, and produce dry dung",
-          "They hide water bottles in their ears"
+          "They absorb saline moisture directly from deep desert sand dunes through their split hooves",
+          "They consume discarded metal containers to obtain mineral moisture during long expeditions",
+          "They store fat in humps for energy, lose little water through sweat, and make very dry dung",
+          "They conceal small natural reservoirs of groundwater inside specialized ear canal pouches"
         ],
         "answer": 2,
         "explanation": "Camels have remarkable biological adaptations that conserve every drop of bodily hydration!"
@@ -5306,7 +5306,7 @@ const QUESTION_BANK = {
         "options": [
           "Incinerating waste",
           "Deforestation",
-          "Upcycling (Reusing with creativity)",
+          "Upcycling",
           "Littering in the street"
         ],
         "answer": 2,
@@ -5315,10 +5315,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can an empty coconut shell be reused in a home garden?",
         "options": [
-          "By grinding it into drinking juice",
-          "As a natural biodegradable hanging plant pot or bird water bowl",
-          "By burning it inside a closed bedroom",
-          "By throwing it into a storm drain"
+          "By grinding the hard outer husk into sweet morning breakfast juice",
+          "As an organic biodegradable hanging plant pot or bird drinking bowl",
+          "By burning the shell inside a closed bedroom to provide indoor heat",
+          "By tossing the tough dried shell directly into municipal sewer lines"
         ],
         "answer": 1,
         "explanation": "Coconut shells make sturdy, eco-friendly hanging planters or bird feeding cups!"
@@ -5326,10 +5326,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary benefit of making decorative rangolis from natural flower petals and turmeric instead of toxic chemical paints?",
         "options": [
-          "They are biodegradable, non-toxic, and safe for soil and insects",
-          "They cost ten thousand rupees",
-          "They can never be washed away",
-          "They turn into plastic overnight"
+          "They are completely biodegradable, non-toxic, and safe for soil",
+          "They cost tens of thousands of rupees to purchase at craft shops",
+          "They create permanent stains that can never be washed off floors",
+          "They undergo a chemical change that turns into plastic overnight"
         ],
         "answer": 0,
         "explanation": "Flower petals and turmeric are completely natural, harmless, and enrich the soil when cleared."
@@ -5351,7 +5351,7 @@ const QUESTION_BANK = {
         "prompt": "What will Aarav observe after 4 hours?",
         "options": [
           "Plate A gained three times more water",
-          "Water in Plate A (sunny spot) evaporated much faster into water vapor",
+          "Water in Plate A evaporated much faster into water vapor",
           "Water in Plate B turned into ice cubes",
           "Both plates remained exactly full with zero change"
         ],
@@ -5361,7 +5361,7 @@ const QUESTION_BANK = {
       {
         "prompt": "When steam from a boiling kettle hits a cold metal spoon, tiny droplets of liquid water form on the spoon. What is this process called?",
         "options": [
-          "Condensation (gas turning back into liquid)",
+          "Condensation",
           "Photosynthesis",
           "Freezing into stone",
           "Dissolving into sugar"
@@ -5372,10 +5372,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these common kitchen substances will DISSOLVE completely when stirred into a glass of warm water?",
         "options": [
-          "Common salt (salt dissolves to form a clear solution)",
+          "Common salt",
           "Plastic beads",
           "River pebbles and gravel",
-          "Cooking oil (floats on top)"
+          "Cooking oil"
         ],
         "answer": 0,
         "explanation": "Salt is highly soluble in water, dissolving until its particles spread invisibly throughout the liquid."
@@ -5396,10 +5396,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What raw material does a traditional village potter use to craft diyas, kulhads, and water matkas?",
         "options": [
-          "Molten iron and steel",
-          "Synthetic plastic pellets",
-          "Cement and concrete gravel",
-          "Wet clay and fine silt from riverbeds"
+          "Molten iron alloys and sheets of steel",
+          "Granulated synthetic plastic pellets",
+          "Crushed cement powder and gravel stone",
+          "Fine moist clay and silt from riverbeds"
         ],
         "answer": 3,
         "explanation": "Clay from riverbeds is kneaded, shaped on a potter's wheel, and baked in a kiln kiln!"
@@ -5407,10 +5407,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does drinking water stored in a traditional porous clay 'matka' stay naturally cool during hot summer months?",
         "options": [
-          "Ice cubes grow inside clay pots",
-          "The clay has an electric refrigeration motor inside",
-          "Water slowly seeps through microscopic clay pores and evaporates, carrying away heat",
-          "Matkas are kept inside freezers"
+          "Because natural ice crystals spontaneously generate along the bottom of clay bowls",
+          "Because traditional earthenware pots contain tiny electric cooling coils built in",
+          "Water seeps through microscopic clay pores and evaporates, carrying heat away with it",
+          "Because village matkas must be kept inside industrial freezer chambers overnight"
         ],
         "answer": 2,
         "explanation": "Evaporative cooling! As moisture evaporates from the clay surface, it absorbs heat, leaving the water cool."
@@ -5418,10 +5418,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the best way for a student to record field observations during a visit to a historical fort or craft fair?",
         "options": [
-          "Scratch your name on ancient stone monument walls",
-          "Take quick notes, make pencil sketches of tools, and interview skilled artisans politely",
-          "Lose your notebook in the crowd",
-          "Run around shouting without looking at anything"
+          "Carve personal initials onto ancient monument stone walls as a lasting memorial mark",
+          "Record notes, sketch traditional tools, and interview experienced artisans politely",
+          "Toss your notebook into the crowd and rely entirely on memory without writing details",
+          "Run noisily past historical displays without observing artifacts or asking questions"
         ],
         "answer": 1,
         "explanation": "Taking notes and sketching preserves valuable learning while respecting historic heritage!"
@@ -5442,10 +5442,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do ants in a marching line communicate and follow each other along an exact path?",
         "options": [
-          "They memorize visual landmarks using sharp human-like eyesight",
-          "They leave invisible chemical scent trails called pheromones that other ants smell with their antennae",
-          "They feel underground soil vibrations caused by marching feet",
-          "They make high-pitched buzzing calls using tiny vibrating wings"
+          "They remember visual landscape features by using extraordinarily sharp, camera-like compound eyesight",
+          "They follow chemical scent trails called pheromones that traveling ants detect with their antennae",
+          "They monitor subtle seismic shockwaves traveling through soil caused by the footsteps of leading workers",
+          "They produce high-frequency buzzing calls using miniature vibrating wing membranes on their thorax"
         ],
         "answer": 1,
         "explanation": "Ants use sensitive antennae to detect pheromone scent trails laid down by scout ants!"
@@ -5464,10 +5464,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do weaver birds weave elaborate, hanging grass nests with downward-facing entrance tubes?",
         "options": [
-          "To store heavy winter supplies of dry seeds and grains",
-          "To protect their eggs and chicks from rain, wind, and climbing predators like snakes",
-          "To trap flying insects in the downward entrance tube",
-          "To allow multiple bird families to sleep in one communal dormitory"
+          "To hoard massive stockpiles of harvested grain seeds safe from cold winter frosts",
+          "To safeguard fragile eggs and chicks from monsoon rains and predators like snakes",
+          "To capture passing flying insects inside the hanging hollow bottom entrance chute",
+          "To provide a crowded communal dormitory where many unrelated bird families sleep"
         ],
         "answer": 1,
         "explanation": "Hanging bulbous nests with bottom entrances keep eggs safe from snakes and predatory lizards!"
@@ -5488,10 +5488,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Trace the correct sequence of how wheat reaches your dining table:",
         "options": [
-          "Field harvesting -> Grain Mandi/Market -> Flour Mill (Chakki) -> Kitchen kneading -> Hot Roti on plate",
-          "Hot roti -> Sowing seeds -> Flour Mill -> Mandi",
-          "Flour mill -> Sowing seeds -> Kitchen -> Field",
-          "Kitchen kneading -> Field harvesting -> Flour Mill -> Grocery store"
+          "Crop harvest, wholesale mandi, grain flour mill, dough kneading, hot roti",
+          "Hot baked roti, seed planting in soil, flour grinding mill, wholesale mandi",
+          "Grain flour mill, sowing wheat seeds, kitchen cooking, harvesting the crop",
+          "Kneading wheat dough, crop harvesting, grain flour mill, local retail shop"
         ],
         "answer": 0,
         "explanation": "Wheat is grown and harvested, sold in grain mandis, ground into atta at a mill, and baked at home!"
@@ -5510,10 +5510,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why must harvested grains like wheat and rice be dried thoroughly in the sun before storing in godowns?",
         "options": [
-          "Because wheat only grows inside dark bags",
-          "To make the sacks heavier",
-          "To remove moisture so fungal molds, rot, and insects cannot damage the stored food",
-          "To make the grains turn into golden coins"
+          "Because unprocessed wheat seeds can only sprout while stored inside hessian sacks",
+          "To make the grain bundles heavier so farmers can charge higher prices at market",
+          "To eliminate moisture so fungal mold, rot, and insects cannot spoil stored grains",
+          "To ensure that individual cereal kernels transform into shiny golden metal coins"
         ],
         "answer": 2,
         "explanation": "Moisture invites fungus and weevils; thorough sun-drying keeps stored grains fresh for months!"
@@ -5534,10 +5534,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do traditional master weavers in craft clusters learn their intricate weaving and embroidery skills?",
         "options": [
-          "By playing video games on a phone",
-          "By buying saris from the shopping mall",
-          "Overnight in a single five-minute dream",
-          "By training for years under experienced elders and master craftspeople (guru-shishya tradition)"
+          "By playing virtual textile designing video games on digital smartphones",
+          "By purchasing finished machine garments from air-conditioned retail malls",
+          "By memorizing complete jacquard patterns overnight in a brief morning dream",
+          "By training for years under experienced family elders and master weavers"
         ],
         "answer": 3,
         "explanation": "Artisanal knowledge of motifs, warping, and weft is inherited and refined over generations of dedicated apprenticeship."
@@ -5546,7 +5546,7 @@ const QUESTION_BANK = {
         "prompt": "Which natural insect produces fine silk threads when spinning its protective cocoon?",
         "options": [
           "The Grasshopper",
-          "The Silkworm (Bombyx mori moth larva)",
+          "The Silkworm",
           "The Honeybee",
           "The Dragonfly"
         ],
@@ -5556,10 +5556,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should we support local artisans and buy handmade indigenous khadi and handloom crafts?",
         "options": [
-          "To close down all craft villages",
-          "Handmade crafts have no artistic value",
-          "It preserves traditional cultural heritage, supports sustainable rural livelihoods, and uses eco-friendly materials",
-          "Because handmade items are illegal to sell"
+          "To accelerate the closure of heritage weaving hamlets so rural families move to industrial factory jobs",
+          "Because handcrafted textiles possess no artistic merit compared to mass-produced synthetic imports",
+          "It preserves cultural heritage, sustains rural artisan livelihoods, and uses eco-friendly materials",
+          "Because selling traditional handmade goods in urban marketplaces has been prohibited by national law"
         ],
         "answer": 2,
         "explanation": "Supporting artisans preserves ancient heritage and empowers rural weavers and craft families!"
@@ -5580,10 +5580,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'LANDMARK' on a map (such as an ancient clock tower or a big banyan tree)?",
         "options": [
-          "A bird flying past in the sky",
-          "A random crack on the pavement",
-          "A secret treasure hidden underground",
-          "A prominent, easily recognized building or natural feature used to guide directions"
+          "A temporary flock of wild birds flying swiftly across the afternoon horizon",
+          "A small random fracture running along the asphalt surface of a walking pavement",
+          "A mythical cache of gold coins concealed deeply beneath neighborhood roadways",
+          "A prominent, easily recognized building or natural feature that guides travelers"
         ],
         "answer": 3,
         "explanation": "Landmarks are unmistakable reference points that help travelers orient themselves and navigate."
@@ -5602,10 +5602,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If Arjun tells his cousin: 'Walk straight past the post office, then turn RIGHT at the grocery store,' what is the grocery store functioning as?",
         "options": [
-          "A decision waypoint / navigation landmark",
-          "The final destination of the universe",
-          "A roadblock that stops walking",
-          "A school classroom"
+          "A navigation landmark showing where to turn",
+          "The ultimate terminal destination of the trip",
+          "A permanent barricade preventing further travel",
+          "An administrative classroom inside the school"
         ],
         "answer": 0,
         "explanation": "The grocery store marks the exact landmark where a change of walking direction occurs."
@@ -5640,7 +5640,7 @@ const QUESTION_BANK = {
           "Standing Line",
           "Sitting on Luggage",
           "Special Luxury First Class",
-          "Sleeper Class (Middle or Upper/Lower berth)"
+          "Sleeper Class"
         ],
         "answer": 3,
         "explanation": "SL stands for Sleeper Class, and coaches are labeled S1, S2, S3, etc."
@@ -5648,10 +5648,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening",
-          "11:30 PM at night",
-          "1:30 PM in the afternoon",
-          "8:30 AM in the morning"
+          "6",
+          "11",
+          "1",
+          "8"
         ],
         "answer": 0,
         "explanation": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
@@ -5672,10 +5672,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do prey animals like deer and rabbits have large external ears (pinnae) that can swivel in different directions?",
         "options": [
-          "To keep cool like giant fans",
-          "To store nuts for winter",
-          "To fly like birds through trees",
-          "To detect faint sounds of approaching predators from any direction without turning their heads"
+          "To flutter back and forth like cooling mechanical fans during humid tropical afternoons",
+          "To store forest acorns and winter berries inside specialized outer ear flap cavities",
+          "To generate aerodynamic lift so they can glide between high branches like wild birds",
+          "To detect faint sounds of approaching predators from all directions without moving heads"
         ],
         "answer": 3,
         "explanation": "Swiveling ears let herbivores pinpoint predator rustles from 360 degrees around them!"
@@ -5683,10 +5683,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do carnivorous predators like lions and leopards have soft, cushioned pads beneath their paws?",
         "options": [
-          "To stalk silently through grass without snapping twigs or making footsteps",
-          "To slide down muddy hills",
-          "To bounce high like rubber balls",
-          "Because they dislike touching soil"
+          "To stalk silently across ground without snapping twigs or making footsteps",
+          "To slide smoothly down muddy hillside slopes while pursuing woodland prey",
+          "To bounce vertically like elastic rubber balls to snatch high flying birds",
+          "Because wild big cats feel uncomfortable when their skin contacts raw soil"
         ],
         "answer": 0,
         "explanation": "Padded paws allow predators to creep within striking distance of prey completely silently!"
@@ -5718,10 +5718,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does an extended family gathering strengthen family relationships?",
         "options": [
-          "It makes people forget each other",
-          "By making everyone stay locked in separate rooms",
-          "It allows cousins and relatives to share stories, celebrate shared traditions, and deepen bonds of care",
-          "It forces everyone to stop eating food"
+          "It creates confusion so that distant cousins and elders forget each other names and relations",
+          "It requires family members to stay confined inside separate locked chambers without speaking",
+          "It lets relatives share memories, celebrate cultural traditions, and nurture supportive bonds",
+          "It compels household members to stop preparing meals and avoid sharing festive dining tables"
         ],
         "answer": 2,
         "explanation": "Reunions bring relatives together to celebrate shared history, warmth, and lifelong affection!"
@@ -5732,7 +5732,7 @@ const QUESTION_BANK = {
           "She is your Mother",
           "She is your Grandmother",
           "She is your Niece",
-          "She is your Paternal Aunt (Bua / Fufi)"
+          "She is your Paternal Aunt"
         ],
         "answer": 3,
         "explanation": "Your father's sister is your paternal aunt (lovingly called Bua in Hindi)."
@@ -5740,10 +5740,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do families sometimes relocate to new cities (migration)?",
         "options": [
-          "Because moving vans are free",
-          "For better job opportunities, education, or transfers in work",
-          "To avoid all human beings",
-          "Because houses disappear every year"
+          "Because commercial moving trucks offer free transport services",
+          "For better employment, educational schooling, or job transfers",
+          "To isolate themselves permanently from contacting other people",
+          "Because residential houses naturally vanish after twelve months"
         ],
         "answer": 1,
         "explanation": "Families move to new places for employment, schooling, transfers, or business opportunities."
@@ -5764,10 +5764,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which part of the plant are carrots, radishes, and beetroots that we eat?",
         "options": [
-          "Underground swollen taproots that store food nutrients",
-          "Wooden bark stems",
-          "Green aerial leaves",
-          "Colorful flower petals"
+          "Underground swollen taproots storing food nutrients",
+          "Stout woody outer bark peeled from arboreal stems",
+          "Broad green photosynthetic leaves collecting light",
+          "Brightly pigmented flower petals attracting wasps"
         ],
         "answer": 0,
         "explanation": "Carrots and radishes are modified taproots storing rich sugars and nutrients underground!"
@@ -5775,10 +5775,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do night-blooming flowers like Jasmine (Raat ki Rani) and Mogra have an intensely sweet, powerful aroma?",
         "options": [
-          "Because daytime flowers have no scent",
-          "To attract night-flying pollinators like nocturnal moths in the dark",
-          "To repel all living creatures",
-          "To scare birds away"
+          "Because diurnal blossoms never produce any aromatic fragrance at all",
+          "To guide nocturnal pollinators like night-flying moths in the darkness",
+          "To ward off every living garden visitor with harsh overwhelming smells",
+          "To frighten woodland birds so they avoid perching near flowering stems"
         ],
         "answer": 1,
         "explanation": "In the dark of night, fragrance guides moths and bats directly to flower nectar for pollination!"
@@ -5786,10 +5786,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these commonly called vegetables is botanically a FRUIT because it develops from a flower and contains seeds?",
         "options": [
-          "Potato (underground stem tuber)",
-          "Spinach (leaf)",
-          "Ginger (rhizome stem)",
-          "Tomato and Cucumber"
+          "Potato and onion",
+          "Spinach and mint",
+          "Ginger and turnip",
+          "Tomato and pepper"
         ],
         "answer": 3,
         "explanation": "Tomatoes and cucumbers develop from flower ovaries and hold seeds inside, making them botanical fruits!"
@@ -5810,10 +5810,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did people travel long distances before steam trains, airplanes, and motorcars were invented?",
         "options": [
-          "On foot, horse-drawn carts, bullock carts, and wooden sailboats",
-          "By using electric metro rails",
-          "By driving luxury sports cars",
-          "By riding supersonic jet planes"
+          "On foot, in bullock carts, on horses, and in wooden sailboats",
+          "By riding rapid electric metro trains and underground subways",
+          "By driving high-speed motorcars across paved highway networks",
+          "By boarding commercial jet airliners and supersonic airplanes"
         ],
         "answer": 0,
         "explanation": "Before motor engines, humans relied on domesticated draft animals, walking, and wind-powered sails!"
@@ -5821,10 +5821,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What material were ancient water pipes and cooking vessels commonly made of in our grandparents' time?",
         "options": [
-          "Cardboard",
-          "Brass, copper, bronze, and baked clay",
-          "Thin plastic foil",
-          "Styrofoam"
+          "Compressed cardboard and paperboard",
+          "Brass, copper, bronze, and red clay",
+          "Thin synthetic polythene containers",
+          "Molded lightweight styrofoam pieces"
         ],
         "answer": 1,
         "explanation": "Copper and brass vessels were durable, naturally antimicrobial, and passed down across generations!"
@@ -5832,10 +5832,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How has modern communication evolved from historical pigeon posts and handwritten telegrams?",
         "options": [
-          "People stopped communicating completely",
-          "Only drums are used today",
-          "Letters take ten years to arrive",
-          "To instant voice and video calls and emails transmitted globally in seconds"
+          "People ceased corresponding and no longer exchange thoughts across distances",
+          "Communities rely exclusively on hollow wooden signal drums sounded on hills",
+          "Standard postal notes now require over a decade to reach neighboring towns",
+          "To instant voice calls, video chats, and digital messages delivered in seconds"
         ],
         "answer": 3,
         "explanation": "Satellites, fiber optics, and mobile networks connect humans instantly worldwide!"
@@ -5856,10 +5856,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Under the Right to Education (RTE) Act in India, what right is guaranteed to every child between ages 6 and 14?",
         "options": [
-          "Paying thousands of rupees for primary school",
-          "Working full-time in brick kilns",
-          "Staying home without books",
-          "Free and compulsory education in a neighborhood school"
+          "Paying substantial tuition fees for private schooling",
+          "Working regular daytime shifts inside local brick kilns",
+          "Remaining isolated at home without textbooks or study",
+          "Free and compulsory schooling in a neighborhood school"
         ],
         "answer": 3,
         "explanation": "The RTE Act guarantees every child aged 6-14 access to free, equitable elementary schooling."
@@ -5867,10 +5867,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is forcing young children to work in hazardous factories or roadside dhabas (child labor) illegal and harmful?",
         "options": [
-          "It has no effect on children",
-          "It robs children of their right to play, learn, grow safely, and build a bright future",
-          "Because children are too fast at work",
-          "Because factory owners dislike young people"
+          "It produces zero lasting physical or developmental consequences for growing youths",
+          "It deprives children of their rights to play, learn in school, and develop safely",
+          "Because children operate machinery far too swiftly for adult managers to supervise",
+          "Because manufacturing facilities generally hold personal prejudice against youths"
         ],
         "answer": 1,
         "explanation": "Children belong in schools, playgrounds, and nurturing homes—not dangerous workplaces!"
@@ -5878,10 +5878,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should communities treat children of different genders, languages, or family backgrounds?",
         "options": [
-          "With absolute equality, respect, and equal opportunities to learn and lead",
-          "By excluding children who speak different mother tongues",
-          "By favoring boys over girls in sports and education",
-          "By stereotyping what tasks girls can do"
+          "With total equality, mutual respect, and equal opportunities to learn and lead",
+          "By excluding students who converse in regional mother tongues from activities",
+          "By giving unfair preference to boys over girls in sports arenas and classrooms",
+          "By enforcing rigid stereotypes about which tasks girls should be allowed to do"
         ],
         "answer": 0,
         "explanation": "Equality and mutual respect ensure every child can pursue their dreams and shine!"
@@ -5902,10 +5902,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'REDUCE' mean in the 3 R's rule?",
         "options": [
-          "Using extra plastic bags for fun",
-          "Cutting down on the amount of unnecessary waste and single-use packaging we generate",
-          "Throwing away leftover food into rivers",
-          "Buying ten plastic toys every single day"
+          "Collecting excess single-use polythene wrappers simply to accumulate extra trash",
+          "Cutting down on the amount of unnecessary waste and disposable items we generate",
+          "Discarding surplus cooked kitchen meals directly into flowing municipal rivers",
+          "Purchasing multiple new plastic novelty toys each afternoon without real need"
         ],
         "answer": 1,
         "explanation": "Reducing means avoiding wasteful single-use items in the first place, like carrying your own cloth bag!"
@@ -5913,10 +5913,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can you 'REUSE' a glass jam jar after the sweet fruit jam is finished?",
         "options": [
-          "Throw it in a roadside ditch",
-          "Smash it on the school playground",
-          "Burn it in a campfire",
-          "Wash it thoroughly and use it to store pencils, buttons, or garden seeds"
+          "Toss the empty glass container into an open roadside drainage gutter",
+          "Shatter the brittle glass on the concrete surface of school grounds",
+          "Toss the empty glass vessel into an open timber bonfire to burn down",
+          "Wash it cleanly and use it to store pencils, sewing buttons, or seeds"
         ],
         "answer": 3,
         "explanation": "Washed glass jars make durable, airtight organizers for stationery, spices, or art supplies!"
@@ -5924,10 +5924,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is turning off lights and fans when leaving an empty room important for the environment?",
         "options": [
-          "It has zero effect on nature",
-          "Because darkness makes rooms grow bigger",
-          "To make sure nobody enters the room",
-          "Conserving electricity saves fossil fuels and reduces greenhouse gas emissions at power plants"
+          "Power consumption generates zero noticeable influence on natural woodland environments",
+          "Because unlit rooms physically expand in floor area whenever illumination is shut off",
+          "To ensure that other household members are discouraged from stepping into that space",
+          "Conserving power saves fossil fuels and lowers harmful emissions from thermal plants"
         ],
         "answer": 3,
         "explanation": "Saving electricity directly lowers emissions from thermal power plants, protecting our global climate!"
@@ -5948,10 +5948,10 @@ const QUESTION_BANK = {
       {
         "prompt": "On a vertical bar graph showing student favorite sports, which sport will have the TALLEST bar?",
         "options": [
-          "Cricket (15 students)",
-          "Badminton (8 students)",
-          "Chess (5 students)",
-          "Football (12 students)"
+          "Cricket",
+          "Badminton",
+          "Chess",
+          "Football"
         ],
         "answer": 0,
         "explanation": "Cricket had the highest frequency at 15 votes, producing the tallest column bar!"
@@ -5970,7 +5970,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What information does the vertical axis (Y-axis) typically display in a student survey bar graph?",
         "options": [
-          "The number of students (frequency count)",
+          "The number of students",
           "The names of the sports",
           "The temperature of the room",
           "The color of the teacher's pen"
@@ -5996,7 +5996,7 @@ const QUESTION_BANK = {
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x = 2 x 10 = 20 m",
+          "20 meters",
           "12 meters"
         ],
         "answer": 2,
@@ -6042,7 +6042,7 @@ const QUESTION_BANK = {
         "options": [
           "Zero accuracy",
           "Completely wrong by 1000 grams",
-          "Very close (only 10 grams difference!)",
+          "Very close",
           "Off by 5 kilograms"
         ],
         "answer": 2,
@@ -6062,10 +6062,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If you estimate a bucket holds about 15 litres of water, how can you verify your estimate accurately?",
         "options": [
-          "Fill it using a verified 1-litre bottle and count how many bottles it takes",
-          "Look at the bucket from across the room",
-          "Guess again with your eyes closed",
-          "Weigh the empty bucket on a scale"
+          "Fill it using a verified 1-litre bottle and count how many bottles it holds",
+          "Stand across the hallway and visually assess the depth with your eyes shut",
+          "Guess another random numeric capacity value without using any container",
+          "Place the dry empty bucket on a weighing balance without adding any liquid"
         ],
         "answer": 0,
         "explanation": "Pouring known 1-litre measures until full verifies the true liquid capacity!"
@@ -6143,10 +6143,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How long was Kabir's football game from 5:10 PM to 6:25 PM?",
         "options": [
-          "2 hours",
-          "1 hour exactly",
-          "50 minutes",
-          "1 hour and 15 minutes (75 minutes)"
+          "1 hour and 45 minutes",
+          "1 hour and 30 minutes",
+          "1 hour and 05 minutes",
+          "1 hour and 15 minutes"
         ],
         "answer": 3,
         "explanation": "5:10 to 6:10 is 1 hour, plus 15 more minutes to 6:25 = 1 hour 15 minutes!"
@@ -6154,10 +6154,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a movie starts at 2:30 PM and runs for 2 hours and 15 minutes, what time does the movie end?",
         "options": [
-          "5:00 PM",
-          "4:30 PM",
-          "3:45 PM",
-          "4:45 PM"
+          "5",
+          "4",
+          "3",
+          "4"
         ],
         "answer": 3,
         "explanation": "2:30 + 2 hours = 4:30 PM; plus 15 minutes = 4:45 PM!"
@@ -6178,10 +6178,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What time is '14:20' on a standard 12-hour clock?",
         "options": [
-          "4:20 AM",
-          "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon",
-          "12:20 PM"
+          "4",
+          "2",
+          "2",
+          "12"
         ],
         "answer": 2,
         "explanation": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
@@ -6189,10 +6189,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How is 8:45 in the morning written on a 24-hour clock?",
         "options": [
-          "20:45 hours",
-          "18:45 hours",
-          "08:45 hours",
-          "00:45 hours"
+          "20",
+          "18",
+          "08",
+          "00"
         ],
         "answer": 2,
         "explanation": "Morning hours keep their numbers with a leading zero: 08:45 hours."
@@ -6200,7 +6200,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'AM' stand for in clock time?",
         "options": [
-          "Ante Meridiem (before midday/noon)",
+          "Ante Meridiem",
           "All Morning",
           "After Midnight only",
           "At Midday"
@@ -6246,10 +6246,10 @@ const QUESTION_BANK = {
       {
         "prompt": "A roll of ribbon is 350 centimeters long. Express this length in meters and centimeters:",
         "options": [
-          "3 meters and 50 centimeters (3 m 50 cm)",
-          "30 meters and 5 cm",
-          "350 meters",
-          "35 meters"
+          "3 meters and 50 centimeters",
+          "35 meters and 0 centimeters",
+          "30 meters and 5 centimeters",
+          "0 meters and 35 centimeters"
         ],
         "answer": 0,
         "explanation": "300 cm = 3 meters, leaving 50 cm. So it is 3 m 50 cm!"
@@ -6292,10 +6292,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
-          "12 apples",
-          "15 apples",
+          "12 apples per basket",
+          "16 apples per basket",
           "10 apples per basket",
-          "8 apples"
+          "8 apples per basket"
         ],
         "answer": 2,
         "explanation": "80 divided equally by 8 equals 10 apples per basket."
@@ -6316,10 +6316,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If Leo eats 1 slice out of the 4 equal slices, what fraction of the pizza did he eat?",
         "options": [
-          "4/4 (whole)",
-          "1/2 (half)",
-          "3/4 (three-fourths)",
-          "1/4 (one-fourth / one quarter)"
+          "4/4",
+          "1/2",
+          "3/4",
+          "1/4"
         ],
         "answer": 3,
         "explanation": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
@@ -6339,7 +6339,7 @@ const QUESTION_BANK = {
         "prompt": "If his friends eat 3 slices out of the 4 slices, what fraction of the pizza is eaten?",
         "options": [
           "1/4",
-          "3/4 (three-fourths)",
+          "3/4",
           "2/3",
           "1/2"
         ],
@@ -6365,7 +6365,7 @@ const QUESTION_BANK = {
           "1/4",
           "3/4",
           "2/3",
-          "2/4 (two-fourths)"
+          "2/4"
         ],
         "answer": 3,
         "explanation": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
@@ -6384,10 +6384,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the fraction 3/4, what does the bottom number (the denominator, 4) represent?",
         "options": [
-          "The weight in grams",
-          "The number of parts you eat",
-          "A multiplication sign",
-          "The total number of equal parts the whole is divided into"
+          "The total weight of the object measured in gram units",
+          "The count of individual equal pieces eaten or removed",
+          "The mathematical multiplication factor for the fraction",
+          "The total number of equal parts the whole is split into"
         ],
         "answer": 3,
         "explanation": "The denominator tells how many equal shares make up one whole unit!"
@@ -6420,7 +6420,7 @@ const QUESTION_BANK = {
         "prompt": "How are multiplication and division related? If 7 x 5 = 35, what is 35 / 5?",
         "options": [
           "30",
-          "7 (division is the inverse of multiplication)",
+          "7",
           "5",
           "12"
         ],
@@ -6476,10 +6476,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens to any number when you multiply it by 100?",
         "options": [
-          "Add one zero: 360",
-          "Subtract two zeros",
-          "Add two zeros to the end: 3,600",
-          "The number stays 36"
+          "It increases by one place value by appending one zero",
+          "It decreases in value by removing two terminal zeros",
+          "It increases by two place values by appending two zeros",
+          "Its numerical value remains completely unchanged at all"
         ],
         "answer": 2,
         "explanation": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
@@ -6546,10 +6546,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a geometric pattern has reflection symmetry across a vertical center line, what must be true about the two halves?",
         "options": [
-          "The right side is three times larger",
-          "They are exact mirror images of each other in size, shape, and color placement",
-          "The sides use different shapes",
-          "One side is completely blank"
+          "The right-hand section is three times larger than the left-hand section",
+          "Both halves are exact mirror reflections in shape, size, and alignment",
+          "The opposite sides display entirely different geometric polygons and lines",
+          "One half displays full motifs while the opposite side remains completely blank"
         ],
         "answer": 1,
         "explanation": "A line of symmetry creates identical mirror-image reflections on both sides!"
@@ -6560,7 +6560,7 @@ const QUESTION_BANK = {
           "2 lines only",
           "0 lines",
           "1 line only",
-          "4 lines of symmetry (horizontal, vertical, and two diagonals)"
+          "4 lines of symmetry"
         ],
         "answer": 3,
         "explanation": "A square can be folded in half vertically, horizontally, or along both diagonals (4 lines)!"
@@ -6570,7 +6570,7 @@ const QUESTION_BANK = {
         "options": [
           "G",
           "F",
-          "A (folds cleanly down the center)",
+          "A",
           "B"
         ],
         "answer": 2,
@@ -6592,10 +6592,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the fixed central point where the string was pinned called?",
         "options": [
-          "The diameter",
-          "The corner",
-          "The circumference",
-          "The Centre of the circle"
+          "The outer circumference",
+          "A straight chord segment",
+          "The circular diameter line",
+          "The center of the circle"
         ],
         "answer": 3,
         "explanation": "The centre is the exact middle point from which all points on the circle are equidistant!"
@@ -6614,10 +6614,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
         "options": [
-          "They are unrelated",
-          "Diameter is half of radius",
-          "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius"
+          "Diameter and radius have no geometric connection",
+          "Diameter measures exactly half of radius length",
+          "Diameter is equal to the radius of that circle",
+          "Diameter is exactly twice the length of radius"
         ],
         "answer": 3,
         "explanation": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
@@ -6695,10 +6695,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When looking at the FRONT VIEW of a standard pitched-roof doghouse, what shape does the roof line make?",
         "options": [
-          "A Triangle atop a rectangle",
-          "A spiral",
-          "A round sphere",
-          "A flat line only"
+          "A triangle atop a rectangle",
+          "A smooth continuous circle",
+          "A single straight flat ray",
+          "A winding curved line oval"
         ],
         "answer": 0,
         "explanation": "The front shows the rectangular door wall topped by the triangular gable roof."
@@ -6706,10 +6706,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do engineers and architects draw Top, Front, and Side views (orthographic drawings) of buildings?",
         "options": [
-          "To make drawing as difficult as possible",
-          "It shows exact dimensions from all angles so builders know how to construct it accurately",
-          "Because computers cannot show 3D objects",
-          "So nobody can see inside"
+          "To make drafting architectural blueprints as complicated and slow as possible",
+          "It shows exact dimensions from all angles so builders construct each face correctly",
+          "Because modern engineering software is unable to render three-dimensional shapes",
+          "To ensure that construction workers cannot tell what the interior layout looks like"
         ],
         "answer": 1,
         "explanation": "Multi-view architectural plans give builders the precise measurements for every face of a structure!"
@@ -6730,10 +6730,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When Vikram opens the folded paper, what does he see across the fold crease?",
         "options": [
-          "A symmetrical design where both sides are mirror reflections (like colorful butterfly wings)",
-          "The paint disappeared completely",
-          "A printed photograph of a car",
-          "Only one side has paint while the other is bone dry"
+          "A symmetrical design where both sides mirror each other",
+          "A completely dry sheet where all the wet paint vanished",
+          "A printed photo image showing complex machinery shapes",
+          "One side coated in paint while the opposite stays dry"
         ],
         "answer": 0,
         "explanation": "Pressing the folded paper transfers the paint into a breathtaking, perfectly symmetrical mirror design!"
@@ -6741,7 +6741,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the paper fold line represent in geometric terms?",
         "options": [
-          "The Line of Symmetry (Axis of Reflection)",
+          "The Line of Symmetry",
           "The Perimeter boundary",
           "The Radius line",
           "A straight diagonal diameter"
@@ -6753,7 +6753,7 @@ const QUESTION_BANK = {
         "prompt": "Which real creature in nature displays striking bilateral reflection symmetry across its body?",
         "options": [
           "A random puddle of water",
-          "A Butterfly (its left wing mirrors its right wing)",
+          "A Butterfly",
           "A spilled bucket of milk",
           "A jagged mountain peak"
         ],
@@ -6776,10 +6776,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When the coach yells: 'Sprint to the finish line!', what should the runner do?",
         "options": [
-          "Run as fast as possible across the marked ribbon finish line",
-          "Stop and tie both shoes",
-          "Turn around and walk to the locker room",
-          "Sit down in the middle of the track"
+          "Run at maximum forward speed to cross the marked ribbon finish line",
+          "Jog at a gentle steady pace while conserving energy for later races",
+          "Stop near the starting blocks to adjust running shoes and laces",
+          "Turn around and walk slowly back toward the team locker room area"
         ],
         "answer": 0,
         "explanation": "'Sprint' means running at your maximum speed to cross the goal line!"
@@ -6787,10 +6787,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In a game of Ring Toss, what does the instruction 'Throw the ring over the wooden peg' mean?",
         "options": [
-          "Drop the ring at your feet",
-          "Hide the ring in your pocket",
-          "Kick the peg over with your foot",
-          "Aim and toss the ring so it lands circling the peg"
+          "Slide the circular ring along the smooth playing floor toward the target base",
+          "Spin the ring around your fingers without releasing it toward the target peg",
+          "Balance the ring gently on top of your palm while standing behind the mark",
+          "Aim and toss the ring through the air so it lands looping around the target peg"
         ],
         "answer": 3,
         "explanation": "Ring toss tests your hand-eye coordination to loop the ring around the target peg."
@@ -6798,10 +6798,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In cricket or baseball, when the batter hears 'Hit the ball towards deep mid-wicket!', what is the action?",
         "options": [
-          "Swing the bat to strike the approaching ball into the field",
-          "Catch the ball with your cap",
-          "Duck down and let the ball hit the stumps",
-          "Throw the bat into the air"
+          "Swing the bat firmly to strike the approaching ball into that outfield area",
+          "Leave the incoming delivery untouched so that the wicketkeeper can take it",
+          "Block the delivery softly right back toward the bowler along the pitch turf",
+          "Step backward away from the crease and allow the ball to strike the stumps"
         ],
         "answer": 0,
         "explanation": "Hitting the ball firmly into the outfield is the core batting objective!"
@@ -6822,10 +6822,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was the tiny sparrow carrying drops of water towards the raging forest fire?",
         "options": [
-          "Because it disliked the river",
-          "To do its absolute best to help put out the fire, even with its small capacity",
-          "Because it wanted to take a bath in the fire",
-          "To drop water on other birds' feathers"
+          "To cool down the riverbank soil so other forest birds could build nests safely",
+          "To do its absolute best to help put out the blaze, despite its tiny capacity",
+          "To wash away ash from burning tree branches so wild berries would stay edible",
+          "To moisten the dry woodland path so wandering animals could cross more easily"
         ],
         "answer": 1,
         "explanation": "The brave sparrow showed that even the smallest creature can contribute courageously in a crisis!"
@@ -6833,10 +6833,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When the elephant asked the sparrow, 'Do you really think you can extinguish this huge blaze?', what was the moral point of the sparrow's action?",
         "options": [
-          "'Elephants are scared'",
-          "'Water burns like wood'",
-          "'Nobody should ever help'",
-          "'I may not put it out alone, but I am doing my part instead of giving up'"
+          "One should only take action when complete success is guaranteed from the start",
+          "Large and powerful animals are solely responsible for solving major challenges",
+          "Standing quietly aside is far wiser than attempting a difficult collective task",
+          "Doing your personal best to help matters far more than standing by helplessly"
         ],
         "answer": 3,
         "explanation": "Doing whatever you can with dedication matters more than standing by helplessly."
@@ -6844,10 +6844,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does answering comprehension questions in complete, clear sentences help your learning?",
         "options": [
-          "It develops structured critical thinking and clear English communication",
-          "It makes stories disappear",
-          "It allows you to avoid reading the text",
-          "It teaches you how to memorize without understanding"
+          "It develops structured critical thinking and clear English expression",
+          "It speeds up copying words directly without needing to interpret ideas",
+          "It allows students to guess story details without reading passage lines",
+          "It replaces independent paragraph writing with simple memorized words"
         ],
         "answer": 0,
         "explanation": "Writing clear answers sharpens your ability to extract meaning, analyze themes, and express ideas!"
@@ -6868,10 +6868,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Connecting this story to your own school experience, how can you make a newcomer feel welcomed?",
         "options": [
-          "Laugh when they mispronounce a word",
-          "Ignore them until they learn every word perfectly",
-          "Walk away and tell others not to talk to them",
-          "Invite them to sit at your lunch table, share a smile, and show them around the campus"
+          "Wait until the newcomer approaches the entire class and introduces themselves first",
+          "Ask them to observe classroom routines silently from the back row for several weeks",
+          "Direct them solely to the school notice board instead of offering personal guidance",
+          "Invite them to share your table, offer a warm smile, and guide them around the school"
         ],
         "answer": 3,
         "explanation": "Empathy and friendship bridge language barriers and help new classmates feel at home!"
@@ -6879,10 +6879,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When a character overcomes stage fright in a book, how can that inspire you before a school speech?",
         "options": [
-          "It reminds you that practicing, breathing deeply, and being brave can overcome fear",
-          "It tells you to run away from school",
-          "It proves speeches are impossible",
-          "It makes you forget everything"
+          "It shows that practicing, breathing steadily, and staying calm can overcome fear",
+          "It suggests that natural public speakers never feel nervous before addressing crowds",
+          "It proves that memorizing speeches quickly eliminates the necessity for preparation",
+          "It demonstrates that avoiding classroom presentations is the best way to handle fear"
         ],
         "answer": 0,
         "explanation": "Literature shows us that fear is normal and that courage is acting despite being nervous!"
@@ -6890,10 +6890,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'making a text-to-self connection' mean while reading?",
         "options": [
-          "Counting how many letters are on the cover",
-          "Writing your name on every page with marker",
-          "Relating events, feelings, or choices in the book to your own personal life experiences",
-          "Pretending the book was written about you only"
+          "Comparing the font and page layout of two different textbooks used in class",
+          "Checking whether the printed story matches a famous movie version you watched",
+          "Relating story events and characters to your own personal life experiences",
+          "Guessing the ending of a mystery tale before reaching the concluding chapters"
         ],
         "answer": 2,
         "explanation": "Text-to-self connections deepen your understanding by linking book events to your own life memories."
@@ -6914,10 +6914,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Rhea spots a sign showing a person walking down steps with a yellow caution triangle: 'CAUTION: WET FLOOR'. What should she do?",
         "options": [
-          "Sit down and pour more water",
-          "Walk slowly and carefully to avoid slipping on the wet floor",
-          "Run and slide across the tiles",
-          "Jump with both feet forward"
+          "Hurry across the wet corridor to leave the area as quickly as possible",
+          "Walk slowly and take careful footsteps to avoid slipping on damp tiles",
+          "Continue walking at full speed while holding books tightly in both hands",
+          "Look for another pathway only if the caution sign has flashing red lights"
         ],
         "answer": 1,
         "explanation": "The safety sign warns that the floor is slippery and requires slow, careful footsteps."
@@ -6927,7 +6927,7 @@ const QUESTION_BANK = {
         "options": [
           "The sports playground",
           "The public swimming pool",
-          "Emergency Exit (Fire Escape route)",
+          "Emergency Exit",
           "The ice cream shop"
         ],
         "answer": 2,
@@ -6936,10 +6936,10 @@ const QUESTION_BANK = {
       {
         "prompt": "On a medicine bottle, what does the label 'KEEP OUT OF REACH OF CHILDREN' instruct?",
         "options": [
-          "Store the medicine on a high shelf so young children cannot accidentally ingest it",
-          "Throw the medicine on the floor",
-          "Give the bottle to a baby to play with",
-          "Children must drink the whole bottle"
+          "Store the bottle securely on a high shelf so young children cannot ingest it",
+          "Place the bottle inside a classroom desk so older students can distribute it",
+          "Keep the bottle inside the family refrigerator next to everyday fruit juices",
+          "Leave the bottle on a dining table where family members can reach it quickly"
         ],
         "answer": 0,
         "explanation": "Medicine labels protect child safety by requiring storage out of reach of little hands."
@@ -6960,10 +6960,10 @@ const QUESTION_BANK = {
       {
         "prompt": "After reading an exciting chapter on volcanic islands, what is the best way for Aarav to draft a short summary paragraph?",
         "options": [
-          "Draw unrelated doodles without words",
-          "Write down five math addition problems",
-          "State the main topic, explain two key facts about lava forming new land, and write a concluding thought",
-          "Copy every third word from the page"
+          "Copy the opening paragraph word for word without altering any vocabulary terms",
+          "List every unfamiliar scientific word in alphabetical order without descriptions",
+          "State the main topic, include two key facts about lava, and add a concluding thought",
+          "Express personal opinions on volcanoes while omitting specific details from the text"
         ],
         "answer": 2,
         "explanation": "A great summary states the central topic, key supporting details, and wraps up neatly!"
@@ -6971,10 +6971,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the benefit of 'extensive reading' (reading widely for pleasure outside class)?",
         "options": [
-          "It makes your eyesight turn blue",
-          "It stops you from learning anything new",
-          "It is only done as a punishment",
-          "It enriches your vocabulary, boosts imagination, and develops natural fluency in language"
+          "It guarantees high test scores by memorizing grammatical definitions and rules",
+          "It reduces the time needed for daily subject revisions and written assignments",
+          "It replaces formal classroom instruction with independent leisure storytelling",
+          "It broadens vocabulary, sparks creative thought, and builds language fluency"
         ],
         "answer": 3,
         "explanation": "Reading for joy exposes you to thousands of words, ideas, and cultures naturally!"
@@ -6982,10 +6982,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Where can a reader look in a book to quickly see the list of chapters and page numbers?",
         "options": [
-          "Page 100",
-          "The barcode on the back cover",
-          "The Table of Contents at the front of the book",
-          "The copyright page fine print"
+          "The alphabetical index located at the back of the book",
+          "The publisher imprint found beside the copyright details",
+          "The table of contents placed near the front of the book",
+          "The author biography printed on the inside back book jacket"
         ],
         "answer": 2,
         "explanation": "The Table of Contents gives a neat roadmap of all chapters and their starting pages."
@@ -7017,10 +7017,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What extraordinary ability do Mudskipper fish display when the tide is low?",
         "options": [
-          "They fly high into the clouds like eagles",
-          "They build stone houses",
-          "They climb onto stilt roots and breathe air while foraging on mudflats",
-          "They burrow to the center of the Earth"
+          "They burrow deep into dry sand dunes and enter a state of winter hibernation",
+          "They swim into deep ocean trenches to escape predatory seabirds along the bay",
+          "They walk on exposed mudflats using pelvic fins and absorb oxygen on land",
+          "They change their scale colors instantly to match surrounding coastal rocks"
         ],
         "answer": 2,
         "explanation": "Mudskippers are amphibious fish adapted to hop on land and breathe through skin and gill chambers!"
@@ -7028,10 +7028,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are mangrove forests vital along coastal shorelines?",
         "options": [
-          "They stop all rain from falling",
-          "They make ocean water turn into fresh milk",
-          "They destroy all ocean coral reefs",
-          "Their dense stilt roots trap sediment, prevent coastal erosion, and protect shores from cyclone waves"
+          "They provide timber for deep-sea ships while preventing ocean waves from forming",
+          "They absorb excess salt from ocean currents to make seawater suitable for crops",
+          "They cool tropical ocean waters by shading wide stretches of deep coastal sea",
+          "They trap sediment with stilt roots, curb erosion, and shield shores from waves"
         ],
         "answer": 3,
         "explanation": "Mangrove trees are nature's shock-absorbers against coastal storms, tsunamis, and erosion."
@@ -7052,10 +7052,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary definition of 'MIGRATION' in the animal kingdom?",
         "options": [
-          "Animals going to sleep for five minutes",
-          "Seasonal movement of animals from one region to another for food, breeding, or warmer climate",
-          "A sudden loud noise in the forest",
-          "A kind of bird cage"
+          "The daily journey of wild creatures searching for clean drinking water nearby",
+          "The seasonal journey of animals to another region for food, warmth, or breeding",
+          "The permanent departure of young animals after leaving family nests or dens",
+          "The temporary retreat of forest animals into caves during heavy storm showers"
         ],
         "answer": 1,
         "explanation": "Migration is the regular seasonal journey animals make to survive harsh winters and find food."
@@ -7063,10 +7063,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Look at the dictionary notation: 'migrate (verb)'. What part of speech is 'migrate'?",
         "options": [
-          "A Noun (a person, place, or thing)",
-          "A Verb (an action word)",
+          "A Noun",
+          "A Verb",
           "A Preposition",
-          "An Adjective (a describing word)"
+          "An Adjective"
         ],
         "answer": 1,
         "explanation": "To migrate is an action, making it a verb."
@@ -7074,10 +7074,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which syllable receives the primary stress when pronouncing 'mi-GRA-tion'?",
         "options": [
-          "The second syllable (-GRA-)",
-          "The first syllable (mi-)",
+          "The second syllable",
+          "The first syllable",
           "All syllables are silent",
-          "The last syllable (-tion)"
+          "The last syllable"
         ],
         "answer": 0,
         "explanation": "In words ending in -tion, the syllable immediately before the suffix carries primary stress: mi-GRA-tion!"
@@ -7098,10 +7098,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a polite, insightful question for Kabir to ask the school gardener?",
         "options": [
-          "'How old is your shovel?'",
-          "'Mr. Joseph, what natural compost do you prepare to keep our school roses blooming so beautifully?'",
-          "'Can I pull out all your flowers right now?'",
-          "'Why are you covered in dirt?'"
+          "Mr. Joseph, how many different plant species have been planted across our garden?",
+          "Mr. Joseph, what natural compost do you use to keep the flowerbeds blooming well?",
+          "Mr. Joseph, why do you spend so much time watering plants instead of pruning bushes?",
+          "Mr. Joseph, which chemical fertilizer works fastest when preparing the garden beds?"
         ],
         "answer": 1,
         "explanation": "Respectful, focused questions invite the expert to share their rich craft and knowledge!"
@@ -7109,10 +7109,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What should an interviewer do while the other person is answering?",
         "options": [
-          "Talk over the person loudly",
-          "Listen attentively, take accurate notes, and avoid interrupting until they finish",
-          "Stare out the window",
-          "Look at their watch and tap their feet impatiently"
+          "Prepare the following question in mind while glancing around the interview room",
+          "Listen attentively, record key notes, and avoid interrupting until they finish",
+          "Rephrase each spoken sentence immediately to ensure the discussion moves fast",
+          "Check the recording timer continuously and prompt the speaker to wrap up quickly"
         ],
         "answer": 1,
         "explanation": "Active listening and courteous note-taking are the hallmarks of a great reporter!"
@@ -7120,10 +7120,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should Kabir close the interview politely?",
         "options": [
-          "'No more questions forever.'",
-          "'I am done, you can go now.'",
-          "'Thank you so much for your time and for sharing your wonderful gardening wisdom, Mr. Joseph!'",
-          "'Throw away your plants!'"
+          "Thank you, Mr. Joseph; I will make sure our school magazine prints every word.",
+          "Thank you, Mr. Joseph; please review these written responses before I submit them.",
+          "Thank you, Mr. Joseph, for your valuable time and helpful insights on our garden.",
+          "Thank you, Mr. Joseph; let us meet again tomorrow to discuss remaining topics."
         ],
         "answer": 2,
         "explanation": "Expressing sincere thanks shows warmth, gratitude, and professionalism."
@@ -7145,7 +7145,7 @@ const QUESTION_BANK = {
         "prompt": "Which harvest festival is celebrated in Assam with lively community dancing, traditional dhol drums, and peetha sweets?",
         "options": [
           "Pongal",
-          "Bihu (Rongali Bihu)",
+          "Bihu",
           "Lohri",
           "Onam"
         ],
@@ -7166,10 +7166,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is cultural diversity in food, languages, and clothing considered India's greatest strength?",
         "options": [
-          "It means people should never interact",
-          "It has no cultural significance",
-          "It enriches our collective heritage, fosters mutual respect, and demonstrates unity in diversity",
-          "It makes everyone dress identically in grey suits"
+          "It encourages every region to preserve its traditions without interacting with others",
+          "It simplifies administrative governance by establishing identical customs across states",
+          "It enriches national heritage, fosters mutual respect, and unites diverse traditions",
+          "It ensures that festive celebrations and culinary tastes remain uniform nationwide"
         ],
         "answer": 2,
         "explanation": "'Unity in Diversity' celebrates how rich regional traditions unite into one vibrant national family!"
@@ -7190,10 +7190,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which statement best expresses the true meaning of PEACE in a school community?",
         "options": [
-          "Treating everyone with fairness, resolving disputes through calm dialogue, and respecting differences",
-          "Winning every fight with physical strength",
-          "Being so scared that nobody makes a sound",
-          "Letting bullies decide all playground rules"
+          "Treating others fairly, resolving disputes with dialogue, and respecting differences",
+          "Keeping students silent during all breaks so that disagreements never occur in class",
+          "Allowing stronger students to settle playground conflicts without teacher guidance",
+          "Avoiding any group discussions or teamwork activities where opposing opinions arise"
         ],
         "answer": 0,
         "explanation": "Peace thrives when fairness, mutual empathy, and constructive dialogue resolve conflicts."
@@ -7201,10 +7201,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'EQUALITY' mean when selecting players for a school science quiz team?",
         "options": [
-          "Picking only students who live on your street",
-          "Selecting only boys for science",
-          "Giving every student an equal chance to participate based on effort, regardless of gender or background",
-          "Excluding students who wear glasses"
+          "Choosing students who have previously represented the school in regional quiz contests",
+          "Selecting participants primarily from higher grade sections to ensure greater knowledge",
+          "Offering every student a fair chance to participate based on effort, merit, and interest",
+          "Reserving team spots for students who can provide their own reference study materials"
         ],
         "answer": 2,
         "explanation": "Equality guarantees fair, unbiased opportunity for everyone to learn, compete, and excel!"
@@ -7236,10 +7236,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Say this rapidly without stumbling: 'Fresh fried fish, fish fresh fried!' What phonetic sound does this twister challenge?",
         "options": [
-          "Counting syllables",
-          "The rapid alternating of /f/, /r/, and /sh/ fricative sounds",
-          "Vowel rhyming only",
-          "Silent letters like the 'k' in knife"
+          "The distinct articulation of voiced nasal consonants like m and n",
+          "The rapid alternating of f, r, and sh consonant and blend sounds",
+          "The careful separation of long and short vowel sounds in syllables",
+          "The soft blending of silent letters such as the k in knife or knee"
         ],
         "answer": 1,
         "explanation": "The brisk transition between /fr/, /ai/, and /sh/ exercises rapid tongue and lip articulation!"
@@ -7258,10 +7258,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are verbal word games, puns, and tongue twisters fantastic for language learners?",
         "options": [
-          "They force you to forget your grammar rules",
-          "They are only used in silence",
-          "They are designed to confuse adults",
-          "They train motor speech control, enhance phonemic awareness, and make language playful"
+          "They help students memorize formal spelling lists without needing regular reading practice",
+          "They replace the need to study structured grammatical syntax during classroom writing tasks",
+          "They test how fast readers can scan encyclopedia pages while searching for reference terms",
+          "They train speech articulation, build phonemic awareness, and make learning words engaging"
         ],
         "answer": 3,
         "explanation": "Word games build speech agility, active listening, and a joyous love of words!"
@@ -7282,10 +7282,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence frames a grammatically correct question to investigate how the rescue happened?",
         "options": [
-          "'Goat pull dog how out?'",
-          "'How did the brave dog pull the struggling goat out of the deep mud?'",
-          "'Did how dog pull goat?'",
-          "'How the dog pull goat out mud did?'"
+          "How the brave dog did pull the struggling goat out from the muddy ditch?",
+          "How did the brave dog pull the struggling goat out of the deep mud hole?",
+          "How was the brave dog pulling the struggling goat without any rope used?",
+          "How does the brave dog pulled the struggling goat away from muddy water?"
         ],
         "answer": 1,
         "explanation": "Question structure: Question word (How) + auxiliary (did) + subject (the brave dog) + base verb (pull)!"
@@ -7293,10 +7293,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence is a vivid, grammatically correct narrative description of the moment?",
         "options": [
-          "'Leaped shepherd shallow water without hesitation dog assisting.'",
-          "'Shepherd water leaping shallow dog loyal.'",
-          "'Assisting water dog shepherd without leap.'",
-          "'Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog.'"
+          "The shepherd leaped without hesitation, assisting water shallow toward his dog loyal.",
+          "Leaping without hesitation into shallow water, the loyal dog was assisted shepherd.",
+          "Without hesitating, shallow water was leaped into by the shepherd assisting loyal dog.",
+          "Without hesitation, the shepherd leaped into the shallow water to assist his loyal dog."
         ],
         "answer": 3,
         "explanation": "Clear syntax, appropriate prepositional phrase, and vivid action make this sentence shine!"
@@ -7339,10 +7339,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the sentence: 'The swallows FLY south every autumn, but last year they FLEW early.' What are 'fly' and 'flew'?",
         "options": [
-          "Both are nouns",
-          "'Fly' is simple present tense; 'flew' is simple past tense",
-          "Both are future tense",
-          "'Fly' is past; 'flew' is future"
+          "Both words are action verbs conjugated in the present continuous tense",
+          "Fly is simple present tense while flew is simple past tense",
+          "Both words are descriptive adverbs modifying seasonal migration patterns",
+          "Fly is simple past tense while flew is future continuous tense"
         ],
         "answer": 1,
         "explanation": "'Fly' describes recurring present routine, while 'flew' is its irregular simple past form."
@@ -7352,7 +7352,7 @@ const QUESTION_BANK = {
         "options": [
           "Plains",
           "Cheetah",
-          "Effortlessly (tells HOW the cheetah sprinted)",
+          "Effortlessly",
           "Sprinted"
         ],
         "answer": 2,
@@ -7420,10 +7420,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which catchy, rhyming slogan is most effective for an animal welfare poster?",
         "options": [
-          "'Please buy paper.'",
-          "'Notice is hereby given.'",
-          "'Paws and claws need our care—kindness to animals everywhere!'",
-          "'Dogs are animals with four legs.'"
+          "Animals live in forests and villages, so keep public pathways clean and clear!",
+          "Feeding stray animals is important, so read community welfare rules today!",
+          "Paws and claws need our care, so show true kindness to animals everywhere!",
+          "Pets require daily nutrition, so consult a local veterinary clinic nearby!"
         ],
         "answer": 2,
         "explanation": "A rhyming, compassionate slogan creates an instant emotional connection and call to action!"
@@ -7431,10 +7431,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What elements should a compelling visual poster balance?",
         "options": [
-          "Bold clear headline, expressive artwork, and essential actionable details",
-          "Ten thousand words crammed together",
-          "Tiny microscopic text with no pictures",
-          "Only blank white space"
+          "Bold headline typography, expressive artwork, and essential practical details",
+          "Lengthy informational paragraphs, multiple font colors, and complex tables",
+          "Elaborate background patterns, decorative borders, and minimal readable text",
+          "Standard textbook definitions, monochrome diagrams, and formal author citations"
         ],
         "answer": 0,
         "explanation": "Visual harmony, readable typography, and strong focal art make posters impactful!"
@@ -7442,10 +7442,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In creative story writing, what is the 'climax' of a tale?",
         "options": [
-          "The blank back cover",
-          "The most intense, exciting turning point where the hero faces the main conflict",
-          "The first five words",
-          "The page where the title is printed"
+          "The opening paragraphs introducing the main characters and setting the initial story mood",
+          "The peak dramatic turning point where characters confront the central challenge or conflict",
+          "The quiet final section where loose plot threads are resolved after all struggles conclude",
+          "The brief list of chapter headings outlining the sequential events of the entire narrative"
         ],
         "answer": 1,
         "explanation": "The climax is the peak dramatic moment where the central mystery or battle is decided!"
@@ -7466,10 +7466,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between an AUTOBIOGRAPHY and a BIOGRAPHY?",
         "options": [
-          "An autobiography is written by a person about their OWN life; a biography is written by someone ELSE about another person",
-          "They mean the exact same thing with no difference",
-          "An autobiography is about planets; a biography is about numbers",
-          "Biographies are only written about fictional wizards"
+          "An autobiography is written by an author about their own life, while a biography is written by someone else about another person",
+          "An autobiography deals exclusively with fictional heroic adventures, while a biography focuses strictly on real historical rulers",
+          "An autobiography is composed by close relatives after an author passes away, while a biography is recorded during early childhood",
+          "An autobiography describes scientific discoveries made by teams of researchers, while a biography analyzes poetry and drama styles"
         ],
         "answer": 0,
         "explanation": "'Auto' means self! An autobiography is a self-written life story (like Kalam's 'Wings of Fire')."
@@ -7477,10 +7477,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which pronoun is primarily used in an AUTOBIOGRAPHY when narrating personal memories?",
         "options": [
-          "Third person only: 'He', 'she', 'they'",
-          "None at all",
-          "Second person: 'You', 'your'",
-          "First person pronouns: 'I', 'me', 'my', 'we'"
+          "Third person pronouns such as he, she, it, or they",
+          "Impersonal relative pronouns like who, which, or that",
+          "Second person pronouns such as you, your, and yourself",
+          "First person pronouns such as I, me, my, and we"
         ],
         "answer": 3,
         "explanation": "When telling your own life story, you write from the personal perspective: 'I was born in...'!"
@@ -7488,10 +7488,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What key factual milestones should a mini-biography include?",
         "options": [
-          "Rumors with no verification",
-          "The color of their favorite shoelaces only",
-          "A list of food they disliked",
-          "Early childhood, major achievements, struggles overcome, and contributions to society"
+          "Fictional adventure stories and unverified rumours circulating among local towns",
+          "A catalogue of daily personal possessions and favorite leisure hobbies of the author",
+          "Detailed transcripts of casual household conversations with childhood friends",
+          "Early upbringing, key milestones, challenges overcome, and lasting contributions"
         ],
         "answer": 3,
         "explanation": "A biography highlights formative experiences, pivotal milestones, and lasting impact on the world."
@@ -7512,10 +7512,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How are the exact spoken words of a character enclosed in a written script?",
         "options": [
-          "With question marks only",
-          "Inside quotation marks / speech marks: \"...\"",
-          "Underline every word with red crayon",
-          "Inside square math brackets: [...]"
+          "Between paired question marks at both ends",
+          "Inside quotation marks or speech marks",
+          "Underlined with double solid red strokes",
+          "Wrapped within decorative asterisks signs"
         ],
         "answer": 1,
         "explanation": "Quotation marks (\" \") frame direct speech so the reader knows the exact words uttered!"
@@ -7558,10 +7558,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What should Diya write in the 'SUBJECT' line of her school email?",
         "options": [
-          "'Request to borrow school microscope for leaf investigation - Diya (Class 5B)'",
-          "'Can I play games?'",
-          "'HELLO HELLO CLICK HERE NOW!!!'",
-          "'No subject'"
+          "Request to borrow school microscope for science project from Diya",
+          "Urgent notification about classroom games and upcoming sports break",
+          "Inquiry regarding cafeteria lunch menus and afternoon snack options",
+          "Casual greeting to classmates about weekend homework assignments"
         ],
         "answer": 0,
         "explanation": "A clear, specific subject line lets the recipient know immediately who is writing and what the topic is."
@@ -7569,10 +7569,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which salutation is appropriate for an email addressed to your school teacher?",
         "options": [
-          "'Hey buddy what's up,'",
-          "'Listen to me now,'",
-          "'Dear Mr. Verma,' or 'Respected Mr. Verma,'",
-          "'Yo Verma,'"
+          "Hey buddy, hope you are doing well today",
+          "Attention please, read this message now",
+          "Respected Mr. Verma, or Dear Mr. Verma",
+          "What is happening, let us talk quickly"
         ],
         "answer": 2,
         "explanation": "Respectful greetings show proper academic etiquette and courtesy."
@@ -7580,10 +7580,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Before hitting the 'SEND' button on an email, what crucial step must every good writer take?",
         "options": [
-          "Delete your account",
-          "Forward it to 50 strangers",
-          "Proofread the message carefully to check spelling, grammar, and tone",
-          "Shut your laptop as hard as possible"
+          "Reformat the entire text into decorative artistic fonts to look fancy",
+          "Forward the draft immediately to multiple random contacts for opinions",
+          "Proofread the email carefully to verify spelling, grammar, and courtesy",
+          "Clear the recipient address box so that the draft can be rewritten again"
         ],
         "answer": 2,
         "explanation": "Proofreading ensures your email is courteous, clear, accurate, and free of typos!"
@@ -7604,10 +7604,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence serves as the ideal TOPIC SENTENCE that states the main idea of Aarav's paragraph?",
         "options": [
-          "'There are many insects in the world.'",
-          "'Honeybees use an extraordinary form of body language known as the waggle dance to communicate nectar locations.'",
-          "'Honey is sweet.'",
-          "'Finally, they return to the hive.'"
+          "Insects of all kinds can be found thriving in natural habitats across the globe",
+          "Honeybees perform a specialized waggle dance to signal rich floral nectar sites",
+          "Sweet golden honey is harvested by beekeepers during the pleasant spring months",
+          "In conclusion, garden insects play an active role in pollinating flowering plants"
         ],
         "answer": 1,
         "explanation": "The topic sentence clearly defines the subject and focal claim of the entire paragraph!"
@@ -7615,10 +7615,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which transitional linker shows CAUSE AND EFFECT between sentences in a scientific explanation?",
         "options": [
-          "'Once upon a time'",
-          "'Meanwhile'",
-          "'Consequently' / 'As a result'",
-          "'Suddenly'"
+          "Once upon a time, signaling an imaginary story opening",
+          "Meanwhile, indicating actions happening simultaneously",
+          "Consequently or As a result, showing logical outcomes",
+          "Suddenly, introducing an unexpected narrative surprise"
         ],
         "answer": 2,
         "explanation": "'Consequently' and 'As a result' signal logical cause-and-effect reasoning."
@@ -7626,10 +7626,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the purpose of the CONCLUDING SENTENCE in an explanatory paragraph?",
         "options": [
-          "To summarize the central insight and leave a memorable final takeaway for the reader",
-          "To apologize for writing the paragraph",
-          "To introduce five brand new unrelated topics",
-          "To repeat the first word twenty times"
+          "To summarize key insights and provide a satisfying takeaway for the reader",
+          "To introduce new arguments and raise unexpected questions for later chapters",
+          "To restate every supporting detail in identical phrasing used in earlier lines",
+          "To define unfamiliar dictionary terms that appeared within the opening passage"
         ],
         "answer": 0,
         "explanation": "The concluding sentence ties all supporting points together with satisfying closure."
@@ -7650,10 +7650,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sensory property best distinguishes the LEMON WEDGE from the glass marble?",
         "options": [
-          "Being solid",
-          "Rolling ability",
-          "Color only",
-          "Sour taste and citrus aroma"
+          "Having a defined solid shape",
+          "Ability to roll along surfaces",
+          "Possessing visible bright tint",
+          "Distinct sour taste and aroma"
         ],
         "answer": 3,
         "explanation": "Taste buds detect sour citric acid, while olfactory nerves catch the citrus aroma!"
@@ -7661,10 +7661,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Touch a piece of sandpaper versus a polished pane of window glass. How do their textures differ?",
         "options": [
-          "Glass is spiky and hairy",
-          "Sandpaper is abrasive and rough; glass is slick, flat, and smooth",
-          "Sandpaper is completely liquid",
-          "Both feel like fluffy cotton"
+          "Sandpaper feels cool and polished, while glass has deep uneven grooves across its surface",
+          "Sandpaper has an abrasive gritty feel, whereas glass offers a sleek, flat, and glossy texture",
+          "Sandpaper behaves like flexible rubber cloth, while glass exhibits a velvety, ribbed coating",
+          "Sandpaper absorbs heat very quickly, while glass always stays freezing cold regardless of touch"
         ],
         "answer": 1,
         "explanation": "Sandpaper has gritty mineral grains for abrasion, while glass is polished completely smooth."
@@ -7672,7 +7672,7 @@ const QUESTION_BANK = {
       {
         "prompt": "When a metal tuning fork is struck with a rubber mallet, what sensory trait does it immediately produce?",
         "options": [
-          "A clear vibrating musical hum (sound vibration)",
+          "A clear vibrating musical hum",
           "A cold puddle of milk",
           "A sweet strawberry smell",
           "A rainbow of sparks"
@@ -7696,10 +7696,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What architectural marvel is the Sun Temple at Konark designed to resemble?",
         "options": [
-          "An underground submarine",
-          "A colossal 24-wheeled chariot of Surya, the Sun God, pulled by seven horses",
-          "A modern steam locomotive",
-          "A tall glass skyscraper"
+          "A fortified royal fortress featuring high defensive bastions and deep moats",
+          "A monumental stone chariot of the Sun God Surya, complete with carved horses",
+          "An ancient stepped reservoir surrounded by decorated galleries and pavilions",
+          "A multi-tiered Buddhist stupa crowned with ornate parasols and stone gateways"
         ],
         "answer": 1,
         "explanation": "Konark was built in the 13th century as an immense monumental stone chariot dedicated to the Sun God!"
@@ -7707,10 +7707,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What key information should an engaging travelogue include?",
         "options": [
-          "Only a receipt of bus tickets",
-          "Historical background, vivid descriptions of sights and local food, personal feelings, and travel tips",
-          "A list of every car license plate seen",
-          "A fictional story about outer space"
+          "An itemized list of transportation receipts and daily ticket fares without any descriptive prose",
+          "Historical context, vivid scenery, local culinary traditions, personal impressions, and travel advice",
+          "A collection of imaginary legends featuring mythical creatures unrelated to the visited destination",
+          "Technical engineering drawings showing the exact dimensions of highway roads and municipal bridges"
         ],
         "answer": 1,
         "explanation": "A travelogue weaves factual history, sensory descriptions, and personal reflections into an inspiring journey!"
@@ -7718,10 +7718,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can 3D architectural models be constructed using eco-friendly materials?",
         "options": [
-          "By burning plastic bottles",
-          "Models cannot be made by hand",
-          "Using non-biodegradable styrofoam and toxic sprays",
-          "Using corrugated cardboard, clay, discarded wooden sticks, and non-toxic glue"
+          "By molding non-recyclable synthetic plastic sheets and sealing them with chemical paints",
+          "By cutting sheets of industrial fiberglass insulation and spraying petroleum based lacquer",
+          "By carving blocks of rigid styrofoam foam and bonding them with solvent based contact adhesives",
+          "By assembling recycled corrugated cardboard, natural clay, craft sticks, and water based glue"
         ],
         "answer": 3,
         "explanation": "Upcycled cardboard and clay create beautiful, structurally sound, environmentally safe models!"
@@ -7742,10 +7742,10 @@ const QUESTION_BANK = {
       {
         "prompt": "A solid iron needle sinks immediately to the bottom, but a wide iron bowl floats on the water surface! Why does the bowl float?",
         "options": [
-          "The bowl has magical wings",
-          "Needles dislike water",
-          "Its wide hollow shape displaces a volume of water whose weight is greater than the bowl itself (buoyancy)",
-          "The bowl is made of lighter wood inside"
+          "The bowl is coated with a waterproof chemical paint that resists downward water gravity",
+          "The surrounding surface tension of water becomes twice as strong around wide metal shapes",
+          "Its hollow shape displaces a volume of water weighing as much as the bowl itself",
+          "Metal bowls contain tiny trapped air pockets inside their metallic crystal structure"
         ],
         "answer": 2,
         "explanation": "Archimedes' Principle! Hollow shapes displace enough water weight to generate upward buoyant force."
@@ -7753,10 +7753,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens when you add a large amount of salt to a bowl of water holding a sunken fresh egg?",
         "options": [
-          "The egg sinks deeper into the glass",
-          "The egg turns into solid gold",
-          "The dense salty water pushes the egg upward so it begins to FLOAT",
-          "The egg explodes"
+          "The egg remains resting on the bottom because dissolved salt has no impact on buoyancy",
+          "The egg shell softens quickly and absorbs water until the egg expands and sinks deeper",
+          "The dense salt solution creates greater buoyant force, allowing the egg to rise and float",
+          "The egg begins to spin rapidly in circles due to chemical reactions with the sodium ions"
         ],
         "answer": 2,
         "explanation": "Adding salt increases the water's density; when the saline water becomes denser than the egg, the egg floats (just like in the Dead Sea)!"
@@ -7764,10 +7764,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does moist bread left inside a warm plastic bag turn green and fuzzy after three days?",
         "options": [
-          "Microscopic fungal spores (bread mold) germinate and grow in the warm, moist environment",
-          "Bread melts into liquid",
-          "Bread turns into lettuce",
-          "The plastic bag was dyed green"
+          "Airborne fungal mold spores germinate and flourish in the warm, humid environment",
+          "Chemical preservatives inside the bread react with sunlight to produce green pigments",
+          "Moisture transforms starch molecules directly into tiny photosynthetic plant seedlings",
+          "Enclosed condensation dissolves the outer crust until the inner bread dough decays"
         ],
         "answer": 0,
         "explanation": "Moisture and warmth are the ideal conditions for fungal bread mold (Rhizopus) to germinate and spoil food."
@@ -7788,10 +7788,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Looking at the city's annual rainfall chart: June = 50 mm, July = 280 mm, August = 310 mm, September = 120 mm. Which season brings the heaviest rainfall?",
         "options": [
-          "Spring season",
-          "The Southwest Monsoon season (July and August)",
-          "The cold winter",
-          "The dry hot summer"
+          "The pleasant spring flowering season",
+          "The Southwest summer monsoon season",
+          "The cold and dry winter retreat season",
+          "The scorching pre-monsoon summer season"
         ],
         "answer": 1,
         "explanation": "July and August receive over 280 mm and 310 mm, marking the peak of the Indian summer monsoon!"
@@ -7799,10 +7799,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do temperatures drop significantly on cloudy, rainy monsoon days compared to scorching May afternoons?",
         "options": [
-          "The sun turns off during monsoon",
-          "The Earth moves billions of miles away from the sun",
-          "Winter arrived overnight",
-          "Thick storm clouds block direct solar radiation, and rain cools the ambient surface air"
+          "The distance between Earth and the sun increases sharply throughout the rainy months",
+          "Atmospheric oxygen levels decrease when heavy rain showers fall over coastal plains",
+          "Cool ocean currents replace all warm land breezes, causing winter conditions to appear",
+          "Dense rain clouds block incoming solar rays, while evaporating rain cools surface air"
         ],
         "answer": 3,
         "explanation": "Cloud cover reflects sunlight away while evaporating rain absorbs heat, cooling the environment."
@@ -7810,10 +7810,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do organized tables and bar graphs help meteorologists predict seasonal weather patterns?",
         "options": [
-          "They change the weather outside",
-          "They make rain fall on command",
-          "They predict lottery numbers",
-          "They reveal cyclical trends and cause-and-effect relationships over time"
+          "They control local cloud formation by regulating atmospheric air pressure readings",
+          "They allow scientists to prevent severe storms by calculating exact wind direction",
+          "They replace satellite radar scans by recording historical precipitation estimates",
+          "They highlight cyclical climate patterns and temperature relationships over time"
         ],
         "answer": 3,
         "explanation": "Historical climate charts reveal long-term seasonal rhythms and atmospheric cycles!"
@@ -7845,10 +7845,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Snakes do not have external ears. How do they detect approaching footsteps of predators or prey on the ground?",
         "options": [
-          "By sensing vibrations through their belly scales and jawbones resting against the earth",
-          "By feeling air drafts with sensitive facial whiskers",
-          "By listening through tiny hidden ear holes behind their eyes",
-          "By flicking their forked tongue to capture airborne sound waves"
+          "By picking up ground vibrations through their belly scales and lower jawbones",
+          "By feeling tiny air pressure changes with sensitive tactile facial whiskers",
+          "By funneling airborne sounds into concealed acoustic openings behind each eye",
+          "By capturing high frequency sound waves directly with their flicking tongues"
         ],
         "answer": 0,
         "explanation": "Snakes feel ground vibrations transmitted through their lower jaw directly to their inner ear bones!"
@@ -7856,10 +7856,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why can an eagle or kite spot a tiny scampering mouse in an open field from hundreds of meters up in the sky?",
         "options": [
-          "They fly down close to the ground and follow prey scents with their nostrils",
-          "They can only see prey when it stands completely motionless in bright sunlight",
-          "They emit shrill screeches and navigate by echolocation like bats",
-          "Their eyes have specialized retinas with high photoreceptor density and dual foveas for sharp magnification"
+          "They rely on keen olfactory receptors in their beaks to track faint scent trails",
+          "They possess reflective eye membranes that detect thermal heat signatures in soil",
+          "They emit ultrasonic clicking calls that bounce off moving prey across the meadow",
+          "Their retinas have high photoreceptor density and dual foveas for razor-sharp focus"
         ],
         "answer": 3,
         "explanation": "Raptor eyes have extraordinarily sharp focal vision, magnifying distant prey with razor precision!"
@@ -7891,10 +7891,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do traditional Indian grandmothers add generous amounts of oil, salt, and spices to mango and lemon pickles?",
         "options": [
-          "Oil acts as an antiseptic disinfectant that chemically dissolves bacterial cells",
-          "Salt and spices freeze the pickle mixture into a solid non-decaying state",
-          "Salt draws out water by osmosis and oil forms an airtight seal that prevents airborne microbes",
-          "The dark spices hide the pickle from airborne spores"
+          "Oil dissolves bacterial cell membranes chemically, while spices freeze moisture",
+          "Salt neutralizes acidic fruit juices, while aromatic spices eliminate all fungi",
+          "Salt removes moisture through osmosis, and oil forms a barrier against microbes",
+          "Spices darken the jar contents so light cannot trigger bacterial reproduction"
         ],
         "answer": 2,
         "explanation": "Salt and oil are natural preservatives that create an environment where harmful bacteria cannot survive!"
@@ -7937,10 +7937,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What critical financial services does a Bank provide for families and farmers?",
         "options": [
-          "Issuing voter identity cards and supervising assembly elections",
-          "Safely keeping savings, earning interest, providing agricultural loans, and enabling digital payments",
-          "Distributing agricultural seeds and fertilizers directly at subsidized rates",
-          "Collecting municipal property taxes and building neighborhood drainage systems"
+          "Issuing official voter identity documents and supervising municipal local elections",
+          "Safeguarding savings, earning interest, granting crop loans, and processing payments",
+          "Distributing subsidized crop seeds and modern chemical fertilizers directly to fields",
+          "Assessing residential property values and maintaining neighborhood drainage networks"
         ],
         "answer": 1,
         "explanation": "Banks protect citizens' savings, provide capital loans for farming/business, and process transactions."
@@ -7948,10 +7948,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary duty of the local Police Station in a neighborhood?",
         "options": [
-          "Passing municipal bylaws for zoning and new building construction",
-          "Presiding over court trials and sentencing convicted offenders to prison",
-          "Managing state highway toll collection and bus transport timetables",
-          "Maintaining public law and order, protecting citizens, preventing crime, and investigating complaints"
+          "Enacting local municipal building codes and approving new residential housing plans",
+          "Conducting judicial courtroom trials and determining prison sentences for offenders",
+          "Collecting interstate commercial highway tolls and managing public bus route schedules",
+          "Maintaining law and order, protecting citizens, preventing crime, and investigating cases"
         ],
         "answer": 3,
         "explanation": "Police officers uphold the law, ensure neighborhood safety, and protect citizens' legal rights."
@@ -7972,10 +7972,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do animals and birds help plants reproduce and spread across vast landscapes?",
         "options": [
-          "By drinking all the water in rivers",
-          "By pollinating flowers and dispersing seeds through eating fruits and dropping seeds in new soil",
-          "By painting leaves green",
-          "By chopping down mature trees"
+          "By pruning overhead canopy foliage so smaller woodland seedlings receive bright sunlight",
+          "By transferring flower pollen and dispersing fruit seeds across distant fertile soil beds",
+          "By packing topsoil firmly with hooves to prevent wild plant roots from shifting in winds",
+          "By consuming wilted wildflowers to accelerate the natural decomposition of leaf litter"
         ],
         "answer": 1,
         "explanation": "Animals carry sticky burs on their fur, eat fleshy fruits and excrete seeds, planting new forests!"
@@ -7983,10 +7983,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do plants return the favor to animals and humans in nature's reciprocal partnership?",
         "options": [
-          "They make soil disappear",
-          "They produce oxygen for breathing, provide nourishing food (fruits/grains), and offer cooling shade and shelter",
-          "They take away all oxygen from the atmosphere",
-          "They only help other plants"
+          "They absorb carbon dioxide while warming the surrounding ground to maintain dry habitats",
+          "They produce oxygen for breathing, yield nourishing food, and offer shade and shelter",
+          "They bind minerals into solid stones to protect underground burrowing animals from rain",
+          "They release fragrant perfumes that mask the scent of herbivores from stalking predators"
         ],
         "answer": 1,
         "explanation": "Plants are primary producers: generating atmospheric oxygen and nourishing the entire global food web!"
@@ -7994,10 +7994,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which community relies on camels for desert transportation, wool, and milk in the arid sands of Rajasthan?",
         "options": [
-          "Forest woodcutters in mangroves",
-          "Himalayan mountaineers",
-          "Desert pastoralists and camel herders (like the Raika community)",
-          "Deep sea fishermen"
+          "Coastal fishermen along tidal estuaries",
+          "High altitude Himalayan mountain guides",
+          "Desert pastoralists and camel herders",
+          "River valley farmers along lush deltas"
         ],
         "answer": 2,
         "explanation": "The Raika community shares a deep cultural and economic partnership with the 'Ship of the Desert'!"
@@ -8018,10 +8018,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is Ladakh described as a 'COLD DESERT' despite being surrounded by snow-capped mountains?",
         "options": [
-          "It has hot sandy dunes reaching 50°C",
-          "It sits in the rain-shadow of the Himalayas, receiving very little rainfall, with freezing dry winds",
-          "It is covered in dense tropical jungle",
-          "It rains continuously 365 days a year"
+          "It experiences scorching hot sandstorms throughout the summer with temperatures exceeding 45°C",
+          "It sits in the Himalayan rain shadow, receiving minimal rainfall alongside freezing dry winds",
+          "It is covered by dense evergreen mountain forests that block moisture from reaching lowlands",
+          "It receives continuous torrential rainfall year round, which washes away topsoil from peaks"
         ],
         "answer": 1,
         "explanation": "Ladakh's high altitude creates an arid, high-radiation, freezing climate with sparse rainfall!"
@@ -8029,10 +8029,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do traditional houses in Ladakh stay warm during sub-zero winters?",
         "options": [
-          "Metal containers without doors",
-          "Thick stone and sun-dried mud-brick walls with wooden ceilings and animals kept on the ground floor for warmth",
-          "Paper-thin glass tents with no roof",
-          "Houses are built entirely of ice that never melts"
+          "By installing large single-pane glass skylights that channel freezing winds across all living spaces",
+          "By using thick stone or mud-brick walls, timber ceilings, and housing livestock below for natural warmth",
+          "By constructing elevated wooden stilts that allow sub-zero blizzards to circulate beneath the floorboards",
+          "By lining exterior walls with thin metal sheets that radiate ambient winter cold into household bedrooms"
         ],
         "answer": 1,
         "explanation": "Ladakhi homes use thick insulated mud walls and smart thermal architecture to trap solar warmth!"
@@ -8042,7 +8042,7 @@ const QUESTION_BANK = {
         "options": [
           "The Indian Rhinoceros",
           "The Desert Camel",
-          "The Changthangi Mountain Goat (Pashmina goat)",
+          "The Changthangi Mountain Goat",
           "The Royal Bengal Tiger"
         ],
         "answer": 2,
@@ -8076,7 +8076,7 @@ const QUESTION_BANK = {
         "prompt": "What does a conventional map symbol showing a blue circle or curved ribbon represent?",
         "options": [
           "A railway station",
-          "A water body (lake, pond, or flowing river)",
+          "A water body",
           "A post office",
           "A metal highway"
         ],
@@ -8110,10 +8110,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are ancient coins invaluable sources of evidence for historians?",
         "options": [
-          "They are made of magnetic plastic",
-          "They can be spent at modern candy shops",
-          "They prove coins were invented last year",
-          "They display the ruler's name, reign dates, religious emblems, script, and reveal trade prosperity"
+          "They provide detailed geographical maps of ancient city streets and private residential estates",
+          "They list the complete legal codes and criminal courtroom judgments enacted by ancient monarchs",
+          "They preserve original handwritten literary manuscripts and philosophical poetry from the era",
+          "They reveal ruler names, reign dates, royal titles, religious symbols, scripts, and trade links"
         ],
         "answer": 3,
         "explanation": "Coins reveal dynasties, chronology, metallurgy, economic wealth, and artistic styles of bygone eras!"
@@ -8121,10 +8121,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did historical kingdoms construct hilltop forts with rounded protruding stone bastions (burj) and narrow slits in the walls?",
         "options": [
-          "To survey distant enemy armies from high angles and fire arrows safely from behind stone cover",
-          "To let wind blow away all the soldiers",
-          "To make the fort look like a toy",
-          "To trap soldiers inside with no light"
+          "To spot approaching forces from wide vantage angles and shoot arrows safely from stone cover",
+          "To allow strong mountain gales to ventilate underground treasury vaults during summer days",
+          "To display decorative architectural patterns that intimidated passing foreign merchant caravans",
+          "To trap defending archers within narrow chambers so they could not retreat during an assault"
         ],
         "answer": 0,
         "explanation": "Bastions provided wide defensive angles to protect fort gateways from siege battering rams!"
@@ -8132,10 +8132,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What traditional water harvesting structure was built inside medieval Indian forts (like Golconda or Chittorgarh) to survive long sieges?",
         "options": [
-          "Draining all water into the valley",
-          "Deep stepwells (baolis), rock-cut cisterns, and rainwater filtration tanks",
-          "Relying on ocean water pipes",
-          "Modern electric water pumps"
+          "Continuous canals pumping saline river water upwards from distant ocean bays",
+          "Deep stepwells, rock-cut cisterns, and interconnected rainwater storage tanks",
+          "Modern mechanized tube wells powered by pressurized underground steam pumps",
+          "Open earthen ditches that drained all seasonal mountain runoff down valleys"
         ],
         "answer": 1,
         "explanation": "Ingenious baolis and gravity channels stored millions of litres of fresh rainwater inside fortresses!"
@@ -8156,10 +8156,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'GENDER STEREOTYPE'?",
         "options": [
-          "A piece of sports equipment used in basketball",
-          "A narrow, unfair belief that boys and girls are only suited for certain tasks, games, or emotions",
-          "A rule written in the Constitution",
-          "A scientific law of gravity"
+          "A scientific biological distinction explaining physical endurance differences between athletes",
+          "An unfair preconceived belief that individuals must behave in certain ways based on gender alone",
+          "A constitutional legal provision protecting equal rights and educational opportunities for youth",
+          "A formal athletic rule governing team composition during international championship tournaments"
         ],
         "answer": 1,
         "explanation": "Stereotypes limit human potential by pre-judging what people can achieve based on gender alone."
@@ -8167,10 +8167,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can families and schools support every child's unique passion?",
         "options": [
-          "By stopping girls from entering sports grounds",
-          "By telling boys they must never cook or paint",
-          "By providing equal encouragement, training, and resources regardless of whether the child is a boy or a girl",
-          "By locking up sports equipment"
+          "By steering girls solely toward domestic arts and guiding boys strictly toward competitive sports",
+          "By deciding each student's career path based exclusively on traditional village cultural customs",
+          "By offering equal encouragement, coaching, and opportunities to all students regardless of gender",
+          "By restricting participation in science clubs and athletic leagues to high scoring test takers"
         ],
         "answer": 2,
         "explanation": "When children are supported equally, they break barriers and achieve greatness for the country!"
@@ -8178,10 +8178,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What inspiring message did Indian women champions (like Mary Kom, PV Sindhu, and the Indian Women's Cricket Team) prove to the world?",
         "options": [
-          "Only boys can win medals",
-          "Sports are not important in life",
-          "Determination, hard work, and talent know no gender boundaries; girls can conquer any global sport",
-          "Nobody should play games"
+          "Athletic success depends primarily on international coaching rather than personal dedication",
+          "Traditional sports should be reserved for athletes from specialized sporting family backgrounds",
+          "Dedication, resilience, and talent know no gender limits; women can excel on world athletic stages",
+          "Sporting careers should be pursued only after completing university degrees in science or commerce"
         ],
         "answer": 2,
         "explanation": "Our champion women athletes show that grit, passion, and skill triumph on every world stage!"
@@ -8202,10 +8202,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the safest immediate action to take if an EARTHQUAKE shakes your classroom building?",
         "options": [
-          "Run in panic towards the crowded narrow staircase",
-          "Jump out of high multi-story windows",
-          "Stand right beneath hanging glass chandeliers or glass windows",
-          "Drop under a sturdy desk, cover your head and neck, and hold onto the desk legs until shaking stops"
+          "Rush immediately into crowded corridor stairwells to exit the multi-story school building",
+          "Stand directly beside expansive glass display cases and heavy overhead hanging light fixtures",
+          "Gather near high brick perimeter walls while calling out loudly to alert other classrooms",
+          "Drop under a sturdy desk, cover your head and neck, and hold firmly until tremors cease"
         ],
         "answer": 3,
         "explanation": "Drop, Cover, and Hold On shields you from falling plaster, ceiling fans, and shattered glass!"
@@ -8213,10 +8213,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If you are already outside on the sports ground when an earthquake occurs, where should you stay?",
         "options": [
-          "Climb to the top of a telephone pole",
-          "Run inside a collapsing stone building",
-          "Stay in the open field away from tall buildings, overhead electric power lines, and falling signboards",
-          "Stand under a glass canopy"
+          "Run quickly into the nearest school building to seek shelter inside concrete stairwells",
+          "Stand directly beneath tall utility poles, overhead electrical lines, and streetlights",
+          "Stay in the open ground away from tall structures, overhead cables, and falling hazards",
+          "Gather beneath decorative exterior balconies, roof gutters, and glass entrance canopies"
         ],
         "answer": 2,
         "explanation": "Open clear spaces with nothing overhead are the safest place during seismic tremors."
@@ -8224,10 +8224,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What items belong in an Emergency Family First-Aid Disaster Kit?",
         "options": [
-          "Wet mud and leaves",
-          "Video game consoles only",
-          "Flashlight with spare batteries, first-aid bandages/antiseptic, bottled drinking water, non-perishable food, and a whistle",
-          "Heavy bricks"
+          "Expensive electronic entertainment tablets, extra charging cables, and board games",
+          "Heavy garden bricks, loose scrap metal pipes, building mortar, and spare buckets",
+          "A flashlight with extra batteries, bandages and antiseptic, water, and dry rations",
+          "Heavy winter blankets, delicate porcelain teacups, and large family photo albums"
         ],
         "answer": 2,
         "explanation": "Emergency kits provide essential survival, medical, and signaling tools during rescue operations."
@@ -8248,10 +8248,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which day had the HIGHEST number of students riding bicycles to school according to Arjun's table?",
         "options": [
-          "Wednesday (30 students)",
-          "Tuesday (25 students)",
-          "Friday (35 students)",
-          "Monday (20 students)"
+          "Wednesday",
+          "Tuesday",
+          "Friday",
+          "Monday"
         ],
         "answer": 2,
         "explanation": "35 is the highest recorded number, occurring on Friday!"
@@ -8317,9 +8317,9 @@ const QUESTION_BANK = {
         "prompt": "What is the volume of a rectangular wooden pencil box with Length = 15 cm, Width = 6 cm, and Height = 2 cm?",
         "options": [
           "180 cubic centimeters",
-          "23 cm³",
-          "60 cm³",
-          "90 cm³"
+          "120 cubic centimeters",
+          "230 cubic centimeters",
+          "90 cubic centimeters"
         ],
         "answer": 0,
         "explanation": "15 x 6 = 90; 90 x 2 = 180 cm³ of internal volume!"
@@ -8398,7 +8398,7 @@ const QUESTION_BANK = {
         "prompt": "How many kilograms is 4,750 grams?",
         "options": [
           "475 kg",
-          "4.75 kg (or 4 kg 750 g)",
+          "4.75 kg",
           "0.475 kg",
           "47.5 kg"
         ],
@@ -8454,10 +8454,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is mental estimation a powerful daily life math skill?",
         "options": [
-          "It lets you quickly check whether cash totals, change, or calculations make sense",
-          "It is only used when guessing answers in tests",
-          "It eliminates the need to ever learn math",
-          "Because numbers do not need to be accurate"
+          "It allows you to rapidly check whether billing totals, change, and calculations are sensible",
+          "It replaces formal mathematical proofs by substituting intuitive rough guesses on written tests",
+          "It removes the necessity of learning multiplication tables and basic arithmetic principles",
+          "It guarantees exact fractional precision when measuring architectural building blueprints"
         ],
         "answer": 0,
         "explanation": "Quick estimation prevents errors, detects billing mistakes, and guides smart financial decisions!"
@@ -8478,7 +8478,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Convert the fraction 1/2 into its decimal equivalent:",
         "options": [
-          "0.5 (or 0.50)",
+          "0.5",
           "0.25",
           "0.2",
           "0.05"
@@ -8549,7 +8549,7 @@ const QUESTION_BANK = {
           "5/3",
           "4/6",
           "9/20",
-          "6/10 (multiply top and bottom by 2)"
+          "6/10"
         ],
         "answer": 3,
         "explanation": "(3 x 2)/(5 x 2) = 6/10. They represent the exact same proportional value!"
@@ -8627,10 +8627,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the PLACE VALUE of the digit '7' in the numeral 4,75,820?",
         "options": [
-          "7,000 (7 thousands)",
+          "7,000",
           "700,000",
           "700",
-          "70,000 (7 ten-thousands)"
+          "70,000"
         ],
         "answer": 3,
         "explanation": "The 7 sits in the Ten-Thousands place: 7 x 10,000 = 70,000!"
@@ -8684,10 +8684,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens when you add any two consecutive triangular numbers together?",
         "options": [
-          "You get a negative number",
-          "You get an odd number only",
-          "You get zero",
-          "You ALWAYS get a perfect SQUARE NUMBER!"
+          "The resulting sum is always a negative integer",
+          "The resulting sum is always a prime number value",
+          "The resulting sum always equals zero in value",
+          "The resulting sum always forms a square number"
         ],
         "answer": 3,
         "explanation": "One of math's most magical geometric theorems: two consecutive triangular shapes combine to form a square!"
@@ -8708,10 +8708,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What flat shapes make up the net of a CYLINDER (like a soup tin)?",
         "options": [
-          "One circle and one diamond",
-          "One rectangular sheet and two identical circles for the top and bottom",
-          "Three triangles and one square",
-          "Six squares"
+          "One curved triangular wedge and two identical oval bases at either end",
+          "One rectangular body sheet and two identical circles for the top and base",
+          "Three matching equilateral triangles attached to a central square panel",
+          "Six congruent square faces arranged in a cross pattern along the edges"
         ],
         "answer": 1,
         "explanation": "Rolling the rectangle forms the curved pipe, and the two circles cap the top and bottom!"
@@ -8719,10 +8719,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What flat 2D shapes form the net of a CONE (like a party hat)?",
         "options": [
-          "Three circles",
-          "A sector of a circle (pie slice) and one circular base",
-          "Four rectangles",
-          "Two squares"
+          "Three identical semicircles folded along their curved edges",
+          "A sector of a circle alongside one flat circular base shape",
+          "Four congruent rectangles joined around an open central area",
+          "Two matching square panels flanked by triangular side flaps"
         ],
         "answer": 1,
         "explanation": "A curved sector wraps into the pointed conical wall, capped by a circular flat base."
@@ -8733,7 +8733,7 @@ const QUESTION_BANK = {
           "8 vertices",
           "4 vertices",
           "2 vertices",
-          "0 vertices (it has curved rims and flat faces, but no sharp corners)"
+          "0 vertices"
         ],
         "answer": 3,
         "explanation": "A cylinder has 2 circular edges and 3 surfaces, but zero sharp corner vertices!"
@@ -8756,7 +8756,7 @@ const QUESTION_BANK = {
         "options": [
           "An Acute Angle",
           "A Straight Line",
-          "A Right Angle (90°)",
+          "A Right Angle",
           "An Obtuse Angle"
         ],
         "answer": 2,
@@ -8765,7 +8765,7 @@ const QUESTION_BANK = {
       {
         "prompt": "An angle that is SHARPER and SMALLER than a right angle (less than 90°) is called:",
         "options": [
-          "An Acute Angle (like an open bird's beak)",
+          "An Acute Angle",
           "A Reflex Angle",
           "A Straight Angle",
           "An Obtuse Angle"
@@ -8776,7 +8776,7 @@ const QUESTION_BANK = {
       {
         "prompt": "When the hands of a clock read 4:00, the angle between the hour hand (at 4) and minute hand (at 12) is 120°. What kind of angle is this?",
         "options": [
-          "An Obtuse Angle (greater than 90° and less than 180°)",
+          "An Obtuse Angle",
           "A Zero Angle",
           "An Acute Angle",
           "A Right Angle"
@@ -8811,7 +8811,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these capital letters has BOTH horizontal and vertical reflection symmetry: [ H, J, P, R ]?",
         "options": [
-          "H (folds cleanly in half horizontally and vertically)",
+          "H",
           "R",
           "P",
           "J"
@@ -8822,7 +8822,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the order of rotational symmetry for a regular 4-bladed electric ceiling fan?",
         "options": [
-          "Order 4 (it looks identical at 90°, 180°, 270°, and 360°)",
+          "Order 4",
           "Order 2",
           "Order 8",
           "Order 1"
@@ -8857,10 +8857,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What phrase is traditionally spoken at the start of Indian public announcements to alert travelers?",
         "options": [
-          "'Listen to the music'",
-          "'May I have your attention please'",
-          "'Stop walking immediately'",
-          "'Everyone be quiet now'"
+          "Please stop walking immediately right now",
+          "May I have your kind attention please here",
+          "Everyone listen to the platform music now",
+          "Silence across the station hall right away"
         ],
         "answer": 1,
         "explanation": "'May I have your attention please' (Kripya dhyan dijiye) is the polite standard public alert phrase."
@@ -8868,10 +8868,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are clear, calm announcements critical in crowded public places like airports, metro stations, and school assemblies?",
         "options": [
-          "Because trains cannot run without microphones",
-          "To test the volume of the speakers",
-          "They provide vital navigational directions, emergency alerts, and safety guidelines to thousands of people",
-          "Only for entertainment"
+          "They entertain waiting passengers with background music while staff prepare travel tickets",
+          "They allow station managers to test loudspeaker volume levels continuously across platforms",
+          "They provide vital transit updates, safety instructions, and directions to large crowds",
+          "They ensure automated platform display screens receive electrical signals to keep running"
         ],
         "answer": 2,
         "explanation": "Clear public announcements prevent confusion, ensure smooth passenger transit, and communicate safety!"
@@ -8892,10 +8892,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does listening to your own recorded voice in a language lab help you improve spoken English?",
         "options": [
-          "It makes your voice sound like a robot",
-          "It turns speech into numbers",
-          "It writes your homework for you",
-          "It lets you self-monitor your rhythm, vowel sounds, and word stress to correct pronunciation mistakes"
+          "It automatically translates complex English grammar structures into multiple regional dialects",
+          "It alters vocal pitch electronically to match professional radio announcers without practice",
+          "It allows students to memorize entire dictionary chapters without analyzing phonetic patterns",
+          "It helps you self-monitor rhythm, vowel sounds, and word stress to correct speech inaccuracies"
         ],
         "answer": 3,
         "explanation": "Recording and listening back allows learners to identify syllable stress, intonation, and vowel clarity!"
@@ -8903,10 +8903,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which syllable receives the primary accent in the word 'pho-TO-gra-phy'?",
         "options": [
-          "The third syllable (-gra-)",
-          "The second syllable (-TO-)",
-          "The fourth syllable (-phy)",
-          "The first syllable (pho-)"
+          "The third syllable",
+          "The second syllable",
+          "The fourth syllable",
+          "The first syllable"
         ],
         "answer": 1,
         "explanation": "In 'pho-TO-gra-phy', the stress falls on the second syllable: pho-TOG-ra-phy!"
@@ -8914,10 +8914,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary role of a language lab software in middle school?",
         "options": [
-          "To play computer video games during class",
-          "To silence students completely",
-          "To provide interactive listening comprehension, phonetics training, and spoken dialogue practice",
-          "To replace all classroom teachers"
+          "To provide recreational multimedia video games during scheduled reading periods",
+          "To enforce absolute silence by requiring students to complete silent typing drills",
+          "To offer interactive listening comprehension, phonetics study, and oral practice",
+          "To replace English subject teachers with automated computerized grading algorithms"
         ],
         "answer": 2,
         "explanation": "Language labs build listening discrimination, phonetic precision, and confident oral communication!"
@@ -8938,10 +8938,10 @@ const QUESTION_BANK = {
       {
         "prompt": "The caller says: 'This is Mrs. Roy. Please inform Dr. Sen that my son Rahul's fever has subsided, so we would like to reschedule his appointment to Thursday at 4 PM.' What key details must Diya note down?",
         "options": [
-          "Only the word Thursday",
-          "Caller: Mrs. Roy; Patient: Rahul; Message: Fever down, reschedule appointment to Thursday at 4 PM",
-          "Dr. Sen has a fever",
-          "Cancel Rahul's file permanently"
+          "Caller: Mrs. Sen; Patient: Roy; Message: Fever rising, cancel all future medical checkups",
+          "Caller: Mrs. Roy; Patient: Rahul; Message: Fever down, reschedule to Thursday at 4 PM",
+          "Caller: Rahul; Patient: Dr. Sen; Message: Request home consultation this Thursday afternoon",
+          "Caller: Clinic receptionist; Patient: Rahul; Message: Prescribe fever medicine immediately"
         ],
         "answer": 1,
         "explanation": "Accurate message taking logs: Who called, regarding whom, and the exact requested action (Thursday at 4 PM)!"
@@ -8949,10 +8949,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What should Diya ask before hanging up to ensure the clinic can reach Mrs. Roy back?",
         "options": [
-          "'How much money do you have?'",
-          "'What did you cook for lunch?'",
-          "'May I please have your callback telephone number, Mrs. Roy?'",
-          "'Are you done talking?'"
+          "May I know the medical insurance account details of your family, Mrs. Roy?",
+          "Can you explain why the fever medication was stopped without consultation?",
+          "May I please verify your callback phone number for confirmation, Mrs. Roy?",
+          "Would you like to pay the consultation charges through online banking now?"
         ],
         "answer": 2,
         "explanation": "Confirming the caller's contact phone number ensures prompt follow-up confirmation!"
@@ -8960,10 +8960,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is professional telephone etiquette important in organizations?",
         "options": [
-          "To make telephone calls last for hours",
-          "To confuse callers about clinic hours",
-          "It builds trust, communicates accurate information, and resolves caller inquiries smoothly",
-          "It has no purpose"
+          "It prolongs customer telephone conversations to fulfill internal communication targets",
+          "It trains callers to send written letters rather than contacting service desks directly",
+          "It builds trust, delivers accurate details, and addresses caller inquiries respectfully",
+          "It enables automated answering machines to handle all inquiries without human intervention"
         ],
         "answer": 2,
         "explanation": "Polite, accurate phone communication reflects organizational competence and care."
@@ -8986,7 +8986,7 @@ const QUESTION_BANK = {
         "options": [
           "Unverified popup advertisements",
           "Random blogs without author names",
-          ".gov / .org / .edu (government, academic, and non-profit institutions)",
+          ".gov / .org / .edu",
           "Anonymous personal social media comment sections"
         ],
         "answer": 2,
@@ -8995,10 +8995,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the purpose of an 'Index' at the back of an encyclopedia or reference book?",
         "options": [
-          "A list of printing ink colors",
-          "An alphabetical list of topics and keywords showing the exact page numbers where they appear",
-          "A collection of fictional jokes",
-          "The author's shopping list"
+          "A chronological summary of chapters outlining the main narrative progression of the book",
+          "An alphabetical list of topics and terms indicating the exact pages where they are discussed",
+          "A compilation of critical editorial reviews and promotional endorsements from famous authors",
+          "A detailed directory of paper manufacturers and printing press companies that made the volume"
         ],
         "answer": 1,
         "explanation": "The index allows rapid alphabetical lookup of specific topics, persons, and concepts."
@@ -9030,10 +9030,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are 'bugyals' as described in the passage?",
         "options": [
-          "Dense tropical rainforests",
-          "High-altitude alpine meadows above the tree line in the Himalayas",
-          "Coastal saltwater lagoons",
-          "Deep underground volcanic caves"
+          "Dense tropical rainforests flourishing across warm coastal river valleys",
+          "High-altitude alpine meadows blooming above the Himalayan forest tree line",
+          "Vast saltwater lagoons formed along tropical coastal sandbanks and deltas",
+          "Arid sandy dunes shaped by strong desert winds across northwestern plains"
         ],
         "answer": 1,
         "explanation": "Bugyals are traditional Himalayan alpine pastures flourishing in summer above the tree zone!"
@@ -9041,10 +9041,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What can you infer about the miniature alpine plants growing in bugyals?",
         "options": [
-          "They are identical to desert cacti",
-          "They are hardy, low-growing plants adapted to survive cold winds, heavy snow, and low oxygen",
-          "They only grow inside glass greenhouses",
-          "They cannot grow in soil"
+          "They develop broad tropical leaves to capture moisture from dense afternoon rainforest mists",
+          "They are hardy low-growing plants adapted to withstand freezing winds, snow, and thin mountain air",
+          "They depend on artificial soil nutrients and sheltered glass environments to complete flowering",
+          "They possess extensive aerial roots designed to climb tall evergreen trees toward the sunlight"
         ],
         "answer": 1,
         "explanation": "Low-profile cushion plants withstand howling mountain winds and freezing mountain temperatures."
@@ -9052,10 +9052,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the main idea of this descriptive passage?",
         "options": [
-          "Why trees grow on glaciers",
-          "How to buy trekking shoes in Delhi",
-          "The ecological transition from forest to unique high-altitude alpine meadow ecosystems in the Himalayas",
-          "The price of blue sheep wool"
+          "The economic value of timber harvested from subalpine pine forests in northern valleys",
+          "A buyer guide detailing trekking equipment and footwear available in commercial cities",
+          "The ecological transition from dense mountain forests to high-altitude alpine meadows",
+          "The historical trading routes used by nomadic shepherds transporting livestock wool"
         ],
         "answer": 2,
         "explanation": "The text explains the distinct biological zone (bugyal) that emerges above 3,500 meters."
@@ -9076,10 +9076,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the author's primary argument in favor of pedestrianizing old historic markets?",
         "options": [
-          "To build multi-lane highways through temples",
-          "To make it impossible for anyone to buy food",
-          "Banning motorcars reduces air pollution, enhances safety for walking shoppers, and preserves heritage facades",
-          "Because walking is illegal"
+          "Constructing wide multi-lane highways through market squares accelerates commuter vehicle traffic",
+          "Closing retail markets permanently encourages consumers to purchase goods solely from online retailers",
+          "Excluding motor vehicles curbs air pollution, improves pedestrian safety, and protects historic charm",
+          "Relocating all traditional shops to suburban shopping malls preserves historic urban monuments"
         ],
         "answer": 2,
         "explanation": "Pedestrian zones protect air quality, boost local foot-traffic retail, and preserve historic character!"
@@ -9087,10 +9087,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What counter-argument might shopkeepers with heavy delivery cargo reasonably raise?",
         "options": [
-          "Walking is too quiet",
-          "How will heavy merchandise stock be delivered to stores without commercial vehicle access?",
-          "Streets should be flooded with water",
-          "Customers prefer diesel smoke"
+          "Walking shoppers create excessive noise that disturbs residential apartments above shops",
+          "How can bulky merchandise stock be transported to retail shops without freight vehicle access?",
+          "Cobblestone pedestrian walkways cause commercial delivery bicycles to wear out too quickly",
+          "Customers prefer diesel fumes because engine noise signals that commercial trade is active"
         ],
         "answer": 1,
         "explanation": "Logistical cargo access (e.g., designated early morning delivery hours) is an important counter-consideration."
@@ -9098,10 +9098,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a critical reader evaluate an opinion piece effectively?",
         "options": [
-          "By agreeing with the first sentence without thinking",
-          "By ignoring all factual statistics",
-          "By only reading the headline",
-          "By examining supporting evidence, identifying potential bias, and weighing both benefits and drawbacks"
+          "By accepting the author conclusions immediately based on the emotional appeal of the opening headline",
+          "By skimming solely for statistical tables while disregarding all qualitative logical arguments",
+          "By dismissing any viewpoint that conflicts with the reader initial assumptions without further study",
+          "By evaluating supporting evidence, identifying underlying bias, and balancing advantages with drawbacks"
         ],
         "answer": 3,
         "explanation": "Critical thinking weighs claims against factual evidence, considering multiple stakeholder perspectives."
@@ -9122,10 +9122,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What do the Greek root words 'PHOTO' and 'SYNTHESIS' mean in science?",
         "options": [
-          "'Photo' means light; 'Synthesis' means putting together / combining",
-          "'Photo' means camera; 'Synthesis' means drawing",
-          "'Photo' means plant; 'Synthesis' means leaf",
-          "'Photo' means water; 'Synthesis' means green"
+          "Photo signifies light while synthesis signifies putting components together",
+          "Photo signifies camera while synthesis signifies illustrating natural forms",
+          "Photo signifies foliage while synthesis signifies absorbing soil minerals",
+          "Photo signifies moisture while synthesis signifies pigment transformation"
         ],
         "answer": 0,
         "explanation": "Photo (light) + Synthesis (putting together) = using light energy to synthesize food!"
@@ -9144,10 +9144,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a pronunciation key in a standard dictionary use to represent spoken phonemes?",
         "options": [
-          "Roman numerals",
-          "Computer binary code",
-          "International Phonetic Alphabet (IPA) symbols and stress accent marks",
-          "Morse code dots and dashes"
+          "Ancient Roman numerals indicating root word origins",
+          "Computer binary codes indicating database search keys",
+          "International Phonetic Alphabet symbols and stress marks",
+          "Telegraphic Morse code dashes indicating vowel length"
         ],
         "answer": 2,
         "explanation": "IPA symbols and accent marks show exact vowel sounds and syllable stress patterns."
@@ -9168,10 +9168,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which phrase in Nina's description evokes a vivid visual image of the water pool?",
         "options": [
-          "'A tranquil pool of turquoise spring water'",
-          "'Date palms'",
-          "'After sunset'",
-          "'Miles of sand'"
+          "A tranquil pool of shimmering turquoise spring water",
+          "A clustered grove of shadowy desert date palm trees",
+          "A silent evening sky darkening after golden sunset",
+          "An endless barren stretch of dry windswept desert"
         ],
         "answer": 0,
         "explanation": "'Tranquil pool of turquoise spring water' paints a vivid sensory picture of peace and vibrant color!"
@@ -9190,10 +9190,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are precise, descriptive verbs (e.g., 'meandered', 'sprinted', 'shimmered') superior to generic verbs (like 'went') in narrative writing?",
         "options": [
-          "Because 'went' is not an English word",
-          "They make sentences too long to read",
-          "They confuse the reader's imagination",
-          "They convey exact mood, pace, and visual motion, making stories captivating"
+          "They help writers meet mandatory syllable quotas set by standardized essay rubrics",
+          "They lengthen sentence structures artificially so paragraphs take up more space",
+          "They allow readers to visualize abstract philosophical concepts without narrative",
+          "They express specific mood, kinetic pace, and visual texture, enlivening narrative"
         ],
         "answer": 3,
         "explanation": "Vivid verbs bring kinetic energy, nuance, and visual color to every story scene!"
@@ -9214,10 +9214,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When arguing in a formal debate, what makes an argument persuasive and strong?",
         "options": [
-          "Backing up your main claim with concrete factual evidence, logical reasoning, and real-world examples",
-          "Shouting louder than your opponent",
-          "Insulting the other team personally",
-          "Interrupting the moderator repeatedly"
+          "Supporting core claims with verifiable facts, clear logic, and illustrative real-world examples",
+          "Elevating vocal volume and speaking continuously to prevent opposing speakers from responding",
+          "Questioning the personal integrity and character background of the opposing team debaters",
+          "Interjecting remarks repeatedly during opposing presentations to disrupt their spoken flow"
         ],
         "answer": 0,
         "explanation": "Debates are won on intellectual substance: clear claims supported by solid empirical evidence and logic!"
@@ -9225,10 +9225,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'rebuttal' mean in a formal debate competition?",
         "options": [
-          "Changing your team's topic in the middle",
-          "Surrendering the debate immediately",
-          "Singing a song instead of speaking",
-          "Directly disproving or answering the opposing team's arguments with counter-evidence"
+          "Altering your team central proposition midway through the debate to avoid difficult questions",
+          "Conceding defeat gracefully before the panel of adjudicators begins tallying final team points",
+          "Presenting a prepared theatrical recitation unrelated to the issues raised by previous speeches",
+          "Disproving opposing arguments directly by highlighting logical flaws and providing counter-evidence"
         ],
         "answer": 3,
         "explanation": "A rebuttal strategically dismantles the arguments presented by the opposing side."
@@ -9236,10 +9236,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should debaters address each other and the jury respectfully?",
         "options": [
-          "'I am the only smart person here'",
-          "'Honorable judges, worthy opponents, and respected audience...'",
-          "'Listen to me fools,'",
-          "'Hey you over there,'"
+          "Attention all participants, prepare to witness our team complete victory today",
+          "Honorable judges, worthy opponents, and respected members of the audience here",
+          "Fellow competitors, listen carefully while we demonstrate why you are mistaken",
+          "Panel members, dismiss the previous speech as uninformed and review our claims"
         ],
         "answer": 1,
         "explanation": "Formal debate maintains parliamentary decorum, elegance, and intellectual courtesy."
@@ -9263,7 +9263,7 @@ const QUESTION_BANK = {
           "ABABAB",
           "ABCDE with no rhymes",
           "AAAAA",
-          "AABBA (Lines 1, 2, and 5 rhyme; Lines 3 and 4 rhyme together)"
+          "AABBA"
         ],
         "answer": 3,
         "explanation": "Limericks follow the jaunty, bounce-filled AABBA rhyme pattern with lively meter!"
@@ -9271,10 +9271,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'pun' in humorous writing?",
         "options": [
-          "A mathematical equation",
-          "A playful joke exploiting different meanings of a word or words that sound similar",
-          "A sad historical poem",
-          "A long dramatic monologue"
+          "A rigid formula used to calculate poetic meter and rhythm across classical stanzas",
+          "A witty wordplay that exploits multiple meanings of a word or similar-sounding terms",
+          "A somber historical ballad written to commemorate military sacrifices in warfare",
+          "An extended soliloquy delivered by a dramatic character expressing deep sorrow"
         ],
         "answer": 1,
         "explanation": "Puns play with double meanings or homophones for witty humor (e.g., 'Time flies like an arrow; fruit flies like a banana')!"
@@ -9282,10 +9282,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are riddles, wit, and wordplay excellent for language learners?",
         "options": [
-          "They sharpen figurative interpretation, ambiguity resolution, and lateral thinking",
-          "They make people dislike reading",
-          "They force you to memorize textbook tables",
-          "They have no connection to English"
+          "They develop figurative interpretation, ambiguity awareness, and flexible problem-solving",
+          "They encourage students to memorize grammatical terminology without analyzing spoken contexts",
+          "They train learners to translate idiomatic expressions literally across unrelated languages",
+          "They replace structured prose composition with simplistic rhythmic nursery rhyme patterns"
         ],
         "answer": 0,
         "explanation": "Wordplay exercises cognitive flexibility, vocabulary depth, and cultural nuance!"
@@ -9306,7 +9306,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What kind of grammatical word is 'SEVERAL' in this sentence?",
         "options": [
-          "A Quantifying Determiner (specifies quantity of a noun)",
+          "A Quantifying Determiner",
           "A Preposition of time",
           "An Action Verb",
           "An Interjection"
@@ -9352,10 +9352,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'RESILIENT' mean based on the context clues in the sentence?",
         "options": [
-          "Extremely tiny",
-          "Fragile and brittle",
-          "Able to withstand or recover quickly from difficult conditions",
-          "Rotten and decaying"
+          "Delicate and vulnerable to pressure",
+          "Brittle and liable to snap suddenly",
+          "Tough and able to recover quickly",
+          "Decayed and weakened over centuries"
         ],
         "answer": 2,
         "explanation": "Bending with the storm and bouncing back undamaged proves the oak's tough resilience!"
@@ -9374,7 +9374,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the prefix 'UN-' indicate when added to 'predictable' (unpredictable)?",
         "options": [
-          "Not / Opposite of (Not predictable)",
+          "Not / Opposite of",
           "Predictable in the past",
           "Very predictable",
           "Twice as predictable"
@@ -9398,10 +9398,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What essential components should a balanced book review include?",
         "options": [
-          "A recipe for chocolate cake",
-          "Book title/author, brief plot summary without spoilers, character analysis, and personal critical rating",
-          "Only revealing the secret ending on page 1",
-          "Copying the entire book word for word"
+          "Author childhood memories, publisher financial statements, and an itemized index of technical vocabulary",
+          "Book title and author, spoiler-free plot overview, analysis of character growth, and a reasoned evaluation",
+          "An exhaustive chapter-by-chapter transcript reproducing extended dialogues without critical commentary",
+          "A speculative preview predicting alternate storylines for unwritten sequels along with movie cast ideas"
         ],
         "answer": 1,
         "explanation": "A stellar book review analyzes themes, character growth, and style while recommending to suitable readers!"
@@ -9409,10 +9409,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should reviewers avoid 'spoilers' (revealing the climax or surprise twists) in their reviews?",
         "options": [
-          "To preserve the suspense, joy, and discovery for future readers who haven't finished the book",
-          "Nobody cares about endings",
-          "Because the author will erase the book",
-          "Because spoilers are illegal by law"
+          "To preserve the suspense, surprise, and personal discovery for readers who have not read the book",
+          "Because revealing plot resolutions diminishes the publisher profits from paperback reprinting",
+          "Because copyright regulations prohibit discussing narrative events that occur after chapter one",
+          "To encourage readers to skip the novel completely and consult reference encyclopedias instead"
         ],
         "answer": 0,
         "explanation": "Respecting the reader's journey keeps the suspense and magic of the story alive!"
@@ -9420,10 +9420,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In Ruskin Bond's 'The Blue Umbrella', what noble moral choice does the young girl Binya make with her prized blue umbrella?",
         "options": [
-          "She cuts it into pieces",
-          "She throws it into the river",
-          "She sells it for gold",
-          "She gifts it to the regretful tea-shop owner Ram Bharosa, showing empathy and detachment from material vanity"
+          "She trades the silk umbrella to city merchants in exchange for rare silver jewelry and embroidered shawls",
+          "She buries the prized umbrella in the mountain meadow to keep envious village children from admiring it",
+          "She auctions the umbrella during the village fair to establish an animal shelter in the Himalayan hills",
+          "She gifts it to the remorseful shopkeeper Ram Bharosa, displaying deep compassion over material pride"
         ],
         "answer": 3,
         "explanation": "Binya shows supreme generosity by giving up her coveted umbrella to bring peace to the village elder."
@@ -9444,7 +9444,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Identify the homophone pair in the sentence that sound identical but differ in spelling and meaning:",
         "options": [
-          "Whether (conjunction of choice) and Weather (atmospheric condition)",
+          "Whether and Weather",
           "Their and Journeyed",
           "Team and Cold",
           "Stream and Freeze"
@@ -9455,10 +9455,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between 'THEIR' and 'THERE'?",
         "options": [
-          "'There' is a fruit; 'Their' is an animal",
-          "They mean the exact same thing",
-          "'Their' is possessive (belonging to them); 'There' refers to a place or location",
-          "'Their' is always an action verb"
+          "Their indicates a singular past event while there describes future actions",
+          "Their serves as a coordinating conjunction while there acts as an adjective",
+          "Their shows ownership by a group while there indicates a place or direction",
+          "Their functions as an action verb while there represents an abstract concept"
         ],
         "answer": 2,
         "explanation": "'Their team' (ownership) vs 'journeyed there' (directional place)!"
@@ -9490,10 +9490,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a FORMAL letter to an official differ in tone from an INFORMAL letter to a cousin?",
         "options": [
-          "A formal letter is polite, concise, structured, and objective, avoiding slang and contractions",
-          "An informal letter requires the sender's full government designation",
-          "There is zero difference",
-          "A formal letter is filled with jokes and emojis"
+          "A formal letter is courteous, structured, and objective, avoiding slang and casual phrasing",
+          "A formal letter incorporates colorful colloquial idioms, personal gossip, and humorous puns",
+          "An informal letter follows strict administrative protocols, legal citations, and official stamps",
+          "An informal letter omits the recipient address entirely while maintaining a distant cold tone"
         ],
         "answer": 0,
         "explanation": "Formal correspondence maintains professional distance, clear purpose, and polished syntax."
@@ -9501,10 +9501,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which subscription (sign-off) is standard and courteous for a formal letter to an authority?",
         "options": [
-          "'Lots of love and kisses,'",
-          "'See you tomorrow dude,'",
-          "'Yours faithfully,' or 'Yours sincerely,'",
-          "'Cheers pal,'"
+          "With lots of love and best wishes from me",
+          "See you later this week for a casual chat",
+          "Yours faithfully, or Yours sincerely, here",
+          "Warm regards, your best friend forever now"
         ],
         "answer": 2,
         "explanation": "'Yours sincerely' (when the recipient's name is known) or 'Yours faithfully' are formal standards."
@@ -9512,10 +9512,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What critical section is present in a formal business letter but omitted in an informal letter to family?",
         "options": [
-          "The sender's name",
-          "The date",
-          "The 'Subject:' line stating the concise purpose of the letter",
-          "Paragraphs"
+          "The writer personal signature placed at the end of the text",
+          "The calendar date indicating when the message was prepared",
+          "The formal Subject line summarizing the core purpose concisely",
+          "The division of written thoughts into structured paragraphs"
         ],
         "answer": 2,
         "explanation": "The Subject line immediately signals to busy officials the exact matter being petitioned."
@@ -9536,10 +9536,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the core difference between 'REVISING' content and 'EDITING/PROOFREADING'?",
         "options": [
-          "Revising means deleting the whole paper",
-          "Revising improves structure, clarity, and ideas; Editing fixes spelling, punctuation, and grammar mechanics",
-          "They mean the exact same thing",
-          "Editing is only done by robots"
+          "Revising replaces written arguments with illustrations, while editing checks word counts on pages",
+          "Revising rethinks structure, clarity, and ideas, while editing corrects spelling and punctuation",
+          "Revising formats font styles and margins, while editing translates paragraphs into another language",
+          "Revising compiles bibliographic reference sources, while editing conducts author biographical research"
         ],
         "answer": 1,
         "explanation": "Revision is big-picture rethinking of clarity and flow; editing is fine-tuning surface mechanics!"
@@ -9547,10 +9547,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In revision, how can you improve the weak sentence: 'The dog ran after the ball very very fast'?",
         "options": [
-          "'Very very fast dog.'",
-          "'Fast ran ball dog.'",
-          "'The golden retriever bounded fiercely across the lawn to intercept the tennis ball.'",
-          "'The dog went fast.'"
+          "The dog was exceptionally extremely fast when chasing the circular tennis ball outside",
+          "Running very fast, the yellow canine pursued the bouncy yellow object across the green lawn",
+          "The golden retriever bounded eagerly across the lawn to intercept the fleeing tennis ball",
+          "In a fast manner, the athletic family pet hurried forward toward the rolling playground ball"
         ],
         "answer": 2,
         "explanation": "Substituting precise nouns and kinetic verbs ('bounded', 'intercept') elevates writing immediately!"
@@ -9558,10 +9558,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should writers read their drafted essays aloud to themselves during revision?",
         "options": [
-          "To wake up the neighborhood",
-          "The ear easily catches clunky phrasing, repetitive words, and unnatural pauses that the eye misses",
-          "Because silent reading is illegal",
-          "It automatically changes the text"
+          "Reading aloud allows other students in the room to write down your best creative essay arguments",
+          "The ear quickly detects awkward phrasing, repetitive words, and choppy rhythm that the eye overlooks",
+          "Spoken reading guarantees that every typographical error will be corrected by automated voice software",
+          "Reciting essays aloud fulfills standard examination criteria requiring oral presentation of written tasks"
         ],
         "answer": 1,
         "explanation": "Reading aloud instantly reveals awkward rhythms, run-on sentences, and missing words!"
@@ -9582,10 +9582,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the crucial job of the OPENING (Exposition) in a narrative story?",
         "options": [
-          "List the bibliography and dictionary definitions",
-          "Give away the surprise twist ending in line 1",
-          "Thank the reader for buying the book",
-          "Introduce the main character, establish the setting, and hook the reader with an intriguing conflict"
+          "Provide a comprehensive glossary defining every unusual vocabulary word used throughout the chapter",
+          "Reveal the surprise climax and final resolution immediately so the plot trajectory remains predictable",
+          "Deliver an extended author acknowledgment praising literary mentors and family members for inspiration",
+          "Introduce main characters, establish the atmospheric setting, and hook readers with an initial dilemma"
         ],
         "answer": 3,
         "explanation": "The beginning grounds the reader in time and space while introducing the central quest or challenge!"
@@ -9593,10 +9593,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens during the MIDDLE (Rising Action) of a compelling story?",
         "options": [
-          "Nothing happens at all",
-          "The characters fall asleep for 100 pages",
-          "The story restarts from the beginning",
-          "Obstacles, complications, and tension build as the protagonist attempts to solve the central problem"
+          "The plot pauses completely while the narrator describes surrounding historical architecture in detail",
+          "All secondary characters resolve their personal differences peacefully, eliminating narrative tension",
+          "The opening chapter is retold from the perspective of an unnamed observer without adding new events",
+          "New obstacles emerge, stakes escalate, and tension mounts as characters confront mounting dilemmas"
         ],
         "answer": 3,
         "explanation": "Rising action ratchets up stakes, tests character resolve, and propels the narrative toward the climax!"
@@ -9604,10 +9604,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the RESOLUTION (Denouement) at the end of a narrative?",
         "options": [
-          "A random car crash with no explanation",
-          "The loose ends are tied up, conflicts resolve, and the characters reflect on how they have grown",
-          "Leaving the hero stuck in a pit with no ending",
-          "A list of spelling words"
+          "An unexpected abrupt disruption that halts the narrative without addressing established storylines",
+          "The tying up of loose plot threads, resolution of core conflicts, and reflection on character growth",
+          "A sudden flashback to ancient prehistoric times that introduces completely unrelated characters",
+          "An itemized index cataloging every location and date mentioned across previous dramatic episodes"
         ],
         "answer": 1,
         "explanation": "The resolution brings emotional satisfaction, answering unanswered questions and showing character transformation."
@@ -9642,7 +9642,7 @@ const QUESTION_BANK = {
           "14 meters",
           "21 meters",
           "10 meters",
-          "20 meters: 2(10) = 20 m"
+          "20 meters"
         ],
         "answer": 3,
         "explanation": "Substitute x = 7: 2 x (7 + 3) = 2 x 10 = 20 meters!"
@@ -9650,10 +9650,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In algebra, what is a 'VARIABLE' (like x, y, or n)?",
         "options": [
-          "A multiplication sign",
-          "A letter or symbol that represents an unknown or changing numeric quantity",
-          "A fixed number that never changes",
-          "A geometry ruler"
+          "An operational arithmetic sign indicating repeated multiplication",
+          "A letter or symbol representing an unknown or changing quantity",
+          "A constant numerical value that remains unchanged in formulas",
+          "A geometric instrument used to measure straight line segments"
         ],
         "answer": 1,
         "explanation": "Variables represent quantities that can vary or change values across equations!"
@@ -9734,7 +9734,7 @@ const QUESTION_BANK = {
           "A Cylinder",
           "A Sphere",
           "A Cuboid",
-          "A Cone (like a party hat)"
+          "A Cone"
         ],
         "answer": 3,
         "explanation": "A cone terminates in a sharp vertex at the apex atop a circular base!"
@@ -9766,10 +9766,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between a 'LINE' and a 'LINE SEGMENT'?",
         "options": [
-          "A line segment is infinitely long",
-          "They mean the exact same thing",
-          "A line has corners",
-          "A line extends infinitely in both directions without endpoints; a line segment has two fixed endpoints with measurable length"
+          "A line forms a closed geometric polygon, whereas a line segment represents an open circular arc with fixed radius",
+          "A line possesses measurable endpoints in one direction, whereas a line segment bends continuously around an origin point",
+          "A line is drawn with curved dashed strokes, whereas a line segment always consists of three intersecting straight rays",
+          "A line extends infinitely in both directions without endpoints, while a line segment has two definite endpoints of fixed length"
         ],
         "answer": 3,
         "explanation": "A line segment is a finite piece of a line bounded by two distinct endpoints (A and B)."
@@ -9777,10 +9777,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'RAY' in geometry (like a ray of light shining from the sun or a torch)?",
         "options": [
-          "A part of a line with ONE fixed starting point that extends infinitely in one direction",
-          "A line with two endpoints",
-          "A curved circle",
-          "A triangle"
+          "A part of a line with one fixed endpoint that extends endlessly in one single direction",
+          "A finite straight section bounded by two fixed endpoints having a measurable finite length",
+          "A continuous curved path whose points remain equidistant from a stationary center origin",
+          "A closed three-sided planar polygon containing internal angles that always total 180 degrees"
         ],
         "answer": 0,
         "explanation": "A ray starts at an origin point and shoots off infinitely in one direction: Ray AB!"
@@ -9813,7 +9813,7 @@ const QUESTION_BANK = {
         "prompt": "What is the measure of a STRAIGHT ANGLE (the angle formed by a completely straight line)?",
         "options": [
           "360°",
-          "180 degrees (180°)",
+          "180 degrees",
           "90°",
           "45°"
         ],
@@ -9823,7 +9823,7 @@ const QUESTION_BANK = {
       {
         "prompt": "If an angle measures 45°, how is it classified?",
         "options": [
-          "An Acute Angle (greater than 0° and less than 90°)",
+          "An Acute Angle",
           "A Right Angle",
           "An Obtuse Angle",
           "A Reflex Angle"
@@ -9869,10 +9869,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a TRAPEZIUM (Trapezoid)?",
         "options": [
-          "A polygon with 5 sides",
-          "A quadrilateral with exactly ONE pair of parallel opposite sides",
-          "A shape where all angles are 180°",
-          "A circle"
+          "A five-sided closed regular polygon with five congruent acute angles",
+          "A four-sided polygon possessing exactly one pair of parallel opposite sides",
+          "A planar figure whose internal angles each measure exactly ninety degrees",
+          "A smooth closed curved loop whose perimeter is defined by a central radius"
         ],
         "answer": 1,
         "explanation": "A trapezium is defined by having at least one pair of parallel bases."
@@ -9881,7 +9881,7 @@ const QUESTION_BANK = {
         "prompt": "What is the sum of all FOUR internal angles in ANY quadrilateral?",
         "options": [
           "180°",
-          "360 degrees (360°)",
+          "360 degrees",
           "540°",
           "90°"
         ],
@@ -9904,10 +9904,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How many lines of symmetry does an EQUILATERAL TRIANGLE (3 equal sides and 3 equal angles) have?",
         "options": [
-          "1 line only",
-          "0 lines",
-          "6 lines",
-          "3 lines of symmetry (from each vertex to the midpoint of the opposite side)"
+          "Exactly 1 line of symmetry",
+          "Zero lines of symmetry here",
+          "Exactly 6 lines of symmetry",
+          "Exactly 3 lines of symmetry"
         ],
         "answer": 3,
         "explanation": "An equilateral triangle can be folded along each of its 3 altitude bisectors!"
@@ -9915,7 +9915,7 @@ const QUESTION_BANK = {
       {
         "prompt": "How many lines of symmetry does a CIRCLE have?",
         "options": [
-          "Infinitely many (infinite lines through its center diameter)",
+          "Infinitely many",
           "Only 4",
           "Only 2",
           "Zero"
@@ -9927,7 +9927,7 @@ const QUESTION_BANK = {
         "prompt": "Does a SCALENE TRIANGLE (where all 3 sides have different lengths) have any line of symmetry?",
         "options": [
           "Yes, exactly 1",
-          "No (0 lines of symmetry)",
+          "No",
           "Yes, 3",
           "Infinitely many"
         ],
@@ -9964,7 +9964,7 @@ const QUESTION_BANK = {
           "An Equilateral Triangle",
           "An Obtuse Triangle",
           "An Acute Triangle",
-          "A Right-Angled Triangle (contains one 90° angle)"
+          "A Right-Angled Triangle"
         ],
         "answer": 3,
         "explanation": "Containing a 90° right angle makes it a right-angled triangle!"
@@ -9972,10 +9972,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the sum of the three internal angles in ANY triangle in flat Euclidean geometry?",
         "options": [
-          "Always exactly 180 degrees (180°)",
-          "Depends on the size of the triangle",
-          "360°",
-          "90°"
+          "Always exactly 180 degrees",
+          "Always exactly 360 degrees",
+          "Always exactly 90 degrees here",
+          "Varies by the triangle size"
         ],
         "answer": 0,
         "explanation": "Angle sum property of triangles: Angle A + Angle B + Angle C = 180° always!"
@@ -10009,7 +10009,7 @@ const QUESTION_BANK = {
         "options": [
           "14 meters",
           "48 meters",
-          "28 meters: 2 x = 2 x 14 = 28 m",
+          "28 meters",
           "56 meters"
         ],
         "answer": 2,
@@ -10045,7 +10045,7 @@ const QUESTION_BANK = {
           "14 minutes",
           "2 minutes",
           "48 minutes",
-          "24 minutes (LCM of 6 and 8 is 24)"
+          "24 minutes"
         ],
         "answer": 3,
         "explanation": "Multiples of 6: 6, 12, 18, 24... Multiples of 8: 8, 16, 24... The lowest common multiple is 24 minutes!"
@@ -10054,7 +10054,7 @@ const QUESTION_BANK = {
         "prompt": "A teacher has 18 blue pens and 24 red pens. What is the GREATEST number of identical gift packets she can pack with NO pens left over? (Find HCF of 18 and 24)",
         "options": [
           "3 packets",
-          "6 packets (Highest Common Factor / HCF of 18 and 24 is 6)",
+          "6 packets",
           "2 packets",
           "12 packets"
         ],
@@ -10065,7 +10065,7 @@ const QUESTION_BANK = {
         "prompt": "What do we call a whole number greater than 1 that has ONLY two factors: 1 and itself?",
         "options": [
           "An Even Number",
-          "A Prime Number (e.g., 2, 3, 5, 7, 11...)",
+          "A Prime Number",
           "A Fraction",
           "A Composite Number"
         ],
@@ -10099,10 +10099,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are 'CO-PRIME NUMBERS' (e.g., the pair 4 and 9)?",
         "options": [
-          "Two numbers whose ONLY common factor is 1",
-          "Two numbers that are both prime",
-          "Two negative numbers",
-          "Two numbers that add up to 10"
+          "Two integers whose only positive common divisor is 1",
+          "Two integers that are both individual prime numbers",
+          "Two negative integers that share identical multipliers",
+          "Two even integers that yield a composite sum of ten"
         ],
         "answer": 0,
         "explanation": "4 (factors 1, 2, 4) and 9 (factors 1, 3, 9) share no common factor other than 1, making them co-prime!"
@@ -10110,10 +10110,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Is the number 1 classified as prime or composite?",
         "options": [
-          "Prime only",
-          "Neither prime nor composite (it has only one unique factor)",
-          "Composite only",
-          "Both prime and composite"
+          "A prime number having unique factors",
+          "Neither prime nor composite in number",
+          "A composite number with dual factors",
+          "Both prime and composite by definition"
         ],
         "answer": 1,
         "explanation": "1 is unique: it is neither prime (requires exactly 2 factors) nor composite (requires more than 2)!"
@@ -10134,7 +10134,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the total weight of flour and sugar combined?",
         "options": [
-          "3 3/4 kg (or 3.75 kg)",
+          "3 3/4 kg",
           "2 3/4 kg",
           "3 1/4 kg",
           "4 kg"
@@ -10148,7 +10148,7 @@ const QUESTION_BANK = {
           "3 kg",
           "1 3/4 kg",
           "2 1/4 kg",
-          "2 3/4 kg (or 2.75 kg)"
+          "2 3/4 kg"
         ],
         "answer": 3,
         "explanation": "5 - 2.25 = 2.75 kg = 2 3/4 kilograms left!"
@@ -10180,10 +10180,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How much higher is the student's temperature of 38.6°C than normal 37.0°C?",
         "options": [
-          "16°C",
-          "2.6°C",
-          "0.6°C",
-          "1.6 degrees Celsius (1.6°C)"
+          "1.2 degrees Celsius",
+          "2.6 degrees Celsius",
+          "0.6 degrees Celsius",
+          "1.6 degrees Celsius"
         ],
         "answer": 3,
         "explanation": "38.6 - 37.0 = 1.6°C above normal baseline temperature."
@@ -10228,7 +10228,7 @@ const QUESTION_BANK = {
         "options": [
           "-70 meters",
           "+30 meters",
-          "-30 meters (30 meters below sea level)",
+          "-30 meters",
           "0 meters"
         ],
         "answer": 2,
@@ -10283,10 +10283,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a factory produces 2,500 solar calculators every day, how many calculators does it produce in 30 days?",
         "options": [
-          "75,000 calculators",
-          "750,000",
-          "25,030",
-          "7,500"
+          "75,000 solar calculators",
+          "750,000 solar calculators",
+          "25,030 solar calculators",
+          "7,500 solar calculators"
         ],
         "answer": 0,
         "explanation": "2,500 x 30 = 75,000 solar calculators!"
@@ -10297,7 +10297,7 @@ const QUESTION_BANK = {
           "90,000",
           "84,700",
           "84,000",
-          "85,000 (since the hundreds digit 6 is 5 or greater)"
+          "85,000"
         ],
         "answer": 3,
         "explanation": "Because the hundreds digit is 6, we round up to 85,000!"
@@ -10318,10 +10318,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In a class of 40 students, there are 24 girls and 16 boys. What is the ratio of girls to boys in simplest form?",
         "options": [
-          "3:2 (divide both numbers by their HCF of 8)",
-          "6:5",
-          "2:3",
-          "4:3"
+          "3",
+          "6",
+          "2",
+          "4"
         ],
         "answer": 0,
         "explanation": "24 / 8 = 3, and 16 / 8 = 2. The simplified ratio is 3:2!"
@@ -10329,10 +10329,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a ratio of 1:4 on a road map scale mean?",
         "options": [
-          "The distance is zero",
-          "1 unit on the map represents 4 of the same units in real life",
-          "The road has 4 cars",
-          "The map was drawn by 4 people"
+          "1 map unit equals 10 corresponding physical ground units",
+          "1 map unit equals 4 corresponding physical ground units",
+          "4 map units represent 1 single ground unit in real life",
+          "1 map unit measures travel time of 4 hours across road"
         ],
         "answer": 1,
         "explanation": "A ratio compares the relative scale between two corresponding quantities."
@@ -10364,10 +10364,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Step 1: Using the Unitary Method, what is the cost of ONE single notebook?",
         "options": [
-          "₹25",
-          "₹15",
-          "₹20 per notebook",
-          "₹10"
+          "₹25 for each single notebook",
+          "₹15 for each single notebook",
+          "₹20 for each single notebook",
+          "₹10 for each single notebook"
         ],
         "answer": 2,
         "explanation": "Unitary method means finding the unit value (cost of 1) first: ₹120 / 6 = ₹20 per notebook!"
@@ -10410,10 +10410,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which material is TRANSLUCENT (allows some light to pass through, but objects cannot be seen clearly)?",
         "options": [
-          "Oiled paper / Frosted butter paper",
-          "A sheet of iron metal (Opaque)",
-          "A solid wooden door (Opaque)",
-          "Clear polished glass (Transparent)"
+          "Oiled parchment paper or frosted window glass",
+          "Polished aluminum foil or solid iron sheeting",
+          "Sturdy natural timber board or solid clay tile",
+          "Clear transparent acrylic sheet or optical lens"
         ],
         "answer": 0,
         "explanation": "Translucent materials scatter light so light passes through, but clear images cannot form!"
@@ -10423,7 +10423,7 @@ const QUESTION_BANK = {
         "options": [
           "Cooking an omelette from a raw egg",
           "Rusting of an iron nail",
-          "Melting an ice cube into liquid water (can be frozen back into ice)",
+          "Melting an ice cube into liquid water",
           "Burning a wooden log into gray ash"
         ],
         "answer": 2,
@@ -10434,7 +10434,7 @@ const QUESTION_BANK = {
         "options": [
           "Random unpredictable motion",
           "Rectilinear motion in one straight line",
-          "Periodic / Oscillatory Motion (repeats back and forth in equal time intervals)",
+          "Periodic / Oscillatory Motion",
           "Circular motion with no change"
         ],
         "answer": 2,
@@ -10456,10 +10456,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did Maya paint the inside of her solar heater box and use a BLACK hose?",
         "options": [
-          "Black repels sunlight",
-          "Black surfaces absorb maximum heat radiation from sunlight",
-          "Black cools the water into ice",
-          "Black looks shiny and clean"
+          "Dark matte coatings deflect thermal rays and prevent heat absorption",
+          "Dark matte surfaces absorb maximum heat radiation from direct sunlight",
+          "Dark matte finishes refrigerate internal fluids to produce cool steam",
+          "Dark matte textures brighten reflection angles to illuminate shadows"
         ],
         "answer": 1,
         "explanation": "Dark, matte black surfaces are superior absorbers of thermal solar radiation!"
@@ -10467,10 +10467,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What role does the clear glass sheet over the top of the box serve?",
         "options": [
-          "To reflect all sunlight away",
-          "To make the box heavier",
-          "To keep birds from drinking the water",
-          "It creates a greenhouse effect: letting sunlight in but trapping the heat radiation inside"
+          "It reflects incoming radiant sunlight outward to prevent excessive thermal expansion",
+          "It increases overall box weight so high wind gusts cannot dislodge external connectors",
+          "It provides an airtight seal that condenses airborne humidity into purified drinking water",
+          "It lets sunlight enter while trapping heat radiation inside through the greenhouse effect"
         ],
         "answer": 3,
         "explanation": "Glass lets visible light in while trapping infrared heat, warming the water efficiently!"
@@ -10478,10 +10478,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the hallmark of inventive engineering (Jugaad) in sustainable science?",
         "options": [
-          "Throwing away functioning machines",
-          "Using locally available, low-cost resources creatively to solve real community problems",
-          "Buying the most expensive imported luxury gadgets",
-          "Ignoring safety rules"
+          "Discarding functional equipment to replace older tools with automated modern systems",
+          "Utilizing accessible low-cost local materials creatively to solve practical challenges",
+          "Purchasing expensive imported specialty components to duplicate mass factory designs",
+          "Bypassing structural safety protocols to shorten development schedules on projects"
         ],
         "answer": 1,
         "explanation": "True innovation solves critical problems affordably using local materials and ingenuity!"
@@ -10502,10 +10502,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary benefit of Rooftop Rainwater Harvesting?",
         "options": [
-          "It recharges groundwater tables, prevents urban flooding, and stores water for dry seasons",
-          "It stops rain from falling on grass",
-          "It makes roofs heavy so they collapse",
-          "It turns rainwater into ocean brine"
+          "It replenishes local aquifers, curbs urban flooding, and conserves water for dry seasons",
+          "It diverts precipitation directly into storm sewers so soil cannot absorb excess rain",
+          "It saturates roofing plaster to cool residential building interiors during heatwaves",
+          "It converts fresh precipitation into mineralized saline water suitable for sea life"
         ],
         "answer": 0,
         "explanation": "Harvesting rainwater captures clean monsoon precipitation to replenish depleted groundwater reserves!"
@@ -10513,10 +10513,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does turning off the bathroom tap while brushing teeth save community freshwater?",
         "options": [
-          "It prevents gallons of treated drinking water from being wasted down the sewer drain",
-          "It causes pipe blockages",
-          "It has zero effect on water",
-          "It makes toothpaste turn blue"
+          "It prevents litres of purified municipal tap water from running needlessly down drains",
+          "It generates internal water hammer pressure that causes municipal pipes to crack open",
+          "It has no measurable effect because domestic household water usage is recycled on site",
+          "It changes the chemical fluoride composition of commercial toothpaste into foam foam"
         ],
         "answer": 0,
         "explanation": "Every minute a tap runs wastes 6 to 10 litres of precious treated water."
@@ -10524,10 +10524,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What simple agricultural technique prevents water loss through soil evaporation around plant roots?",
         "options": [
-          "Watering plants during the scorching noon heat",
-          "Scraping away all topsoil",
-          "Mulching with dry leaves or straw around the base of plants",
-          "Flooding fields until water runs into roads"
+          "Sprinkling bare topsoil during the hottest midday hours to accelerate moisture uptake",
+          "Scraping away loose surface humus to expose compacted subsurface clay layers to the sun",
+          "Spreading organic mulch such as dry straw or leaves around the root base of crop plants",
+          "Flooding furrows continuously until standing surface runoff spills into roadside ditches"
         ],
         "answer": 2,
         "explanation": "Mulching shades the soil, retains moisture, and cools roots naturally!"
@@ -10548,10 +10548,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What should Vikram do according to the principles of SCIENTIFIC INTEGRITY?",
         "options": [
-          "Blame the equipment and shout",
-          "Erase the test results and pretend he never did the test",
-          "Change the numbers to match the textbook answer",
-          "Record the actual observed data honestly and investigate why the result differed from expectations"
+          "Criticize the measuring apparatus publicly and discard all recorded trial materials",
+          "Delete experimental logs immediately and pretend the lab test was never conducted",
+          "Adjust trial measurements manually so that data matches expected textbook curves",
+          "Record actual observations honestly and analyze reasons for unexpected variations"
         ],
         "answer": 3,
         "explanation": "True scientists record honest experimental observations; unexpected results often lead to major discoveries!"
@@ -10559,10 +10559,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does being 'OBJECTIVE' in scientific inquiry mean?",
         "options": [
-          "Refusing to look at measurements",
-          "Forming conclusions based strictly on verifiable evidence and data, free from personal bias",
-          "Believing whatever rumors are popular",
-          "Deciding results with a coin flip"
+          "Relying on personal intuition and emotional preferences when evaluating outcomes",
+          "Deriving conclusions strictly from verifiable empirical data free from personal bias",
+          "Adopting popular consensus theories without performing independent verification",
+          "Selecting hypotheses by random chance rather than systematic testing of variables"
         ],
         "answer": 1,
         "explanation": "Objectivity relies on factual measurement and reproducible evidence rather than emotional prejudice."
@@ -10570,10 +10570,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do scientists share their experimental methods and peer-review each other's work?",
         "options": [
-          "So other independent researchers can repeat the experiment to confirm or verify the findings",
-          "Because they have nothing else to do",
-          "To copy each other's homework",
-          "To keep scientific knowledge as a trade secret"
+          "So independent researchers can replicate experiments to verify and validate findings",
+          "To allow commercial enterprises to copyright discovered natural laws for profit motives",
+          "To transfer laboratory maintenance duties to junior academic staff at other institutes",
+          "To restrict scientific discoveries exclusively to authorized governmental institutions"
         ],
         "answer": 0,
         "explanation": "Replicability and peer review are the twin pillars that make scientific knowledge dependable and robust!"
@@ -10596,7 +10596,7 @@ const QUESTION_BANK = {
         "options": [
           "Vitamin D",
           "Iron",
-          "Vitamin C (Ascorbic acid found in amla, lemons, and oranges)",
+          "Vitamin C",
           "Vitamin A"
         ],
         "answer": 2,
@@ -10640,10 +10640,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What three things are ESSENTIAL for a SHADOW to form?",
         "options": [
-          "A clear pane of glass",
-          "A light source, an opaque object blocking the light, and a screen or surface behind it",
-          "Only a dark room with no light",
-          "Only a mirror"
+          "A transparent glass plate, a focused beam of light, and a convex magnifying lens",
+          "A source of light, an opaque object to block rays, and a screen or backdrop surface",
+          "A darkened enclosure, a reflective metallic mirror, and high ambient room humidity",
+          "A polished prism, an open window opening, and a clean flat sheet of absorbent cloth"
         ],
         "answer": 1,
         "explanation": "Light travels in straight lines; when blocked by an opaque body, it casts a dark silhouette onto a screen!"
@@ -10653,7 +10653,7 @@ const QUESTION_BANK = {
         "options": [
           "Centipedes",
           "Caterpillars",
-          "Red wigglers (Eisenia fetida)",
+          "Red wigglers",
           "Honeybees"
         ],
         "answer": 2,
@@ -10662,10 +10662,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When light strikes a flat, polished plane mirror, what happens to the ray of light?",
         "options": [
-          "It is completely absorbed and turns into heat",
-          "It disappears",
-          "It passes straight through into the wall",
-          "It reflects off the surface at the exact same angle of incidence (regular reflection)"
+          "It is absorbed entirely by silver atoms and transformed into heat energy",
+          "It bends at ninety degrees and dissipates into surrounding ambient air",
+          "It transmits straight through the silver backing and illuminates the wall",
+          "It reflects off the smooth surface at an angle equal to incoming incidence"
         ],
         "answer": 3,
         "explanation": "The Law of Reflection: Angle of Incidence equals Angle of Reflection (i = r)!"
@@ -10732,10 +10732,10 @@ const QUESTION_BANK = {
       {
         "prompt": "From which part of the cotton plant do we harvest soft, fluffy cotton fibres for spinning cloth yarn?",
         "options": [
-          "The flower petals",
-          "The cotton fruit capsule (cotton boll) surrounding the seeds",
-          "The underground root",
-          "The green leaf veins"
+          "The delicate outer petals of mature flowers",
+          "The seed bolls of the ripening cotton fruit",
+          "The taproots spreading beneath topsoil beds",
+          "The fibrous vascular veins of tender leaves"
         ],
         "answer": 1,
         "explanation": "Cotton fibres are seed hairs that sprout inside the maturing fruit capsule (boll)!"
@@ -10756,7 +10756,7 @@ const QUESTION_BANK = {
         "options": [
           "Nylon fibre",
           "Wool fibre",
-          "Jute fibre (Golden Fibre)",
+          "Jute fibre",
           "Silk fibre"
         ],
         "answer": 2,
@@ -10780,7 +10780,7 @@ const QUESTION_BANK = {
         "options": [
           "Pistil -> Sepals -> Petals -> Root",
           "Stem -> Leaves -> Anther -> Filament",
-          "Calyx (Sepals) -> Corolla (Petals) -> Androecium (Stamens) -> Gynoecium (Pistil/Carpel)",
+          "Calyx -> Corolla -> Androecium -> Gynoecium",
           "Petals -> Seeds -> Roots -> Bark"
         ],
         "answer": 2,
@@ -10789,10 +10789,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which skeletal joint allows 360-degree circular rotation in all directions (found in our shoulder and hip)?",
         "options": [
-          "Fixed fused joint (cranium skull)",
-          "Hinge joint (like the elbow and knee)",
+          "Fixed fused joint",
+          "Hinge joint",
           "Ball-and-Socket joint",
-          "Pivot joint (neck)"
+          "Pivot joint"
         ],
         "answer": 2,
         "explanation": "The ball-shaped head of the humerus/femur rotates freely inside a cup-like socket cavity!"
@@ -10824,10 +10824,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the official international SI Base Unit for measuring LENGTH?",
         "options": [
-          "Foot (ft)",
-          "Inch (in)",
-          "Yard (yd)",
-          "Metre (m)"
+          "Foot",
+          "Inch",
+          "Yard",
+          "Metre"
         ],
         "answer": 3,
         "explanation": "The Metre (m) is the fundamental standard SI unit of length recognized worldwide!"
@@ -10835,10 +10835,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the standard SI Base Unit of TIME?",
         "options": [
-          "Second (s)",
-          "Minute (min)",
+          "Second",
+          "Minute",
           "Day",
-          "Hour (h)"
+          "Hour"
         ],
         "answer": 0,
         "explanation": "The Second (s) is the SI base unit for measuring time duration."
@@ -10846,10 +10846,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did the international scientific community adopt a single standardized system of units (SI Units)?",
         "options": [
-          "To eliminate confusion caused by hundreds of non-uniform local units and ensure global scientific consistency",
-          "Because rulers only come in one size",
-          "Because imperial units are forbidden to speak",
-          "To make math tests harder"
+          "To eliminate confusion from non-standard local units and ensure global scientific consistency",
+          "To ensure that physical measuring instruments are manufactured using identical metallic alloys",
+          "To enforce commercial trade embargoes against nations utilizing traditional counting methods",
+          "To prevent student errors during national laboratory examinations and classroom grading tasks"
         ],
         "answer": 0,
         "explanation": "Standard SI units allow scientists across every continent to share, compare, and verify measurements flawlessly!"
@@ -10881,10 +10881,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What separation technique is used when curd (yogurt) is churned with a wooden mathani to separate floating white butter?",
         "options": [
-          "Winnowing",
-          "Condensation",
-          "Centrifugation / Churning (separating lighter cream from denser liquid)",
-          "Handpicking"
+          "Wind winnowing method",
+          "Thermal condensation",
+          "Centrifugal churning",
+          "Manual handpicking art"
         ],
         "answer": 2,
         "explanation": "Churning forces heavier liquid outwards while lighter butter fat clumps and floats on top!"
@@ -10892,10 +10892,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What makes up a healthy, nutritionally 'BALANCED DIET' for growing school children?",
         "options": [
-          "Eating pure sugar all day",
-          "Drinking only milk without any vegetables",
-          "Carbohydrates for energy, proteins for muscle growth, fats, vitamins, minerals, roughage, and clean water",
-          "Eating only potato chips and drinking soda"
+          "Refined carbohydrates and sugary beverages that supply quick bursts of physical energy",
+          "Dairy products exclusively without supplementary grains, pulses, or green vegetables",
+          "Balanced carbohydrates, lean proteins, healthy fats, vitamins, minerals, and roughage",
+          "Processed packaged snacks alongside vitamin supplements to replace cooked vegetables"
         ],
         "answer": 2,
         "explanation": "A balanced diet provides all essential macro and micro-nutrients in proper proportions!"
@@ -10919,7 +10919,7 @@ const QUESTION_BANK = {
           "A reflection of the student's eyes",
           "A magnified upright 3D hologram",
           "A totally blank white square",
-          "An INVERTED (upside-down) and real image"
+          "An INVERTED and real image"
         ],
         "answer": 3,
         "explanation": "Because light travels strictly in straight lines, rays from the top of an object cross to the bottom of the screen, creating an inverted image!"
@@ -10927,10 +10927,10 @@ const QUESTION_BANK = {
       {
         "prompt": "A naval submarine PERISCOPE lets sailors see above the ocean surface using two plane mirrors. At what ANGLE are the mirrors mounted inside the tube?",
         "options": [
-          "Completely flat at 0 degrees",
-          "At 45 degrees (45°) to the path of light",
-          "At 90 degrees",
-          "At 180 degrees"
+          "Oriented parallel at 0 degrees",
+          "Mounted tilted at 45 degrees here",
+          "Fixed perpendicular at 90 degrees",
+          "Positioned inverse at 180 degrees"
         ],
         "answer": 1,
         "explanation": "Two parallel mirrors angled at 45° reflect light downward and then horizontally into the observer's eye!"
@@ -10941,7 +10941,7 @@ const QUESTION_BANK = {
           "Light only shines in cold weather",
           "Light travels in curved circles",
           "Light is solid matter",
-          "Light travels in straight lines (Rectilinear propagation of light)"
+          "Light travels in straight lines"
         ],
         "answer": 3,
         "explanation": "Rectilinear propagation explains why shadows form and why pinhole images invert."
@@ -10975,7 +10975,7 @@ const QUESTION_BANK = {
         "options": [
           "They lose all magnetic force forever",
           "They turn into liquid",
-          "They REPEL (push each other away strongly)",
+          "They REPEL",
           "They attract and stick together"
         ],
         "answer": 2,
@@ -11022,7 +11022,7 @@ const QUESTION_BANK = {
           "The changing distance between Earth and Sun as Earth moves closer in summer and further in winter",
           "The daily rotation speed of the Earth speeding up in summer and slowing in winter",
           "The Sun burning hotter and brighter during certain months of the year",
-          "Earth's tilted axis (23.5°) combined with its REVOLUTION around the Sun in an elliptical orbit"
+          "Earth's tilted axis combined with its REVOLUTION around the Sun in an elliptical orbit"
         ],
         "answer": 3,
         "explanation": "Earth's axial tilt means hemispheres tilt alternately toward or away from the Sun during its 365.25-day revolution!"
@@ -11030,10 +11030,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When the Northern Hemisphere is tilted directly toward the Sun in June, what season is experienced in Australia (Southern Hemisphere)?",
         "options": [
-          "Spring (because seasons shift clockwise around the equator)",
-          "Summer (because the entire Earth has summer at the same time)",
-          "Monsoon (because oceans are warmer in June)",
-          "Winter (because the Southern Hemisphere is tilted away from the Sun)"
+          "Spring",
+          "Summer",
+          "Monsoon",
+          "Winter"
         ],
         "answer": 3,
         "explanation": "Opposite hemispheres experience opposite seasons: June brings summer to India/Europe, and winter to Australia!"
@@ -11065,10 +11065,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the MOON in astronomical terms?",
         "options": [
-          "A natural SATELLITE that orbits around planet Earth",
-          "A rogue asteroid",
-          "An artificial space station",
-          "A luminous burning star"
+          "A natural rocky satellite that orbits around planet Earth",
+          "A rogue metallic asteroid traveling across inner orbits",
+          "A massive artificial space station launched by humans",
+          "A luminous burning star producing internal fusion heat"
         ],
         "answer": 0,
         "explanation": "The Moon is Earth's only natural satellite, orbiting our planet once every ~27.3 days!"
@@ -11076,10 +11076,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do planets not twinkle like distant stars when viewed in the night sky?",
         "options": [
-          "Planets are much closer to Earth and appear as tiny disks of light rather than pinpoints, smoothing out atmospheric turbulence",
-          "Planets only appear at daytime",
-          "Planets have electric switches",
-          "Planets are made of ice that does not twinkle"
+          "Planets are closer and appear as optical disks, averaging out atmospheric flickering",
+          "Planets possess internal light sources that shine through atmospheric clouds steadily",
+          "Planets orbit outside the solar system where terrestrial atmospheric gases cannot reach",
+          "Planets are composed of solid reflective ice layers that absorb cosmic light rays evenly"
         ],
         "answer": 0,
         "explanation": "Planets reflect sunlight from larger angular disks, so atmospheric refraction does not cause them to twinkle like distant point-source stars!"
@@ -11100,10 +11100,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What causes a SOLAR ECLIPSE to occur scientifically?",
         "options": [
-          "The Sun runs out of hydrogen fuel for five minutes",
-          "Storm clouds freeze the sunlight",
-          "The Moon passes directly between the Sun and the Earth, casting its shadow onto the Earth's surface",
-          "A mythological demon swallows the Sun"
+          "The Sun temporarily exhausts thermonuclear core fusion energy for several minutes",
+          "Dense meteorological storm clouds freeze solar light rays high within stratosphere",
+          "The Moon passes between the Sun and Earth, casting its shadow upon the Earth surface",
+          "The Earth magnetic field deflects incoming visible solar light towards polar regions"
         ],
         "answer": 2,
         "explanation": "A solar eclipse is a natural alignment (syzygy) where the Moon's shadow falls onto Earth!"
@@ -11111,10 +11111,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should you NEVER look directly at the Sun during a solar eclipse with naked eyes or sunglasses?",
         "options": [
-          "Because sunglasses turn into water",
-          "Intense solar ultraviolet and infrared rays can cause permanent retinal burns (solar retinopathy) and blindness",
-          "Because eclipses are superstitious",
-          "Because demons will catch you"
+          "Sunglass lenses will heat rapidly and shatter under focused atmospheric air pressure",
+          "Intense ultraviolet and infrared rays cause irreversible retinal burns and vision loss",
+          "Looking skyward disrupts inner ear balance mechanisms, causing acute spatial dizziness",
+          "Eclipse shadows carry electrical static charges that damage human optical nerve fibers"
         ],
         "answer": 1,
         "explanation": "Looking directly at the intense solar disc burns photoreceptor cells in the eye; certified ISO eclipse glasses or pinhole projectors must be used!"
@@ -11122,10 +11122,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should scientifically minded students respond to ancient myths claiming food turns poisonous during an eclipse?",
         "options": [
-          "Stop drinking water for 24 hours",
-          "Throw away all cooked food in the refrigerator",
-          "Stay locked in dark windowless rooms",
-          "Reject the unscientific superstition and recognize that eclipses are harmless celestial shadow alignments"
+          "Fast completely from water and nourishment until sunrise following the celestial event",
+          "Discard all perishable refrigerated foodstuffs once the shadow crosses local meridians",
+          "Seal residential doors and stay confined to darkened rooms during the entire alignment",
+          "Reject unfounded superstitions and recognize eclipses as safe natural shadow alignments"
         ],
         "answer": 3,
         "explanation": "Eclipses are predictable optical shadow events; they have zero effect on food, water, or human biology!"
@@ -11146,10 +11146,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'BIOSPHERE' on planet Earth?",
         "options": [
-          "The narrow zone where the Lithosphere (land), Hydrosphere (water), and Atmosphere (air) interact to support life",
-          "The outer ring of dust around Saturn",
-          "A weather balloon",
-          "The molten iron core at the center of the Earth"
+          "The narrow life-supporting zone where lithosphere, hydrosphere, and atmosphere interact",
+          "The upper gaseous layer of outer atmosphere extending outward into interplanetary space",
+          "The molten metallic outer core generating terrestrial magnetic fields beneath crusts",
+          "The barren polar ice sheets that remain frozen continuously without biological flora"
         ],
         "answer": 0,
         "explanation": "The Biosphere is the life-bearing sphere encompassing ocean depths, surface soil, and lower atmosphere!"
@@ -11157,10 +11157,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What critical gas in Earth's atmosphere shields all living organisms from lethal solar ultraviolet (UV) radiation?",
         "options": [
-          "Ozone (O₃) in the Stratosphere",
-          "Carbon dioxide",
-          "Methane",
-          "Helium"
+          "Ozone located within the stratosphere",
+          "Carbon dioxide within the troposphere",
+          "Methane gas floating across mesosphere",
+          "Helium drifting across the thermosphere"
         ],
         "answer": 0,
         "explanation": "The stratospheric ozone layer acts as Earth's natural sunscreen, absorbing hazardous UV radiation."
@@ -11168,10 +11168,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is Earth called the 'Blue Planet' when viewed by astronauts from outer space?",
         "options": [
-          "Earth is wrapped in blue plastic",
-          "The land is painted blue",
-          "Because all clouds are blue",
-          "More than 71% of Earth's surface is covered by vast blue oceans and liquid water"
+          "Atmospheric nitrogen crystals reflect vivid indigo hues back into interplanetary space",
+          "Continental bedrock layers consist primarily of blue granite and mineralized sapphire clay",
+          "High-altitude weather clouds absorb all solar radiation except blue electromagnetic light",
+          "Over seventy percent of Earth surface is covered by extensive liquid oceans and waterways"
         ],
         "answer": 3,
         "explanation": "Abundant liquid water covers over seven-tenths of Earth, giving our planet its iconic blue jewel glow!"
@@ -11192,10 +11192,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a map 'SCALE' (e.g., 1 cm = 100 meters) tell the map reader?",
         "options": [
-          "How hot the city is",
-          "The proportional ratio between a distance measured on the paper map and the actual distance on the ground",
-          "The weight of the paper",
-          "The number of trees in the forest"
+          "The elevation difference between coastal seashores and mountain ranges shown on topographical sheets",
+          "The proportional ratio between distance measured on the map and actual ground distance in reality",
+          "The total administrative population count living within designated municipal municipal boundaries",
+          "The compass direction indicating true north relative to magnetic meridian lines drawn across zones"
         ],
         "answer": 1,
         "explanation": "Scale bridges the drawing to reality: 1 cm on paper equals 100 meters of ground terrain!"
@@ -11217,7 +11217,7 @@ const QUESTION_BANK = {
           "Green",
           "Bright yellow",
           "Deep blue",
-          "Dark brown (used for rugged mountains)"
+          "Dark brown"
         ],
         "answer": 0,
         "explanation": "Green denotes fertile agricultural plains, river valleys, and forest cover."
@@ -11238,7 +11238,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which major latitude line circles the Earth at 0 degrees, dividing it into the Northern and Southern Hemispheres?",
         "options": [
-          "The Equator (0°)",
+          "The Equator",
           "The Tropic of Cancer",
           "The Prime Meridian",
           "The Arctic Circle"
@@ -11252,7 +11252,7 @@ const QUESTION_BANK = {
           "0°",
           "23.5° South",
           "66.5° North",
-          "23.5° North (23° 30' N)"
+          "23.5° North"
         ],
         "answer": 3,
         "explanation": "The Tropic of Cancer (23° 30' N) passes across eight Indian states from Gujarat to Mizoram!"
@@ -11260,10 +11260,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are lines of LONGITUDE (meridians) used for in global geography?",
         "options": [
-          "Border fences between states",
-          "Lines that measure ocean depth",
-          "Walls that block wind",
-          "Semi-circles running from North Pole to South Pole used to determine global local time and east-west position"
+          "Parallel horizontal circles used to demarcate climatic heat zones and temperature boundaries worldwide",
+          "Continental borderlines surveyed by international cartographers to demarcate sovereign national territories",
+          "Depth contour intervals recorded across hydrographic nautical charts to guide commercial marine navigation",
+          "Pole-to-pole semi-circles used to determine precise east-west geographical positions and global local time"
         ],
         "answer": 3,
         "explanation": "Longitudes measure angular distance east or west of the Prime Meridian (0° at Greenwich) and determine global time zones!"
@@ -11330,7 +11330,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which vast, elevated triangular landform in southern India is flanked by the Western Ghats and Eastern Ghats?",
         "options": [
-          "The Deccan Plateau (Peninsular Plateau)",
+          "The Deccan Plateau",
           "The Thar Desert",
           "The Himalayas",
           "The Northern Plains"
@@ -11341,10 +11341,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are the Indo-Gangetic Northern Plains of India so fertile and densely populated?",
         "options": [
-          "They are covered in sand dunes",
-          "Himalayan rivers (Ganga, Indus, Brahmaputra) deposit rich alluvial silt every year, supporting bumper agriculture",
-          "They are made of volcanic lava",
-          "They receive zero rain"
+          "Extensive coastal lagoons replenish brackish marshlands, fostering year-round deep sea commercial fishing",
+          "Perennial Himalayan river systems deposit mineral-rich alluvial silt annually, sustaining intensive farming",
+          "Ancient volcanic eruptions deposited basaltic lava beds that form nutrient-poor iron hardpan crusts",
+          "Dense subtropical pine forests shield the level plains from seasonal monsoon storm winds and soil loss"
         ],
         "answer": 1,
         "explanation": "Alluvial deposits from Himalayan river systems create some of the most fertile agricultural soil on Earth!"
@@ -11352,7 +11352,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which arid desert region dominates the western state of Rajasthan?",
         "options": [
-          "The Thar Desert (The Great Indian Desert)",
+          "The Thar Desert",
           "The Sahara Desert",
           "The Gobi Desert",
           "The Kalahari Desert"
@@ -11376,10 +11376,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What revolutionary invention in the Neolithic Age allowed humans to stop wandering and settle into permanent farming villages?",
         "options": [
-          "The internet",
-          "The steam engine",
-          "Gunpowder",
-          "The discovery of Agriculture (farming crops) and Domestication of livestock"
+          "The development of industrial steam engines and railways",
+          "The invention of magnetic compasses and astrolabe tools",
+          "The manufacture of bronze military armor and chariot wheels",
+          "The practice of agriculture and animal domestication skills"
         ],
         "answer": 3,
         "explanation": "Cultivating wheat and barley and raising sheep and cattle allowed permanent settlements and food security!"
@@ -11387,10 +11387,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What remarkable urban engineering feature distinguished cities of the Indus Valley Civilization (like Harappa and Mohenjo-daro)?",
         "options": [
-          "Towering stone pyramids",
-          "Grid-pattern planned streets, covered brick drainage systems, and granaries",
-          "Wooden log huts",
-          "Glass skyscrapers"
+          "Monumental stone pyramids constructed as royal mortuary monuments",
+          "Planned grid streets, covered baked-brick drains, and granaries",
+          "Circular timber palisades surrounded by earthen defensive moats",
+          "Rock-cut cave monasteries decorated with classical ceiling murals"
         ],
         "answer": 1,
         "explanation": "Harappan cities boasted world-class sanitation with underground baked-brick drains and standardized brick architecture!"
@@ -11422,10 +11422,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What profound transformation led Emperor Ashoka of the Mauryan Empire to renounce war and embrace Buddhist Dhamma (non-violence)?",
         "options": [
-          "His army was defeated by Alexander",
-          "He lost all his royal wealth in trade",
-          "The tragic bloodshed and suffering he witnessed during the brutal Kalinga War",
-          "He was exiled by his ministers"
+          "The total defeat of the royal Mauryan imperial army during campaigns in the far northwest",
+          "The sudden economic collapse of regional trade guilds and loss of imperial treasury reserves",
+          "Deep remorse over the immense bloodshed, misery, and loss of life during the Kalinga conquest",
+          "An ultimatum issued by council ministers threatening palace rebellion unless peace was declared"
         ],
         "answer": 2,
         "explanation": "Deep remorse over the destruction of Kalinga led Ashoka to dedicate his reign to peace, compassion, and welfare!"
@@ -11433,10 +11433,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the Gupta Period (4th to 6th Century CE) often described as the 'Golden Age' of ancient India?",
         "options": [
-          "Because there were no taxes",
-          "Because all houses were built of solid gold bricks",
-          "Because warfare ended forever in the world",
-          "Monumental achievements in mathematics (concept of zero), astronomy, Sanskrit literature (Kalidasa), and metallurgy"
+          "The total abolition of agricultural revenue taxes across all provincial territories of the empire",
+          "The universal construction of residential homes and public temples using solid gold building bricks",
+          "The permanent cessation of diplomatic rivalries and international military conflicts worldwide",
+          "Remarkable flourishing in mathematics, astronomy, classical Sanskrit literature, and metallurgy"
         ],
         "answer": 3,
         "explanation": "The Gupta era witnessed extraordinary flourishing in science, arts, philosophy, and classical architecture!"
@@ -11446,7 +11446,7 @@ const QUESTION_BANK = {
         "options": [
           "The British Empire",
           "The Mughal Dynasty",
-          "The Pallava Dynasty (King Narasimhavarman I)",
+          "The Pallava Dynasty",
           "The Delhi Sultanate"
         ],
         "answer": 2,
@@ -11469,7 +11469,7 @@ const QUESTION_BANK = {
         "prompt": "Where was the ancient Harappan port city of LOTHAL, featuring a tidal brick dockyard for maritime ocean trade, located?",
         "options": [
           "In the high mountains of Kashmir",
-          "In modern-day Gujarat (near the Gulf of Khambhat)",
+          "In modern-day Gujarat",
           "In the Thar desert of Rajasthan",
           "In Tamil Nadu"
         ],
@@ -11482,7 +11482,7 @@ const QUESTION_BANK = {
           "Kolkata",
           "Delhi",
           "Bengaluru",
-          "Patna (in Bihar)"
+          "Patna"
         ],
         "answer": 3,
         "explanation": "Patna on the banks of the sacred Ganga was ancient Pataliputra, seat of Chandragupta and Ashoka!"
@@ -11517,7 +11517,7 @@ const QUESTION_BANK = {
           "The Roman Twelve Tables",
           "The Magna Carta",
           "The Epic of Gilgamesh",
-          "The Four Vedas (Rigveda, Samaveda, Yajurveda, Atharvaveda)"
+          "The Four Vedas"
         ],
         "answer": 3,
         "explanation": "The Rigveda is a collection of 1,028 ancient Sanskrit poetic hymns praising natural forces and cosmic order!"
@@ -11527,7 +11527,7 @@ const QUESTION_BANK = {
         "options": [
           "Copper only",
           "Gold only",
-          "Iron (The Iron Age)",
+          "Iron",
           "Tin only"
         ],
         "answer": 2,
@@ -11536,7 +11536,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What were the sixteen powerful republican and monarchical kingdoms of ancient northern India called?",
         "options": [
-          "The Mahajanapadas (e.g., Magadha, Kosala, Vatsa, Avanti)",
+          "The Mahajanapadas",
           "The Roman Provinces",
           "The Mughal Subahs",
           "The Greek Polis"
@@ -11560,10 +11560,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did the growth of surplus grain production directly enable the rise of ancient cities and specialized crafts?",
         "options": [
-          "When farmers produced more food than their families needed, artisans, scholars, traders, and soldiers could live in cities without farming",
-          "Surplus food forced all cities to shut down",
-          "It made people forget how to make pottery",
-          "It caused everyone to live in forests"
+          "Surplus agricultural harvests allowed specialized craftsmen, traders, and administrators to pursue urban careers",
+          "Excessive grain stockpiles compelled agricultural villages to dissolve municipal markets and revert to nomadic hunting",
+          "Food abundance made pottery crafts and metal toolmaking completely obsolete across ancient river valley civilizations",
+          "Surplus food stores triggered continuous seasonal famines that forced city dwellers to abandon urban architecture"
         ],
         "answer": 0,
         "explanation": "Agricultural surplus feeds non-farming specialists: metalworkers, architects, merchants, and philosophers!"
@@ -11571,10 +11571,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was the kingdom of MAGADHA uniquely positioned to conquer other kingdoms and build an empire?",
         "options": [
-          "It had no rivers nearby",
-          "It was located on a frozen glacier",
-          "Rich iron ore deposits for weapons, fertile Gangetic soil, and war elephants in dense local forests",
-          "It had zero weapons"
+          "Its complete isolation from navigable waterways protected frontier borders from foreign invaders",
+          "Its high mountain glacier location provided impenetrable frozen ramparts against southern kingdoms",
+          "Rich iron ore mines for weaponry, productive Gangetic agricultural soil, and wild forest war elephants",
+          "Its strict pacifist religious decrees prevented neighboring monarchs from launching offensive military attacks"
         ],
         "answer": 2,
         "explanation": "Magadha possessed iron mines (near Rajgir), fertile paddy plains, and fearsome war elephants!"
@@ -11582,10 +11582,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the purpose of punch-marked silver and copper coins (Pana) in the 6th century BCE?",
         "options": [
-          "They standardized commercial trade across long distances, replacing cumbersome barter systems",
-          "They were melted to make soup",
-          "They were thrown into the ocean",
-          "They were used only as children's toys"
+          "They facilitated standardized merchant trade across long distances, superseding cumbersome barter systems",
+          "They served exclusively as ceremonial religious tokens buried beneath temple foundation stones during rituals",
+          "They were melted down by blacksmith guilds to manufacture decorative agricultural plowshares and horse harnesses",
+          "They functioned strictly as juvenile gaming counters used by noble children during festive palace tournaments"
         ],
         "answer": 0,
         "explanation": "Metallic coinage accelerated commerce by providing a standardized, universally accepted store of value!"
@@ -11606,10 +11606,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the ancient 'SANGAM' in South Indian history where Tamil poets and scholars gathered under Pandya royal patronage?",
         "options": [
-          "A tax collection office",
-          "Literary academies/assemblies of poets who composed classical Tamil poetry on love (Akam) and heroism (Puram)",
-          "A temple of wrestling",
-          "A military battle in the ocean"
+          "Royal administrative offices established to collect maritime harbor duties from Greek merchant galleys",
+          "Assemblies of Tamil poets and scholars who composed classical verse celebrating ethics, love, and valor",
+          "Fortified martial academies where royal wrestlers trained for regional gladiatorial combat tournaments",
+          "Naval defense fleets assembled along the Coromandel coast to guard seafaring trade vessels from pirates"
         ],
         "answer": 1,
         "explanation": "Sangam literature in Madurai preserves some of India's earliest and most sublime secular lyric poetry!"
@@ -11617,7 +11617,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Who authored the world-famous Sanskrit play 'Abhijnanashakuntalam' and the lyrical poem 'Meghaduta' (Cloud Messenger)?",
         "options": [
-          "Chanakya (Kautilya)",
+          "Chanakya",
           "Aryabhata",
           "Banabhatta",
           "Mahakavi Kalidasa"
@@ -11652,10 +11652,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was Indian black pepper so prized in the Roman Empire that it was nicknamed 'Black Gold'?",
         "options": [
-          "Pepper was used to build stone houses",
-          "Romans used pepper to pave highways",
-          "It was burned as fuel for Roman galleys",
-          "It was a luxury spice that flavored meats, preserved foods, and symbolized aristocratic culinary status in Rome"
+          "Roman engineers mixed ground pepper into lime mortar to waterproof military aqueducts and stone bridges",
+          "Roman highway overseers spread pepper along imperial post roads to repel foraging cavalry pack animals",
+          "Roman shipbuilders burned powdered pepper in galley furnaces to produce dense smokescreens against pirates",
+          "It was an esteemed culinary spice that flavored banquets, preserved meats, and displayed patrician wealth"
         ],
         "answer": 3,
         "explanation": "Pliny the Elder recorded vast outflows of Roman gold to India to purchase black pepper and fine textiles!"
@@ -11664,7 +11664,7 @@ const QUESTION_BANK = {
         "prompt": "Along with spices and textiles, what profound spiritual philosophy and art travelled from India along the Silk Route across Central Asia to China and Japan?",
         "options": [
           "Greek mythology only",
-          "Buddhism and Buddhist art (like Gandhara sculptures)",
+          "Buddhism and Buddhist art",
           "Egyptian mummification",
           "Roman gladiator games"
         ],
@@ -11674,10 +11674,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did ancient mariners utilize the seasonal MONSOON WINDS in the Arabian Sea?",
         "options": [
-          "They waited for winds to stop completely",
-          "They paddled by hand against hurricanes",
-          "They sailed eastward to India with the Southwest summer monsoon, and returned westward with the Northeast winter monsoon",
-          "Ships were carried over land on wagons"
+          "They anchored sailing vessels offshore until seasonal atmospheric winds ceased blowing entirely across bays",
+          "They relied solely on manual galley rowers to propel commercial trade craft against prevailing gale currents",
+          "They sailed east to India with summer southwest winds and returned west with winter northeast winds",
+          "They dismantled merchant ships upon coastlines and hauled wooden cargo hulls overland using oxen teams"
         ],
         "answer": 2,
         "explanation": "Hippalus and ancient sailors timed voyages across the Indian Ocean to match seasonal trade winds!"
@@ -11698,10 +11698,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What revolutionary astronomical and mathematical discovery did the great astronomer ARYABHATA make in 499 CE?",
         "options": [
-          "The Sun orbits the Moon",
-          "Earth is a rotating sphere that spins on its axis causing day/night, and calculated pi (π) and eclipses accurately",
-          "Earth is flat and resting on four elephants",
-          "Stars are lightbulbs in the sky"
+          "The Moon generates internal nuclear luminescence and revolves around planetary comets in elliptical paths",
+          "Earth rotates on its axis causing day and night, alongside accurate mathematical models for eclipses and pi",
+          "The Earth is a stationary flat disk supported upon the backs of four cosmic elephants resting on a tortoise",
+          "Distant stars are fixed points of lantern light attached to a rotating crystal dome enclosing our planet"
         ],
         "answer": 1,
         "explanation": "In Aryabhatiya, he proved Earth rotates daily on its axis and provided accurate models for lunar eclipses!"
@@ -11710,7 +11710,7 @@ const QUESTION_BANK = {
         "prompt": "Who is revered as a founding father of ancient Indian medicine and Ayurveda, authoring a renowned treatise on holistic healing and pharmacology?",
         "options": [
           "Alexander",
-          "Charaka (author of Charaka Samhita)",
+          "Charaka",
           "Ashoka",
           "Megasthenes"
         ],
@@ -11720,10 +11720,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the Iron Pillar of Delhi considered a world-class wonder of ancient Indian metallurgy?",
         "options": [
-          "It is made of magnetic plastic",
-          "It floats in the air",
-          "Forged with high phosphorus wrought iron in the 4th century CE, it has resisted atmospheric corrosion and rust for over 1,600 years",
-          "It was cast in modern factories"
+          "Manufactured from lightweight magnetic resin, it generates an electromagnetic shield that deflects lightning",
+          "Engineered using acoustic resonance chambers, it floats suspended several inches above the courtyard stone",
+          "Forged from high-phosphorus wrought iron, it has resisted rust and weather corrosion for over 1,600 years",
+          "Cast inside contemporary blast furnaces, it was imported by British colonial engineers in the 19th century"
         ],
         "answer": 2,
         "explanation": "Ancient Indian smiths formed a protective crystalline iron hydrogen phosphate layer that prevents rusting!"
@@ -11744,10 +11744,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was Prince Siddhartha Gautama's fundamental teaching to end human suffering (Dukkha) after attaining enlightenment as the Buddha?",
         "options": [
-          "Hoarding immense gold and jewels",
-          "The Four Noble Truths and the Eightfold Path of ethical living, mindfulness, and wisdom",
-          "Performing animal sacrifices",
-          "Conquering other nations with mighty armies"
+          "Accumulating vast material treasures and establishing magnificent palace monuments",
+          "Following the Four Noble Truths and the Eightfold Path of ethical living and wisdom",
+          "Performing elaborate sacrificial rituals and reciting complex esoteric incantations",
+          "Subduing neighboring territorial kingdoms through formidable imperial military campaigns"
         ],
         "answer": 1,
         "explanation": "The Buddha taught that desire causes suffering, and the Middle Path of right conduct and mindfulness brings liberation (Nirvana)!"
@@ -11758,7 +11758,7 @@ const QUESTION_BANK = {
           "Satyagraha",
           "Veda",
           "Karma only",
-          "Ahimsa (non-injury in thought, word, and deed)"
+          "Ahimsa"
         ],
         "answer": 3,
         "explanation": "Ahimsa paramo dharma: Ahimsa (compassionate non-violence) is the foundational ethical pillar of Jainism."
@@ -11769,7 +11769,7 @@ const QUESTION_BANK = {
           "Grammar rules for poetry",
           "The rules of chariot racing",
           "How to build brick factories",
-          "The unity of Atman (inner self) with Brahman (ultimate universal consciousness)"
+          "The unity of Atman with Brahman"
         ],
         "answer": 3,
         "explanation": "The Upanishads are philosophical dialogues exploring the transcendental connection between individual soul and universal truth."
@@ -11790,10 +11790,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'ARCHAEOLOGICAL SOURCE' of history?",
         "options": [
-          "Physical material remains left behind by past humans: pottery, coins, tools, bones, and ruined architecture",
-          "A movie actor's interview",
-          "An imaginative fictional fairytale",
-          "A printed modern textbook"
+          "Material physical remains excavated from past civilizations, including tools, pottery, coins, and ruined buildings",
+          "Fictional adventure cinema scripts composed by contemporary screenwriters to dramatize ancient mythological battles",
+          "Modern printed social studies textbooks published annually for distribution across secondary school classrooms",
+          "Imaginative oral folklore legends shared around village evening fires without tangible documentary evidence"
         ],
         "answer": 0,
         "explanation": "Archaeology studies the tangible material residue of past civilizations excavated from the earth."
@@ -11801,10 +11801,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'EPIGRAPHIC SOURCE' (Inscription)?",
         "options": [
-          "Words spoken on the radio",
-          "A digital text message",
-          "A pencil sketch on paper",
-          "Writings engraved permanently onto durable surfaces like stone pillars, copper plates, or temple walls"
+          "Spoken oral broadcasts transmitted across regional radio frequencies during historic national centenary celebrations",
+          "Ephemeral digital text messages sent across telecommunication satellites during contemporary international summits",
+          "Preliminary charcoal sketches executed on handmade parchment paper by apprentice court artists preparing royal murals",
+          "Historical records engraved permanently onto enduring surfaces such as stone pillars, rock faces, or copper plates"
         ],
         "answer": 3,
         "explanation": "Inscriptions on stone and copper provide un-altered historical records of royal decrees, land grants, and lineages."
@@ -11812,10 +11812,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why must historians cross-check literary accounts (like travelogues of foreign travelers) against archaeological findings?",
         "options": [
-          "To make history up from scratch",
-          "To verify accuracy, account for personal exaggerations or misunderstandings, and build an objective historical picture",
-          "Because old books must be burned",
-          "Because archaeologists dislike reading"
+          "To fabricate novel speculative legends whenever primary documentary archival records contradict common belief",
+          "To verify factual claims, correct for personal observer bias or exaggeration, and achieve historical accuracy",
+          "Because ancient literary manuscripts lose legal validity once contemporary excavation teams unearth artifacts",
+          "To prove that material artifacts excavated from archaeological trenches always supersede written documentation"
         ],
         "answer": 1,
         "explanation": "Corroborating written texts with excavated material culture provides balanced, rigorous historical truth!"
@@ -11836,10 +11836,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does experiencing different languages, food recipes, and festivals enrich a neighborhood community?",
         "options": [
-          "It forces people to stop talking",
-          "It makes everyone argue over recipes",
-          "It broadens horizons, fosters mutual cultural appreciation, and builds a vibrant, harmonious society",
-          "It makes neighborhoods boring"
+          "It discourages civic engagement by compelling diverse households to observe cultural holidays in complete isolation",
+          "It provokes persistent neighbourhood friction by highlighting regional culinary differences over shared civic values",
+          "It broadens cultural perspectives, fosters mutual appreciation, and weaves a vibrant, harmonious local society",
+          "It weakens community solidarity by introducing varied festive customs that displace established uniform local traditions"
         ],
         "answer": 2,
         "explanation": "Intercultural sharing dispels ignorance and weaves diverse traditions into a colorful national tapestry!"
@@ -11858,10 +11858,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does geography (like living in coastal Kerala versus desert Ladakh) shape distinct cultural lifestyles?",
         "options": [
-          "Geography has zero impact on culture",
-          "All humans live identical lives regardless of climate",
-          "Geography only affects what shoes you wear",
-          "Geography influences staple food crops, house construction materials, clothing styles, and daily occupations"
+          "Physical environment has no meaningful bearing on how communities organize daily routines and communal festivals",
+          "Modern human civilizations maintain identical architectural patterns and dietary choices across all global terrain",
+          "Geographical conditions influence recreational footwear choices while leaving diets and livelihoods totally untouched",
+          "Climate and terrain directly influence staple agricultural foods, shelter architecture, clothing, and livelihoods"
         ],
         "answer": 3,
         "explanation": "Climate and terrain dictate local resources, architecture, culinary traditions, and livelihoods!"
@@ -11882,10 +11882,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does ARTICLE 14 of the Constitution of India guarantee to all persons?",
         "options": [
-          "Equality before the law and equal protection of the laws within the territory of India",
-          "That only rich people can vote",
-          "That laws do not apply to politicians",
-          "That governments can discriminate at will"
+          "Equality before the law and equal protection of the legal statutes for all persons across the nation",
+          "Preferential courtroom privileges and legal immunity reserved exclusively for prominent property owners",
+          "Exemption from standard judicial oversight and criminal statutes for elected legislative representatives",
+          "Discretionary authority for administrative authorities to enforce discriminatory rules during peacetime"
         ],
         "answer": 0,
         "explanation": "Article 14 establishes the core principle that all citizens stand equal in the eyes of the law."
@@ -11904,10 +11904,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Universal Adult Franchise embody the democratic principle of equality?",
         "options": [
-          "Every adult citizen aged 18 and above has exactly ONE vote, and every vote carries EQUAL value regardless of wealth or status",
-          "Only landowners get ten votes",
-          "Only college graduates can vote",
-          "Votes are bought with money"
+          "Every adult citizen aged 18 and older holds one vote, and each vote has equal worth regardless of social status",
+          "Wealthy agrarian landowners receive multiple ballot allocations proportionate to their real estate valuations",
+          "Suffrage rights are granted exclusively to citizens holding certified university diplomas in legal jurisprudence",
+          "Balloting privileges are auctioned off to highest commercial bidders during municipal and state general elections"
         ],
         "answer": 0,
         "explanation": "One person, one vote, one value guarantees that the voice of a daily laborer counts equally with a billionaire!"
@@ -11928,10 +11928,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between 'PREJUDICE' and 'DISCRIMINATION'?",
         "options": [
-          "Prejudice is an unfair internal negative judgment or attitude; Discrimination is the unjust unfair ACTION taken based on that prejudice",
-          "They mean the exact same word",
-          "Discrimination is only positive",
-          "Prejudice is a sport; discrimination is a game"
+          "Prejudice is an unfounded preconceived attitude, whereas discrimination is the unjust practical action taken upon that bias",
+          "Prejudice represents positive admiration for others, whereas discrimination refers to neutral statistical classification",
+          "Prejudice refers to official legal protections, whereas discrimination indicates voluntary charitable community services",
+          "Prejudice involves commercial sports coaching, whereas discrimination refers to competitive athletic tournament rules"
         ],
         "answer": 0,
         "explanation": "Prejudice is an unfounded preconceived belief; discrimination is treating people unfairly based on that bias!"
@@ -11939,10 +11939,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can students actively stand up against bullying or exclusion on the school playground?",
         "options": [
-          "Pretend nothing happened",
-          "Join the bullies so you don't get teased",
-          "Speak out firmly against mean jokes, invite excluded classmates to join games, and report harassment to teachers",
-          "Laugh along silently"
+          "Ignore unfair behavior completely and quickly walk away so the instigators do not direct their attention toward you",
+          "Encourage the exclusion of classmates so that group hierarchy remains orderly and predictable across sports grounds",
+          "Intervene calmly, invite excluded peers to take part in games, and report persistent harassment to school teachers",
+          "Laugh alongside the perpetrators to demonstrate casual camaraderie while avoiding direct personal involvement"
         ],
         "answer": 2,
         "explanation": "Courageous upstanders intervene with empathy to ensure the playground is inclusive and safe for all!"
@@ -11950,10 +11950,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are stereotypes (like 'boys don't cry' or 'girls aren't brave') damaging to human development?",
         "options": [
-          "They stifle emotional expression, restrict personal talents, and force children into artificial molds",
-          "They have no effect",
-          "They make people stronger",
-          "They help children choose hobbies"
+          "They repress emotional health, restrict individual talents, and confine children to rigid, artificial molds",
+          "They reinforce natural biological aptitudes, ensuring students select career paths suited to traditional roles",
+          "They enhance resilience by preventing youngsters from expressing personal vulnerabilities during stressful events",
+          "They streamline classroom management by assigning athletic and academic responsibilities according to gender"
         ],
         "answer": 0,
         "explanation": "Stereotypes pressure kids to conceal authentic feelings and restrict their diverse individual gifts."
@@ -11974,10 +11974,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who is eligible to participate and vote in the village 'GRAM SABHA'?",
         "options": [
-          "Only village landowners owning agricultural property",
-          "Only the elected Ward Panchs and the Sarpanch",
-          "Only the government-appointed Panchayat Secretary",
-          "ALL adult residents of the village aged 18 and above who are registered voters"
+          "Exclusively wealthy agrarian landowners possessing more than five acres of cultivated land",
+          "Solely the elected Ward Panch members together with the presiding village executive Sarpanch",
+          "Exclusively civil administrative officers and state government appointed Panchayat secretaries",
+          "All adult residents of the village aged 18 and above who are registered voters in electoral rolls"
         ],
         "answer": 3,
         "explanation": "The Gram Sabha is direct grassroots democracy: all adult village voters deliberate together!"
@@ -11987,7 +11987,7 @@ const QUESTION_BANK = {
         "options": [
           "The District Sessions Court",
           "The State Legislative Assembly Secretariat",
-          "The Municipal Corporation (Nagar Nigam / Municipality)",
+          "The Municipal Corporation",
           "The Gram Panchayat and Block Development Council"
         ],
         "answer": 2,
@@ -11996,10 +11996,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary role of the elected Ward Councillor in city neighborhoods?",
         "options": [
-          "Commanding the city police department and investigating criminal cases",
-          "Representing local ward residents, listening to neighborhood civic problems, and ensuring garbage and streetlights are maintained",
-          "Appointing district judges to the local court",
-          "Drafting state-level tax legislation in the Vidhan Sabha"
+          "Commanding city police battalions and directing judicial investigations into municipal legal violations",
+          "Voicing resident concerns, addressing civic grievances, and overseeing sanitation, roads, and lighting",
+          "Appointing judicial magistrates to regional district sessions courts and managing courtroom operations",
+          "Formulating state economic policy and enacting fiscal tax statutes within the legislative Vidhan Sabha"
         ],
         "answer": 1,
         "explanation": "Ward Councillors voice community needs in the municipal council and oversee local civic maintenance."
@@ -12024,10 +12024,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are the THREE TIERS (levels) of government under the Indian federal democratic system?",
         "options": [
-          "Police, Army, and Navy",
-          "Village, City, and Foreign",
-          "Local Government (Panchayats/Municipalities), State Government, and Central/Union Government",
-          "School level, College level, and University level"
+          "Military Defense forces, Paramilitary units, and Civil Police authorities",
+          "Village councils, Metropolitan districts, and Foreign diplomatic embassies",
+          "Local Government, State Government, and Central or Union Government bodies",
+          "Primary educational boards, Collegiate faculties, and University councils"
         ],
         "answer": 2,
         "explanation": "Federal structure: Local tier for neighborhoods, State tier for regional affairs, and Union tier for national defense/foreign affairs!"
@@ -12035,10 +12035,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which level of government is primarily responsible for national defense, foreign relations, atomic energy, and railways?",
         "options": [
-          "The District Collector alone",
-          "The Town Ward Councillor",
-          "The Village Gram Panchayat",
-          "The Central / Union Government in New Delhi"
+          "The District Collector administrative bureau",
+          "The Municipal Ward Councillor committee here",
+          "The Village Gram Panchayat executive council",
+          "The Central or Union Government in New Delhi"
         ],
         "answer": 3,
         "explanation": "National security, currency, railways, and foreign diplomacy are strictly handled by the Union Government."
@@ -12046,10 +12046,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who is the executive administrative head of a DISTRICT who oversees law and order and government welfare implementation?",
         "options": [
-          "The District Magistrate (DM) / Deputy Commissioner / Collector",
-          "The Chief Justice of India",
-          "The Station Master",
-          "The Principal of the local school"
+          "The District Magistrate or District Collector",
+          "The Chief Justice of the State High Court here",
+          "The Railway Divisional Station Superintendent",
+          "The Principal of the regional secondary school"
         ],
         "answer": 0,
         "explanation": "The District Collector/DM is the senior administrative officer coordinating all district departments."
@@ -12070,10 +12070,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do small landless agricultural laborers often face unemployment for several months during the year in villages?",
         "options": [
-          "Because crops grow overnight",
-          "Farming is seasonal; there is little field work between sowing and harvesting times",
-          "Because farmers sleep through the afternoon",
-          "Because villagers dislike working"
+          "Agricultural crops mature continuously year-round without requiring irrigation or manual weeding",
+          "Agricultural labor is seasonal, offering minimal employment between sowing and harvesting periods",
+          "Field laborers prefer taking extended vacations during pleasant winter months to attend festivals",
+          "Village landholders replace manual workers entirely with automated harvesting drones during autumn"
         ],
         "answer": 1,
         "explanation": "Agricultural labor is seasonal: peak demand during sowing/reaping gives way to dry off-season unemployment."
@@ -12081,10 +12081,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What distinguishes 'Self-Employed' street vendors and hawkers from salaried permanent office workers in cities?",
         "options": [
-          "Street vendors invest their own money, work independently without paid sick leave or job security, but earn daily cash",
-          "Street vendors receive monthly government pension cheques",
-          "Office workers sell vegetables on sidewalks",
-          "Street vendors work in air-conditioned offices"
+          "Vendors invest their own capital and lack paid leave or job security, while earning daily income directly",
+          "Vendors receive guaranteed municipal pension allowances, subsidized health insurance, and paid holidays",
+          "Office workers transport inventory on pushcarts to sell fresh produce along neighborhood street corners",
+          "Vendors operate within climate-controlled corporate headquarters under long-term employment agreements"
         ],
         "answer": 0,
         "explanation": "Informal self-employed vendors work with immense grit, managing inventory and sales without institutional safety nets."
@@ -12092,10 +12092,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary benefit of agricultural COOPERATIVES (like Amul dairy cooperative) for small farmers and dairy producers?",
         "options": [
-          "Small farmers pool resources together to eliminate exploitative middlemen and receive fair prices directly for their produce",
-          "Cooperatives make farmers sell milk for free",
-          "Cooperatives shut down all dairy farms",
-          "Cooperatives are foreign banks"
+          "Small farmers unite their resources to bypass exploitative intermediaries and secure fair prices for goods",
+          "Cooperatives mandate that livestock keepers donate surplus dairy products to state distribution agencies",
+          "Cooperatives require rural producers to shut down independent family farms in favor of state monopolies",
+          "Cooperatives function as foreign commercial banking networks that collect high interest on farming loans"
         ],
         "answer": 0,
         "explanation": "Cooperatives empower small producers through collective bargaining, cold-chain transport, and direct market access!"
@@ -12116,10 +12116,10 @@ const QUESTION_BANK = {
       {
         "prompt": "The bank officer instructs: 'Please write your 11-digit account number clearly, sign in the drawer's box, and attach the crossed pay-in slip.' What must Arjun do?",
         "options": [
-          "Write his home residential address instead of the account number",
-          "Write the bank teller's name and hand over an uncrossed blank receipt",
-          "Sign only the cash notes directly with a blue ballpoint pen",
-          "Write his 11-digit account number, sign the designated drawer's box, and attach the crossed pay-in slip"
+          "Write his permanent home address across the counter slip and leave the signature box empty",
+          "Record the cashier's full name on the voucher and hand over an uncrossed deposit slip only",
+          "Sign directly on each currency note and hand over cash without filling the required slip",
+          "Write his eleven-digit account number, sign the drawer's box, and attach the pay-in slip"
         ],
         "answer": 3,
         "explanation": "Following banking instructions ensures transactions are credited accurately to your personal account!"
@@ -12127,10 +12127,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a 'Crossed Cheque' (two parallel lines on the top left corner) mean?",
         "options": [
-          "The cheque can only be cashed on Saturday mornings",
-          "The money can only be credited directly into a bank account, not cashed immediately over the counter",
-          "The cheque was signed by two joint bank managers",
-          "The cheque is cancelled, void, and invalid"
+          "The funds can be collected in cash immediately by any bearer presenting the cheque at the counter",
+          "The money can only be credited directly into a bank account, not cashed instantly at the counter",
+          "The cheque has been signed jointly by two branch managers to authorize international wire transfers",
+          "The transaction has been formally cancelled by the issuing customer due to insufficient funds"
         ],
         "answer": 1,
         "explanation": "Account Payee crossing provides security against theft by requiring deposit into the named account."
@@ -12138,10 +12138,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are clear instructions vital in institutions like banks, hospitals, and post offices?",
         "options": [
-          "To delay public service delivery so queues get longer",
-          "They protect legal records, ensure accuracy, and safeguard citizens' funds and health",
-          "Because bank computers cannot verify digital transactions",
-          "To test customers' handwriting endurance"
+          "They slow down public service delivery so that waiting queues inside branches grow longer",
+          "They protect official records, guarantee accuracy, and safeguard citizens' savings and health",
+          "They allow branch computers to process financial transactions without any security checks",
+          "They test the reading speed and handwriting patience of customers during crowded office hours"
         ],
         "answer": 1,
         "explanation": "Standardized instructions prevent fraud, ensure compliance, and guarantee prompt service."
@@ -12162,10 +12162,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does syllable stress change between the NOUN 'a PRE-sent' (a gift) and the VERB 'to pre-SENT' (to showcase)?",
         "options": [
-          "The noun stresses the first syllable (PRE-sent); the verb stresses the second syllable (pre-SENT)",
-          "Both stress the second syllable identically",
-          "Both stress the first syllable identically",
-          "Stress has no effect on English words"
+          "The noun stresses the first syllable, whereas the verb stresses the second syllable",
+          "Both the noun and the verb place primary vocal stress equally on the first syllable",
+          "Both the noun and the verb place primary vocal stress equally on the second syllable",
+          "Syllable stress remains identical because grammatical role never alters English sounds"
         ],
         "answer": 0,
         "explanation": "In English heteronyms, two-syllable nouns typically take initial stress, while verbs take final stress!"
@@ -12175,8 +12175,8 @@ const QUESTION_BANK = {
         "options": [
           "Neither",
           "Recording noun",
-          "RE-cord (stress on first)",
-          "re-CORD (stress on second syllable)"
+          "RE-cord",
+          "re-CORD"
         ],
         "answer": 3,
         "explanation": "Performing the action of noting down requires the verb form: re-CORD!"
@@ -12184,10 +12184,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'connected speech' (like saying 'an apple' as 'uh-napple') practice in language learning?",
         "options": [
-          "Whispering backwards",
-          "Speaking without punctuation",
-          "Natural phonological linking between word boundaries for smooth fluency",
-          "Shouting individual words slowly"
+          "Pronouncing every single word in complete isolation with deliberate pauses between each",
+          "Memorizing grammar definitions silently without ever vocalizing complete spoken sentences",
+          "Linking consonant and vowel sounds smoothly across word boundaries for natural rhythm",
+          "Reciting individual dictionary entries rapidly while omitting standard punctuation marks"
         ],
         "answer": 2,
         "explanation": "Linking consonants to following vowels creates natural, rhythmic conversational cadence."
@@ -12208,10 +12208,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does the environmental scientist support the plastic ban effectively?",
         "options": [
-          "Stating that all packaging should be banned",
-          "Citing scientific studies showing microplastic pollution in food chains and clogged city drains",
-          "Claiming plastic smells bad",
-          "Interrupting with personal insults"
+          "Demanding an instant total shutdown of all global retail packaging without presenting data",
+          "Citing documented studies of microplastic accumulation in marine life and blocked waterways",
+          "Arguing that synthetic plastic containers look unappealing and produce unpleasant odors",
+          "Using aggressive personal attacks against manufacturing delegates during the live broadcast"
         ],
         "answer": 1,
         "explanation": "Strong empirical arguments use peer-reviewed ecological data and drain-blockage statistics!"
@@ -12219,10 +12219,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What balanced solution might bridge environmental protection and factory workers' livelihoods?",
         "options": [
-          "Ignoring all pollution permanently",
-          "Shutting down all manufacturing overnight with zero transition",
-          "Phasing in biodegradable alternative packaging and subsidizing factory re-tooling to save jobs",
-          "Banning all shopping entirely"
+          "Ignoring ecological pollution entirely and allowing factories to dispose of waste unchecked",
+          "Shutting down manufacturing units overnight without offering transitional financial support",
+          "Phasing in eco-friendly alternatives while funding technology upgrades to safeguard employment",
+          "Banning consumer shopping completely to eliminate the demand for packaged everyday products"
         ],
         "answer": 2,
         "explanation": "Sustainable public policy transitions manufacturing towards green alternatives while safeguarding labor."
@@ -12230,10 +12230,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What critical listening skill should viewers practice when watching heated television debates?",
         "options": [
-          "Accepting unsourced claims as absolute truth",
-          "Distinguishing between verified factual evidence and emotional partisan rhetoric",
-          "Ignoring all expert data",
-          "Agreeing with whichever speaker yells loudest"
+          "Accepting sensational claims immediately without checking the presenter's primary sources",
+          "Distinguishing verifiable scientific evidence from persuasive rhetoric and personal bias",
+          "Assuming that expert data and official statistical reports are always completely unreliable",
+          "Siding automatically with whichever panelist speaks at the highest volume and interrupts most"
         ],
         "answer": 1,
         "explanation": "Critical listeners filter out sensationalism to evaluate logical reasoning and documented facts."
@@ -12254,10 +12254,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What shared psychological transformation do both Bilbo and Jim experience during their adventures?",
         "options": [
-          "They transition from naive, sheltered homebodies into resourceful, courageous leaders who rely on their wits",
-          "They become greedy villains who hoard treasure",
-          "They give up and return home in chapter 2",
-          "They turn into stone statues"
+          "They evolve from sheltered homebodies into courageous leaders relying on practical wisdom",
+          "They become cold-hearted adventurers who sacrifice their loyal companions for personal wealth",
+          "They give up after the first encounter with danger and spend the journey hiding in safe shelters",
+          "They remain completely unchanged throughout the journey and rely entirely on external magic"
         ],
         "answer": 0,
         "explanation": "The 'Hero's Journey' tests character grit, transforming ordinary youths into self-reliant heroes!"
@@ -12265,10 +12265,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does comparing and contrasting two distinct stories deepen a reader's insight?",
         "options": [
-          "It replaces reading the actual text",
-          "It causes you to forget both book titles",
-          "It illuminates universal human themes, moral dilemmas, and varied authorial styles",
-          "It proves all books are identical copies"
+          "It allows the reader to skip reading the complete stories by skimming summary plotlines",
+          "It leads readers to believe that separate literary works share the exact same characters",
+          "It reveals universal human conflicts, shared moral dilemmas, and contrasting writer styles",
+          "It proves that literary storytelling follows one single formula across all time periods"
         ],
         "answer": 2,
         "explanation": "Comparative analysis reveals how different writers explore courage, loyalty, and human nature."
@@ -12276,10 +12276,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'THEME' of a literary work (as opposed to its plot)?",
         "options": [
-          "The font chosen by the printer",
-          "The sequence of physical events",
-          "The underlying central message, moral truth, or commentary on life explored by the narrative",
-          "The list of character names"
+          "The chronological order of physical actions and dramatic events performed by characters",
+          "The specific font size, formatting layout, and decorative paper choices made by printers",
+          "The underlying central message, moral truth, or commentary on human life within a story",
+          "The alphabetical list of character names, physical locations, and chapters in the appendix"
         ],
         "answer": 2,
         "explanation": "Plot is WHAT happens; Theme is the deeper insight about life that the story illuminates!"
@@ -12300,10 +12300,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What life-saving instruction does the dam signboard communicate to visitors?",
         "options": [
-          "Do not swim in the river because sudden water release from dam gates creates violent flash currents",
-          "The river is completely dry",
-          "Fish are giving swimming lessons",
-          "Swimming is encouraged for children"
+          "Avoid swimming here because sudden water discharges from the dam create violent flash floods",
+          "Swimming is strictly encouraged for visitors because reservoir waters stay calm and shallow",
+          "Visitors may fish along the spillway only during scheduled evening release operations",
+          "The riverbed is permanently dry and safe for setting up picnic camps near the sluice gates"
         ],
         "answer": 0,
         "explanation": "Hydroelectric sluice gates can open without warning, causing rapid turbulent water surges!"
@@ -12311,10 +12311,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What international symbol accompanies high-voltage electrical substation warning boards?",
         "options": [
-          "A cartoon smiling cat",
-          "A green leaf",
-          "A picture of a flower",
-          "A yellow triangle containing a bold black jagged lightning bolt"
+          "A circular green emblem showing three leaves inside a protective shield",
+          "A square blue signboard featuring a running figure inside an open doorway",
+          "A round red circle with a single horizontal line running across the middle",
+          "A triangular yellow sign showing a bold black jagged lightning bolt symbol"
         ],
         "answer": 3,
         "explanation": "The jagged lightning bolt is the universal alert for severe electrical shock hazards!"
@@ -12322,10 +12322,10 @@ const QUESTION_BANK = {
       {
         "prompt": "On a railway platform, what does the yellow tactile bumpy paving line near the platform edge warn passengers?",
         "options": [
-          "Jump onto the train roof",
-          "Sit down on the tracks",
-          "Leave your luggage on the line",
-          "Stay behind this safety threshold line when fast trains are approaching or passing"
+          "Place heavy travel luggage directly on the marked tiles before boarding incoming carriages",
+          "Cross over the tracks rapidly by leaping directly from this textured platform threshold line",
+          "Sit along the textured surface while waiting for coaches to complete their platform arrival",
+          "Remain behind this safety line to avoid danger when fast trains are approaching or passing"
         ],
         "answer": 3,
         "explanation": "The tactile warning strip alerts all passengers, including visually impaired travelers, to the platform edge hazard!"
@@ -12346,10 +12346,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What defines the literary genre of SCIENCE FICTION (Sci-Fi)?",
         "options": [
-          "Fairy tales with talking talking trees and magical wands only",
-          "Sports scorecards",
-          "Stories speculating on scientific advancements, space travel, futuristic technology, and their impact on humanity",
-          "Factual history textbooks"
+          "Fables featuring talking woodland animals and magical wands explaining ancient folk traditions",
+          "Documentary records that list historical dates, royal decrees, and factual military campaigns",
+          "Stories exploring scientific innovations, future technologies, space flight, and human impacts",
+          "Biographical memoirs recounting the personal daily routines of famous contemporary athletes"
         ],
         "answer": 2,
         "explanation": "Sci-fi extrapolates real physics, genetics, and technology to explore philosophical futures!"
@@ -12357,10 +12357,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What moral dilemma did Frankenstein's creator face in Mary Shelley's groundbreaking science fiction masterpiece?",
         "options": [
-          "Finding a lost shoe",
-          "How to win a gold medal in running",
-          "The ethical responsibility of scientists toward the sentient creations they bring to life",
-          "How to build a brick wall"
+          "How to commercialize an automated mechanical factory to maximize regional trade profits",
+          "Whether to publish secret laboratory research papers before rival university scientists",
+          "The ethical responsibility of creators toward the living, feeling beings they bring into life",
+          "How to construct reinforced brick masonry structures capable of withstanding severe storms"
         ],
         "answer": 2,
         "explanation": "Shelley explored whether scientific mastery must be tempered with ethical compassion and accountability."
@@ -12368,10 +12368,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is extensive leisure reading in middle school strongly correlated with high cognitive achievement?",
         "options": [
-          "It makes you sleep all day",
-          "It continually expands lexical range, complex syntactic processing, and mental theory of mind",
-          "It replaces the need for food",
-          "It stops you from thinking"
+          "It memorizes standardized test questions verbatim without requiring analytical comprehension",
+          "It continually expands vocabulary breadth, complex sentence processing, and empathetic insight",
+          "It replaces the need to engage with arithmetic reasoning and practical experimental sciences",
+          "It limits imaginative thinking by restricting students exclusively to literal interpretations"
         ],
         "answer": 1,
         "explanation": "Reading diverse genres strengthens vocabulary, complex reasoning, empathy, and concentration."
@@ -12392,10 +12392,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What environmental initiative did Wangari Maathai pioneer through the Green Belt Movement?",
         "options": [
-          "Community-led tree planting to combat soil erosion, restore watersheds, and empower rural women",
-          "Building nuclear power stations",
-          "Clearing forests for diamond mines",
-          "Constructing luxury highways"
+          "Community-led tree planting to fight soil erosion, restore water catchment, and empower women",
+          "State-funded quarry mining to clear protected forests and build interstate commercial highways",
+          "Large-scale mechanized timber harvesting to supply foreign wood manufacturing factories rapidly",
+          "Developing offshore petroleum drilling rigs along coastal habitats to generate revenue streams"
         ],
         "answer": 0,
         "explanation": "Maathai organized grassroots women's networks to restore degraded landscapes with 50+ million trees!"
@@ -12403,10 +12403,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is restoring indigenous forest watersheds vital for agricultural communities?",
         "options": [
-          "Forests cause drought",
-          "Tree roots bind soil, absorb heavy rainfall, prevent landslides, and replenish flowing freshwater springs",
-          "Trees drink all the water and dry out rivers",
-          "Trees make soil turn into concrete"
+          "Deep tree roots deplete groundwater reserves entirely and turn surrounding fertile topsoil barren",
+          "Tree roots bind topsoil, absorb heavy monsoon rains, curb erosion, and recharge freshwater springs",
+          "Dense forest canopies absorb every drop of precipitation, preventing rainwater from feeding rivers",
+          "Native timber foliage releases chemical compounds that permanently harden topsoil into bedrock"
         ],
         "answer": 1,
         "explanation": "Forest canopies and root networks act as natural sponges that feed perennial clean streams."
@@ -12438,10 +12438,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Trace the correct operational sequence of the Chandrayaan-3 lunar mission:",
         "options": [
-          "Rover landing -> Rocket assembly -> Earth orbit",
-          "Lunar orbit -> Launch from Earth -> Mission planning",
-          "Lunar landing -> Launch from Earth -> Orbit raising",
-          "LVM3 rocket launch -> Earth-bound orbital raising maneuvers -> Lunar transfer injection -> Lunar orbit insertion -> Soft landing of Vikram lander near South Pole"
+          "Lunar touchdown -> Trans-lunar injection -> LVM3 rocket liftoff -> Earth orbit raising burns",
+          "Earth orbital burns -> Soft lunar touchdown -> Rocket liftoff -> Trans-lunar injection path",
+          "Trans-lunar injection -> LVM3 rocket liftoff -> Soft lunar touchdown -> Earth orbit burns",
+          "LVM3 rocket liftoff -> Earth orbit raising -> Trans-lunar injection -> Soft lunar touchdown"
         ],
         "answer": 3,
         "explanation": "Gravity-assist orbital burns incrementally raised Earth orbits before propelling the craft into lunar capture!"
@@ -12449,10 +12449,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What caused Chandrayaan-3 to achieve a historic world first on 23 August 2023?",
         "options": [
-          "It became the first spacecraft in human history to successfully soft-land near the unexplored South Polar region of the Moon",
-          "It landed near the Apollo 11 equatorial landing site where Neil Armstrong walked",
-          "It was the first robotic spacecraft ever sent into lunar orbit",
-          "It collected drill core samples and returned them directly back to Earth"
+          "It was the first mission in history to successfully soft-land near the lunar south polar region",
+          "It was the first robotic craft to touch down at the historic Apollo eleven equatorial landing site",
+          "It was the first satellite to capture panoramic photographic images while orbiting lunar terrain",
+          "It was the first automated probe to collect subsurface core samples and bring them back to Earth"
         ],
         "answer": 0,
         "explanation": "India became the first nation to touch down in the lunar south polar territory, celebrated as National Space Day!"
@@ -12460,10 +12460,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do graphic flowcharts and causal chain diagrams assist textual reading comprehension?",
         "options": [
-          "They replace the need for written vocabulary and technical terminology",
-          "They clarify chronological dependencies, cause-and-effect relationships, and process milestones visually",
-          "They convert all scientific non-fiction into narrative fiction",
-          "They allow readers to skip reading paragraphs without understanding concepts"
+          "They eliminate the necessity of learning complex technical terminology across academic textbooks",
+          "They visually map chronological sequences, cause-and-effect pathways, and crucial milestone steps",
+          "They convert factual non-fiction exposition into imaginative fictional plots with invented heroes",
+          "They encourage readers to skip detailed prose explanations without analyzing foundational concepts"
         ],
         "answer": 1,
         "explanation": "Visual schema diagrams map complex multi-step processes into clear, memorable logical structures."
@@ -12484,10 +12484,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How is each character, letter, and number represented in the BRAILLE system?",
         "options": [
-          "Spoken audio recordings only",
-          "A tactile matrix of 6 embossed raised dots arranged in two columns of three dots",
-          "Colored light signals",
-          "Carved wooden letters"
+          "An auditory pattern of varying electronic beeps and rhythmic clicks played through headphones",
+          "A tactile grid of six embossed raised dots arranged neatly in two parallel vertical columns",
+          "A miniature system of engraved geometric lines and grooved alphabetical strokes on thick paper",
+          "A sequence of contrasting high-relief color symbols intended for partial optical magnification"
         ],
         "answer": 1,
         "explanation": "Louis Braille's ingenious 6-dot cell enables 64 distinct permutations representing alphabets, numerals, and musical notes!"
@@ -12495,10 +12495,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are inclusive educational materials (like Braille textbooks, tactile diagrams, and screen readers) essential in schools?",
         "options": [
-          "To make classrooms silent",
-          "They are only used in libraries",
-          "Because print books are outdated",
-          "They ensure that students with visual impairments exercise their fundamental right to independent learning and literacy"
+          "They reduce printing costs for public school administrations by shortening core textbook volumes",
+          "They provide alternative study choices solely for students who prefer listening over print reading",
+          "They replace traditional classroom teachers with fully automated electronic assessment software",
+          "They guarantee visually impaired learners their fundamental right to accessible, independent study"
         ],
         "answer": 3,
         "explanation": "Universal accessibility ensures equitable empowerment, intellectual independence, and dignity for all learners."
@@ -12506,10 +12506,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a software 'Screen Reader' (like NVDA or JAWS) assist visually impaired computer users?",
         "options": [
-          "It turns off the computer monitor",
-          "It only displays pictures",
-          "It deletes all email messages",
-          "It converts on-screen digital text, menus, and hyperlinks into natural spoken synthesized speech or refreshable Braille"
+          "It automatically shuts down the display monitor to conserve battery power during office tasks",
+          "It compresses on-screen text into miniature graphic icons to fit more content onto the screen",
+          "It blocks unauthorized external incoming email messages to protect confidential operating data",
+          "It converts on-screen text, navigation menus, and hyperlinks into synthesized audio or Braille"
         ],
         "answer": 3,
         "explanation": "Screen readers synthesize digital UI into spoken audio, unlocking the internet, coding, and digital libraries!"
@@ -12530,10 +12530,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What multi-layered answer best satisfies Nina's inquiry into why ancient civilizations flourished along river valleys?",
         "options": [
-          "Kings liked the color blue",
-          "Rivers provided perennial freshwater for drinking, deposited fertile alluvial silt for bumper crops, and served as highways for trade",
-          "Ancient people could not walk on dry land",
-          "Rivers had fewer mosquitos than hills"
+          "River valleys were shielded by continuous mountain walls that stopped all nomadic migrations",
+          "Rivers offered reliable freshwater, deposited fertile crop silt, and served as trade highways",
+          "Ancient communities settled along rivers primarily because fishing was the only source of food",
+          "Riverbanks remained entirely free of infectious seasonal diseases and seasonal insect swarms"
         ],
         "answer": 1,
         "explanation": "Freshwater, silt rejuvenation, fish, and boat navigation made river basins the ultimate cradles of civilization!"
@@ -12541,10 +12541,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What characterizes a 'Higher-Order Thinking Question' (Bloom's Taxonomy)?",
         "options": [
-          "Questions that require analysis, evaluation, hypothesis formulation, and creative problem-solving rather than rote recall",
-          "Questions about the spelling of a single word",
-          "Questions copied directly from a poster",
-          "Questions that can be answered with a simple 'yes' or 'no'"
+          "Questions requiring in-depth analysis, critical evaluation, and creative problem-solving",
+          "Questions asking for exact verbatim recitation of definitions memorized from a textbook",
+          "Questions that can be answered conclusively by verifying a single date from a wall poster",
+          "Questions framed exclusively around simple binary responses such as stating yes or no"
         ],
         "answer": 0,
         "explanation": "Higher-order inquiry demands synthesis, critical evaluation, and contextual problem-solving."
@@ -12552,10 +12552,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When investigating a historical claim, why should a student ask: 'Whose perspective is represented, and whose voice might be missing?'",
         "options": [
-          "To cancel all history books",
-          "Historical texts were often commissioned by powerful royal rulers, so questioning bias uncovers the lived experience of ordinary people",
-          "Because all historians tell lies",
-          "Because nobody lived in the past"
+          "Because all historical records written prior to modern printing presses are completely false",
+          "Because royal chronicles often omit the daily struggles of peasants, artisans, and women",
+          "Because modern readers should dismiss past achievements and focus solely on current events",
+          "Because historical narratives were meant to entertain audiences rather than preserve facts"
         ],
         "answer": 1,
         "explanation": "Interrogating historiography uncovers silenced social histories of women, peasants, artisans, and marginalized groups."
@@ -12576,10 +12576,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which dialogue is a polite, professional way to inquire about bulk discount pricing?",
         "options": [
-          "'Give it for free.'",
-          "'Your shop is charging too much!'",
-          "'Good afternoon. Could you please let me know if a concession is available if we purchase five meters of this khadi fabric?'",
-          "'Lower your price immediately or I leave!'"
+          "Give me this fabric at half price immediately, or I will take my business somewhere else.",
+          "Why are your prices set so high compared to the street vendors down the lane this morning?",
+          "Could you kindly let me know if a discount is available for purchasing five meters of fabric?",
+          "Reduce the marked price on this bundle right now, because I refuse to pay the listed rate."
         ],
         "answer": 2,
         "explanation": "Courteous vocabulary ('Could you please let me know', 'concession available') maintains respectful, effective commerce."
@@ -12587,10 +12587,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should a salesperson politely explain that a craft item is non-negotiable fixed price?",
         "options": [
-          "'Sir, our prices are fixed as all sales support rural artisan cooperatives directly.'",
-          "'No discounts for you!'",
-          "'Don't touch the cloth.'",
-          "'Buy it or get out.'"
+          "Our rates are fixed, sir, as all sales proceeds support rural artisan weavers directly.",
+          "No discounts are allowed here, so you must pay the total or look for cheaper goods elsewhere.",
+          "Please step away from the display shelves if you are not prepared to purchase at marked rates.",
+          "Our store policies forbid bargaining because management does not trust customer negotiations."
         ],
         "answer": 0,
         "explanation": "Explaining the fair-trade rationale behind fixed pricing builds customer trust and ethical awareness."
@@ -12598,10 +12598,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When asking for directions in an unfamiliar city, what is the best opening formula?",
         "options": [
-          "'Where is the train running?'",
-          "'Hey you, walk with me.'",
-          "'Tell me the road now.'",
-          "'Excuse me, could you kindly direct me to the nearest metro station?'"
+          "Hey you, leave whatever you are doing right now and guide me to the central bus depot.",
+          "Where does this street lead, and why are there no clear directional route signs here?",
+          "Tell me the fastest shortcut immediately, because I am running very late for my train.",
+          "Excuse me, could you kindly point me in the right direction toward the nearest station?"
         ],
         "answer": 3,
         "explanation": "'Excuse me, could you kindly...' is the standard polite English gambit for soliciting directions."
@@ -12624,7 +12624,7 @@ const QUESTION_BANK = {
         "options": [
           "Syllabification",
           "Metaphor",
-          "Anaphora (rhetorical repetition)",
+          "Anaphora",
           "Punctuation error"
         ],
         "answer": 2,
@@ -12633,10 +12633,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should an elocution speaker handle an unexpected podium microphone glitch without panicking?",
         "options": [
-          "Stop speaking completely and stand with arms folded until technicians arrive",
-          "Immediately start delivering the speech from line one again at double speed",
-          "Pause calmly, project their natural diaphragmatic voice clearly across the hall, and continue speaking steadily while audio staff adjust the mic",
-          "Tap the microphone head repeatedly and ask the audience loudly: 'Can everyone hear me now?'"
+          "Halt immediately, remain motionless with folded arms, and refuse to proceed until repairs finish",
+          "Restart the speech from the opening line at twice the speed while tapping the microphone head",
+          "Pause calmly, project the voice clearly from the diaphragm, and continue with steady composure",
+          "Apologize loudly to the audience and ask repeated questions about whether sound is reaching them"
         ],
         "answer": 2,
         "explanation": "Composure, vocal projection, and poise in unforeseen glitches demonstrate professional maturity."
@@ -12668,10 +12668,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the immortal opening line: 'Where the mind is without fear and the head is held high...', how should the speaker's vocal tone sound?",
         "options": [
-          "Comical and giggling",
-          "Rushed like a fast sports commentary",
+          "Playful, lighthearted, humorous, and amusing",
+          "Hurried, agitated, breathless, and impatient",
           "Dignified, resonant, solemn, and inspiring",
-          "Timid and trembling with fright"
+          "Timid, hesitant, whispering, and fearful"
         ],
         "answer": 2,
         "explanation": "Tagore's prayer for national awakening demands noble, resonant, and fearless vocal delivery!"
@@ -12679,10 +12679,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does Tagore mean by the metaphor: 'Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit'?",
         "options": [
-          "Habits are made of sand grains",
-          "Water evaporates in deserts",
-          "Clear rational thought and progressive inquiry should never be choked by blind superstitious rituals and prejudice",
-          "Rivers should never flow through sand"
+          "Habits are formed through physical contact with arid desert soil across drought regions",
+          "Freshwater rivers must be redirected through sand dunes to prevent seasonal evaporation",
+          "Rational thinking should never be smothered by blind superstitious rituals and prejudice",
+          "Traditional social habits should always replace logical inquiry during times of conflict"
         ],
         "answer": 2,
         "explanation": "The metaphor contrasts living, flowing rational thought against the deadening grip of stagnant, backward dogma."
@@ -12690,10 +12690,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'enjambment' in poetic verses (when a line runs into the next line without punctuation)?",
         "options": [
-          "The voice continues smoothly without pausing until the natural end of the syntactic clause",
-          "Skipping the second line entirely",
-          "Stopping dead for five seconds at every line end",
-          "Shouting the rhyming word"
+          "The voice reads on smoothly across the line break until reaching natural punctuation",
+          "The speaker stops completely for five seconds whenever reaching the end of each line",
+          "The reader skips every alternate verse line to speed up the delivery of the recitation",
+          "The final rhyming syllable is spoken with an exaggerated shout to emphasize the meter"
         ],
         "answer": 0,
         "explanation": "Enjambment guides the reader to flow across line breaks naturally without artificial mechanical stops."
@@ -12725,10 +12725,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the PASSIVE VOICE frequently favored in formal scientific and newspaper reporting?",
         "options": [
-          "It places focus squarely on the action, discovery, or phenomenon itself rather than on the individual performer",
-          "Because active voice is grammatically illegal in science",
-          "To make sentences twice as confusing",
-          "It is only used when the speaker forgets the subject"
+          "It emphasizes the action, discovery, or observed phenomenon rather than the individual agent",
+          "It complies with formal grammatical rules that strictly forbid active sentences in science",
+          "It deliberately creates syntactic ambiguity so readers find experimental methods harder to read",
+          "It is reserved exclusively for situations where the researcher has forgotten who ran the test"
         ],
         "answer": 0,
         "explanation": "Passive voice establishes objective impartiality: 'The water was heated to 100°C' emphasizes the experiment, not the person."
@@ -12736,10 +12736,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these sentences is written in the PASSIVE VOICE?",
         "options": [
-          "Visitors admired the carving.",
-          "The king built the stone fortress.",
-          "Architects planned the garden.",
-          "The historic monument was constructed in the 15th century."
+          "Thousands of eager visitors admired the intricate marble carving.",
+          "The royal architect designed the magnificent red sandstone palace.",
+          "Skilled artisan guilds carved the towering ceremonial entry gates.",
+          "The historic monument was constructed during the fifteenth century."
         ],
         "answer": 3,
         "explanation": "'Was constructed' uses the passive auxiliary + past participle construct."
@@ -12760,10 +12760,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Using context clues ('prioritized workable pacts over rigid ideology'), what does 'PRAGMATIC' mean?",
         "options": [
-          "Completely imaginary",
-          "Foolish and reckless",
-          "Dealing with things sensibly and realistically based on practical considerations rather than theoretical dogma",
-          "Angry and hostile"
+          "Holding speculative and imaginary notions detached from physical reality",
+          "Acting in a reckless, hasty manner without considering future results",
+          "Dealing with situations sensibly based on realistic, practical factors",
+          "Displaying persistent hostility and aggressive defiance toward others"
         ],
         "answer": 2,
         "explanation": "Pragmatism values practical, real-world effectiveness over rigid abstractions!"
@@ -12771,10 +12771,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'DOGMATIC' imply in the contrasting clause?",
         "options": [
-          "Loving dogs and pets",
-          "Inflexibly asserting principles as incontrovertibly true without considering practical reality",
-          "Scientific and experimental",
-          "Flexible and compromising"
+          "Approaching problems with open curiosity and willingness to adapt to new evidence",
+          "Asserting opinions as unquestionable truths without considering practical reality",
+          "Conducting systematic empirical experiments to verify hypotheses under laboratory tests",
+          "Expressing genuine warmth and affectionate interest toward domestic animals and pets"
         ],
         "answer": 1,
         "explanation": "Dogmatic stances cling rigidly to doctrines regardless of empirical consequences."
@@ -12782,9 +12782,9 @@ const QUESTION_BANK = {
       {
         "prompt": "In the sentence: 'The desert night sky was so PELLUCID that the Andromeda Galaxy was visible to the naked eye', what does 'PELLUCID' mean?",
         "options": [
-          "Pitch black with zero stars",
-          "Smoky and polluted",
-          "Cloudy and foggy",
+          "Deeply overcast with thick stormy vapor",
+          "Heavily obscured by dense urban pollution",
+          "Completely pitch dark with zero starlight",
           "Crystal clear and transparently luminous"
         ],
         "answer": 3,
@@ -12806,10 +12806,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary difference between a DICTIONARY and an ENCYCLOPEDIA?",
         "options": [
-          "A dictionary defines words and linguistic usage; an encyclopedia provides comprehensive factual knowledge and historical context on subjects",
-          "They are identical books",
-          "Encyclopedias only list fictional stories",
-          "A dictionary has pictures; an encyclopedia has no letters"
+          "A dictionary defines words and linguistic usage, while an encyclopedia gives comprehensive subject knowledge",
+          "A dictionary covers factual historical and scientific topics, while an encyclopedia only lists word origins",
+          "A dictionary is arranged by theme and narrative chapters, while an encyclopedia is strictly a spelling list",
+          "A dictionary contains full biographical articles, while an encyclopedia explains basic grammar guidelines"
         ],
         "answer": 0,
         "explanation": "Dictionaries are lexical guides; encyclopedias are comprehensive repositories of human conceptual knowledge!"
@@ -12817,10 +12817,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'BIBLIOGRAPHY' at the conclusion of a research paper?",
         "options": [
-          "A collection of recipes",
-          "A list of the author's personal friends",
-          "The table of contents",
-          "A detailed alphabetical list of all books, journals, and sources cited during research to credit original authors"
+          "A chronological list of the personal anecdotes and childhood memories shared by the author",
+          "A decorative collection of recipe formulas and dietary guidelines used by laboratory staff",
+          "A summary table outlining the printing expenses and publisher distribution costs of a book",
+          "A detailed list of cited books, journals, and primary sources that credits original authors"
         ],
         "answer": 3,
         "explanation": "Bibliographies give academic credit, prevent plagiarism, and guide readers to original primary sources."
@@ -12828,10 +12828,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'PLAGIARISM' mean, and why is it considered a grave ethical offense in scholarship?",
         "options": [
-          "Buying used textbooks",
-          "Reading two books at the same time",
-          "Writing in pen instead of pencil",
-          "Copying someone else's written work or ideas and presenting them as your own without proper citation and attribution"
+          "Purchasing second-hand academic reference volumes from a licensed collegiate bookstore",
+          "Reviewing multiple scholarly journals simultaneously to formulate an original viewpoint",
+          "Writing draft research essays using dark ink pens rather than traditional lead pencils",
+          "Copying another author's written words or ideas without giving proper credit or citation"
         ],
         "answer": 3,
         "explanation": "Plagiarism is intellectual dishonesty; scholars must always cite original creators."
@@ -12852,10 +12852,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does RK Narayan depict childhood innocence versus colonial school discipline in 'Swami and Friends'?",
         "options": [
-          "Through supernatural horror encounters in haunted forest caves",
-          "Through intense military combat and naval warfare during World War II",
-          "Through gentle humor, relatable classroom anxieties, friendship rivalries, and the spontaneous joy of the MCC cricket team",
-          "Through formal parliamentary speeches and complex legal debates"
+          "Through eerie supernatural tales set in abandoned caves along the mythical outskirts of Malgudi",
+          "Through intense naval war battles and high-seas naval encounters during the Second World War",
+          "Through gentle humor, school anxieties, friendship bonds, and the spontaneous joy of cricket",
+          "Through formal courtroom trials, parliamentary speeches, and intricate constitutional battles"
         ],
         "answer": 2,
         "explanation": "Narayan's masterpiece captures the eternal, warm, poignant comedy of growing up in pre-Independence India."
@@ -12874,10 +12874,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When concluding a published book review, what final verdict should you provide for potential readers?",
         "options": [
-          "A synthesis of the book's enduring strengths, who would appreciate reading it, and a thoughtful star rating",
-          "A word-for-word copy of the book's final chapter including all spoilers",
-          "An angry demand that libraries remove all historical novels from shelves",
-          "A technical invoice detailing the printing and shipping costs of the book"
+          "A synthesis of key strengths, target readership recommendations, and an overall rating",
+          "A verbatim transcript of the entire concluding chapter revealing all critical twists",
+          "An angry demand that local libraries ban the author's complete catalog from shelves",
+          "An itemized business invoice detailing the printing, binding, and transport expenses"
         ],
         "answer": 0,
         "explanation": "A great conclusion evaluates the book's lasting emotional and thematic resonance for readers."
@@ -12898,10 +12898,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Maya's narrative highlight 'CLIMATE JUSTICE' through her protagonist's eyes?",
         "options": [
-          "It argues that coastal people should move to the Moon",
-          "It claims climate change is a complete myth",
-          "It illustrates how vulnerable coastal communities suffer the harshest impacts of global warming despite contributing the least to emissions",
-          "It ignores the rising ocean completely"
+          "It proposes that low-lying coastal populations should relocate entirely to lunar colonies",
+          "It asserts that rising global temperatures and shifting weather patterns are mere fiction",
+          "It shows how vulnerable coastal families face severe climate impacts despite low emissions",
+          "It portrays rising ocean tides as a beneficial occurrence for expanding shoreline tourism"
         ],
         "answer": 2,
         "explanation": "Climate justice illuminates the ethical imperative that those least responsible for emissions bear the heaviest brunt."
@@ -12909,10 +12909,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can creative writers portray gender equity authentically in adventure narratives?",
         "options": [
-          "By depicting girls only as helpless damsels awaiting rescue",
-          "By crafting female protagonists with agency, intellectual bravery, and technical leadership alongside supportive male peers",
-          "By excluding all female characters",
-          "By writing about robots only"
+          "By portraying female characters exclusively as timid bystanders waiting for external rescue",
+          "By crafting capable female leads with decisive leadership alongside supportive team members",
+          "By eliminating all female characters from the plot to avoid complex interpersonal conflicts",
+          "By restricting female dialogue strictly to domestic household routines within family settings"
         ],
         "answer": 1,
         "explanation": "Equitable representation depicts diverse characters leading, strategizing, and triumphing through competence."
@@ -12920,10 +12920,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are stories that cultivate empathy across cultures and disabilities essential in school curricula?",
         "options": [
-          "They dismantle stereotypes, expand emotional intelligence, and foster a compassionate, inclusive society",
-          "They replace grammar exercises",
-          "They are easier to memorize for exams",
-          "They have no educational value"
+          "They dismantle harmful biases, widen emotional understanding, and build an inclusive society",
+          "They replace the necessity of practicing spelling, punctuation, and formal grammar structures",
+          "They are designed strictly to shorten study hours required for end-of-term written examinations",
+          "They serve solely as lighthearted entertainment without conveying meaningful moral insights"
         ],
         "answer": 0,
         "explanation": "Narrative empathy expands moral imagination, allowing us to perceive the world through others' lived experiences."
@@ -12944,10 +12944,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When converting script DIALOGUE ('Birbal: \"Your Majesty, fear not; the truth will out.\"') into PROSE narrative, what must be added?",
         "options": [
-          "Turn everything into math equations",
-          "Remove all punctuation marks",
-          "Delete all the characters",
-          "Narrative speech tags, character gestures, facial expressions, and atmospheric sensory details"
+          "Mathematical equations and numeric data tables to quantify the dialogue rhythm",
+          "Extensive footnotes translating every common noun into Latin court terminology",
+          "Strict bullet points that remove all interpersonal emotion from the scene",
+          "Descriptive speech tags, character gestures, facial reactions, and sensory cues"
         ],
         "answer": 3,
         "explanation": "Prose fleshes out spoken lines with sensory descriptions, internal monologue, and character body language!"
@@ -12955,10 +12955,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are 'STAGE DIRECTIONS' in a theatrical play script (usually written in italics inside parentheses)?",
         "options": [
-          "Words that the audience must chant aloud",
-          "Instructions to the actors and director on movements, gestures, vocal tone, and lighting cues",
-          "Secret codes for theater ticket sellers",
-          "The price of the costumes"
+          "Prompts indicating lines that the audience members are expected to recite together",
+          "Directives detailing actor movements, vocal emotional cues, and lighting adjustments",
+          "Coded instructions intended solely for box office cashiers selling admission passes",
+          "Detailed financial breakdowns showing the fabrication costs of performance costumes"
         ],
         "answer": 1,
         "explanation": "Stage directions guide blocking, lighting, sound effects, and emotional nuance on the physical stage."
@@ -12990,10 +12990,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What standard convention headers should every authentic DIARY ENTRY begin with?",
         "options": [
-          "Date, Day of the week, Time, and Location (e.g., '14th November 2026, Saturday, 9:00 PM, Pong Dam')",
-          "The author's bank balance",
-          "A list of exam grades",
-          "A formal 'Dear Sir' business greeting"
+          "Date, day of the week, time, and location",
+          "Bank balance, account type, and branch code",
+          "Formal salutation, company seal, and title",
+          "Postal address, pin code, and telephone id"
         ],
         "answer": 0,
         "explanation": "Date, day, time, and setting ground personal journal logs in chronological historical context!"
@@ -13001,10 +13001,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the characteristic tone and voice of a personal DIARY entry?",
         "options": [
-          "Formatted as a computer code script",
-          "Cold, bureaucratic, and distant",
-          "Written like a legal courtroom contract",
-          "Intimate, reflective, honest, and expressive of personal feelings, hopes, and observations"
+          "Impersonal, rigid, and structured strictly like a formal legal court affidavit",
+          "Technical, algorithmic, and formatted like executable computer software script",
+          "Detached, bureaucratic, and phrased like an official administrative memorandum",
+          "Intimate, reflective, and expressive of heartfelt personal experiences and hopes"
         ],
         "answer": 3,
         "explanation": "A diary is a private sanctuary for sincere reflection, introspection, and unfiltered observation."
@@ -13012,10 +13012,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When drafting an official formal SMS or notification for school parents regarding an unforeseen holiday, what is paramount?",
         "options": [
-          "Sending a blank message",
-          "Using confusing slang and abbreviations",
-          "Writing three pages of poetic verse",
-          "Clarity, brevity, the exact cause, dates affected, and official school authority sign-off"
+          "Sending a blank alert containing only an emergency headline without further context",
+          "Using informal abbreviations, playful slang, and incomplete conversational fragments",
+          "Composing multi-page poetic verses describing atmospheric weather changes in detail",
+          "Providing concise facts, the specific reason, affected dates, and authority sign-off"
         ],
         "answer": 3,
         "explanation": "Emergency notifications demand concise, unambiguous, verified information that busy parents can act on immediately."
@@ -13036,10 +13036,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the CORNELL NOTE-TAKING system, what is recorded in the narrow left-hand 'CUE' column?",
         "options": [
-          "Doodles and cartoons",
-          "The teacher's home address",
-          "Key questions, core concept headings, and keywords to quiz yourself during revision",
-          "Full verbatim paragraphs copied from the slides"
+          "Random decorative sketches, doodles, and personal phone contact numbers",
+          "Long uninterrupted paragraphs transcribed word-for-word from visual slides",
+          "Key questions, main concept headings, and keywords used for active review",
+          "Complete biographical profiles of famous historic scientists mentioned briefly"
         ],
         "answer": 2,
         "explanation": "The cue column holds active-recall prompt questions that turn your notes into an instant self-testing tool!"
@@ -13047,10 +13047,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What goes into the bottom horizontal section of a Cornell note sheet?",
         "options": [
-          "A brief 2 to 3 sentence summary encapsulating the core big-picture takeaway of the lecture",
-          "Empty blank space to draw on",
-          "The price of the notebook",
-          "A list of student names"
+          "A concise two-to-three sentence summary distilling the central takeaways of the lesson",
+          "A blank decorative space reserved for drawing classroom caricatures during free study",
+          "An alphabetical list of classmate names present during that specific morning lecture",
+          "An itemized receipt showing the retail stationery price paid for the spiral notebook"
         ],
         "answer": 0,
         "explanation": "Synthesizing an entire lecture into a 3-sentence summary forces deep conceptual distillation!"
@@ -13058,10 +13058,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is typing or copying notes verbatim word-for-word inferior to summarizing in your own words?",
         "options": [
-          "Because teachers dislike complete sentences",
-          "Summarizing in your own words requires active cognitive processing and deep comprehension, creating strong memory neural pathways",
-          "Because pens run out of ink",
-          "It takes too much paper"
+          "Verbatim copying requires greater cognitive effort and analytical synthesis than summarizing",
+          "Paraphrasing demands active cognitive synthesis, resulting in deeper conceptual understanding",
+          "Summarizing consumes excessive paper stationery compared to typing every word spoken by teachers",
+          "Word-for-word transcription produces superior retention because thinking slows down writing pace"
         ],
         "answer": 1,
         "explanation": "Active paraphrasing forces the brain to digest and understand concepts rather than mindlessly transcribing."
@@ -13082,10 +13082,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'THESIS STATEMENT' in an essay, and where is it positioned?",
         "options": [
-          "A clear, debatable assertion that states the central argument of the essay, placed at the end of the introductory paragraph",
-          "A list of spelling definitions at the back",
-          "The final sentence of the conclusion only",
-          "The title of the essay"
+          "A clear central claim expressing the essay's core argument, placed at the end of the introduction",
+          "A concluding dictionary list of specialized vocabulary terms placed at the end of the bibliography",
+          "A casual rhetorical question opening the essay without committing to any specific analytical stance",
+          "A decorative subtitle added above the header to describe the personal feelings of the student author"
         ],
         "answer": 0,
         "explanation": "The thesis statement is the intellectual spine of your essay, declaring your central claim!"
@@ -13093,10 +13093,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are 'TRANSITION WORDS' (e.g., 'Furthermore', 'Conversely', 'In addition') used for between paragraphs?",
         "options": [
-          "To create smooth logical connections, contrasting points, and coherence across ideas",
-          "To make paragraphs look artificially long",
-          "To confuse readers about the topic",
-          "Because sentences cannot start with nouns"
+          "To establish smooth logical flow, introduce contrasting points, and build textual coherence",
+          "To pad paragraph length artificially so essays meet mandatory word counts without extra facts",
+          "To obscure logical relationships between paragraphs so readers find the text more mysterious",
+          "To satisfy outdated stylistic rules that require every English sentence to begin with an adverb"
         ],
         "answer": 0,
         "explanation": "Transitions act as linguistic bridges, guiding the reader smoothly from one supporting argument to the next."
@@ -13104,10 +13104,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What makes an argumentative conclusion compelling rather than repetitive?",
         "options": [
-          "Copying the introduction word for word",
-          "Apologizing for taking the reader's time",
-          "Introducing three brand new topics with no evidence",
-          "Synthesizing arguments into a broader real-world implication or call to action rather than merely restating lines"
+          "Restating the introductory paragraph verbatim without adding any fresh analytical synthesis",
+          "Apologizing to the reader for potential factual shortcomings in the presented essay arguments",
+          "Introducing three brand new contentious claims in the final sentence without supporting proofs",
+          "Synthesizing core evidence to reveal broader real-world significance or an inspiring action call"
         ],
         "answer": 3,
         "explanation": "A powerful conclusion demonstrates WHY the argument matters for society, future policy, or human progress."
@@ -13150,10 +13150,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What golden rule must you always maintain when solving an algebraic equation across the equals sign (=)?",
         "options": [
-          "Divide only the right side by zero",
-          "Whatever mathematical operation you perform on one side, you MUST perform identically on the other side to keep the balance",
-          "Add 10 to the left side only",
-          "Erase the equals sign"
+          "Perform algebraic operations solely on the right-hand side while keeping the left side unchanged",
+          "Apply any mathematical operation identically to both sides of the equation to preserve balance",
+          "Multiply only the constant terms by zero whenever unknown variables appear on the opposing side",
+          "Change all addition signs into division signs whenever terms are shifted across the equals mark"
         ],
         "answer": 1,
         "explanation": "Equations are like balance scales: operations must be performed symmetrically on both sides!"
@@ -13220,10 +13220,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In Block A, electricity usage was 400 kWh in Winter and 950 kWh in Summer. What accounts for the massive 550 kWh surge in summer?",
         "options": [
-          "Continuous operation of air-conditioners and electric fans during scorching summer heat",
-          "Electricity evaporates in heat",
-          "More lights are on in summer",
-          "Winter uses more ACs"
+          "Heavy cooling demand from air conditioners and electric fans during peak summer heat",
+          "Gradual evaporation of electrical charge through copper wires exposed to warm weather",
+          "Extensive night lighting caused by shorter daylight hours and prolonged evening hours",
+          "Frequent operation of water geysers and space heating units to warm residential rooms"
         ],
         "answer": 0,
         "explanation": "Summer cooling loads (air conditioning and fans) represent the largest seasonal spike in building energy consumption!"
@@ -13231,10 +13231,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What visual feature allows a DOUBLE BAR GRAPH to display two sets of data side-by-side effectively?",
         "options": [
-          "Distinct color-coded adjacent bars paired with a clear legend showing which bar represents Winter vs Summer",
-          "Only using one bar for the whole graph",
-          "Drawing bars on top of each other invisibly",
-          "Writing no numbers"
+          "Paired contrasting color bars accompanied by an explanatory key distinguishing the two datasets",
+          "A single wide bar showing only the mathematical difference between summer and winter values",
+          "Stacked transparent bars drawn directly on top of each other without distinguishing border lines",
+          "A continuous zigzag line graph plotted across the page without numerical labels on the axes"
         ],
         "answer": 0,
         "explanation": "Contrasting adjacent bars and a legend allow effortless direct visual comparison across categories!"
@@ -13278,7 +13278,7 @@ const QUESTION_BANK = {
         "prompt": "What is the MEDIAN (the middle value when numbers are arranged in ascending order) of [ 40, 50, 50, 60, 100 ]?",
         "options": [
           "60 runs",
-          "50 runs (the third and exact middle value)",
+          "50 runs",
           "40 runs",
           "100 runs"
         ],
@@ -13288,7 +13288,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the MODE (the most frequently occurring score) in this dataset?",
         "options": [
-          "50 runs (occurs twice, more than any other score)",
+          "50 runs",
           "There is no mode",
           "40 runs",
           "100 runs"
@@ -13312,10 +13312,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the theoretical PROBABILITY of getting 'HEADS' on a single toss of a fair two-sided coin?",
         "options": [
-          "1 (100% certainty)",
+          "1",
           "1/6",
           "1/4",
-          "1/2 (or 50% chance)"
+          "1/2"
         ],
         "answer": 3,
         "explanation": "1 favorable outcome (Heads) out of 2 possible equal outcomes (Heads, Tails) = 1/2 = 50%!"
@@ -13324,7 +13324,7 @@ const QUESTION_BANK = {
         "prompt": "When rolling a standard six-sided die numbered 1 to 6, what is the probability of rolling a '4'?",
         "options": [
           "1/2",
-          "1/6 (one face out of six total faces)",
+          "1/6",
           "1/4",
           "4/6"
         ],
@@ -13334,7 +13334,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the probability of rolling an EVEN number (2, 4, or 6) on a standard die?",
         "options": [
-          "3/6 = 1/2 (50%)",
+          "1/2",
           "2/6",
           "5/6",
           "1/6"
@@ -13358,10 +13358,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What geometric principle ensures that two lines cut by a transversal line are perfectly PARALLEL?",
         "options": [
-          "They have different lengths",
-          "They must intersect at a right angle",
-          "Their alternate interior angles (or corresponding angles) are EXACTLY EQUAL",
-          "They curve towards each other"
+          "Their consecutive interior angles sum up to ninety degrees",
+          "Their corresponding angles add together to one hundred degrees",
+          "Their alternate interior angles have exactly equal measurements",
+          "Their transversal intersection lines cross at right angles only"
         ],
         "answer": 2,
         "explanation": "If a transversal creates equal alternate interior angles, the two lines are strictly parallel!"
@@ -13369,10 +13369,10 @@ const QUESTION_BANK = {
       {
         "prompt": "According to the Triangle Inequality Theorem, what condition must the three side lengths of ANY triangle satisfy?",
         "options": [
-          "One side must be zero",
-          "The sum of the lengths of any TWO sides must be strictly GREATER than the length of the third side (a + b > c)",
-          "All three sides must be equal",
-          "The sum of two sides must equal the third"
+          "The sum of the lengths of any two sides must equal the exact square of the remaining third side",
+          "The sum of the lengths of any two sides must be strictly greater than the length of the third side",
+          "The difference between two side lengths must always exceed the total length of the remaining side",
+          "All three individual side lengths must share identical dimensions regardless of internal angles"
         ],
         "answer": 1,
         "explanation": "a + b > c! If two sides sum to less than or equal to the third, their ends cannot connect to form a triangle."
@@ -13404,10 +13404,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What are VERTICALLY OPPOSITE ANGLES formed by two intersecting lines, and what is their relationship?",
         "options": [
-          "Angles opposite each other at the intersection point, and they are ALWAYS EQUAL in measure",
-          "They are acute angles only",
-          "They are always unequal",
-          "They always add up to 90°"
+          "Angles directly facing each other across the intersection vertex, and their measures are always equal",
+          "Adjacent angles sharing a common ray at the intersection point, and their measures always sum to 90 degrees",
+          "Opposite angles formed along a straight line, and their measures are consistently unequal under all conditions",
+          "Angles positioned on the same side of a transversal line, and they must always form complementary acute pairs"
         ],
         "answer": 0,
         "explanation": "Vertically opposite angles are mirror reflections across the vertex and are always equal!"
@@ -13451,7 +13451,7 @@ const QUESTION_BANK = {
         "prompt": "When a transversal intersects two parallel lines, what is true about the pairs of CORRESPONDING ANGLES (in the same relative position)?",
         "options": [
           "They are always 0°",
-          "They are EQUAL in measure (e.g., top-right equals top-right)",
+          "They are EQUAL in measure",
           "They add up to 90°",
           "They are perpendicular"
         ],
@@ -13463,7 +13463,7 @@ const QUESTION_BANK = {
         "options": [
           "They add up to 90°",
           "They are equal",
-          "They are SUPPLEMENTARY (they add up to 180°)",
+          "They are SUPPLEMENTARY",
           "They multiply to 360°"
         ],
         "answer": 2,
@@ -13473,7 +13473,7 @@ const QUESTION_BANK = {
         "prompt": "If an interior alternate angle is 65°, what is the measure of its matching alternate interior angle?",
         "options": [
           "180°",
-          "65° (alternate interior angles are equal)",
+          "65°",
           "115°",
           "25°"
         ],
@@ -13496,10 +13496,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does 'CONGRUENT' mean for two geometric figures?",
         "options": [
-          "They have the same color",
-          "They have different angles",
-          "They have the EXACT SAME size and shape, superimposing perfectly upon each other",
-          "One is twice as large as the other"
+          "They possess identical surface colors and are drawn with matching boundary line widths",
+          "They share equal perimeter lengths while having entirely distinct internal angle values",
+          "They have identical size and shape, superimposing on each other point for point exactly",
+          "One figure is precisely twice as large as the other while maintaining identical angles"
         ],
         "answer": 2,
         "explanation": "Congruent figures can be placed over each other to match point-for-point in every dimension!"
@@ -13507,10 +13507,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which congruence criterion states: 'If two sides and the INCLUDED angle of one triangle equal two sides and the included angle of another'?",
         "options": [
-          "SAS Congruence Criterion (Side-Angle-Side)",
-          "ASA (Angle-Side-Angle)",
-          "SSS (Side-Side-Side)",
-          "RHS (Right-Hypotenuse-Side)"
+          "SAS Congruence Criterion",
+          "ASA Congruence Criterion",
+          "SSS Congruence Criterion",
+          "RHS Congruence Criterion"
         ],
         "answer": 0,
         "explanation": "SAS requires the congruent angle to be trapped directly between the two proportional sides!"
@@ -13518,10 +13518,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In right-angled triangles, what does the RHS Congruence Criterion require?",
         "options": [
-          "A Right angle (90°), equal Hypotenuse, and one equal Side in both triangles",
-          "Red, High, Sharp sides",
-          "Random angles",
-          "Sides that sum to 100"
+          "A Right angle, equal Hypotenuse, and one matching Side in both triangles",
+          "A Right angle, equal perimeter lengths, and three matching acute angles",
+          "Two Right angles, matching baseline lengths, and unequal hypotenuse sides",
+          "Random angle proportions whose total interior degree measures sum to 180"
         ],
         "answer": 0,
         "explanation": "RHS = Right angle, matching Hypotenuse length, and one matching corresponding Side!"
@@ -13553,10 +13553,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the EXTERIOR ANGLE THEOREM state for any triangle?",
         "options": [
-          "An exterior angle is zero",
-          "An exterior angle equals the whole perimeter",
-          "An exterior angle is always 90°",
-          "An exterior angle of a triangle is EQUAL to the sum of its two interior opposite angles"
+          "An exterior angle of a triangle always equals ninety degrees regardless of interior shape",
+          "An exterior angle is equal to the total sum of all three interior angles of that triangle",
+          "An exterior angle is strictly less than either of its two adjacent supplementary angles",
+          "An exterior angle of a triangle equals the sum of its two interior opposite angle values"
         ],
         "answer": 3,
         "explanation": "Exterior Angle = Sum of Two Interior Opposite Angles (e.g., Exterior = Angle A + Angle B)!"
@@ -13588,9 +13588,9 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the area of the SQUARE basketball court?",
         "options": [
-          "80 m²",
-          "200 m²",
-          "40 m²",
+          "80 square meters",
+          "200 square meters",
+          "160 square meters",
           "400 square meters"
         ],
         "answer": 3,
@@ -13599,9 +13599,9 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the area of the RECTANGULAR tennis lawn?",
         "options": [
-          "84 m²",
-          "42 m²",
-          "300 m²",
+          "84 square meters",
+          "42 square meters",
+          "300 square meters",
           "360 square meters"
         ],
         "answer": 3,
@@ -13610,7 +13610,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the formula for the AREA OF A TRIANGLE with base 'b' and perpendicular height 'h'?",
         "options": [
-          "2 x (Base + Height)",
+          "2 x",
           "1/2 x Base x Height",
           "Base + Height",
           "Base x Height"
@@ -13634,10 +13634,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When estimating irregular shapes on a unit square grid, how are PARTIALLY covered grid squares counted?",
         "options": [
-          "Guess without counting",
-          "Ignore all squares with curves",
-          "Count every square touched as 10",
-          "Count fully covered squares as 1, squares more than half full as 1, exactly half full as 1/2, and ignore squares less than half full"
+          "Count every square touched by the outline as two units and ignore all interior squares",
+          "Count only fully covered squares and discard every partial square regardless of coverage",
+          "Assign equal full unit value to any grid square that contains even a tiny fraction of area",
+          "Count squares over half full as 1, half full as half, and ignore squares under half full"
         ],
         "answer": 3,
         "explanation": "Standard grid mensuration counts >1/2 filled squares as 1 and disregards <1/2 filled squares for balanced estimation!"
@@ -13648,7 +13648,7 @@ const QUESTION_BANK = {
           "42 cm²",
           "26 cm²",
           "58 cm²",
-          "50 cm²: 42 + = 42 + 8 = 50 cm²"
+          "50 cm²"
         ],
         "answer": 3,
         "explanation": "42 full squares + 8 (from 16 halves) = 50 cm² total estimated area!"
@@ -13656,10 +13656,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can the precision of irregular area estimation on a grid sheet be dramatically improved?",
         "options": [
-          "By using a much FINER, smaller grid mesh (e.g., millimeter graph paper)",
-          "By coloring the paper black",
-          "By using a giant 10-meter grid",
-          "By erasing the boundary"
+          "By using a significantly finer, smaller unit grid mesh",
+          "By increasing the spacing to a much larger grid matrix",
+          "By rounding all boundary counts upward to the nearest ten",
+          "By measuring only straight segments and omitting curves"
         ],
         "answer": 0,
         "explanation": "Smaller unit grid cells reduce boundary approximation error, yielding higher measurement accuracy!"
@@ -13739,7 +13739,7 @@ const QUESTION_BANK = {
         "options": [
           "-2/5",
           "2/5",
-          "5/2 (invert the numerator and denominator)",
+          "5/2",
           "1/5"
         ],
         "answer": 2,
@@ -13772,10 +13772,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What defines a 'RATIONAL NUMBER' in mathematics?",
         "options": [
-          "Only negative numbers",
-          "Only whole counting numbers like 1, 2, 3",
-          "Any number that can be expressed in the form p/q, where p and q are integers and q ≠ 0",
-          "Numbers that have no decimals"
+          "Any negative integer that cannot be divided by two without producing a fractional remainder",
+          "Any positive counting number that has no decimal representation and no fractional components",
+          "Any number that can be written in the form p/q, where p and q are integers and q is non-zero",
+          "Any infinite non-terminating decimal number whose digits never repeat in a regular sequence"
         ],
         "answer": 2,
         "explanation": "Rational numbers include integers, fractions, terminating decimals, and recurring decimals (p/q with q ≠ 0)!"
@@ -13784,9 +13784,9 @@ const QUESTION_BANK = {
         "prompt": "A hiker at an elevation of -2.5 meters (below sea level) climbs up a trail by 10.75 meters. What is their new elevation?",
         "options": [
           "+8.25 meters above sea level",
-          "-8.25 meters",
-          "+7.75 meters",
-          "+13.25 meters"
+          "-8.25 meters below sea level",
+          "+7.75 meters above sea level",
+          "-13.25 meters below sea level"
         ],
         "answer": 0,
         "explanation": "10.75 - 2.50 = +8.25 meters above sea level!"
@@ -13818,7 +13818,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Calculate: 0.25 x 1.6 =",
         "options": [
-          "0.400 (or 0.4)",
+          "0.400",
           "0.04",
           "0.416",
           "4.0"
@@ -13840,10 +13840,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens when you DIVIDE any decimal number by 1,000?",
         "options": [
-          "Three zeros are added at the end",
-          "The number stays identical",
-          "The decimal point shifts 3 places to the LEFT: 0.3452",
-          "The decimal point shifts 3 places to the right: 345,200"
+          "The decimal point shifts three places toward the right",
+          "The decimal point stays fixed and three zeros are added",
+          "The decimal point shifts three places toward the left",
+          "The decimal point shifts two places left and one right"
         ],
         "answer": 2,
         "explanation": "Dividing by 10³ shifts the decimal point three places to the left, making the number 1,000 times smaller!"
@@ -13865,7 +13865,7 @@ const QUESTION_BANK = {
         "prompt": "What is the product of multiplying two NEGATIVE integers: (-6) x (-4) = ?",
         "options": [
           "+10",
-          "+24 (a negative times a negative equals a POSITIVE)",
+          "+24",
           "-24",
           "-10"
         ],
@@ -13877,7 +13877,7 @@ const QUESTION_BANK = {
         "options": [
           "+45",
           "+4",
-          "-4 (unlike signs produce a NEGATIVE quotient)",
+          "-4",
           "-27"
         ],
         "answer": 2,
@@ -13910,10 +13910,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is Anita's PROFIT PERCENTAGE?",
         "options": [
-          "15%",
-          "20% profit: x 100% = 20%",
-          "60%",
-          "25%"
+          "15 percent profit",
+          "20 percent profit",
+          "30 percent profit",
+          "25 percent profit"
         ],
         "answer": 1,
         "explanation": "600/3000 = 1/5 = 20% profit!"
@@ -13923,7 +13923,7 @@ const QUESTION_BANK = {
         "options": [
           "₹500",
           "₹1,200",
-          "₹600: / 100 = 60,000 / 100 = ₹600",
+          "₹600",
           "₹300"
         ],
         "answer": 2,
@@ -13957,7 +13957,7 @@ const QUESTION_BANK = {
         "prompt": "Convert Vikram's test score fraction (60/80) into a PERCENTAGE (%):",
         "options": [
           "80%",
-          "75%: 60/80 = 3/4 = 0.75 = 75%",
+          "75%",
           "70%",
           "60%"
         ],
@@ -13969,7 +13969,7 @@ const QUESTION_BANK = {
         "options": [
           "3/5",
           "7/10",
-          "7/20 (divide top and bottom by 5)",
+          "7/20",
           "35/10"
         ],
         "answer": 2,
@@ -14002,10 +14002,10 @@ const QUESTION_BANK = {
       {
         "prompt": "For four numbers (a, b, c, d) to be in proportion (a:b :: c:d), what must be true about the Product of Extremes and Product of Means?",
         "options": [
-          "Product of Extremes MUST EQUAL Product of Means (a x d = b x c)",
-          "They must sum to zero",
-          "Extremes must be larger than means",
-          "Means must equal 100"
+          "The product of extremes must equal the product of means",
+          "The product of extremes must be greater than the means",
+          "The product of extremes must equal the sum of the means",
+          "The product of extremes must always equal one hundred"
         ],
         "answer": 0,
         "explanation": "Cross-multiplication rule: a/b = c/d means a x d = b x c!"
@@ -14013,10 +14013,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Test [ 15, 45, 40, 120 ]: Extremes = 15 x 120 = 1,800. Means = 45 x 40 = 1,800. Are they in proportion?",
         "options": [
-          "Yes, they are in true proportion",
-          "Impossible to determine",
-          "No, they are not",
-          "Only during multiplication"
+          "Yes, because the two cross-products are equal",
+          "No, because the terms are not consecutive odd",
+          "No, because the ratios simplify to different values",
+          "Yes, but only if all terms are multiplied by ten"
         ],
         "answer": 0,
         "explanation": "15/45 = 1/3, and 40/120 = 1/3. Both ratios are identical (1:3), so they are in proportion!"
@@ -14048,10 +14048,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is an ANIMAL FIBRE composed primarily of natural proteins?",
         "options": [
-          "Nylon and Polyester (synthetic petrochemicals)",
-          "Cotton and Linen (plant cellulose)",
-          "Jute and Coir (plant stems/husks)",
-          "Wool (from sheep/goats) and Silk (from silkworms)"
+          "Nylon and Polyester",
+          "Cotton and Linen",
+          "Jute and Coir",
+          "Wool and Silk"
         ],
         "answer": 3,
         "explanation": "Wool and silk are harvested from animal sources and consist of natural structural proteins (keratin and fibroin)!"
@@ -14059,10 +14059,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What distinguishes a CHEMICAL CHANGE (like rusting of iron or baking bread) from a physical change?",
         "options": [
-          "Only color changes without new molecules",
-          "A brand new substance with entirely different chemical properties and bonds is formed, usually irreversible",
-          "It can always be undone by cooling",
-          "The shape changes but molecules stay identical"
+          "Only the external color or physical shape alters while molecular bonds remain untouched",
+          "A new substance with different chemical properties is formed through bond rearrangement",
+          "The transformation can always be reversed simply by cooling or heating the substance",
+          "The state of matter transitions between solid and liquid without altering composition"
         ],
         "answer": 1,
         "explanation": "Chemical changes involve breaking and forming chemical bonds, producing entirely new chemical species!"
@@ -14070,10 +14070,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is burning magnesium ribbon in air considered a chemical reaction?",
         "options": [
-          "It can be bent back into ribbon",
-          "It is just melting like butter",
-          "The metal is simply evaporating",
-          "Magnesium reacts with atmospheric oxygen to form a completely new white powder compound: Magnesium Oxide"
+          "Magnesium metal melts into a liquid state and returns to ribbon shape upon cooling down",
+          "Magnesium merely evaporates into invisible gas vapor without bonding to any other element",
+          "Magnesium dissolves into atmospheric nitrogen without altering its original metallic bonds",
+          "Magnesium reacts with atmospheric oxygen to form a new compound called magnesium oxide"
         ],
         "answer": 3,
         "explanation": "2Mg + O₂ -> 2MgO is a synthesis combustion reaction creating a novel compound!"
@@ -14094,10 +14094,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the critical scientific role of ACTIVATED CHARCOAL inside a multi-layer water filter?",
         "options": [
-          "It adds sugar to water",
-          "It freezes the water",
-          "It makes water turn black",
-          "It adsorbs dissolved organic impurities, toxins, chlorine, and foul odors onto its microscopic porous surface"
+          "It dissolves mineral sugars into filtered water to improve sweetness and beverage flavor",
+          "It lowers the temperature of flowing water until hazardous chemical molecules freeze solid",
+          "It releases carbon pigmentation into the stream to block penetration of ambient sunlight",
+          "It adsorbs dissolved organic impurities, chlorine, and unpleasant odors onto its surface"
         ],
         "answer": 3,
         "explanation": "Activated charcoal has immense surface area that traps organic molecules, bad odors, and chemical toxins!"
@@ -14105,10 +14105,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What do the graduated sand and gravel layers filter out mechanically?",
         "options": [
-          "Suspended insoluble particles like dirt, floating silt, and debris",
-          "All bacteria and viruses completely",
-          "Dissolved salt molecules",
-          "Water molecules themselves"
+          "Suspended insoluble particles like mud, silt grains, and organic debris",
+          "Microscopic viral and bacterial pathogens swimming in the water column",
+          "Dissolved mineral salt ions and chemical acids completely from liquid",
+          "Individual water molecules themselves through molecular sieving action"
         ],
         "answer": 0,
         "explanation": "Sand and gravel trap particulate matter, clarifying muddy water into sparkling clear liquid."
@@ -14116,10 +14116,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why must filtered water still be BOILED or treated with UV/chlorine before drinking?",
         "options": [
-          "Because cold water is poisonous",
-          "To make it taste like tea",
-          "Boiling is only for flavor",
-          "Mechanical filtration removes visible dirt, but boiling is required to kill microscopic disease-causing pathogens (bacteria/parasites)"
+          "Mechanical filtration chills water excessively, so boiling is needed to warm it for drinking",
+          "Boiling is performed solely to alter beverage taste and dissolve remaining sand particles",
+          "Unboiled water contains natural minerals that instantly solidify inside digestive organs",
+          "Filtration removes suspended dirt, but boiling is required to destroy disease pathogens"
         ],
         "answer": 3,
         "explanation": "Boiling for 1 minute denatures and kills waterborne pathogens like cholera and amoeba."
@@ -14140,10 +14140,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What biological agent is used in the AERATION TANK of a modern sewage treatment plant to consume human waste and organic pollutants?",
         "options": [
-          "Chemical bleach only",
-          "Aerobic bacteria that digest organic matter in the presence of pumped oxygen bubbles",
-          "Earthworms inside pipes",
-          "Small fish"
+          "Chemical chlorine bleach compounds that dissolve solid waste without biological action",
+          "Aerobic bacteria that break down organic waste in the presence of continuous oxygen",
+          "Parasitic earthworms introduced inside treatment tanks to ingest industrial sludge",
+          "Freshwater fish species introduced to consume floating organic residues and oils"
         ],
         "answer": 1,
         "explanation": "Aerobic microorganisms feed on dissolved organic waste, clarifying the water naturally!"
@@ -14151,10 +14151,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should used cooking oils and animal fats NEVER be poured down kitchen sink drains?",
         "options": [
-          "Cooking oil attracts birds into pipes",
-          "They rust plastic pipes instantly",
-          "Fats solidify in cold sewer pipes, trapping debris and forming massive clogs ('fatbergs') that block city drains",
-          "They make water evaporate too fast"
+          "Oils attract burrowing garden rodents and birds into underground kitchen drainage lines",
+          "Liquid fats chemically dissolve PVC drainage pipes within minutes of making direct contact",
+          "Fats solidify inside cold sewer lines, trapping solid waste and forming stubborn blockages",
+          "Pouring warm cooking oil down sinks accelerates municipal wastewater evaporation rates"
         ],
         "answer": 2,
         "explanation": "Hardened grease hardens into concrete-like fatbergs that choke municipal wastewater networks."
@@ -14162,7 +14162,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What native Indian tree is nicknamed the 'Village Pharmacy' for its natural antimicrobial, pest-repellent, and air-purifying properties?",
         "options": [
-          "The Neem Tree (Azadirachta indica)",
+          "The Neem Tree",
           "The Rubber tree",
           "The Eucalyptus tree",
           "The Cactus"
@@ -14186,10 +14186,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did adding salt increase the boiling point of pure water beyond 100°C?",
         "options": [
-          "Dissolved salt particles lower water's vapor pressure, requiring higher thermal energy to reach atmospheric boiling point (Boiling Point Elevation)",
-          "Salt cools down the flame",
-          "Salt turns water into stone",
-          "Salt boils at 10°C"
+          "Dissolved salt lowers vapor pressure, requiring higher temperature to reach boiling",
+          "Salt crystals cool the heating flame, slowing the transfer of thermal conduction",
+          "Salt transforms liquid molecules into solid minerals before vaporization occurs",
+          "Salt molecules boil at low temperatures, absorbing all ambient steam immediately"
         ],
         "answer": 0,
         "explanation": "Boiling point elevation is a colligative property: dissolved solute requires higher temperatures to boil!"
@@ -14197,10 +14197,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did the students resolve the discrepancy between their two thermometer readings scientifically?",
         "options": [
-          "By throwing away both thermometers",
-          "By calibrating both thermometers in melting ice (0°C) and pure boiling water (100°C) to identify instrument error",
-          "By flipping a coin",
-          "By guessing who was smarter"
+          "By discarding both measuring instruments and estimating the final temperature by touch",
+          "By calibrating both instruments against ice and boiling water to find systematic error",
+          "By tossing a coin to decide arbitrarily which student possessed the better device",
+          "By choosing the higher reading based on which laboratory partner completed work first"
         ],
         "answer": 1,
         "explanation": "Calibrating against known physical standards (freezing and boiling points) detects and corrects instrumental error!"
@@ -14208,10 +14208,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What core scientific attitude rejects accepting claims on blind authority alone?",
         "options": [
-          "Believing everything read on social media",
-          "Refusing to do experiments",
-          "Assuming all books are false",
-          "Skepticism grounded in empirical testing and reproducible evidence"
+          "Unquestioning acceptance of claims broadcast across digital media platforms",
+          "Total refusal to conduct repeatable laboratory experiments with peer groups",
+          "Assuming that all published textbooks contain completely fraudulent statements",
+          "Rational skepticism grounded in empirical testing and repeatable evidence"
         ],
         "answer": 3,
         "explanation": "Science demands: 'Show me the reproducible data!' rather than relying on unverified hearsay."
@@ -14232,10 +14232,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What aerodynamic principle explains why the paper strip rose when air was blown over its top? (Bernoulli's Principle)",
         "options": [
-          "Air gets heavy when blown",
-          "Blowing air creates heat",
-          "The paper is magnetic",
-          "High wind speed creates a region of LOWER air pressure above, so higher pressure below pushes the paper upward"
+          "Fast moving air increases local atmospheric pressure above the strip, pressing it down",
+          "Thermal energy generated by exhaled human breath makes the paper strip expand upward",
+          "Moving air creates electrostatic charges on paper fibers that repel underlying table air",
+          "Faster airflow lowers air pressure above the strip, allowing higher pressure below to lift it"
         ],
         "answer": 3,
         "explanation": "Bernoulli's Principle: Increased fluid/air speed is accompanied by a simultaneous decrease in pressure!"
@@ -14254,10 +14254,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does rapid depletion of the underground water table occur in regions with intensive tube-well irrigation?",
         "options": [
-          "Water is pumped out faster than natural monsoon rainwater can percolate down to recharge the aquifer",
-          "Water leaks out through Earth's core",
-          "The Sun pulls underground water up directly",
-          "Pipes destroy water molecules"
+          "Groundwater extraction exceeds the natural replenishment rate of monsoon percolation",
+          "Subterranean water drains continuously through deep fractures into Earth's molten core",
+          "Direct solar radiation penetrates deep subterranean rocks and evaporates deep aquifers",
+          "Irrigation pipes break water molecules down into hydrogen and oxygen gases underground"
         ],
         "answer": 0,
         "explanation": "Over-extraction exceeding natural recharge rates leads to dropping water tables and dry wells."
@@ -14289,10 +14289,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the correct chemical word equation for PHOTOSYNTHESIS inside green plant leaves?",
         "options": [
-          "Soil + Water -> Rock",
-          "Glucose + Oxygen -> Carbon Dioxide + Water",
-          "Oxygen + Hydrogen -> Nitrogen",
-          "Carbon Dioxide + Water --(Sunlight & Chlorophyll)--> Glucose (Carbohydrate) + Oxygen"
+          "Glucose + Oxygen ----> Carbon Dioxide + Water",
+          "Carbon Dioxide + Oxygen ----> Glucose + Water",
+          "Glucose + Water ----> Carbon Dioxide + Oxygen",
+          "Carbon Dioxide + Water ----> Glucose + Oxygen"
         ],
         "answer": 3,
         "explanation": "6CO₂ + 6H₂O + solar energy -> C₆H₁₂O₆ + 6O₂! Plants synthesize sugar while releasing oxygen."
@@ -14302,7 +14302,7 @@ const QUESTION_BANK = {
         "options": [
           "Pure Hydrogen gas only",
           "Carbon and Sand",
-          "Oxygen and Moisture (Water vapor)",
+          "Oxygen and Moisture",
           "Nitrogen and Argon"
         ],
         "answer": 2,
@@ -14335,8 +14335,8 @@ const QUESTION_BANK = {
       {
         "prompt": "What mode of HEAT TRANSFER warms your hands when you hold them above a campfire (without touching the flame) through moving warm air currents?",
         "options": [
-          "Convection (warm air rises and circulates)",
-          "Conduction (touching solid to solid)",
+          "Convection",
+          "Conduction",
           "Friction",
           "Magnetic induction"
         ],
@@ -14346,7 +14346,7 @@ const QUESTION_BANK = {
       {
         "prompt": "How does heat from the Sun reach Earth across 150 million kilometers of empty, airless vacuum space?",
         "options": [
-          "By Radiation (electromagnetic infrared waves which need no material medium)",
+          "By Radiation",
           "By ocean currents",
           "By Conduction through steel bars",
           "By Convection winds in outer space"
@@ -14392,10 +14392,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What type of flower has BOTH male stamens and female carpels present inside the same flower (e.g., Hibiscus and Mustard)?",
         "options": [
-          "A Unisexual flower (like Papaya and Watermelon)",
-          "A Sterile flower",
-          "A Bisexual / Hermaphrodite flower",
-          "An Apetalous flower"
+          "A Unisexual staminate flower",
+          "A Sterile non-flowering bud",
+          "A Bisexual complete flower",
+          "An Apetalous wind-blown bloom"
         ],
         "answer": 2,
         "explanation": "Bisexual flowers contain both reproductive whorls (androecium and gynoecium) within one blossom."
@@ -14416,9 +14416,9 @@ const QUESTION_BANK = {
       {
         "prompt": "Which type of human teeth are sharp, pointed, and adapted for tearing tough food (located right beside the front incisors)?",
         "options": [
-          "Canines (4 canines in adult mouth)",
-          "Molars (broad for grinding)",
-          "Incisors (chisel-shaped for cutting)",
+          "Canines",
+          "Molars",
+          "Incisors",
           "Premolars"
         ],
         "answer": 0,
@@ -14428,7 +14428,7 @@ const QUESTION_BANK = {
         "prompt": "What is the hardest, most mineralized protective biological substance in the entire human body, covering the tooth crown?",
         "options": [
           "Skull bone",
-          "Tooth Enamel (made of calcium phosphate hydroxyapatite)",
+          "Tooth Enamel",
           "Bone marrow",
           "Fingernail keratin"
         ],
@@ -14438,10 +14438,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Under a microscope, why does natural animal WOOL feel crimped and elastic, while synthetic nylon feels straight and slick?",
         "options": [
-          "Nylon is harvested from sheep",
-          "Wool fibres have microscopic overlapping keratin scales and natural waviness (crimp) that trap air pockets",
-          "Wool is coated with plastic glue",
-          "Wool is made of metal wire"
+          "Wool fibers are extruded from chemical petrochemical liquids that produce smooth outer walls",
+          "Wool fibers have microscopic overlapping scales and natural crimp that trap insulating air",
+          "Wool fibers are coated in synthetic resin adhesives that cause external edges to curl tightly",
+          "Wool fibers contain metallic mineral threads that bend permanently when subjected to strain"
         ],
         "answer": 1,
         "explanation": "Keratin scales and crimp give wool its supreme thermal insulation, bounce, and breathability!"
@@ -14463,7 +14463,7 @@ const QUESTION_BANK = {
         "prompt": "What does a STRAIGHT SLOPING LINE on a Distance-Time graph indicate about the motion of the vehicle?",
         "options": [
           "The vehicle is moving backwards",
-          "The vehicle is moving with UNIFORM SPEED (constant velocity)",
+          "The vehicle is moving with UNIFORM SPEED",
           "The vehicle is accelerating wildly",
           "The vehicle is stationary and parked"
         ],
@@ -14474,7 +14474,7 @@ const QUESTION_BANK = {
         "prompt": "What does the SLOPE (gradient) of a Distance-Time graph represent physically?",
         "options": [
           "Total fuel consumed",
-          "Speed (Velocity)",
+          "Speed",
           "Mass of the car",
           "Acceleration"
         ],
@@ -14508,10 +14508,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Trace the 4 stages in the complete metamorphosis life cycle of the Silk Moth (Bombyx mori):",
         "options": [
-          "Egg -> Pupa -> Larva -> Moth",
-          "Egg -> Silkworm (Caterpillar/Larva) -> Pupa inside Cocoon -> Adult Silk Moth",
-          "Caterpillar -> Egg -> Butterfly -> Cocoon",
-          "Adult Moth -> Cocoon -> Egg -> Larva"
+          "Egg -> Pupa -> Silkworm Larva -> Adult Silk Moth",
+          "Egg -> Silkworm Larva -> Pupa in Cocoon -> Adult",
+          "Silkworm Larva -> Egg -> Flying Moth -> Cocoon",
+          "Adult Silk Moth -> Cocoon -> Egg -> Silkworm"
         ],
         "answer": 1,
         "explanation": "Complete holometabolous metamorphosis: Egg hatches into voracious caterpillar, spins cocoon into pupa, emerges as adult moth!"
@@ -14519,7 +14519,7 @@ const QUESTION_BANK = {
       {
         "prompt": "In an electric circuit schematic diagram, what does a symbol with one long thin parallel line and one shorter thick parallel line represent?",
         "options": [
-          "An Electric Cell (battery source)",
+          "An Electric Cell",
           "A light bulb",
           "A copper connecting wire",
           "An open switch"
@@ -14530,10 +14530,10 @@ const QUESTION_BANK = {
       {
         "prompt": "From which developmental stage of the silk moth do commercial sericulturists reel shimmering raw silk filament?",
         "options": [
-          "The adult flying moth",
-          "The intact Cocoon spun by the pupa",
-          "The tiny newly hatched egg",
-          "The mulberry leaf"
+          "The adult winged reproductive moth",
+          "The intact cocoon spun by the pupa",
+          "The tiny newly hatched larval worm",
+          "The mulberry leaf before hatching"
         ],
         "answer": 1,
         "explanation": "The cocoon consists of a single unbroken continuous protein thread up to 900 meters long reeled before the moth emerges!"
@@ -14554,10 +14554,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'TIME PERIOD' (T) of a simple pendulum?",
         "options": [
-          "The weight of the pendulum bob in grams",
-          "The angle of the swing",
-          "The time taken by the pendulum bob to complete ONE full back-and-forth oscillation",
-          "The time it takes to build a clock"
+          "The total mass of the suspended spherical pendulum bob measured in metric grams",
+          "The maximum angle of displacement measured from the central resting vertical position",
+          "The time taken by the pendulum bob to complete one full back-and-forth oscillation",
+          "The total duration required for atmospheric friction to bring the pendulum to a stop"
         ],
         "answer": 2,
         "explanation": "Time period is the duration required for one complete cyclic swing from extreme to extreme and back!"
@@ -14579,7 +14579,7 @@ const QUESTION_BANK = {
           "How loud the room is",
           "The mass or material of the metal bob",
           "The color of the string",
-          "The LENGTH of the suspending string (longer pendulums swing slower)"
+          "The LENGTH of the suspending string"
         ],
         "answer": 3,
         "explanation": "Formula: T = 2π√(L/g). Time period depends strictly on pendulum length L and gravitational acceleration g!"
@@ -14603,7 +14603,7 @@ const QUESTION_BANK = {
           "Battery acid",
           "Table salt",
           "Dilute hydrochloric acid",
-          "Quicklime (Calcium Oxide) or Slaked Lime (Calcium Hydroxide)"
+          "Quicklime or Slaked Lime"
         ],
         "answer": 3,
         "explanation": "Agricultural liming: basic calcium compounds neutralize excess soil acidity, restoring optimal plant nutrient uptake!"
@@ -14613,7 +14613,7 @@ const QUESTION_BANK = {
         "options": [
           "Lemon juice and vinegar",
           "Strong concentrated sulfuric acid",
-          "Milk of Magnesia (Magnesium Hydroxide) or Baking Soda (Sodium Bicarbonate)",
+          "Milk of Magnesia or Baking Soda",
           "Chilli powder"
         ],
         "answer": 2,
@@ -14622,10 +14622,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does vegetative propagation (growing new plants from stem cuttings or potato eyes) benefit horticulture farmers?",
         "options": [
-          "Plants produce zero fruit",
-          "Seeds take 100 years to grow",
-          "It turns plants into animals",
-          "Offspring plants are genetically identical to the parent (clones), preserving prized fruit quality and bearing fruit faster"
+          "New crops display complete genetic variation, resisting all known insect pest varieties",
+          "Cuttings eliminate the requirement of applying organic manure or watering crop fields",
+          "Vegetatively grown crops require decades of dormancy before producing harvestable yields",
+          "Offspring plants preserve desirable parent traits identically and yield crops much faster"
         ],
         "answer": 3,
         "explanation": "Asexual vegetative propagation reproduces superior crop varieties rapidly without genetic variation!"
@@ -14646,10 +14646,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did Dr. Edward Jenner create the world's FIRST VACCINE against deadly smallpox in 1796?",
         "options": [
-          "He built the first electron microscope",
-          "He observed milkmaids infected with mild cowpox were immune to smallpox, and inoculated patients with cowpox lymph to build immunity",
-          "He sanitized water with chlorine",
-          "He invented antibiotic pills"
+          "He engineered the first compound electron microscope to observe bacterial cell division",
+          "He used mild cowpox fluid from milkmaids to safely inoculate people against deadly smallpox",
+          "He added concentrated chlorine salts to municipal well systems to eliminate waterborne germs",
+          "He extracted synthetic penicillin antibiotics from blue bread mold to cure viral infections"
         ],
         "answer": 1,
         "explanation": "From the Latin 'vacca' (cow), Jenner's cowpox inoculation gave birth to immunology and eradicated smallpox!"
@@ -14693,7 +14693,7 @@ const QUESTION_BANK = {
         "prompt": "When a Newton's Colour Disc painted with the seven rainbow colors (VIBGYOR) is spun rapidly, what color does it appear to the human eye?",
         "options": [
           "Dark Brown",
-          "White (or grayish-white)",
+          "White",
           "Pitch Black",
           "Neon Green"
         ],
@@ -14703,10 +14703,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What meteorological instrument uses spinning cupped arms mounted on a vertical spindle to measure WIND SPEED?",
         "options": [
-          "A Barometer (measures pressure)",
+          "A Barometer",
           "A Rain Gauge",
           "An Anemometer",
-          "A Wind Vane (measures direction only)"
+          "A Wind Vane"
         ],
         "answer": 2,
         "explanation": "Anemometers spin proportionally to wind velocity, calibrated in meters per second or knots."
@@ -14738,10 +14738,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What optical phenomenon occurs when a beam of white sunlight passes through a triangular glass prism, splitting into seven rainbow colors?",
         "options": [
-          "DISPERSION of light into its spectrum (VIBGYOR)",
-          "Magnification into an eclipse",
-          "Polarization only",
-          "Total darkness"
+          "Dispersion of light into its color spectrum",
+          "Total internal reflection without refraction",
+          "Polarization of light waves along one plane",
+          "Diffraction of light around an opaque barrier"
         ],
         "answer": 0,
         "explanation": "Because different wavelengths of light refract at slightly different angles in glass, white light disperses into its 7 constituent colors!"
@@ -14751,8 +14751,8 @@ const QUESTION_BANK = {
         "options": [
           "Green",
           "Yellow",
-          "Red (bends the least)",
-          "Violet (bends the most)"
+          "Red",
+          "Violet"
         ],
         "answer": 3,
         "explanation": "Violet has the shortest visible wavelength and slows down most in glass, refracting through the largest angle!"
@@ -14760,10 +14760,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What natural optical phenomenon in the sky acts as millions of tiny rain-droplet prisms, forming a magnificent rainbow?",
         "options": [
-          "Smoke rising from chimneys",
-          "The Moon shining backwards",
-          "Internal reflection, refraction, and dispersion of sunlight through spherical falling raindrops",
-          "Clouds catching on fire"
+          "Dense plumes of chimney smoke scattering radiant sunlight across upper atmospheric layers",
+          "Sunlight reflecting directly off lunar craters during daytime hours under clear blue skies",
+          "Refraction, internal reflection, and dispersion of sunlight within falling raindrops",
+          "Atmospheric friction igniting dry moisture clouds into glowing strips of vibrant color"
         ],
         "answer": 2,
         "explanation": "Raindrops act as spherical prisms: refracting, internally reflecting, and dispersing sunlight toward the observer!"
@@ -14784,10 +14784,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When a severe CYCLONE WARNING is broadcast for coastal areas, what is the most critical safety action for fishing communities?",
         "options": [
-          "Stand on sea walls taking photographs",
-          "Sail deep into the ocean to catch more fish",
-          "Heed weather advisories immediately, anchor boats securely, avoid venturing into the sea, and evacuate to elevated cyclone shelters",
-          "Ignore all official alerts"
+          "Sail deep into offshore ocean waters to take advantage of turbulent fish gathering zones",
+          "Gather along shoreline promenades and sea walls to observe approaching storm surges closely",
+          "Heed alerts, secure boats, refrain from entering the sea, and move to safe storm shelters",
+          "Continue regular coastal fishing operations assuming local weather warnings are exaggerated"
         ],
         "answer": 2,
         "explanation": "Heeding early cyclone alerts and moving to fortified multi-purpose shelters saves thousands of human lives!"
@@ -14795,10 +14795,10 @@ const QUESTION_BANK = {
       {
         "prompt": "During a sudden urban flash FLOOD, what electrical precaution MUST every household take immediately?",
         "options": [
-          "Turn off the main electrical circuit breaker (MCB) to prevent fatal electrocution through standing water",
-          "Turn on all heaters",
-          "Plug in more electronic appliances",
-          "Touch submerged electrical wires with bare hands"
+          "Turn off the main circuit breaker to avoid electrocution hazard through standing floodwater",
+          "Turn on electric space heating units to evaporate rising floor water throughout living rooms",
+          "Plug multiple electronic extension cords into submerged wall sockets to maintain power feed",
+          "Handle submerged electric appliances with damp bare hands to inspect internal wire damage"
         ],
         "answer": 0,
         "explanation": "Water conducts electricity; turning off the master circuit breaker prevents lethal short circuits and electrocution."
@@ -14806,10 +14806,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the universal international distress whistle signal used by stranded disaster victims to guide rescue boats?",
         "options": [
-          "One continuous whisper",
-          "Whistling once every three days",
-          "Playing a song on a flute",
-          "Three loud, sharp, repeated blasts on a whistle (SOS signal)"
+          "One long continuous quiet whisper into the wind",
+          "A single whistle blast sounded once every two days",
+          "Playing a musical melody using a wooden folk flute",
+          "Three loud, sharp, repeated blasts on a whistle"
         ],
         "answer": 3,
         "explanation": "Three distinct whistle blasts repeated every minute is the recognized international audible signal for help!"
@@ -14830,10 +14830,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What human activity dramatically increases the frequency of catastrophic LANDSLIDES on steep mountain slopes?",
         "options": [
-          "Drinking mountain spring water",
-          "Planting native oak trees",
-          "Building small wooden bird houses",
-          "Unplanned slope cutting, destruction of deep-rooted forest cover, and blasting for highways without proper retaining walls"
+          "Planting native deep-rooted broadleaf oak trees along vulnerable high-altitude mountain slopes",
+          "Constructing stepped agricultural terraces with stone bunds to catch flowing seasonal rainfall",
+          "Drawing freshwater from natural underground mountain springs for sustainable drinking supply",
+          "Clearing slope forests, unplanned hill excavation, and blasting highways without retaining walls"
         ],
         "answer": 3,
         "explanation": "Tree roots act as natural soil nails; stripping forest cover and steep excavation destabilize fragile mountain slopes!"
@@ -14841,10 +14841,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What causes severe URBAN FLOODING in modern metropolitan cities even during moderate monsoon showers?",
         "options": [
-          "The city has too many parks",
-          "Encroachment of natural lake basins, concretization of surfaces preventing rainwater percolation, and choked stormwater drains",
-          "Too many bicycles on roads",
-          "City buildings are painted white"
+          "Allocating too much municipal land area for open botanical gardens, public parks, and urban forests",
+          "Encroachment on natural lake beds, concrete surfaces blocking percolation, and choked storm drains",
+          "An excessive number of zero-emission bicycles and pedestrians using paved urban transit lanes",
+          "Painting commercial building exteriors in light reflective colors that slow rainwater evaporation"
         ],
         "answer": 1,
         "explanation": "Concretized urban sprawl eliminates sponge areas, funneling stormwater into inadequate clogged drains!"
@@ -14852,10 +14852,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does global global warming exacerbate the frequency of extreme weather events (severe droughts and intense cyclonic deluges)?",
         "options": [
-          "Global warming stops all clouds from forming",
-          "It has zero impact on weather systems",
-          "Warmer air holds more moisture (7% more per 1°C rise), supercharging intense storm precipitation and accelerating drought evaporation",
-          "Warmer air freezes the atmosphere into solid ice"
+          "Warmer air freezes atmospheric water vapor completely into permanent polar glaciers",
+          "Global warming stabilizes atmospheric air pressure, eliminating severe storm events",
+          "Warmer air retains more moisture, intensifying storms and speeding soil evaporation",
+          "Rising temperatures prevent cloud condensation, halting global rainfall permanently"
         ],
         "answer": 2,
         "explanation": "Thermodynamics: warmer oceans fuel higher cyclone wind energies and cause erratic, concentrated rainfall bursts."
@@ -14890,7 +14890,7 @@ const QUESTION_BANK = {
           "A circular volcanic caldera formed by an explosive eruption",
           "A flat desert sand dune shaped by wind",
           "A sharp V-shaped river gorge cut by fast water",
-          "A U-Shaped Glacial Trough (Valley)"
+          "A U-Shaped Glacial Trough"
         ],
         "answer": 3,
         "explanation": "Glacial ice plucks and scours valley walls simultaneously, carving wide, steep, flat-bottomed U-shaped valleys!"
@@ -14898,8 +14898,8 @@ const QUESTION_BANK = {
       {
         "prompt": "What mushroom-shaped rock formations in arid deserts are created when wind erosion scours softer rock at the base faster than hard rock at the top?",
         "options": [
-          "Sand dunes (Barchans)",
-          "Mushroom Rocks (Rock Pedestals)",
+          "Sand dunes",
+          "Mushroom Rocks",
           "Alluvial fans",
           "River oxbow lakes"
         ],
@@ -14933,10 +14933,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do commercial long-haul passenger jet airplanes prefer cruising in the lower STRATOSPHERE (above the troposphere)?",
         "options": [
-          "Because gravity stops working there",
-          "Because planes cannot fly through air",
-          "It is free from stormy convective clouds and violent turbulence, offering smooth, fuel-efficient high-speed flight",
-          "To avoid all satellite orbits"
+          "Gravitational attraction ceases completely at that altitude, allowing engines to drift without fuel",
+          "High concentrations of atmospheric ozone gas provide supplemental chemical fuel to aircraft engines",
+          "It remains free of convective storm clouds and violent weather, enabling smooth, efficient cruise",
+          "International aviation treaties strictly prohibit aircraft from entering lower tropospheric layers"
         ],
         "answer": 2,
         "explanation": "The calm, dry, cloud-free stratosphere provides stable aerodynamic cruising above storm turbulence."
@@ -14947,7 +14947,7 @@ const QUESTION_BANK = {
           "The Core",
           "The Exosphere",
           "The Troposphere",
-          "The Mesosphere (the coldest atmospheric layer)"
+          "The Mesosphere"
         ],
         "answer": 3,
         "explanation": "Meteors entering the dense mesosphere encounter violent frictional heating, vaporizing into glowing shooting stars!"
@@ -14969,7 +14969,7 @@ const QUESTION_BANK = {
         "prompt": "What are the three concentric compositional layers of Earth from surface to center?",
         "options": [
           "Sand -> Clay -> Mud",
-          "Crust -> Mantle -> Core (Outer liquid core & Inner solid core)",
+          "Crust -> Mantle -> Core",
           "Lava -> Granite -> Gas",
           "Soil -> Water -> Air"
         ],
@@ -14980,9 +14980,9 @@ const QUESTION_BANK = {
         "prompt": "What heavy metallic elements compose Earth's dense central CORE (nicknamed NIFE)?",
         "options": [
           "Gold and Silver",
-          "Nickel (Ni) and Iron (Fe)",
-          "Silicon and Magnesium (SiMa)",
-          "Silicon and Aluminium (SiAl)"
+          "Nickel and Iron",
+          "Silicon and Magnesium",
+          "Silicon and Aluminium"
         ],
         "answer": 1,
         "explanation": "Ni-Fe: The core is composed primarily of an alloy of nickel and iron under extreme pressures."
@@ -14992,7 +14992,7 @@ const QUESTION_BANK = {
         "options": [
           "Fossil Rocks",
           "Sedimentary Rocks",
-          "Igneous Rocks (Primary Rocks)",
+          "Igneous Rocks",
           "Metamorphic Rocks"
         ],
         "answer": 2,
@@ -15014,10 +15014,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What dangerous microscopic particulate matter in air pollution penetrates deep into human lungs and blood vessels (PM 2.5)?",
         "options": [
-          "Large grains of beach sand",
-          "Particulate Matter smaller than 2.5 micrometers in diameter (from vehicle exhausts and combustion)",
-          "Drops of clean rain",
-          "Dry autumn leaves"
+          "Coarse mineral sand grains larger than two millimeters",
+          "Particulate matter smaller than two point five microns",
+          "Large droplets of clean rainwater condensing in clouds",
+          "Dry autumn leaf fragments carried by seasonal breezes"
         ],
         "answer": 1,
         "explanation": "PM 2.5 particles are 30 times finer than a human hair and pose grave respiratory and cardiovascular risks."
@@ -15025,10 +15025,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What mandatory industrial facility neutralizes toxic heavy metals and chemicals before factory wastewater is discharged into rivers?",
         "options": [
-          "A cooling fan",
-          "A coal furnace",
-          "An Effluent Treatment Plant (ETP)",
-          "A diesel generator"
+          "An industrial cooling tower",
+          "A coal combustion furnace",
+          "An effluent treatment plant",
+          "A diesel backup generator"
         ],
         "answer": 2,
         "explanation": "Industrial ETPs use chemical precipitation, bio-digestion, and filtration to detoxify industrial effluent!"
@@ -15036,10 +15036,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What clean vehicle fuel transition has significantly reduced sulfur and carbon emissions in Indian public transport?",
         "options": [
-          "Compressed Natural Gas (CNG) and Electric Vehicles (EVs)",
-          "Using crude kerosene",
-          "Burning firewood",
-          "Burning raw coal inside bus engines"
+          "Compressed Natural Gas and electric battery buses",
+          "Crude unrefined kerosene blended with diesel fuel",
+          "Traditional furnace coal burned in steam vehicles",
+          "Raw agricultural firewood used in combustion vans"
         ],
         "answer": 0,
         "explanation": "CNG and electric battery buses produce zero particulate smoke, dramatically improving urban breathing quality!"
@@ -15061,9 +15061,9 @@ const QUESTION_BANK = {
         "prompt": "Which of these is an ABIOTIC (non-living physical and chemical) component of an ecosystem?",
         "options": [
           "Sunlight, water, soil minerals, and air temperature",
-          "Water lilies and algae",
-          "Fish swimming in water",
-          "Microscopic plankton"
+          "Aquatic water lilies, pond weeds, and green algae",
+          "Freshwater fish species, amphibians, and tadpoles",
+          "Microscopic zooplankton, fungal spores, and worms"
         ],
         "answer": 0,
         "explanation": "Abiotic factors are physical non-living elements: light, temperature, moisture, pH, and soil minerals!"
@@ -15071,10 +15071,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary role of DECOMPOSERS (like soil fungi and bacteria) in an ecosystem nutrient cycle?",
         "options": [
-          "They break down dead plant and animal matter, recycling essential nutrients back into the soil for new plant growth",
-          "They make rocks turn into water",
-          "They hunt live deer in the forest",
-          "They consume pure sunlight"
+          "They decompose dead organic matter, recycling vital nutrients into soil for plants",
+          "They transform solid mineral rocks into freshwater springs across deep river valleys",
+          "They actively hunt herbivore herds across forest canopies to control animal numbers",
+          "They absorb raw solar radiation directly to generate sugars without any chlorophyll"
         ],
         "answer": 0,
         "explanation": "Decomposers are nature's recyclers, returning phosphorus, nitrogen, and minerals back to the living food web!"
@@ -15082,10 +15082,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens if a keystone predator (like the tiger in a forest or the shark in a reef) is completely eradicated by humans?",
         "options": [
-          "Trees grow twice as fast",
-          "All other animals live forever",
-          "The forest becomes cleaner and better",
-          "Herbivore populations explode, leading to overgrazing, forest degradation, and ecological collapse"
+          "Tree species multiply rapidly, producing dense pristine forests with zero vegetative decay",
+          "All lower trophic organisms experience limitless longevity without any environmental threats",
+          "Ecosystem productivity surges to record levels as predatory food webs disappear entirely",
+          "Herbivore populations surge uncontrollably, causing overgrazing and ecological degradation"
         ],
         "answer": 3,
         "explanation": "Top predators maintain trophic cascades: keeping herbivore numbers in balance to protect forest flora!"
@@ -15106,10 +15106,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do equatorial Tropical Evergreen Rainforests harbor the greatest biodiversity on Earth?",
         "options": [
-          "They have freezing cold weather",
-          "Because humans planted all the trees",
-          "Because animals dislike other continents",
-          "Constant warmth, year-round solar energy, and abundant rainfall support continuous plant growth and complex multi-canopy ecological niches"
+          "They experience sub-zero polar temperatures that preserve seeds in frozen permafrost layers",
+          "Human horticultural societies introduced and cultivated every tropical plant variety there",
+          "Animal species migrate there solely because neighboring continents lack adequate landmass",
+          "Constant warmth, abundant sunlight, and heavy rainfall nurture layered ecological niches"
         ],
         "answer": 3,
         "explanation": "Year-round solar energy and moisture foster lush, multi-layered vertical niches supporting 50%+ of Earth's species!"
@@ -15117,10 +15117,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do flora and fauna survive in the freezing, treeless Arctic TUNDRA biome?",
         "options": [
-          "Plants grow inside heated glass caves",
-          "Low-growing mosses, lichens, and dwarf shrubs survive brief summers; animals have thick blubber and insulating double fur coats",
-          "Animals have no skin",
-          "Trees grow 100 meters tall"
+          "Tall tropical hardwood trees grow inside thermal cavern systems protected from freezing winds",
+          "Prostrate mosses and dwarf shrubs endure cold, while fauna rely on thick blubber and dense fur",
+          "Animals survive by shedding all external epidermal layers and hibernating under molten springs",
+          "Coniferous pine forests grow a hundred meters high by tapping underground hydrothermal vents"
         ],
         "answer": 1,
         "explanation": "Permafrost subsoil prevents deep roots, favoring hardy prostrate mosses and cold-adapted blubber-insulated mammals."
@@ -15128,10 +15128,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'BIODIVERSITY HOTSPOT' (such as India's Western Ghats and Eastern Himalayas)?",
         "options": [
-          "A biogeographic region with exceptionally high concentrations of endemic species under severe threat of habitat destruction",
-          "A desert with very hot temperatures",
-          "A volcanic caldera",
-          "A zoo with foreign animals"
+          "A region rich in unique endemic species facing severe threats of habitat destruction",
+          "An arid desert territory characterized by extreme temperatures and sparse animal life",
+          "A volcanic caldera plateau containing high concentrations of thermal sulphur minerals",
+          "An artificial botanical garden built to display foreign wildlife in municipal cities"
         ],
         "answer": 0,
         "explanation": "Hotspots hold irreplaceable endemic wildlife found nowhere else on the planet, demanding urgent conservation!"
@@ -15152,10 +15152,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary conservation objective of 'PROJECT TIGER' launched by India in 1973?",
         "options": [
-          "To export tigers to foreign circuses",
-          "To domesticate wild tigers as household pets",
-          "To ensure a viable population of Bengal Tigers in designated protected Tiger Reserves and preserve forest ecosystems",
-          "To clear forests for farming"
+          "To capture wild Bengal tigers for commercial breeding in international traveling circuses",
+          "To domesticate wild carnivores so rural households can maintain them as security guards",
+          "To maintain viable tiger populations within dedicated reserves and protect forest biomes",
+          "To clear extensive forested terrains for setting up mechanized commercial sugar farms"
         ],
         "answer": 2,
         "explanation": "Project Tiger has expanded to 55+ reserves, successfully recovering wild tiger populations to over 3,600!"
@@ -15163,10 +15163,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'SUSTAINABLE DEVELOPMENT'?",
         "options": [
-          "Stopping all technology and human activity",
-          "Development that meets the economic needs of the present without compromising the ability of future generations to meet their own needs",
-          "Building factories without rules",
-          "Consuming all oil and forests as fast as possible"
+          "Ceasing all industrial manufacturing and human technological activity across every continent",
+          "Meeting present economic needs without compromising the ability of future generations to thrive",
+          "Encouraging unregulated factory construction without adhering to environmental safety laws",
+          "Depleting fossil fuel reserves and clearing forests as rapidly as possible to generate wealth"
         ],
         "answer": 1,
         "explanation": "The Brundtland definition: balancing human progress with planetary ecological replenishment for future generations."
@@ -15174,10 +15174,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does preserving intact natural mangrove forests protect coastal cities from deadly tropical cyclones?",
         "options": [
-          "Mangroves catch fish for people",
-          "Dense tangled prop roots act as natural seawalls that attenuate storm surge energy and reduce wave height by up to 66%",
-          "Mangroves blow cyclones away into space",
-          "Mangroves make ocean water turn warm"
+          "Mangrove leaves release atmospheric gases that dissolve tropical storms before landfall",
+          "Dense prop root systems act as bio-shields that absorb wave force and blunt storm surges",
+          "Mangrove canopies generate offshore heat currents that deflect cyclones back into space",
+          "Mangrove trunks elevate ocean water temperatures, converting ocean surges into light rain"
         ],
         "answer": 1,
         "explanation": "Mangrove bioshields absorb immense hydraulic surge energy, protecting coastal villages and cities!"
@@ -15198,10 +15198,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What geographic advantage historically stimulated rapid economic and industrial development in coastal port cities?",
         "options": [
-          "Direct access to international maritime shipping lanes for bulk import/export of raw materials and finished goods",
-          "Coastal cities never experience rain",
-          "Port cities have no taxes",
-          "Ships can fly over mountains"
+          "Direct access to oceanic shipping routes enabling bulk import and export of raw materials and goods",
+          "Complete freedom from seasonal monsoon rain storms and total insulation from atmospheric cyclones",
+          "Exemption from all federal commercial tax codes and absolute freedom from domestic labor regulations",
+          "The geographical capability of seafaring merchant cargo ships to navigate across high mountain ranges"
         ],
         "answer": 0,
         "explanation": "Maritime ports are gateways for global trade, attracting banking, manufacturing, logistics, and rail networks!"
@@ -15209,10 +15209,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What infrastructural development is most critical to connect remote landlocked mountain states to national economic markets?",
         "options": [
-          "Stopping all roads into the hills",
-          "Banning electricity in mountains",
-          "All-weather tunnels, mountain railways, fiber-optic connectivity, and cold-storage supply chains",
-          "Building ocean harbors on mountain peaks"
+          "Demolishing existing mountain roadways to encourage traditional reliance on pack mule caravans",
+          "Prohibiting electrical grid infrastructure across fragile high-altitude ecological communities",
+          "All-weather road tunnels, mountain rail links, digital connectivity, and cold storage logistics",
+          "Constructing deep-water maritime shipping harbors on top of landlocked Himalayan ridge peaks"
         ],
         "answer": 2,
         "explanation": "All-weather tunnels (like the Atal Tunnel) and connectivity ensure year-round transport of local produce and medicine."
@@ -15220,10 +15220,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does investment in clean public transport (like rapid Metro Rail networks) stimulate urban economic productivity?",
         "options": [
-          "It forces people to walk 50 miles",
-          "It slashes traffic congestion delays, reduces fuel import costs, lowers air pollution illness, and connects workers to jobs",
-          "It increases traffic jams",
-          "It stops city growth"
+          "It obliges suburban commuters to walk extended distances by removing conventional bus routes",
+          "It cuts road congestion, reduces fuel import bills, lowers pollution, and links staff to jobs",
+          "It intensifies inner-city road gridlock by requiring extra surface intersections for trains",
+          "It restricts metropolitan economic growth by draining public development capital from trade"
         ],
         "answer": 1,
         "explanation": "Efficient mass transit connects millions of workers smoothly, boosting economic efficiency and urban air quality!"
@@ -15244,10 +15244,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do traditional pastoral nomads of the Sahara Desert (like the Tuareg and Bedouins) adapt their clothing to desert extremes?",
         "options": [
-          "Wearing heavy woollen fur coats",
-          "Wearing dark black rubber suits",
-          "Wearing thin plastic raincoats",
-          "Wearing loose, flowing, full-body robes and head turbans that shade against scorching sun and protect against blowing sand"
+          "Wearing heavyweight woollen fur coats designed to retain internal heat during midday sun",
+          "Wearing airtight dark rubber suits that prevent natural perspiration from cooling skin",
+          "Wearing transparent synthetic vinyl coats that trap hot air directly against the body",
+          "Wearing loose, flowing robes and protective turbans that shield against sun and sand"
         ],
         "answer": 3,
         "explanation": "Loose robes allow air circulation while shielding skin from UV rays, desert wind, and blowing sand grains!"
@@ -15255,10 +15255,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are stilt houses with high thatched roofs traditionally built along the floodplains of the Amazon and Brahmaputra river basins?",
         "options": [
-          "To elevate living quarters above seasonal floodwaters and allow cool breezes to circulate beneath the floor",
-          "Because ladders look attractive",
-          "To catch flying birds",
-          "To avoid all contact with ground soil"
+          "To elevate living floors above seasonal floodwaters and promote cooling breezes beneath",
+          "To install steep ladders that deter neighborhood pets from entering common living areas",
+          "To position home rooftops high enough to snare migrating birds for daily nourishment",
+          "To prevent structural wooden foundation posts from touching nutritious agricultural soil"
         ],
         "answer": 0,
         "explanation": "Stilt architecture keeps families, grain stores, and sleeping quarters safely dry during monsoon inundations."
@@ -15266,10 +15266,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the Mediterranean climatic region famous for producing due to its warm, dry summers and mild, rainy winters?",
         "options": [
-          "Giant rubber trees",
-          "Citrus fruits, olives, grapes for viticulture, and figs (the 'Orchard of the World')",
-          "Reindeer meat only",
-          "Polar bear fur"
+          "Natural rubber latex, cacao beans, and dense teak timber",
+          "Citrus fruits, olives, grapes for vineyards, and sweet figs",
+          "Reindeer livestock, arctic lichen moss, and polar game",
+          "Highland barley grain, alpine spruce poles, and wool"
         ],
         "answer": 1,
         "explanation": "Mediterranean climate is world-renowned for olive groves, citrus orchards, and extensive vineyards!"
@@ -15292,7 +15292,7 @@ const QUESTION_BANK = {
         "options": [
           "The Sub-Zero Zone",
           "The North Polar Cap",
-          "The TORRID ZONE (Tropical Zone)",
+          "The TORRID ZONE",
           "The Frigid Zone"
         ],
         "answer": 2,
@@ -15303,7 +15303,7 @@ const QUESTION_BANK = {
         "options": [
           "The Tropical Zone",
           "The Equatorial Zone",
-          "The FRIGID ZONES (Polar Zones)",
+          "The FRIGID ZONES",
           "The Torrid Zone"
         ],
         "answer": 2,
@@ -15312,10 +15312,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do the TEMPERATE ZONES (between tropics and polar circles) experience moderate, mild seasonal temperatures?",
         "options": [
-          "They are identical to the equator",
-          "The angle of the sun's rays is never directly overhead and never extremely slanting, resulting in moderate heat",
-          "Because they are inside clouds",
-          "Because they have no sun"
+          "The sun shines directly overhead at vertical angles every single day of the year",
+          "The angle of sunlight is neither completely vertical nor extremely slanting",
+          "Continuous cloud formations prevent any solar radiation from reaching the ground",
+          "Permanent darkness shields the land from receiving thermal energy from the sun"
         ],
         "answer": 1,
         "explanation": "Moderate solar incidence angles create pleasant temperate four-season climates across Europe, North America, and North Asia."
@@ -15336,10 +15336,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between TRABEATE (corbelled) architecture and ARCUATE architecture?",
         "options": [
-          "They mean the exact same style",
-          "Trabeate uses only mud; Arcuate uses glass",
-          "Trabeate uses horizontal beams supported by vertical stone pillars; Arcuate uses curved true arches and central keystones to bear heavy roof weight",
-          "Trabeate is made for ships"
+          "Trabeate employs steel girders exclusively, whereas arcuate construction relies on bamboo poles",
+          "Trabeate uses sun-dried mud bricks, whereas arcuate design uses reinforced plate glass panels",
+          "Trabeate uses horizontal beams on vertical pillars; arcuate uses true arches with keystones",
+          "Trabeate is designed exclusively for ships, whereas arcuate style applies solely to fortresses"
         ],
         "answer": 2,
         "explanation": "Ancient Indian temples used post-and-lintel (trabeate); medieval Sultanate builders introduced true arches (arcuate) and domes!"
@@ -15360,7 +15360,7 @@ const QUESTION_BANK = {
         "options": [
           "A rock garden",
           "A maze labyrinth",
-          "Charbagh (Four Gardens divided by crossed water channels)",
+          "Charbagh",
           "A greenhouse"
         ],
         "answer": 2,
@@ -15382,10 +15382,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did Sultan Alauddin Khalji introduce rigorous market price controls and state granaries in Delhi?",
         "options": [
-          "To maintain a massive standing cavalry army at fixed low costs to successfully repel repeated Mongol invasions",
-          "To force everyone to move away from Delhi",
-          "To make all merchants poor",
-          "Because he disliked trade"
+          "To sustain a large standing army at fixed low costs to defend against Mongol invasions",
+          "To compel the urban population of Delhi to relocate permanently to the Deccan frontier",
+          "To bankrupt domestic merchant guilds and abolish commercial currency across the empire",
+          "To suppress agricultural production and discourage grain trade between rural provinces"
         ],
         "answer": 0,
         "explanation": "Alauddin fixed commodity prices with strict market superintendents (Shahna-i-Mandi) to sustain a colossal anti-Mongol defense army!"
@@ -15404,10 +15404,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the MANSABDARI SYSTEM in Mughal administration?",
         "options": [
-          "A hereditary title that could never change",
-          "A system where all soldiers were farmers",
-          "A religious order of monks",
-          "A graded civil and military hierarchy where an officer's rank, salary, and cavalry quota were determined by his 'Zat' and 'Sawar' ranks"
+          "A hereditary aristocracy wherein official titles passed automatically from father to eldest son",
+          "A commune structure where active army soldiers cultivated imperial farmland without any salary",
+          "A religious order of monastic scholars who administered legal disputes across royal provincial courts",
+          "A graded administrative system fixing an officer's rank, salary, and troops by Zat and Sawar status"
         ],
         "answer": 3,
         "explanation": "Mansabs determined official administrative precedence, military contingent quotas (Sawar), and royal salaries!"
@@ -15428,7 +15428,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What were powerful merchant associations called in medieval South India that organized trans-oceanic trade with Southeast Asia and China?",
         "options": [
-          "Merchant Guilds (e.g., the Manigramam and Ayyavole guilds)",
+          "Merchant Guilds",
           "Panchayats",
           "Modern trade unions",
           "Monasteries"
@@ -15439,10 +15439,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was the Gujarati port city of SURAT renowned in the 17th century as the 'Gateway to Mecca' and a global commercial emporium?",
         "options": [
-          "It was the capital of the Roman Empire",
-          "Pilgrim ships sailed to Mecca from its harbor, and its bazaars traded worldwide in gold-bordered Zari textiles and banking bills of exchange (Hundis)",
-          "It was only an agricultural village",
-          "It was covered in gold mines"
+          "It served as the imperial capital and mint of the ancient Roman Empire in western Asia",
+          "Pilgrim ships sailed from its port, and its bazaars traded globally in textiles and Hundis",
+          "It remained a tiny fishing settlement with no maritime links beyond the Gulf of Khambhat",
+          "It contained extensive natural gold mines that supplied precious bullion across Europe"
         ],
         "answer": 1,
         "explanation": "Surat was the bustling Mughal maritime hub handling Hajj pilgrim ships, Dutch/English factories, and honored credit Hundis!"
@@ -15450,10 +15450,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a medieval 'HUNDI'?",
         "options": [
-          "A small clay tea cup",
-          "A written financial bill of exchange acknowledging a cash deposit that allowed merchants to transfer money safely without carrying gold coins",
-          "A sword weapon",
-          "A horse saddle"
+          "A heavy ceremonial bronze vessel used to store holy temple offerings during festive rituals",
+          "A written financial bill of exchange allowing merchants to transfer funds without gold coins",
+          "A curved iron cavalry saber carried by royal infantry guards during northern desert skirmishes",
+          "A hand-carved wooden carriage saddle used by merchant pack caravans traveling over hills"
         ],
         "answer": 1,
         "explanation": "Hundis were ingenious indigenous financial credit notes honored across bazaars from Cairo to Kolkata!"
@@ -15476,7 +15476,7 @@ const QUESTION_BANK = {
         "options": [
           "Religious warfare",
           "Exiling scholars of different faiths",
-          "Sulh-i-Kul (Universal Peace and mutual harmony among all faiths)",
+          "Sulh-i-Kul",
           "Banning all religious debates"
         ],
         "answer": 2,
@@ -15485,10 +15485,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What progressive civic measure did Akbar implement early in his reign to promote goodwill with his majority Hindu subjects?",
         "options": [
-          "He forced everyone to dress identically",
-          "He demolished all ancient temples",
-          "He abolished the Pilgrim Tax on holy shrines and the discriminatory Jizya tax",
-          "He doubled taxes on farmers"
+          "He mandated that all imperial citizens adopt identical court dress and personal habits",
+          "He dismantled ancient place-names and prohibited vernacular literature across provinces",
+          "He abolished the Pilgrim Tax on holy sites and the discriminatory Jizya poll tax",
+          "He doubled agrarian land revenue demands on rural cultivators during difficult seasons"
         ],
         "answer": 2,
         "explanation": "Abolishing pilgrimage taxes and Jizya established a pluralistic, inclusive bond between the Mughal crown and diverse subjects."
@@ -15496,10 +15496,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the strategic consequence of Emperor Aurangzeb's prolonged 25-year military campaigns in the Deccan against Marathas and Sultanates?",
         "options": [
-          "It had zero effect on the empire",
-          "It eliminated all opposition forever",
-          "It made the empire richer than ever before",
-          "It depleted the royal treasury, exhausted the imperial army, and weakened Mughal administrative control over northern provinces"
+          "It created lasting financial prosperity and solidified administrative cohesion in the north",
+          "It eradicated all regional opposition and pacified peninsular India permanently under one rule",
+          "It doubled royal grain stockpiles and enriched provincial governors throughout the empire",
+          "It drained the royal treasury, wore down the army, and weakened northern governance"
         ],
         "answer": 3,
         "explanation": "The 'Deccan Ulcer' drained Mughal imperial finances and military morale, accelerating the empire's eventual decline."
@@ -15520,10 +15520,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who were the BANJARAS in medieval Indian trade and transport?",
         "options": [
-          "Palace guards in the capital",
-          "Monks living in caves",
-          "Fishermen on the coast",
-          "Nomadic trader-pastoralists who moved across India in massive caravan trains (Tandas) transporting bulk grain, salt, and spices"
+          "Permanent palace sentinels who protected the fortified gateways of the imperial capital city",
+          "Monastic scribes residing in mountain hermitages dedicated to copying illustrated manuscripts",
+          "Sedentary coastal fishermen who supplied fresh and dried marine catch to regional port towns",
+          "Nomadic trader-pastoralists who moved in caravan trains transporting grain, salt, and spices"
         ],
         "answer": 3,
         "explanation": "The Banjaras operated formidable overland logistics caravans (Tandas), transporting agricultural grain from surplus regions to deficit cities!"
@@ -15543,9 +15543,9 @@ const QUESTION_BANK = {
         "prompt": "What powerful tribal kingdom emerged in central India (Gondwana) where Queen Durgavati bravely led defenses against Mughal conquest?",
         "options": [
           "The Gond Kingdom of Garha Katanga",
-          "The Chola Empire",
-          "The Vijayanagara Empire",
-          "The Delhi Sultanate"
+          "The Chera Kingdom of Mahodayapuram",
+          "The Kakatiya Kingdom of Warangal",
+          "The Yadava Kingdom of Devagiri"
         ],
         "answer": 0,
         "explanation": "Rani Durgavati of Garha Katanga is celebrated in folklore for her valiant resistance defending Gond autonomy!"
@@ -15579,7 +15579,7 @@ const QUESTION_BANK = {
         "options": [
           "Kanchipuram",
           "Agra",
-          "Hampi (Vijayanagara)",
+          "Hampi",
           "Pataliputra"
         ],
         "answer": 2,
@@ -15588,10 +15588,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the 'PAIK' system in the Ahom state of Assam?",
         "options": [
-          "Every adult male was obliged to render rotational military or public works service to the state",
-          "A type of tea plantation",
-          "A royal elephant carriage",
-          "A monetary coin made of silver"
+          "A system where adult males rendered rotational military or public works service",
+          "A hereditary guild system managing extensive tea gardens across the Brahmaputra",
+          "A royal carriage corps responsible for transporting royal officials and visitors",
+          "A currency system based on minted silver coins accepted by foreign merchants"
         ],
         "answer": 0,
         "explanation": "The Paik labor system provided the Ahom monarchy with disciplined soldiers, dike builders, and canal engineers."
@@ -15612,10 +15612,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What revolutionary social message did saint-poet KABIR preach through his couplets (Dohas)?",
         "options": [
-          "That animals have no souls",
-          "That people should never help each other",
-          "Universal brotherhood, devotion to the one divine truth (Ram/Rahim), and outright rejection of caste discrimination, untouchability, and empty rituals",
-          "That religion should only be practiced by Sanskrit priests"
+          "Strict adherence to hereditary social ranks and the performance of expensive temple rituals",
+          "Complete withdrawal from family living to practice severe asceticism in isolated mountains",
+          "Universal brotherhood, devotion to one truth, and rejection of caste and empty rituals",
+          "Restricting scriptural study and spiritual authority solely to elite orthodox priests"
         ],
         "answer": 2,
         "explanation": "Kabir fearlessly challenged religious orthodoxy, preaching that the Divine dwells within every human heart!"
@@ -15625,7 +15625,7 @@ const QUESTION_BANK = {
         "options": [
           "A market food stall",
           "A private paid restaurant",
-          "Langar (Community Kitchen)",
+          "Langar",
           "A royal court banquet"
         ],
         "answer": 2,
@@ -15637,7 +15637,7 @@ const QUESTION_BANK = {
           "Military drum marches",
           "Dramatic plays",
           "Silent meditation only",
-          "Qawwali (Sufi musical poetry)"
+          "Qawwali"
         ],
         "answer": 3,
         "explanation": "Qawwali music, popularized by Amir Khusrau, weaves mystical Persian and Hindavi poetry in celebration of divine unity."
@@ -15658,10 +15658,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was MIRABAI'S devotion considered an act of rebellion against patriarchal medieval Rajput norms?",
         "options": [
-          "She built a fortress of stone",
-          "She led an army into foreign lands",
-          "She wrote tax laws",
-          "She rejected rigid palace orthodoxy, defied her royal in-laws' restrictions, and composed emotional bhajans accessible to ordinary women and oppressed classes"
+          "She raised a mercenary regiment to overthrow the reigning monarch and claim sovereign rule",
+          "She drafted state taxation edicts that transferred feudal property to aristocratic courts",
+          "She secluded herself inside palace fortress walls, adhering strictly to orthodox customs",
+          "She defied royal restrictions, rejected palace orthodoxy, and sang egalitarian bhajans"
         ],
         "answer": 3,
         "explanation": "Mirabai broke aristocratic gender cages, claiming spiritual autonomy and inspiring centuries of devotional song!"
@@ -15669,10 +15669,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What vernacular poetic form called 'ABHANG' was composed by Saint Tukaram and Namdev in praise of Lord Vithoba at Pandharpur?",
         "options": [
-          "Military orders",
-          "Latin legal chants",
-          "Devotional rhythmic poems sung in Marathi by Warkari pilgrims on their annual walking pilgrimage",
-          "Classical Sanskrit royal eulogies"
+          "Military commands chanted by cavalry divisions during tactical battlefield maneuvers",
+          "Latin legal declarations proclaimed by merchant guilds settling maritime trade pacts",
+          "Devotional rhythmic verses sung in Marathi by pilgrims on the Pandharpur pilgrimage",
+          "Classical Sanskrit eulogies composed to honor royal coronations in majestic courts"
         ],
         "answer": 2,
         "explanation": "Abhangs are lyrical Marathi devotional songs expressing personal humility, social compassion, and divine love."
@@ -15680,10 +15680,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did Bhakti and Sufi saints compose their songs in LOCAL VERNACULAR LANGUAGES (like Hindi, Awadhi, Marathi, Tamil, Punjabi) rather than elite Sanskrit or court Persian?",
         "options": [
-          "Because paper was too expensive",
-          "Because kings forbade Sanskrit",
-          "So ordinary common people—artisans, farmers, women, and laborers—could understand, sing, and participate in spiritual wisdom directly",
-          "To confuse foreign travelers"
+          "Because royal decrees prohibited the writing of religious texts on indigenous palm leaves",
+          "Because monastic scribes refused to translate ancient hymns into administrative scripts",
+          "So ordinary people including artisans, farmers, and women could directly understand and sing",
+          "To prevent traveling pilgrims from other regions from understanding local religious lyrics"
         ],
         "answer": 2,
         "explanation": "Using people's mother tongues democratized knowledge, breaking the monopoly of elite clerical classes!"
@@ -15718,7 +15718,7 @@ const QUESTION_BANK = {
           "The Ain-i-Akbari",
           "The Odyssey",
           "The Prince",
-          "Kitab-al-Hind (Tarikh al-Hind)"
+          "Kitab-al-Hind"
         ],
         "answer": 3,
         "explanation": "Al-Biruni learned Sanskrit and engaged Indian pandits to write the masterwork 'Kitab-al-Hind'!"
@@ -15728,7 +15728,7 @@ const QUESTION_BANK = {
         "options": [
           "An archaeological stone tool",
           "A folk rumor with no text",
-          "A Literary Primary Source (court biography/chronicle)",
+          "A Literary Primary Source",
           "A geological mineral rock"
         ],
         "answer": 2,
@@ -15750,10 +15750,10 @@ const QUESTION_BANK = {
       {
         "prompt": "While Kanta enjoys POLITICAL EQUALITY through Universal Adult Franchise (her vote equals her wealthy employer's vote), what inequality does she face in daily life?",
         "options": [
-          "Severe ECONOMIC and SOCIAL INEQUALITY: living in a slum without clean drainage and waiting in long queues at underfunded public hospitals",
-          "Her children are not allowed to speak",
-          "Her vote counts for half a point",
-          "She is forbidden from voting"
+          "Severe economic and social disparity in access to clean housing, sanitation, and health care",
+          "Total legal disenfranchisement that prevents her family from casting ballots in local votes",
+          "State regulations that reduce her voting tally to a fractional value compared to employers",
+          "Police curfews that forbid domestic workers from speaking or walking along city pavements"
         ],
         "answer": 0,
         "explanation": "Universal voting provides political equality, but stark economic disparities in healthcare, housing, and wages persist!"
@@ -15762,7 +15762,7 @@ const QUESTION_BANK = {
         "prompt": "What landmark nationwide program introduced in Indian government primary schools guarantees every child a cooked nutritional meal, boosting attendance and breaking caste barriers?",
         "options": [
           "An annual sports prize",
-          "The Midday Meal Scheme (PM-POSHAN)",
+          "The Midday Meal Scheme",
           "Private coaching tuition",
           "Commercial fast food delivery"
         ],
@@ -15772,10 +15772,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is access to quality public healthcare and education considered a foundational requirement for genuine democracy?",
         "options": [
-          "Because schools only teach politics",
-          "Without health and education, citizens cannot fully exercise their democratic rights and participate with equal dignity",
-          "To make private clinics illegal",
-          "Because governments like building hospitals only"
+          "Because civic schools are established solely to train young voters in electoral voting mechanics",
+          "Without good health and literacy, citizens cannot exercise their democratic rights with equal dignity",
+          "To ensure that private clinics and independent educational facilities are declared entirely illegal",
+          "Because constitutional state governments prioritize infrastructure construction over civic wellbeing"
         ],
         "answer": 1,
         "explanation": "Basic health and education are fundamental socio-economic rights enabling citizens to live fulfilling, empowered lives."
@@ -15796,10 +15796,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does ARTICLE 15 of the Constitution of India strictly prohibit?",
         "options": [
-          "Voting on weekends",
-          "Discrimination against any citizen on grounds ONLY of religion, race, caste, sex, or place of birth regarding access to public shops, wells, and tanks",
-          "People from changing their jobs",
-          "Citizens from speaking multiple languages"
+          "The holding of democratic municipal elections on weekend mornings and public festival days",
+          "Discrimination on grounds of religion, race, caste, sex, or birth regarding public access",
+          "Citizens from changing their employment professions across different commercial sectors",
+          "Individuals from conversing in multiple indigenous regional dialects in public spaces"
         ],
         "answer": 1,
         "explanation": "Article 15 guarantees equal access to public facilities, wells, roads, and places of public entertainment for all!"
@@ -15807,10 +15807,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What legal body in India investigates human rights abuses and safeguards constitutional protections for citizens?",
         "options": [
-          "A local trade club",
-          "The central bank",
-          "The National Human Rights Commission (NHRC) and State Human Rights Commissions",
-          "A private security company"
+          "The National Trade Union Federation and City Commercial Associations",
+          "The Central Reserve Bank Board and Commercial Banking Ombudsman Panels",
+          "The National Human Rights Commission and State Human Rights Commissions",
+          "Private Corporate Security Firms and Commercial Detective Agencies"
         ],
         "answer": 2,
         "explanation": "NHRC investigates violations, inspects prisons, and petitions courts to protect citizens' fundamental rights."
@@ -15818,10 +15818,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can community members peacefully uphold the Right to Equality when facing discriminatory treatment?",
         "options": [
-          "Respond with violent riots",
-          "Accept injustice silently forever",
-          "File formal complaints with the District Administration, mobilize public awareness, and seek legal protection under constitutional courts",
-          "Leave the country in secret"
+          "Organize destructive civic riots that damage municipal transport and public utility lines",
+          "Accept systematic mistreatment passively without seeking accountability or public redress",
+          "File administrative complaints, mobilize civic awareness, and seek constitutional remedies",
+          "Flee the district in secrecy without reporting constitutional violations to legal bodies"
         ],
         "answer": 2,
         "explanation": "Democratic constitutional mechanisms, public advocacy, and legal aid empower citizens to conquer injustice lawfully."
@@ -15842,10 +15842,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who is an 'MLA' in Indian state democracy?",
         "options": [
-          "A judge in the Supreme Court",
-          "A school headmaster",
-          "A Member of the Legislative Assembly elected directly by voters in an assembly constituency to represent them in the State Legislature",
-          "A police commissioner"
+          "A judicial magistrate appointed by the Supreme Court to adjudicate district disputes",
+          "A senior civil commissioner assigned to supervise all regional government colleges",
+          "A Member of the Legislative Assembly elected by voters to represent a constituency",
+          "An executive police officer appointed to oversee state law enforcement divisions"
         ],
         "answer": 2,
         "explanation": "MLAs are elected regional legislators who debate bills, pass state laws, and hold the Chief Minister accountable!"
@@ -15853,10 +15853,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How is the CHIEF MINISTER (CM) and the State Cabinet formed after election results are declared?",
         "options": [
-          "The wealthiest citizen becomes Chief Minister",
-          "The Supreme Court picks a name randomly",
-          "The political party or coalition winning a MAJORITY (more than 50% of MLA seats) elects its leader, who is invited by the Governor to form the government",
-          "The Governor picks their favorite friend"
+          "The most affluent property owner in the state capital is selected by business federations",
+          "The judicial bench of the High Court appoints a prominent retired magistrate to the role",
+          "The majority party or coalition chooses its leader, whom the Governor invites to form cabinet",
+          "The state Governor unilaterally selects a personal acquaintance without legislative approval"
         ],
         "answer": 2,
         "explanation": "Democratic mandate: The majority party in the Vidhan Sabha forms the executive council headed by the Chief Minister!"
@@ -15864,10 +15864,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the constitutional role of the 'OPPOSITION' party in the State Legislative Assembly?",
         "options": [
-          "To stay home and never attend sessions",
-          "To question government policies, highlight public grievances, expose corruption, and offer constructive alternative proposals",
-          "To agree with everything the ruling party says",
-          "To stop all laws from ever being discussed"
+          "To boycott every legislative session and refuse to represent constituency voter interests",
+          "To question government policies, raise public grievances, and suggest constructive reforms",
+          "To endorse all ruling party resolutions without review to accelerate administrative work",
+          "To prevent all legislative debates from taking place through continuous physical disruption"
         ],
         "answer": 1,
         "explanation": "A vigilant opposition ensures government accountability, transparency, and responsiveness to citizen needs."
@@ -15888,10 +15888,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'ASSEMBLY CONSTITUENCY'?",
         "options": [
-          "A judicial district under the jurisdiction of a sessions judge",
-          "The entire nation of India voting together for a single national policy",
-          "A private political party headquarters office",
-          "A demarcated geographical area with roughly equal population from which voters elect ONE representative (MLA) to the State Assembly"
+          "A judicial court division administered by a sessions judge to hear legal cases",
+          "An entire state voting together as a single block to select administrative heads",
+          "A political party headquarters building where campaign leaders organize rallies",
+          "A demarcated electoral area where voters choose one representative to assembly"
         ],
         "answer": 3,
         "explanation": "States are divided into territorial constituencies based on census population to ensure balanced representation!"
@@ -15899,7 +15899,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What constitutional body conducts free, fair, and independent elections across India?",
         "options": [
-          "The Election Commission of India (ECI)",
+          "The Election Commission of India",
           "The Supreme Court Bar Council",
           "The Union Ministry of Home Affairs",
           "A consortium of private news channels"
@@ -15910,10 +15910,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How can citizens actively communicate local neighborhood problems (like contaminated water pipes or bad roads) to their MLA?",
         "options": [
-          "Waiting ten years for the decennial national census to report civic problems",
-          "Filing an urgent writ petition directly in the Supreme Court of India",
-          "Writing a letter to the United Nations Human Rights Council",
-          "Visiting their MLA's public constituency office during open hours, submitting formal petitions, and raising issues in town halls"
+          "Waiting ten years for the decennial national census survey to record local street concerns",
+          "Filing an emergency writ petition directly before international judicial arbitration panels",
+          "Refusing to report infrastructure breakdowns while expecting authorities to discover them",
+          "Visiting the MLA constituency office, submitting petitions, and speaking at open town halls"
         ],
         "answer": 3,
         "explanation": "Elected MLAs maintain local constituency clinics to address citizen grievances and channel state development funds."
@@ -15934,9 +15934,9 @@ const QUESTION_BANK = {
       {
         "prompt": "Who wrote the visionary feminist science-fiction story 'Sultana's Dream' in 1905, envisioning 'Ladyland' where women harnessed solar power and flying air-cars?",
         "options": [
-          "Sarojini Naidu",
-          "Indira Gandhi",
-          "Rani Lakshmibai",
+          "Pandita Ramabai Sarasvati",
+          "Swarnakumari Devi Tagore",
+          "Savitribai Jyotirao Phule",
           "Begum Rokeya Sakhawat Hossain"
         ],
         "answer": 3,
@@ -15956,10 +15956,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is Dr. Tessy Thomas celebrated as the 'Missile Woman of India'?",
         "options": [
-          "She served as the Project Director for the strategic Agni-IV and Agni-V ballistic missile defense systems at DRDO",
-          "She was a fighter jet pilot",
-          "She was a diplomat",
-          "She is a space astronomer"
+          "She was the Project Director for the Agni-IV and Agni-V strategic missile systems at DRDO",
+          "She was the pioneering fighter aircraft pilot who commanded international air squadrons",
+          "She was the chief diplomat representing national defense treaties before the United Nations",
+          "She was the leading astrophysicist who mapped distant spiral galaxies with radio antennas"
         ],
         "answer": 0,
         "explanation": "Dr. Tessy Thomas broke barriers in defence metallurgy and missile guidance engineering as DRDO's chief scientist."
@@ -15980,10 +15980,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the global garment supply chain, who typically earns the SMALLEST share of profit despite performing the hardest physical labor?",
         "options": [
-          "The small cotton farmer who bears high risks of pest damage and seed debt",
-          "The garment exporter",
-          "The large multinational supermarket brand",
-          "The middleman trader"
+          "The small cotton farmer who bears crop failure risks and high input debts",
+          "The international retail garment brand that markets apparel in boutiques",
+          "The regional wholesale fabric trader who distributes large textile bolts",
+          "The garment export factory owner who coordinates overseas freight shipping"
         ],
         "answer": 0,
         "explanation": "Agrarian farmers face high pesticide costs and weather risks while receiving low wholesale commodity prices."
@@ -15991,10 +15991,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'PUTTING-OUT SYSTEM' (Dadni system) between merchants and weavers in handloom towns?",
         "options": [
-          "The government buys all cloth for free",
-          "Weavers own all retail shops in the city",
-          "The merchant supplies raw yarn and orders specific cloth, paying the home weaver low piece-rate wages for finished textiles",
-          "Workers are given equal ownership of the company"
+          "The state administration purchases handloom textiles directly, granting weavers equal profits",
+          "Weavers collectively own regional retail outlets and set consumer fabric prices independently",
+          "Merchants provide yarn and specify designs, paying home weavers low piece-rates for cloth",
+          "Factory proprietors distribute company shares equally among home artisans and machine helpers"
         ],
         "answer": 2,
         "explanation": "In the putting-out system, merchants control market access and yarn supply, keeping weavers economically dependent."
@@ -16002,10 +16002,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do Fair Trade cooperatives empower artisan weavers and organic cotton farmers against exploitation?",
         "options": [
-          "By shutting down all textile production",
-          "By forcing farmers into debt",
-          "By eliminating predatory middlemen, ensuring fair living wages, safe working conditions, and direct retail access",
-          "By making clothes from synthetic plastic only"
+          "By shutting down handloom weaving clusters to encourage exclusive reliance on automated mills",
+          "By requiring smallholder cultivators to secure high-interest loans from private moneylenders",
+          "By bypassing exploitative middlemen, guaranteeing fair prices, and opening direct market links",
+          "By restricting fabric production entirely to synthetic polyester filaments and plastic polymers"
         ],
         "answer": 2,
         "explanation": "Fair Trade cooperatives guarantee transparent pricing, dignified labor standards, and direct producer-consumer links!"
@@ -16026,10 +16026,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What psychological advertising strategy is being used when a sugary soda commercial features a celebrity sports star?",
         "options": [
-          "Providing honest scientific health warnings",
-          "Celebrity Endorsement and emotional association: linking the product with athletic glory rather than nutritional reality",
-          "Teaching math problem solving",
-          "Showing how much sugar damages teeth"
+          "Transparent educational disclosure providing complete laboratory nutritional statistics",
+          "Celebrity endorsement linking sugary soda with athletic fitness rather than nutrition facts",
+          "Curriculum-aligned mathematics instruction demonstrating proportion calculations on screen",
+          "Consumer health warnings demonstrating the long-term dental consequences of beverage sugars"
         ],
         "answer": 1,
         "explanation": "Advertisers use glamorous role models to trigger aspirational brand desire, bypassing rational nutritional analysis."
@@ -16037,10 +16037,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an independent, 'BALANCED MEDIA REPORT' in democratic journalism?",
         "options": [
-          "A story based entirely on unverified celebrity gossip",
-          "A report that prints only what political leaders want",
-          "An advertisement disguised as news",
-          "A report that investigates all sides of an issue factually and objectively, allowing citizens to form their own informed opinions"
+          "A sensational news story built exclusively upon unsubstantiated celebrity internet rumors",
+          "A promotional editorial printing exclusively what ruling political figures instruct editors",
+          "A commercial advertisement designed to masquerade as an investigative documentary story",
+          "A report examining all perspectives factually, enabling citizens to form informed opinions"
         ],
         "answer": 3,
         "explanation": "Ethical journalism presents verifiable facts from diverse viewpoints, serving the public interest rather than corporate sponsors."
@@ -16048,10 +16048,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is media often described as the 'FOURTH PILLAR' of a healthy democracy (alongside Legislature, Executive, and Judiciary)?",
         "options": [
-          "Because journalists wear uniforms",
-          "It replaces the election process",
-          "Because it is written on paper",
-          "It acts as a public watchdog, questioning powerful authorities, uncovering corruption, and informing citizens"
+          "Because working reporters are required to wear state-approved badges during press briefings",
+          "Because daily morning newspapers replace the constitutional process of holding open elections",
+          "Because commercial media outlets are owned and managed directly by the Ministry of Information",
+          "Because it functions as a public watchdog, holding leaders accountable and informing citizens"
         ],
         "answer": 3,
         "explanation": "A free, investigative press holds public institutions accountable to the citizens they serve!"
@@ -16083,9 +16083,9 @@ const QUESTION_BANK = {
       {
         "prompt": "If a public security announcement says: 'Do not leave your baggage unattended at any time', what is the reason?",
         "options": [
-          "Bags cannot fit on floors",
-          "Bags get tired standing",
-          "Because only carts are allowed",
+          "Unattended bags create hallway clutter that prevents janitorial staff from sweeping floors",
+          "Unattended bags exceed airline weight limits and incur automatic baggage penalty surcharges",
+          "Unattended bags block pedestrian foot traffic near terminal gates and cause boarding delays",
           "Unattended bags trigger security emergency protocols and risk theft or bomb disposal checks"
         ],
         "answer": 3,
@@ -16094,10 +16094,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the polite phrase flight attendants use when directing passengers to stow their cabin luggage?",
         "options": [
-          "'Throw your bags anywhere.'",
-          "'Leave your bags in the aisle.'",
-          "'Kindly place your smaller bags beneath the seat in front of you.'",
-          "'Take your luggage off the plane.'"
+          "Passengers must drop their hand luggage onto the central cabin aisle.",
+          "Please shove your heavy suitcases into any empty corner on the plane.",
+          "Kindly place your smaller bags beneath the seat in front of you.",
+          "You should throw all personal luggage out of the emergency exits now."
         ],
         "answer": 2,
         "explanation": "Clear, courteous instructions ensure that aisles remain unblocked during flight operations."
@@ -16118,10 +16118,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'DIPHTHONG' in English phonetics?",
         "options": [
-          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable (e.g., 'coin', 'loud')",
-          "A sentence without punctuation",
-          "A punctuation mark",
-          "A silent consonant letter"
+          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable",
+          "A consonant sound articulated by completely blocking and then suddenly releasing airflow from the mouth",
+          "A short unaccented vowel pronounced with relaxed vocal organs at the neutral center of the oral cavity",
+          "A sequence of three consonant letters combined together to represent a single unique phonetic sound"
         ],
         "answer": 0,
         "explanation": "Diphthongs (from Greek 'two sounds') glide between two articulatory vowel positions, such as /aʊ/ in 'cow'!"
@@ -16129,9 +16129,9 @@ const QUESTION_BANK = {
       {
         "prompt": "How does rising pitch at the end of a statement change its grammatical function in conversation?",
         "options": [
-          "It makes the sentence past tense",
-          "It has zero effect",
-          "It turns speech into shouting",
+          "It changes the sentence mood from active voice into a formal passive command spoken by an authority",
+          "It alters the underlying grammatical tense from continuous present into a completed past action",
+          "It signals that the speaker has permanently finished speaking and intends to leave the conversation",
           "It transforms an otherwise declarative statement into an inquisitive question or confirmation check"
         ],
         "answer": 3,
@@ -16142,7 +16142,7 @@ const QUESTION_BANK = {
         "options": [
           "'Sun' and 'Moon'",
           "'Dog' and 'Cat'",
-          "'Ship' (/ɪ/) and 'Sheep' (/iː/)",
+          "'Ship' and 'Sheep'",
           "'Run' and 'Walk'"
         ],
         "answer": 2,
@@ -16165,9 +16165,9 @@ const QUESTION_BANK = {
         "prompt": "What oratorical techniques make radio sports commentary exhilarating for listeners who cannot see the screen?",
         "options": [
           "Rapid real-time description, dramatic vocal modulation, vivid sensory vocabulary, and tactical analysis",
-          "Reading from an unrelated novel",
-          "Total silence between deliveries",
-          "Whispering in slow motion"
+          "Reading verbatim dictionary definitions of game rules interspersed with long silent breaks between plays",
+          "Whispering monotonous numerical player statistics in a flat tone without mentioning current ball actions",
+          "Reciting unrelated poetry verses and discussing personal commercial sponsorships throughout the match"
         ],
         "answer": 0,
         "explanation": "Radio commentators paint instantaneous, high-adrenaline mental pictures using precise, rhythmic descriptions!"
@@ -16176,9 +16176,9 @@ const QUESTION_BANK = {
         "prompt": "When a commentator states: 'The captain is setting an attacking field with two slips and a gully', what does this strategic analysis communicate?",
         "options": [
           "The team is actively hunting for wickets by positioning catchers close to the bat edge",
-          "The fielders are resting",
-          "The team is trying to waste time",
-          "The game is over"
+          "The fielding side is slowing down play to waste remaining overs before lunch interval",
+          "The captain is conceding easy boundary runs to encourage defensive batting strokes",
+          "The fielders are resting in outfield positions to preserve energy for later bowling spells"
         ],
         "answer": 0,
         "explanation": "Slip and gully fielders anticipate thin edges, indicating an aggressive wicket-taking tactical posture!"
@@ -16186,9 +16186,9 @@ const QUESTION_BANK = {
       {
         "prompt": "What distinguished broadcast commentary legendary figures like Harsha Bhogle from ordinary speech?",
         "options": [
-          "Using confusing slang only",
-          "Reading textbook grammar rules",
-          "Shouting biased insults at teams",
+          "Constant sensationalized shouting, partisan insults directed at rival teams, and confusing slang",
+          "Monotonous recitation of basic cricket textbook regulations without any real-time match context",
+          "Frequent angry complaints about umpiring decisions combined with silence during crucial overs",
           "Articulate analytical clarity, deep historical context, witty analogies, and impartial storytelling"
         ],
         "answer": 3,
@@ -16210,10 +16210,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the true philosophical meaning of the proverb: 'A STITCH IN TIME SAVES NINE'?",
         "options": [
-          "You must always sew nine shirts every day",
-          "Time cannot be measured on clocks",
-          "Tackling a small problem immediately prevents it from escalating into a massive, costly catastrophe later",
-          "Clothes should never be repaired"
+          "One must always mend nine different garments every morning before undertaking any other household duties",
+          "Counting passing seconds on an analog clock guarantees that sewing thread will never tangle during embroidery",
+          "Tackling a small problem immediately prevents it from escalating into a massive and costly catastrophe later",
+          "Postponing maintenance indefinitely allows damaged fabrics to repair themselves through natural atmospheric rest"
         ],
         "answer": 2,
         "explanation": "Prompt maintenance fixes small tears before they rip into ruined fabric requiring nine repair stitches!"
@@ -16221,10 +16221,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Interpret the proverb: 'DON'T COUNT YOUR CHICKENS BEFORE THEY HATCH.'",
         "options": [
-          "Always buy chickens before hens",
-          "Do not assume success or count on profits before they have actually happened, as plans can change",
-          "Chickens cannot be counted with math",
-          "Never eat eggs for breakfast"
+          "Always purchase adult laying hens instead of fragile eggs when investing capital in a poultry farm",
+          "Do not assume success or rely on gains before they actually occur, as unforeseen events can alter outcomes",
+          "Mathematical calculations should never be applied when estimating agricultural inventory in rural markets",
+          "Avoid making any plans for the future because external circumstances are entirely beyond human control"
         ],
         "answer": 1,
         "explanation": "This wise idiom warns against premature celebration before outcomes are finalized."
@@ -16232,10 +16232,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which proverb conveys the exact SAME wisdom as: 'Actions speak louder than words'?",
         "options": [
-          "'Every cloud has a silver lining'",
-          "'Practice what you preach' / 'Well done is better than well said'",
-          "'A rolling stone gathers no moss'",
-          "'Birds of a feather flock together'"
+          "Every cloud has a silver lining",
+          "Well done is better than well said",
+          "A rolling stone gathers no moss",
+          "Birds of a feather flock together"
         ],
         "answer": 1,
         "explanation": "Both proverbs celebrate tangible, demonstrated integrity over empty verbal promises!"
@@ -16256,10 +16256,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In Orwell's 'Animal Farm', what famous corrupted commandment satirizes the betrayal of revolutionary equality: 'All animals are equal, but...'?",
         "options": [
-          "'...pigs eat apples.'",
-          "'...birds can fly.'",
-          "'...horses run faster.'",
-          "'...some animals are more equal than others.'"
+          "four legs are always better than two.",
+          "human beings are superior to beasts.",
+          "working animals must obey the leader.",
+          "some animals are more equal than others."
         ],
         "answer": 3,
         "explanation": "This chilling paradox satirizes totalitarian hypocrisy, where ruling elites grant themselves corrupt privileges!"
@@ -16267,10 +16267,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do dystopian novels often portray oppressive regimes banning or burning books?",
         "options": [
-          "Books foster independent critical thinking, empathy, historical memory, and resistance against tyranny",
-          "Because books are too heavy to carry",
-          "To save printing ink",
-          "Because paper is highly flammable"
+          "Books foster critical thinking, historical memory, empathy, and intellectual resistance against tyranny",
+          "Books consume excessive printing paper and heavy binding glue needed by national manufacturing industries",
+          "Books encourage citizens to spend too much time reading indoors instead of participating in state athletics",
+          "Books cause severe eye strain among factory workers, lowering overall economic output across urban centers"
         ],
         "answer": 0,
         "explanation": "Dictatorships fear literature because reading cultivates questioning minds and preserves factual truth."
@@ -16278,10 +16278,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a critical reader detect authorial bias in an editorial text?",
         "options": [
-          "By reading only the last word",
-          "By counting paragraph indents",
-          "By checking the font size only",
-          "By analyzing selective presentation of facts, emotionally loaded language, and omission of opposing data"
+          "By measuring the physical margins of the newspaper page and counting the total number of printed sentences",
+          "By checking whether the editorial columnist uses complex grammatical clauses and rare vocabulary words",
+          "By verifying that the publication date corresponds to an official national holiday or commemorative event",
+          "By analyzing selective presentation of facts, emotionally loaded diction, and omission of opposing views"
         ],
         "answer": 3,
         "explanation": "Discerning loaded diction and identifying omitted counter-arguments reveals subjective slant."
@@ -16304,7 +16304,7 @@ const QUESTION_BANK = {
         "options": [
           "Piracy on the high seas",
           "Industrial automation",
-          "Apartheid (the institutionalized system of racial segregation and white minority oppression)",
+          "Apartheid",
           "The construction of railways"
         ],
         "answer": 2,
@@ -16313,10 +16313,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What distinguished classic 14th-century travelogues (like Ibn Battuta's 'Rihla') from modern travel blogs?",
         "options": [
-          "They only talked about airline tickets",
-          "They were written in computer code",
-          "They documented legal systems, trade routes, court politics, religious scholarship, and geographical ethnography over decades of overland travel",
-          "They were fictional fairytales"
+          "They focused exclusively on reviewing roadside hotel accommodations and rating culinary delicacies in tourist market stalls",
+          "They were written in cryptic computational codes to prevent foreign dynasties from understanding local currency exchange values",
+          "They documented legal systems, trade routes, court politics, religious scholarship, and regional ethnography over decades of travel",
+          "They consisted of fictional mythical fables designed purely for oral bedtime entertainment in rural traveling circus caravans"
         ],
         "answer": 2,
         "explanation": "Medieval travelogues served as primary socio-economic encyclopedias of trans-continental civilizations."
@@ -16324,10 +16324,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What cognitive benefit does reading extensive non-fiction historical narratives provide middle schoolers?",
         "options": [
-          "It is only done for memorizing test dates",
-          "It builds deep historical empathy, contextual nuance, and understanding of how institutions evolve over centuries",
-          "It reduces reading vocabulary",
-          "It makes students forget modern inventions"
+          "It trains students to memorize chronological dates and dynastic treaty names for standardized competitive quizzes",
+          "It builds historical empathy, contextual nuance, and an understanding of how social institutions evolve over time",
+          "It discourages creative writing by forcing students to accept past political events as predetermined and unchangeable",
+          "It replaces the need to study modern scientific developments by focusing attention exclusively on ancient technologies"
         ],
         "answer": 1,
         "explanation": "Historical biographies reveal how human courage, societal choices, and ideas shape our present world."
@@ -16348,10 +16348,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What core ethical concept does Atticus Finch's memorable advice teach Scout?",
         "options": [
-          "How to sew leather shoes",
-          "EMPATHY: the moral ability to see the world through another person's lived experience before judging them",
-          "Physical strength in sports",
-          "How to win arguments in court with volume"
+          "Tenacity: the stubborn determination to win every courtroom argument regardless of moral evidence or truth",
+          "Empathy: the moral capacity to understand the world through another person's lived perspective before judging",
+          "Retribution: the civic duty to punish wrongdoers swiftly to maintain social order and community discipline",
+          "Conformity: the social wisdom of following majority public opinion in small towns to avoid controversy"
         ],
         "answer": 1,
         "explanation": "Empathy requires stepping out of personal prejudice to perceive another human being's perspective with compassion!"
@@ -16359,10 +16359,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In the metaphor of the novel, what does the harmless, singing 'MOCKINGBIRD' symbolize?",
         "options": [
-          "A dangerous predator in the forest",
-          "Innocent, defenseless beings who bring joy into the world and must never be harmed or persecuted",
-          "A mythical creature with wings",
-          "A noisy bird that ruins crops"
+          "Cunning predatory forces in nature that disrupt social harmony and must be driven out of the forest",
+          "Innocent, vulnerable beings who bring joy into the world and must never be harmed or persecuted by society",
+          "Proud, defiant individuals who challenge legal authority through aggressive resistance and open rebellion",
+          "Mysterious mythical omens that foretell impending family misfortune and tragic natural catastrophes"
         ],
         "answer": 1,
         "explanation": "Mockingbirds do only one thing: sing music for people. Hurting them symbolizes unjust cruelty to the innocent."
@@ -16370,10 +16370,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'DYNAMIC CHARACTER' in literature (as opposed to a static flat character)?",
         "options": [
-          "A character who never speaks",
-          "A character who runs constantly",
-          "A character who undergoes significant internal psychological growth, moral awakening, or personality change during the story",
-          "A character who dies in chapter 1"
+          "A minor background figure who appears in multiple narrative scenes without altering the central dramatic storyline",
+          "A heroic protagonist who performs impressive physical feats of courage without experiencing any emotional vulnerability",
+          "A character who undergoes significant psychological growth, moral awakening, or personality transformation over time",
+          "An unchanging antagonist whose villainous motives and behavioral habits remain perfectly identical from start to finish"
         ],
         "answer": 2,
         "explanation": "Dynamic characters evolve through narrative conflicts (e.g., Scout growing in moral maturity)!"
@@ -16397,7 +16397,7 @@ const QUESTION_BANK = {
           "Directions to the nearest park",
           "Changes in temperature over 100 years",
           "Alphabetical lists of author names",
-          "Proportional shares of a total whole (e.g., energy generation vs transport vs agriculture as percentages of 100% emissions)"
+          "Proportional shares of a total whole"
         ],
         "answer": 3,
         "explanation": "Circular pie charts visually partition 100% of a whole into proportional fractional wedges!"
@@ -16405,10 +16405,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do tactile graphics (embossed raised lines and varied textures) enable visually impaired students to understand complex geometry and maps?",
         "options": [
-          "Fingertips trace distinct tactile surface heights, dotted boundaries, and Braille labels to form spatial mental models",
-          "They are meant to be smelled",
-          "They make the paper waterproof only",
-          "They play loud music"
+          "Fingertips trace distinct raised textures, dotted lines, and Braille labels to construct spatial mental representations",
+          "Special chemical aromas embedded in the paper stimulate olfactory memory to identify different geometric angles and axes",
+          "Microscopic audio speakers embedded in the embossed cardstock broadcast verbal coordinate explanations when pressed",
+          "Temperature variations across the paper surface allow heat receptors in the skin to distinguish between convex shapes"
         ],
         "answer": 0,
         "explanation": "Tactile relief maps and raised geometry figures allow accurate haptic spatial exploration with fingertips."
@@ -16416,10 +16416,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What visual design feature prevents infographics from overwhelming the reader with data clutter?",
         "options": [
-          "Cramming 500 paragraphs of tiny text together",
-          "Clear visual hierarchy, generous white space, color contrast, and clean data labels",
-          "Hiding the title",
-          "Flashing neon animations that never stop"
+          "Filling every square centimeter of the layout with dense explanatory text paragraphs",
+          "Clear visual hierarchy, generous white space, color contrast, and legible data labels",
+          "Displaying animated strobe lighting effects and flashing holographic banner graphics",
+          "Removing all descriptive headings and numerical units to keep the poster minimalist"
         ],
         "answer": 1,
         "explanation": "Visual hierarchy guides the viewer's eye logically from primary headline to supporting statistics."
@@ -16440,10 +16440,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the standard professional structure of a formal podium introduction of an esteemed guest speaker?",
         "options": [
-          "Ask the speaker for their wallet",
-          "Tell the audience to go home",
-          "Speak for 45 minutes about yourself",
-          "Welcome the audience, introduce the guest's name and designation, highlight their pivotal achievements, state their speech topic, and invite them warmly to the podium"
+          "Greet the audience, narrate personal childhood anecdotes at length, critique past guest lectures, and announce the cafeteria schedule",
+          "Request financial contributions from attendees, distribute souvenir merchandise, and read the entire printed school code of conduct",
+          "Announce administrative timetable changes, debate policy with faculty members, and ask the guest speaker to explain their arrival time",
+          "Welcome the gathering, state the speaker's name and credentials, highlight their key achievements, announce the topic, and invite them up"
         ],
         "answer": 3,
         "explanation": "An introductory speech bridges the audience to the speaker, celebrating their credentials and welcoming them with dignity!"
@@ -16451,10 +16451,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which opening formula conveys poise, warmth, and formal academic decorum?",
         "options": [
-          "'Listen up everybody, someone wants to talk,'",
-          "'Hey guys look who walked in,'",
-          "'I don't know who this is, but here they are,'",
-          "'Respected Principal, faculty members, and dear peers: It is my distinct honor and privilege to welcome our distinguished keynote speaker...'"
+          "Listen up everyone in the auditorium, we have a visitor here today who wants to say a few quick words before lunch begins.",
+          "Hey everybody, please quiet down right now because our invited guest has finally arrived and will give a presentation.",
+          "I am not sure who scheduled this lecture this morning, but let us get it over with as quickly as possible so we can leave.",
+          "Respected Principal, esteemed teachers, and dear peers: It is my distinct honor to welcome our distinguished keynote speaker."
         ],
         "answer": 3,
         "explanation": "Polished ceremonial diction honors the guest and sets an atmosphere of intellectual reverence."
@@ -16462,10 +16462,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'VOTE OF THANKS' delivered at the conclusion of a formal seminar?",
         "options": [
-          "A complaint about the microphone",
-          "A formal closing address expressing gratitude to the keynote speaker, organizers, patrons, and participating audience",
-          "A speech asking for money",
-          "A ballot vote to elect a new class monitor"
+          "A public complaint voiced by student delegates regarding room ventilation, microphone volume, and seating comfort",
+          "A formal concluding speech expressing sincere gratitude to the speaker, organizers, patrons, and participating audience",
+          "A secret democratic ballot conducted by delegates to elect student representatives for the upcoming academic year",
+          "A fundraising appeal urging audience members to purchase commercial instructional books authored by the keynote guest"
         ],
         "answer": 1,
         "explanation": "The Vote of Thanks concludes formal proceedings by acknowledging every contributor's dedication."
@@ -16486,10 +16486,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which formulaic phrase expresses professional, courteous disagreement without causing personal offense?",
         "options": [
-          "'Sit down and be quiet!'",
-          "'Your idea is the worst idea ever.'",
-          "'You are completely wrong and clueless!'",
-          "'I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent trade data.'"
+          "The delegate's statement is completely absurd and shows a total lack of basic understanding of the situation.",
+          "I demand that the delegate withdraw their ridiculous comment immediately before we continue this discussion.",
+          "Everyone in this assembly knows that your proposed policy has already failed disastrously in neighboring regions.",
+          "I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent data."
         ],
         "answer": 3,
         "explanation": "Diplomatic phrases acknowledge the counterpart's point while introducing counter-evidence with professional grace!"
@@ -16508,10 +16508,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are diplomatic linguistic formulas ('If I may add', 'With all due respect', 'I beg to differ') essential in statecraft and business?",
         "options": [
-          "Because speaking plainly is forbidden",
-          "To make meetings take twelve hours",
-          "They de-escalate emotional friction, preserve working relationships, and focus negotiations on objective policy solutions",
-          "To confuse foreign delegates"
+          "They allow negotiating parties to conceal important financial discrepancies and evade formal contractual liabilities",
+          "They prolong diplomatic summits indefinitely so that decision-makers can avoid adopting enforceable treaty obligations",
+          "They de-escalate emotional tension, protect professional relationships, and maintain focus on collaborative solutions",
+          "They ensure that international diplomats communicate exclusively in archaic idioms that ordinary citizens cannot understand"
         ],
         "answer": 2,
         "explanation": "Polite protocol prevents personal animosity from derailing vital geopolitical and commercial pacts."
@@ -16532,10 +16532,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Arjun weave sensory details into his spoken memoir to recreate the tense evacuation?",
         "options": [
-          "Saying only 'It rained a lot'",
-          "Describing the deafening roar of relentless rain, muddy rising floodwaters, and the roar of the fishermen's outboard motor",
-          "Listing the price of rubber boots",
-          "Counting how many bricks were in his house"
+          "Stating the exact calendar date, official municipal ward number, and price of emergency rubber gumboots in local markets",
+          "Describing the deafening roar of torrential rain, rising brown floodwaters, and the sputter of an approaching rescue motor",
+          "Reciting the entire state disaster management handbook regulations and listing phone numbers of local emergency control rooms",
+          "Calculating the precise volume of water displaced per minute by municipal drainage pumps across suburban residential sectors"
         ],
         "answer": 1,
         "explanation": "Auditory and visual sensory anchors transport listeners directly into the emotional heart of the crisis!"
@@ -16543,10 +16543,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What heroic role did coastal fishermen ('Kerala's Coastal Army') play during the catastrophic 2018 floods?",
         "options": [
-          "They went fishing for crabs in the sea",
-          "They stayed in harbor",
-          "They transported their deep-sea fishing trawlers inland on trucks and navigated treacherous flood currents to rescue over 65,000 stranded citizens",
-          "They refused to help"
+          "They remained safely docked in deep-water ocean harbors and monitored weather satellite forecasts on commercial communication radios",
+          "They organized protest marches along coastal highways demanding increased subsidies for diesel fuel and marine navigation equipment",
+          "They transported their sea trawlers inland on trucks and navigated treacherous flood currents to rescue thousands of stranded residents",
+          "They supplied commercial ice packs to metropolitan seafood export warehouses to prevent high-value ocean catches from spoiling"
         ],
         "answer": 2,
         "explanation": "Selfless traditional fishermen navigated perilous floodwaters, saving tens of thousands with selfless bravery!"
@@ -16554,10 +16554,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What makes personal oral narration compelling to an audience?",
         "options": [
-          "Speaking in a flat whisper with no facial expression",
-          "Reading directly from a printed paper without looking up",
-          "Making jokes during tragedy",
-          "Emotional authenticity, vulnerable honesty, dynamic vocal pacing, and meaningful reflection on human resilience"
+          "Speaking in a rapid monotone whisper while maintaining rigid eye contact with the floor throughout the speech",
+          "Reading verbatim from a dense printed manuscript without looking up or altering vocal inflection and pitch",
+          "Exaggerating trivial facts into sensationalized fantasy adventures with little regard for historical accuracy",
+          "Emotional authenticity, sincere vulnerability, dynamic vocal expression, and thoughtful personal reflection"
         ],
         "answer": 3,
         "explanation": "Genuine emotional resonance and reflective insight elevate personal memoirs into universal human lessons."
@@ -16578,10 +16578,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'ENVIRONMENTAL AUDIT' of a school campus?",
         "options": [
-          "An inspection of students' lunchboxes",
-          "Counting how many desks are painted blue",
-          "A test on memorizing textbook facts",
-          "A systematic data-driven assessment of energy usage, water consumption, waste generation, and green cover to guide sustainability reforms"
+          "A mandatory physical fitness examination assessing students' cardiovascular endurance and dietary habits during physical education",
+          "A financial inspection conducted by chartered accountants to review annual school tuition fee structures and teacher salaries",
+          "A standardized science exam testing students on their ability to memorize biological taxonomy classifications and chemical symbols",
+          "A systematic data-driven assessment of energy use, water consumption, waste generation, and green cover to guide sustainability"
         ],
         "answer": 3,
         "explanation": "Green audits quantify carbon and resource footprints, providing actionable benchmarks for conservation!"
@@ -16589,10 +16589,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When presenting audit findings to the school board, how should students communicate data on food waste?",
         "options": [
-          "Blame the cafeteria cooks angrily",
-          "Hide the numbers so nobody knows",
-          "Present clear charts showing daily kilograms of waste, highlight economic loss, and propose a community composting and food-share plan",
-          "Throw the waste into the hallway"
+          "Express loud personal indignation toward the cafeteria culinary staff and demand immediate salary reductions for kitchen workers",
+          "Conceal the numerical waste audit records to prevent negative publicity from damaging the educational institution's public image",
+          "Present clear data charts on food waste, explain the financial loss, and propose viable composting and redistribution solutions",
+          "Discard all audited organic waste onto the central administrative hallway floor to visually shock the school management board"
         ],
         "answer": 2,
         "explanation": "Professional presentations pair factual diagnostic data with constructive, feasible systemic solutions!"
@@ -16601,9 +16601,9 @@ const QUESTION_BANK = {
         "prompt": "What practical campus initiative directly transforms organic cafeteria kitchen scraps into valuable nutrient-rich soil?",
         "options": [
           "On-site aerobic composting pits or vermicomposting bins",
-          "Dumping waste into city sewers",
-          "Incinerating waste in open fire pits",
-          "Sealing food waste in plastic bags"
+          "Discharging organic food pulp into municipal sewer pipes",
+          "Incinerating combustible waste in open courtyard fire pits",
+          "Sealing wet kitchen scraps inside non-biodegradable bags"
         ],
         "answer": 0,
         "explanation": "Composting closes the ecological loop, turning daily cafeteria scraps into rich humus for campus gardens."
@@ -16635,10 +16635,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How should a speaker conclude a morning assembly address to leave peers feeling motivated and united?",
         "options": [
-          "Complaining about waking up early",
-          "Reading five pages of legal fine print",
-          "With a memorable, stirring call to action that connects national ideals to daily schoolyard ethics: 'Jai Hind!'",
-          "Walking away before finishing the sentence"
+          "By complaining about early morning assembly temperatures and asking students to rush quickly back to classrooms",
+          "By reading several pages of technical administrative fine print regarding library overdue book fines and uniform rules",
+          "With a memorable, stirring call to action that connects constitutional ideals to daily school ethics: 'Jai Hind!'",
+          "By abruptly walking away from the podium mid-sentence without acknowledging the gathered student body and faculty"
         ],
         "answer": 2,
         "explanation": "A stirring, inspiring finish connects constitutional values directly to how students treat each other daily."
@@ -16646,10 +16646,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why was 26th November chosen as National Constitution Day in India?",
         "options": [
-          "It was the day Mahatma Gandhi was born",
-          "It is the date when the national anthem was written",
-          "The Constituent Assembly officially adopted the Constitution of India on 26th November 1949",
-          "It is when the first train ran in India"
+          "It marks the date when the historic Salt March reached the coastal village of Dandi",
+          "It commemorates the day when the national anthem was composed by Rabindranath Tagore",
+          "The Constituent Assembly officially adopted the Constitution of India on this date in 1949",
+          "It celebrates the inaugural passenger train journey between Mumbai and Thane in 1853"
         ],
         "answer": 2,
         "explanation": "Adopted on 26 Nov 1949 and coming into full effect on 26 Jan 1950 (Republic Day)!"
@@ -16670,10 +16670,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a precise, testable scientific inquiry regarding Saturn's rings?",
         "options": [
-          "'Do rings like listening to music?'",
-          "'Can we paint the rings pink?'",
-          "'Why is Saturn so pretty?'",
-          "'What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?'"
+          "Why do the vibrant celestial rings of Saturn appear so extraordinarily magnificent when observed through backyard binoculars?",
+          "Can future human astronauts use specialized reflective paint pigments to alter the aesthetic appearance of Saturnian ring debris?",
+          "Do interplanetary dust particles enjoy orbiting within gravitational rings more than floating through deep interstellar space?",
+          "What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?"
         ],
         "answer": 3,
         "explanation": "Scientific questions define specific physical parameters (particle size, gravitational tides/Roche limit) that can be modeled!"
@@ -16681,10 +16681,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'ROCHE LIMIT' in planetary astrophysics?",
         "options": [
-          "The temperature of the sun",
-          "The speed limit of a space rocket",
-          "The minimum distance to which a celestial body, held together by gravity, can approach a second body without being torn apart by tidal forces",
-          "The boundary of the solar system"
+          "The maximum surface temperature an orbiting artificial satellite can withstand before thermal radiation ruptures onboard battery cells",
+          "The velocity required for an escaping rocket to overcome the combined gravitational pull of all eight planetary bodies in the solar system",
+          "The minimum orbital distance a celestial body held by gravity can approach a second body without being torn apart by tidal forces",
+          "The outer perimeter boundary where the solar wind ceases and interstellar cosmic rays become the dominant form of deep-space radiation"
         ],
         "answer": 2,
         "explanation": "Within Saturn's Roche limit, colossal tidal gravitational shear prevents icy moonlets from assembling into a moon."
@@ -16692,10 +16692,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does asking deep, structured questions beyond textbook paragraphs drive scientific innovation?",
         "options": [
-          "It has no purpose in science",
-          "It slows down learning",
-          "It uncovers unexplored anomalies, challenges outdated assumptions, and sparks revolutionary discoveries",
-          "It breaks laboratory equipment"
+          "It allows students to memorize textbook formulas rapidly without needing to understand underlying concepts",
+          "It ensures that future research projects produce identical experimental data confirming established dogma",
+          "It reveals unexplored anomalies, challenges outdated assumptions, and sparks breakthrough discoveries",
+          "It proves that existing scientific encyclopedias have already documented all natural physical laws of the universe"
         ],
         "answer": 2,
         "explanation": "Every monumental scientific paradigm shift began with a curious human asking: 'Why does this anomaly occur?'"
@@ -16716,10 +16716,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When interviewing a senior police official, what communication posture demonstrates respect and civic maturity?",
         "options": [
-          "Introducing your delegation clearly, having well-researched questions prepared, addressing the officer with proper titles ('Sir/Madam'), and listening attentively",
-          "Talking loudly over the officer",
-          "Taking photographs without permission",
-          "Demanding immediate political promises"
+          "Introducing your delegation courteously, having researched questions ready, using proper titles, and listening attentively",
+          "Interrupting the officer frequently, demanding immediate administrative policy concessions, and recording secret video clips",
+          "Whispering brief unverified rumors heard on social media while avoiding eye contact and declining to state your delegation's goals",
+          "Arriving without an appointment or prepared topics, joking about serious community safety concerns, and leaving abruptly mid-sentence"
         ],
         "answer": 0,
         "explanation": "Thorough preparation, polite decorum, and active listening foster constructive institutional dialogue."
@@ -16727,10 +16727,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'RTI APPLICATION' filed under the Right to Information Act, 2005?",
         "options": [
-          "A criminal police complaint",
-          "A formal citizen petition requesting certified copies of government records, expenditure data, and public decision documents",
-          "A driving license test",
-          "An application for a passport"
+          "A criminal First Information Report lodged at a police precinct demanding the arrest of individuals suspected of financial theft",
+          "A formal citizen request seeking certified copies of government records, public expenditure accounts, and administrative decisions",
+          "An official application submitted to municipal transport authorities to obtain a motor vehicle driving license or vehicle permit",
+          "A statutory petition submitted to the Ministry of External Affairs requesting the expedited renewal of an international passport"
         ],
         "answer": 1,
         "explanation": "RTI empowers ordinary citizens to hold public bodies transparent and accountable by demanding certified records!"
@@ -16741,7 +16741,7 @@ const QUESTION_BANK = {
           "Within 1 hour",
           "Whenever they feel like it",
           "Within 10 years",
-          "Within 30 days (or within 48 hours if it concerns life and liberty)"
+          "Within 30 days"
         ],
         "answer": 3,
         "explanation": "The law enforces strict deadlines: 30 days standard, or 48 hours if fundamental life and liberty are at stake!"
@@ -16762,10 +16762,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What unforgettable moral declaration did Mahatma Gandhi deliver before British Judge Broomfield during his 1922 trial?",
         "options": [
-          "'I will pay any fine to leave the country.'",
-          "'I beg for royal mercy and pardon.'",
-          "'I deny that I wrote any articles.'",
-          "'Affection cannot be manufactured or regulated by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good.'"
+          "I plead for royal clemency and promise that our followers will immediately halt all political gatherings throughout the country.",
+          "I deny authorship of the offending articles and claim that foreign printers published those seditious essays without my consent.",
+          "I am prepared to pay any monetary fine imposed by this court provided my colleagues and I are released from confinement today.",
+          "Affection cannot be manufactured by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good."
         ],
         "answer": 3,
         "explanation": "Gandhiji accepted the highest penalty while articulating the moral supremacy of conscience over imperialist law."
@@ -16773,10 +16773,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does staging historical courtroom dramas develop students' socio-emotional intellect?",
         "options": [
-          "It immerses students in complex ethical dilemmas, ideological worldviews, legal argumentation, and historical context",
-          "It replaces the need to study history",
-          "It teaches students how to shout at judges",
-          "It only trains students to make costumes"
+          "It immerses students in complex ethical dilemmas, diverse historical worldviews, legal reasoning, and empathetic debate",
+          "It replaces the necessity of reading history textbooks and relieves students of learning verified historical chronologies",
+          "It trains pupils to shout down opposing viewpoints aggressively and prioritize theatrical spectacle over logical rigor",
+          "It focuses student attention exclusively on tailoring historical costumes and painting miniature cardboard stage props"
         ],
         "answer": 0,
         "explanation": "Dramatic embodiment builds profound empathy, historical analysis, oratorical command, and moral reasoning."
@@ -16784,10 +16784,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the landmark legal significance of Judge Broomfield's respectful conduct during the 1922 trial?",
         "options": [
-          "He quit his job immediately",
-          "Though sentencing Gandhi according to the colonial penal code, he publicly acknowledged Gandhi as a saint of high ideals and pure life",
-          "He joined the freedom march on the spot",
-          "He refused to speak English"
+          "He resigned from the judicial bench on the spot and immediately joined the non-cooperation satyagraha movement as a full-time activist",
+          "While applying the colonial penal statute, he openly acknowledged Gandhi as a man of high ideals, noble character, and saintly life",
+          "He overturned the sedition charges entirely and declared that the British colonial administration held no lawful jurisdiction in India",
+          "He refused to conduct the trial in English and demanded that all judicial arguments be delivered exclusively in classical Gujarati"
         ],
         "answer": 1,
         "explanation": "Broomfield confessed that sentencing Gandhi was the most painful judicial task of his life, recognizing Gandhi's moral greatness."
@@ -16811,7 +16811,7 @@ const QUESTION_BANK = {
           "An Adverbial Clause of time",
           "An Imperative Command",
           "A Direct Object Noun Clause",
-          "A Non-Defining Relative Clause (adds extra descriptive information, set off by commas)"
+          "A Non-Defining Relative Clause"
         ],
         "answer": 3,
         "explanation": "Relative clauses beginning with who/whose/which add descriptive detail about the preceding noun!"
@@ -16830,10 +16830,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which sentence demonstrates the correct CONDITIONAL structure (Type 3: impossible past hypothesis)?",
         "options": [
-          "If we had left earlier, we catch the train.",
-          "If we left earlier, we will catch the train.",
+          "If we had left earlier, we will surely catch the morning express train.",
+          "If we left much earlier, we can easily catch the morning express train.",
           "If we had left earlier, we would have caught the morning express train.",
-          "If we leave earlier, we caught the train."
+          "If we leave earlier today, we would have caught the morning express train."
         ],
         "answer": 2,
         "explanation": "Third conditional formula: If + past perfect (had left) ... would have + past participle (would have caught)!"
@@ -16854,10 +16854,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Identify the 'DANGLING MODIFIER' error: 'Walking through the ancient forest, the giant oak tree came into view.' Why is this grammatically flawed?",
         "options": [
-          "It implies that the oak tree itself was walking! The modifier 'Walking through the ancient forest' must modify the human observer, not the tree",
-          "The sentence has no verb",
-          "Oak trees cannot be in forests",
-          "It needs three exclamation marks"
+          "The introductory participial phrase illogicality implies the oak tree was walking; the modifier must describe the person walking",
+          "The sentence completely lacks a finite conjugated verb in the main clause, leaving the predicate grammatically broken and unfinished",
+          "The prepositional phrase 'through the ancient forest' cannot be followed by a noun phrase referring to a specific botanical organism",
+          "The coordinating conjunction is missing between the independent clauses, creating a run-on sentence that requires a semicolon break"
         ],
         "answer": 0,
         "explanation": "Correction: 'Walking through the ancient forest, I SAW the giant oak tree come into view.' Modifiers must attach to the true subject!"
@@ -16866,9 +16866,9 @@ const QUESTION_BANK = {
         "prompt": "Which sentence maintains flawless PARALLEL STRUCTURE in its series of predicates?",
         "options": [
           "Maya loves hiking rugged trails, kayaking roaring rivers, and photographing wildlife.",
-          "Maya loves to hike, kayaking, and photograph.",
-          "Maya loves hiking rugged trails, to kayak roaring rivers, and photos.",
-          "Maya loves hiking, kayaking, and to take pictures."
+          "Maya loves hiking rugged trails, to kayak roaring rivers, and photographing wildlife.",
+          "Maya loves to hike rugged trails, kayaking roaring rivers, and wildlife photographs.",
+          "Maya loves hiking rugged trails, kayaking roaring rivers, and to photograph wildlife."
         ],
         "answer": 0,
         "explanation": "Parallel structure pairs matching grammatical forms: hiking..., kayaking..., and photographing... (all gerunds)!"
@@ -16901,9 +16901,9 @@ const QUESTION_BANK = {
         "prompt": "In the sentence: 'The supreme court BENCH issued a landmark judgment', what does the polysemous word 'BENCH' mean?",
         "options": [
           "The collective body of judges presiding over a court of law",
-          "A wooden seat in a park",
-          "A bank of river soil",
-          "A carpenter's work table"
+          "A long wooden seat placed in a public garden or park lane",
+          "A raised embankment of compacted gravel along a river edge",
+          "A sturdy wooden work table used by carpenters in workshops"
         ],
         "answer": 0,
         "explanation": "In legal terminology, 'the Bench' refers to the judiciary or the panel of judges sitting in court!"
@@ -16911,10 +16911,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In physics, what does 'WORK' mean (Work = Force x Displacement), contrasting with everyday usage?",
         "options": [
-          "Going to an office",
-          "Work is done only when a physical force causes an object to displace in the direction of the force",
-          "Feeling tired after an exam",
-          "Sitting at a desk thinking hard without moving"
+          "Work is performed whenever an individual expends mental effort solving challenging academic problems",
+          "Work is done only when an applied force causes an object to move in the direction of that applied force",
+          "Work refers exclusively to remunerated professional employment undertaken within an office or workshop",
+          "Work occurs whenever muscular fatigue is experienced regardless of whether any physical motion happens"
         ],
         "answer": 1,
         "explanation": "Scientifically, holding a heavy load motionless does zero work because displacement is zero (W = F x 0 = 0)!"
@@ -16922,10 +16922,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'OXYMORON' in figurative English (e.g., 'deafening silence', 'cruel kindness')?",
         "options": [
-          "A figure of speech in which apparently contradictory terms appear in conjunction to reveal a paradoxical truth",
-          "A rhyme with five words",
-          "A foreign translation",
-          "A complete spelling error"
+          "A figure of speech pairing contradictory terms side by side to uncover a deeper paradoxical truth",
+          "A poetic technique repeating identical initial consonant sounds across successive adjacent syllables",
+          "An exaggerated rhetorical overstatement used deliberately to create vivid humor or dramatic emphasis",
+          "A rhythmic substitution of a mild or indirect term in place of a harsh or unpleasantly blunt reality"
         ],
         "answer": 0,
         "explanation": "Oxymorons juxtapose opposites ('deafening silence') to capture complex, poignant emotional realities."
@@ -16948,7 +16948,7 @@ const QUESTION_BANK = {
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
-          "Currency (timeliness), Relevance, Authority (author credentials), Accuracy (verifiable citations), and Purpose (lack of commercial bias)",
+          "Currency, Relevance, Authority, Accuracy, and Purpose",
           "If it appears first on a commercial search ad"
         ],
         "answer": 2,
@@ -16957,10 +16957,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'PRIMARY SOURCE' in historical research?",
         "options": [
-          "First-hand contemporary artifacts or documents created during the historical period (e.g., Harappan seals, Ashokan edicts, diaries)",
-          "An article on an unverified blog",
-          "A fictional movie made 500 years later",
-          "A modern history textbook written in 2024"
+          "First-hand contemporary artifacts or documents created during the period under study",
+          "Modern scholarly textbooks synthesizing historical events written centuries later",
+          "Fictional dramatizations produced by contemporary screenwriters for popular cinema",
+          "Speculative opinion essays posted on unverified personal blogs without attribution"
         ],
         "answer": 0,
         "explanation": "Primary sources are direct eyewitness artifacts and original records produced during the time under study."
@@ -16968,10 +16968,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are digital encyclopedias with open unverified editing vulnerable to factual inaccuracies?",
         "options": [
-          "Digital text can never be printed",
-          "Because computers do not understand letters",
-          "Because all websites are illegal",
-          "Anonymous contributors may introduce unchecked errors, vandalism, or biased opinions without scholarly peer review"
+          "Digital servers delete half of their stored electronic entries whenever power grids experience seasonal fluctuation",
+          "Computer microprocessors lack the ability to render complex alphabetical fonts and historical foreign languages",
+          "Modern web browsers are prohibited by copyright laws from displaying citations from printed academic library books",
+          "Unvetted anonymous contributors can post unverified assertions, biased commentary, and errors without peer review"
         ],
         "answer": 3,
         "explanation": "Unvetted crowdsourced articles require rigorous cross-checking against scholarly, peer-reviewed monographs."
@@ -16992,10 +16992,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'EXTRAPOLATIVE WRITING' in literary response?",
         "options": [
-          "Copying the author's biography",
-          "Writing an original creative response that extends beyond the story's actual text, exploring what characters might think, do, or experience in new situations",
-          "Writing a summary of the first chapter",
-          "Checking words in the dictionary"
+          "Transcribing the author's biographical publishing history and compiling chronological lists of their complete bibliography",
+          "Composing a creative response that extends beyond the story to imagine how characters would act and feel in hypothetical scenarios",
+          "Writing a concise objective plot summary of the opening chapter while omitting all descriptions of literary setting and tone",
+          "Extracting polysyllabic vocabulary terms from the text to verify definitions against standard etymological dictionaries"
         ],
         "answer": 1,
         "explanation": "Extrapolative writing asks students to inhabit the character's psychology and imagine novel continuations authentically!"
@@ -17003,10 +17003,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In RK Narayan's poignant story 'The Axe', what tragic confrontation tests the loyal old gardener Velan at the climax?",
         "options": [
-          "He loses his garden rake",
-          "The garden is flooded by an ocean",
-          "Woodcutters arrive to chop down the magnificent Margosa tree he had planted and nurtured with his own hands for fifty years",
-          "A tiger enters the palace"
+          "Severe monsoon floods wash away the flower beds and boundary stone walls of the ancestral estate he has tended for years",
+          "A band of rogue wild elephants breaks through the estate gates and destroys the fragrant jasmine gardens overnight",
+          "Woodcutters arrive to chop down the grand Margosa tree that he had lovingly planted and nurtured for fifty long years",
+          "The new property owners dismiss him without notice and accuse him of misplacing antique brass garden irrigation implements"
         ],
         "answer": 2,
         "explanation": "Velan begs the woodcutters to pause until he walks far away so he does not hear the agonized axe blows hitting his beloved tree."
@@ -17014,10 +17014,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a writer construct a psychological 'Character Sketch' effectively?",
         "options": [
-          "Writing the author's home address",
-          "Copying down three random quotes",
-          "Listing only the character's shoe size and hair color",
-          "By analyzing motives, core values, internal conflicts, emotional relationships, and how actions reveal underlying morality"
+          "By documenting the author's personal home address, favorite sports hobbies, and preferred brand of fountain pen ink",
+          "By transcribing three random dialogue snippets from minor background figures without examining context or meaning",
+          "By describing only the physical height, eye color, and wardrobe fabrics worn by the individual across narrative scenes",
+          "By examining motives, core values, internal conflicts, personal relationships, and how choices reveal true moral character"
         ],
         "answer": 3,
         "explanation": "Profound character sketches reveal the hidden moral compass, fears, and choices that define a persona."
@@ -17038,10 +17038,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When transforming theatrical stage dialogue into a narrative short story, what element replaces the visual spectacle of stage lighting?",
         "options": [
-          "Adding bold font to every word",
-          "Writing in capital letters only",
-          "Nothing is needed",
-          "Rich descriptive imagery depicting shadows, atmosphere, weather, and sensory environmental textures"
+          "Printing all descriptive nouns in capitalized bold typeface throughout every narrative chapter",
+          "Inserting parenthetical technical stage directions instructing the reader when to imagine illumination",
+          "Omitting all references to time of day and keeping the fictional story setting completely abstract",
+          "Evocative sensory imagery describing ambient light, creeping shadows, weather, and physical atmosphere"
         ],
         "answer": 3,
         "explanation": "Sensory prose recreates lighting, sound effects, and staging within the reader's imaginative mind!"
@@ -17049,10 +17049,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How is a character's silent internal thought formatted in modern literary prose?",
         "options": [
-          "Shouted with three exclamation marks",
-          "Deleted from the story",
-          "In italics or enclosed in single quotation marks with reflective internal tags (e.g., 'Will they discover the hidden journal? he wondered')",
-          "Written backwards"
+          "Set in bold capital letters accompanied by double exclamation marks",
+          "Deleted from the narrative text entirely to prevent reader confusion",
+          "Set in italics or designated with reflective internal attribution tags",
+          "Spoken backwards within parentheses to signify subconscious thinking"
         ],
         "answer": 2,
         "explanation": "Italics or reflective internal attribution distinguish internal psychological monologue from spoken external dialogue."
@@ -17060,10 +17060,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'INCITING INCIDENT' that sets a narrative story's plot into motion?",
         "options": [
-          "The final sentence of the book",
-          "The initial disruptive event that breaks the status quo and forces the protagonist onto their journey or quest",
-          "The list of chapters",
-          "The author's copyright notice"
+          "The concluding resolution sentence of the final narrative chapter that ties together all remaining subplots",
+          "The initial disruptive event that breaks the status quo and compels the protagonist to embark on their quest",
+          "The introductory table of contents that organizes the manuscript chapters and catalogues thematic sections",
+          "The formal copyright notice on the title page that designates intellectual property ownership and print edition"
         ],
         "answer": 1,
         "explanation": "The inciting incident disrupts the protagonist's normal world, triggering the central dramatic quest!"
@@ -17084,10 +17084,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In Munshi Premchand's 'Idgah', what extraordinary selfless purchase does the orphaned 4-year-old boy Hamid make with his three precious paise at the Eid fair?",
         "options": [
-          "Colorful clay toy soldiers like his wealthy friends",
-          "A toy whistle",
-          "A pair of iron tongs (chimta) for his grandmother Amina, so she will not burn her fingers while baking rotis on the tawa",
-          "Sweet sesame candies to eat alone"
+          "A collection of brightly painted clay soldier figurines just like those bought by his wealthy classmates",
+          "A decorative tin trumpet and colorful paper pinwheel toys to show off proudly to the children of the village",
+          "A pair of iron tongs for his grandmother Amina so she will no longer burn her fingers while baking flatbread",
+          "A package of sweet sesame candies and spiced fried pastries to satisfy his hunger alone during the festival"
         ],
         "answer": 2,
         "explanation": "Hamid sacrifices all childhood toy temptations out of pure, mature empathy for his grandmother's burned fingers!"
@@ -17095,10 +17095,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What profound social theme does Munshi Premchand illuminate through Hamid's selfless choice?",
         "options": [
-          "That children should never go to fairs",
-          "The immense moral beauty, maturity, and emotional depth that love and poverty forge in innocent young souls",
-          "That sweets are harmful",
-          "That iron tongs are the best toys in the world"
+          "The warning that rural village fairs encourage wasteful monetary expenditure on frivolous consumer knickknacks",
+          "The immense moral maturity, empathy, and emotional depth that love and hardship forge in innocent young souls",
+          "The practical lesson that purchasing cheap iron kitchen utensils is more economical than investing in brass pots",
+          "The proposition that children should refrain from forming emotional attachments to elderly family guardians"
         ],
         "answer": 1,
         "explanation": "Premchand captures the sublime triumph of filial love and empathy over material consumer vanity."
@@ -17106,10 +17106,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Grandma Amina react when she discovers little Hamid bought the chimta for her instead of toys or sweets?",
         "options": [
-          "She scolds him and throws the tongs away",
-          "She ignores him completely",
-          "Her anger turns into tears of overwhelming maternal love, weeping and showering blessings on her selfless grandson",
-          "She asks for a different tool"
+          "She scolds him sternly for misplacing his festival coins and demands that he return the iron tool to the blacksmith",
+          "She remains cold and indifferent, locking the metal tongs inside a kitchen trunk without uttering a single word",
+          "Her initial exasperation dissolves into tears of profound maternal love, weeping as she embraces her selfless grandson",
+          "She complains bitterly that he did not select a set of copper serving ladles instead of heavy everyday iron tongs"
         ],
         "answer": 2,
         "explanation": "Amina's heartbreak melts into transcendent tears of pride and maternal gratitude at Hamid's boundless love."
@@ -17130,10 +17130,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'SYNTHESIS' in research writing?",
         "options": [
-          "Copying one website word-for-word",
-          "Making up fictional numbers",
-          "Deleting all citations",
-          "Combining information, data points, and viewpoints from multiple independent sources to formulate an integrated, comprehensive insight"
+          "Transcribing verbatim text extracts from a single online encyclopedia without citing authorial credentials or publication dates",
+          "Generating speculative statistical estimates and inventing fictional case studies to support an unsubstantiated personal hypothesis",
+          "Deleting anomalous evidentiary findings that contradict the researcher's preferred conclusion before submitting the dossier",
+          "Integrating information, empirical data, and perspectives from diverse independent sources to create a coherent comprehensive insight"
         ],
         "answer": 3,
         "explanation": "Synthesis blends disparate puzzle pieces of evidence into a coherent, authoritative analytical tapestry!"
@@ -17141,10 +17141,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When synthesizing conflicting data estimates (e.g., Agency A says groundwater fell by 4 meters, Agency B says 6 meters), how should an objective scholar report it?",
         "options": [
-          "Average them and pretend only one study exists",
-          "Ignore both agencies",
-          "Report the range (4 to 6 meters), explain methodological differences between the studies, and cite both sources transparently",
-          "Pick whichever number looks cooler"
+          "Average the two figures together and present the result as though only one unanimous scientific study existed",
+          "Discard both findings completely and omit all discussion of groundwater trends from the published research report",
+          "Report the observed range, analyze methodological variations between the studies, and cite both sources transparently",
+          "Choose whichever statistical figure appears most dramatic to maximize sensational headlines in local media channels"
         ],
         "answer": 2,
         "explanation": "Scholarly transparency acknowledges variance, contextualizes measurement methodologies, and cites all authorities."
@@ -17152,10 +17152,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'Executive Summary' at the head of a formal investigative research dossier?",
         "options": [
-          "A collection of photographs only",
-          "A concise 1-page overview summarizing the core problem, key empirical findings, and primary policy recommendations for decision-makers",
-          "A list of the author's hobbies",
-          "A blank title sheet"
+          "A decorative visual appendix displaying glossy high-resolution landscape photographs without any accompanying explanatory captions",
+          "A concise overview summarizing the central issue, key empirical findings, and primary recommendations for busy decision-makers",
+          "An exhaustive autobiographical account detailing the research team's personal reading hobbies and recreational travel itineraries",
+          "A blank formal stationery page reserved for handwritten administrative endorsements from corporate sponsors and government patrons"
         ],
         "answer": 1,
         "explanation": "Executive summaries distill dense 50-page reports into actionable, crystal-clear briefs for busy leaders."
@@ -17176,10 +17176,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What structural format is essential for a formal student petition addressed to school management?",
         "options": [
-          "Writing with no name or date",
-          "Informal text message abbreviations",
-          "Demanding action with angry threats",
-          "Formal heading, clear statement of grievance/proposal, empirical justification and student signatures, and respectful closing prayer"
+          "An anonymous unsigned flyer composed in casual smartphone shorthand delivered without any date or institutional addressee",
+          "An angry rhetorical ultimatum demanding immediate policy changes within twenty-four hours under threat of student walkouts",
+          "A creative fictional narrative describing an imaginary academy where students manage all administrative and budgetary matters",
+          "A formal heading, clear statement of proposal, empirical justification, collective student signatures, and respectful closing"
         ],
         "answer": 3,
         "explanation": "Formal petitions command respect through structured decorum, substantiated rationale, and transparent collective endorsement."
@@ -17187,10 +17187,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When drafting an official 'NOTICE' to be displayed on the school bulletin board, what key parameters MUST be present?",
         "options": [
-          "A list of all teachers' salaries",
-          "The entire school history",
-          "The issuing institution name, the bold word 'NOTICE', date of issue, catchy subject heading, body with date/time/venue, and signature with designation",
-          "Private text conversations"
+          "A detailed spreadsheet cataloging private faculty remuneration records, administrative phone numbers, and confidential exam answers",
+          "An extensive historical essay narrating the architectural construction and founding benefactors of the school over the past century",
+          "The issuing authority name, bold heading 'NOTICE', date, concise subject line, essential event details, and signature with designation",
+          "A casual transcript of informal text messaging banter between student council representatives discussing weekend social plans"
         ],
         "answer": 2,
         "explanation": "A notice is a standardized legal public circular requiring explicit institutional authority, timestamp, and actionable details."
@@ -17198,10 +17198,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In formal administrative communication, what does 'CC' (Carbon Copy) on an email or memo indicate?",
         "options": [
-          "Cancelling the message",
-          "Secondary recipients who are sent the correspondence for informational awareness, though direct action is not required from them",
-          "Deleting the email after 24 hours",
-          "The secret code of the company"
+          "The permanent retraction and automated digital deletion of an outgoing dispatch before it reaches intended recipient inboxes",
+          "Secondary recipients who receive correspondence for informational awareness, where direct action is not required from them",
+          "A secret cryptographic routing algorithm that shields sender identification codes from corporate network security firewalls",
+          "A priority escalation marker signaling that every recipient must reply with signed confirmation within twenty-four hours"
         ],
         "answer": 1,
         "explanation": "CC keeps relevant stakeholders transparently in the informational loop without assigning direct action items."
@@ -17222,10 +17222,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does an editor 'PRUNE' wordiness and bloated bureaucratic phrasing to achieve muscular, vigorous prose?",
         "options": [
-          "Making sentences five lines long",
-          "Replacing verbose phrases like 'due to the fact that' with concise words like 'because', and deleting redundant adverbs",
-          "Adding extra adjectives to every sentence",
-          "Repeating points three times"
+          "Expanding simple clauses into complex multi-line sentences and introducing redundant descriptive adjectives throughout",
+          "Replacing verbose phrases with concise words and eliminating redundant adverbs to sharpen clarity and intellectual impact",
+          "Repeating the central thesis statement three times within every paragraph to ensure readers do not overlook the main point",
+          "Inserting passive grammatical voice and archaic legal idioms across all paragraphs to convey an aura of academic gravity"
         ],
         "answer": 1,
         "explanation": "Tight, muscular prose eliminates empty filler ('at this point in time' -> 'now'), maximizing intellectual impact!"
@@ -17233,10 +17233,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'PEER REVIEW' in scholarly publishing and classroom writing workshops?",
         "options": [
-          "Stealing someone's paper to claim as your own",
-          "Deleting the author's name",
-          "Insulting your classmates' handwriting",
-          "Constructive critical evaluation of a draft by knowledgeable peers to catch errors, strengthen logic, and elevate quality before publication"
+          "Appropriating a classmate's research draft without attribution and submitting the manuscript under one's own name for publication",
+          "Censoring all controversial perspectives and deleting authorial attributions to prevent public intellectual disagreement",
+          "Evaluating a fellow student's essay based strictly on penmanship style and criticizing their choice of stationery paper brand",
+          "Constructive evaluation of a draft by peers to identify logical flaws, verify evidence, and elevate overall quality before release"
         ],
         "answer": 3,
         "explanation": "Peer review is the universal crucible of intellectual rigor: friendly, rigorous critique elevates scholarship!"
@@ -17244,10 +17244,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why should writers maintain consistent GRAMMATICAL TENSE throughout a narrative paragraph unless deliberately signaling a time shift?",
         "options": [
-          "Erratic tense-shifting between past and present disorients readers and fractures narrative immersion",
-          "To save printer ink",
-          "Because English only allows past tense",
-          "It has zero impact on readers"
+          "Erratic tense shifting between past and present disorients readers and breaks narrative immersion",
+          "Printer toner cartridges consume double the ink when processing sentences written in different tenses",
+          "Standard English grammar completely forbids the use of past tense verbs in multi-paragraph stories",
+          "Shifting tenses randomly has zero stylistic or cognitive effect on how readers interpret prose events"
         ],
         "answer": 0,
         "explanation": "Consistent tense anchors the reader in a stable chronological stream of consciousness."
@@ -17268,10 +17268,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Aarav achieve structural COHESION across an 800-word multi-paragraph expository essay?",
         "options": [
-          "By ensuring every body paragraph develops ONE distinct facet of the central thesis, linked by transitional logical bridges and evidence",
-          "By changing topics in every sentence",
-          "By omitting all paragraph breaks",
-          "By writing 50 unrelated bullet points"
+          "By developing one distinct facet of the thesis in each paragraph, connected with transitional logical bridges and empirical evidence",
+          "By shifting to completely unrelated topics in every consecutive sentence to prevent the reader from experiencing intellectual fatigue",
+          "By eliminating all paragraph indentations and presenting the entire 800-word essay as a single unbroken continuous block of text",
+          "By assembling fifty isolated bullet points without explanatory connective phrases or overarching analytical organization"
         ],
         "answer": 0,
         "explanation": "Cohesion weaves each paragraph into a unified, unfolding intellectual tapestry marching toward a powerful conclusion."
@@ -17279,10 +17279,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'COUNTER-ARGUMENT' and 'REBUTTAL' paragraph in an advanced argumentative essay?",
         "options": [
-          "Surrendering your entire argument",
-          "Fairly presenting the strongest objection a critic might raise, and then systematically disproving or qualifying it with superior evidence",
-          "Insulting everyone who disagrees with you",
-          "Pretending no opposing views exist"
+          "Conceding that your central thesis is fundamentally flawed and urging the reader to adopt opposing perspectives on the controversy",
+          "Fairly presenting the strongest counter-argument and then systematically disproving or qualifying it with superior logical evidence",
+          "Launching personal insults against scholars who disagree with your claims while ignoring their published research data",
+          "Pretending that no dissenting opinions exist in academic literature and restating your opening assertions with louder emphasis"
         ],
         "answer": 1,
         "explanation": "Addressing the strongest counter-argument demonstrates intellectual honesty and makes your thesis bulletproof!"
@@ -17293,7 +17293,7 @@ const QUESTION_BANK = {
           "'In other words'",
           "'At the end'",
           "'Without author'",
-          "'And others' (used when a research paper has multiple co-authors)"
+          "'And others'"
         ],
         "answer": 3,
         "explanation": "'Et al.' (et alii) avoids listing 10 co-authors in in-text citations, acknowledging the primary author and colleagues."
@@ -17314,10 +17314,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4",
           "x² + 2x + 4",
-          "2x² + 4",
-          "x² + 4"
+          "x² + 4x + 2",
+          "x² + 2x + 2"
         ],
         "answer": 0,
         "explanation": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
@@ -17371,10 +17371,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Expand: (x + 3)(x² - 3x + 9) =",
         "options": [
-          "x³ - 6x² + 27",
-          "x³ + 27 (Sum of cubes identity: (a+b)(a²-ab+b²) = a³ + b³)",
           "x³ - 27",
-          "x³ + 9x + 27"
+          "x³ + 27",
+          "x³ + 81",
+          "x³ - 81"
         ],
         "answer": 1,
         "explanation": "All middle cross-terms cancel out, yielding the famous sum of cubes: x³ + 3³ = x³ + 27!"
@@ -17385,7 +17385,7 @@ const QUESTION_BANK = {
           "Degree 2",
           "Degree 1",
           "Degree 5",
-          "Degree 4 (the highest exponent of the variable 'x')"
+          "Degree 4"
         ],
         "answer": 3,
         "explanation": "The degree of a single-variable polynomial is determined by the highest power of the variable (4)!"
@@ -17431,7 +17431,7 @@ const QUESTION_BANK = {
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes"
         ],
         "answer": 3,
         "explanation": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -17454,7 +17454,7 @@ const QUESTION_BANK = {
         "options": [
           "45°",
           "90°",
-          "180°: x 360° = 180° (exactly half of the circle)",
+          "180°",
           "360°"
         ],
         "answer": 2,
@@ -17465,7 +17465,7 @@ const QUESTION_BANK = {
         "options": [
           "30°",
           "90°",
-          "60°: x 360° = 60°",
+          "60°",
           "120°"
         ],
         "answer": 2,
@@ -17474,10 +17474,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between a standard BAR GRAPH and a HISTOGRAM in statistics?",
         "options": [
-          "A bar graph displays categorical data with gaps between bars; a histogram displays continuous numerical class intervals with NO gaps between bars",
-          "Histograms never use numbers",
-          "Histograms are circular; bar graphs are square",
-          "They mean the exact same chart"
+          "A bar graph shows discrete categories with gaps between bars, whereas a histogram shows continuous class intervals with touching bars",
+          "A bar graph shows continuous intervals with touching bars, whereas a histogram shows discrete categories with equal gaps between bars",
+          "A bar graph plots cumulative frequencies over time, whereas a histogram plots percentage distributions using circular angular sectors",
+          "A bar graph uses connected line segments across points, whereas a histogram uses isolated horizontal bars without any vertical scale"
         ],
         "answer": 0,
         "explanation": "Histograms group continuous numerical ranges (e.g., ages 10-20, 20-30) into touching adjacent columns!"
@@ -17498,10 +17498,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a coin is tossed 10 times, you might get 7 Heads (70%). What does the LAW OF LARGE NUMBERS predict as the number of tosses reaches 10,000?",
         "options": [
-          "The coin will land on its edge",
-          "Tails will become 100%",
-          "Heads will disappear completely",
-          "The experimental relative frequency will converge extremely close to the theoretical probability of 0.5 (50%)"
+          "The experimental relative frequency will drift randomly between zero and one hundred percent without stabilizing",
+          "The experimental relative frequency will favor whichever outcome appeared least frequently during the early trials",
+          "The experimental relative frequency will lock permanently onto the initial sample percentage of seventy percent",
+          "The experimental relative frequency will converge extremely close to the theoretical probability of fifty percent"
         ],
         "answer": 3,
         "explanation": "As the number of independent trials increases, the empirical frequency inexorably approaches theoretical probability!"
@@ -17510,7 +17510,7 @@ const QUESTION_BANK = {
         "prompt": "What is the probability of rolling a SUM OF 7 when rolling two fair standard six-sided dice simultaneously?",
         "options": [
           "1/12",
-          "6/36 = 1/6 (favorable pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1))",
+          "1/6",
           "7/36",
           "1/2"
         ],
@@ -17520,7 +17520,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
-          "0 (Zero probability)",
+          "0",
           "1",
           "-1",
           "0.5"
@@ -17544,10 +17544,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'ISOMETRIC SKETCH' on dot grid paper?",
         "options": [
-          "A 2D drawing of a 3D solid where the three coordinate axes appear equally foreshortened at 120-degree angles, preserving true proportional scale",
-          "A flat shadow outline",
-          "A drawing that has no corners",
-          "A painting with water colors only"
+          "A pictorial representation of a solid where coordinate axes are drawn at 120 degrees to show true proportional dimensions",
+          "A flat orthographic projection that displays only the front outline of a solid without any depth or perspective foreshortening",
+          "A vanishing-point perspective sketch where parallel edges converge to a single focal point on an imaginary horizon line",
+          "An unfolded two-dimensional flat pattern of polygons that can be creased along fold lines to assemble a hollow solid shape"
         ],
         "answer": 0,
         "explanation": "Isometric projection allows engineers to represent 3D depth, height, and width accurately on flat 2D surfaces!"
@@ -17556,7 +17556,7 @@ const QUESTION_BANK = {
         "prompt": "In an oblique drawing vs an isometric drawing, which one preserves the true shape of the front face without distortion?",
         "options": [
           "An isometric sketch",
-          "An Oblique sketch (the front face is drawn flat and undistorted as a true square/rectangle)",
+          "An Oblique sketch",
           "Neither",
           "Both distort the front"
         ],
@@ -17590,10 +17590,10 @@ const QUESTION_BANK = {
       {
         "prompt": "For a TRIANGULAR PRISM (with 2 triangular bases and 3 rectangular sides): Faces = 5, Vertices = 6. Calculate its number of Edges using Euler's formula F - E + V = 2:",
         "options": [
-          "8 Edges",
-          "6 Edges",
-          "9 Edges: 5 - E + 6 = 2 -> 11 - E = 2 -> E = 9",
-          "12 Edges"
+          "Exactly 8 edges",
+          "Exactly 6 edges",
+          "Exactly 9 edges",
+          "Exactly 12 edges"
         ],
         "answer": 2,
         "explanation": "F - E + V = 2 -> 5 - 9 + 6 = 2! A triangular prism has exactly 9 edges (3 on top, 3 on bottom, 3 vertical)!"
@@ -17601,10 +17601,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is a 'REGULAR POLYHEDRON' (Platonic Solid)?",
         "options": [
-          "A cylinder",
-          "Any rock with flat faces",
-          "A shape made of clay",
-          "A 3D solid whose faces are all identical regular polygons, and the same number of faces meet at every vertex (e.g., Tetrahedron, Cube, Octahedron)"
+          "A three-dimensional solid formed by curved revolving surfaces that have equal radii along their cross sections",
+          "A three-dimensional solid having rectangular lateral faces with two congruent parallel polygon bases at each end",
+          "A three-dimensional solid whose vertices all connect to a single apex point above a regular polygonal base",
+          "A three-dimensional solid whose faces are congruent regular polygons and where the same number of faces meet at each vertex"
         ],
         "answer": 3,
         "explanation": "There are only FIVE Platonic solids in geometry: Tetrahedron, Cube, Octahedron, Dodecahedron, and Icosahedron!"
@@ -17612,8 +17612,8 @@ const QUESTION_BANK = {
       {
         "prompt": "Can a polyhedron have 10 faces, 20 edges, and 15 vertices? Test using Euler's formula: F - E + V = 10 - 20 + 15 =",
         "options": [
-          "5 (Since 5 ≠ 2, NO such polyhedron can physically exist!)",
-          "2 (Yes it exists)",
+          "5",
+          "2",
           "0",
           "10"
         ],
@@ -17636,10 +17636,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How many independent measurements (sides, diagonals, or angles) are MINIMALLY required to construct a unique, fixed quadrilateral?",
         "options": [
-          "4 measurements",
-          "3 measurements",
-          "5 independent measurements (e.g., 4 sides and 1 diagonal, or 3 sides and 2 included angles)",
-          "6 measurements"
+          "Exactly 4 independent measurements",
+          "Exactly 3 independent measurements",
+          "Exactly 5 independent measurements",
+          "Exactly 6 independent measurements"
         ],
         "answer": 2,
         "explanation": "A quadrilateral has 8 degrees of freedom; fixing its position, rotation, and shape requires 5 independent geometric measurements!"
@@ -17647,10 +17647,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why can a quadrilateral NOT be constructed uniquely if only its 4 side lengths are given?",
         "options": [
-          "Because 4 sides cannot connect",
-          "Sides must be equal",
-          "Without a fixed diagonal or angle, the 4 hinged sides can flex and distort into infinitely many different parallelograms (it lacks rigidity)",
-          "Because compasses only draw circles"
+          "Because four straight line segments cannot form a closed geometric figure unless all four interior angles are right angles",
+          "Because the sum of four given side lengths must always be equal to three hundred and sixty degrees on a flat plane",
+          "Because without a fixed diagonal or angle, the hinged sides can flex into infinitely many different quadrilateral shapes",
+          "Because opposite pairs of sides in any four-sided polygon are mathematically required to have identical measurements"
         ],
         "answer": 2,
         "explanation": "Triangles are rigid (3 sides fix shape); quadrilaterals flex unless fixed by a 5th measurement (diagonal or angle)!"
@@ -17658,10 +17658,10 @@ const QUESTION_BANK = {
       {
         "prompt": "To construct a unique RHOMBUS, what is the minimum information needed besides the fact that all 4 sides are equal?",
         "options": [
-          "Nothing else is needed",
-          "The perimeter only",
-          "The color of the paper",
-          "The lengths of its TWO diagonals (since diagonals of a rhombus bisect each other perpendicularly at 90°)"
+          "The total perimeter of all four sides",
+          "The radius of its inscribed circle",
+          "The sum of all four interior angles",
+          "The lengths of its two diagonals"
         ],
         "answer": 3,
         "explanation": "Perpendicular bisecting diagonals allow flawless construction of any rhombus with a compass!"
@@ -17693,10 +17693,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
-          "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
-          "Because 360 is a magic number",
-          "It is only a rough guess"
+          "Every polygon can be rotated completely around its central point to sweep out an angle of three hundred and sixty degrees",
+          "Any n-sided polygon can be divided into n minus two non-overlapping triangles from one vertex, each contributing 180 degrees",
+          "The exterior angles of any regular polygon always add up to half the sum of its corresponding interior supplementary angles",
+          "Each side of the polygon adds a fixed ninety degrees of angular turning between consecutive adjacent perimeter segments"
         ],
         "answer": 1,
         "explanation": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
@@ -17742,7 +17742,7 @@ const QUESTION_BANK = {
           "They always intersect at 90°",
           "They are always equal in length",
           "They never touch each other",
-          "They BISECT each other (they cut each other into two equal halves at their intersection point)"
+          "They BISECT each other"
         ],
         "answer": 3,
         "explanation": "In every parallelogram, the intersection point of the diagonals is the exact midpoint of both diagonals!"
@@ -17774,10 +17774,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
-          "60 m²",
-          "48 m²",
-          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
-          "100 m²"
+          "60 square meters",
+          "45 square meters",
+          "50 square meters",
+          "55 square meters"
         ],
         "answer": 2,
         "explanation": "Area of trapezium = half the sum of parallel sides times height: 1/2 x 20 x 5 = 50 m²!"
@@ -17785,10 +17785,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the area of a trapezium half the sum of its parallel sides times height?",
         "options": [
-          "Because trapeziums have two corners",
-          "Because math formulas always use 1/2",
-          "It is only an estimate",
-          "Two identical trapeziums placed together form a large parallelogram with base (a + b) and height h"
+          "Dividing the trapezium along its median creates two congruent right triangles that share a common perpendicular altitude",
+          "The perpendicular height bisects the two non-parallel legs to create an equivalent rectangle with the smaller base",
+          "Connecting opposite vertices splits the figure into two equal triangles having identical parallel base lengths",
+          "Two identical trapeziums joined together form a parallelogram of base equal to the sum of parallel sides and height h"
         ],
         "answer": 3,
         "explanation": "Doubling a trapezium creates a parallelogram of base (a+b) and height h, so one trapezium is 1/2(a+b)h!"
@@ -17796,10 +17796,10 @@ const QUESTION_BANK = {
       {
         "prompt": "If a trapezium has parallel sides of 14 cm and 6 cm and an area of 80 cm², what is its perpendicular height 'h'?",
         "options": [
-          "h = 16 cm",
-          "h = 10 cm",
-          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
-          "h = 4 cm"
+          "Height is 16 cm",
+          "Height is 10 cm",
+          "Height is 8 cm",
+          "Height is 4 cm"
         ],
         "answer": 2,
         "explanation": "10 x h = 80 -> h = 80 / 10 = 8 centimeters!"
@@ -17820,10 +17820,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do land surveyors calculate the exact total area of an irregular 5-sided or 6-sided polygon on a field survey?",
         "options": [
-          "By walking along the fence only",
-          "By partitioning the polygon into a series of right-angled triangles and trapeziums along a survey baseline and summing their individual areas",
-          "By rounding the whole field into a circle",
-          "By guessing from a photograph"
+          "By calculating the outer boundary perimeter and multiplying it by the average diagonal distance between opposite boundary corners",
+          "By partitioning the polygon into triangles and trapeziums along a central baseline and calculating the sum of their individual areas",
+          "By approximating the irregular perimeter as a single regular circle and applying the standard radius area formula pi r squared",
+          "By measuring the coordinates of all boundary markers and calculating the volume of topsoil displaced across the entire landscape"
         ],
         "answer": 1,
         "explanation": "Triangulation: partitioning complex polygons into standard triangles and trapeziums yields exact computable areas!"
@@ -17831,10 +17831,10 @@ const QUESTION_BANK = {
       {
         "prompt": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
-          "600 m²",
+          "600 square meters",
           "550 square meters",
-          "500 m²",
-          "450 m²"
+          "500 square meters",
+          "450 square meters"
         ],
         "answer": 1,
         "explanation": "Total Area = Sum of component areas: 120 + 250 + 180 = 550 m²!"
@@ -17843,9 +17843,9 @@ const QUESTION_BANK = {
         "prompt": "What is the formula for the area of a RHOMBUS given the lengths of its two diagonals d₁ and d₂?",
         "options": [
           "d₁ x d₂",
-          "2 x (d₁ + d₂)",
+          "2 x",
           "1/2 x d₁ x d₂",
-          "(d₁ + d₂)²"
+          "²"
         ],
         "answer": 2,
         "explanation": "A rhombus splits into 4 identical right triangles: Area = 1/2 x d₁ x d₂!"
@@ -17866,10 +17866,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
-          "700 m³",
-          "2,200 m³",
-          "1,450 m³"
+          "1,540 cubic meters",
+          "1,760 cubic meters",
+          "1,320 cubic meters",
+          "1,450 cubic meters"
         ],
         "answer": 0,
         "explanation": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
@@ -17877,10 +17877,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
-          "892 m²",
-          "154 m²",
-          "440 m²"
+          "748 square meters",
+          "892 square meters",
+          "616 square meters",
+          "440 square meters"
         ],
         "answer": 0,
         "explanation": "TSA = Curved Surface Area (2πrh) + 2 Circular Base Caps (2πr²) = 2πr(r + h) = 748 m²!"
@@ -17889,7 +17889,7 @@ const QUESTION_BANK = {
         "prompt": "If 1 cubic meter (1 m³) of water equals 1,000 litres, how many litres of water does the 1,540 m³ tank hold when full?",
         "options": [
           "15,400 litres",
-          "15,40,000 litres (1.54 million litres)",
+          "15,40,000 litres",
           "1,54,000 litres",
           "154 million litres"
         ],
@@ -18004,10 +18004,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the mathematical DIVISIBILITY RULE FOR 9?",
         "options": [
-          "A number is divisible by 9 if and only if the SUM of its digits is divisible by 9",
-          "The first digit must be 9",
-          "The number must be odd",
-          "The number must end in 9"
+          "A number is divisible by 9 if and only if the sum of all its digits is divisible by 9",
+          "A number is divisible by 9 if and only if its final two digits form a multiple of 9",
+          "A number is divisible by 9 if and only if its units digit is either zero or nine",
+          "A number is divisible by 9 if and only if the alternating sum of its digits equals 9"
         ],
         "answer": 0,
         "explanation": "Because 10 ≡ 1 (mod 9), any number has the same remainder as the sum of its digits!"
@@ -18015,10 +18015,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the DIVISIBILITY RULE FOR 11? Test the number 1,364:",
         "options": [
-          "Divide by 2 and add 1",
-          "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
-          "The number must end in 1"
+          "The difference between the sum of its first two digits and the sum of its last two digits must be divisible by eleven",
+          "The product of digits at odd positions must equal the product of digits at even positions when counting from the right",
+          "The difference between the sum of digits at odd places and the sum of digits at even places must be zero or a multiple of eleven",
+          "The sum of all individual digits across the entire number must be an exact integer multiple of eleven without remainder"
         ],
         "answer": 2,
         "explanation": "Sum at odd places (1+6=7) minus sum at even places (3+4=7) = 0. Since 0 is divisible by 11, 1,364 is divisible by 11!"
@@ -18026,7 +18026,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these numbers is divisible by 6 (must be divisible by BOTH 2 and 3)?",
         "options": [
-          "435 (odd number)",
+          "435",
           "431",
           "430",
           "432"
@@ -18050,9 +18050,9 @@ const QUESTION_BANK = {
       {
         "prompt": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
-          "Only 1",
-          "Zero",
-          "Exactly 10",
+          "Exactly one unique rational number",
+          "Exactly ten distinct rational numbers",
+          "A finite set of one hundred numbers",
           "Infinitely many rational numbers"
         ],
         "answer": 3,
@@ -18072,10 +18072,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which fraction lies between 2/5 (0.40) and 3/5 (0.60)?",
         "options": [
-          "4/5 (0.80)",
-          "7/10 (0.70)",
-          "1/5 (0.20)",
-          "1/2 (0.50)"
+          "4/5",
+          "7/10",
+          "1/5",
+          "1/2"
         ],
         "answer": 3,
         "explanation": "1/2 = 0.50, which sits comfortably right between 0.40 and 0.60!"
@@ -18096,10 +18096,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What property of multiplication over addition is represented by: a x (b + c) = (a x b) + (a x c)?",
         "options": [
-          "The DISTRIBUTIVE PROPERTY of multiplication over addition",
-          "The Commutative Property",
-          "The Associative Property",
-          "The Closure Property"
+          "The Distributive Property of multiplication over addition",
+          "The Commutative Property of multiplication over addition",
+          "The Associative Property of multiplication over addition",
+          "The Identity Property of multiplication over addition"
         ],
         "answer": 0,
         "explanation": "The Distributive Property allows multiplying a factor across all terms inside parentheses!"
@@ -18107,8 +18107,8 @@ const QUESTION_BANK = {
       {
         "prompt": "Which operation on rational numbers is NOT commutative (i.e., a ○ b ≠ b ○ a)?",
         "options": [
-          "Addition (a + b = b + a)",
-          "Multiplication (a x b = b x a)",
+          "Addition",
+          "Multiplication",
           "All operations are commutative",
           "Subtraction and Division"
         ],
@@ -18145,7 +18145,7 @@ const QUESTION_BANK = {
           "₹14,000",
           "₹12,000",
           "₹11,000",
-          "₹12,100: 10,000 x 1.21 = ₹12,100 (Compound Interest = ₹2,100)"
+          "₹12,100"
         ],
         "answer": 3,
         "explanation": "Compound interest earns 'interest on interest': Year 1 earns ₹1,000; Year 2 earns 10% on ₹11,000 = ₹1,100! Total = ₹12,100!"
@@ -18154,7 +18154,7 @@ const QUESTION_BANK = {
         "prompt": "A winter jacket with a MARKED PRICE of ₹2,000 is offered with a 25% festival DISCOUNT. What is the customer's purchase price?",
         "options": [
           "₹1,250",
-          "₹1,500: Discount = 25% of 2,000 = ₹500; Selling Price = 2,000 - 500 = ₹1,500",
+          "₹1,500",
           "₹1,800",
           "₹1,750"
         ],
@@ -18164,10 +18164,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does Compound Interest grow wealth significantly faster than Simple Interest over long time horizons?",
         "options": [
-          "Compound interest has no taxes",
-          "It grows linearly",
-          "Banks give free money",
-          "Earned interest is continually added back to the principal, so future interest is calculated on an ever-growing capital base (exponential growth)"
+          "Simple interest deducts administrative bank charges every year, whereas compound interest waives all institutional maintenance fees",
+          "Simple interest applies variable market interest rates over time, whereas compound interest guarantees a permanently fixed rate of return",
+          "Simple interest distributes dividends only at maturity, whereas compound interest doubles the original investment every single calendar year",
+          "Simple interest earns returns only on original principal, whereas compound interest earns interest on previously accumulated interest"
         ],
         "answer": 3,
         "explanation": "Albert Einstein called compound interest the 'eighth wonder of the world': exponential mathematical growth!"
@@ -18188,10 +18188,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
-          "Direct proportion: 24 days",
-          "12 days",
-          "3 days",
-          "INVERSE PROPORTION: 6 days"
+          "Direct proportion requiring 24 days",
+          "Direct proportion requiring 12 days",
+          "Inverse proportion requiring 3 days",
+          "Inverse proportion requiring 6 days"
         ],
         "answer": 3,
         "explanation": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -18235,7 +18235,7 @@ const QUESTION_BANK = {
         "prompt": "Which physical property distinguishes METALS from non-metals, allowing metals to be drawn into thin electrical wires without snapping?",
         "options": [
           "Brittleness",
-          "Malleability (beating into sheets)",
+          "Malleability",
           "Sonorousness",
           "DUCTILITY"
         ],
@@ -18245,8 +18245,8 @@ const QUESTION_BANK = {
       {
         "prompt": "Which seasonal crop pair belongs to the RABI CROPS sown in winter (October-November) and harvested in spring (April)?",
         "options": [
-          "Wheat and Mustard (Gram / Barley)",
-          "Paddy (Rice) and Maize (Kharif crops)",
+          "Wheat and Mustard",
+          "Paddy and Maize",
           "Soybean and Groundnut",
           "Cotton and Jute"
         ],
@@ -18259,7 +18259,7 @@ const QUESTION_BANK = {
           "Lactobacillus bacteria",
           "Penicillium mold",
           "Amoeba",
-          "Yeast (Saccharomyces cerevisiae)"
+          "Yeast"
         ],
         "answer": 3,
         "explanation": "Yeast ferments sugars anaerobically, generating CO₂ bubbles that leaven and fluff bread dough!"
@@ -18280,10 +18280,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does a PARABOLIC solar reflector cook food much faster than a standard flat box solar cooker?",
         "options": [
-          "It uses electricity from batteries",
-          "Its curved parabolic shape focuses all incoming parallel sunbeams into a single, intense focal point of extreme heat",
-          "It is painted white",
-          "It reflects light away into space"
+          "Its enclosed glass lid traps thermal infrared radiation while preventing warm convection air currents from escaping",
+          "Its curved parabolic surface concentrates all incoming parallel sunlight into a single intense high-temperature focal point",
+          "Its dark matte black coating absorbs ultraviolet wavelengths directly from ambient air without reflecting visible light",
+          "Its polished aluminum mirrors distribute incoming solar rays uniformly across a wide surface area to prevent burning"
         ],
         "answer": 1,
         "explanation": "Parabolic geometry concentrates all intercepted solar energy onto the cooking vessel, reaching 200°C+!"
@@ -18291,10 +18291,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does bio-plastic synthesized from cornstarch or cassava differ from petroleum-based plastic bags?",
         "options": [
-          "It is 100% biodegradable, breaking down into water, CO₂, and biomass in compost within months without leaving toxic microplastics",
-          "It is waterproof forever",
-          "It is made of heavy metal lead",
-          "It never decomposes"
+          "It decomposes naturally into water, carbon dioxide, and organic matter in compost without shedding persistent microplastics",
+          "It remains completely impervious to microbial decay over centuries because of synthetic cross-linked covalent polymer bonds",
+          "It releases toxic hydrochloric acid vapor upon breakdown that sterilizes soil bacteria and prevents future vegetation growth",
+          "It melts into an impermeable petroleum resin layer when exposed to moisture that prevents groundwater recharge in landfills"
         ],
         "answer": 0,
         "explanation": "Plant-derived polylactic acid (PLA) bio-plastics decompose safely in commercial compost facilities!"
@@ -18302,10 +18302,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary ecological hazard of single-use petroleum plastic packaging in oceans?",
         "options": [
-          "It makes seawater too sweet",
-          "It freezes the ocean",
-          "It has zero impact on sea life",
-          "It fragments into toxic microplastics that enter the marine food chain, poisoning zooplankton, fish, and humans"
+          "It dissolves completely into ocean water and neutralizes the natural salinity required by deep-sea organisms",
+          "It reacts with dissolved oxygen molecules to trigger catastrophic underwater boiling that destroys coral reefs",
+          "It coats the ocean surface with an impermeable mineral film that permanently prevents normal tidal movements",
+          "It breaks down into minute toxic microplastic particles that enter marine food webs and harm aquatic wildlife"
         ],
         "answer": 3,
         "explanation": "Microplastics bioaccumulate up the trophic pyramid, carrying endocrine-disrupting petrochemical toxins into human food."
@@ -18326,10 +18326,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary conservation benefit of DRIP IRRIGATION over traditional flood furrow irrigation?",
         "options": [
-          "It floods the whole field like a lake",
-          "It requires zero pipes",
-          "It makes weeds grow ten times faster",
-          "It delivers water drop-by-drop directly to the plant root zone, eliminating water wastage through surface runoff and evaporation by up to 70%"
+          "It floods entire agricultural fields uniformly to submerge weed seedlings under standing water and eliminate manual weeding",
+          "It sprays fine pressurized water droplets high into the atmosphere to increase local humidity and induce artificial rainfall",
+          "It relies entirely on gravity-fed open canals to deliver large volumes of river runoff across gently sloping crop terraces",
+          "It supplies water drop by drop directly to the plant root zone to minimize wastage from surface runoff and soil evaporation"
         ],
         "answer": 3,
         "explanation": "Precision drip irrigation maximizes crop yield per drop while preventing soil waterlogging and salinization!"
@@ -18337,10 +18337,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does excessive runoff of synthetic chemical fertilizers into freshwater lakes cause DEAD ZONES (Eutrophication)?",
         "options": [
-          "Fertilizers turn fish into frogs",
-          "Excess nitrogen/phosphorus triggers massive algal blooms; when algae die, decomposing bacteria consume all dissolved oxygen, suffocating fish",
-          "Fertilizers make lake water freeze",
-          "Fertilizers evaporate the lake"
+          "Excess chemical salts dissolve limestone lakebeds, releasing acidic gases that turn freshwater lakes into toxic saline marshes",
+          "Runoff nutrients trigger rapid algal blooms whose decay consumes dissolved oxygen, leaving aquatic organisms unable to breathe",
+          "Synthetic compounds crystallize into an impenetrable surface crust that stops sunlight from warming the lake during cold seasons",
+          "High mineral concentrations cause water molecules to dissociate rapidly into hydrogen gas, causing catastrophic underwater fires"
         ],
         "answer": 1,
         "explanation": "Eutrophication depletes aquatic dissolved oxygen, transforming vibrant lakes into hypoxic dead zones!"
@@ -18348,10 +18348,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How do biological pest controls (like releasing predatory Ladybug beetles) protect crops safely?",
         "options": [
-          "Ladybugs poison the groundwater",
-          "Ladybugs naturally hunt and consume crop-damaging aphids without leaving toxic chemical residues on human food",
-          "Ladybugs eat the whole crop plant",
-          "Ladybugs act as chemical sprayers"
+          "Predatory beetles secrete synthetic neurotoxins into plant xylem tissues that make crop foliage bitter to herbivore pests",
+          "Predatory beetles consume sap-sucking pest insects naturally without leaving dangerous chemical residues on harvested crops",
+          "Predatory beetles form dense physical barriers around crop roots that physically block invasive soil nematodes from entering",
+          "Predatory beetles induce rapid genetic mutations in weeds that prevent invasive plant species from producing viable seeds"
         ],
         "answer": 1,
         "explanation": "Integrated Pest Management (IPM) harnesses natural predator-prey dynamics to keep pests in check non-toxically!"
@@ -18372,10 +18372,10 @@ const QUESTION_BANK = {
       {
         "prompt": "In this experiment, what is the 'INDEPENDENT VARIABLE' (the factor deliberately changed by the scientist)?",
         "options": [
-          "The amount of water (controlled)",
-          "The wavelength/color of light supplied to the seeds",
-          "The room temperature (controlled)",
-          "The brand of seeds"
+          "The total volume of water supplied to the pots",
+          "The specific color of light supplied to the seeds",
+          "The ambient room temperature during germination",
+          "The brand of compost soil placed in the containers"
         ],
         "answer": 1,
         "explanation": "The independent variable is the single parameter manipulated by the researcher to test its effect!"
@@ -18383,10 +18383,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'DEPENDENT VARIABLE' being measured as the outcome?",
         "options": [
-          "The time of day the experiment started",
-          "The color of the light bulb",
-          "The height of the sprouted green shoot in millimeters",
-          "The size of the table"
+          "The duration of daily light exposure in hours",
+          "The amount of water added to each container",
+          "The total height of the sprouted seedling shoot",
+          "The surface area of the experimental workbench"
         ],
         "answer": 2,
         "explanation": "The dependent variable is the measurable biological response (shoot growth) resulting from the independent variable."
@@ -18394,10 +18394,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is a 'CONTROL GROUP' essential in any rigorous scientific investigation?",
         "options": [
-          "Control groups are not needed",
-          "To have extra plants in case you get hungry",
-          "To make the experiment look larger",
-          "It provides a baseline standard under normal conditions to prove that observed changes were truly caused by the variable being tested"
+          "It provides duplicate experimental trials where multiple variables are changed simultaneously to accelerate discovery",
+          "It ensures that all participating scientists record identical numerical measurements regardless of instrument precision",
+          "It replaces the need for repeated experimental trials by guaranteeing that initial observations contain zero random error",
+          "It establishes a reliable baseline under standard conditions to verify that observed effects result solely from the tested variable"
         ],
         "answer": 3,
         "explanation": "Without a control group, you cannot prove whether the outcome resulted from your test or random environmental flux!"
@@ -18418,10 +18418,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What chemical atmospheric pollutant emitted from nearby petroleum refineries and coal power plants causes ACID RAIN by forming sulfuric acid?",
         "options": [
-          "Helium gas",
-          "Water vapor",
-          "Pure oxygen gas",
-          "Sulfur Dioxide (SO₂) and Nitrogen Oxides (NOₓ)"
+          "Carbon Monoxide and Argon gas",
+          "Pure Oxygen and Nitrogen gas",
+          "Methane and Water vapor clouds",
+          "Sulfur Dioxide and Nitrogen Oxides"
         ],
         "answer": 3,
         "explanation": "SO₂ + H₂O -> H₂SO₄ (sulfuric acid) and NO₂ + H₂O -> HNO₃ (nitric acid) acidify precipitation down to pH 4 or lower!"
@@ -18429,10 +18429,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What chemical reaction occurs when acid rain (H₂SO₄) attacks the calcium carbonate (CaCO₃) marble facade of the Taj Mahal?",
         "options": [
-          "CaCO₃ + H₂SO₄ -> CaSO₄ (Calcium Sulfate / Gypsum) + H₂O + CO₂, dissolving and corroding the stone ('Marble Cancer')",
-          "The marble turns into solid gold",
-          "The marble becomes ten times stronger",
-          "The acid evaporates harmlessly"
+          "Marble reacts with sulfuric acid to form soluble gypsum, corroding the stone",
+          "Marble oxidizes with rainwater to produce insoluble limestone, hardening the rock",
+          "Marble combines with atmospheric nitrogen to form basic calcium oxide crystals",
+          "Marble absorbs acid rain molecules without undergoing any chemical transformation"
         ],
         "answer": 0,
         "explanation": "Acid dissolves insoluble calcium carbonate into soluble gypsum, pitting and disfiguring heritage monuments!"
@@ -18440,10 +18440,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'PHOTOCHEMICAL SMOG' that blankets northern Indian cities in winter?",
         "options": [
-          "A toxic mixture of smoke, fog, unburnt hydrocarbons, and ozone triggered when sunlight reacts with vehicle and stubble exhaust in cold stagnant air",
-          "Ordinary clean river fog",
-          "Steam from boiling tea kettles",
-          "Dust from the Sahara desert"
+          "A hazardous mixture of smoke, fog, and ozone formed when sunlight reacts with vehicular emissions and stubble smoke in cold stagnant air",
+          "A natural mist produced when warm moisture from river valleys condenses into pure water vapor droplets during calm winter mornings",
+          "An airborne suspension of coarse silica dust particles carried across northern plains by high-velocity seasonal monsoon winds",
+          "A dense cloud of water vapor released from cooling towers of thermal power stations that traps pleasant geothermal heat near ground level"
         ],
         "answer": 0,
         "explanation": "Winter temperature inversions trap vehicular particulate matter and nitrogen dioxide into hazardous toxic smog."
@@ -18464,10 +18464,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What gas is evolved during the single displacement reaction: Zinc + Hydrochloric Acid -> Zinc Chloride + ________?",
         "options": [
-          "Hydrogen Gas (H₂)",
-          "Oxygen Gas (O₂)",
-          "Nitrogen Gas (N₂)",
-          "Carbon Dioxide (CO₂)"
+          "Hydrogen Gas",
+          "Oxygen Gas",
+          "Nitrogen Gas",
+          "Carbon Dioxide"
         ],
         "answer": 0,
         "explanation": "Zn + 2HCl -> ZnCl₂ + H₂↑! Reactive metals displace hydrogen from acids, releasing flammable hydrogen gas."
@@ -18475,10 +18475,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What definitive acoustic test confirms that the gas collected from the acid-metal reaction is HYDROGEN?",
         "options": [
-          "It smells like rotten eggs",
-          "It turns lime water milky (that tests CO₂)",
-          "It burns with a characteristic sharp 'POP' sound when a burning wooden splinter is brought near the test tube mouth",
-          "It extinguishes the match with zero sound"
+          "It turns moist red litmus paper deep blue when exposed directly to the mouth of the reaction tube",
+          "It produces a sharp hissing whistle and turns clear lime water milky when bubbled through the liquid",
+          "It burns with a distinctive pop sound when an ignited wooden splint is brought near the tube opening",
+          "It extinguishes a burning splint silently without supporting combustion or producing any visible flame"
         ],
         "answer": 2,
         "explanation": "The 'Pop Test'! Hydrogen gas ignites instantly in air with a small characteristic pop explosion."
@@ -18486,10 +18486,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are acidic foodstuffs (like lemon pickles, curd, or tomato chutney) NEVER stored in copper, brass, or aluminium vessels?",
         "options": [
-          "Because metal vessels are too heavy",
-          "The vessel will melt into liquid water",
-          "Acids in the food react with the metal to produce toxic, poisonous metallic salts that can cause severe food poisoning",
-          "The metal will make the food turn sweet"
+          "Food acids absorb metallic luster from the container walls, permanently altering the natural appearance of the food",
+          "Food acids cause metallic containers to turn brittle and crack into fragments under normal room temperature storage",
+          "Food acids react with metals to produce toxic chemical compounds that can cause severe illness if ingested by humans",
+          "Food acids neutralize all dietary nutrients in the preserved food, causing the contents to lose all caloric energy"
         ],
         "answer": 2,
         "explanation": "Organic acids react with copper and brass to form toxic copper verdigris salts, contaminating food!"
@@ -18511,8 +18511,8 @@ const QUESTION_BANK = {
         "prompt": "Which zone of a candle flame is the HOTTEST, where complete combustion takes place, appearing as a faint blue outer mantle?",
         "options": [
           "The Dark Innermost Zone around the wick",
-          "The Luminous Middle Zone (yellow zone)",
-          "The Non-Luminous Outer Zone (zone of complete combustion)",
+          "The Luminous Middle Zone",
+          "The Non-Luminous Outer Zone",
           "All zones have identical temperature"
         ],
         "answer": 2,
@@ -18521,10 +18521,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why does the middle luminous zone of a candle flame glow bright YELLOW?",
         "options": [
-          "Incomplete combustion produces unburnt glowing carbon soot particles that radiate yellow incandescent light",
-          "It contains pure gold dust",
-          "Because oxygen is burning",
-          "Because candle wax is painted yellow"
+          "Incomplete combustion produces glowing carbon soot particles that radiate bright yellow incandescent light",
+          "Complete combustion of pure vaporized wax produces high-frequency photons that radiate intense yellow light",
+          "The decomposition of atmospheric nitrogen molecules in the hot flame core emits bright yellow atomic light",
+          "Molten wax drawn through the cotton wick undergoes vaporization that scatters yellow wavelengths from the room"
         ],
         "answer": 0,
         "explanation": "Incomplete combustion leaves tiny carbon particles that glow hot yellow before escaping as soot."
@@ -18532,7 +18532,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What three conditions make up the 'FIRE TRIANGLE', all of which are essential to sustain combustion?",
         "options": [
-          "Fuel, Oxygen (Supporter of combustion), and Heat (reaching ignition temperature)",
+          "Fuel, Oxygen, and Heat",
           "Nitrogen, Smoke, and Ash",
           "Fuel, Water, and Carbon",
           "Wood, Matches, and Wind"
@@ -18568,7 +18568,7 @@ const QUESTION_BANK = {
         "prompt": "Which green organelle containing chlorophyll is found in plant cells for photosynthesis, but never in animal cells?",
         "options": [
           "Ribosomes",
-          "Chloroplasts (Plastids)",
+          "Chloroplasts",
           "Centrosomes",
           "Lysosomes"
         ],
@@ -18578,10 +18578,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the difference between VIVIPAROUS animals and OVIPAROUS animals?",
         "options": [
-          "Oviparous animals have no bones",
-          "They mean the exact same classification",
-          "Viviparous animals give birth to live young (like humans, cows, whales); Oviparous animals lay eggs (like birds, frogs, reptiles)",
-          "Viviparous animals fly; oviparous animals swim"
+          "Viviparous animals reproduce through spores, whereas oviparous animals reproduce by budding",
+          "Viviparous animals fertilize externally in water, whereas oviparous animals fertilize internally",
+          "Viviparous animals give birth to living young, whereas oviparous animals lay protective eggs",
+          "Viviparous animals possess hard outer exoskeletons, whereas oviparous animals have backbones"
         ],
         "answer": 2,
         "explanation": "Viviparous = live birth (mammals); Oviparous = egg-laying (birds, fish, amphibians, reptiles)!"
@@ -18613,10 +18613,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the role of the colored muscular IRIS in controlling vision?",
         "options": [
-          "It regulates the amount of light entering the eye by adjusting the diameter of the central pupil opening",
-          "It connects to the ear",
-          "It holds the tears",
-          "It focuses sound waves"
+          "It regulates the amount of light entering the eye by continuously adjusting the size of the central pupil",
+          "It bends incoming light rays to project sharp inverted images directly onto photoreceptors of the retina",
+          "It transmits electrical impulses from rod and cone cells through the optic nerve to the cerebral cortex",
+          "It secretes lubricating saline fluid across the cornea to cleanse the eyeball surface of airborne debris"
         ],
         "answer": 0,
         "explanation": "The iris contracts the pupil in blinding sunlight and dilates the pupil in dim darkness to optimize vision."
@@ -18624,7 +18624,7 @@ const QUESTION_BANK = {
       {
         "prompt": "What kind of image does the flexible, convex crystalline lens of the eye cast onto the retina?",
         "options": [
-          "A Real and Inverted (upside-down) image (which the brain's visual cortex flips right-side up)",
+          "A Real and Inverted image",
           "A reflection of the outside world",
           "A virtual upright hologram",
           "A black-and-white flat square"
@@ -18648,10 +18648,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the FIRST LAW OF REFLECTION state regarding the angle of incidence (∠i) and angle of reflection (∠r)?",
         "options": [
-          "They always sum to 90°",
-          "Angle of incidence is double the reflection",
-          "Angle of reflection is always zero",
-          "The angle of incidence is ALWAYS EQUAL to the angle of reflection (∠i = ∠r)"
+          "The angle of incidence is always strictly greater than the angle of reflection",
+          "The angle of incidence and the angle of reflection always add up to 90 degrees",
+          "The angle of reflection is always determined by the density of the mirror glass",
+          "The angle of incidence is always perfectly equal to the angle of reflection"
         ],
         "answer": 3,
         "explanation": "Fundamental optical law: ∠i = ∠r! If light strikes a mirror at 35° to the normal, it reflects off at exactly 35°."
@@ -18659,10 +18659,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the 'NORMAL' in an optical reflection diagram?",
         "options": [
-          "The ray of light itself",
-          "The line showing the table",
-          "A line parallel to the mirror",
-          "An imaginary perpendicular line drawn at 90 degrees to the reflective mirror surface at the point of incidence"
+          "The incoming light ray that travels from the illumination source toward the reflecting mirror surface",
+          "The reflected light beam that bounces off the mirror face and travels toward an observer's eyes",
+          "The horizontal baseline that marks the boundary between the polished mirror glass and the table stand",
+          "An imaginary perpendicular line drawn at ninety degrees to the mirror surface at the point of incidence"
         ],
         "answer": 3,
         "explanation": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
@@ -18670,9 +18670,9 @@ const QUESTION_BANK = {
       {
         "prompt": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
-          "2 images",
-          "4 images",
-          "3 images: - 1 = 4 - 1 = 3 images",
+          "Exactly 2 images",
+          "Exactly 4 images",
+          "Exactly 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -18694,10 +18694,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do microscopists apply stains (like Iodine solution for onion peel, or Methylene Blue for cheek cells)?",
         "options": [
-          "To kill all the glass slides",
-          "To make cells grow bigger",
-          "Stains color cell nuclei, membranes, and cytoplasm differentially, creating high contrast to make transparent organelles clearly visible",
-          "Stains make cells turn into plastic"
+          "Stains chemically fix cellular membranes to prevent specimens from evaporating under the heat of the microscope light source",
+          "Stains dissolve outer cell walls so that internal organelles can expand and become large enough for standard light lenses",
+          "Stains color specific cellular structures differentially, providing optical contrast so transparent organelles become visible",
+          "Stains destroy extraneous surface bacteria to ensure that only eukaryotic chromosomal DNA survives for optical observation"
         ],
         "answer": 2,
         "explanation": "Biological stains bind to cellular nucleic acids and proteins, highlighting transparent structures under brightfield microscopy!"
@@ -18705,10 +18705,10 @@ const QUESTION_BANK = {
       {
         "prompt": "When lowering a thin glass coverslip onto the wet mount specimen with a needle, what common mistake must be avoided?",
         "options": [
-          "Using clean water",
-          "Trapping air bubbles beneath the coverslip, which appear as thick dark rings that obstruct the specimen",
-          "Looking through the eyepiece",
-          "Turning on the microscope lamp"
+          "Touching the glass slide with clean mounting forceps, which leaves permanent microscopic scratching",
+          "Trapping air bubbles beneath the glass, which form dark circular rings that obscure cellular details",
+          "Placing excess mounting fluid on the specimen, which dissolves cellular membranes during observation",
+          "Aligning the coverslip with the slide edge, which prevents light beams from entering the objective lens"
         ],
         "answer": 1,
         "explanation": "Lowering coverslips gently at a 45° angle prevents round optical air bubbles from obscuring cells!"
@@ -18719,7 +18719,7 @@ const QUESTION_BANK = {
           "The Centriole",
           "The Flagellum",
           "The Ribosome",
-          "The Cell Nucleus (the control center housing genetic DNA)"
+          "The Cell Nucleus"
         ],
         "answer": 3,
         "explanation": "The dark-staining nucleus is the prominent command center governing genetic cellular activity."
@@ -18740,10 +18740,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are rubber tires of racing cars and buses engineered with deep tread patterns (grooves)?",
         "options": [
-          "Treads channel away standing road water and increase surface interlocking grip (friction) to prevent dangerous skidding",
-          "To make tires look fashionable",
-          "To make the vehicle lighter",
-          "Treads make tires spin without touching the road"
+          "Treads channel away surface water and increase road interlocking friction to prevent dangerous skidding",
+          "Treads reduce total tire weight so vehicles consume significantly less motor fuel during acceleration",
+          "Treads create aerodynamic lift underneath the chassis to keep vehicle wheels rotating at higher speeds",
+          "Treads allow tires to slide smoothly over rough gravel without experiencing any kinetic surface friction"
         ],
         "answer": 0,
         "explanation": "Grooved treads dispel aquaplaning water films, ensuring high frictional contact between tire and pavement!"
@@ -18751,10 +18751,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are steel BALL BEARINGS installed inside bicycle hubs and ceiling fan axles?",
         "options": [
-          "To stop the axle from rotating",
-          "To make fans heavier",
-          "Rolling friction is vastly smaller than sliding friction, drastically reducing energy waste and wear",
-          "To produce loud musical hums"
+          "Steel spheres lock rotating shafts securely in place to eliminate all mechanical vibration during operation",
+          "Steel spheres convert kinetic rotational motion into magnetic induction to recharge internal electric circuits",
+          "Rolling friction is significantly smaller than sliding friction, reducing energy loss and mechanical wear",
+          "Rolling spheres generate aerodynamic resistance that prevents moving axles from exceeding safe speed limits"
         ],
         "answer": 2,
         "explanation": "Replacing sliding contact with smooth rolling spheres cuts kinetic friction down by up to 90%!"
@@ -18786,10 +18786,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What groundbreaking discovery did Michael Faraday make in 1831 that powers every modern electric turbine and generator on Earth?",
         "options": [
-          "He discovered plastic",
-          "He invented steam engines",
-          "He invented the light bulb",
-          "ELECTROMAGNETIC INDUCTION: moving a magnet through a wire coil induces an electric current in the circuit"
+          "Thermoelectric refrigeration: applying thermal gradients across semiconductor junctions generates freezing temperatures",
+          "Electrostatic shielding: hollow metal conductors block external static fields from reaching delicate instruments",
+          "Photoelectric conversion: shining ultraviolet rays onto polished metallic surfaces releases free electrons into space",
+          "Electromagnetic induction: moving a magnet relative to a wire coil produces an induced electric current in the circuit"
         ],
         "answer": 3,
         "explanation": "Faraday proved that kinetic motion in a magnetic field generates electrical voltage, founding our electrified civilization!"
@@ -18797,10 +18797,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did Dmitri Mendeleev organize his original PERIODIC TABLE OF ELEMENTS in 1869 so accurately that he predicted elements before they were discovered?",
         "options": [
-          "He guessed random positions",
-          "He grouped elements by their price in gold",
-          "He arranged elements alphabetically by name",
-          "He arranged elements by increasing atomic mass and chemical valence patterns, leaving blank gaps for undiscovered elements (like Gallium and Germanium)"
+          "He organized elements strictly by electrical conductivity and boiling points, placing noble gases in the opening group",
+          "He arranged elements according to their alphabetical names in Latin and grouped compounds based on crystalline geometry",
+          "He categorized elements by terrestrial abundance in Earth's crust and classified them by their optical color spectra",
+          "He ordered elements by increasing atomic mass and recurring chemical properties, leaving gaps for undiscovered elements"
         ],
         "answer": 3,
         "explanation": "Mendeleev's genius left empty spots, predicting the exact atomic masses and chemical traits of yet-to-be-found elements!"
@@ -18808,10 +18808,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What unprecedented scientific achievement did Marie Curie accomplish, earning her Nobel Prizes in BOTH Physics (1903) and Chemistry (1911)?",
         "options": [
-          "She discovered the radioactive elements Polonium and Radium and pioneered the science of radioactivity",
-          "She was the first woman to walk on the moon",
-          "She discovered penicillin",
-          "She invented the telescope"
+          "She discovered the radioactive elements polonium and radium and pioneered fundamental research on radioactivity",
+          "She discovered artificial nuclear fission and constructed the first operational particle accelerator in Europe",
+          "She isolated the double-helix molecular structure of chromosomal DNA using advanced X-ray diffraction techniques",
+          "She formulated the laws of electromagnetic wave propagation and proved that light behaves as massless energy packets"
         ],
         "answer": 0,
         "explanation": "Marie Curie is the only scientist in human history to win Nobel Prizes in two distinct scientific disciplines!"
@@ -18832,10 +18832,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does tightening the tuning peg on an Ektara or guitar string change the PITCH of the musical sound produced?",
         "options": [
-          "Increasing string tension increases the vibration frequency, producing a HIGHER PITCH sound",
-          "It changes the color of the wire",
-          "It lowers the pitch",
-          "It makes the string silent"
+          "Increasing string tension raises the vibration frequency, producing a higher pitch sound",
+          "Increasing string tension dampens the vibration amplitude, producing a much softer sound",
+          "Increasing string tension lowers the vibration frequency, producing a lower pitch sound",
+          "Increasing string tension alters the acoustic harmonics, transforming string tone into a hiss"
         ],
         "answer": 0,
         "explanation": "Higher tension = faster mechanical vibrations (frequency) = higher perceived musical pitch!"
@@ -18843,10 +18843,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a simple GOLD-LEAF ELECTROSCOPE detect when a charged plastic rod touches its top brass terminal?",
         "options": [
-          "It measures the speed of wind",
-          "It measures air temperature",
-          "It detects magnetic north",
-          "It detects the presence and nature of electrostatic charge (the two lightweight leaves diverge apart due to like-charge electrostatic repulsion)"
+          "It measures the velocity and direction of local wind currents",
+          "It determines the atmospheric humidity and ambient air pressure",
+          "It detects the magnetic field strength of nearby iron deposits",
+          "It detects the presence and relative magnitude of electric charge"
         ],
         "answer": 3,
         "explanation": "Like charges conduct down to both gold leaves; like charges repel, causing the delicate leaves to spread apart!"
@@ -18854,10 +18854,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does a modern dry-chemical FIRE EXTINGUISHER smother an electrical or oil fire safely?",
         "options": [
-          "By fanning the fire with dry paper",
-          "It discharges pressurized carbon dioxide (CO₂) or sodium bicarbonate powder, displacing oxygen and cooling the fuel without conducting electricity",
-          "By spraying buckets of tap water onto live electrical wires",
-          "By adding cooking oil"
+          "It releases pressurized liquid nitrogen to freeze combustible fuels into solid non-reactive blocks within seconds",
+          "It discharges non-conductive powder or carbon dioxide gas that blankets the flame and cuts off atmospheric oxygen",
+          "It sprays high-velocity streams of conductive saltwater that dissipate thermal heat across a wide perimeter zone",
+          "It blows pressurized ambient air into the combustion zone to dilute fuel vapors and disperse smoke particles away"
         ],
         "answer": 1,
         "explanation": "CO₂ is denser than air, blanketing the flames to cut off oxygen while being electrically non-conductive!"
@@ -18879,7 +18879,7 @@ const QUESTION_BANK = {
         "prompt": "When the bottle is filled with water, which hole shoots the water jet the FURTHEST horizontal distance across the bench?",
         "options": [
           "All three holes shoot identical distances",
-          "The BOTTOM hole (shoots furthest because liquid pressure increases directly with depth)",
+          "The BOTTOM hole",
           "The middle hole",
           "The top hole"
         ],
@@ -18889,10 +18889,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are hydroelectric gravity dams built with massively THICK, broad bases compared to their narrow top crests?",
         "options": [
-          "Because rocks are heavier at the top",
-          "Dams have identical thickness throughout",
-          "To make them look like triangles for style",
-          "To withstand the colossal hydrostatic pressure exerted by water at deep reservoir depths"
+          "To prevent surface waves from splashing over the emergency spillway during seasonal floods",
+          "To provide wide highway lanes across the base while keeping the upper ridge pedestrian-only",
+          "To anchor structural steel suspension cables that prevent the dam wall from tilting forward",
+          "To withstand the immense hydrostatic pressure that increases with greater reservoir depth"
         ],
         "answer": 3,
         "explanation": "Because hydraulic pressure escalates linearly with depth, dam walls must be thickest at the foundation to prevent catastrophic blowouts!"
@@ -18900,10 +18900,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Do liquids at the same horizontal depth exert equal pressure in ALL directions (sideways, downwards, upwards)?",
         "options": [
-          "No, liquids only push downwards",
-          "Yes, liquid pressure at any specific depth is isotropic (equal in all directions)",
-          "Liquids exert zero pressure",
-          "No, liquids only push upwards"
+          "No, liquid pressure acts exclusively downwards due to gravitational pull on water",
+          "Yes, liquid pressure at any given depth acts equally in all directions against surfaces",
+          "No, liquid pressure acts only sideways against container walls and never upwards",
+          "No, liquid pressure diminishes rapidly as fluid molecules move away from the center"
         ],
         "answer": 1,
         "explanation": "Pascal's principle: Fluid pressure at any given depth acts equally in every direction against container walls."
@@ -18924,10 +18924,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What climatic and soil conditions are essential for commercial PADDY (RICE) cultivation, making Asia the world's primary rice bowl?",
         "options": [
-          "Dry desert sands with zero rainfall",
-          "High winds on mountain peaks",
-          "Freezing sub-zero temperatures and rocky slopes",
-          "High temperatures (above 25°C), high humidity with heavy annual rainfall (>100 cm) or canal irrigation, and deep alluvial clayey soil that retains water"
+          "Low temperatures, dry continental winds, minimal seasonal precipitation, and well-drained sandy loam on elevated mountain slopes",
+          "Moderate temperatures, arid desert breezes, scarce irrigation supplies, and shallow saline soils on windswept coastal plateau edges",
+          "Sub-zero winter conditions, frequent snowfall, low atmospheric humidity, and coarse gravelly soils along rocky hillside terraces",
+          "High temperatures, high humidity with heavy rainfall or canal irrigation, and deep clayey alluvial soil that retains standing water"
         ],
         "answer": 3,
         "explanation": "Rice requires flooded paddy fields and impermeable clay soils, thriving across monsoon river deltas!"
@@ -18935,7 +18935,7 @@ const QUESTION_BANK = {
       {
         "prompt": "Which soil type, formed from weathered volcanic basalt in the Deccan Plateau, is world-famous as 'REGUR SOIL' for cultivating high-yield COTTON?",
         "options": [
-          "Black Cotton Soil (Regur Soil)",
+          "Black Cotton Soil",
           "Mountain gravel",
           "Desert sand",
           "Red laterite soil"
@@ -18946,10 +18946,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is the lower Ganga-Brahmaputra delta (Bengal and Bangladesh) the world's foremost production hub for golden JUTE fibre?",
         "options": [
-          "Jute grows only in desert sand dunes",
-          "It is harvested from mountain pine trees",
-          "It has the coldest winters on Earth",
-          "Abundant freshwater for retting jute stems, warm humid monsoon climate, and fertile annual silt deposits"
+          "Arid desert sunshine for sun-drying stems, cool mountain air, and limestone soils poor in organic silt",
+          "High-altitude temperate forests, sub-zero winter temperatures, and dry gravelly soils along ridges",
+          "Deep volcanic black soil, moderate seasonal rainfall, and long frost-free periods on plateau plains",
+          "Abundant freshwater for retting stems, a warm humid monsoon climate, and fertile annual silt deposits"
         ],
         "answer": 3,
         "explanation": "Jute stems require extensive water retting in slow streams, perfect for the marshy delta of Bengal."
@@ -18973,7 +18973,7 @@ const QUESTION_BANK = {
           "Cottage industries, Small scale industries, and Large scale industries",
           "Heavy capital industries versus Light assembly workshops",
           "Public sector, Private sector, Joint sector, and Cooperative sector",
-          "Agro-based (using plant/animal produce), Mineral-based (iron/cement), Marine-based (fish oil), and Forest-based (paper/timber)"
+          "Agro-based, Mineral-based, Marine-based, and Forest-based"
         ],
         "answer": 3,
         "explanation": "Raw material provenance divides manufacturing into Agro, Mineral, Marine, and Forest categories!"
@@ -18981,10 +18981,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What characterizes a 'PUBLIC SECTOR' industry (like the Steel Authority of India Limited - SAIL)?",
         "options": [
-          "It is operated by an international trade treaty under United Nations supervision",
-          "It is owned and managed by private corporate shareholders exclusively for quarterly profits",
-          "It is owned and operated by individual producers who supply raw milk and agricultural produce",
-          "It is owned, financed, and operated directly by the Government to serve national strategic and public welfare interests"
+          "It is operated by an international trade organization under United Nations supervision to regulate global market tariffs",
+          "It is owned and managed by private corporate shareholders exclusively to maximize quarterly profits and equity dividends",
+          "It is owned and managed by agricultural producer cooperatives to market dairy goods and farm yields directly to consumers",
+          "It is owned, financed, and operated directly by the Government to serve strategic national interests and social welfare"
         ],
         "answer": 3,
         "explanation": "Public sector enterprises are state-owned public utilities investing in foundational infrastructure."
@@ -18995,7 +18995,7 @@ const QUESTION_BANK = {
           "Owned, financed, and controlled entirely by a single private individual or family enterprise",
           "Jointly owned, financed, and managed by the Government and private entrepreneurs or individuals",
           "Wholly owned and managed by the Union Government under a public ministry",
-          "Owned and operated exclusively by the producers or suppliers of raw materials (such as Anand Milk Union Limited / Amul)"
+          "Owned and operated exclusively by the producers or suppliers of raw materials"
         ],
         "answer": 1,
         "explanation": "Joint sector marries state capital with private entrepreneurial expertise and management agility!"
@@ -19016,10 +19016,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the defining characteristic of 'INTENSIVE SUBSISTENCE FARMING' practiced in densely populated regions of India?",
         "options": [
-          "Farming done entirely by automated airplanes",
-          "Massive corporate farms producing crops only for export to foreign countries",
-          "Farming where no food is produced",
-          "Farmers cultivate small landholdings using family labor and simple tools to produce food primarily for their own family's survival"
+          "Corporate agribusiness firms manage vast continuous tracts using heavy machinery to produce cereal grains exclusively for export",
+          "Nomadic pastoralists migrate across high-altitude grasslands with livestock herds in seasonal search of natural water sources",
+          "Commercial estates utilize massive capital investment and synthetic inputs to cultivate single cash crops for industrial markets",
+          "Farmers cultivate small fragmented plots using family labor and simple tools to produce food primarily for local household survival"
         ],
         "answer": 3,
         "explanation": "Subsistence farming feeds the immediate household from fragmented holdings with high manual labor input."
@@ -19027,10 +19027,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What defines 'COMMERCIAL PLANTATION AGRICULTURE' (such as tea estates in Assam or coffee in Karnataka)?",
         "options": [
-          "Wild foraging in forests",
-          "Growing 50 different vegetables in a backyard pot",
-          "Organic farming with zero tools",
-          "A single cash crop grown over vast contiguous estates using large capital investment, modern processing factories, and migrant wage labor"
+          "Multiple cereal grains grown on small subsistence family farms without modern processing machinery or hired farm laborers",
+          "Traditional forest foraging where tribal communities gather wild honey and aromatic herbs for exchange in barter markets",
+          "Seasonal shifting cultivation where small jungle plots are cleared, burned, and cultivated for two years before abandonment",
+          "A single cash crop cultivated over vast contiguous estates using substantial capital, processing factories, and wage labor"
         ],
         "answer": 3,
         "explanation": "Plantations are agribusiness enterprises focusing on a single export-oriented cash crop (tea, coffee, rubber, sugarcane)!"
@@ -19038,10 +19038,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'SLASH AND BURN' shifting cultivation (known as Jhum in Northeast India)?",
         "options": [
-          "Industrial chemical hydroponics",
-          "Clearing a forest patch by slashing trees, burning vegetation to enrich soil with potash ash, farming for 2-3 years, and then shifting to a new plot to let the forest regenerate",
-          "Permanent terrace farming with stone walls",
-          "Setting whole cities on fire"
+          "Modern greenhouse farming where synthetic nutrient solutions and LED lighting support year-round commercial crop harvesting",
+          "Clearing forest plots by cutting and burning vegetation to farm temporarily, then moving to let the native forest regenerate",
+          "Constructing permanent stone retaining walls along steep mountain slopes to prevent topsoil erosion during heavy monsoon rains",
+          "Flooding river delta lowlands with seasonal canal waters to support continuous double-cropping of high-yield hybrid paddy"
         ],
         "answer": 1,
         "explanation": "Traditional Jhum farming relies on ash fertilization and rotational fallow cycles to regenerate forest soils."
@@ -19062,10 +19062,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are the temperate grasslands of North America (THE PRAIRIES) nicknamed the 'Granary of the World'?",
         "options": [
-          "Immense farm sizes (thousands of acres) operated by single families using giant combine harvesters, producing colossal export surpluses of wheat",
-          "Because wheat grows on trees there",
-          "Because all bread is baked there",
-          "They have the largest population of manual farmers"
+          "Vast farm acreages cultivated with heavy machinery and combine harvesters generate colossal export surpluses of wheat",
+          "Dense rural populations cultivate terraced river valleys by hand to achieve record harvests of wet paddy rice for export",
+          "Year-round tropical rainfall and dense rainforest soils produce continuous commercial yields of coffee and sugarcane",
+          "Massive government-owned cooperative collectives employ millions of manual farmhands to harvest seasonal tea leaves"
         ],
         "answer": 0,
         "explanation": "High mechanization, fertile chernozem soils, and vast acreage generate colossal exportable grain surpluses!"
@@ -19084,10 +19084,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What major environmental challenge threatens the Ogallala Aquifer beneath the North American grain belt today?",
         "options": [
-          "Water freezing into permanent glaciers",
-          "Severe groundwater depletion due to excessive center-pivot irrigation exceeding natural recharge",
-          "Flooding from the Pacific Ocean",
-          "The ground turning into salt dunes"
+          "Severe chemical contamination from coastal seawater backflow flooding deep inland groundwater wells",
+          "Severe groundwater depletion caused by intensive center-pivot irrigation exceeding natural recharge",
+          "Complete freezing of subterranean water reserves caused by severe sub-zero winter surface temperatures",
+          "Widespread accumulation of volcanic ash that permanently blocks subterranean limestone water channels"
         ],
         "answer": 1,
         "explanation": "Industrial center-pivot irrigation pumps fossil groundwater faster than rainfall can replenish the deep aquifer."
@@ -19109,7 +19109,7 @@ const QUESTION_BANK = {
         "prompt": "What highly toxic gas leaked from the Union Carbide pesticide factory on the fateful night of 2-3 December 1984 in Bhopal?",
         "options": [
           "Carbon dioxide",
-          "Methyl Isocyanate (MIC)",
+          "Methyl Isocyanate",
           "Pure nitrogen",
           "Oxygen gas"
         ],
@@ -19119,10 +19119,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What structural industrial safety failures directly caused the horrific magnitude of the Bhopal disaster?",
         "options": [
-          "Refrigeration systems turned off to cut costs, malfunctioning scrubbing towers, failure of flare stacks, and dense urban slums situated right against factory boundaries",
-          "A lightning strike",
-          "An earthquake destroyed the city",
-          "A meteor hit the factory"
+          "Cost-cutting shutdown of cooling systems, broken safety scrubbers, non-working flare stacks, and dense settlements next to the chemical plant",
+          "Sudden tectonic fault ruptures that severed underground chemical pipelines and triggered uncontrollable explosions across the urban district",
+          "Unprecedented river flash floods that breached surrounding retaining dikes and swept hazardous industrial compounds into residential sectors",
+          "Extreme high-voltage lightning strikes that destroyed central factory power grids and detonated synthetic fertilizer storage facilities"
         ],
         "answer": 0,
         "explanation": "Cost-cutting compromises on safety fail-safes and absent buffer zoning created the deadliest industrial catastrophe in human history."
@@ -19130,10 +19130,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What key industrial safety regulation did India mandate following the Bhopal tragedy to protect citizens?",
         "options": [
-          "Moving all factories to other countries",
-          "Closing all hospitals",
-          "The Environment (Protection) Act of 1986, Public Liability Insurance, and strict hazardous chemical buffer zoning",
-          "Banning all chemistry in schools"
+          "Mandatory privatization of all state-owned manufacturing facilities and complete removal of safety oversight",
+          "Immediate relocation of all heavy manufacturing factories to offshore facilities outside national borders",
+          "The Environment Protection Act of 1986, public liability insurance, and strict industrial safety buffer zones",
+          "Complete legal prohibition of chemical science research across all university and secondary school curricula"
         ],
         "answer": 2,
         "explanation": "The 1986 Environment Protection Act established strict regulatory oversight of hazardous industrial manufacture."
@@ -19154,10 +19154,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are mineral and energy resources distributed so UNEVENLY across the continents of Earth?",
         "options": [
-          "Mineral deposits formed over millions of years under specific geological conditions, tectonic processes, and sedimentation histories unique to each region",
-          "All countries actually have the exact same minerals",
-          "Minerals follow modern political borders",
-          "Because humans moved all minerals to one spot"
+          "Mineral deposits formed under distinct geological processes, tectonic collisions, and sedimentation conditions across deep time",
+          "Mineral deposits migrate dynamically across continental landmasses in response to annual changes in global atmospheric pressure",
+          "Mineral deposits were created uniformly along modern international borders by ancient civilizational mining and trade agreements",
+          "Mineral deposits occur strictly in regions with high human population density where industrial energy demand is highest"
         ],
         "answer": 0,
         "explanation": "Ancient volcanic shields, folded plate boundaries, and prehistoric marine basins concentrated distinct mineral ores over deep time!"
@@ -19166,7 +19166,7 @@ const QUESTION_BANK = {
         "prompt": "Which high-altitude Andean region in South America (Bolivia, Chile, Argentina) holds over 50% of the world's 'White Gold' (LITHIUM) vital for electric vehicle batteries?",
         "options": [
           "The Rocky Mountains",
-          "The Lithium Triangle (Atacama and Uyuni salt flats)",
+          "The Lithium Triangle",
           "The Sahara Desert",
           "The Amazon Rainforest"
         ],
@@ -19177,7 +19177,7 @@ const QUESTION_BANK = {
         "prompt": "What mineral-rich plateau in eastern India is nicknamed the 'Ruhr of India' for its vast reserves of coal, iron ore, mica, and bauxite?",
         "options": [
           "The Malwa Plateau",
-          "The Chota Nagpur Plateau (Jharkhand, Odisha, West Bengal)",
+          "The Chota Nagpur Plateau",
           "The Shillong Plateau",
           "The Ladakh Plateau"
         ],
@@ -19200,10 +19200,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is TOPSOIL considered a non-renewable resource on human timescales?",
         "options": [
-          "Soil can be manufactured in factories overnight",
-          "Topsoil never erodes",
-          "Soil is made of plastic",
-          "It takes nature between 500 and 1,000 years of rock weathering and biological decay to form just ONE centimeter of fertile topsoil"
+          "Modern chemical fertilizers permanently destroy the inorganic mineral framework required for future soil replenishment",
+          "Earth's crust no longer contains parent rock strata capable of undergoing physical weathering into mineral particles",
+          "Topsoil grains dissolve permanently into atmospheric water vapor whenever surface temperatures exceed twenty degrees",
+          "Natural processes require hundreds of years of rock weathering and organic matter decay to generate a single centimeter of topsoil"
         ],
         "answer": 3,
         "explanation": "A single violent flash flood can wash away fertile topsoil that required a millennium of soil genesis to form!"
@@ -19212,7 +19212,7 @@ const QUESTION_BANK = {
         "prompt": "What soil conservation practice involves ploughing along the natural contour lines of a mountain slope rather than up and down?",
         "options": [
           "Monoculture",
-          "Contour Ploughing (forms natural ridges that slow runoff water and prevent gully erosion)",
+          "Contour Ploughing",
           "Clear-cutting",
           "Overgrazing"
         ],
@@ -19222,10 +19222,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is 'SHELTERBELT' planting along coastal and desert agricultural fringes?",
         "options": [
-          "Draining all water away",
-          "Covering fields with plastic sheets",
-          "Planting rows of sturdy trees along field edges to break wind speed and prevent wind erosion of topsoil",
-          "Building concrete houses for animals"
+          "Constructing elevated wooden roofs above agricultural fields to prevent intense solar rays from drying seeds",
+          "Digging deep drainage trenches along field margins to accelerate the flow of standing monsoon rainwater",
+          "Planting dense rows of trees along field boundaries to reduce wind speed and prevent topsoil erosion",
+          "Laying synthetic waterproof plastic membranes across entire farm plots to stop moisture from evaporating"
         ],
         "answer": 2,
         "explanation": "Windbreak shelterbelts buffer howling desert winds, stabilizing sand dunes and protecting agricultural moisture!"
@@ -19257,10 +19257,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is India's 'DEMOGRAPHIC DIVIDEND'?",
         "options": [
-          "An old-age pension fund reserved exclusively for retired government employees",
-          "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
-          "A mandatory national tax imposed on families with more than two children"
+          "A state-managed pension endowment fund reserved exclusively for retired government and public sector administrative staff",
+          "A seasonal cash subsidy distributed directly to rural farming families to offset post-harvest market price fluctuations",
+          "A demographic profile where a large proportion of the national population is in the working-age bracket, boosting growth",
+          "A statutory fiscal tariff levied on private corporations that employ fewer young apprentices across manufacturing plants"
         ],
         "answer": 2,
         "explanation": "A low dependency ratio and massive working-age cohort provide historic potential for economic transformation!"
@@ -19268,10 +19268,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does a bell-shaped or narrowing-base population pyramid (like Japan) signal for public policy?",
         "options": [
-          "A perfectly balanced youth population that maintains stable school enrollment without change",
-          "A rapid baby boom requiring emergency construction of thousands of new primary schools",
-          "High infant mortality rates causing an immediate collapse of the workforce",
-          "Low birth rates and a rising elderly dependency ratio, requiring investments in healthcare and automated labor solutions"
+          "Rapidly increasing birth rates and high youth dependency, requiring emergency construction of thousands of new schools",
+          "High infant mortality rates coupled with short life expectancy, indicating severe deficits in municipal sanitation access",
+          "Steady population surges driven by high immigration inflows, requiring expanded urban housing and transport networks",
+          "Declining birth rates and a rising elderly dependency ratio, requiring greater investment in healthcare and automation"
         ],
         "answer": 3,
         "explanation": "Aging demographics shift fiscal priorities toward geriatric healthcare, elder care infrastructure, and robotics."
@@ -19292,10 +19292,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which geographic regions of the world exhibit the HIGHEST population densities (people per square kilometer)?",
         "options": [
-          "Fertile river valleys and coastal delta plains with flat terrain, perennial water, and temperate climates (e.g., Gangetic Plain, Yangtze Basin)",
-          "The hyper-arid sand seas of the central Sahara Desert",
-          "The steep, rocky summits of the Himalayan mountain range",
-          "The high glacial plateaus of Greenland and Antarctica"
+          "Fertile river plains and coastal lowlands with flat arable land, perennial water, and favorable climates",
+          "Arid subtropical sand dune regions with scarce surface precipitation and extreme daily temperature shifts",
+          "Rugged high-altitude mountain chains with steep rocky slopes, thin soils, and severe winter frosts",
+          "Subpolar tundra expanses with permafrost soils, low biodiversity, and long periods of total darkness"
         ],
         "answer": 0,
         "explanation": "Alluvial soils, reliable water, transport ease, and agricultural surplus historically attract dense human settlement!"
@@ -19303,10 +19303,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why are hyper-arid deserts (like the Sahara or Australian Outback) and high mountain ranges extremely sparsely populated?",
         "options": [
-          "Because dangerous wildlife predators have driven all human communities out",
-          "Harsh climatic extremes, scarcity of freshwater, rugged inaccessible terrain, and absence of arable agricultural soil",
-          "Because those lands are reserved exclusively for tourist recreation and national parks",
-          "Because national governments have legally prohibited all permanent settlements there"
+          "Frequent seasonal river floods and dense tropical swamp vegetation make transportation networks impossible to build",
+          "Extreme weather conditions, acute freshwater scarcity, rugged terrain, and lack of fertile soil limit human settlement",
+          "Government conservation policies strictly prohibit civilian habitation to protect rare endangered predatory species",
+          "Dense commercial forestry plantations and active mining corporations own all land rights across these remote regions"
         ],
         "answer": 1,
         "explanation": "Environmental hostility, extreme thermal stress, and lack of biological resources limit carrying capacity."
@@ -19315,9 +19315,9 @@ const QUESTION_BANK = {
         "prompt": "What is the global geographic formula for 'POPULATION DENSITY'?",
         "options": [
           "Annual Live Births minus Annual Deaths per thousand",
-          "Total Population ÷ Total Land Area (expressed as people per square kilometer)",
+          "Total Population ÷ Total Land Area",
           "Total Urban Population ÷ Total Number of Cities",
-          "Total Land Area ÷ Total Population (expressed as square kilometers per person)"
+          "Total Land Area ÷ Total Population"
         ],
         "answer": 1,
         "explanation": "Population Density = Total Number of People / Land Area in km²!"
@@ -19349,10 +19349,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What prehistoric geological origin created today's buried deposits of COAL?",
         "options": [
-          "Microscopic marine plankton and algae that settled onto ancient sea floors (origin of petroleum)",
-          "Prehistoric sand dunes preserved by desert heat without compression",
-          "Dense Carboniferous swamp vegetation and peat forests that decayed, were compressed under deep sediments, and carbonized over 300 million years",
-          "Molten volcanic magma that cooled rapidly beneath tectonic plates (igneous rock)"
+          "Microscopic marine plankton and microscopic algae that settled on prehistoric ocean beds and decomposed beneath deep silt",
+          "Ancient windblown desert sand dunes that fused into compact sedimentary formations under arid atmospheric heat",
+          "Dense swamp forests and peat vegetation buried under sediments and subjected to intense heat and pressure over millions of years",
+          "Molten volcanic lava that cooled rapidly inside subterranean magma chambers without exposure to atmospheric oxygen"
         ],
         "answer": 2,
         "explanation": "Coal is lithified terrestrial plant matter (ferns and trees) compressed in anaerobic ancient swamp basins over 300 million years!"
@@ -19360,10 +19360,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why is PETROLEUM nicknamed 'Black Gold' across the global commercial economy?",
         "options": [
-          "It is a finite, highly valuable crude oil yielding transport fuels (petrol, diesel, aviation fuel) and raw materials for plastics, synthetic rubber, and pharmaceuticals",
-          "It is mined exclusively alongside raw gold nuggets in deep gold mines",
-          "It was discovered by ancient alchemists trying to transmute lead into gold",
-          "It contains high traces of dissolved elemental gold that can be melted into coins"
+          "It is a valuable finite resource yielding vital transport fuels and essential raw materials for modern industries and chemicals",
+          "It is extracted exclusively from deep subterranean geological veins directly adjacent to commercial gold and platinum mines",
+          "It contains minute traces of dissolved metallic gold that can be separated through high-temperature catalytic refinery processes",
+          "It was discovered by early alchemists who successfully transmuted black crude bitumen into pure yellow precious gold ingots"
         ],
         "answer": 0,
         "explanation": "Petroleum fuels global transportation and provides foundational petrochemical feedstocks for modern industry!"
@@ -19384,10 +19384,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did RAJA RAVI VARMA revolutionize Indian visual culture in the late 19th century?",
         "options": [
-          "He painted modern abstract geometry only",
-          "He combined Western academic realism and oil painting techniques with Indian mythological themes, and printed affordable oleographs for millions of homes",
-          "He banned all traditional paintings",
-          "He used only black ink"
+          "He introduced abstract modernist geometric styles and created minimalist murals exclusively for prestigious overseas galleries",
+          "He blended European academic oil painting techniques with Indian mythological themes and produced mass-printed oleographs for homes",
+          "He rejected all figurative depiction of human subjects in favor of strict calligraphy inspired by classical literary inscriptions",
+          "He banned traditional indigenous folk art styles and established state guilds that produced black-and-white etchings exclusively"
         ],
         "answer": 1,
         "explanation": "His color lithographic press made majestic depictions of Saraswati, Lakshmi, and Shakuntala accessible to ordinary Indian households!"
@@ -19395,10 +19395,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did the BENGAL SCHOOL OF ART (led by Abanindranath Tagore and Nandalal Bose) reject Western academic oil painting?",
         "options": [
-          "Because oil paint was unavailable in India",
-          "They sought to forge an authentic nationalist Indian aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Japanese wash traditions",
-          "They disliked all painting",
-          "They wanted to copy British cartoons"
+          "They believed visual fine arts should be replaced entirely by commercial photography and automated industrial lithography",
+          "They aimed to revive an authentic indigenous aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Asian wash art",
+          "They preferred mass-produced European photographic prints over handcrafted historical compositions and traditional pigments",
+          "They sought to restrict artistic expression exclusively to technical architectural drafts and military cartographic surveys"
         ],
         "answer": 1,
         "explanation": "The Bengal School spearheaded Swadeshi artistic revivalism, seeking spiritual, poetic indigenous visual roots!"
@@ -19406,10 +19406,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What famous painting by Abanindranath Tagore depicted 'BHARAT MATA' as an ascetic divine mother figure clad in saffron robes offering food, cloth, and learning?",
         "options": [
-          "The iconic 1905 'Bharat Mata' painting",
-          "The Mona Lisa",
-          "The Triumph of Labor",
-          "The Starry Night"
+          "The iconic Bharat Mata painting",
+          "The classic Shakuntala portrait",
+          "The famous Dandi March woodcut",
+          "The historic Mother India mural"
         ],
         "answer": 0,
         "explanation": "Created during the anti-Partition Swadeshi movement, Tagore's Bharat Mata symbolized national awakening, purity, and self-reliance."
@@ -19441,10 +19441,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Whose tireless dedication and petitions led to the passage of the landmark HINDU WIDOWS' REMARRIAGE ACT in 1856?",
         "options": [
-          "Dadabhai Naoroji",
-          "Akbar",
+          "Social reformer Jyotirao Phule",
+          "Scholar Mahadev Govind Ranade",
           "Ishwar Chandra Vidyasagar",
-          "Chanakya"
+          "Reformer Keshab Chandra Sen"
         ],
         "answer": 2,
         "explanation": "Vidyasagar cited ancient authorities to counter orthodox resistance, championing girls' schools and legalizing widow remarriage."
@@ -19487,10 +19487,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who chaired the historic DRAFTING COMMITTEE of the Constituent Assembly, architecting the world's most comprehensive written democratic constitution?",
         "options": [
-          "Lord Mountbatten",
+          "Assembly leader Rajendra Prasad",
           "Dr. Bhimrao Ramji Ambedkar",
-          "Raja Todar Mal",
-          "Mahatma Gandhi"
+          "Home minister Vallabhbhai Patel",
+          "Education head Maulana Azad"
         ],
         "answer": 1,
         "explanation": "Dr. BR Ambedkar provided peerless legal scholarship, social vision, and constitutional safeguards for marginalized citizens."
@@ -19498,10 +19498,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What linguistic milestone occurred in 1953 with the creation of the first linguistic state (Andhra State), leading to the States Reorganisation Act of 1956?",
         "options": [
-          "All states were abolished into one district",
-          "English was declared the only spoken language",
-          "States were reorganized along shared regional linguistic and cultural boundaries to strengthen federal unity",
-          "States were drawn as perfect squares"
+          "All provincial states were abolished and merged into a single centrally administered administrative territory",
+          "English was established as the sole constitutional language permitted in state legislative assemblies and courts",
+          "Internal state boundaries were redrawn along linguistic and cultural lines to reinforce democratic federal unity",
+          "States were divided into uniform geometric quadrilaterals based strictly on physical latitude and longitude grids"
         ],
         "answer": 2,
         "explanation": "Linguistic reorganization accommodated India's diverse mother tongues, reinforcing rather than weakening national democratic unity."
@@ -19522,10 +19522,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What devastating economic process occurred in 19th-century India under British tariff policies, known as 'DEINDUSTRIALIZATION'?",
         "options": [
-          "The destruction of traditional Indian handloom and artisan handicraft industries under duty-free imports of cheap British factory textiles, forcing millions of weavers back into impoverished farm labor",
-          "Building thousands of modern Indian factories",
-          "Abolishing all farming",
-          "Making Indian weavers the richest in the world"
+          "The collapse of Indian textile handicrafts under duty-free British factory imports, driving millions of weavers into impoverished agriculture",
+          "The rapid development of Indian engineering factories through government subsidies, attracting millions of rural peasants into urban factory jobs",
+          "The complete elimination of commercial grain farming across all provinces in favor of state-mandated mineral extraction and metal smelting",
+          "The establishment of indigenous banking corporations that financed local cottage industries to outcompete European merchant trading syndicates"
         ],
         "answer": 0,
         "explanation": "British colonial tariffs blocked Indian cloth exports while dumping Manchester mill textiles duty-free into India, ruining ancient artisan towns!"
@@ -19536,7 +19536,7 @@ const QUESTION_BANK = {
           "Bengaluru",
           "New Delhi",
           "Mumbai",
-          "Dhaka (Dacca)"
+          "Dhaka"
         ],
         "answer": 3,
         "explanation": "Dhaka's population plummeted as British colonial trade policies dismantled its legendary muslin weaving industry."
@@ -19544,10 +19544,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the 'DRAIN OF WEALTH' theory formulated by Dadabhai Naoroji in his book 'Poverty and Un-British Rule in India'?",
         "options": [
-          "A substantial portion of India's annual revenues and resources was systematically exported to Britain as home charges, salaries, and profits with NO economic return to India",
-          "Taxes were used to build schools for every village",
-          "Money was thrown into the Indian Ocean",
-          "India was draining wealth from England"
+          "A large portion of India's annual revenue was siphoned to Britain as home charges and profits without any adequate economic return to India",
+          "Indian merchants drained financial reserves from European markets by dominating global shipping lanes and exporting manufactured goods",
+          "The colonial government reinvested all collected tax revenues directly into free public education and healthcare across rural villages",
+          "Agricultural revenues were converted into gold bullion and stored permanently in provincial vaults to guard against future famine shocks"
         ],
         "answer": 0,
         "explanation": "Naoroji demonstrated mathematically how colonial extraction bled India's capital dry, driving chronic famine and poverty."
@@ -19568,10 +19568,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the 'ULGULAN' (Great Tumult) led by BIRSA MUNDA in the 1890s in Jharkhand?",
         "options": [
-          "A peaceful tea-drinking society",
-          "A festival of sports only",
-          "A heroic tribal rebellion to reclaim ancestral Munda forest land rights, overthrow British colonial control, and establish Munda self-rule (Munda Raj)",
-          "A British military marching band"
+          "A collaborative trade agreement between tribal headmen and British forestry officials to commercialize teak timber concessions",
+          "A peaceful religious pilgrimage across the Chota Nagpur plateau to celebrate traditional seasonal agricultural harvest festivals",
+          "A major tribal revolt to end colonial exploitation, reclaim customary ancestral forest land rights, and establish indigenous self-rule",
+          "A military recruitment campaign organized by the colonial state to enlist tribal archers into British imperial border regiments"
         ],
         "answer": 2,
         "explanation": "Birsa Munda mobilized indigenous tribals against exploitative British forest acts and rapacious moneylenders (Dikus)!"
@@ -19579,10 +19579,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did British COLONIAL FOREST ACTS (1865, 1878) devastate the customary lifestyles of indigenous tribal communities?",
         "options": [
-          "They planted fruit trees for villagers",
-          "They made forest cutting illegal for British railways",
-          "They gave all land ownership to tribals",
-          "They declared pristine forests as State property ('Reserved Forests'), outlawing traditional shifting cultivation (Jhum), grazing, and free collection of forest produce"
+          "They granted full legal ownership of woodland tracts to village councils, ending all commercial logging by British timber firms",
+          "They subsidized tribal cottage industries and provided free modern farming machinery to encourage permanent settled agriculture",
+          "They protected customary shifting cultivation and exempted indigenous gatherers from all colonial taxation and boundary checks",
+          "They declared forests state property, criminalizing customary grazing, shifting cultivation, and collection of minor forest produce"
         ],
         "answer": 3,
         "explanation": "Forest Acts criminalized tribal customary survival rights to clear forests for lucrative British railway timber sleepers."
@@ -19590,10 +19590,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What landmark colonial legislation was forced onto the statute books after the Birsa Munda revolt to protect tribal land from alienation to non-tribals?",
         "options": [
-          "The Salt Tax Regulation",
-          "The Forest Destruction Act",
-          "The Rowlatt Act",
-          "The Chota Nagpur Tenancy (CNT) Act of 1908"
+          "The Bengal Permanent Settlement Act",
+          "The Indian Forest Conservation Act",
+          "The Criminal Tribes Regulation Act",
+          "The Chota Nagpur Tenancy Act of 1908"
         ],
         "answer": 3,
         "explanation": "The 1908 CNT Act legally banned the transfer of tribal ancestral land to non-tribals, a lasting legacy of Birsa's rebellion!"
@@ -19614,10 +19614,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why did peasant farmers in Bengal launch the historic 'INDIGO REVOLT' (Nil Bidroho) in 1859 against European planters?",
         "options": [
-          "European planters forced peasants to grow indigo under fraudulent advance contracts (Ryoti system) at unviable prices, ruining fertile rice soils",
-          "Indigo made rain fall too heavily",
-          "The government gave farmers too much gold",
-          "Peasants disliked the blue color"
+          "Planters coerced peasants through fraudulent contracts to grow unprofitable indigo instead of food, exhausting fertile farm soils",
+          "The colonial administration prohibited the cultivation of cash crops and mandated that all farm fields produce rice exclusively",
+          "Planters paid excessively high wages to field laborers, causing severe price inflation and shortages of silver coins in villages",
+          "Peasants demanded the immediate replacement of handloom dye processing with automated European synthetic pigment factories"
         ],
         "answer": 0,
         "explanation": "Deep-rooted indigo exhausted the soil for food crops while European planters enforced coercive advance contracts through private militias (Lathiyals)!"
@@ -19627,7 +19627,7 @@ const QUESTION_BANK = {
         "options": [
           "Satyarth Prakash",
           "Anandamath",
-          "Nil Darpan (The Mirror of Indigo)",
+          "Nil Darpan",
           "Gitanjali"
         ],
         "answer": 2,
@@ -19636,10 +19636,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did the Indigo Rebellion differ from many other peasant uprisings of the 19th century?",
         "options": [
-          "It was a highly organized, non-violent strike with widespread unity among Hindu and Muslim peasants supported by the educated urban intelligentsia",
-          "It was fought with nuclear weapons",
-          "It failed completely with no commissions",
-          "It lasted only ten minutes"
+          "It was an organized, unified peasant strike supported by urban intellectuals, legal petitions, and broad social solidarity",
+          "It was a violent military conspiracy led by foreign mercenaries that collapsed within days due to lack of local popular backing",
+          "It was a religious conflict fought strictly between rival landlord factions over ancestral inheritance of zamindari estates",
+          "It was an isolated riot confined to a single market village that had no impact on colonial agricultural policy or court trials"
         ],
         "answer": 0,
         "explanation": "Solidarity and litigation forced the colonial government to set up the Indigo Commission, which declared planters could not compel ryots!"
@@ -19660,10 +19660,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What clandestine treachery enabled Robert Clive to win the pivotal BATTLE OF PLASSEY in 1757 against Nawab Siraj-ud-Daulah?",
         "options": [
-          "The battle was cancelled due to fog",
-          "The Nawab had no weapons",
-          "The British army had 100,000 soldiers",
-          "Mir Jafar, the commander of the Nawab's armed forces, accepted British bribes to betray the Nawab and withheld his troops from fighting"
+          "French naval forces intercepted the Nawab's supply ships in the Bay of Bengal, cutting off all gunpowder deliveries to the army",
+          "The Nawab's artillery battalions accidentally fired upon their own infantry lines due to heavy rain obscuring visual battlefield cues",
+          "Maratha cavalry units launched a surprise dawn ambush from the rear that scattered the Nawab's defensive forces into the jungle",
+          "Mir Jafar conspired with the British in exchange for the throne, keeping the bulk of the Nawab's army from entering the battle"
         ],
         "answer": 3,
         "explanation": "Clive bribed Mir Jafar with the promise of the throne, ensuring the bulk of Bengal's army never engaged in combat!"
@@ -19671,10 +19671,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What monumental financial right did the Mughal Emperor Shah Alam II grant to the East India Company following their victory at the Battle of Buxar (1764)?",
         "options": [
-          "The right to build schools only",
-          "The right to sell tea in London",
-          "Ownership of the Red Fort",
-          "The DIWANI RIGHTS of Bengal, Bihar, and Odisha (the right to collect all land revenues and administer civil justice)"
+          "Exclusive trade monopolies across the Red Sea ports",
+          "Sovereign naval authority over all coastal waters",
+          "Imperial control of royal minting facilities in Agra",
+          "The Diwani rights of Bengal, Bihar, and Odisha"
         ],
         "answer": 3,
         "explanation": "Diwani rights gave the Company control over Bengal's vast tax revenues, allowing them to finance conquests using Indian money!"
@@ -19683,7 +19683,7 @@ const QUESTION_BANK = {
         "prompt": "What aggressive diplomatic policy of annexation introduced by Lord Dalhousie confiscated princely kingdoms whose rulers died without a natural male heir?",
         "options": [
           "The Permanent Settlement",
-          "The Doctrine of Lapse (annexing Jhansi, Satara, Nagpur)",
+          "The Doctrine of Lapse",
           "The Rule of Law",
           "The Subsidiary Alliance"
         ],
@@ -19706,10 +19706,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What was the primary goal of the English Education Act of 1835 based on MACAULAY'S MINUTE?",
         "options": [
-          "To build free primary schools in every tribal village",
-          "To ban all schools in India",
-          "To promote ancient Sanskrit and Persian poetry",
-          "To make English the medium of higher education and create a class of English-educated Indian clerks ('Indian in blood and colour, but English in taste, opinions, and intellect')"
+          "To establish free vernacular elementary schools across every rural village to teach traditional crafts",
+          "To revive ancient Sanskrit and Persian literature through state-funded monastic university endowments",
+          "To replace secular academic learning with mandatory European religious instruction in all public schools",
+          "To promote English as the medium of higher education and produce clerks to serve colonial administration"
         ],
         "answer": 3,
         "explanation": "Macaulay explicitly sought an administrative cadre of English-fluent intermediaries to run the colonial bureaucracy cheaply."
@@ -19728,10 +19728,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did revolutionary nationalist leaders like Rabindranath Tagore and Mahatma Gandhi critique colonial English schooling?",
         "options": [
-          "They argued children should never learn science",
-          "They wanted to ban all books",
-          "They loved British colonial exams",
-          "They argued it uprooted children from their living culture, fostered subservience to foreign masters, and advocated learning in nature and mother tongues (like Visva-Bharati)"
+          "They argued that schools should abandon all humanities and arts to focus exclusively on Western military drill and firearms training",
+          "They claimed that modern science and mathematics had no place in schools and demanded a return to ancient oral recitation practices",
+          "They advocated replacing all classroom learning with competitive standardized exams administered exclusively by British universities",
+          "They argued that it alienated students from their culture and mother tongues, advocating creative learning in harmony with nature"
         ],
         "answer": 3,
         "explanation": "Tagore founded Shantiniketan to educate the whole human spirit in natural freedom rather than sterile colonial classroom prisons."
@@ -19752,10 +19752,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What immediate spark ignited the sepoy mutiny in Barrackpore and Meerut in the spring of 1857?",
         "options": [
-          "Soldiers were asked to wear yellow caps",
-          "The food in the mess was too salty",
-          "Pay was increased by ten rupees",
-          "The introduction of the new Enfield rifle cartridges greased with cow and pig fat, which soldiers had to bite with teeth, violating Hindu and Muslim religious sanctities"
+          "The sudden dismissal of all native infantry regiments following a peaceful wage negotiation strike at the regional military garrison",
+          "An unexpected increase in the mandatory service duration for overseas deployments without any corresponding financial allowances",
+          "The colonial order requiring all sepoys to surrender their traditional dress and adopt European uniforms during religious festivities",
+          "The introduction of Enfield cartridges greased with animal fat that sepoys had to bite, violating Hindu and Muslim religious sanctities"
         ],
         "answer": 3,
         "explanation": "Biting cartridges greased with animal tallow violated core religious taboos, triggering sepoy Mangal Pandey's defiance!"
@@ -19764,9 +19764,9 @@ const QUESTION_BANK = {
         "prompt": "Who became the immortal symbol of fearless resistance in Central India, riding into battle in male soldier's armor with her adopted son tied to her back?",
         "options": [
           "Rani Lakshmibai of Jhansi",
-          "Razia Sultan",
-          "Sarojini Naidu",
-          "Noor Jahan"
+          "Begum Hazrat Mahal of Awadh",
+          "Rani Chennamma of Kittur",
+          "Rani Avantibai of Ramgarh"
         ],
         "answer": 0,
         "explanation": "'Khoob ladi mardani woh toh Jhansi wali Rani thi!' Rani Lakshmibai died heroically fighting British cavalry near Gwalior."
@@ -19774,10 +19774,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What major constitutional transfer of power occurred after the British crushed the 1857 rebellion (The Government of India Act 1858)?",
         "options": [
-          "The Mughal Empire was restored to full power",
-          "India gained full independence immediately",
-          "The East India Company's rule was officially abolished, and governance of India passed directly to the British Crown under Queen Victoria",
-          "The capital was moved to London permanently"
+          "Direct governance was transferred to the French Republic under an international territorial treaty concluded in London",
+          "The Mughal Emperor was restored to sovereign political authority with a cabinet of provincial nawabs overseeing finances",
+          "The East India Company was abolished, and direct sovereign governance passed to the British Crown under Queen Victoria",
+          "India was partitioned into autonomous independent provinces governed exclusively by local princely dynasty rulers"
         ],
         "answer": 2,
         "explanation": "The 1858 Act terminated Company Raj, appointing a Secretary of State for India and transforming the Governor-General into the Viceroy."
@@ -19806,7 +19806,7 @@ const QUESTION_BANK = {
           "The Chauri Chaura March",
           "The Champaran March",
           "The Bardoli March",
-          "The Dandi March (The Salt Satyagraha)"
+          "The Dandi March"
         ],
         "answer": 3,
         "explanation": "Picking up a handful of untaxed sea salt at Dandi broke the imperial salt monopoly and galvanized millions into Civil Disobedience!"
@@ -19815,7 +19815,7 @@ const QUESTION_BANK = {
         "prompt": "What powerful historic slogan did Mahatma Gandhi give to the nation at Gowalia Tank Maidan in Mumbai during the launch of the QUIT INDIA MOVEMENT in August 1942?",
         "options": [
           "'Inquilab Zindabad'",
-          "'Do or Die' (Karo ya Maro)",
+          "'Do or Die'",
           "'Jai Jawan Jai Kisan'",
           "'Swaraj is my birthright'"
         ],
@@ -19825,10 +19825,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who formed the Azad Hind Fauj (Indian National Army - INA) to militarily liberate India from colonial rule, popularizing the greeting 'Jai Hind!'?",
         "options": [
-          "Bhagat Singh",
-          "Lala Lajpat Rai",
+          "Revolutionary Bhagat Singh",
+          "Lala Lajpat Rai of Punjab",
           "Netaji Subhas Chandra Bose",
-          "Jawaharlal Nehru"
+          "Rash Behari Bose of Bengal"
         ],
         "answer": 2,
         "explanation": "Netaji rallied Indian POWs and expatriates in Southeast Asia, advancing to the borders of Manipur with the clarion call: 'Give me blood, and I will give you freedom!'"
@@ -19849,10 +19849,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do modern objective historians REJECT James Mill's 1817 religious categorization of Indian history into 'Hindu, Muslim, and British' periods?",
         "options": [
-          "It is historically inaccurate, artificially characterizes an entire diverse era by the religion of rulers alone, and stoked communal division",
-          "Because Mill's book was too short",
-          "Because James Mill was an ancient king",
-          "Because religion did not exist in India"
+          "It falsely defines complex diverse eras solely by the ruler's religion, ignoring social dynamics and promoting communal division",
+          "It classified historical eras based on climatic and geological cycles rather than recorded dynastic lineages and political treaties",
+          "It placed the British colonial era ahead of ancient civilizations in chronological order, confusing subsequent generations of scholars",
+          "It relied exclusively on oral folklore while ignoring British administrative reports and archaeological artifacts from excavation sites"
         ],
         "answer": 0,
         "explanation": "A ruler's faith does not define the lives of millions of subjects; historians categorize eras by technological, economic, and institutional transitions!"
@@ -19860,10 +19860,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What defines the 'MODERN PERIOD' in global historical analysis?",
         "options": [
-          "The invention of television only",
-          "The rise of scientific rationality, industrial technology, democratic nation-states, human rights, and global interconnection",
-          "Wearing modern fashionable trousers",
-          "The end of all wars"
+          "The complete replacement of agricultural farming with automated industrial manufacturing across all continents",
+          "The emergence of scientific rationalism, democratic governance, industrialization, and recognition of human rights",
+          "The expansion of absolute dynastic monarchies and religious empires governing through feudal military fiefdoms",
+          "The total cessation of international armed conflicts through global diplomatic treaties established in Europe"
         ],
         "answer": 1,
         "explanation": "Modernity is marked by empirical science, enlightenment ideals of liberty and equality, industrialization, and sovereign constitutions."
@@ -19871,10 +19871,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why do many Indian historians term the British era in India as 'COLONIAL' rather than truly 'modern'?",
         "options": [
-          "Because ships ran on steam",
-          "Because the British built no schools",
-          "Under British rule, Indians did NOT enjoy equality, freedom, democracy, or economic prosperity; instead, India was subjected to imperial economic exploitation",
-          "Because clocks were not invented yet"
+          "Because modern scientific instruments and mechanical printing presses were completely prohibited from entering the subcontinent",
+          "Because international historians designate all events occurring before the twentieth century as ancient or medieval historical phases",
+          "Because Indians lacked freedom, equality, and democratic rights, and the country was subjected to foreign economic exploitation",
+          "Because British colonial authorities governed without maintaining written administrative records, censuses, or cartographic surveys"
         ],
         "answer": 2,
         "explanation": "True modernity brings liberty and economic progress; colonial rule imposed political subjugation and wealth drain."
@@ -19895,10 +19895,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does it mean for a social or ethnic group to be 'MARGINALIZED' in society?",
         "options": [
-          "Being given extra gold by the state",
-          "Being the majority group",
-          "Being pushed to the fringes or edges of economic, social, and political power, lacking equal access to resources, education, and representation",
-          "Living in royal mansions"
+          "Being granted exclusive hereditary privileges and controlling the primary administrative institutions of the state",
+          "Comprising the numerical majority of a population and setting the cultural norms and official public holidays",
+          "Being pushed to the fringes of social, economic, and political power with restricted access to resources and opportunities",
+          "Choosing to live in voluntary isolation while retaining dominant control over commercial trade routes and banking"
         ],
         "answer": 2,
         "explanation": "Marginalization excludes communities from developmental wealth, decision-making corridors, and dignified voice."
@@ -19906,10 +19906,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Who are the 'ADIVASIS' of India (literally 'Original Inhabitants')?",
         "options": [
-          "Factory owners in big cities",
-          "Foreign tourists who visited India last year",
-          "Royal princes from ancient dynasties",
-          "Indigenous tribal communities with distinct non-hierarchical cultures, deep ancestral ecological knowledge, and spiritual bonds to forest ecosystems"
+          "Urban industrial business entrepreneurs who migrated from coastal trading hubs to establish manufacturing plants in forest districts",
+          "Foreign tourist delegations who travel periodically across national parks to observe regional folklore and wildlife habitats",
+          "Descendants of royal court nobility who held feudal land grants from medieval dynasties along fertile river valley basins",
+          "Indigenous tribal communities with distinct non-hierarchical cultures, ancestral ecological knowledge, and bonds to forest lands"
         ],
         "answer": 3,
         "explanation": "Adivasis represent India's 100+ million indigenous forest and hill communities with rich distinct traditions!"
@@ -19920,7 +19920,7 @@ const QUESTION_BANK = {
           "Exemption from paying any shop bills",
           "Double voting rights",
           "Free overseas holidays",
-          "RESERVED CONSTITUENCIES (where only candidates from SC or ST communities can contest elections)"
+          "RESERVED CONSTITUENCIES"
         ],
         "answer": 3,
         "explanation": "Reserved seats guarantee that historically oppressed communities have authentic democratic voice in the legislature."
@@ -19941,10 +19941,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is an 'FIR' (First Information Report) in Indian criminal justice?",
         "options": [
-          "The official written report recorded by the police when information about a cognizable crime is first reported, which officially begins the police investigation",
-          "A court judgment sentencing an offender",
-          "A fine paid to a traffic officer",
-          "A receipt for buying groceries"
+          "The written report recorded by police upon receiving information about a cognizable offense, which formally initiates an investigation",
+          "The final judicial verdict delivered by a magistrate at the conclusion of a criminal trial determining guilt and sentencing terms",
+          "An administrative notice issued by a municipal corporation demanding the immediate payment of overdue property and business taxes",
+          "A formal bail bond executed by an accused person guaranteeing regular court appearances before the commencement of judicial hearings"
         ],
         "answer": 0,
         "explanation": "Section 154 of the CrPC mandates that police record an FIR when a cognizable offense is reported, triggering lawful investigation!"
@@ -19952,10 +19952,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Under Indian law, can a police officer refuse to record an FIR when a citizen reports a serious cognizable crime?",
         "options": [
-          "Only if the complainant pays a cash bribe",
-          "No, it is legally mandatory for the Station House Officer (SHO) to register the FIR and provide a free signed copy to the complainant",
-          "Police never record reports",
-          "Yes, officers can refuse if they are too busy"
+          "Yes, police officers have full personal discretion to decline registering reports if the station docket is already crowded",
+          "No, registering the report is legally mandatory for cognizable offenses, and a free copy must be given to the complainant",
+          "Yes, police officers may decline registration unless the complainant deposits an advance administrative investigation fee",
+          "No, but the officer may postpone recording the report indefinitely until private informal settlement talks have concluded"
         ],
         "answer": 1,
         "explanation": "Supreme Court rulings (Lalita Kumari case) mandate that police MUST register an FIR upon receipt of cognizable crime information!"
@@ -19963,10 +19963,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the role of the 'PUBLIC PROSECUTOR' in a criminal trial in the Sessions or District Court?",
         "options": [
-          "A state-appointed legal advocate who represents the public interest of the State to present evidence against the accused impartially",
-          "The personal secretary to the judge",
-          "The police constable guarding the door",
-          "The private lawyer of the criminal"
+          "A state-appointed advocate who represents the public interest of the State and presents evidence against the accused in court",
+          "A private defense attorney retained by the accused person to present mitigating evidence and cross-examine state witnesses",
+          "An administrative judicial clerk who records testimony transcripts and schedules trial hearing dates for presiding magistrates",
+          "A police investigator who supervises forensic laboratory testing and coordinates security patrols within the court precinct"
         ],
         "answer": 0,
         "explanation": "Crimes are considered offenses against society as a whole; the Public Prosecutor represents the State to seek justice!"
@@ -19987,10 +19987,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Trace the step-by-step constitutional journey of how a proposed 'BILL' becomes an enforceable 'ACT' (Law) in India:",
         "options": [
-          "Supreme Court passes it -> Chief Minister signs it",
-          "Citizens vote on the street -> It becomes law immediately",
-          "Drafting -> Introduced in Parliament -> Three readings and debate in Lok Sabha and Rajya Sabha -> Passed by both Houses -> Assent by the President of India",
-          "President writes it alone -> Police enforce it next day"
+          "Drafting -> Judicial review in Supreme Court -> Direct referendum by citizen voters -> Final enforcement by Prime Minister",
+          "Drafting -> Approval by Union Cabinet -> Immediate police notification -> Ratification by state governors at next elections",
+          "Drafting -> Introduction in Parliament -> Debate and passage by both Houses -> Formal presidential assent -> Notification as an Act",
+          "Drafting -> Promulgation by President -> Review by civil society groups -> Unanimous vote in Lok Sabha -> Enforcement by courts"
         ],
         "answer": 2,
         "explanation": "A bill must be debated, amended, and passed by both parliamentary houses before receiving presidential assent!"
@@ -19998,10 +19998,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How did civil society groups and women's organizations shape the landmark Domestic Violence Act of 2005?",
         "options": [
-          "They conducted nationwide consultations, drafted sample legal bills, shared survivor testimonies, and petitioned parliamentary standing committees",
-          "They stayed silent",
-          "They bought the parliament building",
-          "They refused to talk to lawmakers"
+          "They conducted widespread consultations, submitted draft proposals, presented survivor evidence, and lobbied parliamentary committees",
+          "They staged a boycott of general elections and filed international lawsuits demanding foreign intervention in domestic family law",
+          "They demanded the total repeal of all criminal penal codes and called for the privatization of municipal family dispute mediation",
+          "They organized industrial transport strikes across major metropolitan cities until the executive issued an emergency decree"
         ],
         "answer": 0,
         "explanation": "Vibrant democratic lawmaking incorporates the lived experience and advocacy of grassroots citizen networks!"
@@ -20009,10 +20009,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What landmark act passed in 2005 guarantees citizens the legal right to inspect public government files and records?",
         "options": [
-          "The Currency Act",
-          "The Motor Vehicles Act",
-          "The Factories Act",
-          "The Right to Information (RTI) Act, 2005"
+          "The Official Secrets Protection Act",
+          "The Public Records Digitalization Act",
+          "The Consumer Protection Guarantee Act",
+          "The Right to Information Act of 2005"
         ],
         "answer": 3,
         "explanation": "RTI dismantled colonial secrecy, empowering citizens to demand transparency from public authorities!"
@@ -20036,7 +20036,7 @@ const QUESTION_BANK = {
           "The Right to Freedom of Speech",
           "The Right to Equality",
           "The Right to Freedom of Religion",
-          "The Right to Constitutional Remedies (Article 32: the right to petition the Supreme Court directly if rights are violated)"
+          "The Right to Constitutional Remedies"
         ],
         "answer": 3,
         "explanation": "Article 32 gives citizens teeth: without the power to enforce rights via Supreme Court writs (Habeas Corpus, Mandamus), other rights would be hollow words!"
@@ -20044,10 +20044,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Which of these is a listed FUNDAMENTAL DUTY of every Indian citizen under Article 51A of the Constitution?",
         "options": [
-          "To protect and improve the natural environment, cherish our composite culture, and develop scientific temper and humanism",
-          "To travel to foreign countries every year",
-          "To earn ten thousand rupees per month",
-          "To never criticize the government"
+          "To protect the environment, safeguard public property, and develop a scientific temper and spirit of inquiry",
+          "To pay monthly contributions to municipal infrastructure development funds and participate in local governance",
+          "To serve a mandatory period of two years in active military forces upon reaching eighteen years of age",
+          "To support the policies of the ruling parliamentary coalition and refrain from questioning official legislation"
         ],
         "answer": 0,
         "explanation": "Article 51A charges every citizen with developing scientific temper, protecting wildlife and heritage, and striving for collective excellence."
@@ -20055,10 +20055,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does the 'Right against Exploitation' (Articles 23 and 24) categorically outlaw?",
         "options": [
-          "Voting in elections",
-          "Citizens from changing their religion",
-          "Speaking out in public",
-          "Human trafficking, forced labor (begar), and the employment of children below age 14 in any hazardous factory or mine"
+          "Peaceful worker assembly and the organization of registered labor unions in industrial establishments",
+          "The practice of voluntary religious conversion and the establishment of independent minority schools",
+          "The filing of public interest litigation petitions against municipal corporations in high courts",
+          "Human trafficking, forced labor, and the employment of children in hazardous industries or mines"
         ],
         "answer": 3,
         "explanation": "Articles 23 and 24 ban human trafficking, bonded labor, and child labor in hazardous occupations."
@@ -20079,10 +20079,10 @@ const QUESTION_BANK = {
       {
         "prompt": "How does Indian Secularism differ fundamentally from strict French secularism (Laïcité)?",
         "options": [
-          "Indian secularism maintains 'principled distance': the state respects and protects all religions equally while retaining the authority to reform social evils (like untouchability), whereas French secularism bans all religious symbols from public life",
-          "There is zero difference",
-          "France allows all religious laws in government",
-          "India has an official state religion"
+          "The Western model enforces strict mutual exclusion between church and state, whereas India accords equal respect and principled intervention",
+          "The Western model establishes an official state religion with special subsidies, whereas India completely bans all religious gatherings",
+          "The Western model permits religious leaders to draft criminal statutes, whereas India reserves all parliamentary seats for clergy",
+          "The Western model grants tax exemptions to majority faiths, whereas India requires citizens to register religious beliefs on identity cards"
         ],
         "answer": 0,
         "explanation": "India respects all faiths equally (equal distance) while intervening to protect human dignity (abolishing untouchability, banning Sati)."
@@ -20090,10 +20090,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Can a government-run state school celebrate religious festivals or conduct mandatory prayers of one specific religion during school hours?",
         "options": [
-          "No, government institutions funded by taxpayers' money cannot promote or give preference to any one religion over others",
-          "Yes, if the principal prefers that religion",
-          "Only on Mondays",
-          "Government schools can force students to convert"
+          "No, state-funded public institutions must maintain religious neutrality and cannot promote or favor any specific faith",
+          "Yes, provided that the school management committee votes by a two-thirds majority to celebrate the festival on campus",
+          "Yes, but only if the morning assembly recitations are translated into official state languages before recitation begins",
+          "No, but private commercial advertisers may organize religious functions inside public classrooms after daily instruction"
         ],
         "answer": 0,
         "explanation": "Public state institutions must maintain strict religious neutrality, ensuring every child feels equal and welcomed."
@@ -20101,10 +20101,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What does Article 25 of the Constitution guarantee to all individuals?",
         "options": [
-          "The right to force others to change their faith",
-          "Freedom of conscience and the right freely to profess, practice, and propagate religion subject to public order, morality, and health",
-          "The right to break laws in the name of religion",
-          "Only certain communities have religious rights"
+          "An absolute right to enforce religious customary practices regardless of statutory criminal laws, public health, or human rights",
+          "Freedom of conscience and the right to profess, practice, and propagate religion subject to public order, morality, and health",
+          "Automatic government financial endowments for historical religious monuments and educational academies run by majorities",
+          "The constitutional privilege to establish parallel community courts that supersede the jurisdiction of the Supreme Court"
         ],
         "answer": 1,
         "explanation": "Article 25 protects personal spiritual conscience and worship for every human being within moral bounds."
@@ -20125,10 +20125,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the primary difference between the LOK SABHA (House of the People) and the RAJYA SABHA (Council of States)?",
         "options": [
-          "Lok Sabha MPs are DIRECTLY elected by the citizens across territorial constituencies; Rajya Sabha MPs are INDIRECTLY elected by state MLAs to represent the states",
-          "There is no difference",
-          "Lok Sabha handles only sports; Rajya Sabha handles only science",
-          "Lok Sabha has 10 members; Rajya Sabha has 500"
+          "Lok Sabha members are directly elected by citizens across constituencies, whereas Rajya Sabha members are indirectly elected by state MLAs",
+          "Lok Sabha members represent regional industry lobbies exclusively, whereas Rajya Sabha members are appointed directly by the Chief Justice",
+          "Lok Sabha members hold life tenure through hereditary succession, whereas Rajya Sabha members serve single fixed terms of two years",
+          "Lok Sabha members focus entirely on foreign treaty negotiations, whereas Rajya Sabha members manage municipal and district revenues"
         ],
         "answer": 0,
         "explanation": "The Lok Sabha represents the direct democratic will of the people; the Rajya Sabha provides federal representation for the states!"
@@ -20139,7 +20139,7 @@ const QUESTION_BANK = {
           "Permanent with no elections",
           "6 years",
           "10 years",
-          "5 years (unless dissolved earlier)"
+          "5 years"
         ],
         "answer": 3,
         "explanation": "The Lok Sabha has a 5-year tenure, after which the entire House dissolves for national general elections."
@@ -20147,10 +20147,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What happens if a ruling Central Government loses a 'NO-CONFIDENCE MOTION' on the floor of the Lok Sabha?",
         "options": [
-          "The Prime Minister and the entire Council of Ministers MUST resign immediately, as they have lost majority parliamentary confidence",
-          "Nothing happens at all",
-          "The Supreme Court shuts down",
-          "The Prime Minister continues ruling forever"
+          "The Prime Minister and the entire Council of Ministers must resign immediately after losing majority parliamentary confidence",
+          "The Supreme Court steps in to manage daily executive departments until the conclusion of the scheduled five-year term",
+          "The Speaker of the Lok Sabha assumes interim prime ministerial authority while parliament adjourns for six months",
+          "The government continues in power undisturbed because no-confidence motions function merely as non-binding formal debates"
         ],
         "answer": 0,
         "explanation": "Executive accountability: The Prime Minister serves only as long as they command the confidence of the majority in the Lok Sabha!"
@@ -20171,10 +20171,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What is the role of a Member of Parliament (MP) in the LOK SABHA?",
         "options": [
-          "Debating national legislation, voting on the Union budget, raising constituency grievances, and holding ministers accountable",
-          "Passing state-level land revenue laws in the State Legislative Assembly (Vidhan Sabha)",
-          "Managing municipal streetlights, drainage, and property tax collections",
-          "Interpreting constitutional law and delivering verdicts in the Supreme Court"
+          "Debating national legislation, approving the Union budget, raising constituency concerns, and scrutinizing executive policies",
+          "Passing state-level land revenue statutes and managing primary school teacher appointments in the State Legislative Assembly",
+          "Directing municipal sanitation departments, repairing residential roads, and issuing local property tax assessment notices",
+          "Interpreting constitutional jurisprudence and presiding over appellate criminal trials in the High Courts and Supreme Court"
         ],
         "answer": 0,
         "explanation": "MPs participate in sovereign lawmaking, scrutinize government expenditures, and champion their constituents' needs in Parliament!"
@@ -20184,7 +20184,7 @@ const QUESTION_BANK = {
         "options": [
           "The President's Opening Address",
           "The QUESTION HOUR",
-          "The Zero Hour (which follows Question Hour)",
+          "The Zero Hour",
           "The Calling Attention Motion"
         ],
         "answer": 1,
@@ -20195,7 +20195,7 @@ const QUESTION_BANK = {
         "options": [
           "A personal discretionary fund for MPs' domestic travel and lodging",
           "A private election campaign donation fund managed by political party leaders",
-          "Members of Parliament Local Area Development Scheme (₹5 crore per year for schools, clinics, and community facilities)",
+          "Members of Parliament Local Area Development Scheme",
           "A state-level emergency disaster relief grant controlled by district magistrates"
         ],
         "answer": 2,
@@ -20217,10 +20217,10 @@ const QUESTION_BANK = {
       {
         "prompt": "What defines a 'PUBLIC GOOD' (like streetlighting, flood control dykes, or municipal sanitation)?",
         "options": [
-          "Exclusive private services accessible only through high paid subscriptions",
-          "Goods that are non-excludable and non-rivalrous: available to all citizens regardless of wealth, where one person's use does not diminish another's",
-          "Commercial private goods manufactured and sold solely for corporate shareholder profit",
-          "Imported luxury commodities subject to high customs tariffs"
+          "Luxury consumer goods manufactured and sold by private corporations to generate competitive quarterly returns for shareholders",
+          "Services that are non-excludable and non-rivalrous, accessible to all citizens where one person's use does not diminish another's",
+          "Exclusive commercial utilities available only to high-income subscribers who pay premium monthly user access tariffs to vendors",
+          "Imported manufactured commodities subject to protective customs duties designed to shield domestic manufacturers from foreign trade"
         ],
         "answer": 1,
         "explanation": "Public goods underpin public health and civilizational survival; market profit motives cannot be trusted to distribute them fairly to the poor!"
@@ -20239,10 +20239,10 @@ const QUESTION_BANK = {
       {
         "prompt": "Why must the Government enforce STRICT ENVIRONMENTAL & LABOR REGULATIONS on private industrial corporations?",
         "options": [
-          "To discourage technological modernization and industrial growth",
-          "To prevent exploitative sweatshop wages, dangerous workplace accidents, and unchecked dumping of toxic chemicals into public rivers and air",
-          "To eliminate all private commercial trade and nationalize every factory",
-          "To intentionally increase production costs so consumers buy fewer products"
+          "To discourage entrepreneurial innovation and ensure that all profitable commercial enterprises are managed by civil servants",
+          "To prevent exploitative wages, workplace safety hazards, and unchecked industrial pollution of public air, water, and soil",
+          "To eliminate all private ownership of capital and establish state-run distribution stores for basic household groceries",
+          "To increase manufacturing production costs deliberately so that consumers purchase fewer goods and reduce aggregate demand"
         ],
         "answer": 1,
         "explanation": "Regulatory laws protect worker safety, fair living wages, and environmental preservation against untrammeled corporate profit greed!"

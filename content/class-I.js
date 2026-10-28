@@ -195,10 +195,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a classmate cannot hear spoken words, how can you share a warm hello?",
         "options": [
-          "By turning your back to them",
-          "By shouting louder into their ear",
-          "By closing your eyes tightly",
-          "By smiling and waving your hand in sign language"
+          "By turning away and looking down at the classroom floor",
+          "By shouting loudly into their ear from a close distance",
+          "By staying completely silent without making any gestures",
+          "By smiling warmly and waving your hand in greeting"
         ],
         "answer": 3,
         "explain": "Wonderful! Waving your hand and signing hello is an inclusive, friendly greeting."
@@ -238,10 +238,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a classmate cannot hear spoken words, how can you share a warm hello?",
         "options": [
-          "By turning your back to them",
-          "By shouting louder into their ear",
-          "By closing your eyes tightly",
-          "By smiling and waving your hand in sign language"
+          "By turning away and looking down at the classroom floor",
+          "By shouting loudly into their ear from a close distance",
+          "By staying completely silent without making any gestures",
+          "By smiling warmly and waving your hand in greeting"
         ],
         "answer": 3,
         "explain": "Wonderful! Waving your hand and signing hello is an inclusive, friendly greeting."
@@ -539,10 +539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which picture matches the word 'TREE'?",
         "options": [
-          "A tall green plant with a wooden trunk and fluttering leaves",
-          "A furry kitten drinking milk",
-          "A flying kite in the sky",
-          "A clock ticking on the wall"
+          "A tall leafy plant with a brown wooden trunk and green branches",
+          "A soft playful kitten drinking sweet white milk from a shallow bowl",
+          "A bright diamond kite soaring high among the windy afternoon clouds",
+          "A round wooden clock ticking quietly on the classroom wall"
         ],
         "answer": 0,
         "explain": "Spot on! A tree has a wooden trunk, green leaves, and branches."
@@ -582,10 +582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which picture matches the word 'TREE'?",
         "options": [
-          "A tall green plant with a wooden trunk and fluttering leaves",
-          "A furry kitten drinking milk",
-          "A flying kite in the sky",
-          "A clock ticking on the wall"
+          "A tall leafy plant with a brown wooden trunk and green branches",
+          "A soft playful kitten drinking sweet white milk from a shallow bowl",
+          "A bright diamond kite soaring high among the windy afternoon clouds",
+          "A round wooden clock ticking quietly on the classroom wall"
         ],
         "answer": 0,
         "explain": "Spot on! A tree has a wooden trunk, green leaves, and branches."
@@ -614,10 +614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was the clever crow dropping pebbles into the tall jug?",
         "options": [
-          "To hide his pebbles from other birds",
-          "To wash the dirty stones",
-          "To make the water rise so he could drink it",
-          "To break the glass jug into pieces"
+          "To hide his collection of small shiny pebbles from the other forest birds",
+          "To wash the dusty garden stones clean before building a warm winter nest",
+          "To make the water level rise to the top so his beak could drink it",
+          "To crack the heavy clay water jug into pieces and find food underneath"
         ],
         "answer": 2,
         "explain": "Clever crow! As each stone dropped, the water level rose until he could reach it with his beak."
@@ -636,10 +636,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does this story teach us about solving problems?",
         "options": [
-          "Using your brain and trying step-by-step can solve tricky problems",
-          "Give up the second something looks hard",
-          "Fly away and cry immediately",
-          "Wait for someone else to do everything"
+          "Thinking patiently and trying step-by-step can help you solve tricky problems",
+          "Giving up and walking away the moment a difficult challenge appears before you",
+          "Flying away in distress and expecting someone else to solve your task for you",
+          "Ignoring the problem completely and waiting for luck to change everything"
         ],
         "answer": 0,
         "explain": "The crow didn't give up; he used patience and pebbles to solve his problem!"
@@ -657,10 +657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was the clever crow dropping pebbles into the tall jug?",
         "options": [
-          "To hide his pebbles from other birds",
-          "To wash the dirty stones",
-          "To make the water rise so he could drink it",
-          "To break the glass jug into pieces"
+          "To hide his collection of small shiny pebbles from the other forest birds",
+          "To wash the dusty garden stones clean before building a warm winter nest",
+          "To make the water level rise to the top so his beak could drink it",
+          "To crack the heavy clay water jug into pieces and find food underneath"
         ],
         "answer": 2,
         "explain": "Clever crow! As each stone dropped, the water level rose until he could reach it with his beak."
@@ -679,10 +679,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does this story teach us about solving problems?",
         "options": [
-          "Using your brain and trying step-by-step can solve tricky problems",
-          "Give up the second something looks hard",
-          "Fly away and cry immediately",
-          "Wait for someone else to do everything"
+          "Thinking patiently and trying step-by-step can help you solve tricky problems",
+          "Giving up and walking away the moment a difficult challenge appears before you",
+          "Flying away in distress and expecting someone else to solve your task for you",
+          "Ignoring the problem completely and waiting for luck to change everything"
         ],
         "answer": 0,
         "explain": "The crow didn't give up; he used patience and pebbles to solve his problem!"
@@ -711,10 +711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When describing a picture of your family having a picnic, what could you say?",
         "options": [
-          "'We are sitting on the green grass eating sandwiches.'",
-          "'Pencils are inside the desk.'",
-          "'A train runs on iron tracks.'",
-          "'Zero is less than ten.'"
+          "We are sitting together on the green grass eating tasty sandwiches.",
+          "A heavy freight train speeds along the railway tracks outside the city.",
+          "Sharp wooden pencils are stored neatly inside the classroom desk drawer.",
+          "The number zero represents less value than ten in our counting lesson."
         ],
         "answer": 0,
         "explain": "That describes the picnic scene directly and paints a happy picture!"
@@ -754,10 +754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When describing a picture of your family having a picnic, what could you say?",
         "options": [
-          "'We are sitting on the green grass eating sandwiches.'",
-          "'Pencils are inside the desk.'",
-          "'A train runs on iron tracks.'",
-          "'Zero is less than ten.'"
+          "We are sitting together on the green grass eating tasty sandwiches.",
+          "A heavy freight train speeds along the railway tracks outside the city.",
+          "Sharp wooden pencils are stored neatly inside the classroom desk drawer.",
+          "The number zero represents less value than ten in our counting lesson."
         ],
         "answer": 0,
         "explain": "That describes the picnic scene directly and paints a happy picture!"
@@ -808,10 +808,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What curious question could you ask about the story to learn more?",
         "options": [
-          "'Can a chair dance?'",
-          "'What color is my school bag?'",
-          "'Why is math easy?'",
-          "'How long did the caterpillar sleep inside his cocoon?'"
+          "How many fresh green leaves did the hungry caterpillar eat each morning?",
+          "What bright colors and patterns appeared on the new butterfly wings?",
+          "Where did the busy little caterpillar find shelter during rainy weather?",
+          "How many long weeks did the caterpillar sleep inside his silky cocoon?"
         ],
         "answer": 3,
         "explain": "Asking how long he stayed in the cocoon is a wonderful question about the story events!"
@@ -851,10 +851,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What curious question could you ask about the story to learn more?",
         "options": [
-          "'Can a chair dance?'",
-          "'What color is my school bag?'",
-          "'Why is math easy?'",
-          "'How long did the caterpillar sleep inside his cocoon?'"
+          "How many fresh green leaves did the hungry caterpillar eat each morning?",
+          "What bright colors and patterns appeared on the new butterfly wings?",
+          "Where did the busy little caterpillar find shelter during rainy weather?",
+          "How many long weeks did the caterpillar sleep inside his silky cocoon?"
         ],
         "answer": 3,
         "explain": "Asking how long he stayed in the cocoon is a wonderful question about the story events!"
@@ -894,10 +894,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do we use body actions and hand gestures while singing rhymes?",
         "options": [
-          "Because rhymes cannot be spoken aloud",
-          "So that we get tired and fall asleep",
-          "It makes the rhyme fun to remember and helps us express the words",
-          "Because we are not allowed to say any words"
+          "Because rhyming poems are never allowed to be spoken with a normal voice",
+          "So that everyone gets tired quickly and goes to sleep before story time",
+          "It makes the rhyme joyful to remember and helps us express what the words mean",
+          "Because children are supposed to use hand gestures instead of learning words"
         ],
         "answer": 2,
         "explain": "Actions make rhymes exciting, memorable, and full of musical energy!"
@@ -937,10 +937,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do we use body actions and hand gestures while singing rhymes?",
         "options": [
-          "Because rhymes cannot be spoken aloud",
-          "So that we get tired and fall asleep",
-          "It makes the rhyme fun to remember and helps us express the words",
-          "Because we are not allowed to say any words"
+          "Because rhyming poems are never allowed to be spoken with a normal voice",
+          "So that everyone gets tired quickly and goes to sleep before story time",
+          "It makes the rhyme joyful to remember and helps us express what the words mean",
+          "Because children are supposed to use hand gestures instead of learning words"
         ],
         "answer": 2,
         "explain": "Actions make rhymes exciting, memorable, and full of musical energy!"
@@ -1130,10 +1130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the poem was about a rainy day, which shapes and colors would best show rain falling from clouds?",
         "options": [
-          "A giant yellow desert with no clouds",
-          "Fluffy gray clouds with blue diagonal raindrops falling down",
-          "Black scribble circles with no paper left",
-          "A bright red fire truck on fire"
+          "A dry sunny desert scene painted in bright yellow and orange with zero clouds",
+          "Fluffy gray clouds painted with slanted blue raindrops falling toward the ground",
+          "Tangled dark scribble circles drawn across the entire page with no open sky",
+          "A roaring red campfire crackling brightly beside a row of tall green pine trees"
         ],
         "answer": 1,
         "explain": "Drawing raindrops falling from clouds matches the poem's rainy theme beautifully."
@@ -1141,10 +1141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do artists first make light pencil scribbles and outlines before coloring?",
         "options": [
-          "To plan where characters and shapes will go on the page",
-          "So nobody can see what you are making",
-          "To rip the paper before using paints",
-          "Because you must always erase every single line"
+          "To carefully plan where characters and shapes will appear on the drawing page",
+          "To hide their picture ideas so nobody in the room can tell what they are drawing",
+          "To press down hard and test whether the paper will tear before applying paints",
+          "Because art rules say that every light pencil line must be erased at the end"
         ],
         "answer": 0,
         "explain": "Light planning sketches help you decide where to place trees, animals, and houses!"
@@ -1173,10 +1173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the poem was about a rainy day, which shapes and colors would best show rain falling from clouds?",
         "options": [
-          "A giant yellow desert with no clouds",
-          "Fluffy gray clouds with blue diagonal raindrops falling down",
-          "Black scribble circles with no paper left",
-          "A bright red fire truck on fire"
+          "A dry sunny desert scene painted in bright yellow and orange with zero clouds",
+          "Fluffy gray clouds painted with slanted blue raindrops falling toward the ground",
+          "Tangled dark scribble circles drawn across the entire page with no open sky",
+          "A roaring red campfire crackling brightly beside a row of tall green pine trees"
         ],
         "answer": 1,
         "explain": "Drawing raindrops falling from clouds matches the poem's rainy theme beautifully."
@@ -1184,10 +1184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do artists first make light pencil scribbles and outlines before coloring?",
         "options": [
-          "To plan where characters and shapes will go on the page",
-          "So nobody can see what you are making",
-          "To rip the paper before using paints",
-          "Because you must always erase every single line"
+          "To carefully plan where characters and shapes will appear on the drawing page",
+          "To hide their picture ideas so nobody in the room can tell what they are drawing",
+          "To press down hard and test whether the paper will tear before applying paints",
+          "Because art rules say that every light pencil line must be erased at the end"
         ],
         "answer": 0,
         "explain": "Light planning sketches help you decide where to place trees, animals, and houses!"
@@ -1302,10 +1302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Looking at Priya's fruit chart, which fruit is there the MOST of?",
         "options": [
-          "Apples (4)",
-          "Bananas (6)",
+          "Apples",
+          "Bananas",
           "All are equal",
-          "Pears (2)"
+          "Pears"
         ],
         "answer": 1,
         "explain": "Bananas have the highest count at 6, which is more than 4 or 2!"
@@ -1345,10 +1345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Looking at Priya's fruit chart, which fruit is there the MOST of?",
         "options": [
-          "Apples (4)",
-          "Bananas (6)",
+          "Apples",
+          "Bananas",
           "All are equal",
-          "Pears (2)"
+          "Pears"
         ],
         "answer": 1,
         "explain": "Bananas have the highest count at 6, which is more than 4 or 2!"
@@ -1399,10 +1399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Meera walks heel-to-toe from her bed to the bedroom door and counts 8 steps. What did she measure?",
         "options": [
-          "How hot the bedroom floor is",
-          "The distance across the room using footsteps",
-          "The weight of her school shoes",
-          "The time it takes to brush her teeth"
+          "The warmth and temperature of the smooth bedroom floor tiles",
+          "The total distance across the bedroom floor measured in footsteps",
+          "The heavy weight of her school shoes placed inside the shoe rack",
+          "The total number of minutes needed to brush her teeth every morning"
         ],
         "answer": 1,
         "explain": "Footsteps measure the length or distance between two spots on the floor."
@@ -1410,10 +1410,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why might Dev count 6 hand spans across the desk while his teacher counts only 4 hand spans?",
         "options": [
-          "Because the desk shrunk while measuring",
-          "Because hand spans cannot measure wood",
-          "Because the teacher's hands are bigger than Dev's little hands",
-          "Because Dev counted backwards"
+          "Because the wooden classroom desk shrank in size while the teacher was measuring",
+          "Because hand spans can only be used to measure soft objects like pillows or clothes",
+          "Because the teacher has larger hands that cover more distance than Dev's small hands",
+          "Because Dev got confused and accidentally counted the edge of the desk backwards"
         ],
         "answer": 2,
         "explain": "Since adult hands are bigger, fewer hand spans are needed to cover the same desk!"
@@ -1442,10 +1442,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Meera walks heel-to-toe from her bed to the bedroom door and counts 8 steps. What did she measure?",
         "options": [
-          "How hot the bedroom floor is",
-          "The distance across the room using footsteps",
-          "The weight of her school shoes",
-          "The time it takes to brush her teeth"
+          "The warmth and temperature of the smooth bedroom floor tiles",
+          "The total distance across the bedroom floor measured in footsteps",
+          "The heavy weight of her school shoes placed inside the shoe rack",
+          "The total number of minutes needed to brush her teeth every morning"
         ],
         "answer": 1,
         "explain": "Footsteps measure the length or distance between two spots on the floor."
@@ -1453,10 +1453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why might Dev count 6 hand spans across the desk while his teacher counts only 4 hand spans?",
         "options": [
-          "Because the desk shrunk while measuring",
-          "Because hand spans cannot measure wood",
-          "Because the teacher's hands are bigger than Dev's little hands",
-          "Because Dev counted backwards"
+          "Because the wooden classroom desk shrank in size while the teacher was measuring",
+          "Because hand spans can only be used to measure soft objects like pillows or clothes",
+          "Because the teacher has larger hands that cover more distance than Dev's small hands",
+          "Because Dev got confused and accidentally counted the edge of the desk backwards"
         ],
         "answer": 2,
         "explain": "Since adult hands are bigger, fewer hand spans are needed to cover the same desk!"
@@ -1560,7 +1560,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many cookies are left on Grandma's plate now?",
         "options": [
-          "0 (Zero)",
+          "0",
           "1",
           "3",
           "6"
@@ -1571,10 +1571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the numeral '0' tell us in counting?",
         "options": [
-          "There are zero objects / nothing in the group",
-          "It is the biggest number in the universe",
-          "It means you have two pairs",
-          "There are ten objects"
+          "It indicates that there are zero objects and nothing remaining in the group",
+          "It represents the largest possible number found anywhere in the counting system",
+          "It indicates that there are exactly two pairs of matching items in the collection",
+          "It shows that there are ten complete bundles of items stacked together neatly"
         ],
         "answer": 0,
         "explain": "Zero represents an empty set or having no items left."
@@ -1603,7 +1603,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many cookies are left on Grandma's plate now?",
         "options": [
-          "0 (Zero)",
+          "0",
           "1",
           "3",
           "6"
@@ -1614,10 +1614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the numeral '0' tell us in counting?",
         "options": [
-          "There are zero objects / nothing in the group",
-          "It is the biggest number in the universe",
-          "It means you have two pairs",
-          "There are ten objects"
+          "It indicates that there are zero objects and nothing remaining in the group",
+          "It represents the largest possible number found anywhere in the counting system",
+          "It indicates that there are exactly two pairs of matching items in the collection",
+          "It shows that there are ten complete bundles of items stacked together neatly"
         ],
         "answer": 0,
         "explain": "Zero represents an empty set or having no items left."
@@ -1648,7 +1648,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "10",
           "16",
-          "15 (fifteen)",
+          "15",
           "20"
         ],
         "answer": 2,
@@ -1691,7 +1691,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "10",
           "16",
-          "15 (fifteen)",
+          "15",
           "20"
         ],
         "answer": 2,
@@ -1744,9 +1744,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In the number 63, what does the digit '6' stand for?",
         "options": [
           "Zero",
-          "6 tens (which equals 60)",
+          "6 tens",
           "600",
-          "6 ones (which equals 6)"
+          "6 ones"
         ],
         "answer": 1,
         "explain": "In the tens place, 6 represents 6 groups of ten, or 60."
@@ -1787,9 +1787,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In the number 63, what does the digit '6' stand for?",
         "options": [
           "Zero",
-          "6 tens (which equals 60)",
+          "6 tens",
           "600",
-          "6 ones (which equals 6)"
+          "6 ones"
         ],
         "answer": 1,
         "explain": "In the tens place, 6 represents 6 groups of ten, or 60."
@@ -1819,9 +1819,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which team has MORE players on the field?",
         "options": [
           "Both have the same",
-          "Team Green (12 players)",
+          "Team Green",
           "Neither team has players",
-          "Team Yellow (15 players)"
+          "Team Yellow"
         ],
         "answer": 3,
         "explain": "15 is greater than 12 (15 > 12), so Team Yellow has more players!"
@@ -1829,10 +1829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sign correctly compares 8 and 14: 8 [ ___ ] 14?",
         "options": [
-          "= (8 is equal to 14)",
-          "< (8 is less than 14)",
+          "=",
+          "<",
           "+",
-          "> (8 is greater than 14)"
+          ">"
         ],
         "answer": 1,
         "explain": "The alligator mouth opens to the bigger number: 8 < 14."
@@ -1862,9 +1862,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which team has MORE players on the field?",
         "options": [
           "Both have the same",
-          "Team Green (12 players)",
+          "Team Green",
           "Neither team has players",
-          "Team Yellow (15 players)"
+          "Team Yellow"
         ],
         "answer": 3,
         "explain": "15 is greater than 12 (15 > 12), so Team Yellow has more players!"
@@ -1872,10 +1872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sign correctly compares 8 and 14: 8 [ ___ ] 14?",
         "options": [
-          "= (8 is equal to 14)",
-          "< (8 is less than 14)",
+          "=",
+          "<",
           "+",
-          "> (8 is greater than 14)"
+          ">"
         ],
         "answer": 1,
         "explain": "The alligator mouth opens to the bigger number: 8 < 14."
@@ -2013,7 +2013,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which of these everyday objects can BOTH roll and slide?",
         "options": [
           "A soft square pillow",
-          "A round coin (rolls on its edge, slides on its flat face)",
+          "A round coin",
           "A flat piece of paper",
           "A spiky jack toy"
         ],
@@ -2056,7 +2056,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which of these everyday objects can BOTH roll and slide?",
         "options": [
           "A soft square pillow",
-          "A round coin (rolls on its edge, slides on its flat face)",
+          "A round coin",
           "A flat piece of paper",
           "A spiky jack toy"
         ],
@@ -2088,7 +2088,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How did Tina sort these buttons: [ Tiny red button, Medium red button, Giant red button ]?",
         "options": [
           "By how loud they are",
-          "By size (small, medium, large)",
+          "By size",
           "By color only",
           "By their weight in kilograms"
         ],
@@ -2098,10 +2098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Tina wants to stack items into a tall, stable tower, which shapes are best to use?",
         "options": [
-          "Round slippery marbles",
-          "Pointy party hats",
-          "Blocks with flat square surfaces",
-          "Oval eggs"
+          "Smooth round marbles that easily roll in every direction",
+          "Pointed cone hats that have only one sharp tip at the top",
+          "Solid wooden blocks that feature flat, wide square faces",
+          "Curved oval eggs that roll and wobble on their round sides"
         ],
         "answer": 2,
         "explain": "Flat surfaces rest securely on top of each other without rolling off!"
@@ -2131,7 +2131,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How did Tina sort these buttons: [ Tiny red button, Medium red button, Giant red button ]?",
         "options": [
           "By how loud they are",
-          "By size (small, medium, large)",
+          "By size",
           "By color only",
           "By their weight in kilograms"
         ],
@@ -2141,10 +2141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Tina wants to stack items into a tall, stable tower, which shapes are best to use?",
         "options": [
-          "Round slippery marbles",
-          "Pointy party hats",
-          "Blocks with flat square surfaces",
-          "Oval eggs"
+          "Smooth round marbles that easily roll in every direction",
+          "Pointed cone hats that have only one sharp tip at the top",
+          "Solid wooden blocks that feature flat, wide square faces",
+          "Curved oval eggs that roll and wobble on their round sides"
         ],
         "answer": 2,
         "explain": "Flat surfaces rest securely on top of each other without rolling off!"

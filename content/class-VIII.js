@@ -23,9 +23,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a public security announcement says: 'Do not leave your baggage unattended at any time', what is the reason?",
         "options": [
-          "Bags cannot fit on floors",
-          "Bags get tired standing",
-          "Because only carts are allowed",
+          "Unattended bags create hallway clutter that prevents janitorial staff from sweeping floors",
+          "Unattended bags exceed airline weight limits and incur automatic baggage penalty surcharges",
+          "Unattended bags block pedestrian foot traffic near terminal gates and cause boarding delays",
           "Unattended bags trigger security emergency protocols and risk theft or bomb disposal checks"
         ],
         "answer": 3,
@@ -34,10 +34,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the polite phrase flight attendants use when directing passengers to stow their cabin luggage?",
         "options": [
-          "'Throw your bags anywhere.'",
-          "'Leave your bags in the aisle.'",
-          "'Kindly place your smaller bags beneath the seat in front of you.'",
-          "'Take your luggage off the plane.'"
+          "Passengers must drop their hand luggage onto the central cabin aisle.",
+          "Please shove your heavy suitcases into any empty corner on the plane.",
+          "Kindly place your smaller bags beneath the seat in front of you.",
+          "You should throw all personal luggage out of the emergency exits now."
         ],
         "answer": 2,
         "explain": "Clear, courteous instructions ensure that aisles remain unblocked during flight operations."
@@ -66,9 +66,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a public security announcement says: 'Do not leave your baggage unattended at any time', what is the reason?",
         "options": [
-          "Bags cannot fit on floors",
-          "Bags get tired standing",
-          "Because only carts are allowed",
+          "Unattended bags create hallway clutter that prevents janitorial staff from sweeping floors",
+          "Unattended bags exceed airline weight limits and incur automatic baggage penalty surcharges",
+          "Unattended bags block pedestrian foot traffic near terminal gates and cause boarding delays",
           "Unattended bags trigger security emergency protocols and risk theft or bomb disposal checks"
         ],
         "answer": 3,
@@ -77,10 +77,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the polite phrase flight attendants use when directing passengers to stow their cabin luggage?",
         "options": [
-          "'Throw your bags anywhere.'",
-          "'Leave your bags in the aisle.'",
-          "'Kindly place your smaller bags beneath the seat in front of you.'",
-          "'Take your luggage off the plane.'"
+          "Passengers must drop their hand luggage onto the central cabin aisle.",
+          "Please shove your heavy suitcases into any empty corner on the plane.",
+          "Kindly place your smaller bags beneath the seat in front of you.",
+          "You should throw all personal luggage out of the emergency exits now."
         ],
         "answer": 2,
         "explain": "Clear, courteous instructions ensure that aisles remain unblocked during flight operations."
@@ -98,10 +98,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'DIPHTHONG' in English phonetics?",
         "options": [
-          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable (e.g., 'coin', 'loud')",
-          "A sentence without punctuation",
-          "A punctuation mark",
-          "A silent consonant letter"
+          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable",
+          "A consonant sound articulated by completely blocking and then suddenly releasing airflow from the mouth",
+          "A short unaccented vowel pronounced with relaxed vocal organs at the neutral center of the oral cavity",
+          "A sequence of three consonant letters combined together to represent a single unique phonetic sound"
         ],
         "answer": 0,
         "explain": "Diphthongs (from Greek 'two sounds') glide between two articulatory vowel positions, such as /aʊ/ in 'cow'!"
@@ -109,9 +109,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does rising pitch at the end of a statement change its grammatical function in conversation?",
         "options": [
-          "It makes the sentence past tense",
-          "It has zero effect",
-          "It turns speech into shouting",
+          "It changes the sentence mood from active voice into a formal passive command spoken by an authority",
+          "It alters the underlying grammatical tense from continuous present into a completed past action",
+          "It signals that the speaker has permanently finished speaking and intends to leave the conversation",
           "It transforms an otherwise declarative statement into an inquisitive question or confirmation check"
         ],
         "answer": 3,
@@ -122,7 +122,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "'Sun' and 'Moon'",
           "'Dog' and 'Cat'",
-          "'Ship' (/ɪ/) and 'Sheep' (/iː/)",
+          "'Ship' and 'Sheep'",
           "'Run' and 'Walk'"
         ],
         "answer": 2,
@@ -141,10 +141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'DIPHTHONG' in English phonetics?",
         "options": [
-          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable (e.g., 'coin', 'loud')",
-          "A sentence without punctuation",
-          "A punctuation mark",
-          "A silent consonant letter"
+          "A complex vowel sound that glides smoothly from one vowel position to another within the same syllable",
+          "A consonant sound articulated by completely blocking and then suddenly releasing airflow from the mouth",
+          "A short unaccented vowel pronounced with relaxed vocal organs at the neutral center of the oral cavity",
+          "A sequence of three consonant letters combined together to represent a single unique phonetic sound"
         ],
         "answer": 0,
         "explain": "Diphthongs (from Greek 'two sounds') glide between two articulatory vowel positions, such as /aʊ/ in 'cow'!"
@@ -152,9 +152,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does rising pitch at the end of a statement change its grammatical function in conversation?",
         "options": [
-          "It makes the sentence past tense",
-          "It has zero effect",
-          "It turns speech into shouting",
+          "It changes the sentence mood from active voice into a formal passive command spoken by an authority",
+          "It alters the underlying grammatical tense from continuous present into a completed past action",
+          "It signals that the speaker has permanently finished speaking and intends to leave the conversation",
           "It transforms an otherwise declarative statement into an inquisitive question or confirmation check"
         ],
         "answer": 3,
@@ -165,7 +165,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "'Sun' and 'Moon'",
           "'Dog' and 'Cat'",
-          "'Ship' (/ɪ/) and 'Sheep' (/iː/)",
+          "'Ship' and 'Sheep'",
           "'Run' and 'Walk'"
         ],
         "answer": 2,
@@ -185,9 +185,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What oratorical techniques make radio sports commentary exhilarating for listeners who cannot see the screen?",
         "options": [
           "Rapid real-time description, dramatic vocal modulation, vivid sensory vocabulary, and tactical analysis",
-          "Reading from an unrelated novel",
-          "Total silence between deliveries",
-          "Whispering in slow motion"
+          "Reading verbatim dictionary definitions of game rules interspersed with long silent breaks between plays",
+          "Whispering monotonous numerical player statistics in a flat tone without mentioning current ball actions",
+          "Reciting unrelated poetry verses and discussing personal commercial sponsorships throughout the match"
         ],
         "answer": 0,
         "explain": "Radio commentators paint instantaneous, high-adrenaline mental pictures using precise, rhythmic descriptions!"
@@ -196,9 +196,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When a commentator states: 'The captain is setting an attacking field with two slips and a gully', what does this strategic analysis communicate?",
         "options": [
           "The team is actively hunting for wickets by positioning catchers close to the bat edge",
-          "The fielders are resting",
-          "The team is trying to waste time",
-          "The game is over"
+          "The fielding side is slowing down play to waste remaining overs before lunch interval",
+          "The captain is conceding easy boundary runs to encourage defensive batting strokes",
+          "The fielders are resting in outfield positions to preserve energy for later bowling spells"
         ],
         "answer": 0,
         "explain": "Slip and gully fielders anticipate thin edges, indicating an aggressive wicket-taking tactical posture!"
@@ -206,9 +206,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What distinguished broadcast commentary legendary figures like Harsha Bhogle from ordinary speech?",
         "options": [
-          "Using confusing slang only",
-          "Reading textbook grammar rules",
-          "Shouting biased insults at teams",
+          "Constant sensationalized shouting, partisan insults directed at rival teams, and confusing slang",
+          "Monotonous recitation of basic cricket textbook regulations without any real-time match context",
+          "Frequent angry complaints about umpiring decisions combined with silence during crucial overs",
           "Articulate analytical clarity, deep historical context, witty analogies, and impartial storytelling"
         ],
         "answer": 3,
@@ -228,9 +228,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What oratorical techniques make radio sports commentary exhilarating for listeners who cannot see the screen?",
         "options": [
           "Rapid real-time description, dramatic vocal modulation, vivid sensory vocabulary, and tactical analysis",
-          "Reading from an unrelated novel",
-          "Total silence between deliveries",
-          "Whispering in slow motion"
+          "Reading verbatim dictionary definitions of game rules interspersed with long silent breaks between plays",
+          "Whispering monotonous numerical player statistics in a flat tone without mentioning current ball actions",
+          "Reciting unrelated poetry verses and discussing personal commercial sponsorships throughout the match"
         ],
         "answer": 0,
         "explain": "Radio commentators paint instantaneous, high-adrenaline mental pictures using precise, rhythmic descriptions!"
@@ -239,9 +239,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When a commentator states: 'The captain is setting an attacking field with two slips and a gully', what does this strategic analysis communicate?",
         "options": [
           "The team is actively hunting for wickets by positioning catchers close to the bat edge",
-          "The fielders are resting",
-          "The team is trying to waste time",
-          "The game is over"
+          "The fielding side is slowing down play to waste remaining overs before lunch interval",
+          "The captain is conceding easy boundary runs to encourage defensive batting strokes",
+          "The fielders are resting in outfield positions to preserve energy for later bowling spells"
         ],
         "answer": 0,
         "explain": "Slip and gully fielders anticipate thin edges, indicating an aggressive wicket-taking tactical posture!"
@@ -249,9 +249,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What distinguished broadcast commentary legendary figures like Harsha Bhogle from ordinary speech?",
         "options": [
-          "Using confusing slang only",
-          "Reading textbook grammar rules",
-          "Shouting biased insults at teams",
+          "Constant sensationalized shouting, partisan insults directed at rival teams, and confusing slang",
+          "Monotonous recitation of basic cricket textbook regulations without any real-time match context",
+          "Frequent angry complaints about umpiring decisions combined with silence during crucial overs",
           "Articulate analytical clarity, deep historical context, witty analogies, and impartial storytelling"
         ],
         "answer": 3,
@@ -270,10 +270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the true philosophical meaning of the proverb: 'A STITCH IN TIME SAVES NINE'?",
         "options": [
-          "You must always sew nine shirts every day",
-          "Time cannot be measured on clocks",
-          "Tackling a small problem immediately prevents it from escalating into a massive, costly catastrophe later",
-          "Clothes should never be repaired"
+          "One must always mend nine different garments every morning before undertaking any other household duties",
+          "Counting passing seconds on an analog clock guarantees that sewing thread will never tangle during embroidery",
+          "Tackling a small problem immediately prevents it from escalating into a massive and costly catastrophe later",
+          "Postponing maintenance indefinitely allows damaged fabrics to repair themselves through natural atmospheric rest"
         ],
         "answer": 2,
         "explain": "Prompt maintenance fixes small tears before they rip into ruined fabric requiring nine repair stitches!"
@@ -281,10 +281,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Interpret the proverb: 'DON'T COUNT YOUR CHICKENS BEFORE THEY HATCH.'",
         "options": [
-          "Always buy chickens before hens",
-          "Do not assume success or count on profits before they have actually happened, as plans can change",
-          "Chickens cannot be counted with math",
-          "Never eat eggs for breakfast"
+          "Always purchase adult laying hens instead of fragile eggs when investing capital in a poultry farm",
+          "Do not assume success or rely on gains before they actually occur, as unforeseen events can alter outcomes",
+          "Mathematical calculations should never be applied when estimating agricultural inventory in rural markets",
+          "Avoid making any plans for the future because external circumstances are entirely beyond human control"
         ],
         "answer": 1,
         "explain": "This wise idiom warns against premature celebration before outcomes are finalized."
@@ -292,10 +292,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which proverb conveys the exact SAME wisdom as: 'Actions speak louder than words'?",
         "options": [
-          "'Every cloud has a silver lining'",
-          "'Practice what you preach' / 'Well done is better than well said'",
-          "'A rolling stone gathers no moss'",
-          "'Birds of a feather flock together'"
+          "Every cloud has a silver lining",
+          "Well done is better than well said",
+          "A rolling stone gathers no moss",
+          "Birds of a feather flock together"
         ],
         "answer": 1,
         "explain": "Both proverbs celebrate tangible, demonstrated integrity over empty verbal promises!"
@@ -313,10 +313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the true philosophical meaning of the proverb: 'A STITCH IN TIME SAVES NINE'?",
         "options": [
-          "You must always sew nine shirts every day",
-          "Time cannot be measured on clocks",
-          "Tackling a small problem immediately prevents it from escalating into a massive, costly catastrophe later",
-          "Clothes should never be repaired"
+          "One must always mend nine different garments every morning before undertaking any other household duties",
+          "Counting passing seconds on an analog clock guarantees that sewing thread will never tangle during embroidery",
+          "Tackling a small problem immediately prevents it from escalating into a massive and costly catastrophe later",
+          "Postponing maintenance indefinitely allows damaged fabrics to repair themselves through natural atmospheric rest"
         ],
         "answer": 2,
         "explain": "Prompt maintenance fixes small tears before they rip into ruined fabric requiring nine repair stitches!"
@@ -324,10 +324,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Interpret the proverb: 'DON'T COUNT YOUR CHICKENS BEFORE THEY HATCH.'",
         "options": [
-          "Always buy chickens before hens",
-          "Do not assume success or count on profits before they have actually happened, as plans can change",
-          "Chickens cannot be counted with math",
-          "Never eat eggs for breakfast"
+          "Always purchase adult laying hens instead of fragile eggs when investing capital in a poultry farm",
+          "Do not assume success or rely on gains before they actually occur, as unforeseen events can alter outcomes",
+          "Mathematical calculations should never be applied when estimating agricultural inventory in rural markets",
+          "Avoid making any plans for the future because external circumstances are entirely beyond human control"
         ],
         "answer": 1,
         "explain": "This wise idiom warns against premature celebration before outcomes are finalized."
@@ -335,10 +335,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which proverb conveys the exact SAME wisdom as: 'Actions speak louder than words'?",
         "options": [
-          "'Every cloud has a silver lining'",
-          "'Practice what you preach' / 'Well done is better than well said'",
-          "'A rolling stone gathers no moss'",
-          "'Birds of a feather flock together'"
+          "Every cloud has a silver lining",
+          "Well done is better than well said",
+          "A rolling stone gathers no moss",
+          "Birds of a feather flock together"
         ],
         "answer": 1,
         "explain": "Both proverbs celebrate tangible, demonstrated integrity over empty verbal promises!"
@@ -356,10 +356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In Orwell's 'Animal Farm', what famous corrupted commandment satirizes the betrayal of revolutionary equality: 'All animals are equal, but...'?",
         "options": [
-          "'...pigs eat apples.'",
-          "'...birds can fly.'",
-          "'...horses run faster.'",
-          "'...some animals are more equal than others.'"
+          "four legs are always better than two.",
+          "human beings are superior to beasts.",
+          "working animals must obey the leader.",
+          "some animals are more equal than others."
         ],
         "answer": 3,
         "explain": "This chilling paradox satirizes totalitarian hypocrisy, where ruling elites grant themselves corrupt privileges!"
@@ -367,10 +367,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do dystopian novels often portray oppressive regimes banning or burning books?",
         "options": [
-          "Books foster independent critical thinking, empathy, historical memory, and resistance against tyranny",
-          "Because books are too heavy to carry",
-          "To save printing ink",
-          "Because paper is highly flammable"
+          "Books foster critical thinking, historical memory, empathy, and intellectual resistance against tyranny",
+          "Books consume excessive printing paper and heavy binding glue needed by national manufacturing industries",
+          "Books encourage citizens to spend too much time reading indoors instead of participating in state athletics",
+          "Books cause severe eye strain among factory workers, lowering overall economic output across urban centers"
         ],
         "answer": 0,
         "explain": "Dictatorships fear literature because reading cultivates questioning minds and preserves factual truth."
@@ -378,10 +378,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a critical reader detect authorial bias in an editorial text?",
         "options": [
-          "By reading only the last word",
-          "By counting paragraph indents",
-          "By checking the font size only",
-          "By analyzing selective presentation of facts, emotionally loaded language, and omission of opposing data"
+          "By measuring the physical margins of the newspaper page and counting the total number of printed sentences",
+          "By checking whether the editorial columnist uses complex grammatical clauses and rare vocabulary words",
+          "By verifying that the publication date corresponds to an official national holiday or commemorative event",
+          "By analyzing selective presentation of facts, emotionally loaded diction, and omission of opposing views"
         ],
         "answer": 3,
         "explain": "Discerning loaded diction and identifying omitted counter-arguments reveals subjective slant."
@@ -399,10 +399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In Orwell's 'Animal Farm', what famous corrupted commandment satirizes the betrayal of revolutionary equality: 'All animals are equal, but...'?",
         "options": [
-          "'...pigs eat apples.'",
-          "'...birds can fly.'",
-          "'...horses run faster.'",
-          "'...some animals are more equal than others.'"
+          "four legs are always better than two.",
+          "human beings are superior to beasts.",
+          "working animals must obey the leader.",
+          "some animals are more equal than others."
         ],
         "answer": 3,
         "explain": "This chilling paradox satirizes totalitarian hypocrisy, where ruling elites grant themselves corrupt privileges!"
@@ -410,10 +410,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do dystopian novels often portray oppressive regimes banning or burning books?",
         "options": [
-          "Books foster independent critical thinking, empathy, historical memory, and resistance against tyranny",
-          "Because books are too heavy to carry",
-          "To save printing ink",
-          "Because paper is highly flammable"
+          "Books foster critical thinking, historical memory, empathy, and intellectual resistance against tyranny",
+          "Books consume excessive printing paper and heavy binding glue needed by national manufacturing industries",
+          "Books encourage citizens to spend too much time reading indoors instead of participating in state athletics",
+          "Books cause severe eye strain among factory workers, lowering overall economic output across urban centers"
         ],
         "answer": 0,
         "explain": "Dictatorships fear literature because reading cultivates questioning minds and preserves factual truth."
@@ -421,10 +421,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a critical reader detect authorial bias in an editorial text?",
         "options": [
-          "By reading only the last word",
-          "By counting paragraph indents",
-          "By checking the font size only",
-          "By analyzing selective presentation of facts, emotionally loaded language, and omission of opposing data"
+          "By measuring the physical margins of the newspaper page and counting the total number of printed sentences",
+          "By checking whether the editorial columnist uses complex grammatical clauses and rare vocabulary words",
+          "By verifying that the publication date corresponds to an official national holiday or commemorative event",
+          "By analyzing selective presentation of facts, emotionally loaded diction, and omission of opposing views"
         ],
         "answer": 3,
         "explain": "Discerning loaded diction and identifying omitted counter-arguments reveals subjective slant."
@@ -444,7 +444,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Piracy on the high seas",
           "Industrial automation",
-          "Apartheid (the institutionalized system of racial segregation and white minority oppression)",
+          "Apartheid",
           "The construction of railways"
         ],
         "answer": 2,
@@ -453,10 +453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What distinguished classic 14th-century travelogues (like Ibn Battuta's 'Rihla') from modern travel blogs?",
         "options": [
-          "They only talked about airline tickets",
-          "They were written in computer code",
-          "They documented legal systems, trade routes, court politics, religious scholarship, and geographical ethnography over decades of overland travel",
-          "They were fictional fairytales"
+          "They focused exclusively on reviewing roadside hotel accommodations and rating culinary delicacies in tourist market stalls",
+          "They were written in cryptic computational codes to prevent foreign dynasties from understanding local currency exchange values",
+          "They documented legal systems, trade routes, court politics, religious scholarship, and regional ethnography over decades of travel",
+          "They consisted of fictional mythical fables designed purely for oral bedtime entertainment in rural traveling circus caravans"
         ],
         "answer": 2,
         "explain": "Medieval travelogues served as primary socio-economic encyclopedias of trans-continental civilizations."
@@ -464,10 +464,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What cognitive benefit does reading extensive non-fiction historical narratives provide middle schoolers?",
         "options": [
-          "It is only done for memorizing test dates",
-          "It builds deep historical empathy, contextual nuance, and understanding of how institutions evolve over centuries",
-          "It reduces reading vocabulary",
-          "It makes students forget modern inventions"
+          "It trains students to memorize chronological dates and dynastic treaty names for standardized competitive quizzes",
+          "It builds historical empathy, contextual nuance, and an understanding of how social institutions evolve over time",
+          "It discourages creative writing by forcing students to accept past political events as predetermined and unchangeable",
+          "It replaces the need to study modern scientific developments by focusing attention exclusively on ancient technologies"
         ],
         "answer": 1,
         "explain": "Historical biographies reveal how human courage, societal choices, and ideas shape our present world."
@@ -487,7 +487,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Piracy on the high seas",
           "Industrial automation",
-          "Apartheid (the institutionalized system of racial segregation and white minority oppression)",
+          "Apartheid",
           "The construction of railways"
         ],
         "answer": 2,
@@ -496,10 +496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What distinguished classic 14th-century travelogues (like Ibn Battuta's 'Rihla') from modern travel blogs?",
         "options": [
-          "They only talked about airline tickets",
-          "They were written in computer code",
-          "They documented legal systems, trade routes, court politics, religious scholarship, and geographical ethnography over decades of overland travel",
-          "They were fictional fairytales"
+          "They focused exclusively on reviewing roadside hotel accommodations and rating culinary delicacies in tourist market stalls",
+          "They were written in cryptic computational codes to prevent foreign dynasties from understanding local currency exchange values",
+          "They documented legal systems, trade routes, court politics, religious scholarship, and regional ethnography over decades of travel",
+          "They consisted of fictional mythical fables designed purely for oral bedtime entertainment in rural traveling circus caravans"
         ],
         "answer": 2,
         "explain": "Medieval travelogues served as primary socio-economic encyclopedias of trans-continental civilizations."
@@ -507,10 +507,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What cognitive benefit does reading extensive non-fiction historical narratives provide middle schoolers?",
         "options": [
-          "It is only done for memorizing test dates",
-          "It builds deep historical empathy, contextual nuance, and understanding of how institutions evolve over centuries",
-          "It reduces reading vocabulary",
-          "It makes students forget modern inventions"
+          "It trains students to memorize chronological dates and dynastic treaty names for standardized competitive quizzes",
+          "It builds historical empathy, contextual nuance, and an understanding of how social institutions evolve over time",
+          "It discourages creative writing by forcing students to accept past political events as predetermined and unchangeable",
+          "It replaces the need to study modern scientific developments by focusing attention exclusively on ancient technologies"
         ],
         "answer": 1,
         "explain": "Historical biographies reveal how human courage, societal choices, and ideas shape our present world."
@@ -528,10 +528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What core ethical concept does Atticus Finch's memorable advice teach Scout?",
         "options": [
-          "How to sew leather shoes",
-          "EMPATHY: the moral ability to see the world through another person's lived experience before judging them",
-          "Physical strength in sports",
-          "How to win arguments in court with volume"
+          "Tenacity: the stubborn determination to win every courtroom argument regardless of moral evidence or truth",
+          "Empathy: the moral capacity to understand the world through another person's lived perspective before judging",
+          "Retribution: the civic duty to punish wrongdoers swiftly to maintain social order and community discipline",
+          "Conformity: the social wisdom of following majority public opinion in small towns to avoid controversy"
         ],
         "answer": 1,
         "explain": "Empathy requires stepping out of personal prejudice to perceive another human being's perspective with compassion!"
@@ -539,10 +539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the metaphor of the novel, what does the harmless, singing 'MOCKINGBIRD' symbolize?",
         "options": [
-          "A dangerous predator in the forest",
-          "Innocent, defenseless beings who bring joy into the world and must never be harmed or persecuted",
-          "A mythical creature with wings",
-          "A noisy bird that ruins crops"
+          "Cunning predatory forces in nature that disrupt social harmony and must be driven out of the forest",
+          "Innocent, vulnerable beings who bring joy into the world and must never be harmed or persecuted by society",
+          "Proud, defiant individuals who challenge legal authority through aggressive resistance and open rebellion",
+          "Mysterious mythical omens that foretell impending family misfortune and tragic natural catastrophes"
         ],
         "answer": 1,
         "explain": "Mockingbirds do only one thing: sing music for people. Hurting them symbolizes unjust cruelty to the innocent."
@@ -550,10 +550,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'DYNAMIC CHARACTER' in literature (as opposed to a static flat character)?",
         "options": [
-          "A character who never speaks",
-          "A character who runs constantly",
-          "A character who undergoes significant internal psychological growth, moral awakening, or personality change during the story",
-          "A character who dies in chapter 1"
+          "A minor background figure who appears in multiple narrative scenes without altering the central dramatic storyline",
+          "A heroic protagonist who performs impressive physical feats of courage without experiencing any emotional vulnerability",
+          "A character who undergoes significant psychological growth, moral awakening, or personality transformation over time",
+          "An unchanging antagonist whose villainous motives and behavioral habits remain perfectly identical from start to finish"
         ],
         "answer": 2,
         "explain": "Dynamic characters evolve through narrative conflicts (e.g., Scout growing in moral maturity)!"
@@ -571,10 +571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What core ethical concept does Atticus Finch's memorable advice teach Scout?",
         "options": [
-          "How to sew leather shoes",
-          "EMPATHY: the moral ability to see the world through another person's lived experience before judging them",
-          "Physical strength in sports",
-          "How to win arguments in court with volume"
+          "Tenacity: the stubborn determination to win every courtroom argument regardless of moral evidence or truth",
+          "Empathy: the moral capacity to understand the world through another person's lived perspective before judging",
+          "Retribution: the civic duty to punish wrongdoers swiftly to maintain social order and community discipline",
+          "Conformity: the social wisdom of following majority public opinion in small towns to avoid controversy"
         ],
         "answer": 1,
         "explain": "Empathy requires stepping out of personal prejudice to perceive another human being's perspective with compassion!"
@@ -582,10 +582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the metaphor of the novel, what does the harmless, singing 'MOCKINGBIRD' symbolize?",
         "options": [
-          "A dangerous predator in the forest",
-          "Innocent, defenseless beings who bring joy into the world and must never be harmed or persecuted",
-          "A mythical creature with wings",
-          "A noisy bird that ruins crops"
+          "Cunning predatory forces in nature that disrupt social harmony and must be driven out of the forest",
+          "Innocent, vulnerable beings who bring joy into the world and must never be harmed or persecuted by society",
+          "Proud, defiant individuals who challenge legal authority through aggressive resistance and open rebellion",
+          "Mysterious mythical omens that foretell impending family misfortune and tragic natural catastrophes"
         ],
         "answer": 1,
         "explain": "Mockingbirds do only one thing: sing music for people. Hurting them symbolizes unjust cruelty to the innocent."
@@ -593,10 +593,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'DYNAMIC CHARACTER' in literature (as opposed to a static flat character)?",
         "options": [
-          "A character who never speaks",
-          "A character who runs constantly",
-          "A character who undergoes significant internal psychological growth, moral awakening, or personality change during the story",
-          "A character who dies in chapter 1"
+          "A minor background figure who appears in multiple narrative scenes without altering the central dramatic storyline",
+          "A heroic protagonist who performs impressive physical feats of courage without experiencing any emotional vulnerability",
+          "A character who undergoes significant psychological growth, moral awakening, or personality transformation over time",
+          "An unchanging antagonist whose villainous motives and behavioral habits remain perfectly identical from start to finish"
         ],
         "answer": 2,
         "explain": "Dynamic characters evolve through narrative conflicts (e.g., Scout growing in moral maturity)!"
@@ -617,7 +617,7 @@ Object.assign(window.GAME_CONTENT, {
           "Directions to the nearest park",
           "Changes in temperature over 100 years",
           "Alphabetical lists of author names",
-          "Proportional shares of a total whole (e.g., energy generation vs transport vs agriculture as percentages of 100% emissions)"
+          "Proportional shares of a total whole"
         ],
         "answer": 3,
         "explain": "Circular pie charts visually partition 100% of a whole into proportional fractional wedges!"
@@ -625,10 +625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do tactile graphics (embossed raised lines and varied textures) enable visually impaired students to understand complex geometry and maps?",
         "options": [
-          "Fingertips trace distinct tactile surface heights, dotted boundaries, and Braille labels to form spatial mental models",
-          "They are meant to be smelled",
-          "They make the paper waterproof only",
-          "They play loud music"
+          "Fingertips trace distinct raised textures, dotted lines, and Braille labels to construct spatial mental representations",
+          "Special chemical aromas embedded in the paper stimulate olfactory memory to identify different geometric angles and axes",
+          "Microscopic audio speakers embedded in the embossed cardstock broadcast verbal coordinate explanations when pressed",
+          "Temperature variations across the paper surface allow heat receptors in the skin to distinguish between convex shapes"
         ],
         "answer": 0,
         "explain": "Tactile relief maps and raised geometry figures allow accurate haptic spatial exploration with fingertips."
@@ -636,10 +636,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What visual design feature prevents infographics from overwhelming the reader with data clutter?",
         "options": [
-          "Cramming 500 paragraphs of tiny text together",
-          "Clear visual hierarchy, generous white space, color contrast, and clean data labels",
-          "Hiding the title",
-          "Flashing neon animations that never stop"
+          "Filling every square centimeter of the layout with dense explanatory text paragraphs",
+          "Clear visual hierarchy, generous white space, color contrast, and legible data labels",
+          "Displaying animated strobe lighting effects and flashing holographic banner graphics",
+          "Removing all descriptive headings and numerical units to keep the poster minimalist"
         ],
         "answer": 1,
         "explain": "Visual hierarchy guides the viewer's eye logically from primary headline to supporting statistics."
@@ -660,7 +660,7 @@ Object.assign(window.GAME_CONTENT, {
           "Directions to the nearest park",
           "Changes in temperature over 100 years",
           "Alphabetical lists of author names",
-          "Proportional shares of a total whole (e.g., energy generation vs transport vs agriculture as percentages of 100% emissions)"
+          "Proportional shares of a total whole"
         ],
         "answer": 3,
         "explain": "Circular pie charts visually partition 100% of a whole into proportional fractional wedges!"
@@ -668,10 +668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do tactile graphics (embossed raised lines and varied textures) enable visually impaired students to understand complex geometry and maps?",
         "options": [
-          "Fingertips trace distinct tactile surface heights, dotted boundaries, and Braille labels to form spatial mental models",
-          "They are meant to be smelled",
-          "They make the paper waterproof only",
-          "They play loud music"
+          "Fingertips trace distinct raised textures, dotted lines, and Braille labels to construct spatial mental representations",
+          "Special chemical aromas embedded in the paper stimulate olfactory memory to identify different geometric angles and axes",
+          "Microscopic audio speakers embedded in the embossed cardstock broadcast verbal coordinate explanations when pressed",
+          "Temperature variations across the paper surface allow heat receptors in the skin to distinguish between convex shapes"
         ],
         "answer": 0,
         "explain": "Tactile relief maps and raised geometry figures allow accurate haptic spatial exploration with fingertips."
@@ -679,10 +679,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What visual design feature prevents infographics from overwhelming the reader with data clutter?",
         "options": [
-          "Cramming 500 paragraphs of tiny text together",
-          "Clear visual hierarchy, generous white space, color contrast, and clean data labels",
-          "Hiding the title",
-          "Flashing neon animations that never stop"
+          "Filling every square centimeter of the layout with dense explanatory text paragraphs",
+          "Clear visual hierarchy, generous white space, color contrast, and legible data labels",
+          "Displaying animated strobe lighting effects and flashing holographic banner graphics",
+          "Removing all descriptive headings and numerical units to keep the poster minimalist"
         ],
         "answer": 1,
         "explain": "Visual hierarchy guides the viewer's eye logically from primary headline to supporting statistics."
@@ -700,10 +700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the standard professional structure of a formal podium introduction of an esteemed guest speaker?",
         "options": [
-          "Ask the speaker for their wallet",
-          "Tell the audience to go home",
-          "Speak for 45 minutes about yourself",
-          "Welcome the audience, introduce the guest's name and designation, highlight their pivotal achievements, state their speech topic, and invite them warmly to the podium"
+          "Greet the audience, narrate personal childhood anecdotes at length, critique past guest lectures, and announce the cafeteria schedule",
+          "Request financial contributions from attendees, distribute souvenir merchandise, and read the entire printed school code of conduct",
+          "Announce administrative timetable changes, debate policy with faculty members, and ask the guest speaker to explain their arrival time",
+          "Welcome the gathering, state the speaker's name and credentials, highlight their key achievements, announce the topic, and invite them up"
         ],
         "answer": 3,
         "explain": "An introductory speech bridges the audience to the speaker, celebrating their credentials and welcoming them with dignity!"
@@ -711,10 +711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which opening formula conveys poise, warmth, and formal academic decorum?",
         "options": [
-          "'Listen up everybody, someone wants to talk,'",
-          "'Hey guys look who walked in,'",
-          "'I don't know who this is, but here they are,'",
-          "'Respected Principal, faculty members, and dear peers: It is my distinct honor and privilege to welcome our distinguished keynote speaker...'"
+          "Listen up everyone in the auditorium, we have a visitor here today who wants to say a few quick words before lunch begins.",
+          "Hey everybody, please quiet down right now because our invited guest has finally arrived and will give a presentation.",
+          "I am not sure who scheduled this lecture this morning, but let us get it over with as quickly as possible so we can leave.",
+          "Respected Principal, esteemed teachers, and dear peers: It is my distinct honor to welcome our distinguished keynote speaker."
         ],
         "answer": 3,
         "explain": "Polished ceremonial diction honors the guest and sets an atmosphere of intellectual reverence."
@@ -722,10 +722,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'VOTE OF THANKS' delivered at the conclusion of a formal seminar?",
         "options": [
-          "A complaint about the microphone",
-          "A formal closing address expressing gratitude to the keynote speaker, organizers, patrons, and participating audience",
-          "A speech asking for money",
-          "A ballot vote to elect a new class monitor"
+          "A public complaint voiced by student delegates regarding room ventilation, microphone volume, and seating comfort",
+          "A formal concluding speech expressing sincere gratitude to the speaker, organizers, patrons, and participating audience",
+          "A secret democratic ballot conducted by delegates to elect student representatives for the upcoming academic year",
+          "A fundraising appeal urging audience members to purchase commercial instructional books authored by the keynote guest"
         ],
         "answer": 1,
         "explain": "The Vote of Thanks concludes formal proceedings by acknowledging every contributor's dedication."
@@ -743,10 +743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the standard professional structure of a formal podium introduction of an esteemed guest speaker?",
         "options": [
-          "Ask the speaker for their wallet",
-          "Tell the audience to go home",
-          "Speak for 45 minutes about yourself",
-          "Welcome the audience, introduce the guest's name and designation, highlight their pivotal achievements, state their speech topic, and invite them warmly to the podium"
+          "Greet the audience, narrate personal childhood anecdotes at length, critique past guest lectures, and announce the cafeteria schedule",
+          "Request financial contributions from attendees, distribute souvenir merchandise, and read the entire printed school code of conduct",
+          "Announce administrative timetable changes, debate policy with faculty members, and ask the guest speaker to explain their arrival time",
+          "Welcome the gathering, state the speaker's name and credentials, highlight their key achievements, announce the topic, and invite them up"
         ],
         "answer": 3,
         "explain": "An introductory speech bridges the audience to the speaker, celebrating their credentials and welcoming them with dignity!"
@@ -754,10 +754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which opening formula conveys poise, warmth, and formal academic decorum?",
         "options": [
-          "'Listen up everybody, someone wants to talk,'",
-          "'Hey guys look who walked in,'",
-          "'I don't know who this is, but here they are,'",
-          "'Respected Principal, faculty members, and dear peers: It is my distinct honor and privilege to welcome our distinguished keynote speaker...'"
+          "Listen up everyone in the auditorium, we have a visitor here today who wants to say a few quick words before lunch begins.",
+          "Hey everybody, please quiet down right now because our invited guest has finally arrived and will give a presentation.",
+          "I am not sure who scheduled this lecture this morning, but let us get it over with as quickly as possible so we can leave.",
+          "Respected Principal, esteemed teachers, and dear peers: It is my distinct honor to welcome our distinguished keynote speaker."
         ],
         "answer": 3,
         "explain": "Polished ceremonial diction honors the guest and sets an atmosphere of intellectual reverence."
@@ -765,10 +765,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'VOTE OF THANKS' delivered at the conclusion of a formal seminar?",
         "options": [
-          "A complaint about the microphone",
-          "A formal closing address expressing gratitude to the keynote speaker, organizers, patrons, and participating audience",
-          "A speech asking for money",
-          "A ballot vote to elect a new class monitor"
+          "A public complaint voiced by student delegates regarding room ventilation, microphone volume, and seating comfort",
+          "A formal concluding speech expressing sincere gratitude to the speaker, organizers, patrons, and participating audience",
+          "A secret democratic ballot conducted by delegates to elect student representatives for the upcoming academic year",
+          "A fundraising appeal urging audience members to purchase commercial instructional books authored by the keynote guest"
         ],
         "answer": 1,
         "explain": "The Vote of Thanks concludes formal proceedings by acknowledging every contributor's dedication."
@@ -786,10 +786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which formulaic phrase expresses professional, courteous disagreement without causing personal offense?",
         "options": [
-          "'Sit down and be quiet!'",
-          "'Your idea is the worst idea ever.'",
-          "'You are completely wrong and clueless!'",
-          "'I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent trade data.'"
+          "The delegate's statement is completely absurd and shows a total lack of basic understanding of the situation.",
+          "I demand that the delegate withdraw their ridiculous comment immediately before we continue this discussion.",
+          "Everyone in this assembly knows that your proposed policy has already failed disastrously in neighboring regions.",
+          "I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent data."
         ],
         "answer": 3,
         "explain": "Diplomatic phrases acknowledge the counterpart's point while introducing counter-evidence with professional grace!"
@@ -808,10 +808,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are diplomatic linguistic formulas ('If I may add', 'With all due respect', 'I beg to differ') essential in statecraft and business?",
         "options": [
-          "Because speaking plainly is forbidden",
-          "To make meetings take twelve hours",
-          "They de-escalate emotional friction, preserve working relationships, and focus negotiations on objective policy solutions",
-          "To confuse foreign delegates"
+          "They allow negotiating parties to conceal important financial discrepancies and evade formal contractual liabilities",
+          "They prolong diplomatic summits indefinitely so that decision-makers can avoid adopting enforceable treaty obligations",
+          "They de-escalate emotional tension, protect professional relationships, and maintain focus on collaborative solutions",
+          "They ensure that international diplomats communicate exclusively in archaic idioms that ordinary citizens cannot understand"
         ],
         "answer": 2,
         "explain": "Polite protocol prevents personal animosity from derailing vital geopolitical and commercial pacts."
@@ -829,10 +829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which formulaic phrase expresses professional, courteous disagreement without causing personal offense?",
         "options": [
-          "'Sit down and be quiet!'",
-          "'Your idea is the worst idea ever.'",
-          "'You are completely wrong and clueless!'",
-          "'I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent trade data.'"
+          "The delegate's statement is completely absurd and shows a total lack of basic understanding of the situation.",
+          "I demand that the delegate withdraw their ridiculous comment immediately before we continue this discussion.",
+          "Everyone in this assembly knows that your proposed policy has already failed disastrously in neighboring regions.",
+          "I respect the delegate's perspective; however, I would like to offer a different viewpoint based on recent data."
         ],
         "answer": 3,
         "explain": "Diplomatic phrases acknowledge the counterpart's point while introducing counter-evidence with professional grace!"
@@ -851,10 +851,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are diplomatic linguistic formulas ('If I may add', 'With all due respect', 'I beg to differ') essential in statecraft and business?",
         "options": [
-          "Because speaking plainly is forbidden",
-          "To make meetings take twelve hours",
-          "They de-escalate emotional friction, preserve working relationships, and focus negotiations on objective policy solutions",
-          "To confuse foreign delegates"
+          "They allow negotiating parties to conceal important financial discrepancies and evade formal contractual liabilities",
+          "They prolong diplomatic summits indefinitely so that decision-makers can avoid adopting enforceable treaty obligations",
+          "They de-escalate emotional tension, protect professional relationships, and maintain focus on collaborative solutions",
+          "They ensure that international diplomats communicate exclusively in archaic idioms that ordinary citizens cannot understand"
         ],
         "answer": 2,
         "explain": "Polite protocol prevents personal animosity from derailing vital geopolitical and commercial pacts."
@@ -872,10 +872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Arjun weave sensory details into his spoken memoir to recreate the tense evacuation?",
         "options": [
-          "Saying only 'It rained a lot'",
-          "Describing the deafening roar of relentless rain, muddy rising floodwaters, and the roar of the fishermen's outboard motor",
-          "Listing the price of rubber boots",
-          "Counting how many bricks were in his house"
+          "Stating the exact calendar date, official municipal ward number, and price of emergency rubber gumboots in local markets",
+          "Describing the deafening roar of torrential rain, rising brown floodwaters, and the sputter of an approaching rescue motor",
+          "Reciting the entire state disaster management handbook regulations and listing phone numbers of local emergency control rooms",
+          "Calculating the precise volume of water displaced per minute by municipal drainage pumps across suburban residential sectors"
         ],
         "answer": 1,
         "explain": "Auditory and visual sensory anchors transport listeners directly into the emotional heart of the crisis!"
@@ -883,10 +883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What heroic role did coastal fishermen ('Kerala's Coastal Army') play during the catastrophic 2018 floods?",
         "options": [
-          "They went fishing for crabs in the sea",
-          "They stayed in harbor",
-          "They transported their deep-sea fishing trawlers inland on trucks and navigated treacherous flood currents to rescue over 65,000 stranded citizens",
-          "They refused to help"
+          "They remained safely docked in deep-water ocean harbors and monitored weather satellite forecasts on commercial communication radios",
+          "They organized protest marches along coastal highways demanding increased subsidies for diesel fuel and marine navigation equipment",
+          "They transported their sea trawlers inland on trucks and navigated treacherous flood currents to rescue thousands of stranded residents",
+          "They supplied commercial ice packs to metropolitan seafood export warehouses to prevent high-value ocean catches from spoiling"
         ],
         "answer": 2,
         "explain": "Selfless traditional fishermen navigated perilous floodwaters, saving tens of thousands with selfless bravery!"
@@ -894,10 +894,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What makes personal oral narration compelling to an audience?",
         "options": [
-          "Speaking in a flat whisper with no facial expression",
-          "Reading directly from a printed paper without looking up",
-          "Making jokes during tragedy",
-          "Emotional authenticity, vulnerable honesty, dynamic vocal pacing, and meaningful reflection on human resilience"
+          "Speaking in a rapid monotone whisper while maintaining rigid eye contact with the floor throughout the speech",
+          "Reading verbatim from a dense printed manuscript without looking up or altering vocal inflection and pitch",
+          "Exaggerating trivial facts into sensationalized fantasy adventures with little regard for historical accuracy",
+          "Emotional authenticity, sincere vulnerability, dynamic vocal expression, and thoughtful personal reflection"
         ],
         "answer": 3,
         "explain": "Genuine emotional resonance and reflective insight elevate personal memoirs into universal human lessons."
@@ -915,10 +915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Arjun weave sensory details into his spoken memoir to recreate the tense evacuation?",
         "options": [
-          "Saying only 'It rained a lot'",
-          "Describing the deafening roar of relentless rain, muddy rising floodwaters, and the roar of the fishermen's outboard motor",
-          "Listing the price of rubber boots",
-          "Counting how many bricks were in his house"
+          "Stating the exact calendar date, official municipal ward number, and price of emergency rubber gumboots in local markets",
+          "Describing the deafening roar of torrential rain, rising brown floodwaters, and the sputter of an approaching rescue motor",
+          "Reciting the entire state disaster management handbook regulations and listing phone numbers of local emergency control rooms",
+          "Calculating the precise volume of water displaced per minute by municipal drainage pumps across suburban residential sectors"
         ],
         "answer": 1,
         "explain": "Auditory and visual sensory anchors transport listeners directly into the emotional heart of the crisis!"
@@ -926,10 +926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What heroic role did coastal fishermen ('Kerala's Coastal Army') play during the catastrophic 2018 floods?",
         "options": [
-          "They went fishing for crabs in the sea",
-          "They stayed in harbor",
-          "They transported their deep-sea fishing trawlers inland on trucks and navigated treacherous flood currents to rescue over 65,000 stranded citizens",
-          "They refused to help"
+          "They remained safely docked in deep-water ocean harbors and monitored weather satellite forecasts on commercial communication radios",
+          "They organized protest marches along coastal highways demanding increased subsidies for diesel fuel and marine navigation equipment",
+          "They transported their sea trawlers inland on trucks and navigated treacherous flood currents to rescue thousands of stranded residents",
+          "They supplied commercial ice packs to metropolitan seafood export warehouses to prevent high-value ocean catches from spoiling"
         ],
         "answer": 2,
         "explain": "Selfless traditional fishermen navigated perilous floodwaters, saving tens of thousands with selfless bravery!"
@@ -937,10 +937,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What makes personal oral narration compelling to an audience?",
         "options": [
-          "Speaking in a flat whisper with no facial expression",
-          "Reading directly from a printed paper without looking up",
-          "Making jokes during tragedy",
-          "Emotional authenticity, vulnerable honesty, dynamic vocal pacing, and meaningful reflection on human resilience"
+          "Speaking in a rapid monotone whisper while maintaining rigid eye contact with the floor throughout the speech",
+          "Reading verbatim from a dense printed manuscript without looking up or altering vocal inflection and pitch",
+          "Exaggerating trivial facts into sensationalized fantasy adventures with little regard for historical accuracy",
+          "Emotional authenticity, sincere vulnerability, dynamic vocal expression, and thoughtful personal reflection"
         ],
         "answer": 3,
         "explain": "Genuine emotional resonance and reflective insight elevate personal memoirs into universal human lessons."
@@ -958,10 +958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'ENVIRONMENTAL AUDIT' of a school campus?",
         "options": [
-          "An inspection of students' lunchboxes",
-          "Counting how many desks are painted blue",
-          "A test on memorizing textbook facts",
-          "A systematic data-driven assessment of energy usage, water consumption, waste generation, and green cover to guide sustainability reforms"
+          "A mandatory physical fitness examination assessing students' cardiovascular endurance and dietary habits during physical education",
+          "A financial inspection conducted by chartered accountants to review annual school tuition fee structures and teacher salaries",
+          "A standardized science exam testing students on their ability to memorize biological taxonomy classifications and chemical symbols",
+          "A systematic data-driven assessment of energy use, water consumption, waste generation, and green cover to guide sustainability"
         ],
         "answer": 3,
         "explain": "Green audits quantify carbon and resource footprints, providing actionable benchmarks for conservation!"
@@ -969,10 +969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When presenting audit findings to the school board, how should students communicate data on food waste?",
         "options": [
-          "Blame the cafeteria cooks angrily",
-          "Hide the numbers so nobody knows",
-          "Present clear charts showing daily kilograms of waste, highlight economic loss, and propose a community composting and food-share plan",
-          "Throw the waste into the hallway"
+          "Express loud personal indignation toward the cafeteria culinary staff and demand immediate salary reductions for kitchen workers",
+          "Conceal the numerical waste audit records to prevent negative publicity from damaging the educational institution's public image",
+          "Present clear data charts on food waste, explain the financial loss, and propose viable composting and redistribution solutions",
+          "Discard all audited organic waste onto the central administrative hallway floor to visually shock the school management board"
         ],
         "answer": 2,
         "explain": "Professional presentations pair factual diagnostic data with constructive, feasible systemic solutions!"
@@ -981,9 +981,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What practical campus initiative directly transforms organic cafeteria kitchen scraps into valuable nutrient-rich soil?",
         "options": [
           "On-site aerobic composting pits or vermicomposting bins",
-          "Dumping waste into city sewers",
-          "Incinerating waste in open fire pits",
-          "Sealing food waste in plastic bags"
+          "Discharging organic food pulp into municipal sewer pipes",
+          "Incinerating combustible waste in open courtyard fire pits",
+          "Sealing wet kitchen scraps inside non-biodegradable bags"
         ],
         "answer": 0,
         "explain": "Composting closes the ecological loop, turning daily cafeteria scraps into rich humus for campus gardens."
@@ -1001,10 +1001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'ENVIRONMENTAL AUDIT' of a school campus?",
         "options": [
-          "An inspection of students' lunchboxes",
-          "Counting how many desks are painted blue",
-          "A test on memorizing textbook facts",
-          "A systematic data-driven assessment of energy usage, water consumption, waste generation, and green cover to guide sustainability reforms"
+          "A mandatory physical fitness examination assessing students' cardiovascular endurance and dietary habits during physical education",
+          "A financial inspection conducted by chartered accountants to review annual school tuition fee structures and teacher salaries",
+          "A standardized science exam testing students on their ability to memorize biological taxonomy classifications and chemical symbols",
+          "A systematic data-driven assessment of energy use, water consumption, waste generation, and green cover to guide sustainability"
         ],
         "answer": 3,
         "explain": "Green audits quantify carbon and resource footprints, providing actionable benchmarks for conservation!"
@@ -1012,10 +1012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When presenting audit findings to the school board, how should students communicate data on food waste?",
         "options": [
-          "Blame the cafeteria cooks angrily",
-          "Hide the numbers so nobody knows",
-          "Present clear charts showing daily kilograms of waste, highlight economic loss, and propose a community composting and food-share plan",
-          "Throw the waste into the hallway"
+          "Express loud personal indignation toward the cafeteria culinary staff and demand immediate salary reductions for kitchen workers",
+          "Conceal the numerical waste audit records to prevent negative publicity from damaging the educational institution's public image",
+          "Present clear data charts on food waste, explain the financial loss, and propose viable composting and redistribution solutions",
+          "Discard all audited organic waste onto the central administrative hallway floor to visually shock the school management board"
         ],
         "answer": 2,
         "explain": "Professional presentations pair factual diagnostic data with constructive, feasible systemic solutions!"
@@ -1024,9 +1024,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What practical campus initiative directly transforms organic cafeteria kitchen scraps into valuable nutrient-rich soil?",
         "options": [
           "On-site aerobic composting pits or vermicomposting bins",
-          "Dumping waste into city sewers",
-          "Incinerating waste in open fire pits",
-          "Sealing food waste in plastic bags"
+          "Discharging organic food pulp into municipal sewer pipes",
+          "Incinerating combustible waste in open courtyard fire pits",
+          "Sealing wet kitchen scraps inside non-biodegradable bags"
         ],
         "answer": 0,
         "explain": "Composting closes the ecological loop, turning daily cafeteria scraps into rich humus for campus gardens."
@@ -1055,10 +1055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a speaker conclude a morning assembly address to leave peers feeling motivated and united?",
         "options": [
-          "Complaining about waking up early",
-          "Reading five pages of legal fine print",
-          "With a memorable, stirring call to action that connects national ideals to daily schoolyard ethics: 'Jai Hind!'",
-          "Walking away before finishing the sentence"
+          "By complaining about early morning assembly temperatures and asking students to rush quickly back to classrooms",
+          "By reading several pages of technical administrative fine print regarding library overdue book fines and uniform rules",
+          "With a memorable, stirring call to action that connects constitutional ideals to daily school ethics: 'Jai Hind!'",
+          "By abruptly walking away from the podium mid-sentence without acknowledging the gathered student body and faculty"
         ],
         "answer": 2,
         "explain": "A stirring, inspiring finish connects constitutional values directly to how students treat each other daily."
@@ -1066,10 +1066,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was 26th November chosen as National Constitution Day in India?",
         "options": [
-          "It was the day Mahatma Gandhi was born",
-          "It is the date when the national anthem was written",
-          "The Constituent Assembly officially adopted the Constitution of India on 26th November 1949",
-          "It is when the first train ran in India"
+          "It marks the date when the historic Salt March reached the coastal village of Dandi",
+          "It commemorates the day when the national anthem was composed by Rabindranath Tagore",
+          "The Constituent Assembly officially adopted the Constitution of India on this date in 1949",
+          "It celebrates the inaugural passenger train journey between Mumbai and Thane in 1853"
         ],
         "answer": 2,
         "explain": "Adopted on 26 Nov 1949 and coming into full effect on 26 Jan 1950 (Republic Day)!"
@@ -1098,10 +1098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a speaker conclude a morning assembly address to leave peers feeling motivated and united?",
         "options": [
-          "Complaining about waking up early",
-          "Reading five pages of legal fine print",
-          "With a memorable, stirring call to action that connects national ideals to daily schoolyard ethics: 'Jai Hind!'",
-          "Walking away before finishing the sentence"
+          "By complaining about early morning assembly temperatures and asking students to rush quickly back to classrooms",
+          "By reading several pages of technical administrative fine print regarding library overdue book fines and uniform rules",
+          "With a memorable, stirring call to action that connects constitutional ideals to daily school ethics: 'Jai Hind!'",
+          "By abruptly walking away from the podium mid-sentence without acknowledging the gathered student body and faculty"
         ],
         "answer": 2,
         "explain": "A stirring, inspiring finish connects constitutional values directly to how students treat each other daily."
@@ -1109,10 +1109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why was 26th November chosen as National Constitution Day in India?",
         "options": [
-          "It was the day Mahatma Gandhi was born",
-          "It is the date when the national anthem was written",
-          "The Constituent Assembly officially adopted the Constitution of India on 26th November 1949",
-          "It is when the first train ran in India"
+          "It marks the date when the historic Salt March reached the coastal village of Dandi",
+          "It commemorates the day when the national anthem was composed by Rabindranath Tagore",
+          "The Constituent Assembly officially adopted the Constitution of India on this date in 1949",
+          "It celebrates the inaugural passenger train journey between Mumbai and Thane in 1853"
         ],
         "answer": 2,
         "explain": "Adopted on 26 Nov 1949 and coming into full effect on 26 Jan 1950 (Republic Day)!"
@@ -1130,10 +1130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a precise, testable scientific inquiry regarding Saturn's rings?",
         "options": [
-          "'Do rings like listening to music?'",
-          "'Can we paint the rings pink?'",
-          "'Why is Saturn so pretty?'",
-          "'What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?'"
+          "Why do the vibrant celestial rings of Saturn appear so extraordinarily magnificent when observed through backyard binoculars?",
+          "Can future human astronauts use specialized reflective paint pigments to alter the aesthetic appearance of Saturnian ring debris?",
+          "Do interplanetary dust particles enjoy orbiting within gravitational rings more than floating through deep interstellar space?",
+          "What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?"
         ],
         "answer": 3,
         "explain": "Scientific questions define specific physical parameters (particle size, gravitational tides/Roche limit) that can be modeled!"
@@ -1141,10 +1141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'ROCHE LIMIT' in planetary astrophysics?",
         "options": [
-          "The temperature of the sun",
-          "The speed limit of a space rocket",
-          "The minimum distance to which a celestial body, held together by gravity, can approach a second body without being torn apart by tidal forces",
-          "The boundary of the solar system"
+          "The maximum surface temperature an orbiting artificial satellite can withstand before thermal radiation ruptures onboard battery cells",
+          "The velocity required for an escaping rocket to overcome the combined gravitational pull of all eight planetary bodies in the solar system",
+          "The minimum orbital distance a celestial body held by gravity can approach a second body without being torn apart by tidal forces",
+          "The outer perimeter boundary where the solar wind ceases and interstellar cosmic rays become the dominant form of deep-space radiation"
         ],
         "answer": 2,
         "explain": "Within Saturn's Roche limit, colossal tidal gravitational shear prevents icy moonlets from assembling into a moon."
@@ -1152,10 +1152,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does asking deep, structured questions beyond textbook paragraphs drive scientific innovation?",
         "options": [
-          "It has no purpose in science",
-          "It slows down learning",
-          "It uncovers unexplored anomalies, challenges outdated assumptions, and sparks revolutionary discoveries",
-          "It breaks laboratory equipment"
+          "It allows students to memorize textbook formulas rapidly without needing to understand underlying concepts",
+          "It ensures that future research projects produce identical experimental data confirming established dogma",
+          "It reveals unexplored anomalies, challenges outdated assumptions, and sparks breakthrough discoveries",
+          "It proves that existing scientific encyclopedias have already documented all natural physical laws of the universe"
         ],
         "answer": 2,
         "explain": "Every monumental scientific paradigm shift began with a curious human asking: 'Why does this anomaly occur?'"
@@ -1173,10 +1173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a precise, testable scientific inquiry regarding Saturn's rings?",
         "options": [
-          "'Do rings like listening to music?'",
-          "'Can we paint the rings pink?'",
-          "'Why is Saturn so pretty?'",
-          "'What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?'"
+          "Why do the vibrant celestial rings of Saturn appear so extraordinarily magnificent when observed through backyard binoculars?",
+          "Can future human astronauts use specialized reflective paint pigments to alter the aesthetic appearance of Saturnian ring debris?",
+          "Do interplanetary dust particles enjoy orbiting within gravitational rings more than floating through deep interstellar space?",
+          "What particle size distribution and gravitational tidal forces prevent Saturn's icy ring debris from coalescing into a single moon?"
         ],
         "answer": 3,
         "explain": "Scientific questions define specific physical parameters (particle size, gravitational tides/Roche limit) that can be modeled!"
@@ -1184,10 +1184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'ROCHE LIMIT' in planetary astrophysics?",
         "options": [
-          "The temperature of the sun",
-          "The speed limit of a space rocket",
-          "The minimum distance to which a celestial body, held together by gravity, can approach a second body without being torn apart by tidal forces",
-          "The boundary of the solar system"
+          "The maximum surface temperature an orbiting artificial satellite can withstand before thermal radiation ruptures onboard battery cells",
+          "The velocity required for an escaping rocket to overcome the combined gravitational pull of all eight planetary bodies in the solar system",
+          "The minimum orbital distance a celestial body held by gravity can approach a second body without being torn apart by tidal forces",
+          "The outer perimeter boundary where the solar wind ceases and interstellar cosmic rays become the dominant form of deep-space radiation"
         ],
         "answer": 2,
         "explain": "Within Saturn's Roche limit, colossal tidal gravitational shear prevents icy moonlets from assembling into a moon."
@@ -1195,10 +1195,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does asking deep, structured questions beyond textbook paragraphs drive scientific innovation?",
         "options": [
-          "It has no purpose in science",
-          "It slows down learning",
-          "It uncovers unexplored anomalies, challenges outdated assumptions, and sparks revolutionary discoveries",
-          "It breaks laboratory equipment"
+          "It allows students to memorize textbook formulas rapidly without needing to understand underlying concepts",
+          "It ensures that future research projects produce identical experimental data confirming established dogma",
+          "It reveals unexplored anomalies, challenges outdated assumptions, and sparks breakthrough discoveries",
+          "It proves that existing scientific encyclopedias have already documented all natural physical laws of the universe"
         ],
         "answer": 2,
         "explain": "Every monumental scientific paradigm shift began with a curious human asking: 'Why does this anomaly occur?'"
@@ -1216,10 +1216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When interviewing a senior police official, what communication posture demonstrates respect and civic maturity?",
         "options": [
-          "Introducing your delegation clearly, having well-researched questions prepared, addressing the officer with proper titles ('Sir/Madam'), and listening attentively",
-          "Talking loudly over the officer",
-          "Taking photographs without permission",
-          "Demanding immediate political promises"
+          "Introducing your delegation courteously, having researched questions ready, using proper titles, and listening attentively",
+          "Interrupting the officer frequently, demanding immediate administrative policy concessions, and recording secret video clips",
+          "Whispering brief unverified rumors heard on social media while avoiding eye contact and declining to state your delegation's goals",
+          "Arriving without an appointment or prepared topics, joking about serious community safety concerns, and leaving abruptly mid-sentence"
         ],
         "answer": 0,
         "explain": "Thorough preparation, polite decorum, and active listening foster constructive institutional dialogue."
@@ -1227,10 +1227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'RTI APPLICATION' filed under the Right to Information Act, 2005?",
         "options": [
-          "A criminal police complaint",
-          "A formal citizen petition requesting certified copies of government records, expenditure data, and public decision documents",
-          "A driving license test",
-          "An application for a passport"
+          "A criminal First Information Report lodged at a police precinct demanding the arrest of individuals suspected of financial theft",
+          "A formal citizen request seeking certified copies of government records, public expenditure accounts, and administrative decisions",
+          "An official application submitted to municipal transport authorities to obtain a motor vehicle driving license or vehicle permit",
+          "A statutory petition submitted to the Ministry of External Affairs requesting the expedited renewal of an international passport"
         ],
         "answer": 1,
         "explain": "RTI empowers ordinary citizens to hold public bodies transparent and accountable by demanding certified records!"
@@ -1241,7 +1241,7 @@ Object.assign(window.GAME_CONTENT, {
           "Within 1 hour",
           "Whenever they feel like it",
           "Within 10 years",
-          "Within 30 days (or within 48 hours if it concerns life and liberty)"
+          "Within 30 days"
         ],
         "answer": 3,
         "explain": "The law enforces strict deadlines: 30 days standard, or 48 hours if fundamental life and liberty are at stake!"
@@ -1259,10 +1259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When interviewing a senior police official, what communication posture demonstrates respect and civic maturity?",
         "options": [
-          "Introducing your delegation clearly, having well-researched questions prepared, addressing the officer with proper titles ('Sir/Madam'), and listening attentively",
-          "Talking loudly over the officer",
-          "Taking photographs without permission",
-          "Demanding immediate political promises"
+          "Introducing your delegation courteously, having researched questions ready, using proper titles, and listening attentively",
+          "Interrupting the officer frequently, demanding immediate administrative policy concessions, and recording secret video clips",
+          "Whispering brief unverified rumors heard on social media while avoiding eye contact and declining to state your delegation's goals",
+          "Arriving without an appointment or prepared topics, joking about serious community safety concerns, and leaving abruptly mid-sentence"
         ],
         "answer": 0,
         "explain": "Thorough preparation, polite decorum, and active listening foster constructive institutional dialogue."
@@ -1270,10 +1270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'RTI APPLICATION' filed under the Right to Information Act, 2005?",
         "options": [
-          "A criminal police complaint",
-          "A formal citizen petition requesting certified copies of government records, expenditure data, and public decision documents",
-          "A driving license test",
-          "An application for a passport"
+          "A criminal First Information Report lodged at a police precinct demanding the arrest of individuals suspected of financial theft",
+          "A formal citizen request seeking certified copies of government records, public expenditure accounts, and administrative decisions",
+          "An official application submitted to municipal transport authorities to obtain a motor vehicle driving license or vehicle permit",
+          "A statutory petition submitted to the Ministry of External Affairs requesting the expedited renewal of an international passport"
         ],
         "answer": 1,
         "explain": "RTI empowers ordinary citizens to hold public bodies transparent and accountable by demanding certified records!"
@@ -1284,7 +1284,7 @@ Object.assign(window.GAME_CONTENT, {
           "Within 1 hour",
           "Whenever they feel like it",
           "Within 10 years",
-          "Within 30 days (or within 48 hours if it concerns life and liberty)"
+          "Within 30 days"
         ],
         "answer": 3,
         "explain": "The law enforces strict deadlines: 30 days standard, or 48 hours if fundamental life and liberty are at stake!"
@@ -1302,10 +1302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What unforgettable moral declaration did Mahatma Gandhi deliver before British Judge Broomfield during his 1922 trial?",
         "options": [
-          "'I will pay any fine to leave the country.'",
-          "'I beg for royal mercy and pardon.'",
-          "'I deny that I wrote any articles.'",
-          "'Affection cannot be manufactured or regulated by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good.'"
+          "I plead for royal clemency and promise that our followers will immediately halt all political gatherings throughout the country.",
+          "I deny authorship of the offending articles and claim that foreign printers published those seditious essays without my consent.",
+          "I am prepared to pay any monetary fine imposed by this court provided my colleagues and I are released from confinement today.",
+          "Affection cannot be manufactured by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good."
         ],
         "answer": 3,
         "explain": "Gandhiji accepted the highest penalty while articulating the moral supremacy of conscience over imperialist law."
@@ -1313,10 +1313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does staging historical courtroom dramas develop students' socio-emotional intellect?",
         "options": [
-          "It immerses students in complex ethical dilemmas, ideological worldviews, legal argumentation, and historical context",
-          "It replaces the need to study history",
-          "It teaches students how to shout at judges",
-          "It only trains students to make costumes"
+          "It immerses students in complex ethical dilemmas, diverse historical worldviews, legal reasoning, and empathetic debate",
+          "It replaces the necessity of reading history textbooks and relieves students of learning verified historical chronologies",
+          "It trains pupils to shout down opposing viewpoints aggressively and prioritize theatrical spectacle over logical rigor",
+          "It focuses student attention exclusively on tailoring historical costumes and painting miniature cardboard stage props"
         ],
         "answer": 0,
         "explain": "Dramatic embodiment builds profound empathy, historical analysis, oratorical command, and moral reasoning."
@@ -1324,10 +1324,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the landmark legal significance of Judge Broomfield's respectful conduct during the 1922 trial?",
         "options": [
-          "He quit his job immediately",
-          "Though sentencing Gandhi according to the colonial penal code, he publicly acknowledged Gandhi as a saint of high ideals and pure life",
-          "He joined the freedom march on the spot",
-          "He refused to speak English"
+          "He resigned from the judicial bench on the spot and immediately joined the non-cooperation satyagraha movement as a full-time activist",
+          "While applying the colonial penal statute, he openly acknowledged Gandhi as a man of high ideals, noble character, and saintly life",
+          "He overturned the sedition charges entirely and declared that the British colonial administration held no lawful jurisdiction in India",
+          "He refused to conduct the trial in English and demanded that all judicial arguments be delivered exclusively in classical Gujarati"
         ],
         "answer": 1,
         "explain": "Broomfield confessed that sentencing Gandhi was the most painful judicial task of his life, recognizing Gandhi's moral greatness."
@@ -1345,10 +1345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What unforgettable moral declaration did Mahatma Gandhi deliver before British Judge Broomfield during his 1922 trial?",
         "options": [
-          "'I will pay any fine to leave the country.'",
-          "'I beg for royal mercy and pardon.'",
-          "'I deny that I wrote any articles.'",
-          "'Affection cannot be manufactured or regulated by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good.'"
+          "I plead for royal clemency and promise that our followers will immediately halt all political gatherings throughout the country.",
+          "I deny authorship of the offending articles and claim that foreign printers published those seditious essays without my consent.",
+          "I am prepared to pay any monetary fine imposed by this court provided my colleagues and I are released from confinement today.",
+          "Affection cannot be manufactured by law. In my opinion, non-cooperation with evil is as much a duty as cooperation with good."
         ],
         "answer": 3,
         "explain": "Gandhiji accepted the highest penalty while articulating the moral supremacy of conscience over imperialist law."
@@ -1356,10 +1356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does staging historical courtroom dramas develop students' socio-emotional intellect?",
         "options": [
-          "It immerses students in complex ethical dilemmas, ideological worldviews, legal argumentation, and historical context",
-          "It replaces the need to study history",
-          "It teaches students how to shout at judges",
-          "It only trains students to make costumes"
+          "It immerses students in complex ethical dilemmas, diverse historical worldviews, legal reasoning, and empathetic debate",
+          "It replaces the necessity of reading history textbooks and relieves students of learning verified historical chronologies",
+          "It trains pupils to shout down opposing viewpoints aggressively and prioritize theatrical spectacle over logical rigor",
+          "It focuses student attention exclusively on tailoring historical costumes and painting miniature cardboard stage props"
         ],
         "answer": 0,
         "explain": "Dramatic embodiment builds profound empathy, historical analysis, oratorical command, and moral reasoning."
@@ -1367,10 +1367,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the landmark legal significance of Judge Broomfield's respectful conduct during the 1922 trial?",
         "options": [
-          "He quit his job immediately",
-          "Though sentencing Gandhi according to the colonial penal code, he publicly acknowledged Gandhi as a saint of high ideals and pure life",
-          "He joined the freedom march on the spot",
-          "He refused to speak English"
+          "He resigned from the judicial bench on the spot and immediately joined the non-cooperation satyagraha movement as a full-time activist",
+          "While applying the colonial penal statute, he openly acknowledged Gandhi as a man of high ideals, noble character, and saintly life",
+          "He overturned the sedition charges entirely and declared that the British colonial administration held no lawful jurisdiction in India",
+          "He refused to conduct the trial in English and demanded that all judicial arguments be delivered exclusively in classical Gujarati"
         ],
         "answer": 1,
         "explain": "Broomfield confessed that sentencing Gandhi was the most painful judicial task of his life, recognizing Gandhi's moral greatness."
@@ -1391,7 +1391,7 @@ Object.assign(window.GAME_CONTENT, {
           "An Adverbial Clause of time",
           "An Imperative Command",
           "A Direct Object Noun Clause",
-          "A Non-Defining Relative Clause (adds extra descriptive information, set off by commas)"
+          "A Non-Defining Relative Clause"
         ],
         "answer": 3,
         "explain": "Relative clauses beginning with who/whose/which add descriptive detail about the preceding noun!"
@@ -1410,10 +1410,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence demonstrates the correct CONDITIONAL structure (Type 3: impossible past hypothesis)?",
         "options": [
-          "If we had left earlier, we catch the train.",
-          "If we left earlier, we will catch the train.",
+          "If we had left earlier, we will surely catch the morning express train.",
+          "If we left much earlier, we can easily catch the morning express train.",
           "If we had left earlier, we would have caught the morning express train.",
-          "If we leave earlier, we caught the train."
+          "If we leave earlier today, we would have caught the morning express train."
         ],
         "answer": 2,
         "explain": "Third conditional formula: If + past perfect (had left) ... would have + past participle (would have caught)!"
@@ -1434,7 +1434,7 @@ Object.assign(window.GAME_CONTENT, {
           "An Adverbial Clause of time",
           "An Imperative Command",
           "A Direct Object Noun Clause",
-          "A Non-Defining Relative Clause (adds extra descriptive information, set off by commas)"
+          "A Non-Defining Relative Clause"
         ],
         "answer": 3,
         "explain": "Relative clauses beginning with who/whose/which add descriptive detail about the preceding noun!"
@@ -1453,10 +1453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence demonstrates the correct CONDITIONAL structure (Type 3: impossible past hypothesis)?",
         "options": [
-          "If we had left earlier, we catch the train.",
-          "If we left earlier, we will catch the train.",
+          "If we had left earlier, we will surely catch the morning express train.",
+          "If we left much earlier, we can easily catch the morning express train.",
           "If we had left earlier, we would have caught the morning express train.",
-          "If we leave earlier, we caught the train."
+          "If we leave earlier today, we would have caught the morning express train."
         ],
         "answer": 2,
         "explain": "Third conditional formula: If + past perfect (had left) ... would have + past participle (would have caught)!"
@@ -1474,10 +1474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Identify the 'DANGLING MODIFIER' error: 'Walking through the ancient forest, the giant oak tree came into view.' Why is this grammatically flawed?",
         "options": [
-          "It implies that the oak tree itself was walking! The modifier 'Walking through the ancient forest' must modify the human observer, not the tree",
-          "The sentence has no verb",
-          "Oak trees cannot be in forests",
-          "It needs three exclamation marks"
+          "The introductory participial phrase illogicality implies the oak tree was walking; the modifier must describe the person walking",
+          "The sentence completely lacks a finite conjugated verb in the main clause, leaving the predicate grammatically broken and unfinished",
+          "The prepositional phrase 'through the ancient forest' cannot be followed by a noun phrase referring to a specific botanical organism",
+          "The coordinating conjunction is missing between the independent clauses, creating a run-on sentence that requires a semicolon break"
         ],
         "answer": 0,
         "explain": "Correction: 'Walking through the ancient forest, I SAW the giant oak tree come into view.' Modifiers must attach to the true subject!"
@@ -1486,9 +1486,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which sentence maintains flawless PARALLEL STRUCTURE in its series of predicates?",
         "options": [
           "Maya loves hiking rugged trails, kayaking roaring rivers, and photographing wildlife.",
-          "Maya loves to hike, kayaking, and photograph.",
-          "Maya loves hiking rugged trails, to kayak roaring rivers, and photos.",
-          "Maya loves hiking, kayaking, and to take pictures."
+          "Maya loves hiking rugged trails, to kayak roaring rivers, and photographing wildlife.",
+          "Maya loves to hike rugged trails, kayaking roaring rivers, and wildlife photographs.",
+          "Maya loves hiking rugged trails, kayaking roaring rivers, and to photograph wildlife."
         ],
         "answer": 0,
         "explain": "Parallel structure pairs matching grammatical forms: hiking..., kayaking..., and photographing... (all gerunds)!"
@@ -1517,10 +1517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Identify the 'DANGLING MODIFIER' error: 'Walking through the ancient forest, the giant oak tree came into view.' Why is this grammatically flawed?",
         "options": [
-          "It implies that the oak tree itself was walking! The modifier 'Walking through the ancient forest' must modify the human observer, not the tree",
-          "The sentence has no verb",
-          "Oak trees cannot be in forests",
-          "It needs three exclamation marks"
+          "The introductory participial phrase illogicality implies the oak tree was walking; the modifier must describe the person walking",
+          "The sentence completely lacks a finite conjugated verb in the main clause, leaving the predicate grammatically broken and unfinished",
+          "The prepositional phrase 'through the ancient forest' cannot be followed by a noun phrase referring to a specific botanical organism",
+          "The coordinating conjunction is missing between the independent clauses, creating a run-on sentence that requires a semicolon break"
         ],
         "answer": 0,
         "explain": "Correction: 'Walking through the ancient forest, I SAW the giant oak tree come into view.' Modifiers must attach to the true subject!"
@@ -1529,9 +1529,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which sentence maintains flawless PARALLEL STRUCTURE in its series of predicates?",
         "options": [
           "Maya loves hiking rugged trails, kayaking roaring rivers, and photographing wildlife.",
-          "Maya loves to hike, kayaking, and photograph.",
-          "Maya loves hiking rugged trails, to kayak roaring rivers, and photos.",
-          "Maya loves hiking, kayaking, and to take pictures."
+          "Maya loves hiking rugged trails, to kayak roaring rivers, and photographing wildlife.",
+          "Maya loves to hike rugged trails, kayaking roaring rivers, and wildlife photographs.",
+          "Maya loves hiking rugged trails, kayaking roaring rivers, and to photograph wildlife."
         ],
         "answer": 0,
         "explain": "Parallel structure pairs matching grammatical forms: hiking..., kayaking..., and photographing... (all gerunds)!"
@@ -1561,9 +1561,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In the sentence: 'The supreme court BENCH issued a landmark judgment', what does the polysemous word 'BENCH' mean?",
         "options": [
           "The collective body of judges presiding over a court of law",
-          "A wooden seat in a park",
-          "A bank of river soil",
-          "A carpenter's work table"
+          "A long wooden seat placed in a public garden or park lane",
+          "A raised embankment of compacted gravel along a river edge",
+          "A sturdy wooden work table used by carpenters in workshops"
         ],
         "answer": 0,
         "explain": "In legal terminology, 'the Bench' refers to the judiciary or the panel of judges sitting in court!"
@@ -1571,10 +1571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In physics, what does 'WORK' mean (Work = Force x Displacement), contrasting with everyday usage?",
         "options": [
-          "Going to an office",
-          "Work is done only when a physical force causes an object to displace in the direction of the force",
-          "Feeling tired after an exam",
-          "Sitting at a desk thinking hard without moving"
+          "Work is performed whenever an individual expends mental effort solving challenging academic problems",
+          "Work is done only when an applied force causes an object to move in the direction of that applied force",
+          "Work refers exclusively to remunerated professional employment undertaken within an office or workshop",
+          "Work occurs whenever muscular fatigue is experienced regardless of whether any physical motion happens"
         ],
         "answer": 1,
         "explain": "Scientifically, holding a heavy load motionless does zero work because displacement is zero (W = F x 0 = 0)!"
@@ -1582,10 +1582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'OXYMORON' in figurative English (e.g., 'deafening silence', 'cruel kindness')?",
         "options": [
-          "A figure of speech in which apparently contradictory terms appear in conjunction to reveal a paradoxical truth",
-          "A rhyme with five words",
-          "A foreign translation",
-          "A complete spelling error"
+          "A figure of speech pairing contradictory terms side by side to uncover a deeper paradoxical truth",
+          "A poetic technique repeating identical initial consonant sounds across successive adjacent syllables",
+          "An exaggerated rhetorical overstatement used deliberately to create vivid humor or dramatic emphasis",
+          "A rhythmic substitution of a mild or indirect term in place of a harsh or unpleasantly blunt reality"
         ],
         "answer": 0,
         "explain": "Oxymorons juxtapose opposites ('deafening silence') to capture complex, poignant emotional realities."
@@ -1604,9 +1604,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In the sentence: 'The supreme court BENCH issued a landmark judgment', what does the polysemous word 'BENCH' mean?",
         "options": [
           "The collective body of judges presiding over a court of law",
-          "A wooden seat in a park",
-          "A bank of river soil",
-          "A carpenter's work table"
+          "A long wooden seat placed in a public garden or park lane",
+          "A raised embankment of compacted gravel along a river edge",
+          "A sturdy wooden work table used by carpenters in workshops"
         ],
         "answer": 0,
         "explain": "In legal terminology, 'the Bench' refers to the judiciary or the panel of judges sitting in court!"
@@ -1614,10 +1614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In physics, what does 'WORK' mean (Work = Force x Displacement), contrasting with everyday usage?",
         "options": [
-          "Going to an office",
-          "Work is done only when a physical force causes an object to displace in the direction of the force",
-          "Feeling tired after an exam",
-          "Sitting at a desk thinking hard without moving"
+          "Work is performed whenever an individual expends mental effort solving challenging academic problems",
+          "Work is done only when an applied force causes an object to move in the direction of that applied force",
+          "Work refers exclusively to remunerated professional employment undertaken within an office or workshop",
+          "Work occurs whenever muscular fatigue is experienced regardless of whether any physical motion happens"
         ],
         "answer": 1,
         "explain": "Scientifically, holding a heavy load motionless does zero work because displacement is zero (W = F x 0 = 0)!"
@@ -1625,10 +1625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'OXYMORON' in figurative English (e.g., 'deafening silence', 'cruel kindness')?",
         "options": [
-          "A figure of speech in which apparently contradictory terms appear in conjunction to reveal a paradoxical truth",
-          "A rhyme with five words",
-          "A foreign translation",
-          "A complete spelling error"
+          "A figure of speech pairing contradictory terms side by side to uncover a deeper paradoxical truth",
+          "A poetic technique repeating identical initial consonant sounds across successive adjacent syllables",
+          "An exaggerated rhetorical overstatement used deliberately to create vivid humor or dramatic emphasis",
+          "A rhythmic substitution of a mild or indirect term in place of a harsh or unpleasantly blunt reality"
         ],
         "answer": 0,
         "explain": "Oxymorons juxtapose opposites ('deafening silence') to capture complex, poignant emotional realities."
@@ -1648,7 +1648,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
-          "Currency (timeliness), Relevance, Authority (author credentials), Accuracy (verifiable citations), and Purpose (lack of commercial bias)",
+          "Currency, Relevance, Authority, Accuracy, and Purpose",
           "If it appears first on a commercial search ad"
         ],
         "answer": 2,
@@ -1657,10 +1657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'PRIMARY SOURCE' in historical research?",
         "options": [
-          "First-hand contemporary artifacts or documents created during the historical period (e.g., Harappan seals, Ashokan edicts, diaries)",
-          "An article on an unverified blog",
-          "A fictional movie made 500 years later",
-          "A modern history textbook written in 2024"
+          "First-hand contemporary artifacts or documents created during the period under study",
+          "Modern scholarly textbooks synthesizing historical events written centuries later",
+          "Fictional dramatizations produced by contemporary screenwriters for popular cinema",
+          "Speculative opinion essays posted on unverified personal blogs without attribution"
         ],
         "answer": 0,
         "explain": "Primary sources are direct eyewitness artifacts and original records produced during the time under study."
@@ -1668,10 +1668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are digital encyclopedias with open unverified editing vulnerable to factual inaccuracies?",
         "options": [
-          "Digital text can never be printed",
-          "Because computers do not understand letters",
-          "Because all websites are illegal",
-          "Anonymous contributors may introduce unchecked errors, vandalism, or biased opinions without scholarly peer review"
+          "Digital servers delete half of their stored electronic entries whenever power grids experience seasonal fluctuation",
+          "Computer microprocessors lack the ability to render complex alphabetical fonts and historical foreign languages",
+          "Modern web browsers are prohibited by copyright laws from displaying citations from printed academic library books",
+          "Unvetted anonymous contributors can post unverified assertions, biased commentary, and errors without peer review"
         ],
         "answer": 3,
         "explain": "Unvetted crowdsourced articles require rigorous cross-checking against scholarly, peer-reviewed monographs."
@@ -1691,7 +1691,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Whether it has colorful cartoon animations",
           "How many viral likes it has on social media",
-          "Currency (timeliness), Relevance, Authority (author credentials), Accuracy (verifiable citations), and Purpose (lack of commercial bias)",
+          "Currency, Relevance, Authority, Accuracy, and Purpose",
           "If it appears first on a commercial search ad"
         ],
         "answer": 2,
@@ -1700,10 +1700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'PRIMARY SOURCE' in historical research?",
         "options": [
-          "First-hand contemporary artifacts or documents created during the historical period (e.g., Harappan seals, Ashokan edicts, diaries)",
-          "An article on an unverified blog",
-          "A fictional movie made 500 years later",
-          "A modern history textbook written in 2024"
+          "First-hand contemporary artifacts or documents created during the period under study",
+          "Modern scholarly textbooks synthesizing historical events written centuries later",
+          "Fictional dramatizations produced by contemporary screenwriters for popular cinema",
+          "Speculative opinion essays posted on unverified personal blogs without attribution"
         ],
         "answer": 0,
         "explain": "Primary sources are direct eyewitness artifacts and original records produced during the time under study."
@@ -1711,10 +1711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are digital encyclopedias with open unverified editing vulnerable to factual inaccuracies?",
         "options": [
-          "Digital text can never be printed",
-          "Because computers do not understand letters",
-          "Because all websites are illegal",
-          "Anonymous contributors may introduce unchecked errors, vandalism, or biased opinions without scholarly peer review"
+          "Digital servers delete half of their stored electronic entries whenever power grids experience seasonal fluctuation",
+          "Computer microprocessors lack the ability to render complex alphabetical fonts and historical foreign languages",
+          "Modern web browsers are prohibited by copyright laws from displaying citations from printed academic library books",
+          "Unvetted anonymous contributors can post unverified assertions, biased commentary, and errors without peer review"
         ],
         "answer": 3,
         "explain": "Unvetted crowdsourced articles require rigorous cross-checking against scholarly, peer-reviewed monographs."
@@ -1732,10 +1732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'EXTRAPOLATIVE WRITING' in literary response?",
         "options": [
-          "Copying the author's biography",
-          "Writing an original creative response that extends beyond the story's actual text, exploring what characters might think, do, or experience in new situations",
-          "Writing a summary of the first chapter",
-          "Checking words in the dictionary"
+          "Transcribing the author's biographical publishing history and compiling chronological lists of their complete bibliography",
+          "Composing a creative response that extends beyond the story to imagine how characters would act and feel in hypothetical scenarios",
+          "Writing a concise objective plot summary of the opening chapter while omitting all descriptions of literary setting and tone",
+          "Extracting polysyllabic vocabulary terms from the text to verify definitions against standard etymological dictionaries"
         ],
         "answer": 1,
         "explain": "Extrapolative writing asks students to inhabit the character's psychology and imagine novel continuations authentically!"
@@ -1743,10 +1743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In RK Narayan's poignant story 'The Axe', what tragic confrontation tests the loyal old gardener Velan at the climax?",
         "options": [
-          "He loses his garden rake",
-          "The garden is flooded by an ocean",
-          "Woodcutters arrive to chop down the magnificent Margosa tree he had planted and nurtured with his own hands for fifty years",
-          "A tiger enters the palace"
+          "Severe monsoon floods wash away the flower beds and boundary stone walls of the ancestral estate he has tended for years",
+          "A band of rogue wild elephants breaks through the estate gates and destroys the fragrant jasmine gardens overnight",
+          "Woodcutters arrive to chop down the grand Margosa tree that he had lovingly planted and nurtured for fifty long years",
+          "The new property owners dismiss him without notice and accuse him of misplacing antique brass garden irrigation implements"
         ],
         "answer": 2,
         "explain": "Velan begs the woodcutters to pause until he walks far away so he does not hear the agonized axe blows hitting his beloved tree."
@@ -1754,10 +1754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a writer construct a psychological 'Character Sketch' effectively?",
         "options": [
-          "Writing the author's home address",
-          "Copying down three random quotes",
-          "Listing only the character's shoe size and hair color",
-          "By analyzing motives, core values, internal conflicts, emotional relationships, and how actions reveal underlying morality"
+          "By documenting the author's personal home address, favorite sports hobbies, and preferred brand of fountain pen ink",
+          "By transcribing three random dialogue snippets from minor background figures without examining context or meaning",
+          "By describing only the physical height, eye color, and wardrobe fabrics worn by the individual across narrative scenes",
+          "By examining motives, core values, internal conflicts, personal relationships, and how choices reveal true moral character"
         ],
         "answer": 3,
         "explain": "Profound character sketches reveal the hidden moral compass, fears, and choices that define a persona."
@@ -1775,10 +1775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'EXTRAPOLATIVE WRITING' in literary response?",
         "options": [
-          "Copying the author's biography",
-          "Writing an original creative response that extends beyond the story's actual text, exploring what characters might think, do, or experience in new situations",
-          "Writing a summary of the first chapter",
-          "Checking words in the dictionary"
+          "Transcribing the author's biographical publishing history and compiling chronological lists of their complete bibliography",
+          "Composing a creative response that extends beyond the story to imagine how characters would act and feel in hypothetical scenarios",
+          "Writing a concise objective plot summary of the opening chapter while omitting all descriptions of literary setting and tone",
+          "Extracting polysyllabic vocabulary terms from the text to verify definitions against standard etymological dictionaries"
         ],
         "answer": 1,
         "explain": "Extrapolative writing asks students to inhabit the character's psychology and imagine novel continuations authentically!"
@@ -1786,10 +1786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In RK Narayan's poignant story 'The Axe', what tragic confrontation tests the loyal old gardener Velan at the climax?",
         "options": [
-          "He loses his garden rake",
-          "The garden is flooded by an ocean",
-          "Woodcutters arrive to chop down the magnificent Margosa tree he had planted and nurtured with his own hands for fifty years",
-          "A tiger enters the palace"
+          "Severe monsoon floods wash away the flower beds and boundary stone walls of the ancestral estate he has tended for years",
+          "A band of rogue wild elephants breaks through the estate gates and destroys the fragrant jasmine gardens overnight",
+          "Woodcutters arrive to chop down the grand Margosa tree that he had lovingly planted and nurtured for fifty long years",
+          "The new property owners dismiss him without notice and accuse him of misplacing antique brass garden irrigation implements"
         ],
         "answer": 2,
         "explain": "Velan begs the woodcutters to pause until he walks far away so he does not hear the agonized axe blows hitting his beloved tree."
@@ -1797,10 +1797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a writer construct a psychological 'Character Sketch' effectively?",
         "options": [
-          "Writing the author's home address",
-          "Copying down three random quotes",
-          "Listing only the character's shoe size and hair color",
-          "By analyzing motives, core values, internal conflicts, emotional relationships, and how actions reveal underlying morality"
+          "By documenting the author's personal home address, favorite sports hobbies, and preferred brand of fountain pen ink",
+          "By transcribing three random dialogue snippets from minor background figures without examining context or meaning",
+          "By describing only the physical height, eye color, and wardrobe fabrics worn by the individual across narrative scenes",
+          "By examining motives, core values, internal conflicts, personal relationships, and how choices reveal true moral character"
         ],
         "answer": 3,
         "explain": "Profound character sketches reveal the hidden moral compass, fears, and choices that define a persona."
@@ -1818,10 +1818,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When transforming theatrical stage dialogue into a narrative short story, what element replaces the visual spectacle of stage lighting?",
         "options": [
-          "Adding bold font to every word",
-          "Writing in capital letters only",
-          "Nothing is needed",
-          "Rich descriptive imagery depicting shadows, atmosphere, weather, and sensory environmental textures"
+          "Printing all descriptive nouns in capitalized bold typeface throughout every narrative chapter",
+          "Inserting parenthetical technical stage directions instructing the reader when to imagine illumination",
+          "Omitting all references to time of day and keeping the fictional story setting completely abstract",
+          "Evocative sensory imagery describing ambient light, creeping shadows, weather, and physical atmosphere"
         ],
         "answer": 3,
         "explain": "Sensory prose recreates lighting, sound effects, and staging within the reader's imaginative mind!"
@@ -1829,10 +1829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is a character's silent internal thought formatted in modern literary prose?",
         "options": [
-          "Shouted with three exclamation marks",
-          "Deleted from the story",
-          "In italics or enclosed in single quotation marks with reflective internal tags (e.g., 'Will they discover the hidden journal? he wondered')",
-          "Written backwards"
+          "Set in bold capital letters accompanied by double exclamation marks",
+          "Deleted from the narrative text entirely to prevent reader confusion",
+          "Set in italics or designated with reflective internal attribution tags",
+          "Spoken backwards within parentheses to signify subconscious thinking"
         ],
         "answer": 2,
         "explain": "Italics or reflective internal attribution distinguish internal psychological monologue from spoken external dialogue."
@@ -1840,10 +1840,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'INCITING INCIDENT' that sets a narrative story's plot into motion?",
         "options": [
-          "The final sentence of the book",
-          "The initial disruptive event that breaks the status quo and forces the protagonist onto their journey or quest",
-          "The list of chapters",
-          "The author's copyright notice"
+          "The concluding resolution sentence of the final narrative chapter that ties together all remaining subplots",
+          "The initial disruptive event that breaks the status quo and compels the protagonist to embark on their quest",
+          "The introductory table of contents that organizes the manuscript chapters and catalogues thematic sections",
+          "The formal copyright notice on the title page that designates intellectual property ownership and print edition"
         ],
         "answer": 1,
         "explain": "The inciting incident disrupts the protagonist's normal world, triggering the central dramatic quest!"
@@ -1861,10 +1861,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When transforming theatrical stage dialogue into a narrative short story, what element replaces the visual spectacle of stage lighting?",
         "options": [
-          "Adding bold font to every word",
-          "Writing in capital letters only",
-          "Nothing is needed",
-          "Rich descriptive imagery depicting shadows, atmosphere, weather, and sensory environmental textures"
+          "Printing all descriptive nouns in capitalized bold typeface throughout every narrative chapter",
+          "Inserting parenthetical technical stage directions instructing the reader when to imagine illumination",
+          "Omitting all references to time of day and keeping the fictional story setting completely abstract",
+          "Evocative sensory imagery describing ambient light, creeping shadows, weather, and physical atmosphere"
         ],
         "answer": 3,
         "explain": "Sensory prose recreates lighting, sound effects, and staging within the reader's imaginative mind!"
@@ -1872,10 +1872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is a character's silent internal thought formatted in modern literary prose?",
         "options": [
-          "Shouted with three exclamation marks",
-          "Deleted from the story",
-          "In italics or enclosed in single quotation marks with reflective internal tags (e.g., 'Will they discover the hidden journal? he wondered')",
-          "Written backwards"
+          "Set in bold capital letters accompanied by double exclamation marks",
+          "Deleted from the narrative text entirely to prevent reader confusion",
+          "Set in italics or designated with reflective internal attribution tags",
+          "Spoken backwards within parentheses to signify subconscious thinking"
         ],
         "answer": 2,
         "explain": "Italics or reflective internal attribution distinguish internal psychological monologue from spoken external dialogue."
@@ -1883,10 +1883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'INCITING INCIDENT' that sets a narrative story's plot into motion?",
         "options": [
-          "The final sentence of the book",
-          "The initial disruptive event that breaks the status quo and forces the protagonist onto their journey or quest",
-          "The list of chapters",
-          "The author's copyright notice"
+          "The concluding resolution sentence of the final narrative chapter that ties together all remaining subplots",
+          "The initial disruptive event that breaks the status quo and compels the protagonist to embark on their quest",
+          "The introductory table of contents that organizes the manuscript chapters and catalogues thematic sections",
+          "The formal copyright notice on the title page that designates intellectual property ownership and print edition"
         ],
         "answer": 1,
         "explain": "The inciting incident disrupts the protagonist's normal world, triggering the central dramatic quest!"
@@ -1904,10 +1904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In Munshi Premchand's 'Idgah', what extraordinary selfless purchase does the orphaned 4-year-old boy Hamid make with his three precious paise at the Eid fair?",
         "options": [
-          "Colorful clay toy soldiers like his wealthy friends",
-          "A toy whistle",
-          "A pair of iron tongs (chimta) for his grandmother Amina, so she will not burn her fingers while baking rotis on the tawa",
-          "Sweet sesame candies to eat alone"
+          "A collection of brightly painted clay soldier figurines just like those bought by his wealthy classmates",
+          "A decorative tin trumpet and colorful paper pinwheel toys to show off proudly to the children of the village",
+          "A pair of iron tongs for his grandmother Amina so she will no longer burn her fingers while baking flatbread",
+          "A package of sweet sesame candies and spiced fried pastries to satisfy his hunger alone during the festival"
         ],
         "answer": 2,
         "explain": "Hamid sacrifices all childhood toy temptations out of pure, mature empathy for his grandmother's burned fingers!"
@@ -1915,10 +1915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What profound social theme does Munshi Premchand illuminate through Hamid's selfless choice?",
         "options": [
-          "That children should never go to fairs",
-          "The immense moral beauty, maturity, and emotional depth that love and poverty forge in innocent young souls",
-          "That sweets are harmful",
-          "That iron tongs are the best toys in the world"
+          "The warning that rural village fairs encourage wasteful monetary expenditure on frivolous consumer knickknacks",
+          "The immense moral maturity, empathy, and emotional depth that love and hardship forge in innocent young souls",
+          "The practical lesson that purchasing cheap iron kitchen utensils is more economical than investing in brass pots",
+          "The proposition that children should refrain from forming emotional attachments to elderly family guardians"
         ],
         "answer": 1,
         "explain": "Premchand captures the sublime triumph of filial love and empathy over material consumer vanity."
@@ -1926,10 +1926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Grandma Amina react when she discovers little Hamid bought the chimta for her instead of toys or sweets?",
         "options": [
-          "She scolds him and throws the tongs away",
-          "She ignores him completely",
-          "Her anger turns into tears of overwhelming maternal love, weeping and showering blessings on her selfless grandson",
-          "She asks for a different tool"
+          "She scolds him sternly for misplacing his festival coins and demands that he return the iron tool to the blacksmith",
+          "She remains cold and indifferent, locking the metal tongs inside a kitchen trunk without uttering a single word",
+          "Her initial exasperation dissolves into tears of profound maternal love, weeping as she embraces her selfless grandson",
+          "She complains bitterly that he did not select a set of copper serving ladles instead of heavy everyday iron tongs"
         ],
         "answer": 2,
         "explain": "Amina's heartbreak melts into transcendent tears of pride and maternal gratitude at Hamid's boundless love."
@@ -1947,10 +1947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In Munshi Premchand's 'Idgah', what extraordinary selfless purchase does the orphaned 4-year-old boy Hamid make with his three precious paise at the Eid fair?",
         "options": [
-          "Colorful clay toy soldiers like his wealthy friends",
-          "A toy whistle",
-          "A pair of iron tongs (chimta) for his grandmother Amina, so she will not burn her fingers while baking rotis on the tawa",
-          "Sweet sesame candies to eat alone"
+          "A collection of brightly painted clay soldier figurines just like those bought by his wealthy classmates",
+          "A decorative tin trumpet and colorful paper pinwheel toys to show off proudly to the children of the village",
+          "A pair of iron tongs for his grandmother Amina so she will no longer burn her fingers while baking flatbread",
+          "A package of sweet sesame candies and spiced fried pastries to satisfy his hunger alone during the festival"
         ],
         "answer": 2,
         "explain": "Hamid sacrifices all childhood toy temptations out of pure, mature empathy for his grandmother's burned fingers!"
@@ -1958,10 +1958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What profound social theme does Munshi Premchand illuminate through Hamid's selfless choice?",
         "options": [
-          "That children should never go to fairs",
-          "The immense moral beauty, maturity, and emotional depth that love and poverty forge in innocent young souls",
-          "That sweets are harmful",
-          "That iron tongs are the best toys in the world"
+          "The warning that rural village fairs encourage wasteful monetary expenditure on frivolous consumer knickknacks",
+          "The immense moral maturity, empathy, and emotional depth that love and hardship forge in innocent young souls",
+          "The practical lesson that purchasing cheap iron kitchen utensils is more economical than investing in brass pots",
+          "The proposition that children should refrain from forming emotional attachments to elderly family guardians"
         ],
         "answer": 1,
         "explain": "Premchand captures the sublime triumph of filial love and empathy over material consumer vanity."
@@ -1969,10 +1969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Grandma Amina react when she discovers little Hamid bought the chimta for her instead of toys or sweets?",
         "options": [
-          "She scolds him and throws the tongs away",
-          "She ignores him completely",
-          "Her anger turns into tears of overwhelming maternal love, weeping and showering blessings on her selfless grandson",
-          "She asks for a different tool"
+          "She scolds him sternly for misplacing his festival coins and demands that he return the iron tool to the blacksmith",
+          "She remains cold and indifferent, locking the metal tongs inside a kitchen trunk without uttering a single word",
+          "Her initial exasperation dissolves into tears of profound maternal love, weeping as she embraces her selfless grandson",
+          "She complains bitterly that he did not select a set of copper serving ladles instead of heavy everyday iron tongs"
         ],
         "answer": 2,
         "explain": "Amina's heartbreak melts into transcendent tears of pride and maternal gratitude at Hamid's boundless love."
@@ -1990,10 +1990,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SYNTHESIS' in research writing?",
         "options": [
-          "Copying one website word-for-word",
-          "Making up fictional numbers",
-          "Deleting all citations",
-          "Combining information, data points, and viewpoints from multiple independent sources to formulate an integrated, comprehensive insight"
+          "Transcribing verbatim text extracts from a single online encyclopedia without citing authorial credentials or publication dates",
+          "Generating speculative statistical estimates and inventing fictional case studies to support an unsubstantiated personal hypothesis",
+          "Deleting anomalous evidentiary findings that contradict the researcher's preferred conclusion before submitting the dossier",
+          "Integrating information, empirical data, and perspectives from diverse independent sources to create a coherent comprehensive insight"
         ],
         "answer": 3,
         "explain": "Synthesis blends disparate puzzle pieces of evidence into a coherent, authoritative analytical tapestry!"
@@ -2001,10 +2001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When synthesizing conflicting data estimates (e.g., Agency A says groundwater fell by 4 meters, Agency B says 6 meters), how should an objective scholar report it?",
         "options": [
-          "Average them and pretend only one study exists",
-          "Ignore both agencies",
-          "Report the range (4 to 6 meters), explain methodological differences between the studies, and cite both sources transparently",
-          "Pick whichever number looks cooler"
+          "Average the two figures together and present the result as though only one unanimous scientific study existed",
+          "Discard both findings completely and omit all discussion of groundwater trends from the published research report",
+          "Report the observed range, analyze methodological variations between the studies, and cite both sources transparently",
+          "Choose whichever statistical figure appears most dramatic to maximize sensational headlines in local media channels"
         ],
         "answer": 2,
         "explain": "Scholarly transparency acknowledges variance, contextualizes measurement methodologies, and cites all authorities."
@@ -2012,10 +2012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'Executive Summary' at the head of a formal investigative research dossier?",
         "options": [
-          "A collection of photographs only",
-          "A concise 1-page overview summarizing the core problem, key empirical findings, and primary policy recommendations for decision-makers",
-          "A list of the author's hobbies",
-          "A blank title sheet"
+          "A decorative visual appendix displaying glossy high-resolution landscape photographs without any accompanying explanatory captions",
+          "A concise overview summarizing the central issue, key empirical findings, and primary recommendations for busy decision-makers",
+          "An exhaustive autobiographical account detailing the research team's personal reading hobbies and recreational travel itineraries",
+          "A blank formal stationery page reserved for handwritten administrative endorsements from corporate sponsors and government patrons"
         ],
         "answer": 1,
         "explain": "Executive summaries distill dense 50-page reports into actionable, crystal-clear briefs for busy leaders."
@@ -2033,10 +2033,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SYNTHESIS' in research writing?",
         "options": [
-          "Copying one website word-for-word",
-          "Making up fictional numbers",
-          "Deleting all citations",
-          "Combining information, data points, and viewpoints from multiple independent sources to formulate an integrated, comprehensive insight"
+          "Transcribing verbatim text extracts from a single online encyclopedia without citing authorial credentials or publication dates",
+          "Generating speculative statistical estimates and inventing fictional case studies to support an unsubstantiated personal hypothesis",
+          "Deleting anomalous evidentiary findings that contradict the researcher's preferred conclusion before submitting the dossier",
+          "Integrating information, empirical data, and perspectives from diverse independent sources to create a coherent comprehensive insight"
         ],
         "answer": 3,
         "explain": "Synthesis blends disparate puzzle pieces of evidence into a coherent, authoritative analytical tapestry!"
@@ -2044,10 +2044,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When synthesizing conflicting data estimates (e.g., Agency A says groundwater fell by 4 meters, Agency B says 6 meters), how should an objective scholar report it?",
         "options": [
-          "Average them and pretend only one study exists",
-          "Ignore both agencies",
-          "Report the range (4 to 6 meters), explain methodological differences between the studies, and cite both sources transparently",
-          "Pick whichever number looks cooler"
+          "Average the two figures together and present the result as though only one unanimous scientific study existed",
+          "Discard both findings completely and omit all discussion of groundwater trends from the published research report",
+          "Report the observed range, analyze methodological variations between the studies, and cite both sources transparently",
+          "Choose whichever statistical figure appears most dramatic to maximize sensational headlines in local media channels"
         ],
         "answer": 2,
         "explain": "Scholarly transparency acknowledges variance, contextualizes measurement methodologies, and cites all authorities."
@@ -2055,10 +2055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'Executive Summary' at the head of a formal investigative research dossier?",
         "options": [
-          "A collection of photographs only",
-          "A concise 1-page overview summarizing the core problem, key empirical findings, and primary policy recommendations for decision-makers",
-          "A list of the author's hobbies",
-          "A blank title sheet"
+          "A decorative visual appendix displaying glossy high-resolution landscape photographs without any accompanying explanatory captions",
+          "A concise overview summarizing the central issue, key empirical findings, and primary recommendations for busy decision-makers",
+          "An exhaustive autobiographical account detailing the research team's personal reading hobbies and recreational travel itineraries",
+          "A blank formal stationery page reserved for handwritten administrative endorsements from corporate sponsors and government patrons"
         ],
         "answer": 1,
         "explain": "Executive summaries distill dense 50-page reports into actionable, crystal-clear briefs for busy leaders."
@@ -2076,10 +2076,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What structural format is essential for a formal student petition addressed to school management?",
         "options": [
-          "Writing with no name or date",
-          "Informal text message abbreviations",
-          "Demanding action with angry threats",
-          "Formal heading, clear statement of grievance/proposal, empirical justification and student signatures, and respectful closing prayer"
+          "An anonymous unsigned flyer composed in casual smartphone shorthand delivered without any date or institutional addressee",
+          "An angry rhetorical ultimatum demanding immediate policy changes within twenty-four hours under threat of student walkouts",
+          "A creative fictional narrative describing an imaginary academy where students manage all administrative and budgetary matters",
+          "A formal heading, clear statement of proposal, empirical justification, collective student signatures, and respectful closing"
         ],
         "answer": 3,
         "explain": "Formal petitions command respect through structured decorum, substantiated rationale, and transparent collective endorsement."
@@ -2087,10 +2087,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When drafting an official 'NOTICE' to be displayed on the school bulletin board, what key parameters MUST be present?",
         "options": [
-          "A list of all teachers' salaries",
-          "The entire school history",
-          "The issuing institution name, the bold word 'NOTICE', date of issue, catchy subject heading, body with date/time/venue, and signature with designation",
-          "Private text conversations"
+          "A detailed spreadsheet cataloging private faculty remuneration records, administrative phone numbers, and confidential exam answers",
+          "An extensive historical essay narrating the architectural construction and founding benefactors of the school over the past century",
+          "The issuing authority name, bold heading 'NOTICE', date, concise subject line, essential event details, and signature with designation",
+          "A casual transcript of informal text messaging banter between student council representatives discussing weekend social plans"
         ],
         "answer": 2,
         "explain": "A notice is a standardized legal public circular requiring explicit institutional authority, timestamp, and actionable details."
@@ -2098,10 +2098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In formal administrative communication, what does 'CC' (Carbon Copy) on an email or memo indicate?",
         "options": [
-          "Cancelling the message",
-          "Secondary recipients who are sent the correspondence for informational awareness, though direct action is not required from them",
-          "Deleting the email after 24 hours",
-          "The secret code of the company"
+          "The permanent retraction and automated digital deletion of an outgoing dispatch before it reaches intended recipient inboxes",
+          "Secondary recipients who receive correspondence for informational awareness, where direct action is not required from them",
+          "A secret cryptographic routing algorithm that shields sender identification codes from corporate network security firewalls",
+          "A priority escalation marker signaling that every recipient must reply with signed confirmation within twenty-four hours"
         ],
         "answer": 1,
         "explain": "CC keeps relevant stakeholders transparently in the informational loop without assigning direct action items."
@@ -2119,10 +2119,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What structural format is essential for a formal student petition addressed to school management?",
         "options": [
-          "Writing with no name or date",
-          "Informal text message abbreviations",
-          "Demanding action with angry threats",
-          "Formal heading, clear statement of grievance/proposal, empirical justification and student signatures, and respectful closing prayer"
+          "An anonymous unsigned flyer composed in casual smartphone shorthand delivered without any date or institutional addressee",
+          "An angry rhetorical ultimatum demanding immediate policy changes within twenty-four hours under threat of student walkouts",
+          "A creative fictional narrative describing an imaginary academy where students manage all administrative and budgetary matters",
+          "A formal heading, clear statement of proposal, empirical justification, collective student signatures, and respectful closing"
         ],
         "answer": 3,
         "explain": "Formal petitions command respect through structured decorum, substantiated rationale, and transparent collective endorsement."
@@ -2130,10 +2130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When drafting an official 'NOTICE' to be displayed on the school bulletin board, what key parameters MUST be present?",
         "options": [
-          "A list of all teachers' salaries",
-          "The entire school history",
-          "The issuing institution name, the bold word 'NOTICE', date of issue, catchy subject heading, body with date/time/venue, and signature with designation",
-          "Private text conversations"
+          "A detailed spreadsheet cataloging private faculty remuneration records, administrative phone numbers, and confidential exam answers",
+          "An extensive historical essay narrating the architectural construction and founding benefactors of the school over the past century",
+          "The issuing authority name, bold heading 'NOTICE', date, concise subject line, essential event details, and signature with designation",
+          "A casual transcript of informal text messaging banter between student council representatives discussing weekend social plans"
         ],
         "answer": 2,
         "explain": "A notice is a standardized legal public circular requiring explicit institutional authority, timestamp, and actionable details."
@@ -2141,10 +2141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In formal administrative communication, what does 'CC' (Carbon Copy) on an email or memo indicate?",
         "options": [
-          "Cancelling the message",
-          "Secondary recipients who are sent the correspondence for informational awareness, though direct action is not required from them",
-          "Deleting the email after 24 hours",
-          "The secret code of the company"
+          "The permanent retraction and automated digital deletion of an outgoing dispatch before it reaches intended recipient inboxes",
+          "Secondary recipients who receive correspondence for informational awareness, where direct action is not required from them",
+          "A secret cryptographic routing algorithm that shields sender identification codes from corporate network security firewalls",
+          "A priority escalation marker signaling that every recipient must reply with signed confirmation within twenty-four hours"
         ],
         "answer": 1,
         "explain": "CC keeps relevant stakeholders transparently in the informational loop without assigning direct action items."
@@ -2162,10 +2162,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does an editor 'PRUNE' wordiness and bloated bureaucratic phrasing to achieve muscular, vigorous prose?",
         "options": [
-          "Making sentences five lines long",
-          "Replacing verbose phrases like 'due to the fact that' with concise words like 'because', and deleting redundant adverbs",
-          "Adding extra adjectives to every sentence",
-          "Repeating points three times"
+          "Expanding simple clauses into complex multi-line sentences and introducing redundant descriptive adjectives throughout",
+          "Replacing verbose phrases with concise words and eliminating redundant adverbs to sharpen clarity and intellectual impact",
+          "Repeating the central thesis statement three times within every paragraph to ensure readers do not overlook the main point",
+          "Inserting passive grammatical voice and archaic legal idioms across all paragraphs to convey an aura of academic gravity"
         ],
         "answer": 1,
         "explain": "Tight, muscular prose eliminates empty filler ('at this point in time' -> 'now'), maximizing intellectual impact!"
@@ -2173,10 +2173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'PEER REVIEW' in scholarly publishing and classroom writing workshops?",
         "options": [
-          "Stealing someone's paper to claim as your own",
-          "Deleting the author's name",
-          "Insulting your classmates' handwriting",
-          "Constructive critical evaluation of a draft by knowledgeable peers to catch errors, strengthen logic, and elevate quality before publication"
+          "Appropriating a classmate's research draft without attribution and submitting the manuscript under one's own name for publication",
+          "Censoring all controversial perspectives and deleting authorial attributions to prevent public intellectual disagreement",
+          "Evaluating a fellow student's essay based strictly on penmanship style and criticizing their choice of stationery paper brand",
+          "Constructive evaluation of a draft by peers to identify logical flaws, verify evidence, and elevate overall quality before release"
         ],
         "answer": 3,
         "explain": "Peer review is the universal crucible of intellectual rigor: friendly, rigorous critique elevates scholarship!"
@@ -2184,10 +2184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why should writers maintain consistent GRAMMATICAL TENSE throughout a narrative paragraph unless deliberately signaling a time shift?",
         "options": [
-          "Erratic tense-shifting between past and present disorients readers and fractures narrative immersion",
-          "To save printer ink",
-          "Because English only allows past tense",
-          "It has zero impact on readers"
+          "Erratic tense shifting between past and present disorients readers and breaks narrative immersion",
+          "Printer toner cartridges consume double the ink when processing sentences written in different tenses",
+          "Standard English grammar completely forbids the use of past tense verbs in multi-paragraph stories",
+          "Shifting tenses randomly has zero stylistic or cognitive effect on how readers interpret prose events"
         ],
         "answer": 0,
         "explain": "Consistent tense anchors the reader in a stable chronological stream of consciousness."
@@ -2205,10 +2205,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does an editor 'PRUNE' wordiness and bloated bureaucratic phrasing to achieve muscular, vigorous prose?",
         "options": [
-          "Making sentences five lines long",
-          "Replacing verbose phrases like 'due to the fact that' with concise words like 'because', and deleting redundant adverbs",
-          "Adding extra adjectives to every sentence",
-          "Repeating points three times"
+          "Expanding simple clauses into complex multi-line sentences and introducing redundant descriptive adjectives throughout",
+          "Replacing verbose phrases with concise words and eliminating redundant adverbs to sharpen clarity and intellectual impact",
+          "Repeating the central thesis statement three times within every paragraph to ensure readers do not overlook the main point",
+          "Inserting passive grammatical voice and archaic legal idioms across all paragraphs to convey an aura of academic gravity"
         ],
         "answer": 1,
         "explain": "Tight, muscular prose eliminates empty filler ('at this point in time' -> 'now'), maximizing intellectual impact!"
@@ -2216,10 +2216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'PEER REVIEW' in scholarly publishing and classroom writing workshops?",
         "options": [
-          "Stealing someone's paper to claim as your own",
-          "Deleting the author's name",
-          "Insulting your classmates' handwriting",
-          "Constructive critical evaluation of a draft by knowledgeable peers to catch errors, strengthen logic, and elevate quality before publication"
+          "Appropriating a classmate's research draft without attribution and submitting the manuscript under one's own name for publication",
+          "Censoring all controversial perspectives and deleting authorial attributions to prevent public intellectual disagreement",
+          "Evaluating a fellow student's essay based strictly on penmanship style and criticizing their choice of stationery paper brand",
+          "Constructive evaluation of a draft by peers to identify logical flaws, verify evidence, and elevate overall quality before release"
         ],
         "answer": 3,
         "explain": "Peer review is the universal crucible of intellectual rigor: friendly, rigorous critique elevates scholarship!"
@@ -2227,10 +2227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why should writers maintain consistent GRAMMATICAL TENSE throughout a narrative paragraph unless deliberately signaling a time shift?",
         "options": [
-          "Erratic tense-shifting between past and present disorients readers and fractures narrative immersion",
-          "To save printer ink",
-          "Because English only allows past tense",
-          "It has zero impact on readers"
+          "Erratic tense shifting between past and present disorients readers and breaks narrative immersion",
+          "Printer toner cartridges consume double the ink when processing sentences written in different tenses",
+          "Standard English grammar completely forbids the use of past tense verbs in multi-paragraph stories",
+          "Shifting tenses randomly has zero stylistic or cognitive effect on how readers interpret prose events"
         ],
         "answer": 0,
         "explain": "Consistent tense anchors the reader in a stable chronological stream of consciousness."
@@ -2248,10 +2248,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Aarav achieve structural COHESION across an 800-word multi-paragraph expository essay?",
         "options": [
-          "By ensuring every body paragraph develops ONE distinct facet of the central thesis, linked by transitional logical bridges and evidence",
-          "By changing topics in every sentence",
-          "By omitting all paragraph breaks",
-          "By writing 50 unrelated bullet points"
+          "By developing one distinct facet of the thesis in each paragraph, connected with transitional logical bridges and empirical evidence",
+          "By shifting to completely unrelated topics in every consecutive sentence to prevent the reader from experiencing intellectual fatigue",
+          "By eliminating all paragraph indentations and presenting the entire 800-word essay as a single unbroken continuous block of text",
+          "By assembling fifty isolated bullet points without explanatory connective phrases or overarching analytical organization"
         ],
         "answer": 0,
         "explain": "Cohesion weaves each paragraph into a unified, unfolding intellectual tapestry marching toward a powerful conclusion."
@@ -2259,10 +2259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'COUNTER-ARGUMENT' and 'REBUTTAL' paragraph in an advanced argumentative essay?",
         "options": [
-          "Surrendering your entire argument",
-          "Fairly presenting the strongest objection a critic might raise, and then systematically disproving or qualifying it with superior evidence",
-          "Insulting everyone who disagrees with you",
-          "Pretending no opposing views exist"
+          "Conceding that your central thesis is fundamentally flawed and urging the reader to adopt opposing perspectives on the controversy",
+          "Fairly presenting the strongest counter-argument and then systematically disproving or qualifying it with superior logical evidence",
+          "Launching personal insults against scholars who disagree with your claims while ignoring their published research data",
+          "Pretending that no dissenting opinions exist in academic literature and restating your opening assertions with louder emphasis"
         ],
         "answer": 1,
         "explain": "Addressing the strongest counter-argument demonstrates intellectual honesty and makes your thesis bulletproof!"
@@ -2273,7 +2273,7 @@ Object.assign(window.GAME_CONTENT, {
           "'In other words'",
           "'At the end'",
           "'Without author'",
-          "'And others' (used when a research paper has multiple co-authors)"
+          "'And others'"
         ],
         "answer": 3,
         "explain": "'Et al.' (et alii) avoids listing 10 co-authors in in-text citations, acknowledging the primary author and colleagues."
@@ -2291,10 +2291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Aarav achieve structural COHESION across an 800-word multi-paragraph expository essay?",
         "options": [
-          "By ensuring every body paragraph develops ONE distinct facet of the central thesis, linked by transitional logical bridges and evidence",
-          "By changing topics in every sentence",
-          "By omitting all paragraph breaks",
-          "By writing 50 unrelated bullet points"
+          "By developing one distinct facet of the thesis in each paragraph, connected with transitional logical bridges and empirical evidence",
+          "By shifting to completely unrelated topics in every consecutive sentence to prevent the reader from experiencing intellectual fatigue",
+          "By eliminating all paragraph indentations and presenting the entire 800-word essay as a single unbroken continuous block of text",
+          "By assembling fifty isolated bullet points without explanatory connective phrases or overarching analytical organization"
         ],
         "answer": 0,
         "explain": "Cohesion weaves each paragraph into a unified, unfolding intellectual tapestry marching toward a powerful conclusion."
@@ -2302,10 +2302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'COUNTER-ARGUMENT' and 'REBUTTAL' paragraph in an advanced argumentative essay?",
         "options": [
-          "Surrendering your entire argument",
-          "Fairly presenting the strongest objection a critic might raise, and then systematically disproving or qualifying it with superior evidence",
-          "Insulting everyone who disagrees with you",
-          "Pretending no opposing views exist"
+          "Conceding that your central thesis is fundamentally flawed and urging the reader to adopt opposing perspectives on the controversy",
+          "Fairly presenting the strongest counter-argument and then systematically disproving or qualifying it with superior logical evidence",
+          "Launching personal insults against scholars who disagree with your claims while ignoring their published research data",
+          "Pretending that no dissenting opinions exist in academic literature and restating your opening assertions with louder emphasis"
         ],
         "answer": 1,
         "explain": "Addressing the strongest counter-argument demonstrates intellectual honesty and makes your thesis bulletproof!"
@@ -2316,7 +2316,7 @@ Object.assign(window.GAME_CONTENT, {
           "'In other words'",
           "'At the end'",
           "'Without author'",
-          "'And others' (used when a research paper has multiple co-authors)"
+          "'And others'"
         ],
         "answer": 3,
         "explain": "'Et al.' (et alii) avoids listing 10 co-authors in in-text citations, acknowledging the primary author and colleagues."
@@ -2334,10 +2334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4",
           "x² + 2x + 4",
-          "2x² + 4",
-          "x² + 4"
+          "x² + 4x + 2",
+          "x² + 2x + 2"
         ],
         "answer": 0,
         "explain": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
@@ -2377,10 +2377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand using the identity (a + b)² = a² + 2ab + b² for the square garden area (x + 2)²:",
         "options": [
-          "x² + 4x + 4(2) + 2² = x² + 4x + 4)",
+          "x² + 4x + 4",
           "x² + 2x + 4",
-          "2x² + 4",
-          "x² + 4"
+          "x² + 4x + 2",
+          "x² + 2x + 2"
         ],
         "answer": 0,
         "explain": "(a + b)² = a² + 2ab + b²! For (x + 2)², it expands to x² + 4x + 4. Do not forget the middle 2ab term!"
@@ -2431,10 +2431,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand: (x + 3)(x² - 3x + 9) =",
         "options": [
-          "x³ - 6x² + 27",
-          "x³ + 27 (Sum of cubes identity: (a+b)(a²-ab+b²) = a³ + b³)",
           "x³ - 27",
-          "x³ + 9x + 27"
+          "x³ + 27",
+          "x³ + 81",
+          "x³ - 81"
         ],
         "answer": 1,
         "explain": "All middle cross-terms cancel out, yielding the famous sum of cubes: x³ + 3³ = x³ + 27!"
@@ -2445,7 +2445,7 @@ Object.assign(window.GAME_CONTENT, {
           "Degree 2",
           "Degree 1",
           "Degree 5",
-          "Degree 4 (the highest exponent of the variable 'x')"
+          "Degree 4"
         ],
         "answer": 3,
         "explain": "The degree of a single-variable polynomial is determined by the highest power of the variable (4)!"
@@ -2474,10 +2474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Expand: (x + 3)(x² - 3x + 9) =",
         "options": [
-          "x³ - 6x² + 27",
-          "x³ + 27 (Sum of cubes identity: (a+b)(a²-ab+b²) = a³ + b³)",
           "x³ - 27",
-          "x³ + 9x + 27"
+          "x³ + 27",
+          "x³ + 81",
+          "x³ - 81"
         ],
         "answer": 1,
         "explain": "All middle cross-terms cancel out, yielding the famous sum of cubes: x³ + 3³ = x³ + 27!"
@@ -2488,7 +2488,7 @@ Object.assign(window.GAME_CONTENT, {
           "Degree 2",
           "Degree 1",
           "Degree 5",
-          "Degree 4 (the highest exponent of the variable 'x')"
+          "Degree 4"
         ],
         "answer": 3,
         "explain": "The degree of a single-variable polynomial is determined by the highest power of the variable (4)!"
@@ -2531,7 +2531,7 @@ Object.assign(window.GAME_CONTENT, {
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes"
         ],
         "answer": 3,
         "explain": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -2574,7 +2574,7 @@ Object.assign(window.GAME_CONTENT, {
           "30 notes",
           "26 notes",
           "20 notes",
-          "24 notes = 370 -> 5n + 250 = 370 -> 5n = 120 -> n = 24)"
+          "24 notes"
         ],
         "answer": 3,
         "explain": "24 ten-rupee notes (₹240) + 26 five-rupee notes (₹130) = ₹370 total!"
@@ -2594,7 +2594,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "90°",
-          "180°: x 360° = 180° (exactly half of the circle)",
+          "180°",
           "360°"
         ],
         "answer": 2,
@@ -2605,7 +2605,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "30°",
           "90°",
-          "60°: x 360° = 60°",
+          "60°",
           "120°"
         ],
         "answer": 2,
@@ -2614,10 +2614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between a standard BAR GRAPH and a HISTOGRAM in statistics?",
         "options": [
-          "A bar graph displays categorical data with gaps between bars; a histogram displays continuous numerical class intervals with NO gaps between bars",
-          "Histograms never use numbers",
-          "Histograms are circular; bar graphs are square",
-          "They mean the exact same chart"
+          "A bar graph shows discrete categories with gaps between bars, whereas a histogram shows continuous class intervals with touching bars",
+          "A bar graph shows continuous intervals with touching bars, whereas a histogram shows discrete categories with equal gaps between bars",
+          "A bar graph plots cumulative frequencies over time, whereas a histogram plots percentage distributions using circular angular sectors",
+          "A bar graph uses connected line segments across points, whereas a histogram uses isolated horizontal bars without any vertical scale"
         ],
         "answer": 0,
         "explain": "Histograms group continuous numerical ranges (e.g., ages 10-20, 20-30) into touching adjacent columns!"
@@ -2637,7 +2637,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "45°",
           "90°",
-          "180°: x 360° = 180° (exactly half of the circle)",
+          "180°",
           "360°"
         ],
         "answer": 2,
@@ -2648,7 +2648,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "30°",
           "90°",
-          "60°: x 360° = 60°",
+          "60°",
           "120°"
         ],
         "answer": 2,
@@ -2657,10 +2657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between a standard BAR GRAPH and a HISTOGRAM in statistics?",
         "options": [
-          "A bar graph displays categorical data with gaps between bars; a histogram displays continuous numerical class intervals with NO gaps between bars",
-          "Histograms never use numbers",
-          "Histograms are circular; bar graphs are square",
-          "They mean the exact same chart"
+          "A bar graph shows discrete categories with gaps between bars, whereas a histogram shows continuous class intervals with touching bars",
+          "A bar graph shows continuous intervals with touching bars, whereas a histogram shows discrete categories with equal gaps between bars",
+          "A bar graph plots cumulative frequencies over time, whereas a histogram plots percentage distributions using circular angular sectors",
+          "A bar graph uses connected line segments across points, whereas a histogram uses isolated horizontal bars without any vertical scale"
         ],
         "answer": 0,
         "explain": "Histograms group continuous numerical ranges (e.g., ages 10-20, 20-30) into touching adjacent columns!"
@@ -2678,10 +2678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a coin is tossed 10 times, you might get 7 Heads (70%). What does the LAW OF LARGE NUMBERS predict as the number of tosses reaches 10,000?",
         "options": [
-          "The coin will land on its edge",
-          "Tails will become 100%",
-          "Heads will disappear completely",
-          "The experimental relative frequency will converge extremely close to the theoretical probability of 0.5 (50%)"
+          "The experimental relative frequency will drift randomly between zero and one hundred percent without stabilizing",
+          "The experimental relative frequency will favor whichever outcome appeared least frequently during the early trials",
+          "The experimental relative frequency will lock permanently onto the initial sample percentage of seventy percent",
+          "The experimental relative frequency will converge extremely close to the theoretical probability of fifty percent"
         ],
         "answer": 3,
         "explain": "As the number of independent trials increases, the empirical frequency inexorably approaches theoretical probability!"
@@ -2690,7 +2690,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the probability of rolling a SUM OF 7 when rolling two fair standard six-sided dice simultaneously?",
         "options": [
           "1/12",
-          "6/36 = 1/6 (favorable pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1))",
+          "1/6",
           "7/36",
           "1/2"
         ],
@@ -2700,7 +2700,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
-          "0 (Zero probability)",
+          "0",
           "1",
           "-1",
           "0.5"
@@ -2721,10 +2721,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a coin is tossed 10 times, you might get 7 Heads (70%). What does the LAW OF LARGE NUMBERS predict as the number of tosses reaches 10,000?",
         "options": [
-          "The coin will land on its edge",
-          "Tails will become 100%",
-          "Heads will disappear completely",
-          "The experimental relative frequency will converge extremely close to the theoretical probability of 0.5 (50%)"
+          "The experimental relative frequency will drift randomly between zero and one hundred percent without stabilizing",
+          "The experimental relative frequency will favor whichever outcome appeared least frequently during the early trials",
+          "The experimental relative frequency will lock permanently onto the initial sample percentage of seventy percent",
+          "The experimental relative frequency will converge extremely close to the theoretical probability of fifty percent"
         ],
         "answer": 3,
         "explain": "As the number of independent trials increases, the empirical frequency inexorably approaches theoretical probability!"
@@ -2733,7 +2733,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the probability of rolling a SUM OF 7 when rolling two fair standard six-sided dice simultaneously?",
         "options": [
           "1/12",
-          "6/36 = 1/6 (favorable pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1))",
+          "1/6",
           "7/36",
           "1/2"
         ],
@@ -2743,7 +2743,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the probability of an IMPOSSIBLE EVENT?",
         "options": [
-          "0 (Zero probability)",
+          "0",
           "1",
           "-1",
           "0.5"
@@ -2764,10 +2764,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'ISOMETRIC SKETCH' on dot grid paper?",
         "options": [
-          "A 2D drawing of a 3D solid where the three coordinate axes appear equally foreshortened at 120-degree angles, preserving true proportional scale",
-          "A flat shadow outline",
-          "A drawing that has no corners",
-          "A painting with water colors only"
+          "A pictorial representation of a solid where coordinate axes are drawn at 120 degrees to show true proportional dimensions",
+          "A flat orthographic projection that displays only the front outline of a solid without any depth or perspective foreshortening",
+          "A vanishing-point perspective sketch where parallel edges converge to a single focal point on an imaginary horizon line",
+          "An unfolded two-dimensional flat pattern of polygons that can be creased along fold lines to assemble a hollow solid shape"
         ],
         "answer": 0,
         "explain": "Isometric projection allows engineers to represent 3D depth, height, and width accurately on flat 2D surfaces!"
@@ -2776,7 +2776,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In an oblique drawing vs an isometric drawing, which one preserves the true shape of the front face without distortion?",
         "options": [
           "An isometric sketch",
-          "An Oblique sketch (the front face is drawn flat and undistorted as a true square/rectangle)",
+          "An Oblique sketch",
           "Neither",
           "Both distort the front"
         ],
@@ -2807,10 +2807,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'ISOMETRIC SKETCH' on dot grid paper?",
         "options": [
-          "A 2D drawing of a 3D solid where the three coordinate axes appear equally foreshortened at 120-degree angles, preserving true proportional scale",
-          "A flat shadow outline",
-          "A drawing that has no corners",
-          "A painting with water colors only"
+          "A pictorial representation of a solid where coordinate axes are drawn at 120 degrees to show true proportional dimensions",
+          "A flat orthographic projection that displays only the front outline of a solid without any depth or perspective foreshortening",
+          "A vanishing-point perspective sketch where parallel edges converge to a single focal point on an imaginary horizon line",
+          "An unfolded two-dimensional flat pattern of polygons that can be creased along fold lines to assemble a hollow solid shape"
         ],
         "answer": 0,
         "explain": "Isometric projection allows engineers to represent 3D depth, height, and width accurately on flat 2D surfaces!"
@@ -2819,7 +2819,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "In an oblique drawing vs an isometric drawing, which one preserves the true shape of the front face without distortion?",
         "options": [
           "An isometric sketch",
-          "An Oblique sketch (the front face is drawn flat and undistorted as a true square/rectangle)",
+          "An Oblique sketch",
           "Neither",
           "Both distort the front"
         ],
@@ -2850,10 +2850,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "For a TRIANGULAR PRISM (with 2 triangular bases and 3 rectangular sides): Faces = 5, Vertices = 6. Calculate its number of Edges using Euler's formula F - E + V = 2:",
         "options": [
-          "8 Edges",
-          "6 Edges",
-          "9 Edges: 5 - E + 6 = 2 -> 11 - E = 2 -> E = 9",
-          "12 Edges"
+          "Exactly 8 edges",
+          "Exactly 6 edges",
+          "Exactly 9 edges",
+          "Exactly 12 edges"
         ],
         "answer": 2,
         "explain": "F - E + V = 2 -> 5 - 9 + 6 = 2! A triangular prism has exactly 9 edges (3 on top, 3 on bottom, 3 vertical)!"
@@ -2861,10 +2861,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'REGULAR POLYHEDRON' (Platonic Solid)?",
         "options": [
-          "A cylinder",
-          "Any rock with flat faces",
-          "A shape made of clay",
-          "A 3D solid whose faces are all identical regular polygons, and the same number of faces meet at every vertex (e.g., Tetrahedron, Cube, Octahedron)"
+          "A three-dimensional solid formed by curved revolving surfaces that have equal radii along their cross sections",
+          "A three-dimensional solid having rectangular lateral faces with two congruent parallel polygon bases at each end",
+          "A three-dimensional solid whose vertices all connect to a single apex point above a regular polygonal base",
+          "A three-dimensional solid whose faces are congruent regular polygons and where the same number of faces meet at each vertex"
         ],
         "answer": 3,
         "explain": "There are only FIVE Platonic solids in geometry: Tetrahedron, Cube, Octahedron, Dodecahedron, and Icosahedron!"
@@ -2872,8 +2872,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Can a polyhedron have 10 faces, 20 edges, and 15 vertices? Test using Euler's formula: F - E + V = 10 - 20 + 15 =",
         "options": [
-          "5 (Since 5 ≠ 2, NO such polyhedron can physically exist!)",
-          "2 (Yes it exists)",
+          "5",
+          "2",
           "0",
           "10"
         ],
@@ -2893,10 +2893,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "For a TRIANGULAR PRISM (with 2 triangular bases and 3 rectangular sides): Faces = 5, Vertices = 6. Calculate its number of Edges using Euler's formula F - E + V = 2:",
         "options": [
-          "8 Edges",
-          "6 Edges",
-          "9 Edges: 5 - E + 6 = 2 -> 11 - E = 2 -> E = 9",
-          "12 Edges"
+          "Exactly 8 edges",
+          "Exactly 6 edges",
+          "Exactly 9 edges",
+          "Exactly 12 edges"
         ],
         "answer": 2,
         "explain": "F - E + V = 2 -> 5 - 9 + 6 = 2! A triangular prism has exactly 9 edges (3 on top, 3 on bottom, 3 vertical)!"
@@ -2904,10 +2904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'REGULAR POLYHEDRON' (Platonic Solid)?",
         "options": [
-          "A cylinder",
-          "Any rock with flat faces",
-          "A shape made of clay",
-          "A 3D solid whose faces are all identical regular polygons, and the same number of faces meet at every vertex (e.g., Tetrahedron, Cube, Octahedron)"
+          "A three-dimensional solid formed by curved revolving surfaces that have equal radii along their cross sections",
+          "A three-dimensional solid having rectangular lateral faces with two congruent parallel polygon bases at each end",
+          "A three-dimensional solid whose vertices all connect to a single apex point above a regular polygonal base",
+          "A three-dimensional solid whose faces are congruent regular polygons and where the same number of faces meet at each vertex"
         ],
         "answer": 3,
         "explain": "There are only FIVE Platonic solids in geometry: Tetrahedron, Cube, Octahedron, Dodecahedron, and Icosahedron!"
@@ -2915,8 +2915,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Can a polyhedron have 10 faces, 20 edges, and 15 vertices? Test using Euler's formula: F - E + V = 10 - 20 + 15 =",
         "options": [
-          "5 (Since 5 ≠ 2, NO such polyhedron can physically exist!)",
-          "2 (Yes it exists)",
+          "5",
+          "2",
           "0",
           "10"
         ],
@@ -2936,10 +2936,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many independent measurements (sides, diagonals, or angles) are MINIMALLY required to construct a unique, fixed quadrilateral?",
         "options": [
-          "4 measurements",
-          "3 measurements",
-          "5 independent measurements (e.g., 4 sides and 1 diagonal, or 3 sides and 2 included angles)",
-          "6 measurements"
+          "Exactly 4 independent measurements",
+          "Exactly 3 independent measurements",
+          "Exactly 5 independent measurements",
+          "Exactly 6 independent measurements"
         ],
         "answer": 2,
         "explain": "A quadrilateral has 8 degrees of freedom; fixing its position, rotation, and shape requires 5 independent geometric measurements!"
@@ -2947,10 +2947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can a quadrilateral NOT be constructed uniquely if only its 4 side lengths are given?",
         "options": [
-          "Because 4 sides cannot connect",
-          "Sides must be equal",
-          "Without a fixed diagonal or angle, the 4 hinged sides can flex and distort into infinitely many different parallelograms (it lacks rigidity)",
-          "Because compasses only draw circles"
+          "Because four straight line segments cannot form a closed geometric figure unless all four interior angles are right angles",
+          "Because the sum of four given side lengths must always be equal to three hundred and sixty degrees on a flat plane",
+          "Because without a fixed diagonal or angle, the hinged sides can flex into infinitely many different quadrilateral shapes",
+          "Because opposite pairs of sides in any four-sided polygon are mathematically required to have identical measurements"
         ],
         "answer": 2,
         "explain": "Triangles are rigid (3 sides fix shape); quadrilaterals flex unless fixed by a 5th measurement (diagonal or angle)!"
@@ -2958,10 +2958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "To construct a unique RHOMBUS, what is the minimum information needed besides the fact that all 4 sides are equal?",
         "options": [
-          "Nothing else is needed",
-          "The perimeter only",
-          "The color of the paper",
-          "The lengths of its TWO diagonals (since diagonals of a rhombus bisect each other perpendicularly at 90°)"
+          "The total perimeter of all four sides",
+          "The radius of its inscribed circle",
+          "The sum of all four interior angles",
+          "The lengths of its two diagonals"
         ],
         "answer": 3,
         "explain": "Perpendicular bisecting diagonals allow flawless construction of any rhombus with a compass!"
@@ -2979,10 +2979,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many independent measurements (sides, diagonals, or angles) are MINIMALLY required to construct a unique, fixed quadrilateral?",
         "options": [
-          "4 measurements",
-          "3 measurements",
-          "5 independent measurements (e.g., 4 sides and 1 diagonal, or 3 sides and 2 included angles)",
-          "6 measurements"
+          "Exactly 4 independent measurements",
+          "Exactly 3 independent measurements",
+          "Exactly 5 independent measurements",
+          "Exactly 6 independent measurements"
         ],
         "answer": 2,
         "explain": "A quadrilateral has 8 degrees of freedom; fixing its position, rotation, and shape requires 5 independent geometric measurements!"
@@ -2990,10 +2990,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can a quadrilateral NOT be constructed uniquely if only its 4 side lengths are given?",
         "options": [
-          "Because 4 sides cannot connect",
-          "Sides must be equal",
-          "Without a fixed diagonal or angle, the 4 hinged sides can flex and distort into infinitely many different parallelograms (it lacks rigidity)",
-          "Because compasses only draw circles"
+          "Because four straight line segments cannot form a closed geometric figure unless all four interior angles are right angles",
+          "Because the sum of four given side lengths must always be equal to three hundred and sixty degrees on a flat plane",
+          "Because without a fixed diagonal or angle, the hinged sides can flex into infinitely many different quadrilateral shapes",
+          "Because opposite pairs of sides in any four-sided polygon are mathematically required to have identical measurements"
         ],
         "answer": 2,
         "explain": "Triangles are rigid (3 sides fix shape); quadrilaterals flex unless fixed by a 5th measurement (diagonal or angle)!"
@@ -3001,10 +3001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "To construct a unique RHOMBUS, what is the minimum information needed besides the fact that all 4 sides are equal?",
         "options": [
-          "Nothing else is needed",
-          "The perimeter only",
-          "The color of the paper",
-          "The lengths of its TWO diagonals (since diagonals of a rhombus bisect each other perpendicularly at 90°)"
+          "The total perimeter of all four sides",
+          "The radius of its inscribed circle",
+          "The sum of all four interior angles",
+          "The lengths of its two diagonals"
         ],
         "answer": 3,
         "explain": "Perpendicular bisecting diagonals allow flawless construction of any rhombus with a compass!"
@@ -3033,10 +3033,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
-          "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
-          "Because 360 is a magic number",
-          "It is only a rough guess"
+          "Every polygon can be rotated completely around its central point to sweep out an angle of three hundred and sixty degrees",
+          "Any n-sided polygon can be divided into n minus two non-overlapping triangles from one vertex, each contributing 180 degrees",
+          "The exterior angles of any regular polygon always add up to half the sum of its corresponding interior supplementary angles",
+          "Each side of the polygon adds a fixed ninety degrees of angular turning between consecutive adjacent perimeter segments"
         ],
         "answer": 1,
         "explain": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
@@ -3076,10 +3076,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the sum of angles in ANY polygon with 'n' sides given by the formula (n - 2) x 180°?",
         "options": [
-          "Because circles have 360 degrees",
-          "Any n-sided polygon can be triangulated into non-overlapping triangles from one vertex, each contributing 180°",
-          "Because 360 is a magic number",
-          "It is only a rough guess"
+          "Every polygon can be rotated completely around its central point to sweep out an angle of three hundred and sixty degrees",
+          "Any n-sided polygon can be divided into n minus two non-overlapping triangles from one vertex, each contributing 180 degrees",
+          "The exterior angles of any regular polygon always add up to half the sum of its corresponding interior supplementary angles",
+          "Each side of the polygon adds a fixed ninety degrees of angular turning between consecutive adjacent perimeter segments"
         ],
         "answer": 1,
         "explain": "A quadrilateral (n=4) splits into 4 - 2 = 2 triangles (2 x 180° = 360°); a pentagon (n=5) into 3 triangles (540°)!"
@@ -3122,7 +3122,7 @@ Object.assign(window.GAME_CONTENT, {
           "They always intersect at 90°",
           "They are always equal in length",
           "They never touch each other",
-          "They BISECT each other (they cut each other into two equal halves at their intersection point)"
+          "They BISECT each other"
         ],
         "answer": 3,
         "explain": "In every parallelogram, the intersection point of the diagonals is the exact midpoint of both diagonals!"
@@ -3165,7 +3165,7 @@ Object.assign(window.GAME_CONTENT, {
           "They always intersect at 90°",
           "They are always equal in length",
           "They never touch each other",
-          "They BISECT each other (they cut each other into two equal halves at their intersection point)"
+          "They BISECT each other"
         ],
         "answer": 3,
         "explain": "In every parallelogram, the intersection point of the diagonals is the exact midpoint of both diagonals!"
@@ -3194,10 +3194,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
-          "60 m²",
-          "48 m²",
-          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
-          "100 m²"
+          "60 square meters",
+          "45 square meters",
+          "50 square meters",
+          "55 square meters"
         ],
         "answer": 2,
         "explain": "Area of trapezium = half the sum of parallel sides times height: 1/2 x 20 x 5 = 50 m²!"
@@ -3205,10 +3205,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the area of a trapezium half the sum of its parallel sides times height?",
         "options": [
-          "Because trapeziums have two corners",
-          "Because math formulas always use 1/2",
-          "It is only an estimate",
-          "Two identical trapeziums placed together form a large parallelogram with base (a + b) and height h"
+          "Dividing the trapezium along its median creates two congruent right triangles that share a common perpendicular altitude",
+          "The perpendicular height bisects the two non-parallel legs to create an equivalent rectangle with the smaller base",
+          "Connecting opposite vertices splits the figure into two equal triangles having identical parallel base lengths",
+          "Two identical trapeziums joined together form a parallelogram of base equal to the sum of parallel sides and height h"
         ],
         "answer": 3,
         "explain": "Doubling a trapezium creates a parallelogram of base (a+b) and height h, so one trapezium is 1/2(a+b)h!"
@@ -3216,10 +3216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a trapezium has parallel sides of 14 cm and 6 cm and an area of 80 cm², what is its perpendicular height 'h'?",
         "options": [
-          "h = 16 cm",
-          "h = 10 cm",
-          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
-          "h = 4 cm"
+          "Height is 16 cm",
+          "Height is 10 cm",
+          "Height is 8 cm",
+          "Height is 4 cm"
         ],
         "answer": 2,
         "explain": "10 x h = 80 -> h = 80 / 10 = 8 centimeters!"
@@ -3237,10 +3237,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the cross-sectional AREA of the trapezium embankment?",
         "options": [
-          "60 m²",
-          "48 m²",
-          "50 square meters: 1/2 x x 5 = 1/2 x 20 x 5 = 50 m²",
-          "100 m²"
+          "60 square meters",
+          "45 square meters",
+          "50 square meters",
+          "55 square meters"
         ],
         "answer": 2,
         "explain": "Area of trapezium = half the sum of parallel sides times height: 1/2 x 20 x 5 = 50 m²!"
@@ -3248,10 +3248,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the area of a trapezium half the sum of its parallel sides times height?",
         "options": [
-          "Because trapeziums have two corners",
-          "Because math formulas always use 1/2",
-          "It is only an estimate",
-          "Two identical trapeziums placed together form a large parallelogram with base (a + b) and height h"
+          "Dividing the trapezium along its median creates two congruent right triangles that share a common perpendicular altitude",
+          "The perpendicular height bisects the two non-parallel legs to create an equivalent rectangle with the smaller base",
+          "Connecting opposite vertices splits the figure into two equal triangles having identical parallel base lengths",
+          "Two identical trapeziums joined together form a parallelogram of base equal to the sum of parallel sides and height h"
         ],
         "answer": 3,
         "explain": "Doubling a trapezium creates a parallelogram of base (a+b) and height h, so one trapezium is 1/2(a+b)h!"
@@ -3259,10 +3259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a trapezium has parallel sides of 14 cm and 6 cm and an area of 80 cm², what is its perpendicular height 'h'?",
         "options": [
-          "h = 16 cm",
-          "h = 10 cm",
-          "h = 8 cm: 1/2 x x h = 80 -> 10 x h = 80 -> h = 8 cm",
-          "h = 4 cm"
+          "Height is 16 cm",
+          "Height is 10 cm",
+          "Height is 8 cm",
+          "Height is 4 cm"
         ],
         "answer": 2,
         "explain": "10 x h = 80 -> h = 80 / 10 = 8 centimeters!"
@@ -3280,10 +3280,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do land surveyors calculate the exact total area of an irregular 5-sided or 6-sided polygon on a field survey?",
         "options": [
-          "By walking along the fence only",
-          "By partitioning the polygon into a series of right-angled triangles and trapeziums along a survey baseline and summing their individual areas",
-          "By rounding the whole field into a circle",
-          "By guessing from a photograph"
+          "By calculating the outer boundary perimeter and multiplying it by the average diagonal distance between opposite boundary corners",
+          "By partitioning the polygon into triangles and trapeziums along a central baseline and calculating the sum of their individual areas",
+          "By approximating the irregular perimeter as a single regular circle and applying the standard radius area formula pi r squared",
+          "By measuring the coordinates of all boundary markers and calculating the volume of topsoil displaced across the entire landscape"
         ],
         "answer": 1,
         "explain": "Triangulation: partitioning complex polygons into standard triangles and trapeziums yields exact computable areas!"
@@ -3291,10 +3291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
-          "600 m²",
+          "600 square meters",
           "550 square meters",
-          "500 m²",
-          "450 m²"
+          "500 square meters",
+          "450 square meters"
         ],
         "answer": 1,
         "explain": "Total Area = Sum of component areas: 120 + 250 + 180 = 550 m²!"
@@ -3303,9 +3303,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the formula for the area of a RHOMBUS given the lengths of its two diagonals d₁ and d₂?",
         "options": [
           "d₁ x d₂",
-          "2 x (d₁ + d₂)",
+          "2 x",
           "1/2 x d₁ x d₂",
-          "(d₁ + d₂)²"
+          "²"
         ],
         "answer": 2,
         "explain": "A rhombus splits into 4 identical right triangles: Area = 1/2 x d₁ x d₂!"
@@ -3323,10 +3323,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do land surveyors calculate the exact total area of an irregular 5-sided or 6-sided polygon on a field survey?",
         "options": [
-          "By walking along the fence only",
-          "By partitioning the polygon into a series of right-angled triangles and trapeziums along a survey baseline and summing their individual areas",
-          "By rounding the whole field into a circle",
-          "By guessing from a photograph"
+          "By calculating the outer boundary perimeter and multiplying it by the average diagonal distance between opposite boundary corners",
+          "By partitioning the polygon into triangles and trapeziums along a central baseline and calculating the sum of their individual areas",
+          "By approximating the irregular perimeter as a single regular circle and applying the standard radius area formula pi r squared",
+          "By measuring the coordinates of all boundary markers and calculating the volume of topsoil displaced across the entire landscape"
         ],
         "answer": 1,
         "explain": "Triangulation: partitioning complex polygons into standard triangles and trapeziums yields exact computable areas!"
@@ -3334,10 +3334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A surveyor splits a field into Triangle 1 (Area = 120 m²), Trapezium 2 (Area = 250 m²), and Triangle 3 (Area = 180 m²). What is the total field area?",
         "options": [
-          "600 m²",
+          "600 square meters",
           "550 square meters",
-          "500 m²",
-          "450 m²"
+          "500 square meters",
+          "450 square meters"
         ],
         "answer": 1,
         "explain": "Total Area = Sum of component areas: 120 + 250 + 180 = 550 m²!"
@@ -3346,9 +3346,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the formula for the area of a RHOMBUS given the lengths of its two diagonals d₁ and d₂?",
         "options": [
           "d₁ x d₂",
-          "2 x (d₁ + d₂)",
+          "2 x",
           "1/2 x d₁ x d₂",
-          "(d₁ + d₂)²"
+          "²"
         ],
         "answer": 2,
         "explain": "A rhombus splits into 4 identical right triangles: Area = 1/2 x d₁ x d₂!"
@@ -3366,10 +3366,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
-          "700 m³",
-          "2,200 m³",
-          "1,450 m³"
+          "1,540 cubic meters",
+          "1,760 cubic meters",
+          "1,320 cubic meters",
+          "1,450 cubic meters"
         ],
         "answer": 0,
         "explain": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
@@ -3377,10 +3377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
-          "892 m²",
-          "154 m²",
-          "440 m²"
+          "748 square meters",
+          "892 square meters",
+          "616 square meters",
+          "440 square meters"
         ],
         "answer": 0,
         "explain": "TSA = Curved Surface Area (2πrh) + 2 Circular Base Caps (2πr²) = 2πr(r + h) = 748 m²!"
@@ -3389,7 +3389,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If 1 cubic meter (1 m³) of water equals 1,000 litres, how many litres of water does the 1,540 m³ tank hold when full?",
         "options": [
           "15,400 litres",
-          "15,40,000 litres (1.54 million litres)",
+          "15,40,000 litres",
           "1,54,000 litres",
           "154 million litres"
         ],
@@ -3409,10 +3409,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the VOLUME of the cylindrical tank?",
         "options": [
-          "1,540 cubic meters: x 7 x 7 x 10 = 22 x 7 x 10 = 1,540 m³",
-          "700 m³",
-          "2,200 m³",
-          "1,450 m³"
+          "1,540 cubic meters",
+          "1,760 cubic meters",
+          "1,320 cubic meters",
+          "1,450 cubic meters"
         ],
         "answer": 0,
         "explain": "V = πr²h = (22/7) x 49 x 10 = 22 x 70 = 1,540 cubic meters!"
@@ -3420,10 +3420,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the TOTAL SURFACE AREA (TSA) of a closed cylinder?",
         "options": [
-          "2πr(r + h) = 2 x x 7 x = 44 x 17 = 748 m²",
-          "892 m²",
-          "154 m²",
-          "440 m²"
+          "748 square meters",
+          "892 square meters",
+          "616 square meters",
+          "440 square meters"
         ],
         "answer": 0,
         "explain": "TSA = Curved Surface Area (2πrh) + 2 Circular Base Caps (2πr²) = 2πr(r + h) = 748 m²!"
@@ -3432,7 +3432,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If 1 cubic meter (1 m³) of water equals 1,000 litres, how many litres of water does the 1,540 m³ tank hold when full?",
         "options": [
           "15,400 litres",
-          "15,40,000 litres (1.54 million litres)",
+          "15,40,000 litres",
           "1,54,000 litres",
           "154 million litres"
         ],
@@ -3624,10 +3624,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the mathematical DIVISIBILITY RULE FOR 9?",
         "options": [
-          "A number is divisible by 9 if and only if the SUM of its digits is divisible by 9",
-          "The first digit must be 9",
-          "The number must be odd",
-          "The number must end in 9"
+          "A number is divisible by 9 if and only if the sum of all its digits is divisible by 9",
+          "A number is divisible by 9 if and only if its final two digits form a multiple of 9",
+          "A number is divisible by 9 if and only if its units digit is either zero or nine",
+          "A number is divisible by 9 if and only if the alternating sum of its digits equals 9"
         ],
         "answer": 0,
         "explain": "Because 10 ≡ 1 (mod 9), any number has the same remainder as the sum of its digits!"
@@ -3635,10 +3635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the DIVISIBILITY RULE FOR 11? Test the number 1,364:",
         "options": [
-          "Divide by 2 and add 1",
-          "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
-          "The number must end in 1"
+          "The difference between the sum of its first two digits and the sum of its last two digits must be divisible by eleven",
+          "The product of digits at odd positions must equal the product of digits at even positions when counting from the right",
+          "The difference between the sum of digits at odd places and the sum of digits at even places must be zero or a multiple of eleven",
+          "The sum of all individual digits across the entire number must be an exact integer multiple of eleven without remainder"
         ],
         "answer": 2,
         "explain": "Sum at odd places (1+6=7) minus sum at even places (3+4=7) = 0. Since 0 is divisible by 11, 1,364 is divisible by 11!"
@@ -3646,7 +3646,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these numbers is divisible by 6 (must be divisible by BOTH 2 and 3)?",
         "options": [
-          "435 (odd number)",
+          "435",
           "431",
           "430",
           "432"
@@ -3667,10 +3667,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the mathematical DIVISIBILITY RULE FOR 9?",
         "options": [
-          "A number is divisible by 9 if and only if the SUM of its digits is divisible by 9",
-          "The first digit must be 9",
-          "The number must be odd",
-          "The number must end in 9"
+          "A number is divisible by 9 if and only if the sum of all its digits is divisible by 9",
+          "A number is divisible by 9 if and only if its final two digits form a multiple of 9",
+          "A number is divisible by 9 if and only if its units digit is either zero or nine",
+          "A number is divisible by 9 if and only if the alternating sum of its digits equals 9"
         ],
         "answer": 0,
         "explain": "Because 10 ≡ 1 (mod 9), any number has the same remainder as the sum of its digits!"
@@ -3678,10 +3678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the DIVISIBILITY RULE FOR 11? Test the number 1,364:",
         "options": [
-          "Divide by 2 and add 1",
-          "The number has four digits",
-          "The difference between the sum of digits at odd places and sum of digits at even places is 0 or a multiple of 11: - = 7 - 7 = 0 (Divisible!)",
-          "The number must end in 1"
+          "The difference between the sum of its first two digits and the sum of its last two digits must be divisible by eleven",
+          "The product of digits at odd positions must equal the product of digits at even positions when counting from the right",
+          "The difference between the sum of digits at odd places and the sum of digits at even places must be zero or a multiple of eleven",
+          "The sum of all individual digits across the entire number must be an exact integer multiple of eleven without remainder"
         ],
         "answer": 2,
         "explain": "Sum at odd places (1+6=7) minus sum at even places (3+4=7) = 0. Since 0 is divisible by 11, 1,364 is divisible by 11!"
@@ -3689,7 +3689,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these numbers is divisible by 6 (must be divisible by BOTH 2 and 3)?",
         "options": [
-          "435 (odd number)",
+          "435",
           "431",
           "430",
           "432"
@@ -3710,9 +3710,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
-          "Only 1",
-          "Zero",
-          "Exactly 10",
+          "Exactly one unique rational number",
+          "Exactly ten distinct rational numbers",
+          "A finite set of one hundred numbers",
           "Infinitely many rational numbers"
         ],
         "answer": 3,
@@ -3732,10 +3732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which fraction lies between 2/5 (0.40) and 3/5 (0.60)?",
         "options": [
-          "4/5 (0.80)",
-          "7/10 (0.70)",
-          "1/5 (0.20)",
-          "1/2 (0.50)"
+          "4/5",
+          "7/10",
+          "1/5",
+          "1/2"
         ],
         "answer": 3,
         "explain": "1/2 = 0.50, which sits comfortably right between 0.40 and 0.60!"
@@ -3753,9 +3753,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many rational numbers exist between ANY two given rational numbers?",
         "options": [
-          "Only 1",
-          "Zero",
-          "Exactly 10",
+          "Exactly one unique rational number",
+          "Exactly ten distinct rational numbers",
+          "A finite set of one hundred numbers",
           "Infinitely many rational numbers"
         ],
         "answer": 3,
@@ -3775,10 +3775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which fraction lies between 2/5 (0.40) and 3/5 (0.60)?",
         "options": [
-          "4/5 (0.80)",
-          "7/10 (0.70)",
-          "1/5 (0.20)",
-          "1/2 (0.50)"
+          "4/5",
+          "7/10",
+          "1/5",
+          "1/2"
         ],
         "answer": 3,
         "explain": "1/2 = 0.50, which sits comfortably right between 0.40 and 0.60!"
@@ -3796,10 +3796,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What property of multiplication over addition is represented by: a x (b + c) = (a x b) + (a x c)?",
         "options": [
-          "The DISTRIBUTIVE PROPERTY of multiplication over addition",
-          "The Commutative Property",
-          "The Associative Property",
-          "The Closure Property"
+          "The Distributive Property of multiplication over addition",
+          "The Commutative Property of multiplication over addition",
+          "The Associative Property of multiplication over addition",
+          "The Identity Property of multiplication over addition"
         ],
         "answer": 0,
         "explain": "The Distributive Property allows multiplying a factor across all terms inside parentheses!"
@@ -3807,8 +3807,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which operation on rational numbers is NOT commutative (i.e., a ○ b ≠ b ○ a)?",
         "options": [
-          "Addition (a + b = b + a)",
-          "Multiplication (a x b = b x a)",
+          "Addition",
+          "Multiplication",
           "All operations are commutative",
           "Subtraction and Division"
         ],
@@ -3839,10 +3839,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What property of multiplication over addition is represented by: a x (b + c) = (a x b) + (a x c)?",
         "options": [
-          "The DISTRIBUTIVE PROPERTY of multiplication over addition",
-          "The Commutative Property",
-          "The Associative Property",
-          "The Closure Property"
+          "The Distributive Property of multiplication over addition",
+          "The Commutative Property of multiplication over addition",
+          "The Associative Property of multiplication over addition",
+          "The Identity Property of multiplication over addition"
         ],
         "answer": 0,
         "explain": "The Distributive Property allows multiplying a factor across all terms inside parentheses!"
@@ -3850,8 +3850,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which operation on rational numbers is NOT commutative (i.e., a ○ b ≠ b ○ a)?",
         "options": [
-          "Addition (a + b = b + a)",
-          "Multiplication (a x b = b x a)",
+          "Addition",
+          "Multiplication",
           "All operations are commutative",
           "Subtraction and Division"
         ],
@@ -3885,7 +3885,7 @@ Object.assign(window.GAME_CONTENT, {
           "₹14,000",
           "₹12,000",
           "₹11,000",
-          "₹12,100: 10,000 x 1.21 = ₹12,100 (Compound Interest = ₹2,100)"
+          "₹12,100"
         ],
         "answer": 3,
         "explain": "Compound interest earns 'interest on interest': Year 1 earns ₹1,000; Year 2 earns 10% on ₹11,000 = ₹1,100! Total = ₹12,100!"
@@ -3894,7 +3894,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "A winter jacket with a MARKED PRICE of ₹2,000 is offered with a 25% festival DISCOUNT. What is the customer's purchase price?",
         "options": [
           "₹1,250",
-          "₹1,500: Discount = 25% of 2,000 = ₹500; Selling Price = 2,000 - 500 = ₹1,500",
+          "₹1,500",
           "₹1,800",
           "₹1,750"
         ],
@@ -3904,10 +3904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does Compound Interest grow wealth significantly faster than Simple Interest over long time horizons?",
         "options": [
-          "Compound interest has no taxes",
-          "It grows linearly",
-          "Banks give free money",
-          "Earned interest is continually added back to the principal, so future interest is calculated on an ever-growing capital base (exponential growth)"
+          "Simple interest deducts administrative bank charges every year, whereas compound interest waives all institutional maintenance fees",
+          "Simple interest applies variable market interest rates over time, whereas compound interest guarantees a permanently fixed rate of return",
+          "Simple interest distributes dividends only at maturity, whereas compound interest doubles the original investment every single calendar year",
+          "Simple interest earns returns only on original principal, whereas compound interest earns interest on previously accumulated interest"
         ],
         "answer": 3,
         "explain": "Albert Einstein called compound interest the 'eighth wonder of the world': exponential mathematical growth!"
@@ -3928,7 +3928,7 @@ Object.assign(window.GAME_CONTENT, {
           "₹14,000",
           "₹12,000",
           "₹11,000",
-          "₹12,100: 10,000 x 1.21 = ₹12,100 (Compound Interest = ₹2,100)"
+          "₹12,100"
         ],
         "answer": 3,
         "explain": "Compound interest earns 'interest on interest': Year 1 earns ₹1,000; Year 2 earns 10% on ₹11,000 = ₹1,100! Total = ₹12,100!"
@@ -3937,7 +3937,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "A winter jacket with a MARKED PRICE of ₹2,000 is offered with a 25% festival DISCOUNT. What is the customer's purchase price?",
         "options": [
           "₹1,250",
-          "₹1,500: Discount = 25% of 2,000 = ₹500; Selling Price = 2,000 - 500 = ₹1,500",
+          "₹1,500",
           "₹1,800",
           "₹1,750"
         ],
@@ -3947,10 +3947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does Compound Interest grow wealth significantly faster than Simple Interest over long time horizons?",
         "options": [
-          "Compound interest has no taxes",
-          "It grows linearly",
-          "Banks give free money",
-          "Earned interest is continually added back to the principal, so future interest is calculated on an ever-growing capital base (exponential growth)"
+          "Simple interest deducts administrative bank charges every year, whereas compound interest waives all institutional maintenance fees",
+          "Simple interest applies variable market interest rates over time, whereas compound interest guarantees a permanently fixed rate of return",
+          "Simple interest distributes dividends only at maturity, whereas compound interest doubles the original investment every single calendar year",
+          "Simple interest earns returns only on original principal, whereas compound interest earns interest on previously accumulated interest"
         ],
         "answer": 3,
         "explain": "Albert Einstein called compound interest the 'eighth wonder of the world': exponential mathematical growth!"
@@ -3968,10 +3968,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
-          "Direct proportion: 24 days",
-          "12 days",
-          "3 days",
-          "INVERSE PROPORTION: 6 days"
+          "Direct proportion requiring 24 days",
+          "Direct proportion requiring 12 days",
+          "Inverse proportion requiring 3 days",
+          "Inverse proportion requiring 6 days"
         ],
         "answer": 3,
         "explain": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -4011,10 +4011,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Is workers vs time to finish a wall DIRECT or INVERSE proportion? Calculate days for 12 workers:",
         "options": [
-          "Direct proportion: 24 days",
-          "12 days",
-          "3 days",
-          "INVERSE PROPORTION: 6 days"
+          "Direct proportion requiring 24 days",
+          "Direct proportion requiring 12 days",
+          "Inverse proportion requiring 3 days",
+          "Inverse proportion requiring 6 days"
         ],
         "answer": 3,
         "explain": "Inverse proportion: as the number of workers doubles, the time needed is cut in half: 6 days!"
@@ -4055,7 +4055,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which physical property distinguishes METALS from non-metals, allowing metals to be drawn into thin electrical wires without snapping?",
         "options": [
           "Brittleness",
-          "Malleability (beating into sheets)",
+          "Malleability",
           "Sonorousness",
           "DUCTILITY"
         ],
@@ -4065,8 +4065,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which seasonal crop pair belongs to the RABI CROPS sown in winter (October-November) and harvested in spring (April)?",
         "options": [
-          "Wheat and Mustard (Gram / Barley)",
-          "Paddy (Rice) and Maize (Kharif crops)",
+          "Wheat and Mustard",
+          "Paddy and Maize",
           "Soybean and Groundnut",
           "Cotton and Jute"
         ],
@@ -4079,7 +4079,7 @@ Object.assign(window.GAME_CONTENT, {
           "Lactobacillus bacteria",
           "Penicillium mold",
           "Amoeba",
-          "Yeast (Saccharomyces cerevisiae)"
+          "Yeast"
         ],
         "answer": 3,
         "explain": "Yeast ferments sugars anaerobically, generating CO₂ bubbles that leaven and fluff bread dough!"
@@ -4098,7 +4098,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which physical property distinguishes METALS from non-metals, allowing metals to be drawn into thin electrical wires without snapping?",
         "options": [
           "Brittleness",
-          "Malleability (beating into sheets)",
+          "Malleability",
           "Sonorousness",
           "DUCTILITY"
         ],
@@ -4108,8 +4108,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which seasonal crop pair belongs to the RABI CROPS sown in winter (October-November) and harvested in spring (April)?",
         "options": [
-          "Wheat and Mustard (Gram / Barley)",
-          "Paddy (Rice) and Maize (Kharif crops)",
+          "Wheat and Mustard",
+          "Paddy and Maize",
           "Soybean and Groundnut",
           "Cotton and Jute"
         ],
@@ -4122,7 +4122,7 @@ Object.assign(window.GAME_CONTENT, {
           "Lactobacillus bacteria",
           "Penicillium mold",
           "Amoeba",
-          "Yeast (Saccharomyces cerevisiae)"
+          "Yeast"
         ],
         "answer": 3,
         "explain": "Yeast ferments sugars anaerobically, generating CO₂ bubbles that leaven and fluff bread dough!"
@@ -4140,10 +4140,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does a PARABOLIC solar reflector cook food much faster than a standard flat box solar cooker?",
         "options": [
-          "It uses electricity from batteries",
-          "Its curved parabolic shape focuses all incoming parallel sunbeams into a single, intense focal point of extreme heat",
-          "It is painted white",
-          "It reflects light away into space"
+          "Its enclosed glass lid traps thermal infrared radiation while preventing warm convection air currents from escaping",
+          "Its curved parabolic surface concentrates all incoming parallel sunlight into a single intense high-temperature focal point",
+          "Its dark matte black coating absorbs ultraviolet wavelengths directly from ambient air without reflecting visible light",
+          "Its polished aluminum mirrors distribute incoming solar rays uniformly across a wide surface area to prevent burning"
         ],
         "answer": 1,
         "explain": "Parabolic geometry concentrates all intercepted solar energy onto the cooking vessel, reaching 200°C+!"
@@ -4151,10 +4151,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does bio-plastic synthesized from cornstarch or cassava differ from petroleum-based plastic bags?",
         "options": [
-          "It is 100% biodegradable, breaking down into water, CO₂, and biomass in compost within months without leaving toxic microplastics",
-          "It is waterproof forever",
-          "It is made of heavy metal lead",
-          "It never decomposes"
+          "It decomposes naturally into water, carbon dioxide, and organic matter in compost without shedding persistent microplastics",
+          "It remains completely impervious to microbial decay over centuries because of synthetic cross-linked covalent polymer bonds",
+          "It releases toxic hydrochloric acid vapor upon breakdown that sterilizes soil bacteria and prevents future vegetation growth",
+          "It melts into an impermeable petroleum resin layer when exposed to moisture that prevents groundwater recharge in landfills"
         ],
         "answer": 0,
         "explain": "Plant-derived polylactic acid (PLA) bio-plastics decompose safely in commercial compost facilities!"
@@ -4162,10 +4162,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary ecological hazard of single-use petroleum plastic packaging in oceans?",
         "options": [
-          "It makes seawater too sweet",
-          "It freezes the ocean",
-          "It has zero impact on sea life",
-          "It fragments into toxic microplastics that enter the marine food chain, poisoning zooplankton, fish, and humans"
+          "It dissolves completely into ocean water and neutralizes the natural salinity required by deep-sea organisms",
+          "It reacts with dissolved oxygen molecules to trigger catastrophic underwater boiling that destroys coral reefs",
+          "It coats the ocean surface with an impermeable mineral film that permanently prevents normal tidal movements",
+          "It breaks down into minute toxic microplastic particles that enter marine food webs and harm aquatic wildlife"
         ],
         "answer": 3,
         "explain": "Microplastics bioaccumulate up the trophic pyramid, carrying endocrine-disrupting petrochemical toxins into human food."
@@ -4183,10 +4183,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does a PARABOLIC solar reflector cook food much faster than a standard flat box solar cooker?",
         "options": [
-          "It uses electricity from batteries",
-          "Its curved parabolic shape focuses all incoming parallel sunbeams into a single, intense focal point of extreme heat",
-          "It is painted white",
-          "It reflects light away into space"
+          "Its enclosed glass lid traps thermal infrared radiation while preventing warm convection air currents from escaping",
+          "Its curved parabolic surface concentrates all incoming parallel sunlight into a single intense high-temperature focal point",
+          "Its dark matte black coating absorbs ultraviolet wavelengths directly from ambient air without reflecting visible light",
+          "Its polished aluminum mirrors distribute incoming solar rays uniformly across a wide surface area to prevent burning"
         ],
         "answer": 1,
         "explain": "Parabolic geometry concentrates all intercepted solar energy onto the cooking vessel, reaching 200°C+!"
@@ -4194,10 +4194,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does bio-plastic synthesized from cornstarch or cassava differ from petroleum-based plastic bags?",
         "options": [
-          "It is 100% biodegradable, breaking down into water, CO₂, and biomass in compost within months without leaving toxic microplastics",
-          "It is waterproof forever",
-          "It is made of heavy metal lead",
-          "It never decomposes"
+          "It decomposes naturally into water, carbon dioxide, and organic matter in compost without shedding persistent microplastics",
+          "It remains completely impervious to microbial decay over centuries because of synthetic cross-linked covalent polymer bonds",
+          "It releases toxic hydrochloric acid vapor upon breakdown that sterilizes soil bacteria and prevents future vegetation growth",
+          "It melts into an impermeable petroleum resin layer when exposed to moisture that prevents groundwater recharge in landfills"
         ],
         "answer": 0,
         "explain": "Plant-derived polylactic acid (PLA) bio-plastics decompose safely in commercial compost facilities!"
@@ -4205,10 +4205,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary ecological hazard of single-use petroleum plastic packaging in oceans?",
         "options": [
-          "It makes seawater too sweet",
-          "It freezes the ocean",
-          "It has zero impact on sea life",
-          "It fragments into toxic microplastics that enter the marine food chain, poisoning zooplankton, fish, and humans"
+          "It dissolves completely into ocean water and neutralizes the natural salinity required by deep-sea organisms",
+          "It reacts with dissolved oxygen molecules to trigger catastrophic underwater boiling that destroys coral reefs",
+          "It coats the ocean surface with an impermeable mineral film that permanently prevents normal tidal movements",
+          "It breaks down into minute toxic microplastic particles that enter marine food webs and harm aquatic wildlife"
         ],
         "answer": 3,
         "explain": "Microplastics bioaccumulate up the trophic pyramid, carrying endocrine-disrupting petrochemical toxins into human food."
@@ -4226,10 +4226,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary conservation benefit of DRIP IRRIGATION over traditional flood furrow irrigation?",
         "options": [
-          "It floods the whole field like a lake",
-          "It requires zero pipes",
-          "It makes weeds grow ten times faster",
-          "It delivers water drop-by-drop directly to the plant root zone, eliminating water wastage through surface runoff and evaporation by up to 70%"
+          "It floods entire agricultural fields uniformly to submerge weed seedlings under standing water and eliminate manual weeding",
+          "It sprays fine pressurized water droplets high into the atmosphere to increase local humidity and induce artificial rainfall",
+          "It relies entirely on gravity-fed open canals to deliver large volumes of river runoff across gently sloping crop terraces",
+          "It supplies water drop by drop directly to the plant root zone to minimize wastage from surface runoff and soil evaporation"
         ],
         "answer": 3,
         "explain": "Precision drip irrigation maximizes crop yield per drop while preventing soil waterlogging and salinization!"
@@ -4237,10 +4237,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does excessive runoff of synthetic chemical fertilizers into freshwater lakes cause DEAD ZONES (Eutrophication)?",
         "options": [
-          "Fertilizers turn fish into frogs",
-          "Excess nitrogen/phosphorus triggers massive algal blooms; when algae die, decomposing bacteria consume all dissolved oxygen, suffocating fish",
-          "Fertilizers make lake water freeze",
-          "Fertilizers evaporate the lake"
+          "Excess chemical salts dissolve limestone lakebeds, releasing acidic gases that turn freshwater lakes into toxic saline marshes",
+          "Runoff nutrients trigger rapid algal blooms whose decay consumes dissolved oxygen, leaving aquatic organisms unable to breathe",
+          "Synthetic compounds crystallize into an impenetrable surface crust that stops sunlight from warming the lake during cold seasons",
+          "High mineral concentrations cause water molecules to dissociate rapidly into hydrogen gas, causing catastrophic underwater fires"
         ],
         "answer": 1,
         "explain": "Eutrophication depletes aquatic dissolved oxygen, transforming vibrant lakes into hypoxic dead zones!"
@@ -4248,10 +4248,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do biological pest controls (like releasing predatory Ladybug beetles) protect crops safely?",
         "options": [
-          "Ladybugs poison the groundwater",
-          "Ladybugs naturally hunt and consume crop-damaging aphids without leaving toxic chemical residues on human food",
-          "Ladybugs eat the whole crop plant",
-          "Ladybugs act as chemical sprayers"
+          "Predatory beetles secrete synthetic neurotoxins into plant xylem tissues that make crop foliage bitter to herbivore pests",
+          "Predatory beetles consume sap-sucking pest insects naturally without leaving dangerous chemical residues on harvested crops",
+          "Predatory beetles form dense physical barriers around crop roots that physically block invasive soil nematodes from entering",
+          "Predatory beetles induce rapid genetic mutations in weeds that prevent invasive plant species from producing viable seeds"
         ],
         "answer": 1,
         "explain": "Integrated Pest Management (IPM) harnesses natural predator-prey dynamics to keep pests in check non-toxically!"
@@ -4269,10 +4269,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary conservation benefit of DRIP IRRIGATION over traditional flood furrow irrigation?",
         "options": [
-          "It floods the whole field like a lake",
-          "It requires zero pipes",
-          "It makes weeds grow ten times faster",
-          "It delivers water drop-by-drop directly to the plant root zone, eliminating water wastage through surface runoff and evaporation by up to 70%"
+          "It floods entire agricultural fields uniformly to submerge weed seedlings under standing water and eliminate manual weeding",
+          "It sprays fine pressurized water droplets high into the atmosphere to increase local humidity and induce artificial rainfall",
+          "It relies entirely on gravity-fed open canals to deliver large volumes of river runoff across gently sloping crop terraces",
+          "It supplies water drop by drop directly to the plant root zone to minimize wastage from surface runoff and soil evaporation"
         ],
         "answer": 3,
         "explain": "Precision drip irrigation maximizes crop yield per drop while preventing soil waterlogging and salinization!"
@@ -4280,10 +4280,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does excessive runoff of synthetic chemical fertilizers into freshwater lakes cause DEAD ZONES (Eutrophication)?",
         "options": [
-          "Fertilizers turn fish into frogs",
-          "Excess nitrogen/phosphorus triggers massive algal blooms; when algae die, decomposing bacteria consume all dissolved oxygen, suffocating fish",
-          "Fertilizers make lake water freeze",
-          "Fertilizers evaporate the lake"
+          "Excess chemical salts dissolve limestone lakebeds, releasing acidic gases that turn freshwater lakes into toxic saline marshes",
+          "Runoff nutrients trigger rapid algal blooms whose decay consumes dissolved oxygen, leaving aquatic organisms unable to breathe",
+          "Synthetic compounds crystallize into an impenetrable surface crust that stops sunlight from warming the lake during cold seasons",
+          "High mineral concentrations cause water molecules to dissociate rapidly into hydrogen gas, causing catastrophic underwater fires"
         ],
         "answer": 1,
         "explain": "Eutrophication depletes aquatic dissolved oxygen, transforming vibrant lakes into hypoxic dead zones!"
@@ -4291,10 +4291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do biological pest controls (like releasing predatory Ladybug beetles) protect crops safely?",
         "options": [
-          "Ladybugs poison the groundwater",
-          "Ladybugs naturally hunt and consume crop-damaging aphids without leaving toxic chemical residues on human food",
-          "Ladybugs eat the whole crop plant",
-          "Ladybugs act as chemical sprayers"
+          "Predatory beetles secrete synthetic neurotoxins into plant xylem tissues that make crop foliage bitter to herbivore pests",
+          "Predatory beetles consume sap-sucking pest insects naturally without leaving dangerous chemical residues on harvested crops",
+          "Predatory beetles form dense physical barriers around crop roots that physically block invasive soil nematodes from entering",
+          "Predatory beetles induce rapid genetic mutations in weeds that prevent invasive plant species from producing viable seeds"
         ],
         "answer": 1,
         "explain": "Integrated Pest Management (IPM) harnesses natural predator-prey dynamics to keep pests in check non-toxically!"
@@ -4312,10 +4312,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In this experiment, what is the 'INDEPENDENT VARIABLE' (the factor deliberately changed by the scientist)?",
         "options": [
-          "The amount of water (controlled)",
-          "The wavelength/color of light supplied to the seeds",
-          "The room temperature (controlled)",
-          "The brand of seeds"
+          "The total volume of water supplied to the pots",
+          "The specific color of light supplied to the seeds",
+          "The ambient room temperature during germination",
+          "The brand of compost soil placed in the containers"
         ],
         "answer": 1,
         "explain": "The independent variable is the single parameter manipulated by the researcher to test its effect!"
@@ -4323,10 +4323,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'DEPENDENT VARIABLE' being measured as the outcome?",
         "options": [
-          "The time of day the experiment started",
-          "The color of the light bulb",
-          "The height of the sprouted green shoot in millimeters",
-          "The size of the table"
+          "The duration of daily light exposure in hours",
+          "The amount of water added to each container",
+          "The total height of the sprouted seedling shoot",
+          "The surface area of the experimental workbench"
         ],
         "answer": 2,
         "explain": "The dependent variable is the measurable biological response (shoot growth) resulting from the independent variable."
@@ -4334,10 +4334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is a 'CONTROL GROUP' essential in any rigorous scientific investigation?",
         "options": [
-          "Control groups are not needed",
-          "To have extra plants in case you get hungry",
-          "To make the experiment look larger",
-          "It provides a baseline standard under normal conditions to prove that observed changes were truly caused by the variable being tested"
+          "It provides duplicate experimental trials where multiple variables are changed simultaneously to accelerate discovery",
+          "It ensures that all participating scientists record identical numerical measurements regardless of instrument precision",
+          "It replaces the need for repeated experimental trials by guaranteeing that initial observations contain zero random error",
+          "It establishes a reliable baseline under standard conditions to verify that observed effects result solely from the tested variable"
         ],
         "answer": 3,
         "explain": "Without a control group, you cannot prove whether the outcome resulted from your test or random environmental flux!"
@@ -4355,10 +4355,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In this experiment, what is the 'INDEPENDENT VARIABLE' (the factor deliberately changed by the scientist)?",
         "options": [
-          "The amount of water (controlled)",
-          "The wavelength/color of light supplied to the seeds",
-          "The room temperature (controlled)",
-          "The brand of seeds"
+          "The total volume of water supplied to the pots",
+          "The specific color of light supplied to the seeds",
+          "The ambient room temperature during germination",
+          "The brand of compost soil placed in the containers"
         ],
         "answer": 1,
         "explain": "The independent variable is the single parameter manipulated by the researcher to test its effect!"
@@ -4366,10 +4366,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'DEPENDENT VARIABLE' being measured as the outcome?",
         "options": [
-          "The time of day the experiment started",
-          "The color of the light bulb",
-          "The height of the sprouted green shoot in millimeters",
-          "The size of the table"
+          "The duration of daily light exposure in hours",
+          "The amount of water added to each container",
+          "The total height of the sprouted seedling shoot",
+          "The surface area of the experimental workbench"
         ],
         "answer": 2,
         "explain": "The dependent variable is the measurable biological response (shoot growth) resulting from the independent variable."
@@ -4377,10 +4377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is a 'CONTROL GROUP' essential in any rigorous scientific investigation?",
         "options": [
-          "Control groups are not needed",
-          "To have extra plants in case you get hungry",
-          "To make the experiment look larger",
-          "It provides a baseline standard under normal conditions to prove that observed changes were truly caused by the variable being tested"
+          "It provides duplicate experimental trials where multiple variables are changed simultaneously to accelerate discovery",
+          "It ensures that all participating scientists record identical numerical measurements regardless of instrument precision",
+          "It replaces the need for repeated experimental trials by guaranteeing that initial observations contain zero random error",
+          "It establishes a reliable baseline under standard conditions to verify that observed effects result solely from the tested variable"
         ],
         "answer": 3,
         "explain": "Without a control group, you cannot prove whether the outcome resulted from your test or random environmental flux!"
@@ -4398,10 +4398,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What chemical atmospheric pollutant emitted from nearby petroleum refineries and coal power plants causes ACID RAIN by forming sulfuric acid?",
         "options": [
-          "Helium gas",
-          "Water vapor",
-          "Pure oxygen gas",
-          "Sulfur Dioxide (SO₂) and Nitrogen Oxides (NOₓ)"
+          "Carbon Monoxide and Argon gas",
+          "Pure Oxygen and Nitrogen gas",
+          "Methane and Water vapor clouds",
+          "Sulfur Dioxide and Nitrogen Oxides"
         ],
         "answer": 3,
         "explain": "SO₂ + H₂O -> H₂SO₄ (sulfuric acid) and NO₂ + H₂O -> HNO₃ (nitric acid) acidify precipitation down to pH 4 or lower!"
@@ -4409,10 +4409,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What chemical reaction occurs when acid rain (H₂SO₄) attacks the calcium carbonate (CaCO₃) marble facade of the Taj Mahal?",
         "options": [
-          "CaCO₃ + H₂SO₄ -> CaSO₄ (Calcium Sulfate / Gypsum) + H₂O + CO₂, dissolving and corroding the stone ('Marble Cancer')",
-          "The marble turns into solid gold",
-          "The marble becomes ten times stronger",
-          "The acid evaporates harmlessly"
+          "Marble reacts with sulfuric acid to form soluble gypsum, corroding the stone",
+          "Marble oxidizes with rainwater to produce insoluble limestone, hardening the rock",
+          "Marble combines with atmospheric nitrogen to form basic calcium oxide crystals",
+          "Marble absorbs acid rain molecules without undergoing any chemical transformation"
         ],
         "answer": 0,
         "explain": "Acid dissolves insoluble calcium carbonate into soluble gypsum, pitting and disfiguring heritage monuments!"
@@ -4420,10 +4420,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'PHOTOCHEMICAL SMOG' that blankets northern Indian cities in winter?",
         "options": [
-          "A toxic mixture of smoke, fog, unburnt hydrocarbons, and ozone triggered when sunlight reacts with vehicle and stubble exhaust in cold stagnant air",
-          "Ordinary clean river fog",
-          "Steam from boiling tea kettles",
-          "Dust from the Sahara desert"
+          "A hazardous mixture of smoke, fog, and ozone formed when sunlight reacts with vehicular emissions and stubble smoke in cold stagnant air",
+          "A natural mist produced when warm moisture from river valleys condenses into pure water vapor droplets during calm winter mornings",
+          "An airborne suspension of coarse silica dust particles carried across northern plains by high-velocity seasonal monsoon winds",
+          "A dense cloud of water vapor released from cooling towers of thermal power stations that traps pleasant geothermal heat near ground level"
         ],
         "answer": 0,
         "explain": "Winter temperature inversions trap vehicular particulate matter and nitrogen dioxide into hazardous toxic smog."
@@ -4441,10 +4441,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What chemical atmospheric pollutant emitted from nearby petroleum refineries and coal power plants causes ACID RAIN by forming sulfuric acid?",
         "options": [
-          "Helium gas",
-          "Water vapor",
-          "Pure oxygen gas",
-          "Sulfur Dioxide (SO₂) and Nitrogen Oxides (NOₓ)"
+          "Carbon Monoxide and Argon gas",
+          "Pure Oxygen and Nitrogen gas",
+          "Methane and Water vapor clouds",
+          "Sulfur Dioxide and Nitrogen Oxides"
         ],
         "answer": 3,
         "explain": "SO₂ + H₂O -> H₂SO₄ (sulfuric acid) and NO₂ + H₂O -> HNO₃ (nitric acid) acidify precipitation down to pH 4 or lower!"
@@ -4452,10 +4452,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What chemical reaction occurs when acid rain (H₂SO₄) attacks the calcium carbonate (CaCO₃) marble facade of the Taj Mahal?",
         "options": [
-          "CaCO₃ + H₂SO₄ -> CaSO₄ (Calcium Sulfate / Gypsum) + H₂O + CO₂, dissolving and corroding the stone ('Marble Cancer')",
-          "The marble turns into solid gold",
-          "The marble becomes ten times stronger",
-          "The acid evaporates harmlessly"
+          "Marble reacts with sulfuric acid to form soluble gypsum, corroding the stone",
+          "Marble oxidizes with rainwater to produce insoluble limestone, hardening the rock",
+          "Marble combines with atmospheric nitrogen to form basic calcium oxide crystals",
+          "Marble absorbs acid rain molecules without undergoing any chemical transformation"
         ],
         "answer": 0,
         "explain": "Acid dissolves insoluble calcium carbonate into soluble gypsum, pitting and disfiguring heritage monuments!"
@@ -4463,10 +4463,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'PHOTOCHEMICAL SMOG' that blankets northern Indian cities in winter?",
         "options": [
-          "A toxic mixture of smoke, fog, unburnt hydrocarbons, and ozone triggered when sunlight reacts with vehicle and stubble exhaust in cold stagnant air",
-          "Ordinary clean river fog",
-          "Steam from boiling tea kettles",
-          "Dust from the Sahara desert"
+          "A hazardous mixture of smoke, fog, and ozone formed when sunlight reacts with vehicular emissions and stubble smoke in cold stagnant air",
+          "A natural mist produced when warm moisture from river valleys condenses into pure water vapor droplets during calm winter mornings",
+          "An airborne suspension of coarse silica dust particles carried across northern plains by high-velocity seasonal monsoon winds",
+          "A dense cloud of water vapor released from cooling towers of thermal power stations that traps pleasant geothermal heat near ground level"
         ],
         "answer": 0,
         "explain": "Winter temperature inversions trap vehicular particulate matter and nitrogen dioxide into hazardous toxic smog."
@@ -4484,10 +4484,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What gas is evolved during the single displacement reaction: Zinc + Hydrochloric Acid -> Zinc Chloride + ________?",
         "options": [
-          "Hydrogen Gas (H₂)",
-          "Oxygen Gas (O₂)",
-          "Nitrogen Gas (N₂)",
-          "Carbon Dioxide (CO₂)"
+          "Hydrogen Gas",
+          "Oxygen Gas",
+          "Nitrogen Gas",
+          "Carbon Dioxide"
         ],
         "answer": 0,
         "explain": "Zn + 2HCl -> ZnCl₂ + H₂↑! Reactive metals displace hydrogen from acids, releasing flammable hydrogen gas."
@@ -4495,10 +4495,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What definitive acoustic test confirms that the gas collected from the acid-metal reaction is HYDROGEN?",
         "options": [
-          "It smells like rotten eggs",
-          "It turns lime water milky (that tests CO₂)",
-          "It burns with a characteristic sharp 'POP' sound when a burning wooden splinter is brought near the test tube mouth",
-          "It extinguishes the match with zero sound"
+          "It turns moist red litmus paper deep blue when exposed directly to the mouth of the reaction tube",
+          "It produces a sharp hissing whistle and turns clear lime water milky when bubbled through the liquid",
+          "It burns with a distinctive pop sound when an ignited wooden splint is brought near the tube opening",
+          "It extinguishes a burning splint silently without supporting combustion or producing any visible flame"
         ],
         "answer": 2,
         "explain": "The 'Pop Test'! Hydrogen gas ignites instantly in air with a small characteristic pop explosion."
@@ -4506,10 +4506,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are acidic foodstuffs (like lemon pickles, curd, or tomato chutney) NEVER stored in copper, brass, or aluminium vessels?",
         "options": [
-          "Because metal vessels are too heavy",
-          "The vessel will melt into liquid water",
-          "Acids in the food react with the metal to produce toxic, poisonous metallic salts that can cause severe food poisoning",
-          "The metal will make the food turn sweet"
+          "Food acids absorb metallic luster from the container walls, permanently altering the natural appearance of the food",
+          "Food acids cause metallic containers to turn brittle and crack into fragments under normal room temperature storage",
+          "Food acids react with metals to produce toxic chemical compounds that can cause severe illness if ingested by humans",
+          "Food acids neutralize all dietary nutrients in the preserved food, causing the contents to lose all caloric energy"
         ],
         "answer": 2,
         "explain": "Organic acids react with copper and brass to form toxic copper verdigris salts, contaminating food!"
@@ -4527,10 +4527,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What gas is evolved during the single displacement reaction: Zinc + Hydrochloric Acid -> Zinc Chloride + ________?",
         "options": [
-          "Hydrogen Gas (H₂)",
-          "Oxygen Gas (O₂)",
-          "Nitrogen Gas (N₂)",
-          "Carbon Dioxide (CO₂)"
+          "Hydrogen Gas",
+          "Oxygen Gas",
+          "Nitrogen Gas",
+          "Carbon Dioxide"
         ],
         "answer": 0,
         "explain": "Zn + 2HCl -> ZnCl₂ + H₂↑! Reactive metals displace hydrogen from acids, releasing flammable hydrogen gas."
@@ -4538,10 +4538,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What definitive acoustic test confirms that the gas collected from the acid-metal reaction is HYDROGEN?",
         "options": [
-          "It smells like rotten eggs",
-          "It turns lime water milky (that tests CO₂)",
-          "It burns with a characteristic sharp 'POP' sound when a burning wooden splinter is brought near the test tube mouth",
-          "It extinguishes the match with zero sound"
+          "It turns moist red litmus paper deep blue when exposed directly to the mouth of the reaction tube",
+          "It produces a sharp hissing whistle and turns clear lime water milky when bubbled through the liquid",
+          "It burns with a distinctive pop sound when an ignited wooden splint is brought near the tube opening",
+          "It extinguishes a burning splint silently without supporting combustion or producing any visible flame"
         ],
         "answer": 2,
         "explain": "The 'Pop Test'! Hydrogen gas ignites instantly in air with a small characteristic pop explosion."
@@ -4549,10 +4549,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are acidic foodstuffs (like lemon pickles, curd, or tomato chutney) NEVER stored in copper, brass, or aluminium vessels?",
         "options": [
-          "Because metal vessels are too heavy",
-          "The vessel will melt into liquid water",
-          "Acids in the food react with the metal to produce toxic, poisonous metallic salts that can cause severe food poisoning",
-          "The metal will make the food turn sweet"
+          "Food acids absorb metallic luster from the container walls, permanently altering the natural appearance of the food",
+          "Food acids cause metallic containers to turn brittle and crack into fragments under normal room temperature storage",
+          "Food acids react with metals to produce toxic chemical compounds that can cause severe illness if ingested by humans",
+          "Food acids neutralize all dietary nutrients in the preserved food, causing the contents to lose all caloric energy"
         ],
         "answer": 2,
         "explain": "Organic acids react with copper and brass to form toxic copper verdigris salts, contaminating food!"
@@ -4571,8 +4571,8 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which zone of a candle flame is the HOTTEST, where complete combustion takes place, appearing as a faint blue outer mantle?",
         "options": [
           "The Dark Innermost Zone around the wick",
-          "The Luminous Middle Zone (yellow zone)",
-          "The Non-Luminous Outer Zone (zone of complete combustion)",
+          "The Luminous Middle Zone",
+          "The Non-Luminous Outer Zone",
           "All zones have identical temperature"
         ],
         "answer": 2,
@@ -4581,10 +4581,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does the middle luminous zone of a candle flame glow bright YELLOW?",
         "options": [
-          "Incomplete combustion produces unburnt glowing carbon soot particles that radiate yellow incandescent light",
-          "It contains pure gold dust",
-          "Because oxygen is burning",
-          "Because candle wax is painted yellow"
+          "Incomplete combustion produces glowing carbon soot particles that radiate bright yellow incandescent light",
+          "Complete combustion of pure vaporized wax produces high-frequency photons that radiate intense yellow light",
+          "The decomposition of atmospheric nitrogen molecules in the hot flame core emits bright yellow atomic light",
+          "Molten wax drawn through the cotton wick undergoes vaporization that scatters yellow wavelengths from the room"
         ],
         "answer": 0,
         "explain": "Incomplete combustion leaves tiny carbon particles that glow hot yellow before escaping as soot."
@@ -4592,7 +4592,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What three conditions make up the 'FIRE TRIANGLE', all of which are essential to sustain combustion?",
         "options": [
-          "Fuel, Oxygen (Supporter of combustion), and Heat (reaching ignition temperature)",
+          "Fuel, Oxygen, and Heat",
           "Nitrogen, Smoke, and Ash",
           "Fuel, Water, and Carbon",
           "Wood, Matches, and Wind"
@@ -4614,8 +4614,8 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which zone of a candle flame is the HOTTEST, where complete combustion takes place, appearing as a faint blue outer mantle?",
         "options": [
           "The Dark Innermost Zone around the wick",
-          "The Luminous Middle Zone (yellow zone)",
-          "The Non-Luminous Outer Zone (zone of complete combustion)",
+          "The Luminous Middle Zone",
+          "The Non-Luminous Outer Zone",
           "All zones have identical temperature"
         ],
         "answer": 2,
@@ -4624,10 +4624,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does the middle luminous zone of a candle flame glow bright YELLOW?",
         "options": [
-          "Incomplete combustion produces unburnt glowing carbon soot particles that radiate yellow incandescent light",
-          "It contains pure gold dust",
-          "Because oxygen is burning",
-          "Because candle wax is painted yellow"
+          "Incomplete combustion produces glowing carbon soot particles that radiate bright yellow incandescent light",
+          "Complete combustion of pure vaporized wax produces high-frequency photons that radiate intense yellow light",
+          "The decomposition of atmospheric nitrogen molecules in the hot flame core emits bright yellow atomic light",
+          "Molten wax drawn through the cotton wick undergoes vaporization that scatters yellow wavelengths from the room"
         ],
         "answer": 0,
         "explain": "Incomplete combustion leaves tiny carbon particles that glow hot yellow before escaping as soot."
@@ -4635,7 +4635,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What three conditions make up the 'FIRE TRIANGLE', all of which are essential to sustain combustion?",
         "options": [
-          "Fuel, Oxygen (Supporter of combustion), and Heat (reaching ignition temperature)",
+          "Fuel, Oxygen, and Heat",
           "Nitrogen, Smoke, and Ash",
           "Fuel, Water, and Carbon",
           "Wood, Matches, and Wind"
@@ -4668,7 +4668,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which green organelle containing chlorophyll is found in plant cells for photosynthesis, but never in animal cells?",
         "options": [
           "Ribosomes",
-          "Chloroplasts (Plastids)",
+          "Chloroplasts",
           "Centrosomes",
           "Lysosomes"
         ],
@@ -4678,10 +4678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between VIVIPAROUS animals and OVIPAROUS animals?",
         "options": [
-          "Oviparous animals have no bones",
-          "They mean the exact same classification",
-          "Viviparous animals give birth to live young (like humans, cows, whales); Oviparous animals lay eggs (like birds, frogs, reptiles)",
-          "Viviparous animals fly; oviparous animals swim"
+          "Viviparous animals reproduce through spores, whereas oviparous animals reproduce by budding",
+          "Viviparous animals fertilize externally in water, whereas oviparous animals fertilize internally",
+          "Viviparous animals give birth to living young, whereas oviparous animals lay protective eggs",
+          "Viviparous animals possess hard outer exoskeletons, whereas oviparous animals have backbones"
         ],
         "answer": 2,
         "explain": "Viviparous = live birth (mammals); Oviparous = egg-laying (birds, fish, amphibians, reptiles)!"
@@ -4711,7 +4711,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which green organelle containing chlorophyll is found in plant cells for photosynthesis, but never in animal cells?",
         "options": [
           "Ribosomes",
-          "Chloroplasts (Plastids)",
+          "Chloroplasts",
           "Centrosomes",
           "Lysosomes"
         ],
@@ -4721,10 +4721,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the difference between VIVIPAROUS animals and OVIPAROUS animals?",
         "options": [
-          "Oviparous animals have no bones",
-          "They mean the exact same classification",
-          "Viviparous animals give birth to live young (like humans, cows, whales); Oviparous animals lay eggs (like birds, frogs, reptiles)",
-          "Viviparous animals fly; oviparous animals swim"
+          "Viviparous animals reproduce through spores, whereas oviparous animals reproduce by budding",
+          "Viviparous animals fertilize externally in water, whereas oviparous animals fertilize internally",
+          "Viviparous animals give birth to living young, whereas oviparous animals lay protective eggs",
+          "Viviparous animals possess hard outer exoskeletons, whereas oviparous animals have backbones"
         ],
         "answer": 2,
         "explain": "Viviparous = live birth (mammals); Oviparous = egg-laying (birds, fish, amphibians, reptiles)!"
@@ -4753,10 +4753,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of the colored muscular IRIS in controlling vision?",
         "options": [
-          "It regulates the amount of light entering the eye by adjusting the diameter of the central pupil opening",
-          "It connects to the ear",
-          "It holds the tears",
-          "It focuses sound waves"
+          "It regulates the amount of light entering the eye by continuously adjusting the size of the central pupil",
+          "It bends incoming light rays to project sharp inverted images directly onto photoreceptors of the retina",
+          "It transmits electrical impulses from rod and cone cells through the optic nerve to the cerebral cortex",
+          "It secretes lubricating saline fluid across the cornea to cleanse the eyeball surface of airborne debris"
         ],
         "answer": 0,
         "explain": "The iris contracts the pupil in blinding sunlight and dilates the pupil in dim darkness to optimize vision."
@@ -4764,7 +4764,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What kind of image does the flexible, convex crystalline lens of the eye cast onto the retina?",
         "options": [
-          "A Real and Inverted (upside-down) image (which the brain's visual cortex flips right-side up)",
+          "A Real and Inverted image",
           "A reflection of the outside world",
           "A virtual upright hologram",
           "A black-and-white flat square"
@@ -4796,10 +4796,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of the colored muscular IRIS in controlling vision?",
         "options": [
-          "It regulates the amount of light entering the eye by adjusting the diameter of the central pupil opening",
-          "It connects to the ear",
-          "It holds the tears",
-          "It focuses sound waves"
+          "It regulates the amount of light entering the eye by continuously adjusting the size of the central pupil",
+          "It bends incoming light rays to project sharp inverted images directly onto photoreceptors of the retina",
+          "It transmits electrical impulses from rod and cone cells through the optic nerve to the cerebral cortex",
+          "It secretes lubricating saline fluid across the cornea to cleanse the eyeball surface of airborne debris"
         ],
         "answer": 0,
         "explain": "The iris contracts the pupil in blinding sunlight and dilates the pupil in dim darkness to optimize vision."
@@ -4807,7 +4807,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What kind of image does the flexible, convex crystalline lens of the eye cast onto the retina?",
         "options": [
-          "A Real and Inverted (upside-down) image (which the brain's visual cortex flips right-side up)",
+          "A Real and Inverted image",
           "A reflection of the outside world",
           "A virtual upright hologram",
           "A black-and-white flat square"
@@ -4828,10 +4828,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the FIRST LAW OF REFLECTION state regarding the angle of incidence (∠i) and angle of reflection (∠r)?",
         "options": [
-          "They always sum to 90°",
-          "Angle of incidence is double the reflection",
-          "Angle of reflection is always zero",
-          "The angle of incidence is ALWAYS EQUAL to the angle of reflection (∠i = ∠r)"
+          "The angle of incidence is always strictly greater than the angle of reflection",
+          "The angle of incidence and the angle of reflection always add up to 90 degrees",
+          "The angle of reflection is always determined by the density of the mirror glass",
+          "The angle of incidence is always perfectly equal to the angle of reflection"
         ],
         "answer": 3,
         "explain": "Fundamental optical law: ∠i = ∠r! If light strikes a mirror at 35° to the normal, it reflects off at exactly 35°."
@@ -4839,10 +4839,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'NORMAL' in an optical reflection diagram?",
         "options": [
-          "The ray of light itself",
-          "The line showing the table",
-          "A line parallel to the mirror",
-          "An imaginary perpendicular line drawn at 90 degrees to the reflective mirror surface at the point of incidence"
+          "The incoming light ray that travels from the illumination source toward the reflecting mirror surface",
+          "The reflected light beam that bounces off the mirror face and travels toward an observer's eyes",
+          "The horizontal baseline that marks the boundary between the polished mirror glass and the table stand",
+          "An imaginary perpendicular line drawn at ninety degrees to the mirror surface at the point of incidence"
         ],
         "answer": 3,
         "explain": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
@@ -4850,9 +4850,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
-          "2 images",
-          "4 images",
-          "3 images: - 1 = 4 - 1 = 3 images",
+          "Exactly 2 images",
+          "Exactly 4 images",
+          "Exactly 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -4871,10 +4871,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the FIRST LAW OF REFLECTION state regarding the angle of incidence (∠i) and angle of reflection (∠r)?",
         "options": [
-          "They always sum to 90°",
-          "Angle of incidence is double the reflection",
-          "Angle of reflection is always zero",
-          "The angle of incidence is ALWAYS EQUAL to the angle of reflection (∠i = ∠r)"
+          "The angle of incidence is always strictly greater than the angle of reflection",
+          "The angle of incidence and the angle of reflection always add up to 90 degrees",
+          "The angle of reflection is always determined by the density of the mirror glass",
+          "The angle of incidence is always perfectly equal to the angle of reflection"
         ],
         "answer": 3,
         "explain": "Fundamental optical law: ∠i = ∠r! If light strikes a mirror at 35° to the normal, it reflects off at exactly 35°."
@@ -4882,10 +4882,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the 'NORMAL' in an optical reflection diagram?",
         "options": [
-          "The ray of light itself",
-          "The line showing the table",
-          "A line parallel to the mirror",
-          "An imaginary perpendicular line drawn at 90 degrees to the reflective mirror surface at the point of incidence"
+          "The incoming light ray that travels from the illumination source toward the reflecting mirror surface",
+          "The reflected light beam that bounces off the mirror face and travels toward an observer's eyes",
+          "The horizontal baseline that marks the boundary between the polished mirror glass and the table stand",
+          "An imaginary perpendicular line drawn at ninety degrees to the mirror surface at the point of incidence"
         ],
         "answer": 3,
         "explain": "All reflection angles are measured relative to the perpendicular Normal line (90° to the mirror)!"
@@ -4893,9 +4893,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How many multiple images will be formed of an object placed between two plane mirrors inclined at an angle of 90 degrees?",
         "options": [
-          "2 images",
-          "4 images",
-          "3 images: - 1 = 4 - 1 = 3 images",
+          "Exactly 2 images",
+          "Exactly 4 images",
+          "Exactly 3 images",
           "Infinite images"
         ],
         "answer": 2,
@@ -4914,10 +4914,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do microscopists apply stains (like Iodine solution for onion peel, or Methylene Blue for cheek cells)?",
         "options": [
-          "To kill all the glass slides",
-          "To make cells grow bigger",
-          "Stains color cell nuclei, membranes, and cytoplasm differentially, creating high contrast to make transparent organelles clearly visible",
-          "Stains make cells turn into plastic"
+          "Stains chemically fix cellular membranes to prevent specimens from evaporating under the heat of the microscope light source",
+          "Stains dissolve outer cell walls so that internal organelles can expand and become large enough for standard light lenses",
+          "Stains color specific cellular structures differentially, providing optical contrast so transparent organelles become visible",
+          "Stains destroy extraneous surface bacteria to ensure that only eukaryotic chromosomal DNA survives for optical observation"
         ],
         "answer": 2,
         "explain": "Biological stains bind to cellular nucleic acids and proteins, highlighting transparent structures under brightfield microscopy!"
@@ -4925,10 +4925,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When lowering a thin glass coverslip onto the wet mount specimen with a needle, what common mistake must be avoided?",
         "options": [
-          "Using clean water",
-          "Trapping air bubbles beneath the coverslip, which appear as thick dark rings that obstruct the specimen",
-          "Looking through the eyepiece",
-          "Turning on the microscope lamp"
+          "Touching the glass slide with clean mounting forceps, which leaves permanent microscopic scratching",
+          "Trapping air bubbles beneath the glass, which form dark circular rings that obscure cellular details",
+          "Placing excess mounting fluid on the specimen, which dissolves cellular membranes during observation",
+          "Aligning the coverslip with the slide edge, which prevents light beams from entering the objective lens"
         ],
         "answer": 1,
         "explain": "Lowering coverslips gently at a 45° angle prevents round optical air bubbles from obscuring cells!"
@@ -4939,7 +4939,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Centriole",
           "The Flagellum",
           "The Ribosome",
-          "The Cell Nucleus (the control center housing genetic DNA)"
+          "The Cell Nucleus"
         ],
         "answer": 3,
         "explain": "The dark-staining nucleus is the prominent command center governing genetic cellular activity."
@@ -4957,10 +4957,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do microscopists apply stains (like Iodine solution for onion peel, or Methylene Blue for cheek cells)?",
         "options": [
-          "To kill all the glass slides",
-          "To make cells grow bigger",
-          "Stains color cell nuclei, membranes, and cytoplasm differentially, creating high contrast to make transparent organelles clearly visible",
-          "Stains make cells turn into plastic"
+          "Stains chemically fix cellular membranes to prevent specimens from evaporating under the heat of the microscope light source",
+          "Stains dissolve outer cell walls so that internal organelles can expand and become large enough for standard light lenses",
+          "Stains color specific cellular structures differentially, providing optical contrast so transparent organelles become visible",
+          "Stains destroy extraneous surface bacteria to ensure that only eukaryotic chromosomal DNA survives for optical observation"
         ],
         "answer": 2,
         "explain": "Biological stains bind to cellular nucleic acids and proteins, highlighting transparent structures under brightfield microscopy!"
@@ -4968,10 +4968,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When lowering a thin glass coverslip onto the wet mount specimen with a needle, what common mistake must be avoided?",
         "options": [
-          "Using clean water",
-          "Trapping air bubbles beneath the coverslip, which appear as thick dark rings that obstruct the specimen",
-          "Looking through the eyepiece",
-          "Turning on the microscope lamp"
+          "Touching the glass slide with clean mounting forceps, which leaves permanent microscopic scratching",
+          "Trapping air bubbles beneath the glass, which form dark circular rings that obscure cellular details",
+          "Placing excess mounting fluid on the specimen, which dissolves cellular membranes during observation",
+          "Aligning the coverslip with the slide edge, which prevents light beams from entering the objective lens"
         ],
         "answer": 1,
         "explain": "Lowering coverslips gently at a 45° angle prevents round optical air bubbles from obscuring cells!"
@@ -4982,7 +4982,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Centriole",
           "The Flagellum",
           "The Ribosome",
-          "The Cell Nucleus (the control center housing genetic DNA)"
+          "The Cell Nucleus"
         ],
         "answer": 3,
         "explain": "The dark-staining nucleus is the prominent command center governing genetic cellular activity."
@@ -5000,10 +5000,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are rubber tires of racing cars and buses engineered with deep tread patterns (grooves)?",
         "options": [
-          "Treads channel away standing road water and increase surface interlocking grip (friction) to prevent dangerous skidding",
-          "To make tires look fashionable",
-          "To make the vehicle lighter",
-          "Treads make tires spin without touching the road"
+          "Treads channel away surface water and increase road interlocking friction to prevent dangerous skidding",
+          "Treads reduce total tire weight so vehicles consume significantly less motor fuel during acceleration",
+          "Treads create aerodynamic lift underneath the chassis to keep vehicle wheels rotating at higher speeds",
+          "Treads allow tires to slide smoothly over rough gravel without experiencing any kinetic surface friction"
         ],
         "answer": 0,
         "explain": "Grooved treads dispel aquaplaning water films, ensuring high frictional contact between tire and pavement!"
@@ -5011,10 +5011,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are steel BALL BEARINGS installed inside bicycle hubs and ceiling fan axles?",
         "options": [
-          "To stop the axle from rotating",
-          "To make fans heavier",
-          "Rolling friction is vastly smaller than sliding friction, drastically reducing energy waste and wear",
-          "To produce loud musical hums"
+          "Steel spheres lock rotating shafts securely in place to eliminate all mechanical vibration during operation",
+          "Steel spheres convert kinetic rotational motion into magnetic induction to recharge internal electric circuits",
+          "Rolling friction is significantly smaller than sliding friction, reducing energy loss and mechanical wear",
+          "Rolling spheres generate aerodynamic resistance that prevents moving axles from exceeding safe speed limits"
         ],
         "answer": 2,
         "explain": "Replacing sliding contact with smooth rolling spheres cuts kinetic friction down by up to 90%!"
@@ -5043,10 +5043,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are rubber tires of racing cars and buses engineered with deep tread patterns (grooves)?",
         "options": [
-          "Treads channel away standing road water and increase surface interlocking grip (friction) to prevent dangerous skidding",
-          "To make tires look fashionable",
-          "To make the vehicle lighter",
-          "Treads make tires spin without touching the road"
+          "Treads channel away surface water and increase road interlocking friction to prevent dangerous skidding",
+          "Treads reduce total tire weight so vehicles consume significantly less motor fuel during acceleration",
+          "Treads create aerodynamic lift underneath the chassis to keep vehicle wheels rotating at higher speeds",
+          "Treads allow tires to slide smoothly over rough gravel without experiencing any kinetic surface friction"
         ],
         "answer": 0,
         "explain": "Grooved treads dispel aquaplaning water films, ensuring high frictional contact between tire and pavement!"
@@ -5054,10 +5054,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are steel BALL BEARINGS installed inside bicycle hubs and ceiling fan axles?",
         "options": [
-          "To stop the axle from rotating",
-          "To make fans heavier",
-          "Rolling friction is vastly smaller than sliding friction, drastically reducing energy waste and wear",
-          "To produce loud musical hums"
+          "Steel spheres lock rotating shafts securely in place to eliminate all mechanical vibration during operation",
+          "Steel spheres convert kinetic rotational motion into magnetic induction to recharge internal electric circuits",
+          "Rolling friction is significantly smaller than sliding friction, reducing energy loss and mechanical wear",
+          "Rolling spheres generate aerodynamic resistance that prevents moving axles from exceeding safe speed limits"
         ],
         "answer": 2,
         "explain": "Replacing sliding contact with smooth rolling spheres cuts kinetic friction down by up to 90%!"
@@ -5086,10 +5086,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What groundbreaking discovery did Michael Faraday make in 1831 that powers every modern electric turbine and generator on Earth?",
         "options": [
-          "He discovered plastic",
-          "He invented steam engines",
-          "He invented the light bulb",
-          "ELECTROMAGNETIC INDUCTION: moving a magnet through a wire coil induces an electric current in the circuit"
+          "Thermoelectric refrigeration: applying thermal gradients across semiconductor junctions generates freezing temperatures",
+          "Electrostatic shielding: hollow metal conductors block external static fields from reaching delicate instruments",
+          "Photoelectric conversion: shining ultraviolet rays onto polished metallic surfaces releases free electrons into space",
+          "Electromagnetic induction: moving a magnet relative to a wire coil produces an induced electric current in the circuit"
         ],
         "answer": 3,
         "explain": "Faraday proved that kinetic motion in a magnetic field generates electrical voltage, founding our electrified civilization!"
@@ -5097,10 +5097,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did Dmitri Mendeleev organize his original PERIODIC TABLE OF ELEMENTS in 1869 so accurately that he predicted elements before they were discovered?",
         "options": [
-          "He guessed random positions",
-          "He grouped elements by their price in gold",
-          "He arranged elements alphabetically by name",
-          "He arranged elements by increasing atomic mass and chemical valence patterns, leaving blank gaps for undiscovered elements (like Gallium and Germanium)"
+          "He organized elements strictly by electrical conductivity and boiling points, placing noble gases in the opening group",
+          "He arranged elements according to their alphabetical names in Latin and grouped compounds based on crystalline geometry",
+          "He categorized elements by terrestrial abundance in Earth's crust and classified them by their optical color spectra",
+          "He ordered elements by increasing atomic mass and recurring chemical properties, leaving gaps for undiscovered elements"
         ],
         "answer": 3,
         "explain": "Mendeleev's genius left empty spots, predicting the exact atomic masses and chemical traits of yet-to-be-found elements!"
@@ -5108,10 +5108,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What unprecedented scientific achievement did Marie Curie accomplish, earning her Nobel Prizes in BOTH Physics (1903) and Chemistry (1911)?",
         "options": [
-          "She discovered the radioactive elements Polonium and Radium and pioneered the science of radioactivity",
-          "She was the first woman to walk on the moon",
-          "She discovered penicillin",
-          "She invented the telescope"
+          "She discovered the radioactive elements polonium and radium and pioneered fundamental research on radioactivity",
+          "She discovered artificial nuclear fission and constructed the first operational particle accelerator in Europe",
+          "She isolated the double-helix molecular structure of chromosomal DNA using advanced X-ray diffraction techniques",
+          "She formulated the laws of electromagnetic wave propagation and proved that light behaves as massless energy packets"
         ],
         "answer": 0,
         "explain": "Marie Curie is the only scientist in human history to win Nobel Prizes in two distinct scientific disciplines!"
@@ -5129,10 +5129,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What groundbreaking discovery did Michael Faraday make in 1831 that powers every modern electric turbine and generator on Earth?",
         "options": [
-          "He discovered plastic",
-          "He invented steam engines",
-          "He invented the light bulb",
-          "ELECTROMAGNETIC INDUCTION: moving a magnet through a wire coil induces an electric current in the circuit"
+          "Thermoelectric refrigeration: applying thermal gradients across semiconductor junctions generates freezing temperatures",
+          "Electrostatic shielding: hollow metal conductors block external static fields from reaching delicate instruments",
+          "Photoelectric conversion: shining ultraviolet rays onto polished metallic surfaces releases free electrons into space",
+          "Electromagnetic induction: moving a magnet relative to a wire coil produces an induced electric current in the circuit"
         ],
         "answer": 3,
         "explain": "Faraday proved that kinetic motion in a magnetic field generates electrical voltage, founding our electrified civilization!"
@@ -5140,10 +5140,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did Dmitri Mendeleev organize his original PERIODIC TABLE OF ELEMENTS in 1869 so accurately that he predicted elements before they were discovered?",
         "options": [
-          "He guessed random positions",
-          "He grouped elements by their price in gold",
-          "He arranged elements alphabetically by name",
-          "He arranged elements by increasing atomic mass and chemical valence patterns, leaving blank gaps for undiscovered elements (like Gallium and Germanium)"
+          "He organized elements strictly by electrical conductivity and boiling points, placing noble gases in the opening group",
+          "He arranged elements according to their alphabetical names in Latin and grouped compounds based on crystalline geometry",
+          "He categorized elements by terrestrial abundance in Earth's crust and classified them by their optical color spectra",
+          "He ordered elements by increasing atomic mass and recurring chemical properties, leaving gaps for undiscovered elements"
         ],
         "answer": 3,
         "explain": "Mendeleev's genius left empty spots, predicting the exact atomic masses and chemical traits of yet-to-be-found elements!"
@@ -5151,10 +5151,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What unprecedented scientific achievement did Marie Curie accomplish, earning her Nobel Prizes in BOTH Physics (1903) and Chemistry (1911)?",
         "options": [
-          "She discovered the radioactive elements Polonium and Radium and pioneered the science of radioactivity",
-          "She was the first woman to walk on the moon",
-          "She discovered penicillin",
-          "She invented the telescope"
+          "She discovered the radioactive elements polonium and radium and pioneered fundamental research on radioactivity",
+          "She discovered artificial nuclear fission and constructed the first operational particle accelerator in Europe",
+          "She isolated the double-helix molecular structure of chromosomal DNA using advanced X-ray diffraction techniques",
+          "She formulated the laws of electromagnetic wave propagation and proved that light behaves as massless energy packets"
         ],
         "answer": 0,
         "explain": "Marie Curie is the only scientist in human history to win Nobel Prizes in two distinct scientific disciplines!"
@@ -5172,10 +5172,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does tightening the tuning peg on an Ektara or guitar string change the PITCH of the musical sound produced?",
         "options": [
-          "Increasing string tension increases the vibration frequency, producing a HIGHER PITCH sound",
-          "It changes the color of the wire",
-          "It lowers the pitch",
-          "It makes the string silent"
+          "Increasing string tension raises the vibration frequency, producing a higher pitch sound",
+          "Increasing string tension dampens the vibration amplitude, producing a much softer sound",
+          "Increasing string tension lowers the vibration frequency, producing a lower pitch sound",
+          "Increasing string tension alters the acoustic harmonics, transforming string tone into a hiss"
         ],
         "answer": 0,
         "explain": "Higher tension = faster mechanical vibrations (frequency) = higher perceived musical pitch!"
@@ -5183,10 +5183,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a simple GOLD-LEAF ELECTROSCOPE detect when a charged plastic rod touches its top brass terminal?",
         "options": [
-          "It measures the speed of wind",
-          "It measures air temperature",
-          "It detects magnetic north",
-          "It detects the presence and nature of electrostatic charge (the two lightweight leaves diverge apart due to like-charge electrostatic repulsion)"
+          "It measures the velocity and direction of local wind currents",
+          "It determines the atmospheric humidity and ambient air pressure",
+          "It detects the magnetic field strength of nearby iron deposits",
+          "It detects the presence and relative magnitude of electric charge"
         ],
         "answer": 3,
         "explain": "Like charges conduct down to both gold leaves; like charges repel, causing the delicate leaves to spread apart!"
@@ -5194,10 +5194,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a modern dry-chemical FIRE EXTINGUISHER smother an electrical or oil fire safely?",
         "options": [
-          "By fanning the fire with dry paper",
-          "It discharges pressurized carbon dioxide (CO₂) or sodium bicarbonate powder, displacing oxygen and cooling the fuel without conducting electricity",
-          "By spraying buckets of tap water onto live electrical wires",
-          "By adding cooking oil"
+          "It releases pressurized liquid nitrogen to freeze combustible fuels into solid non-reactive blocks within seconds",
+          "It discharges non-conductive powder or carbon dioxide gas that blankets the flame and cuts off atmospheric oxygen",
+          "It sprays high-velocity streams of conductive saltwater that dissipate thermal heat across a wide perimeter zone",
+          "It blows pressurized ambient air into the combustion zone to dilute fuel vapors and disperse smoke particles away"
         ],
         "answer": 1,
         "explain": "CO₂ is denser than air, blanketing the flames to cut off oxygen while being electrically non-conductive!"
@@ -5215,10 +5215,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does tightening the tuning peg on an Ektara or guitar string change the PITCH of the musical sound produced?",
         "options": [
-          "Increasing string tension increases the vibration frequency, producing a HIGHER PITCH sound",
-          "It changes the color of the wire",
-          "It lowers the pitch",
-          "It makes the string silent"
+          "Increasing string tension raises the vibration frequency, producing a higher pitch sound",
+          "Increasing string tension dampens the vibration amplitude, producing a much softer sound",
+          "Increasing string tension lowers the vibration frequency, producing a lower pitch sound",
+          "Increasing string tension alters the acoustic harmonics, transforming string tone into a hiss"
         ],
         "answer": 0,
         "explain": "Higher tension = faster mechanical vibrations (frequency) = higher perceived musical pitch!"
@@ -5226,10 +5226,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a simple GOLD-LEAF ELECTROSCOPE detect when a charged plastic rod touches its top brass terminal?",
         "options": [
-          "It measures the speed of wind",
-          "It measures air temperature",
-          "It detects magnetic north",
-          "It detects the presence and nature of electrostatic charge (the two lightweight leaves diverge apart due to like-charge electrostatic repulsion)"
+          "It measures the velocity and direction of local wind currents",
+          "It determines the atmospheric humidity and ambient air pressure",
+          "It detects the magnetic field strength of nearby iron deposits",
+          "It detects the presence and relative magnitude of electric charge"
         ],
         "answer": 3,
         "explain": "Like charges conduct down to both gold leaves; like charges repel, causing the delicate leaves to spread apart!"
@@ -5237,10 +5237,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does a modern dry-chemical FIRE EXTINGUISHER smother an electrical or oil fire safely?",
         "options": [
-          "By fanning the fire with dry paper",
-          "It discharges pressurized carbon dioxide (CO₂) or sodium bicarbonate powder, displacing oxygen and cooling the fuel without conducting electricity",
-          "By spraying buckets of tap water onto live electrical wires",
-          "By adding cooking oil"
+          "It releases pressurized liquid nitrogen to freeze combustible fuels into solid non-reactive blocks within seconds",
+          "It discharges non-conductive powder or carbon dioxide gas that blankets the flame and cuts off atmospheric oxygen",
+          "It sprays high-velocity streams of conductive saltwater that dissipate thermal heat across a wide perimeter zone",
+          "It blows pressurized ambient air into the combustion zone to dilute fuel vapors and disperse smoke particles away"
         ],
         "answer": 1,
         "explain": "CO₂ is denser than air, blanketing the flames to cut off oxygen while being electrically non-conductive!"
@@ -5259,7 +5259,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When the bottle is filled with water, which hole shoots the water jet the FURTHEST horizontal distance across the bench?",
         "options": [
           "All three holes shoot identical distances",
-          "The BOTTOM hole (shoots furthest because liquid pressure increases directly with depth)",
+          "The BOTTOM hole",
           "The middle hole",
           "The top hole"
         ],
@@ -5269,10 +5269,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are hydroelectric gravity dams built with massively THICK, broad bases compared to their narrow top crests?",
         "options": [
-          "Because rocks are heavier at the top",
-          "Dams have identical thickness throughout",
-          "To make them look like triangles for style",
-          "To withstand the colossal hydrostatic pressure exerted by water at deep reservoir depths"
+          "To prevent surface waves from splashing over the emergency spillway during seasonal floods",
+          "To provide wide highway lanes across the base while keeping the upper ridge pedestrian-only",
+          "To anchor structural steel suspension cables that prevent the dam wall from tilting forward",
+          "To withstand the immense hydrostatic pressure that increases with greater reservoir depth"
         ],
         "answer": 3,
         "explain": "Because hydraulic pressure escalates linearly with depth, dam walls must be thickest at the foundation to prevent catastrophic blowouts!"
@@ -5280,10 +5280,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Do liquids at the same horizontal depth exert equal pressure in ALL directions (sideways, downwards, upwards)?",
         "options": [
-          "No, liquids only push downwards",
-          "Yes, liquid pressure at any specific depth is isotropic (equal in all directions)",
-          "Liquids exert zero pressure",
-          "No, liquids only push upwards"
+          "No, liquid pressure acts exclusively downwards due to gravitational pull on water",
+          "Yes, liquid pressure at any given depth acts equally in all directions against surfaces",
+          "No, liquid pressure acts only sideways against container walls and never upwards",
+          "No, liquid pressure diminishes rapidly as fluid molecules move away from the center"
         ],
         "answer": 1,
         "explain": "Pascal's principle: Fluid pressure at any given depth acts equally in every direction against container walls."
@@ -5302,7 +5302,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When the bottle is filled with water, which hole shoots the water jet the FURTHEST horizontal distance across the bench?",
         "options": [
           "All three holes shoot identical distances",
-          "The BOTTOM hole (shoots furthest because liquid pressure increases directly with depth)",
+          "The BOTTOM hole",
           "The middle hole",
           "The top hole"
         ],
@@ -5312,10 +5312,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are hydroelectric gravity dams built with massively THICK, broad bases compared to their narrow top crests?",
         "options": [
-          "Because rocks are heavier at the top",
-          "Dams have identical thickness throughout",
-          "To make them look like triangles for style",
-          "To withstand the colossal hydrostatic pressure exerted by water at deep reservoir depths"
+          "To prevent surface waves from splashing over the emergency spillway during seasonal floods",
+          "To provide wide highway lanes across the base while keeping the upper ridge pedestrian-only",
+          "To anchor structural steel suspension cables that prevent the dam wall from tilting forward",
+          "To withstand the immense hydrostatic pressure that increases with greater reservoir depth"
         ],
         "answer": 3,
         "explain": "Because hydraulic pressure escalates linearly with depth, dam walls must be thickest at the foundation to prevent catastrophic blowouts!"
@@ -5323,10 +5323,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Do liquids at the same horizontal depth exert equal pressure in ALL directions (sideways, downwards, upwards)?",
         "options": [
-          "No, liquids only push downwards",
-          "Yes, liquid pressure at any specific depth is isotropic (equal in all directions)",
-          "Liquids exert zero pressure",
-          "No, liquids only push upwards"
+          "No, liquid pressure acts exclusively downwards due to gravitational pull on water",
+          "Yes, liquid pressure at any given depth acts equally in all directions against surfaces",
+          "No, liquid pressure acts only sideways against container walls and never upwards",
+          "No, liquid pressure diminishes rapidly as fluid molecules move away from the center"
         ],
         "answer": 1,
         "explain": "Pascal's principle: Fluid pressure at any given depth acts equally in every direction against container walls."
@@ -5344,10 +5344,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What climatic and soil conditions are essential for commercial PADDY (RICE) cultivation, making Asia the world's primary rice bowl?",
         "options": [
-          "Dry desert sands with zero rainfall",
-          "High winds on mountain peaks",
-          "Freezing sub-zero temperatures and rocky slopes",
-          "High temperatures (above 25°C), high humidity with heavy annual rainfall (>100 cm) or canal irrigation, and deep alluvial clayey soil that retains water"
+          "Low temperatures, dry continental winds, minimal seasonal precipitation, and well-drained sandy loam on elevated mountain slopes",
+          "Moderate temperatures, arid desert breezes, scarce irrigation supplies, and shallow saline soils on windswept coastal plateau edges",
+          "Sub-zero winter conditions, frequent snowfall, low atmospheric humidity, and coarse gravelly soils along rocky hillside terraces",
+          "High temperatures, high humidity with heavy rainfall or canal irrigation, and deep clayey alluvial soil that retains standing water"
         ],
         "answer": 3,
         "explain": "Rice requires flooded paddy fields and impermeable clay soils, thriving across monsoon river deltas!"
@@ -5355,7 +5355,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which soil type, formed from weathered volcanic basalt in the Deccan Plateau, is world-famous as 'REGUR SOIL' for cultivating high-yield COTTON?",
         "options": [
-          "Black Cotton Soil (Regur Soil)",
+          "Black Cotton Soil",
           "Mountain gravel",
           "Desert sand",
           "Red laterite soil"
@@ -5366,10 +5366,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the lower Ganga-Brahmaputra delta (Bengal and Bangladesh) the world's foremost production hub for golden JUTE fibre?",
         "options": [
-          "Jute grows only in desert sand dunes",
-          "It is harvested from mountain pine trees",
-          "It has the coldest winters on Earth",
-          "Abundant freshwater for retting jute stems, warm humid monsoon climate, and fertile annual silt deposits"
+          "Arid desert sunshine for sun-drying stems, cool mountain air, and limestone soils poor in organic silt",
+          "High-altitude temperate forests, sub-zero winter temperatures, and dry gravelly soils along ridges",
+          "Deep volcanic black soil, moderate seasonal rainfall, and long frost-free periods on plateau plains",
+          "Abundant freshwater for retting stems, a warm humid monsoon climate, and fertile annual silt deposits"
         ],
         "answer": 3,
         "explain": "Jute stems require extensive water retting in slow streams, perfect for the marshy delta of Bengal."
@@ -5387,10 +5387,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What climatic and soil conditions are essential for commercial PADDY (RICE) cultivation, making Asia the world's primary rice bowl?",
         "options": [
-          "Dry desert sands with zero rainfall",
-          "High winds on mountain peaks",
-          "Freezing sub-zero temperatures and rocky slopes",
-          "High temperatures (above 25°C), high humidity with heavy annual rainfall (>100 cm) or canal irrigation, and deep alluvial clayey soil that retains water"
+          "Low temperatures, dry continental winds, minimal seasonal precipitation, and well-drained sandy loam on elevated mountain slopes",
+          "Moderate temperatures, arid desert breezes, scarce irrigation supplies, and shallow saline soils on windswept coastal plateau edges",
+          "Sub-zero winter conditions, frequent snowfall, low atmospheric humidity, and coarse gravelly soils along rocky hillside terraces",
+          "High temperatures, high humidity with heavy rainfall or canal irrigation, and deep clayey alluvial soil that retains standing water"
         ],
         "answer": 3,
         "explain": "Rice requires flooded paddy fields and impermeable clay soils, thriving across monsoon river deltas!"
@@ -5398,7 +5398,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which soil type, formed from weathered volcanic basalt in the Deccan Plateau, is world-famous as 'REGUR SOIL' for cultivating high-yield COTTON?",
         "options": [
-          "Black Cotton Soil (Regur Soil)",
+          "Black Cotton Soil",
           "Mountain gravel",
           "Desert sand",
           "Red laterite soil"
@@ -5409,10 +5409,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is the lower Ganga-Brahmaputra delta (Bengal and Bangladesh) the world's foremost production hub for golden JUTE fibre?",
         "options": [
-          "Jute grows only in desert sand dunes",
-          "It is harvested from mountain pine trees",
-          "It has the coldest winters on Earth",
-          "Abundant freshwater for retting jute stems, warm humid monsoon climate, and fertile annual silt deposits"
+          "Arid desert sunshine for sun-drying stems, cool mountain air, and limestone soils poor in organic silt",
+          "High-altitude temperate forests, sub-zero winter temperatures, and dry gravelly soils along ridges",
+          "Deep volcanic black soil, moderate seasonal rainfall, and long frost-free periods on plateau plains",
+          "Abundant freshwater for retting stems, a warm humid monsoon climate, and fertile annual silt deposits"
         ],
         "answer": 3,
         "explain": "Jute stems require extensive water retting in slow streams, perfect for the marshy delta of Bengal."
@@ -5433,7 +5433,7 @@ Object.assign(window.GAME_CONTENT, {
           "Cottage industries, Small scale industries, and Large scale industries",
           "Heavy capital industries versus Light assembly workshops",
           "Public sector, Private sector, Joint sector, and Cooperative sector",
-          "Agro-based (using plant/animal produce), Mineral-based (iron/cement), Marine-based (fish oil), and Forest-based (paper/timber)"
+          "Agro-based, Mineral-based, Marine-based, and Forest-based"
         ],
         "answer": 3,
         "explain": "Raw material provenance divides manufacturing into Agro, Mineral, Marine, and Forest categories!"
@@ -5441,10 +5441,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What characterizes a 'PUBLIC SECTOR' industry (like the Steel Authority of India Limited - SAIL)?",
         "options": [
-          "It is operated by an international trade treaty under United Nations supervision",
-          "It is owned and managed by private corporate shareholders exclusively for quarterly profits",
-          "It is owned and operated by individual producers who supply raw milk and agricultural produce",
-          "It is owned, financed, and operated directly by the Government to serve national strategic and public welfare interests"
+          "It is operated by an international trade organization under United Nations supervision to regulate global market tariffs",
+          "It is owned and managed by private corporate shareholders exclusively to maximize quarterly profits and equity dividends",
+          "It is owned and managed by agricultural producer cooperatives to market dairy goods and farm yields directly to consumers",
+          "It is owned, financed, and operated directly by the Government to serve strategic national interests and social welfare"
         ],
         "answer": 3,
         "explain": "Public sector enterprises are state-owned public utilities investing in foundational infrastructure."
@@ -5455,7 +5455,7 @@ Object.assign(window.GAME_CONTENT, {
           "Owned, financed, and controlled entirely by a single private individual or family enterprise",
           "Jointly owned, financed, and managed by the Government and private entrepreneurs or individuals",
           "Wholly owned and managed by the Union Government under a public ministry",
-          "Owned and operated exclusively by the producers or suppliers of raw materials (such as Anand Milk Union Limited / Amul)"
+          "Owned and operated exclusively by the producers or suppliers of raw materials"
         ],
         "answer": 1,
         "explain": "Joint sector marries state capital with private entrepreneurial expertise and management agility!"
@@ -5476,7 +5476,7 @@ Object.assign(window.GAME_CONTENT, {
           "Cottage industries, Small scale industries, and Large scale industries",
           "Heavy capital industries versus Light assembly workshops",
           "Public sector, Private sector, Joint sector, and Cooperative sector",
-          "Agro-based (using plant/animal produce), Mineral-based (iron/cement), Marine-based (fish oil), and Forest-based (paper/timber)"
+          "Agro-based, Mineral-based, Marine-based, and Forest-based"
         ],
         "answer": 3,
         "explain": "Raw material provenance divides manufacturing into Agro, Mineral, Marine, and Forest categories!"
@@ -5484,10 +5484,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What characterizes a 'PUBLIC SECTOR' industry (like the Steel Authority of India Limited - SAIL)?",
         "options": [
-          "It is operated by an international trade treaty under United Nations supervision",
-          "It is owned and managed by private corporate shareholders exclusively for quarterly profits",
-          "It is owned and operated by individual producers who supply raw milk and agricultural produce",
-          "It is owned, financed, and operated directly by the Government to serve national strategic and public welfare interests"
+          "It is operated by an international trade organization under United Nations supervision to regulate global market tariffs",
+          "It is owned and managed by private corporate shareholders exclusively to maximize quarterly profits and equity dividends",
+          "It is owned and managed by agricultural producer cooperatives to market dairy goods and farm yields directly to consumers",
+          "It is owned, financed, and operated directly by the Government to serve strategic national interests and social welfare"
         ],
         "answer": 3,
         "explain": "Public sector enterprises are state-owned public utilities investing in foundational infrastructure."
@@ -5498,7 +5498,7 @@ Object.assign(window.GAME_CONTENT, {
           "Owned, financed, and controlled entirely by a single private individual or family enterprise",
           "Jointly owned, financed, and managed by the Government and private entrepreneurs or individuals",
           "Wholly owned and managed by the Union Government under a public ministry",
-          "Owned and operated exclusively by the producers or suppliers of raw materials (such as Anand Milk Union Limited / Amul)"
+          "Owned and operated exclusively by the producers or suppliers of raw materials"
         ],
         "answer": 1,
         "explain": "Joint sector marries state capital with private entrepreneurial expertise and management agility!"
@@ -5516,10 +5516,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the defining characteristic of 'INTENSIVE SUBSISTENCE FARMING' practiced in densely populated regions of India?",
         "options": [
-          "Farming done entirely by automated airplanes",
-          "Massive corporate farms producing crops only for export to foreign countries",
-          "Farming where no food is produced",
-          "Farmers cultivate small landholdings using family labor and simple tools to produce food primarily for their own family's survival"
+          "Corporate agribusiness firms manage vast continuous tracts using heavy machinery to produce cereal grains exclusively for export",
+          "Nomadic pastoralists migrate across high-altitude grasslands with livestock herds in seasonal search of natural water sources",
+          "Commercial estates utilize massive capital investment and synthetic inputs to cultivate single cash crops for industrial markets",
+          "Farmers cultivate small fragmented plots using family labor and simple tools to produce food primarily for local household survival"
         ],
         "answer": 3,
         "explain": "Subsistence farming feeds the immediate household from fragmented holdings with high manual labor input."
@@ -5527,10 +5527,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines 'COMMERCIAL PLANTATION AGRICULTURE' (such as tea estates in Assam or coffee in Karnataka)?",
         "options": [
-          "Wild foraging in forests",
-          "Growing 50 different vegetables in a backyard pot",
-          "Organic farming with zero tools",
-          "A single cash crop grown over vast contiguous estates using large capital investment, modern processing factories, and migrant wage labor"
+          "Multiple cereal grains grown on small subsistence family farms without modern processing machinery or hired farm laborers",
+          "Traditional forest foraging where tribal communities gather wild honey and aromatic herbs for exchange in barter markets",
+          "Seasonal shifting cultivation where small jungle plots are cleared, burned, and cultivated for two years before abandonment",
+          "A single cash crop cultivated over vast contiguous estates using substantial capital, processing factories, and wage labor"
         ],
         "answer": 3,
         "explain": "Plantations are agribusiness enterprises focusing on a single export-oriented cash crop (tea, coffee, rubber, sugarcane)!"
@@ -5538,10 +5538,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SLASH AND BURN' shifting cultivation (known as Jhum in Northeast India)?",
         "options": [
-          "Industrial chemical hydroponics",
-          "Clearing a forest patch by slashing trees, burning vegetation to enrich soil with potash ash, farming for 2-3 years, and then shifting to a new plot to let the forest regenerate",
-          "Permanent terrace farming with stone walls",
-          "Setting whole cities on fire"
+          "Modern greenhouse farming where synthetic nutrient solutions and LED lighting support year-round commercial crop harvesting",
+          "Clearing forest plots by cutting and burning vegetation to farm temporarily, then moving to let the native forest regenerate",
+          "Constructing permanent stone retaining walls along steep mountain slopes to prevent topsoil erosion during heavy monsoon rains",
+          "Flooding river delta lowlands with seasonal canal waters to support continuous double-cropping of high-yield hybrid paddy"
         ],
         "answer": 1,
         "explain": "Traditional Jhum farming relies on ash fertilization and rotational fallow cycles to regenerate forest soils."
@@ -5559,10 +5559,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the defining characteristic of 'INTENSIVE SUBSISTENCE FARMING' practiced in densely populated regions of India?",
         "options": [
-          "Farming done entirely by automated airplanes",
-          "Massive corporate farms producing crops only for export to foreign countries",
-          "Farming where no food is produced",
-          "Farmers cultivate small landholdings using family labor and simple tools to produce food primarily for their own family's survival"
+          "Corporate agribusiness firms manage vast continuous tracts using heavy machinery to produce cereal grains exclusively for export",
+          "Nomadic pastoralists migrate across high-altitude grasslands with livestock herds in seasonal search of natural water sources",
+          "Commercial estates utilize massive capital investment and synthetic inputs to cultivate single cash crops for industrial markets",
+          "Farmers cultivate small fragmented plots using family labor and simple tools to produce food primarily for local household survival"
         ],
         "answer": 3,
         "explain": "Subsistence farming feeds the immediate household from fragmented holdings with high manual labor input."
@@ -5570,10 +5570,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines 'COMMERCIAL PLANTATION AGRICULTURE' (such as tea estates in Assam or coffee in Karnataka)?",
         "options": [
-          "Wild foraging in forests",
-          "Growing 50 different vegetables in a backyard pot",
-          "Organic farming with zero tools",
-          "A single cash crop grown over vast contiguous estates using large capital investment, modern processing factories, and migrant wage labor"
+          "Multiple cereal grains grown on small subsistence family farms without modern processing machinery or hired farm laborers",
+          "Traditional forest foraging where tribal communities gather wild honey and aromatic herbs for exchange in barter markets",
+          "Seasonal shifting cultivation where small jungle plots are cleared, burned, and cultivated for two years before abandonment",
+          "A single cash crop cultivated over vast contiguous estates using substantial capital, processing factories, and wage labor"
         ],
         "answer": 3,
         "explain": "Plantations are agribusiness enterprises focusing on a single export-oriented cash crop (tea, coffee, rubber, sugarcane)!"
@@ -5581,10 +5581,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SLASH AND BURN' shifting cultivation (known as Jhum in Northeast India)?",
         "options": [
-          "Industrial chemical hydroponics",
-          "Clearing a forest patch by slashing trees, burning vegetation to enrich soil with potash ash, farming for 2-3 years, and then shifting to a new plot to let the forest regenerate",
-          "Permanent terrace farming with stone walls",
-          "Setting whole cities on fire"
+          "Modern greenhouse farming where synthetic nutrient solutions and LED lighting support year-round commercial crop harvesting",
+          "Clearing forest plots by cutting and burning vegetation to farm temporarily, then moving to let the native forest regenerate",
+          "Constructing permanent stone retaining walls along steep mountain slopes to prevent topsoil erosion during heavy monsoon rains",
+          "Flooding river delta lowlands with seasonal canal waters to support continuous double-cropping of high-yield hybrid paddy"
         ],
         "answer": 1,
         "explain": "Traditional Jhum farming relies on ash fertilization and rotational fallow cycles to regenerate forest soils."
@@ -5602,10 +5602,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are the temperate grasslands of North America (THE PRAIRIES) nicknamed the 'Granary of the World'?",
         "options": [
-          "Immense farm sizes (thousands of acres) operated by single families using giant combine harvesters, producing colossal export surpluses of wheat",
-          "Because wheat grows on trees there",
-          "Because all bread is baked there",
-          "They have the largest population of manual farmers"
+          "Vast farm acreages cultivated with heavy machinery and combine harvesters generate colossal export surpluses of wheat",
+          "Dense rural populations cultivate terraced river valleys by hand to achieve record harvests of wet paddy rice for export",
+          "Year-round tropical rainfall and dense rainforest soils produce continuous commercial yields of coffee and sugarcane",
+          "Massive government-owned cooperative collectives employ millions of manual farmhands to harvest seasonal tea leaves"
         ],
         "answer": 0,
         "explain": "High mechanization, fertile chernozem soils, and vast acreage generate colossal exportable grain surpluses!"
@@ -5624,10 +5624,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What major environmental challenge threatens the Ogallala Aquifer beneath the North American grain belt today?",
         "options": [
-          "Water freezing into permanent glaciers",
-          "Severe groundwater depletion due to excessive center-pivot irrigation exceeding natural recharge",
-          "Flooding from the Pacific Ocean",
-          "The ground turning into salt dunes"
+          "Severe chemical contamination from coastal seawater backflow flooding deep inland groundwater wells",
+          "Severe groundwater depletion caused by intensive center-pivot irrigation exceeding natural recharge",
+          "Complete freezing of subterranean water reserves caused by severe sub-zero winter surface temperatures",
+          "Widespread accumulation of volcanic ash that permanently blocks subterranean limestone water channels"
         ],
         "answer": 1,
         "explain": "Industrial center-pivot irrigation pumps fossil groundwater faster than rainfall can replenish the deep aquifer."
@@ -5645,10 +5645,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are the temperate grasslands of North America (THE PRAIRIES) nicknamed the 'Granary of the World'?",
         "options": [
-          "Immense farm sizes (thousands of acres) operated by single families using giant combine harvesters, producing colossal export surpluses of wheat",
-          "Because wheat grows on trees there",
-          "Because all bread is baked there",
-          "They have the largest population of manual farmers"
+          "Vast farm acreages cultivated with heavy machinery and combine harvesters generate colossal export surpluses of wheat",
+          "Dense rural populations cultivate terraced river valleys by hand to achieve record harvests of wet paddy rice for export",
+          "Year-round tropical rainfall and dense rainforest soils produce continuous commercial yields of coffee and sugarcane",
+          "Massive government-owned cooperative collectives employ millions of manual farmhands to harvest seasonal tea leaves"
         ],
         "answer": 0,
         "explain": "High mechanization, fertile chernozem soils, and vast acreage generate colossal exportable grain surpluses!"
@@ -5667,10 +5667,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What major environmental challenge threatens the Ogallala Aquifer beneath the North American grain belt today?",
         "options": [
-          "Water freezing into permanent glaciers",
-          "Severe groundwater depletion due to excessive center-pivot irrigation exceeding natural recharge",
-          "Flooding from the Pacific Ocean",
-          "The ground turning into salt dunes"
+          "Severe chemical contamination from coastal seawater backflow flooding deep inland groundwater wells",
+          "Severe groundwater depletion caused by intensive center-pivot irrigation exceeding natural recharge",
+          "Complete freezing of subterranean water reserves caused by severe sub-zero winter surface temperatures",
+          "Widespread accumulation of volcanic ash that permanently blocks subterranean limestone water channels"
         ],
         "answer": 1,
         "explain": "Industrial center-pivot irrigation pumps fossil groundwater faster than rainfall can replenish the deep aquifer."
@@ -5689,7 +5689,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What highly toxic gas leaked from the Union Carbide pesticide factory on the fateful night of 2-3 December 1984 in Bhopal?",
         "options": [
           "Carbon dioxide",
-          "Methyl Isocyanate (MIC)",
+          "Methyl Isocyanate",
           "Pure nitrogen",
           "Oxygen gas"
         ],
@@ -5699,10 +5699,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What structural industrial safety failures directly caused the horrific magnitude of the Bhopal disaster?",
         "options": [
-          "Refrigeration systems turned off to cut costs, malfunctioning scrubbing towers, failure of flare stacks, and dense urban slums situated right against factory boundaries",
-          "A lightning strike",
-          "An earthquake destroyed the city",
-          "A meteor hit the factory"
+          "Cost-cutting shutdown of cooling systems, broken safety scrubbers, non-working flare stacks, and dense settlements next to the chemical plant",
+          "Sudden tectonic fault ruptures that severed underground chemical pipelines and triggered uncontrollable explosions across the urban district",
+          "Unprecedented river flash floods that breached surrounding retaining dikes and swept hazardous industrial compounds into residential sectors",
+          "Extreme high-voltage lightning strikes that destroyed central factory power grids and detonated synthetic fertilizer storage facilities"
         ],
         "answer": 0,
         "explain": "Cost-cutting compromises on safety fail-safes and absent buffer zoning created the deadliest industrial catastrophe in human history."
@@ -5710,10 +5710,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key industrial safety regulation did India mandate following the Bhopal tragedy to protect citizens?",
         "options": [
-          "Moving all factories to other countries",
-          "Closing all hospitals",
-          "The Environment (Protection) Act of 1986, Public Liability Insurance, and strict hazardous chemical buffer zoning",
-          "Banning all chemistry in schools"
+          "Mandatory privatization of all state-owned manufacturing facilities and complete removal of safety oversight",
+          "Immediate relocation of all heavy manufacturing factories to offshore facilities outside national borders",
+          "The Environment Protection Act of 1986, public liability insurance, and strict industrial safety buffer zones",
+          "Complete legal prohibition of chemical science research across all university and secondary school curricula"
         ],
         "answer": 2,
         "explain": "The 1986 Environment Protection Act established strict regulatory oversight of hazardous industrial manufacture."
@@ -5732,7 +5732,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What highly toxic gas leaked from the Union Carbide pesticide factory on the fateful night of 2-3 December 1984 in Bhopal?",
         "options": [
           "Carbon dioxide",
-          "Methyl Isocyanate (MIC)",
+          "Methyl Isocyanate",
           "Pure nitrogen",
           "Oxygen gas"
         ],
@@ -5742,10 +5742,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What structural industrial safety failures directly caused the horrific magnitude of the Bhopal disaster?",
         "options": [
-          "Refrigeration systems turned off to cut costs, malfunctioning scrubbing towers, failure of flare stacks, and dense urban slums situated right against factory boundaries",
-          "A lightning strike",
-          "An earthquake destroyed the city",
-          "A meteor hit the factory"
+          "Cost-cutting shutdown of cooling systems, broken safety scrubbers, non-working flare stacks, and dense settlements next to the chemical plant",
+          "Sudden tectonic fault ruptures that severed underground chemical pipelines and triggered uncontrollable explosions across the urban district",
+          "Unprecedented river flash floods that breached surrounding retaining dikes and swept hazardous industrial compounds into residential sectors",
+          "Extreme high-voltage lightning strikes that destroyed central factory power grids and detonated synthetic fertilizer storage facilities"
         ],
         "answer": 0,
         "explain": "Cost-cutting compromises on safety fail-safes and absent buffer zoning created the deadliest industrial catastrophe in human history."
@@ -5753,10 +5753,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What key industrial safety regulation did India mandate following the Bhopal tragedy to protect citizens?",
         "options": [
-          "Moving all factories to other countries",
-          "Closing all hospitals",
-          "The Environment (Protection) Act of 1986, Public Liability Insurance, and strict hazardous chemical buffer zoning",
-          "Banning all chemistry in schools"
+          "Mandatory privatization of all state-owned manufacturing facilities and complete removal of safety oversight",
+          "Immediate relocation of all heavy manufacturing factories to offshore facilities outside national borders",
+          "The Environment Protection Act of 1986, public liability insurance, and strict industrial safety buffer zones",
+          "Complete legal prohibition of chemical science research across all university and secondary school curricula"
         ],
         "answer": 2,
         "explain": "The 1986 Environment Protection Act established strict regulatory oversight of hazardous industrial manufacture."
@@ -5774,10 +5774,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are mineral and energy resources distributed so UNEVENLY across the continents of Earth?",
         "options": [
-          "Mineral deposits formed over millions of years under specific geological conditions, tectonic processes, and sedimentation histories unique to each region",
-          "All countries actually have the exact same minerals",
-          "Minerals follow modern political borders",
-          "Because humans moved all minerals to one spot"
+          "Mineral deposits formed under distinct geological processes, tectonic collisions, and sedimentation conditions across deep time",
+          "Mineral deposits migrate dynamically across continental landmasses in response to annual changes in global atmospheric pressure",
+          "Mineral deposits were created uniformly along modern international borders by ancient civilizational mining and trade agreements",
+          "Mineral deposits occur strictly in regions with high human population density where industrial energy demand is highest"
         ],
         "answer": 0,
         "explain": "Ancient volcanic shields, folded plate boundaries, and prehistoric marine basins concentrated distinct mineral ores over deep time!"
@@ -5786,7 +5786,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which high-altitude Andean region in South America (Bolivia, Chile, Argentina) holds over 50% of the world's 'White Gold' (LITHIUM) vital for electric vehicle batteries?",
         "options": [
           "The Rocky Mountains",
-          "The Lithium Triangle (Atacama and Uyuni salt flats)",
+          "The Lithium Triangle",
           "The Sahara Desert",
           "The Amazon Rainforest"
         ],
@@ -5797,7 +5797,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What mineral-rich plateau in eastern India is nicknamed the 'Ruhr of India' for its vast reserves of coal, iron ore, mica, and bauxite?",
         "options": [
           "The Malwa Plateau",
-          "The Chota Nagpur Plateau (Jharkhand, Odisha, West Bengal)",
+          "The Chota Nagpur Plateau",
           "The Shillong Plateau",
           "The Ladakh Plateau"
         ],
@@ -5817,10 +5817,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are mineral and energy resources distributed so UNEVENLY across the continents of Earth?",
         "options": [
-          "Mineral deposits formed over millions of years under specific geological conditions, tectonic processes, and sedimentation histories unique to each region",
-          "All countries actually have the exact same minerals",
-          "Minerals follow modern political borders",
-          "Because humans moved all minerals to one spot"
+          "Mineral deposits formed under distinct geological processes, tectonic collisions, and sedimentation conditions across deep time",
+          "Mineral deposits migrate dynamically across continental landmasses in response to annual changes in global atmospheric pressure",
+          "Mineral deposits were created uniformly along modern international borders by ancient civilizational mining and trade agreements",
+          "Mineral deposits occur strictly in regions with high human population density where industrial energy demand is highest"
         ],
         "answer": 0,
         "explain": "Ancient volcanic shields, folded plate boundaries, and prehistoric marine basins concentrated distinct mineral ores over deep time!"
@@ -5829,7 +5829,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which high-altitude Andean region in South America (Bolivia, Chile, Argentina) holds over 50% of the world's 'White Gold' (LITHIUM) vital for electric vehicle batteries?",
         "options": [
           "The Rocky Mountains",
-          "The Lithium Triangle (Atacama and Uyuni salt flats)",
+          "The Lithium Triangle",
           "The Sahara Desert",
           "The Amazon Rainforest"
         ],
@@ -5840,7 +5840,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What mineral-rich plateau in eastern India is nicknamed the 'Ruhr of India' for its vast reserves of coal, iron ore, mica, and bauxite?",
         "options": [
           "The Malwa Plateau",
-          "The Chota Nagpur Plateau (Jharkhand, Odisha, West Bengal)",
+          "The Chota Nagpur Plateau",
           "The Shillong Plateau",
           "The Ladakh Plateau"
         ],
@@ -5860,10 +5860,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is TOPSOIL considered a non-renewable resource on human timescales?",
         "options": [
-          "Soil can be manufactured in factories overnight",
-          "Topsoil never erodes",
-          "Soil is made of plastic",
-          "It takes nature between 500 and 1,000 years of rock weathering and biological decay to form just ONE centimeter of fertile topsoil"
+          "Modern chemical fertilizers permanently destroy the inorganic mineral framework required for future soil replenishment",
+          "Earth's crust no longer contains parent rock strata capable of undergoing physical weathering into mineral particles",
+          "Topsoil grains dissolve permanently into atmospheric water vapor whenever surface temperatures exceed twenty degrees",
+          "Natural processes require hundreds of years of rock weathering and organic matter decay to generate a single centimeter of topsoil"
         ],
         "answer": 3,
         "explain": "A single violent flash flood can wash away fertile topsoil that required a millennium of soil genesis to form!"
@@ -5872,7 +5872,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What soil conservation practice involves ploughing along the natural contour lines of a mountain slope rather than up and down?",
         "options": [
           "Monoculture",
-          "Contour Ploughing (forms natural ridges that slow runoff water and prevent gully erosion)",
+          "Contour Ploughing",
           "Clear-cutting",
           "Overgrazing"
         ],
@@ -5882,10 +5882,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SHELTERBELT' planting along coastal and desert agricultural fringes?",
         "options": [
-          "Draining all water away",
-          "Covering fields with plastic sheets",
-          "Planting rows of sturdy trees along field edges to break wind speed and prevent wind erosion of topsoil",
-          "Building concrete houses for animals"
+          "Constructing elevated wooden roofs above agricultural fields to prevent intense solar rays from drying seeds",
+          "Digging deep drainage trenches along field margins to accelerate the flow of standing monsoon rainwater",
+          "Planting dense rows of trees along field boundaries to reduce wind speed and prevent topsoil erosion",
+          "Laying synthetic waterproof plastic membranes across entire farm plots to stop moisture from evaporating"
         ],
         "answer": 2,
         "explain": "Windbreak shelterbelts buffer howling desert winds, stabilizing sand dunes and protecting agricultural moisture!"
@@ -5903,10 +5903,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is TOPSOIL considered a non-renewable resource on human timescales?",
         "options": [
-          "Soil can be manufactured in factories overnight",
-          "Topsoil never erodes",
-          "Soil is made of plastic",
-          "It takes nature between 500 and 1,000 years of rock weathering and biological decay to form just ONE centimeter of fertile topsoil"
+          "Modern chemical fertilizers permanently destroy the inorganic mineral framework required for future soil replenishment",
+          "Earth's crust no longer contains parent rock strata capable of undergoing physical weathering into mineral particles",
+          "Topsoil grains dissolve permanently into atmospheric water vapor whenever surface temperatures exceed twenty degrees",
+          "Natural processes require hundreds of years of rock weathering and organic matter decay to generate a single centimeter of topsoil"
         ],
         "answer": 3,
         "explain": "A single violent flash flood can wash away fertile topsoil that required a millennium of soil genesis to form!"
@@ -5915,7 +5915,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What soil conservation practice involves ploughing along the natural contour lines of a mountain slope rather than up and down?",
         "options": [
           "Monoculture",
-          "Contour Ploughing (forms natural ridges that slow runoff water and prevent gully erosion)",
+          "Contour Ploughing",
           "Clear-cutting",
           "Overgrazing"
         ],
@@ -5925,10 +5925,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is 'SHELTERBELT' planting along coastal and desert agricultural fringes?",
         "options": [
-          "Draining all water away",
-          "Covering fields with plastic sheets",
-          "Planting rows of sturdy trees along field edges to break wind speed and prevent wind erosion of topsoil",
-          "Building concrete houses for animals"
+          "Constructing elevated wooden roofs above agricultural fields to prevent intense solar rays from drying seeds",
+          "Digging deep drainage trenches along field margins to accelerate the flow of standing monsoon rainwater",
+          "Planting dense rows of trees along field boundaries to reduce wind speed and prevent topsoil erosion",
+          "Laying synthetic waterproof plastic membranes across entire farm plots to stop moisture from evaporating"
         ],
         "answer": 2,
         "explain": "Windbreak shelterbelts buffer howling desert winds, stabilizing sand dunes and protecting agricultural moisture!"
@@ -5957,10 +5957,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is India's 'DEMOGRAPHIC DIVIDEND'?",
         "options": [
-          "An old-age pension fund reserved exclusively for retired government employees",
-          "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
-          "A mandatory national tax imposed on families with more than two children"
+          "A state-managed pension endowment fund reserved exclusively for retired government and public sector administrative staff",
+          "A seasonal cash subsidy distributed directly to rural farming families to offset post-harvest market price fluctuations",
+          "A demographic profile where a large proportion of the national population is in the working-age bracket, boosting growth",
+          "A statutory fiscal tariff levied on private corporations that employ fewer young apprentices across manufacturing plants"
         ],
         "answer": 2,
         "explain": "A low dependency ratio and massive working-age cohort provide historic potential for economic transformation!"
@@ -5968,10 +5968,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a bell-shaped or narrowing-base population pyramid (like Japan) signal for public policy?",
         "options": [
-          "A perfectly balanced youth population that maintains stable school enrollment without change",
-          "A rapid baby boom requiring emergency construction of thousands of new primary schools",
-          "High infant mortality rates causing an immediate collapse of the workforce",
-          "Low birth rates and a rising elderly dependency ratio, requiring investments in healthcare and automated labor solutions"
+          "Rapidly increasing birth rates and high youth dependency, requiring emergency construction of thousands of new schools",
+          "High infant mortality rates coupled with short life expectancy, indicating severe deficits in municipal sanitation access",
+          "Steady population surges driven by high immigration inflows, requiring expanded urban housing and transport networks",
+          "Declining birth rates and a rising elderly dependency ratio, requiring greater investment in healthcare and automation"
         ],
         "answer": 3,
         "explain": "Aging demographics shift fiscal priorities toward geriatric healthcare, elder care infrastructure, and robotics."
@@ -6000,10 +6000,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is India's 'DEMOGRAPHIC DIVIDEND'?",
         "options": [
-          "An old-age pension fund reserved exclusively for retired government employees",
-          "A one-time government dividend check mailed to all rural families",
-          "India has one of the world's youngest populations, with over 65% of citizens in the working-age bracket, fueling economic growth",
-          "A mandatory national tax imposed on families with more than two children"
+          "A state-managed pension endowment fund reserved exclusively for retired government and public sector administrative staff",
+          "A seasonal cash subsidy distributed directly to rural farming families to offset post-harvest market price fluctuations",
+          "A demographic profile where a large proportion of the national population is in the working-age bracket, boosting growth",
+          "A statutory fiscal tariff levied on private corporations that employ fewer young apprentices across manufacturing plants"
         ],
         "answer": 2,
         "explain": "A low dependency ratio and massive working-age cohort provide historic potential for economic transformation!"
@@ -6011,10 +6011,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a bell-shaped or narrowing-base population pyramid (like Japan) signal for public policy?",
         "options": [
-          "A perfectly balanced youth population that maintains stable school enrollment without change",
-          "A rapid baby boom requiring emergency construction of thousands of new primary schools",
-          "High infant mortality rates causing an immediate collapse of the workforce",
-          "Low birth rates and a rising elderly dependency ratio, requiring investments in healthcare and automated labor solutions"
+          "Rapidly increasing birth rates and high youth dependency, requiring emergency construction of thousands of new schools",
+          "High infant mortality rates coupled with short life expectancy, indicating severe deficits in municipal sanitation access",
+          "Steady population surges driven by high immigration inflows, requiring expanded urban housing and transport networks",
+          "Declining birth rates and a rising elderly dependency ratio, requiring greater investment in healthcare and automation"
         ],
         "answer": 3,
         "explain": "Aging demographics shift fiscal priorities toward geriatric healthcare, elder care infrastructure, and robotics."
@@ -6032,10 +6032,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which geographic regions of the world exhibit the HIGHEST population densities (people per square kilometer)?",
         "options": [
-          "Fertile river valleys and coastal delta plains with flat terrain, perennial water, and temperate climates (e.g., Gangetic Plain, Yangtze Basin)",
-          "The hyper-arid sand seas of the central Sahara Desert",
-          "The steep, rocky summits of the Himalayan mountain range",
-          "The high glacial plateaus of Greenland and Antarctica"
+          "Fertile river plains and coastal lowlands with flat arable land, perennial water, and favorable climates",
+          "Arid subtropical sand dune regions with scarce surface precipitation and extreme daily temperature shifts",
+          "Rugged high-altitude mountain chains with steep rocky slopes, thin soils, and severe winter frosts",
+          "Subpolar tundra expanses with permafrost soils, low biodiversity, and long periods of total darkness"
         ],
         "answer": 0,
         "explain": "Alluvial soils, reliable water, transport ease, and agricultural surplus historically attract dense human settlement!"
@@ -6043,10 +6043,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are hyper-arid deserts (like the Sahara or Australian Outback) and high mountain ranges extremely sparsely populated?",
         "options": [
-          "Because dangerous wildlife predators have driven all human communities out",
-          "Harsh climatic extremes, scarcity of freshwater, rugged inaccessible terrain, and absence of arable agricultural soil",
-          "Because those lands are reserved exclusively for tourist recreation and national parks",
-          "Because national governments have legally prohibited all permanent settlements there"
+          "Frequent seasonal river floods and dense tropical swamp vegetation make transportation networks impossible to build",
+          "Extreme weather conditions, acute freshwater scarcity, rugged terrain, and lack of fertile soil limit human settlement",
+          "Government conservation policies strictly prohibit civilian habitation to protect rare endangered predatory species",
+          "Dense commercial forestry plantations and active mining corporations own all land rights across these remote regions"
         ],
         "answer": 1,
         "explain": "Environmental hostility, extreme thermal stress, and lack of biological resources limit carrying capacity."
@@ -6055,9 +6055,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the global geographic formula for 'POPULATION DENSITY'?",
         "options": [
           "Annual Live Births minus Annual Deaths per thousand",
-          "Total Population ÷ Total Land Area (expressed as people per square kilometer)",
+          "Total Population ÷ Total Land Area",
           "Total Urban Population ÷ Total Number of Cities",
-          "Total Land Area ÷ Total Population (expressed as square kilometers per person)"
+          "Total Land Area ÷ Total Population"
         ],
         "answer": 1,
         "explain": "Population Density = Total Number of People / Land Area in km²!"
@@ -6075,10 +6075,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which geographic regions of the world exhibit the HIGHEST population densities (people per square kilometer)?",
         "options": [
-          "Fertile river valleys and coastal delta plains with flat terrain, perennial water, and temperate climates (e.g., Gangetic Plain, Yangtze Basin)",
-          "The hyper-arid sand seas of the central Sahara Desert",
-          "The steep, rocky summits of the Himalayan mountain range",
-          "The high glacial plateaus of Greenland and Antarctica"
+          "Fertile river plains and coastal lowlands with flat arable land, perennial water, and favorable climates",
+          "Arid subtropical sand dune regions with scarce surface precipitation and extreme daily temperature shifts",
+          "Rugged high-altitude mountain chains with steep rocky slopes, thin soils, and severe winter frosts",
+          "Subpolar tundra expanses with permafrost soils, low biodiversity, and long periods of total darkness"
         ],
         "answer": 0,
         "explain": "Alluvial soils, reliable water, transport ease, and agricultural surplus historically attract dense human settlement!"
@@ -6086,10 +6086,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are hyper-arid deserts (like the Sahara or Australian Outback) and high mountain ranges extremely sparsely populated?",
         "options": [
-          "Because dangerous wildlife predators have driven all human communities out",
-          "Harsh climatic extremes, scarcity of freshwater, rugged inaccessible terrain, and absence of arable agricultural soil",
-          "Because those lands are reserved exclusively for tourist recreation and national parks",
-          "Because national governments have legally prohibited all permanent settlements there"
+          "Frequent seasonal river floods and dense tropical swamp vegetation make transportation networks impossible to build",
+          "Extreme weather conditions, acute freshwater scarcity, rugged terrain, and lack of fertile soil limit human settlement",
+          "Government conservation policies strictly prohibit civilian habitation to protect rare endangered predatory species",
+          "Dense commercial forestry plantations and active mining corporations own all land rights across these remote regions"
         ],
         "answer": 1,
         "explain": "Environmental hostility, extreme thermal stress, and lack of biological resources limit carrying capacity."
@@ -6098,9 +6098,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the global geographic formula for 'POPULATION DENSITY'?",
         "options": [
           "Annual Live Births minus Annual Deaths per thousand",
-          "Total Population ÷ Total Land Area (expressed as people per square kilometer)",
+          "Total Population ÷ Total Land Area",
           "Total Urban Population ÷ Total Number of Cities",
-          "Total Land Area ÷ Total Population (expressed as square kilometers per person)"
+          "Total Land Area ÷ Total Population"
         ],
         "answer": 1,
         "explain": "Population Density = Total Number of People / Land Area in km²!"
@@ -6129,10 +6129,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What prehistoric geological origin created today's buried deposits of COAL?",
         "options": [
-          "Microscopic marine plankton and algae that settled onto ancient sea floors (origin of petroleum)",
-          "Prehistoric sand dunes preserved by desert heat without compression",
-          "Dense Carboniferous swamp vegetation and peat forests that decayed, were compressed under deep sediments, and carbonized over 300 million years",
-          "Molten volcanic magma that cooled rapidly beneath tectonic plates (igneous rock)"
+          "Microscopic marine plankton and microscopic algae that settled on prehistoric ocean beds and decomposed beneath deep silt",
+          "Ancient windblown desert sand dunes that fused into compact sedimentary formations under arid atmospheric heat",
+          "Dense swamp forests and peat vegetation buried under sediments and subjected to intense heat and pressure over millions of years",
+          "Molten volcanic lava that cooled rapidly inside subterranean magma chambers without exposure to atmospheric oxygen"
         ],
         "answer": 2,
         "explain": "Coal is lithified terrestrial plant matter (ferns and trees) compressed in anaerobic ancient swamp basins over 300 million years!"
@@ -6140,10 +6140,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is PETROLEUM nicknamed 'Black Gold' across the global commercial economy?",
         "options": [
-          "It is a finite, highly valuable crude oil yielding transport fuels (petrol, diesel, aviation fuel) and raw materials for plastics, synthetic rubber, and pharmaceuticals",
-          "It is mined exclusively alongside raw gold nuggets in deep gold mines",
-          "It was discovered by ancient alchemists trying to transmute lead into gold",
-          "It contains high traces of dissolved elemental gold that can be melted into coins"
+          "It is a valuable finite resource yielding vital transport fuels and essential raw materials for modern industries and chemicals",
+          "It is extracted exclusively from deep subterranean geological veins directly adjacent to commercial gold and platinum mines",
+          "It contains minute traces of dissolved metallic gold that can be separated through high-temperature catalytic refinery processes",
+          "It was discovered by early alchemists who successfully transmuted black crude bitumen into pure yellow precious gold ingots"
         ],
         "answer": 0,
         "explain": "Petroleum fuels global transportation and provides foundational petrochemical feedstocks for modern industry!"
@@ -6172,10 +6172,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What prehistoric geological origin created today's buried deposits of COAL?",
         "options": [
-          "Microscopic marine plankton and algae that settled onto ancient sea floors (origin of petroleum)",
-          "Prehistoric sand dunes preserved by desert heat without compression",
-          "Dense Carboniferous swamp vegetation and peat forests that decayed, were compressed under deep sediments, and carbonized over 300 million years",
-          "Molten volcanic magma that cooled rapidly beneath tectonic plates (igneous rock)"
+          "Microscopic marine plankton and microscopic algae that settled on prehistoric ocean beds and decomposed beneath deep silt",
+          "Ancient windblown desert sand dunes that fused into compact sedimentary formations under arid atmospheric heat",
+          "Dense swamp forests and peat vegetation buried under sediments and subjected to intense heat and pressure over millions of years",
+          "Molten volcanic lava that cooled rapidly inside subterranean magma chambers without exposure to atmospheric oxygen"
         ],
         "answer": 2,
         "explain": "Coal is lithified terrestrial plant matter (ferns and trees) compressed in anaerobic ancient swamp basins over 300 million years!"
@@ -6183,10 +6183,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is PETROLEUM nicknamed 'Black Gold' across the global commercial economy?",
         "options": [
-          "It is a finite, highly valuable crude oil yielding transport fuels (petrol, diesel, aviation fuel) and raw materials for plastics, synthetic rubber, and pharmaceuticals",
-          "It is mined exclusively alongside raw gold nuggets in deep gold mines",
-          "It was discovered by ancient alchemists trying to transmute lead into gold",
-          "It contains high traces of dissolved elemental gold that can be melted into coins"
+          "It is a valuable finite resource yielding vital transport fuels and essential raw materials for modern industries and chemicals",
+          "It is extracted exclusively from deep subterranean geological veins directly adjacent to commercial gold and platinum mines",
+          "It contains minute traces of dissolved metallic gold that can be separated through high-temperature catalytic refinery processes",
+          "It was discovered by early alchemists who successfully transmuted black crude bitumen into pure yellow precious gold ingots"
         ],
         "answer": 0,
         "explain": "Petroleum fuels global transportation and provides foundational petrochemical feedstocks for modern industry!"
@@ -6204,10 +6204,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did RAJA RAVI VARMA revolutionize Indian visual culture in the late 19th century?",
         "options": [
-          "He painted modern abstract geometry only",
-          "He combined Western academic realism and oil painting techniques with Indian mythological themes, and printed affordable oleographs for millions of homes",
-          "He banned all traditional paintings",
-          "He used only black ink"
+          "He introduced abstract modernist geometric styles and created minimalist murals exclusively for prestigious overseas galleries",
+          "He blended European academic oil painting techniques with Indian mythological themes and produced mass-printed oleographs for homes",
+          "He rejected all figurative depiction of human subjects in favor of strict calligraphy inspired by classical literary inscriptions",
+          "He banned traditional indigenous folk art styles and established state guilds that produced black-and-white etchings exclusively"
         ],
         "answer": 1,
         "explain": "His color lithographic press made majestic depictions of Saraswati, Lakshmi, and Shakuntala accessible to ordinary Indian households!"
@@ -6215,10 +6215,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did the BENGAL SCHOOL OF ART (led by Abanindranath Tagore and Nandalal Bose) reject Western academic oil painting?",
         "options": [
-          "Because oil paint was unavailable in India",
-          "They sought to forge an authentic nationalist Indian aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Japanese wash traditions",
-          "They disliked all painting",
-          "They wanted to copy British cartoons"
+          "They believed visual fine arts should be replaced entirely by commercial photography and automated industrial lithography",
+          "They aimed to revive an authentic indigenous aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Asian wash art",
+          "They preferred mass-produced European photographic prints over handcrafted historical compositions and traditional pigments",
+          "They sought to restrict artistic expression exclusively to technical architectural drafts and military cartographic surveys"
         ],
         "answer": 1,
         "explain": "The Bengal School spearheaded Swadeshi artistic revivalism, seeking spiritual, poetic indigenous visual roots!"
@@ -6226,10 +6226,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What famous painting by Abanindranath Tagore depicted 'BHARAT MATA' as an ascetic divine mother figure clad in saffron robes offering food, cloth, and learning?",
         "options": [
-          "The iconic 1905 'Bharat Mata' painting",
-          "The Mona Lisa",
-          "The Triumph of Labor",
-          "The Starry Night"
+          "The iconic Bharat Mata painting",
+          "The classic Shakuntala portrait",
+          "The famous Dandi March woodcut",
+          "The historic Mother India mural"
         ],
         "answer": 0,
         "explain": "Created during the anti-Partition Swadeshi movement, Tagore's Bharat Mata symbolized national awakening, purity, and self-reliance."
@@ -6247,10 +6247,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did RAJA RAVI VARMA revolutionize Indian visual culture in the late 19th century?",
         "options": [
-          "He painted modern abstract geometry only",
-          "He combined Western academic realism and oil painting techniques with Indian mythological themes, and printed affordable oleographs for millions of homes",
-          "He banned all traditional paintings",
-          "He used only black ink"
+          "He introduced abstract modernist geometric styles and created minimalist murals exclusively for prestigious overseas galleries",
+          "He blended European academic oil painting techniques with Indian mythological themes and produced mass-printed oleographs for homes",
+          "He rejected all figurative depiction of human subjects in favor of strict calligraphy inspired by classical literary inscriptions",
+          "He banned traditional indigenous folk art styles and established state guilds that produced black-and-white etchings exclusively"
         ],
         "answer": 1,
         "explain": "His color lithographic press made majestic depictions of Saraswati, Lakshmi, and Shakuntala accessible to ordinary Indian households!"
@@ -6258,10 +6258,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did the BENGAL SCHOOL OF ART (led by Abanindranath Tagore and Nandalal Bose) reject Western academic oil painting?",
         "options": [
-          "Because oil paint was unavailable in India",
-          "They sought to forge an authentic nationalist Indian aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Japanese wash traditions",
-          "They disliked all painting",
-          "They wanted to copy British cartoons"
+          "They believed visual fine arts should be replaced entirely by commercial photography and automated industrial lithography",
+          "They aimed to revive an authentic indigenous aesthetic inspired by Ajanta frescoes, Mughal miniatures, and Asian wash art",
+          "They preferred mass-produced European photographic prints over handcrafted historical compositions and traditional pigments",
+          "They sought to restrict artistic expression exclusively to technical architectural drafts and military cartographic surveys"
         ],
         "answer": 1,
         "explain": "The Bengal School spearheaded Swadeshi artistic revivalism, seeking spiritual, poetic indigenous visual roots!"
@@ -6269,10 +6269,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What famous painting by Abanindranath Tagore depicted 'BHARAT MATA' as an ascetic divine mother figure clad in saffron robes offering food, cloth, and learning?",
         "options": [
-          "The iconic 1905 'Bharat Mata' painting",
-          "The Mona Lisa",
-          "The Triumph of Labor",
-          "The Starry Night"
+          "The iconic Bharat Mata painting",
+          "The classic Shakuntala portrait",
+          "The famous Dandi March woodcut",
+          "The historic Mother India mural"
         ],
         "answer": 0,
         "explain": "Created during the anti-Partition Swadeshi movement, Tagore's Bharat Mata symbolized national awakening, purity, and self-reliance."
@@ -6301,10 +6301,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Whose tireless dedication and petitions led to the passage of the landmark HINDU WIDOWS' REMARRIAGE ACT in 1856?",
         "options": [
-          "Dadabhai Naoroji",
-          "Akbar",
+          "Social reformer Jyotirao Phule",
+          "Scholar Mahadev Govind Ranade",
           "Ishwar Chandra Vidyasagar",
-          "Chanakya"
+          "Reformer Keshab Chandra Sen"
         ],
         "answer": 2,
         "explain": "Vidyasagar cited ancient authorities to counter orthodox resistance, championing girls' schools and legalizing widow remarriage."
@@ -6344,10 +6344,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Whose tireless dedication and petitions led to the passage of the landmark HINDU WIDOWS' REMARRIAGE ACT in 1856?",
         "options": [
-          "Dadabhai Naoroji",
-          "Akbar",
+          "Social reformer Jyotirao Phule",
+          "Scholar Mahadev Govind Ranade",
           "Ishwar Chandra Vidyasagar",
-          "Chanakya"
+          "Reformer Keshab Chandra Sen"
         ],
         "answer": 2,
         "explain": "Vidyasagar cited ancient authorities to counter orthodox resistance, championing girls' schools and legalizing widow remarriage."
@@ -6387,10 +6387,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who chaired the historic DRAFTING COMMITTEE of the Constituent Assembly, architecting the world's most comprehensive written democratic constitution?",
         "options": [
-          "Lord Mountbatten",
+          "Assembly leader Rajendra Prasad",
           "Dr. Bhimrao Ramji Ambedkar",
-          "Raja Todar Mal",
-          "Mahatma Gandhi"
+          "Home minister Vallabhbhai Patel",
+          "Education head Maulana Azad"
         ],
         "answer": 1,
         "explain": "Dr. BR Ambedkar provided peerless legal scholarship, social vision, and constitutional safeguards for marginalized citizens."
@@ -6398,10 +6398,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What linguistic milestone occurred in 1953 with the creation of the first linguistic state (Andhra State), leading to the States Reorganisation Act of 1956?",
         "options": [
-          "All states were abolished into one district",
-          "English was declared the only spoken language",
-          "States were reorganized along shared regional linguistic and cultural boundaries to strengthen federal unity",
-          "States were drawn as perfect squares"
+          "All provincial states were abolished and merged into a single centrally administered administrative territory",
+          "English was established as the sole constitutional language permitted in state legislative assemblies and courts",
+          "Internal state boundaries were redrawn along linguistic and cultural lines to reinforce democratic federal unity",
+          "States were divided into uniform geometric quadrilaterals based strictly on physical latitude and longitude grids"
         ],
         "answer": 2,
         "explain": "Linguistic reorganization accommodated India's diverse mother tongues, reinforcing rather than weakening national democratic unity."
@@ -6430,10 +6430,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who chaired the historic DRAFTING COMMITTEE of the Constituent Assembly, architecting the world's most comprehensive written democratic constitution?",
         "options": [
-          "Lord Mountbatten",
+          "Assembly leader Rajendra Prasad",
           "Dr. Bhimrao Ramji Ambedkar",
-          "Raja Todar Mal",
-          "Mahatma Gandhi"
+          "Home minister Vallabhbhai Patel",
+          "Education head Maulana Azad"
         ],
         "answer": 1,
         "explain": "Dr. BR Ambedkar provided peerless legal scholarship, social vision, and constitutional safeguards for marginalized citizens."
@@ -6441,10 +6441,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What linguistic milestone occurred in 1953 with the creation of the first linguistic state (Andhra State), leading to the States Reorganisation Act of 1956?",
         "options": [
-          "All states were abolished into one district",
-          "English was declared the only spoken language",
-          "States were reorganized along shared regional linguistic and cultural boundaries to strengthen federal unity",
-          "States were drawn as perfect squares"
+          "All provincial states were abolished and merged into a single centrally administered administrative territory",
+          "English was established as the sole constitutional language permitted in state legislative assemblies and courts",
+          "Internal state boundaries were redrawn along linguistic and cultural lines to reinforce democratic federal unity",
+          "States were divided into uniform geometric quadrilaterals based strictly on physical latitude and longitude grids"
         ],
         "answer": 2,
         "explain": "Linguistic reorganization accommodated India's diverse mother tongues, reinforcing rather than weakening national democratic unity."
@@ -6462,10 +6462,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What devastating economic process occurred in 19th-century India under British tariff policies, known as 'DEINDUSTRIALIZATION'?",
         "options": [
-          "The destruction of traditional Indian handloom and artisan handicraft industries under duty-free imports of cheap British factory textiles, forcing millions of weavers back into impoverished farm labor",
-          "Building thousands of modern Indian factories",
-          "Abolishing all farming",
-          "Making Indian weavers the richest in the world"
+          "The collapse of Indian textile handicrafts under duty-free British factory imports, driving millions of weavers into impoverished agriculture",
+          "The rapid development of Indian engineering factories through government subsidies, attracting millions of rural peasants into urban factory jobs",
+          "The complete elimination of commercial grain farming across all provinces in favor of state-mandated mineral extraction and metal smelting",
+          "The establishment of indigenous banking corporations that financed local cottage industries to outcompete European merchant trading syndicates"
         ],
         "answer": 0,
         "explain": "British colonial tariffs blocked Indian cloth exports while dumping Manchester mill textiles duty-free into India, ruining ancient artisan towns!"
@@ -6476,7 +6476,7 @@ Object.assign(window.GAME_CONTENT, {
           "Bengaluru",
           "New Delhi",
           "Mumbai",
-          "Dhaka (Dacca)"
+          "Dhaka"
         ],
         "answer": 3,
         "explain": "Dhaka's population plummeted as British colonial trade policies dismantled its legendary muslin weaving industry."
@@ -6484,10 +6484,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the 'DRAIN OF WEALTH' theory formulated by Dadabhai Naoroji in his book 'Poverty and Un-British Rule in India'?",
         "options": [
-          "A substantial portion of India's annual revenues and resources was systematically exported to Britain as home charges, salaries, and profits with NO economic return to India",
-          "Taxes were used to build schools for every village",
-          "Money was thrown into the Indian Ocean",
-          "India was draining wealth from England"
+          "A large portion of India's annual revenue was siphoned to Britain as home charges and profits without any adequate economic return to India",
+          "Indian merchants drained financial reserves from European markets by dominating global shipping lanes and exporting manufactured goods",
+          "The colonial government reinvested all collected tax revenues directly into free public education and healthcare across rural villages",
+          "Agricultural revenues were converted into gold bullion and stored permanently in provincial vaults to guard against future famine shocks"
         ],
         "answer": 0,
         "explain": "Naoroji demonstrated mathematically how colonial extraction bled India's capital dry, driving chronic famine and poverty."
@@ -6505,10 +6505,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What devastating economic process occurred in 19th-century India under British tariff policies, known as 'DEINDUSTRIALIZATION'?",
         "options": [
-          "The destruction of traditional Indian handloom and artisan handicraft industries under duty-free imports of cheap British factory textiles, forcing millions of weavers back into impoverished farm labor",
-          "Building thousands of modern Indian factories",
-          "Abolishing all farming",
-          "Making Indian weavers the richest in the world"
+          "The collapse of Indian textile handicrafts under duty-free British factory imports, driving millions of weavers into impoverished agriculture",
+          "The rapid development of Indian engineering factories through government subsidies, attracting millions of rural peasants into urban factory jobs",
+          "The complete elimination of commercial grain farming across all provinces in favor of state-mandated mineral extraction and metal smelting",
+          "The establishment of indigenous banking corporations that financed local cottage industries to outcompete European merchant trading syndicates"
         ],
         "answer": 0,
         "explain": "British colonial tariffs blocked Indian cloth exports while dumping Manchester mill textiles duty-free into India, ruining ancient artisan towns!"
@@ -6519,7 +6519,7 @@ Object.assign(window.GAME_CONTENT, {
           "Bengaluru",
           "New Delhi",
           "Mumbai",
-          "Dhaka (Dacca)"
+          "Dhaka"
         ],
         "answer": 3,
         "explain": "Dhaka's population plummeted as British colonial trade policies dismantled its legendary muslin weaving industry."
@@ -6527,10 +6527,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the 'DRAIN OF WEALTH' theory formulated by Dadabhai Naoroji in his book 'Poverty and Un-British Rule in India'?",
         "options": [
-          "A substantial portion of India's annual revenues and resources was systematically exported to Britain as home charges, salaries, and profits with NO economic return to India",
-          "Taxes were used to build schools for every village",
-          "Money was thrown into the Indian Ocean",
-          "India was draining wealth from England"
+          "A large portion of India's annual revenue was siphoned to Britain as home charges and profits without any adequate economic return to India",
+          "Indian merchants drained financial reserves from European markets by dominating global shipping lanes and exporting manufactured goods",
+          "The colonial government reinvested all collected tax revenues directly into free public education and healthcare across rural villages",
+          "Agricultural revenues were converted into gold bullion and stored permanently in provincial vaults to guard against future famine shocks"
         ],
         "answer": 0,
         "explain": "Naoroji demonstrated mathematically how colonial extraction bled India's capital dry, driving chronic famine and poverty."
@@ -6548,10 +6548,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the 'ULGULAN' (Great Tumult) led by BIRSA MUNDA in the 1890s in Jharkhand?",
         "options": [
-          "A peaceful tea-drinking society",
-          "A festival of sports only",
-          "A heroic tribal rebellion to reclaim ancestral Munda forest land rights, overthrow British colonial control, and establish Munda self-rule (Munda Raj)",
-          "A British military marching band"
+          "A collaborative trade agreement between tribal headmen and British forestry officials to commercialize teak timber concessions",
+          "A peaceful religious pilgrimage across the Chota Nagpur plateau to celebrate traditional seasonal agricultural harvest festivals",
+          "A major tribal revolt to end colonial exploitation, reclaim customary ancestral forest land rights, and establish indigenous self-rule",
+          "A military recruitment campaign organized by the colonial state to enlist tribal archers into British imperial border regiments"
         ],
         "answer": 2,
         "explain": "Birsa Munda mobilized indigenous tribals against exploitative British forest acts and rapacious moneylenders (Dikus)!"
@@ -6559,10 +6559,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did British COLONIAL FOREST ACTS (1865, 1878) devastate the customary lifestyles of indigenous tribal communities?",
         "options": [
-          "They planted fruit trees for villagers",
-          "They made forest cutting illegal for British railways",
-          "They gave all land ownership to tribals",
-          "They declared pristine forests as State property ('Reserved Forests'), outlawing traditional shifting cultivation (Jhum), grazing, and free collection of forest produce"
+          "They granted full legal ownership of woodland tracts to village councils, ending all commercial logging by British timber firms",
+          "They subsidized tribal cottage industries and provided free modern farming machinery to encourage permanent settled agriculture",
+          "They protected customary shifting cultivation and exempted indigenous gatherers from all colonial taxation and boundary checks",
+          "They declared forests state property, criminalizing customary grazing, shifting cultivation, and collection of minor forest produce"
         ],
         "answer": 3,
         "explain": "Forest Acts criminalized tribal customary survival rights to clear forests for lucrative British railway timber sleepers."
@@ -6570,10 +6570,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What landmark colonial legislation was forced onto the statute books after the Birsa Munda revolt to protect tribal land from alienation to non-tribals?",
         "options": [
-          "The Salt Tax Regulation",
-          "The Forest Destruction Act",
-          "The Rowlatt Act",
-          "The Chota Nagpur Tenancy (CNT) Act of 1908"
+          "The Bengal Permanent Settlement Act",
+          "The Indian Forest Conservation Act",
+          "The Criminal Tribes Regulation Act",
+          "The Chota Nagpur Tenancy Act of 1908"
         ],
         "answer": 3,
         "explain": "The 1908 CNT Act legally banned the transfer of tribal ancestral land to non-tribals, a lasting legacy of Birsa's rebellion!"
@@ -6591,10 +6591,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the 'ULGULAN' (Great Tumult) led by BIRSA MUNDA in the 1890s in Jharkhand?",
         "options": [
-          "A peaceful tea-drinking society",
-          "A festival of sports only",
-          "A heroic tribal rebellion to reclaim ancestral Munda forest land rights, overthrow British colonial control, and establish Munda self-rule (Munda Raj)",
-          "A British military marching band"
+          "A collaborative trade agreement between tribal headmen and British forestry officials to commercialize teak timber concessions",
+          "A peaceful religious pilgrimage across the Chota Nagpur plateau to celebrate traditional seasonal agricultural harvest festivals",
+          "A major tribal revolt to end colonial exploitation, reclaim customary ancestral forest land rights, and establish indigenous self-rule",
+          "A military recruitment campaign organized by the colonial state to enlist tribal archers into British imperial border regiments"
         ],
         "answer": 2,
         "explain": "Birsa Munda mobilized indigenous tribals against exploitative British forest acts and rapacious moneylenders (Dikus)!"
@@ -6602,10 +6602,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did British COLONIAL FOREST ACTS (1865, 1878) devastate the customary lifestyles of indigenous tribal communities?",
         "options": [
-          "They planted fruit trees for villagers",
-          "They made forest cutting illegal for British railways",
-          "They gave all land ownership to tribals",
-          "They declared pristine forests as State property ('Reserved Forests'), outlawing traditional shifting cultivation (Jhum), grazing, and free collection of forest produce"
+          "They granted full legal ownership of woodland tracts to village councils, ending all commercial logging by British timber firms",
+          "They subsidized tribal cottage industries and provided free modern farming machinery to encourage permanent settled agriculture",
+          "They protected customary shifting cultivation and exempted indigenous gatherers from all colonial taxation and boundary checks",
+          "They declared forests state property, criminalizing customary grazing, shifting cultivation, and collection of minor forest produce"
         ],
         "answer": 3,
         "explain": "Forest Acts criminalized tribal customary survival rights to clear forests for lucrative British railway timber sleepers."
@@ -6613,10 +6613,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What landmark colonial legislation was forced onto the statute books after the Birsa Munda revolt to protect tribal land from alienation to non-tribals?",
         "options": [
-          "The Salt Tax Regulation",
-          "The Forest Destruction Act",
-          "The Rowlatt Act",
-          "The Chota Nagpur Tenancy (CNT) Act of 1908"
+          "The Bengal Permanent Settlement Act",
+          "The Indian Forest Conservation Act",
+          "The Criminal Tribes Regulation Act",
+          "The Chota Nagpur Tenancy Act of 1908"
         ],
         "answer": 3,
         "explain": "The 1908 CNT Act legally banned the transfer of tribal ancestral land to non-tribals, a lasting legacy of Birsa's rebellion!"
@@ -6634,10 +6634,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did peasant farmers in Bengal launch the historic 'INDIGO REVOLT' (Nil Bidroho) in 1859 against European planters?",
         "options": [
-          "European planters forced peasants to grow indigo under fraudulent advance contracts (Ryoti system) at unviable prices, ruining fertile rice soils",
-          "Indigo made rain fall too heavily",
-          "The government gave farmers too much gold",
-          "Peasants disliked the blue color"
+          "Planters coerced peasants through fraudulent contracts to grow unprofitable indigo instead of food, exhausting fertile farm soils",
+          "The colonial administration prohibited the cultivation of cash crops and mandated that all farm fields produce rice exclusively",
+          "Planters paid excessively high wages to field laborers, causing severe price inflation and shortages of silver coins in villages",
+          "Peasants demanded the immediate replacement of handloom dye processing with automated European synthetic pigment factories"
         ],
         "answer": 0,
         "explain": "Deep-rooted indigo exhausted the soil for food crops while European planters enforced coercive advance contracts through private militias (Lathiyals)!"
@@ -6647,7 +6647,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Satyarth Prakash",
           "Anandamath",
-          "Nil Darpan (The Mirror of Indigo)",
+          "Nil Darpan",
           "Gitanjali"
         ],
         "answer": 2,
@@ -6656,10 +6656,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did the Indigo Rebellion differ from many other peasant uprisings of the 19th century?",
         "options": [
-          "It was a highly organized, non-violent strike with widespread unity among Hindu and Muslim peasants supported by the educated urban intelligentsia",
-          "It was fought with nuclear weapons",
-          "It failed completely with no commissions",
-          "It lasted only ten minutes"
+          "It was an organized, unified peasant strike supported by urban intellectuals, legal petitions, and broad social solidarity",
+          "It was a violent military conspiracy led by foreign mercenaries that collapsed within days due to lack of local popular backing",
+          "It was a religious conflict fought strictly between rival landlord factions over ancestral inheritance of zamindari estates",
+          "It was an isolated riot confined to a single market village that had no impact on colonial agricultural policy or court trials"
         ],
         "answer": 0,
         "explain": "Solidarity and litigation forced the colonial government to set up the Indigo Commission, which declared planters could not compel ryots!"
@@ -6677,10 +6677,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why did peasant farmers in Bengal launch the historic 'INDIGO REVOLT' (Nil Bidroho) in 1859 against European planters?",
         "options": [
-          "European planters forced peasants to grow indigo under fraudulent advance contracts (Ryoti system) at unviable prices, ruining fertile rice soils",
-          "Indigo made rain fall too heavily",
-          "The government gave farmers too much gold",
-          "Peasants disliked the blue color"
+          "Planters coerced peasants through fraudulent contracts to grow unprofitable indigo instead of food, exhausting fertile farm soils",
+          "The colonial administration prohibited the cultivation of cash crops and mandated that all farm fields produce rice exclusively",
+          "Planters paid excessively high wages to field laborers, causing severe price inflation and shortages of silver coins in villages",
+          "Peasants demanded the immediate replacement of handloom dye processing with automated European synthetic pigment factories"
         ],
         "answer": 0,
         "explain": "Deep-rooted indigo exhausted the soil for food crops while European planters enforced coercive advance contracts through private militias (Lathiyals)!"
@@ -6690,7 +6690,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Satyarth Prakash",
           "Anandamath",
-          "Nil Darpan (The Mirror of Indigo)",
+          "Nil Darpan",
           "Gitanjali"
         ],
         "answer": 2,
@@ -6699,10 +6699,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did the Indigo Rebellion differ from many other peasant uprisings of the 19th century?",
         "options": [
-          "It was a highly organized, non-violent strike with widespread unity among Hindu and Muslim peasants supported by the educated urban intelligentsia",
-          "It was fought with nuclear weapons",
-          "It failed completely with no commissions",
-          "It lasted only ten minutes"
+          "It was an organized, unified peasant strike supported by urban intellectuals, legal petitions, and broad social solidarity",
+          "It was a violent military conspiracy led by foreign mercenaries that collapsed within days due to lack of local popular backing",
+          "It was a religious conflict fought strictly between rival landlord factions over ancestral inheritance of zamindari estates",
+          "It was an isolated riot confined to a single market village that had no impact on colonial agricultural policy or court trials"
         ],
         "answer": 0,
         "explain": "Solidarity and litigation forced the colonial government to set up the Indigo Commission, which declared planters could not compel ryots!"
@@ -6720,10 +6720,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What clandestine treachery enabled Robert Clive to win the pivotal BATTLE OF PLASSEY in 1757 against Nawab Siraj-ud-Daulah?",
         "options": [
-          "The battle was cancelled due to fog",
-          "The Nawab had no weapons",
-          "The British army had 100,000 soldiers",
-          "Mir Jafar, the commander of the Nawab's armed forces, accepted British bribes to betray the Nawab and withheld his troops from fighting"
+          "French naval forces intercepted the Nawab's supply ships in the Bay of Bengal, cutting off all gunpowder deliveries to the army",
+          "The Nawab's artillery battalions accidentally fired upon their own infantry lines due to heavy rain obscuring visual battlefield cues",
+          "Maratha cavalry units launched a surprise dawn ambush from the rear that scattered the Nawab's defensive forces into the jungle",
+          "Mir Jafar conspired with the British in exchange for the throne, keeping the bulk of the Nawab's army from entering the battle"
         ],
         "answer": 3,
         "explain": "Clive bribed Mir Jafar with the promise of the throne, ensuring the bulk of Bengal's army never engaged in combat!"
@@ -6731,10 +6731,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What monumental financial right did the Mughal Emperor Shah Alam II grant to the East India Company following their victory at the Battle of Buxar (1764)?",
         "options": [
-          "The right to build schools only",
-          "The right to sell tea in London",
-          "Ownership of the Red Fort",
-          "The DIWANI RIGHTS of Bengal, Bihar, and Odisha (the right to collect all land revenues and administer civil justice)"
+          "Exclusive trade monopolies across the Red Sea ports",
+          "Sovereign naval authority over all coastal waters",
+          "Imperial control of royal minting facilities in Agra",
+          "The Diwani rights of Bengal, Bihar, and Odisha"
         ],
         "answer": 3,
         "explain": "Diwani rights gave the Company control over Bengal's vast tax revenues, allowing them to finance conquests using Indian money!"
@@ -6743,7 +6743,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What aggressive diplomatic policy of annexation introduced by Lord Dalhousie confiscated princely kingdoms whose rulers died without a natural male heir?",
         "options": [
           "The Permanent Settlement",
-          "The Doctrine of Lapse (annexing Jhansi, Satara, Nagpur)",
+          "The Doctrine of Lapse",
           "The Rule of Law",
           "The Subsidiary Alliance"
         ],
@@ -6763,10 +6763,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What clandestine treachery enabled Robert Clive to win the pivotal BATTLE OF PLASSEY in 1757 against Nawab Siraj-ud-Daulah?",
         "options": [
-          "The battle was cancelled due to fog",
-          "The Nawab had no weapons",
-          "The British army had 100,000 soldiers",
-          "Mir Jafar, the commander of the Nawab's armed forces, accepted British bribes to betray the Nawab and withheld his troops from fighting"
+          "French naval forces intercepted the Nawab's supply ships in the Bay of Bengal, cutting off all gunpowder deliveries to the army",
+          "The Nawab's artillery battalions accidentally fired upon their own infantry lines due to heavy rain obscuring visual battlefield cues",
+          "Maratha cavalry units launched a surprise dawn ambush from the rear that scattered the Nawab's defensive forces into the jungle",
+          "Mir Jafar conspired with the British in exchange for the throne, keeping the bulk of the Nawab's army from entering the battle"
         ],
         "answer": 3,
         "explain": "Clive bribed Mir Jafar with the promise of the throne, ensuring the bulk of Bengal's army never engaged in combat!"
@@ -6774,10 +6774,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What monumental financial right did the Mughal Emperor Shah Alam II grant to the East India Company following their victory at the Battle of Buxar (1764)?",
         "options": [
-          "The right to build schools only",
-          "The right to sell tea in London",
-          "Ownership of the Red Fort",
-          "The DIWANI RIGHTS of Bengal, Bihar, and Odisha (the right to collect all land revenues and administer civil justice)"
+          "Exclusive trade monopolies across the Red Sea ports",
+          "Sovereign naval authority over all coastal waters",
+          "Imperial control of royal minting facilities in Agra",
+          "The Diwani rights of Bengal, Bihar, and Odisha"
         ],
         "answer": 3,
         "explain": "Diwani rights gave the Company control over Bengal's vast tax revenues, allowing them to finance conquests using Indian money!"
@@ -6786,7 +6786,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What aggressive diplomatic policy of annexation introduced by Lord Dalhousie confiscated princely kingdoms whose rulers died without a natural male heir?",
         "options": [
           "The Permanent Settlement",
-          "The Doctrine of Lapse (annexing Jhansi, Satara, Nagpur)",
+          "The Doctrine of Lapse",
           "The Rule of Law",
           "The Subsidiary Alliance"
         ],
@@ -6806,10 +6806,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the primary goal of the English Education Act of 1835 based on MACAULAY'S MINUTE?",
         "options": [
-          "To build free primary schools in every tribal village",
-          "To ban all schools in India",
-          "To promote ancient Sanskrit and Persian poetry",
-          "To make English the medium of higher education and create a class of English-educated Indian clerks ('Indian in blood and colour, but English in taste, opinions, and intellect')"
+          "To establish free vernacular elementary schools across every rural village to teach traditional crafts",
+          "To revive ancient Sanskrit and Persian literature through state-funded monastic university endowments",
+          "To replace secular academic learning with mandatory European religious instruction in all public schools",
+          "To promote English as the medium of higher education and produce clerks to serve colonial administration"
         ],
         "answer": 3,
         "explain": "Macaulay explicitly sought an administrative cadre of English-fluent intermediaries to run the colonial bureaucracy cheaply."
@@ -6828,10 +6828,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did revolutionary nationalist leaders like Rabindranath Tagore and Mahatma Gandhi critique colonial English schooling?",
         "options": [
-          "They argued children should never learn science",
-          "They wanted to ban all books",
-          "They loved British colonial exams",
-          "They argued it uprooted children from their living culture, fostered subservience to foreign masters, and advocated learning in nature and mother tongues (like Visva-Bharati)"
+          "They argued that schools should abandon all humanities and arts to focus exclusively on Western military drill and firearms training",
+          "They claimed that modern science and mathematics had no place in schools and demanded a return to ancient oral recitation practices",
+          "They advocated replacing all classroom learning with competitive standardized exams administered exclusively by British universities",
+          "They argued that it alienated students from their culture and mother tongues, advocating creative learning in harmony with nature"
         ],
         "answer": 3,
         "explain": "Tagore founded Shantiniketan to educate the whole human spirit in natural freedom rather than sterile colonial classroom prisons."
@@ -6849,10 +6849,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the primary goal of the English Education Act of 1835 based on MACAULAY'S MINUTE?",
         "options": [
-          "To build free primary schools in every tribal village",
-          "To ban all schools in India",
-          "To promote ancient Sanskrit and Persian poetry",
-          "To make English the medium of higher education and create a class of English-educated Indian clerks ('Indian in blood and colour, but English in taste, opinions, and intellect')"
+          "To establish free vernacular elementary schools across every rural village to teach traditional crafts",
+          "To revive ancient Sanskrit and Persian literature through state-funded monastic university endowments",
+          "To replace secular academic learning with mandatory European religious instruction in all public schools",
+          "To promote English as the medium of higher education and produce clerks to serve colonial administration"
         ],
         "answer": 3,
         "explain": "Macaulay explicitly sought an administrative cadre of English-fluent intermediaries to run the colonial bureaucracy cheaply."
@@ -6871,10 +6871,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did revolutionary nationalist leaders like Rabindranath Tagore and Mahatma Gandhi critique colonial English schooling?",
         "options": [
-          "They argued children should never learn science",
-          "They wanted to ban all books",
-          "They loved British colonial exams",
-          "They argued it uprooted children from their living culture, fostered subservience to foreign masters, and advocated learning in nature and mother tongues (like Visva-Bharati)"
+          "They argued that schools should abandon all humanities and arts to focus exclusively on Western military drill and firearms training",
+          "They claimed that modern science and mathematics had no place in schools and demanded a return to ancient oral recitation practices",
+          "They advocated replacing all classroom learning with competitive standardized exams administered exclusively by British universities",
+          "They argued that it alienated students from their culture and mother tongues, advocating creative learning in harmony with nature"
         ],
         "answer": 3,
         "explain": "Tagore founded Shantiniketan to educate the whole human spirit in natural freedom rather than sterile colonial classroom prisons."
@@ -6892,10 +6892,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What immediate spark ignited the sepoy mutiny in Barrackpore and Meerut in the spring of 1857?",
         "options": [
-          "Soldiers were asked to wear yellow caps",
-          "The food in the mess was too salty",
-          "Pay was increased by ten rupees",
-          "The introduction of the new Enfield rifle cartridges greased with cow and pig fat, which soldiers had to bite with teeth, violating Hindu and Muslim religious sanctities"
+          "The sudden dismissal of all native infantry regiments following a peaceful wage negotiation strike at the regional military garrison",
+          "An unexpected increase in the mandatory service duration for overseas deployments without any corresponding financial allowances",
+          "The colonial order requiring all sepoys to surrender their traditional dress and adopt European uniforms during religious festivities",
+          "The introduction of Enfield cartridges greased with animal fat that sepoys had to bite, violating Hindu and Muslim religious sanctities"
         ],
         "answer": 3,
         "explain": "Biting cartridges greased with animal tallow violated core religious taboos, triggering sepoy Mangal Pandey's defiance!"
@@ -6904,9 +6904,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Who became the immortal symbol of fearless resistance in Central India, riding into battle in male soldier's armor with her adopted son tied to her back?",
         "options": [
           "Rani Lakshmibai of Jhansi",
-          "Razia Sultan",
-          "Sarojini Naidu",
-          "Noor Jahan"
+          "Begum Hazrat Mahal of Awadh",
+          "Rani Chennamma of Kittur",
+          "Rani Avantibai of Ramgarh"
         ],
         "answer": 0,
         "explain": "'Khoob ladi mardani woh toh Jhansi wali Rani thi!' Rani Lakshmibai died heroically fighting British cavalry near Gwalior."
@@ -6914,10 +6914,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What major constitutional transfer of power occurred after the British crushed the 1857 rebellion (The Government of India Act 1858)?",
         "options": [
-          "The Mughal Empire was restored to full power",
-          "India gained full independence immediately",
-          "The East India Company's rule was officially abolished, and governance of India passed directly to the British Crown under Queen Victoria",
-          "The capital was moved to London permanently"
+          "Direct governance was transferred to the French Republic under an international territorial treaty concluded in London",
+          "The Mughal Emperor was restored to sovereign political authority with a cabinet of provincial nawabs overseeing finances",
+          "The East India Company was abolished, and direct sovereign governance passed to the British Crown under Queen Victoria",
+          "India was partitioned into autonomous independent provinces governed exclusively by local princely dynasty rulers"
         ],
         "answer": 2,
         "explain": "The 1858 Act terminated Company Raj, appointing a Secretary of State for India and transforming the Governor-General into the Viceroy."
@@ -6935,10 +6935,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What immediate spark ignited the sepoy mutiny in Barrackpore and Meerut in the spring of 1857?",
         "options": [
-          "Soldiers were asked to wear yellow caps",
-          "The food in the mess was too salty",
-          "Pay was increased by ten rupees",
-          "The introduction of the new Enfield rifle cartridges greased with cow and pig fat, which soldiers had to bite with teeth, violating Hindu and Muslim religious sanctities"
+          "The sudden dismissal of all native infantry regiments following a peaceful wage negotiation strike at the regional military garrison",
+          "An unexpected increase in the mandatory service duration for overseas deployments without any corresponding financial allowances",
+          "The colonial order requiring all sepoys to surrender their traditional dress and adopt European uniforms during religious festivities",
+          "The introduction of Enfield cartridges greased with animal fat that sepoys had to bite, violating Hindu and Muslim religious sanctities"
         ],
         "answer": 3,
         "explain": "Biting cartridges greased with animal tallow violated core religious taboos, triggering sepoy Mangal Pandey's defiance!"
@@ -6947,9 +6947,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Who became the immortal symbol of fearless resistance in Central India, riding into battle in male soldier's armor with her adopted son tied to her back?",
         "options": [
           "Rani Lakshmibai of Jhansi",
-          "Razia Sultan",
-          "Sarojini Naidu",
-          "Noor Jahan"
+          "Begum Hazrat Mahal of Awadh",
+          "Rani Chennamma of Kittur",
+          "Rani Avantibai of Ramgarh"
         ],
         "answer": 0,
         "explain": "'Khoob ladi mardani woh toh Jhansi wali Rani thi!' Rani Lakshmibai died heroically fighting British cavalry near Gwalior."
@@ -6957,10 +6957,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What major constitutional transfer of power occurred after the British crushed the 1857 rebellion (The Government of India Act 1858)?",
         "options": [
-          "The Mughal Empire was restored to full power",
-          "India gained full independence immediately",
-          "The East India Company's rule was officially abolished, and governance of India passed directly to the British Crown under Queen Victoria",
-          "The capital was moved to London permanently"
+          "Direct governance was transferred to the French Republic under an international territorial treaty concluded in London",
+          "The Mughal Emperor was restored to sovereign political authority with a cabinet of provincial nawabs overseeing finances",
+          "The East India Company was abolished, and direct sovereign governance passed to the British Crown under Queen Victoria",
+          "India was partitioned into autonomous independent provinces governed exclusively by local princely dynasty rulers"
         ],
         "answer": 2,
         "explain": "The 1858 Act terminated Company Raj, appointing a Secretary of State for India and transforming the Governor-General into the Viceroy."
@@ -6986,7 +6986,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Chauri Chaura March",
           "The Champaran March",
           "The Bardoli March",
-          "The Dandi March (The Salt Satyagraha)"
+          "The Dandi March"
         ],
         "answer": 3,
         "explain": "Picking up a handful of untaxed sea salt at Dandi broke the imperial salt monopoly and galvanized millions into Civil Disobedience!"
@@ -6995,7 +6995,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What powerful historic slogan did Mahatma Gandhi give to the nation at Gowalia Tank Maidan in Mumbai during the launch of the QUIT INDIA MOVEMENT in August 1942?",
         "options": [
           "'Inquilab Zindabad'",
-          "'Do or Die' (Karo ya Maro)",
+          "'Do or Die'",
           "'Jai Jawan Jai Kisan'",
           "'Swaraj is my birthright'"
         ],
@@ -7005,10 +7005,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who formed the Azad Hind Fauj (Indian National Army - INA) to militarily liberate India from colonial rule, popularizing the greeting 'Jai Hind!'?",
         "options": [
-          "Bhagat Singh",
-          "Lala Lajpat Rai",
+          "Revolutionary Bhagat Singh",
+          "Lala Lajpat Rai of Punjab",
           "Netaji Subhas Chandra Bose",
-          "Jawaharlal Nehru"
+          "Rash Behari Bose of Bengal"
         ],
         "answer": 2,
         "explain": "Netaji rallied Indian POWs and expatriates in Southeast Asia, advancing to the borders of Manipur with the clarion call: 'Give me blood, and I will give you freedom!'"
@@ -7034,7 +7034,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Chauri Chaura March",
           "The Champaran March",
           "The Bardoli March",
-          "The Dandi March (The Salt Satyagraha)"
+          "The Dandi March"
         ],
         "answer": 3,
         "explain": "Picking up a handful of untaxed sea salt at Dandi broke the imperial salt monopoly and galvanized millions into Civil Disobedience!"
@@ -7043,7 +7043,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What powerful historic slogan did Mahatma Gandhi give to the nation at Gowalia Tank Maidan in Mumbai during the launch of the QUIT INDIA MOVEMENT in August 1942?",
         "options": [
           "'Inquilab Zindabad'",
-          "'Do or Die' (Karo ya Maro)",
+          "'Do or Die'",
           "'Jai Jawan Jai Kisan'",
           "'Swaraj is my birthright'"
         ],
@@ -7053,10 +7053,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who formed the Azad Hind Fauj (Indian National Army - INA) to militarily liberate India from colonial rule, popularizing the greeting 'Jai Hind!'?",
         "options": [
-          "Bhagat Singh",
-          "Lala Lajpat Rai",
+          "Revolutionary Bhagat Singh",
+          "Lala Lajpat Rai of Punjab",
           "Netaji Subhas Chandra Bose",
-          "Jawaharlal Nehru"
+          "Rash Behari Bose of Bengal"
         ],
         "answer": 2,
         "explain": "Netaji rallied Indian POWs and expatriates in Southeast Asia, advancing to the borders of Manipur with the clarion call: 'Give me blood, and I will give you freedom!'"
@@ -7074,10 +7074,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do modern objective historians REJECT James Mill's 1817 religious categorization of Indian history into 'Hindu, Muslim, and British' periods?",
         "options": [
-          "It is historically inaccurate, artificially characterizes an entire diverse era by the religion of rulers alone, and stoked communal division",
-          "Because Mill's book was too short",
-          "Because James Mill was an ancient king",
-          "Because religion did not exist in India"
+          "It falsely defines complex diverse eras solely by the ruler's religion, ignoring social dynamics and promoting communal division",
+          "It classified historical eras based on climatic and geological cycles rather than recorded dynastic lineages and political treaties",
+          "It placed the British colonial era ahead of ancient civilizations in chronological order, confusing subsequent generations of scholars",
+          "It relied exclusively on oral folklore while ignoring British administrative reports and archaeological artifacts from excavation sites"
         ],
         "answer": 0,
         "explain": "A ruler's faith does not define the lives of millions of subjects; historians categorize eras by technological, economic, and institutional transitions!"
@@ -7085,10 +7085,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines the 'MODERN PERIOD' in global historical analysis?",
         "options": [
-          "The invention of television only",
-          "The rise of scientific rationality, industrial technology, democratic nation-states, human rights, and global interconnection",
-          "Wearing modern fashionable trousers",
-          "The end of all wars"
+          "The complete replacement of agricultural farming with automated industrial manufacturing across all continents",
+          "The emergence of scientific rationalism, democratic governance, industrialization, and recognition of human rights",
+          "The expansion of absolute dynastic monarchies and religious empires governing through feudal military fiefdoms",
+          "The total cessation of international armed conflicts through global diplomatic treaties established in Europe"
         ],
         "answer": 1,
         "explain": "Modernity is marked by empirical science, enlightenment ideals of liberty and equality, industrialization, and sovereign constitutions."
@@ -7096,10 +7096,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do many Indian historians term the British era in India as 'COLONIAL' rather than truly 'modern'?",
         "options": [
-          "Because ships ran on steam",
-          "Because the British built no schools",
-          "Under British rule, Indians did NOT enjoy equality, freedom, democracy, or economic prosperity; instead, India was subjected to imperial economic exploitation",
-          "Because clocks were not invented yet"
+          "Because modern scientific instruments and mechanical printing presses were completely prohibited from entering the subcontinent",
+          "Because international historians designate all events occurring before the twentieth century as ancient or medieval historical phases",
+          "Because Indians lacked freedom, equality, and democratic rights, and the country was subjected to foreign economic exploitation",
+          "Because British colonial authorities governed without maintaining written administrative records, censuses, or cartographic surveys"
         ],
         "answer": 2,
         "explain": "True modernity brings liberty and economic progress; colonial rule imposed political subjugation and wealth drain."
@@ -7117,10 +7117,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do modern objective historians REJECT James Mill's 1817 religious categorization of Indian history into 'Hindu, Muslim, and British' periods?",
         "options": [
-          "It is historically inaccurate, artificially characterizes an entire diverse era by the religion of rulers alone, and stoked communal division",
-          "Because Mill's book was too short",
-          "Because James Mill was an ancient king",
-          "Because religion did not exist in India"
+          "It falsely defines complex diverse eras solely by the ruler's religion, ignoring social dynamics and promoting communal division",
+          "It classified historical eras based on climatic and geological cycles rather than recorded dynastic lineages and political treaties",
+          "It placed the British colonial era ahead of ancient civilizations in chronological order, confusing subsequent generations of scholars",
+          "It relied exclusively on oral folklore while ignoring British administrative reports and archaeological artifacts from excavation sites"
         ],
         "answer": 0,
         "explain": "A ruler's faith does not define the lives of millions of subjects; historians categorize eras by technological, economic, and institutional transitions!"
@@ -7128,10 +7128,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines the 'MODERN PERIOD' in global historical analysis?",
         "options": [
-          "The invention of television only",
-          "The rise of scientific rationality, industrial technology, democratic nation-states, human rights, and global interconnection",
-          "Wearing modern fashionable trousers",
-          "The end of all wars"
+          "The complete replacement of agricultural farming with automated industrial manufacturing across all continents",
+          "The emergence of scientific rationalism, democratic governance, industrialization, and recognition of human rights",
+          "The expansion of absolute dynastic monarchies and religious empires governing through feudal military fiefdoms",
+          "The total cessation of international armed conflicts through global diplomatic treaties established in Europe"
         ],
         "answer": 1,
         "explain": "Modernity is marked by empirical science, enlightenment ideals of liberty and equality, industrialization, and sovereign constitutions."
@@ -7139,10 +7139,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do many Indian historians term the British era in India as 'COLONIAL' rather than truly 'modern'?",
         "options": [
-          "Because ships ran on steam",
-          "Because the British built no schools",
-          "Under British rule, Indians did NOT enjoy equality, freedom, democracy, or economic prosperity; instead, India was subjected to imperial economic exploitation",
-          "Because clocks were not invented yet"
+          "Because modern scientific instruments and mechanical printing presses were completely prohibited from entering the subcontinent",
+          "Because international historians designate all events occurring before the twentieth century as ancient or medieval historical phases",
+          "Because Indians lacked freedom, equality, and democratic rights, and the country was subjected to foreign economic exploitation",
+          "Because British colonial authorities governed without maintaining written administrative records, censuses, or cartographic surveys"
         ],
         "answer": 2,
         "explain": "True modernity brings liberty and economic progress; colonial rule imposed political subjugation and wealth drain."
@@ -7160,10 +7160,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does it mean for a social or ethnic group to be 'MARGINALIZED' in society?",
         "options": [
-          "Being given extra gold by the state",
-          "Being the majority group",
-          "Being pushed to the fringes or edges of economic, social, and political power, lacking equal access to resources, education, and representation",
-          "Living in royal mansions"
+          "Being granted exclusive hereditary privileges and controlling the primary administrative institutions of the state",
+          "Comprising the numerical majority of a population and setting the cultural norms and official public holidays",
+          "Being pushed to the fringes of social, economic, and political power with restricted access to resources and opportunities",
+          "Choosing to live in voluntary isolation while retaining dominant control over commercial trade routes and banking"
         ],
         "answer": 2,
         "explain": "Marginalization excludes communities from developmental wealth, decision-making corridors, and dignified voice."
@@ -7171,10 +7171,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who are the 'ADIVASIS' of India (literally 'Original Inhabitants')?",
         "options": [
-          "Factory owners in big cities",
-          "Foreign tourists who visited India last year",
-          "Royal princes from ancient dynasties",
-          "Indigenous tribal communities with distinct non-hierarchical cultures, deep ancestral ecological knowledge, and spiritual bonds to forest ecosystems"
+          "Urban industrial business entrepreneurs who migrated from coastal trading hubs to establish manufacturing plants in forest districts",
+          "Foreign tourist delegations who travel periodically across national parks to observe regional folklore and wildlife habitats",
+          "Descendants of royal court nobility who held feudal land grants from medieval dynasties along fertile river valley basins",
+          "Indigenous tribal communities with distinct non-hierarchical cultures, ancestral ecological knowledge, and bonds to forest lands"
         ],
         "answer": 3,
         "explain": "Adivasis represent India's 100+ million indigenous forest and hill communities with rich distinct traditions!"
@@ -7185,7 +7185,7 @@ Object.assign(window.GAME_CONTENT, {
           "Exemption from paying any shop bills",
           "Double voting rights",
           "Free overseas holidays",
-          "RESERVED CONSTITUENCIES (where only candidates from SC or ST communities can contest elections)"
+          "RESERVED CONSTITUENCIES"
         ],
         "answer": 3,
         "explain": "Reserved seats guarantee that historically oppressed communities have authentic democratic voice in the legislature."
@@ -7203,10 +7203,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does it mean for a social or ethnic group to be 'MARGINALIZED' in society?",
         "options": [
-          "Being given extra gold by the state",
-          "Being the majority group",
-          "Being pushed to the fringes or edges of economic, social, and political power, lacking equal access to resources, education, and representation",
-          "Living in royal mansions"
+          "Being granted exclusive hereditary privileges and controlling the primary administrative institutions of the state",
+          "Comprising the numerical majority of a population and setting the cultural norms and official public holidays",
+          "Being pushed to the fringes of social, economic, and political power with restricted access to resources and opportunities",
+          "Choosing to live in voluntary isolation while retaining dominant control over commercial trade routes and banking"
         ],
         "answer": 2,
         "explain": "Marginalization excludes communities from developmental wealth, decision-making corridors, and dignified voice."
@@ -7214,10 +7214,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who are the 'ADIVASIS' of India (literally 'Original Inhabitants')?",
         "options": [
-          "Factory owners in big cities",
-          "Foreign tourists who visited India last year",
-          "Royal princes from ancient dynasties",
-          "Indigenous tribal communities with distinct non-hierarchical cultures, deep ancestral ecological knowledge, and spiritual bonds to forest ecosystems"
+          "Urban industrial business entrepreneurs who migrated from coastal trading hubs to establish manufacturing plants in forest districts",
+          "Foreign tourist delegations who travel periodically across national parks to observe regional folklore and wildlife habitats",
+          "Descendants of royal court nobility who held feudal land grants from medieval dynasties along fertile river valley basins",
+          "Indigenous tribal communities with distinct non-hierarchical cultures, ancestral ecological knowledge, and bonds to forest lands"
         ],
         "answer": 3,
         "explain": "Adivasis represent India's 100+ million indigenous forest and hill communities with rich distinct traditions!"
@@ -7228,7 +7228,7 @@ Object.assign(window.GAME_CONTENT, {
           "Exemption from paying any shop bills",
           "Double voting rights",
           "Free overseas holidays",
-          "RESERVED CONSTITUENCIES (where only candidates from SC or ST communities can contest elections)"
+          "RESERVED CONSTITUENCIES"
         ],
         "answer": 3,
         "explain": "Reserved seats guarantee that historically oppressed communities have authentic democratic voice in the legislature."
@@ -7246,10 +7246,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'FIR' (First Information Report) in Indian criminal justice?",
         "options": [
-          "The official written report recorded by the police when information about a cognizable crime is first reported, which officially begins the police investigation",
-          "A court judgment sentencing an offender",
-          "A fine paid to a traffic officer",
-          "A receipt for buying groceries"
+          "The written report recorded by police upon receiving information about a cognizable offense, which formally initiates an investigation",
+          "The final judicial verdict delivered by a magistrate at the conclusion of a criminal trial determining guilt and sentencing terms",
+          "An administrative notice issued by a municipal corporation demanding the immediate payment of overdue property and business taxes",
+          "A formal bail bond executed by an accused person guaranteeing regular court appearances before the commencement of judicial hearings"
         ],
         "answer": 0,
         "explain": "Section 154 of the CrPC mandates that police record an FIR when a cognizable offense is reported, triggering lawful investigation!"
@@ -7257,10 +7257,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Under Indian law, can a police officer refuse to record an FIR when a citizen reports a serious cognizable crime?",
         "options": [
-          "Only if the complainant pays a cash bribe",
-          "No, it is legally mandatory for the Station House Officer (SHO) to register the FIR and provide a free signed copy to the complainant",
-          "Police never record reports",
-          "Yes, officers can refuse if they are too busy"
+          "Yes, police officers have full personal discretion to decline registering reports if the station docket is already crowded",
+          "No, registering the report is legally mandatory for cognizable offenses, and a free copy must be given to the complainant",
+          "Yes, police officers may decline registration unless the complainant deposits an advance administrative investigation fee",
+          "No, but the officer may postpone recording the report indefinitely until private informal settlement talks have concluded"
         ],
         "answer": 1,
         "explain": "Supreme Court rulings (Lalita Kumari case) mandate that police MUST register an FIR upon receipt of cognizable crime information!"
@@ -7268,10 +7268,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of the 'PUBLIC PROSECUTOR' in a criminal trial in the Sessions or District Court?",
         "options": [
-          "A state-appointed legal advocate who represents the public interest of the State to present evidence against the accused impartially",
-          "The personal secretary to the judge",
-          "The police constable guarding the door",
-          "The private lawyer of the criminal"
+          "A state-appointed advocate who represents the public interest of the State and presents evidence against the accused in court",
+          "A private defense attorney retained by the accused person to present mitigating evidence and cross-examine state witnesses",
+          "An administrative judicial clerk who records testimony transcripts and schedules trial hearing dates for presiding magistrates",
+          "A police investigator who supervises forensic laboratory testing and coordinates security patrols within the court precinct"
         ],
         "answer": 0,
         "explain": "Crimes are considered offenses against society as a whole; the Public Prosecutor represents the State to seek justice!"
@@ -7289,10 +7289,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is an 'FIR' (First Information Report) in Indian criminal justice?",
         "options": [
-          "The official written report recorded by the police when information about a cognizable crime is first reported, which officially begins the police investigation",
-          "A court judgment sentencing an offender",
-          "A fine paid to a traffic officer",
-          "A receipt for buying groceries"
+          "The written report recorded by police upon receiving information about a cognizable offense, which formally initiates an investigation",
+          "The final judicial verdict delivered by a magistrate at the conclusion of a criminal trial determining guilt and sentencing terms",
+          "An administrative notice issued by a municipal corporation demanding the immediate payment of overdue property and business taxes",
+          "A formal bail bond executed by an accused person guaranteeing regular court appearances before the commencement of judicial hearings"
         ],
         "answer": 0,
         "explain": "Section 154 of the CrPC mandates that police record an FIR when a cognizable offense is reported, triggering lawful investigation!"
@@ -7300,10 +7300,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Under Indian law, can a police officer refuse to record an FIR when a citizen reports a serious cognizable crime?",
         "options": [
-          "Only if the complainant pays a cash bribe",
-          "No, it is legally mandatory for the Station House Officer (SHO) to register the FIR and provide a free signed copy to the complainant",
-          "Police never record reports",
-          "Yes, officers can refuse if they are too busy"
+          "Yes, police officers have full personal discretion to decline registering reports if the station docket is already crowded",
+          "No, registering the report is legally mandatory for cognizable offenses, and a free copy must be given to the complainant",
+          "Yes, police officers may decline registration unless the complainant deposits an advance administrative investigation fee",
+          "No, but the officer may postpone recording the report indefinitely until private informal settlement talks have concluded"
         ],
         "answer": 1,
         "explain": "Supreme Court rulings (Lalita Kumari case) mandate that police MUST register an FIR upon receipt of cognizable crime information!"
@@ -7311,10 +7311,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of the 'PUBLIC PROSECUTOR' in a criminal trial in the Sessions or District Court?",
         "options": [
-          "A state-appointed legal advocate who represents the public interest of the State to present evidence against the accused impartially",
-          "The personal secretary to the judge",
-          "The police constable guarding the door",
-          "The private lawyer of the criminal"
+          "A state-appointed advocate who represents the public interest of the State and presents evidence against the accused in court",
+          "A private defense attorney retained by the accused person to present mitigating evidence and cross-examine state witnesses",
+          "An administrative judicial clerk who records testimony transcripts and schedules trial hearing dates for presiding magistrates",
+          "A police investigator who supervises forensic laboratory testing and coordinates security patrols within the court precinct"
         ],
         "answer": 0,
         "explain": "Crimes are considered offenses against society as a whole; the Public Prosecutor represents the State to seek justice!"
@@ -7332,10 +7332,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Trace the step-by-step constitutional journey of how a proposed 'BILL' becomes an enforceable 'ACT' (Law) in India:",
         "options": [
-          "Supreme Court passes it -> Chief Minister signs it",
-          "Citizens vote on the street -> It becomes law immediately",
-          "Drafting -> Introduced in Parliament -> Three readings and debate in Lok Sabha and Rajya Sabha -> Passed by both Houses -> Assent by the President of India",
-          "President writes it alone -> Police enforce it next day"
+          "Drafting -> Judicial review in Supreme Court -> Direct referendum by citizen voters -> Final enforcement by Prime Minister",
+          "Drafting -> Approval by Union Cabinet -> Immediate police notification -> Ratification by state governors at next elections",
+          "Drafting -> Introduction in Parliament -> Debate and passage by both Houses -> Formal presidential assent -> Notification as an Act",
+          "Drafting -> Promulgation by President -> Review by civil society groups -> Unanimous vote in Lok Sabha -> Enforcement by courts"
         ],
         "answer": 2,
         "explain": "A bill must be debated, amended, and passed by both parliamentary houses before receiving presidential assent!"
@@ -7343,10 +7343,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did civil society groups and women's organizations shape the landmark Domestic Violence Act of 2005?",
         "options": [
-          "They conducted nationwide consultations, drafted sample legal bills, shared survivor testimonies, and petitioned parliamentary standing committees",
-          "They stayed silent",
-          "They bought the parliament building",
-          "They refused to talk to lawmakers"
+          "They conducted widespread consultations, submitted draft proposals, presented survivor evidence, and lobbied parliamentary committees",
+          "They staged a boycott of general elections and filed international lawsuits demanding foreign intervention in domestic family law",
+          "They demanded the total repeal of all criminal penal codes and called for the privatization of municipal family dispute mediation",
+          "They organized industrial transport strikes across major metropolitan cities until the executive issued an emergency decree"
         ],
         "answer": 0,
         "explain": "Vibrant democratic lawmaking incorporates the lived experience and advocacy of grassroots citizen networks!"
@@ -7354,10 +7354,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What landmark act passed in 2005 guarantees citizens the legal right to inspect public government files and records?",
         "options": [
-          "The Currency Act",
-          "The Motor Vehicles Act",
-          "The Factories Act",
-          "The Right to Information (RTI) Act, 2005"
+          "The Official Secrets Protection Act",
+          "The Public Records Digitalization Act",
+          "The Consumer Protection Guarantee Act",
+          "The Right to Information Act of 2005"
         ],
         "answer": 3,
         "explain": "RTI dismantled colonial secrecy, empowering citizens to demand transparency from public authorities!"
@@ -7375,10 +7375,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Trace the step-by-step constitutional journey of how a proposed 'BILL' becomes an enforceable 'ACT' (Law) in India:",
         "options": [
-          "Supreme Court passes it -> Chief Minister signs it",
-          "Citizens vote on the street -> It becomes law immediately",
-          "Drafting -> Introduced in Parliament -> Three readings and debate in Lok Sabha and Rajya Sabha -> Passed by both Houses -> Assent by the President of India",
-          "President writes it alone -> Police enforce it next day"
+          "Drafting -> Judicial review in Supreme Court -> Direct referendum by citizen voters -> Final enforcement by Prime Minister",
+          "Drafting -> Approval by Union Cabinet -> Immediate police notification -> Ratification by state governors at next elections",
+          "Drafting -> Introduction in Parliament -> Debate and passage by both Houses -> Formal presidential assent -> Notification as an Act",
+          "Drafting -> Promulgation by President -> Review by civil society groups -> Unanimous vote in Lok Sabha -> Enforcement by courts"
         ],
         "answer": 2,
         "explain": "A bill must be debated, amended, and passed by both parliamentary houses before receiving presidential assent!"
@@ -7386,10 +7386,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did civil society groups and women's organizations shape the landmark Domestic Violence Act of 2005?",
         "options": [
-          "They conducted nationwide consultations, drafted sample legal bills, shared survivor testimonies, and petitioned parliamentary standing committees",
-          "They stayed silent",
-          "They bought the parliament building",
-          "They refused to talk to lawmakers"
+          "They conducted widespread consultations, submitted draft proposals, presented survivor evidence, and lobbied parliamentary committees",
+          "They staged a boycott of general elections and filed international lawsuits demanding foreign intervention in domestic family law",
+          "They demanded the total repeal of all criminal penal codes and called for the privatization of municipal family dispute mediation",
+          "They organized industrial transport strikes across major metropolitan cities until the executive issued an emergency decree"
         ],
         "answer": 0,
         "explain": "Vibrant democratic lawmaking incorporates the lived experience and advocacy of grassroots citizen networks!"
@@ -7397,10 +7397,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What landmark act passed in 2005 guarantees citizens the legal right to inspect public government files and records?",
         "options": [
-          "The Currency Act",
-          "The Motor Vehicles Act",
-          "The Factories Act",
-          "The Right to Information (RTI) Act, 2005"
+          "The Official Secrets Protection Act",
+          "The Public Records Digitalization Act",
+          "The Consumer Protection Guarantee Act",
+          "The Right to Information Act of 2005"
         ],
         "answer": 3,
         "explain": "RTI dismantled colonial secrecy, empowering citizens to demand transparency from public authorities!"
@@ -7421,7 +7421,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Right to Freedom of Speech",
           "The Right to Equality",
           "The Right to Freedom of Religion",
-          "The Right to Constitutional Remedies (Article 32: the right to petition the Supreme Court directly if rights are violated)"
+          "The Right to Constitutional Remedies"
         ],
         "answer": 3,
         "explain": "Article 32 gives citizens teeth: without the power to enforce rights via Supreme Court writs (Habeas Corpus, Mandamus), other rights would be hollow words!"
@@ -7429,10 +7429,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a listed FUNDAMENTAL DUTY of every Indian citizen under Article 51A of the Constitution?",
         "options": [
-          "To protect and improve the natural environment, cherish our composite culture, and develop scientific temper and humanism",
-          "To travel to foreign countries every year",
-          "To earn ten thousand rupees per month",
-          "To never criticize the government"
+          "To protect the environment, safeguard public property, and develop a scientific temper and spirit of inquiry",
+          "To pay monthly contributions to municipal infrastructure development funds and participate in local governance",
+          "To serve a mandatory period of two years in active military forces upon reaching eighteen years of age",
+          "To support the policies of the ruling parliamentary coalition and refrain from questioning official legislation"
         ],
         "answer": 0,
         "explain": "Article 51A charges every citizen with developing scientific temper, protecting wildlife and heritage, and striving for collective excellence."
@@ -7440,10 +7440,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the 'Right against Exploitation' (Articles 23 and 24) categorically outlaw?",
         "options": [
-          "Voting in elections",
-          "Citizens from changing their religion",
-          "Speaking out in public",
-          "Human trafficking, forced labor (begar), and the employment of children below age 14 in any hazardous factory or mine"
+          "Peaceful worker assembly and the organization of registered labor unions in industrial establishments",
+          "The practice of voluntary religious conversion and the establishment of independent minority schools",
+          "The filing of public interest litigation petitions against municipal corporations in high courts",
+          "Human trafficking, forced labor, and the employment of children in hazardous industries or mines"
         ],
         "answer": 3,
         "explain": "Articles 23 and 24 ban human trafficking, bonded labor, and child labor in hazardous occupations."
@@ -7464,7 +7464,7 @@ Object.assign(window.GAME_CONTENT, {
           "The Right to Freedom of Speech",
           "The Right to Equality",
           "The Right to Freedom of Religion",
-          "The Right to Constitutional Remedies (Article 32: the right to petition the Supreme Court directly if rights are violated)"
+          "The Right to Constitutional Remedies"
         ],
         "answer": 3,
         "explain": "Article 32 gives citizens teeth: without the power to enforce rights via Supreme Court writs (Habeas Corpus, Mandamus), other rights would be hollow words!"
@@ -7472,10 +7472,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a listed FUNDAMENTAL DUTY of every Indian citizen under Article 51A of the Constitution?",
         "options": [
-          "To protect and improve the natural environment, cherish our composite culture, and develop scientific temper and humanism",
-          "To travel to foreign countries every year",
-          "To earn ten thousand rupees per month",
-          "To never criticize the government"
+          "To protect the environment, safeguard public property, and develop a scientific temper and spirit of inquiry",
+          "To pay monthly contributions to municipal infrastructure development funds and participate in local governance",
+          "To serve a mandatory period of two years in active military forces upon reaching eighteen years of age",
+          "To support the policies of the ruling parliamentary coalition and refrain from questioning official legislation"
         ],
         "answer": 0,
         "explain": "Article 51A charges every citizen with developing scientific temper, protecting wildlife and heritage, and striving for collective excellence."
@@ -7483,10 +7483,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the 'Right against Exploitation' (Articles 23 and 24) categorically outlaw?",
         "options": [
-          "Voting in elections",
-          "Citizens from changing their religion",
-          "Speaking out in public",
-          "Human trafficking, forced labor (begar), and the employment of children below age 14 in any hazardous factory or mine"
+          "Peaceful worker assembly and the organization of registered labor unions in industrial establishments",
+          "The practice of voluntary religious conversion and the establishment of independent minority schools",
+          "The filing of public interest litigation petitions against municipal corporations in high courts",
+          "Human trafficking, forced labor, and the employment of children in hazardous industries or mines"
         ],
         "answer": 3,
         "explain": "Articles 23 and 24 ban human trafficking, bonded labor, and child labor in hazardous occupations."
@@ -7504,10 +7504,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Indian Secularism differ fundamentally from strict French secularism (Laïcité)?",
         "options": [
-          "Indian secularism maintains 'principled distance': the state respects and protects all religions equally while retaining the authority to reform social evils (like untouchability), whereas French secularism bans all religious symbols from public life",
-          "There is zero difference",
-          "France allows all religious laws in government",
-          "India has an official state religion"
+          "The Western model enforces strict mutual exclusion between church and state, whereas India accords equal respect and principled intervention",
+          "The Western model establishes an official state religion with special subsidies, whereas India completely bans all religious gatherings",
+          "The Western model permits religious leaders to draft criminal statutes, whereas India reserves all parliamentary seats for clergy",
+          "The Western model grants tax exemptions to majority faiths, whereas India requires citizens to register religious beliefs on identity cards"
         ],
         "answer": 0,
         "explain": "India respects all faiths equally (equal distance) while intervening to protect human dignity (abolishing untouchability, banning Sati)."
@@ -7515,10 +7515,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Can a government-run state school celebrate religious festivals or conduct mandatory prayers of one specific religion during school hours?",
         "options": [
-          "No, government institutions funded by taxpayers' money cannot promote or give preference to any one religion over others",
-          "Yes, if the principal prefers that religion",
-          "Only on Mondays",
-          "Government schools can force students to convert"
+          "No, state-funded public institutions must maintain religious neutrality and cannot promote or favor any specific faith",
+          "Yes, provided that the school management committee votes by a two-thirds majority to celebrate the festival on campus",
+          "Yes, but only if the morning assembly recitations are translated into official state languages before recitation begins",
+          "No, but private commercial advertisers may organize religious functions inside public classrooms after daily instruction"
         ],
         "answer": 0,
         "explain": "Public state institutions must maintain strict religious neutrality, ensuring every child feels equal and welcomed."
@@ -7526,10 +7526,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does Article 25 of the Constitution guarantee to all individuals?",
         "options": [
-          "The right to force others to change their faith",
-          "Freedom of conscience and the right freely to profess, practice, and propagate religion subject to public order, morality, and health",
-          "The right to break laws in the name of religion",
-          "Only certain communities have religious rights"
+          "An absolute right to enforce religious customary practices regardless of statutory criminal laws, public health, or human rights",
+          "Freedom of conscience and the right to profess, practice, and propagate religion subject to public order, morality, and health",
+          "Automatic government financial endowments for historical religious monuments and educational academies run by majorities",
+          "The constitutional privilege to establish parallel community courts that supersede the jurisdiction of the Supreme Court"
         ],
         "answer": 1,
         "explain": "Article 25 protects personal spiritual conscience and worship for every human being within moral bounds."
@@ -7547,10 +7547,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does Indian Secularism differ fundamentally from strict French secularism (Laïcité)?",
         "options": [
-          "Indian secularism maintains 'principled distance': the state respects and protects all religions equally while retaining the authority to reform social evils (like untouchability), whereas French secularism bans all religious symbols from public life",
-          "There is zero difference",
-          "France allows all religious laws in government",
-          "India has an official state religion"
+          "The Western model enforces strict mutual exclusion between church and state, whereas India accords equal respect and principled intervention",
+          "The Western model establishes an official state religion with special subsidies, whereas India completely bans all religious gatherings",
+          "The Western model permits religious leaders to draft criminal statutes, whereas India reserves all parliamentary seats for clergy",
+          "The Western model grants tax exemptions to majority faiths, whereas India requires citizens to register religious beliefs on identity cards"
         ],
         "answer": 0,
         "explain": "India respects all faiths equally (equal distance) while intervening to protect human dignity (abolishing untouchability, banning Sati)."
@@ -7558,10 +7558,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Can a government-run state school celebrate religious festivals or conduct mandatory prayers of one specific religion during school hours?",
         "options": [
-          "No, government institutions funded by taxpayers' money cannot promote or give preference to any one religion over others",
-          "Yes, if the principal prefers that religion",
-          "Only on Mondays",
-          "Government schools can force students to convert"
+          "No, state-funded public institutions must maintain religious neutrality and cannot promote or favor any specific faith",
+          "Yes, provided that the school management committee votes by a two-thirds majority to celebrate the festival on campus",
+          "Yes, but only if the morning assembly recitations are translated into official state languages before recitation begins",
+          "No, but private commercial advertisers may organize religious functions inside public classrooms after daily instruction"
         ],
         "answer": 0,
         "explain": "Public state institutions must maintain strict religious neutrality, ensuring every child feels equal and welcomed."
@@ -7569,10 +7569,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does Article 25 of the Constitution guarantee to all individuals?",
         "options": [
-          "The right to force others to change their faith",
-          "Freedom of conscience and the right freely to profess, practice, and propagate religion subject to public order, morality, and health",
-          "The right to break laws in the name of religion",
-          "Only certain communities have religious rights"
+          "An absolute right to enforce religious customary practices regardless of statutory criminal laws, public health, or human rights",
+          "Freedom of conscience and the right to profess, practice, and propagate religion subject to public order, morality, and health",
+          "Automatic government financial endowments for historical religious monuments and educational academies run by majorities",
+          "The constitutional privilege to establish parallel community courts that supersede the jurisdiction of the Supreme Court"
         ],
         "answer": 1,
         "explain": "Article 25 protects personal spiritual conscience and worship for every human being within moral bounds."
@@ -7590,10 +7590,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary difference between the LOK SABHA (House of the People) and the RAJYA SABHA (Council of States)?",
         "options": [
-          "Lok Sabha MPs are DIRECTLY elected by the citizens across territorial constituencies; Rajya Sabha MPs are INDIRECTLY elected by state MLAs to represent the states",
-          "There is no difference",
-          "Lok Sabha handles only sports; Rajya Sabha handles only science",
-          "Lok Sabha has 10 members; Rajya Sabha has 500"
+          "Lok Sabha members are directly elected by citizens across constituencies, whereas Rajya Sabha members are indirectly elected by state MLAs",
+          "Lok Sabha members represent regional industry lobbies exclusively, whereas Rajya Sabha members are appointed directly by the Chief Justice",
+          "Lok Sabha members hold life tenure through hereditary succession, whereas Rajya Sabha members serve single fixed terms of two years",
+          "Lok Sabha members focus entirely on foreign treaty negotiations, whereas Rajya Sabha members manage municipal and district revenues"
         ],
         "answer": 0,
         "explain": "The Lok Sabha represents the direct democratic will of the people; the Rajya Sabha provides federal representation for the states!"
@@ -7604,7 +7604,7 @@ Object.assign(window.GAME_CONTENT, {
           "Permanent with no elections",
           "6 years",
           "10 years",
-          "5 years (unless dissolved earlier)"
+          "5 years"
         ],
         "answer": 3,
         "explain": "The Lok Sabha has a 5-year tenure, after which the entire House dissolves for national general elections."
@@ -7612,10 +7612,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens if a ruling Central Government loses a 'NO-CONFIDENCE MOTION' on the floor of the Lok Sabha?",
         "options": [
-          "The Prime Minister and the entire Council of Ministers MUST resign immediately, as they have lost majority parliamentary confidence",
-          "Nothing happens at all",
-          "The Supreme Court shuts down",
-          "The Prime Minister continues ruling forever"
+          "The Prime Minister and the entire Council of Ministers must resign immediately after losing majority parliamentary confidence",
+          "The Supreme Court steps in to manage daily executive departments until the conclusion of the scheduled five-year term",
+          "The Speaker of the Lok Sabha assumes interim prime ministerial authority while parliament adjourns for six months",
+          "The government continues in power undisturbed because no-confidence motions function merely as non-binding formal debates"
         ],
         "answer": 0,
         "explain": "Executive accountability: The Prime Minister serves only as long as they command the confidence of the majority in the Lok Sabha!"
@@ -7633,10 +7633,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary difference between the LOK SABHA (House of the People) and the RAJYA SABHA (Council of States)?",
         "options": [
-          "Lok Sabha MPs are DIRECTLY elected by the citizens across territorial constituencies; Rajya Sabha MPs are INDIRECTLY elected by state MLAs to represent the states",
-          "There is no difference",
-          "Lok Sabha handles only sports; Rajya Sabha handles only science",
-          "Lok Sabha has 10 members; Rajya Sabha has 500"
+          "Lok Sabha members are directly elected by citizens across constituencies, whereas Rajya Sabha members are indirectly elected by state MLAs",
+          "Lok Sabha members represent regional industry lobbies exclusively, whereas Rajya Sabha members are appointed directly by the Chief Justice",
+          "Lok Sabha members hold life tenure through hereditary succession, whereas Rajya Sabha members serve single fixed terms of two years",
+          "Lok Sabha members focus entirely on foreign treaty negotiations, whereas Rajya Sabha members manage municipal and district revenues"
         ],
         "answer": 0,
         "explain": "The Lok Sabha represents the direct democratic will of the people; the Rajya Sabha provides federal representation for the states!"
@@ -7647,7 +7647,7 @@ Object.assign(window.GAME_CONTENT, {
           "Permanent with no elections",
           "6 years",
           "10 years",
-          "5 years (unless dissolved earlier)"
+          "5 years"
         ],
         "answer": 3,
         "explain": "The Lok Sabha has a 5-year tenure, after which the entire House dissolves for national general elections."
@@ -7655,10 +7655,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens if a ruling Central Government loses a 'NO-CONFIDENCE MOTION' on the floor of the Lok Sabha?",
         "options": [
-          "The Prime Minister and the entire Council of Ministers MUST resign immediately, as they have lost majority parliamentary confidence",
-          "Nothing happens at all",
-          "The Supreme Court shuts down",
-          "The Prime Minister continues ruling forever"
+          "The Prime Minister and the entire Council of Ministers must resign immediately after losing majority parliamentary confidence",
+          "The Supreme Court steps in to manage daily executive departments until the conclusion of the scheduled five-year term",
+          "The Speaker of the Lok Sabha assumes interim prime ministerial authority while parliament adjourns for six months",
+          "The government continues in power undisturbed because no-confidence motions function merely as non-binding formal debates"
         ],
         "answer": 0,
         "explain": "Executive accountability: The Prime Minister serves only as long as they command the confidence of the majority in the Lok Sabha!"
@@ -7676,10 +7676,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of a Member of Parliament (MP) in the LOK SABHA?",
         "options": [
-          "Debating national legislation, voting on the Union budget, raising constituency grievances, and holding ministers accountable",
-          "Passing state-level land revenue laws in the State Legislative Assembly (Vidhan Sabha)",
-          "Managing municipal streetlights, drainage, and property tax collections",
-          "Interpreting constitutional law and delivering verdicts in the Supreme Court"
+          "Debating national legislation, approving the Union budget, raising constituency concerns, and scrutinizing executive policies",
+          "Passing state-level land revenue statutes and managing primary school teacher appointments in the State Legislative Assembly",
+          "Directing municipal sanitation departments, repairing residential roads, and issuing local property tax assessment notices",
+          "Interpreting constitutional jurisprudence and presiding over appellate criminal trials in the High Courts and Supreme Court"
         ],
         "answer": 0,
         "explain": "MPs participate in sovereign lawmaking, scrutinize government expenditures, and champion their constituents' needs in Parliament!"
@@ -7689,7 +7689,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The President's Opening Address",
           "The QUESTION HOUR",
-          "The Zero Hour (which follows Question Hour)",
+          "The Zero Hour",
           "The Calling Attention Motion"
         ],
         "answer": 1,
@@ -7700,7 +7700,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A personal discretionary fund for MPs' domestic travel and lodging",
           "A private election campaign donation fund managed by political party leaders",
-          "Members of Parliament Local Area Development Scheme (₹5 crore per year for schools, clinics, and community facilities)",
+          "Members of Parliament Local Area Development Scheme",
           "A state-level emergency disaster relief grant controlled by district magistrates"
         ],
         "answer": 2,
@@ -7719,10 +7719,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the role of a Member of Parliament (MP) in the LOK SABHA?",
         "options": [
-          "Debating national legislation, voting on the Union budget, raising constituency grievances, and holding ministers accountable",
-          "Passing state-level land revenue laws in the State Legislative Assembly (Vidhan Sabha)",
-          "Managing municipal streetlights, drainage, and property tax collections",
-          "Interpreting constitutional law and delivering verdicts in the Supreme Court"
+          "Debating national legislation, approving the Union budget, raising constituency concerns, and scrutinizing executive policies",
+          "Passing state-level land revenue statutes and managing primary school teacher appointments in the State Legislative Assembly",
+          "Directing municipal sanitation departments, repairing residential roads, and issuing local property tax assessment notices",
+          "Interpreting constitutional jurisprudence and presiding over appellate criminal trials in the High Courts and Supreme Court"
         ],
         "answer": 0,
         "explain": "MPs participate in sovereign lawmaking, scrutinize government expenditures, and champion their constituents' needs in Parliament!"
@@ -7732,7 +7732,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The President's Opening Address",
           "The QUESTION HOUR",
-          "The Zero Hour (which follows Question Hour)",
+          "The Zero Hour",
           "The Calling Attention Motion"
         ],
         "answer": 1,
@@ -7743,7 +7743,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A personal discretionary fund for MPs' domestic travel and lodging",
           "A private election campaign donation fund managed by political party leaders",
-          "Members of Parliament Local Area Development Scheme (₹5 crore per year for schools, clinics, and community facilities)",
+          "Members of Parliament Local Area Development Scheme",
           "A state-level emergency disaster relief grant controlled by district magistrates"
         ],
         "answer": 2,
@@ -7762,10 +7762,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines a 'PUBLIC GOOD' (like streetlighting, flood control dykes, or municipal sanitation)?",
         "options": [
-          "Exclusive private services accessible only through high paid subscriptions",
-          "Goods that are non-excludable and non-rivalrous: available to all citizens regardless of wealth, where one person's use does not diminish another's",
-          "Commercial private goods manufactured and sold solely for corporate shareholder profit",
-          "Imported luxury commodities subject to high customs tariffs"
+          "Luxury consumer goods manufactured and sold by private corporations to generate competitive quarterly returns for shareholders",
+          "Services that are non-excludable and non-rivalrous, accessible to all citizens where one person's use does not diminish another's",
+          "Exclusive commercial utilities available only to high-income subscribers who pay premium monthly user access tariffs to vendors",
+          "Imported manufactured commodities subject to protective customs duties designed to shield domestic manufacturers from foreign trade"
         ],
         "answer": 1,
         "explain": "Public goods underpin public health and civilizational survival; market profit motives cannot be trusted to distribute them fairly to the poor!"
@@ -7784,10 +7784,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must the Government enforce STRICT ENVIRONMENTAL & LABOR REGULATIONS on private industrial corporations?",
         "options": [
-          "To discourage technological modernization and industrial growth",
-          "To prevent exploitative sweatshop wages, dangerous workplace accidents, and unchecked dumping of toxic chemicals into public rivers and air",
-          "To eliminate all private commercial trade and nationalize every factory",
-          "To intentionally increase production costs so consumers buy fewer products"
+          "To discourage entrepreneurial innovation and ensure that all profitable commercial enterprises are managed by civil servants",
+          "To prevent exploitative wages, workplace safety hazards, and unchecked industrial pollution of public air, water, and soil",
+          "To eliminate all private ownership of capital and establish state-run distribution stores for basic household groceries",
+          "To increase manufacturing production costs deliberately so that consumers purchase fewer goods and reduce aggregate demand"
         ],
         "answer": 1,
         "explain": "Regulatory laws protect worker safety, fair living wages, and environmental preservation against untrammeled corporate profit greed!"
@@ -7805,10 +7805,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What defines a 'PUBLIC GOOD' (like streetlighting, flood control dykes, or municipal sanitation)?",
         "options": [
-          "Exclusive private services accessible only through high paid subscriptions",
-          "Goods that are non-excludable and non-rivalrous: available to all citizens regardless of wealth, where one person's use does not diminish another's",
-          "Commercial private goods manufactured and sold solely for corporate shareholder profit",
-          "Imported luxury commodities subject to high customs tariffs"
+          "Luxury consumer goods manufactured and sold by private corporations to generate competitive quarterly returns for shareholders",
+          "Services that are non-excludable and non-rivalrous, accessible to all citizens where one person's use does not diminish another's",
+          "Exclusive commercial utilities available only to high-income subscribers who pay premium monthly user access tariffs to vendors",
+          "Imported manufactured commodities subject to protective customs duties designed to shield domestic manufacturers from foreign trade"
         ],
         "answer": 1,
         "explain": "Public goods underpin public health and civilizational survival; market profit motives cannot be trusted to distribute them fairly to the poor!"
@@ -7827,10 +7827,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must the Government enforce STRICT ENVIRONMENTAL & LABOR REGULATIONS on private industrial corporations?",
         "options": [
-          "To discourage technological modernization and industrial growth",
-          "To prevent exploitative sweatshop wages, dangerous workplace accidents, and unchecked dumping of toxic chemicals into public rivers and air",
-          "To eliminate all private commercial trade and nationalize every factory",
-          "To intentionally increase production costs so consumers buy fewer products"
+          "To discourage entrepreneurial innovation and ensure that all profitable commercial enterprises are managed by civil servants",
+          "To prevent exploitative wages, workplace safety hazards, and unchecked industrial pollution of public air, water, and soil",
+          "To eliminate all private ownership of capital and establish state-run distribution stores for basic household groceries",
+          "To increase manufacturing production costs deliberately so that consumers purchase fewer goods and reduce aggregate demand"
         ],
         "answer": 1,
         "explain": "Regulatory laws protect worker safety, fair living wages, and environmental preservation against untrammeled corporate profit greed!"

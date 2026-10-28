@@ -23,10 +23,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the polite way for Aisha to end the phone call?",
         "options": [
-          "'Drop the phone without saying anything'",
-          "'Thank you Uncle Vikram, I will give Dad the message. Goodbye!'",
-          "'Why did you call our house?'",
-          "'Talk to Dad yourself'"
+          "Put the receiver down suddenly on the table without speaking",
+          "Thank you Uncle Vikram, I will give Dad the message. Goodbye!",
+          "Tell the caller you are too busy right now and disconnect",
+          "Ask the caller to ring back tomorrow and abruptly hang up"
         ],
         "answer": 1,
         "explain": "Thanking the caller and promising to deliver the message shows courteous telephone manners."
@@ -34,10 +34,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Aisha could not hear the time clearly because of static on the line, what should she say?",
         "options": [
-          "'Could you please repeat the time once more, Uncle Vikram?'",
-          "'Goodbye'",
-          "'You are speaking too quietly!'",
-          "'I will guess the time myself'"
+          "Could you please repeat the meeting time once more, Uncle?",
+          "I cannot hear anything at all, so I will just hang up now.",
+          "You are speaking far too quietly for anyone to understand.",
+          "I will just write down whatever time I think sounds right."
         ],
         "answer": 0,
         "explain": "Asking politely to repeat ensures the message is recorded accurately without guessing!"
@@ -66,10 +66,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the polite way for Aisha to end the phone call?",
         "options": [
-          "'Drop the phone without saying anything'",
-          "'Thank you Uncle Vikram, I will give Dad the message. Goodbye!'",
-          "'Why did you call our house?'",
-          "'Talk to Dad yourself'"
+          "Put the receiver down suddenly on the table without speaking",
+          "Thank you Uncle Vikram, I will give Dad the message. Goodbye!",
+          "Tell the caller you are too busy right now and disconnect",
+          "Ask the caller to ring back tomorrow and abruptly hang up"
         ],
         "answer": 1,
         "explain": "Thanking the caller and promising to deliver the message shows courteous telephone manners."
@@ -77,10 +77,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Aisha could not hear the time clearly because of static on the line, what should she say?",
         "options": [
-          "'Could you please repeat the time once more, Uncle Vikram?'",
-          "'Goodbye'",
-          "'You are speaking too quietly!'",
-          "'I will guess the time myself'"
+          "Could you please repeat the meeting time once more, Uncle?",
+          "I cannot hear anything at all, so I will just hang up now.",
+          "You are speaking far too quietly for anyone to understand.",
+          "I will just write down whatever time I think sounds right."
         ],
         "answer": 0,
         "explain": "Asking politely to repeat ensures the message is recorded accurately without guessing!"
@@ -98,10 +98,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "According to the yellow poster, what action should students take at the washbasin?",
         "options": [
-          "Drink water directly from the floor",
-          "Wash toys in the sink",
-          "Leave taps running to fill the floor",
-          "Turn off the tap tightly after washing hands"
+          "Splash water across the floor while washing faces",
+          "Leave the water running while drying your fingers",
+          "Wash muddy outdoor toys inside the drinking sink",
+          "Turn off the tap tightly after washing your hands"
         ],
         "answer": 3,
         "explain": "The poster clearly reminds everyone to turn off taps to conserve water."
@@ -109,10 +109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do schools put up colorful posters on classroom walls?",
         "options": [
-          "To share important helpful reminders and exciting news with everyone",
-          "To stop children from talking to teachers",
-          "Because blank walls are forbidden",
-          "To cover up all the windows"
+          "To share important helpful reminders and exciting school news with everyone",
+          "To decorate the room so students do not need to look at the blackboard",
+          "To cover up cracks on the walls without having to paint them with color",
+          "To display advertisements for outside shops and commercial toy products"
         ],
         "answer": 0,
         "explain": "Wall posters share inspiring, helpful information that everyone can see and follow!"
@@ -120,10 +120,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a notice board says: 'Library Books due this Friday', what must students bring on Friday?",
         "options": [
-          "Their borrowed library books to return",
-          "A packed picnic lunch",
-          "New drawing crayons",
-          "Their sports shoes"
+          "Their borrowed storybooks to return to the shelf",
+          "Their new coloring crayons for the drawing period",
+          "A packed picnic lunch box to share with friends",
+          "Their clean sports uniform for physical exercise"
         ],
         "answer": 0,
         "explain": "'Due' means borrowed library books must be returned on Friday."
@@ -141,10 +141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "According to the yellow poster, what action should students take at the washbasin?",
         "options": [
-          "Drink water directly from the floor",
-          "Wash toys in the sink",
-          "Leave taps running to fill the floor",
-          "Turn off the tap tightly after washing hands"
+          "Splash water across the floor while washing faces",
+          "Leave the water running while drying your fingers",
+          "Wash muddy outdoor toys inside the drinking sink",
+          "Turn off the tap tightly after washing your hands"
         ],
         "answer": 3,
         "explain": "The poster clearly reminds everyone to turn off taps to conserve water."
@@ -152,10 +152,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do schools put up colorful posters on classroom walls?",
         "options": [
-          "To share important helpful reminders and exciting news with everyone",
-          "To stop children from talking to teachers",
-          "Because blank walls are forbidden",
-          "To cover up all the windows"
+          "To share important helpful reminders and exciting school news with everyone",
+          "To decorate the room so students do not need to look at the blackboard",
+          "To cover up cracks on the walls without having to paint them with color",
+          "To display advertisements for outside shops and commercial toy products"
         ],
         "answer": 0,
         "explain": "Wall posters share inspiring, helpful information that everyone can see and follow!"
@@ -163,10 +163,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a notice board says: 'Library Books due this Friday', what must students bring on Friday?",
         "options": [
-          "Their borrowed library books to return",
-          "A packed picnic lunch",
-          "New drawing crayons",
-          "Their sports shoes"
+          "Their borrowed storybooks to return to the shelf",
+          "Their new coloring crayons for the drawing period",
+          "A packed picnic lunch box to share with friends",
+          "Their clean sports uniform for physical exercise"
         ],
         "answer": 0,
         "explain": "'Due' means borrowed library books must be returned on Friday."
@@ -184,10 +184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When Kabir reaches a comma ( , ) in the middle of a sentence, what should his reading voice do?",
         "options": [
-          "Skip the next three words",
-          "Take a short, gentle pause before continuing",
-          "Shout the next word as loud as possible",
-          "Stop reading and shut the book"
+          "Speed up and skip ahead past the next three words",
+          "Take a short, gentle pause before reading forward",
+          "Raise your voice suddenly and shout the next word",
+          "Stop reading immediately and close the storybook"
         ],
         "answer": 1,
         "explain": "A comma indicates a brief pause to let the listener understand the grouping of words."
@@ -207,9 +207,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When you encounter a question mark ( ? ) at the end of a sentence, how should your voice tone change?",
         "options": [
           "Rise slightly at the end to show you are asking something",
-          "Turn into a song shout",
-          "Drop completely flat like a stone",
-          "Stay completely silent"
+          "Drop into a flat, steady whisper with no change in pitch",
+          "Shout the final word as loud as you can to show surprise",
+          "Speed up rapidly through the words without any hesitation"
         ],
         "answer": 0,
         "explain": "In English questions, your pitch rises slightly at the end to invite an answer."
@@ -227,10 +227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When Kabir reaches a comma ( , ) in the middle of a sentence, what should his reading voice do?",
         "options": [
-          "Skip the next three words",
-          "Take a short, gentle pause before continuing",
-          "Shout the next word as loud as possible",
-          "Stop reading and shut the book"
+          "Speed up and skip ahead past the next three words",
+          "Take a short, gentle pause before reading forward",
+          "Raise your voice suddenly and shout the next word",
+          "Stop reading immediately and close the storybook"
         ],
         "answer": 1,
         "explain": "A comma indicates a brief pause to let the listener understand the grouping of words."
@@ -250,9 +250,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When you encounter a question mark ( ? ) at the end of a sentence, how should your voice tone change?",
         "options": [
           "Rise slightly at the end to show you are asking something",
-          "Turn into a song shout",
-          "Drop completely flat like a stone",
-          "Stay completely silent"
+          "Drop into a flat, steady whisper with no change in pitch",
+          "Shout the final word as loud as you can to show surprise",
+          "Speed up rapidly through the words without any hesitation"
         ],
         "answer": 0,
         "explain": "In English questions, your pitch rises slightly at the end to invite an answer."
@@ -281,10 +281,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the MAIN idea of this short passage?",
         "options": [
-          "Children enjoying nature and drawing birds from their treehouse",
-          "Why dogs dislike climbing trees",
-          "The price of wooden planks at the hardware store",
-          "How to build a brick house on the ground"
+          "Children enjoying nature and observing birds from their treehouse",
+          "A carpenter explaining how to cut wooden planks for garden sheds",
+          "Neighborhood dogs learning how to climb tall branches safely",
+          "Workers clearing fallen dry leaves and twigs from the city park"
         ],
         "answer": 0,
         "explain": "The main theme is the children's Saturday nature adventures from their treehouse club."
@@ -324,10 +324,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the MAIN idea of this short passage?",
         "options": [
-          "Children enjoying nature and drawing birds from their treehouse",
-          "Why dogs dislike climbing trees",
-          "The price of wooden planks at the hardware store",
-          "How to build a brick house on the ground"
+          "Children enjoying nature and observing birds from their treehouse",
+          "A carpenter explaining how to cut wooden planks for garden sheds",
+          "Neighborhood dogs learning how to climb tall branches safely",
+          "Workers clearing fallen dry leaves and twigs from the city park"
         ],
         "answer": 0,
         "explain": "The main theme is the children's Saturday nature adventures from their treehouse club."
@@ -528,10 +528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the poem line says: 'Whoosh went the gale, blowing the sail!', how should the performer speak the word 'Whoosh'?",
         "options": [
-          "With a brisk, swooshing breath of sound",
-          "Spelling each letter W-H-O-O-S-H",
-          "In a dead silent whisper",
-          "Like an angry dog growl"
+          "With a brisk, swooshing rush of flowing wind",
+          "By spelling out each separate letter slowly",
+          "In a silent whisper that nobody can hear at all",
+          "With a short, sharp bark like an angry watchdog"
         ],
         "answer": 0,
         "explain": "Imitating the sound of the wind brings the onomatopoeia to life!"
@@ -539,10 +539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'intonation' mean when you recite a poem?",
         "options": [
-          "Reading without opening your lips",
-          "Standing completely frozen like a statue",
-          "Skipping the rhyming words",
-          "The natural rise and fall of your voice musical pitch"
+          "Reading all lines quietly without opening your lips",
+          "Standing completely still like an unmoving statue",
+          "Skipping the rhyming words to finish the poem fast",
+          "The expressive rising and falling melody of voice pitch"
         ],
         "answer": 3,
         "explain": "Intonation is the expressive musical melody of your voice."
@@ -550,10 +550,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a performer stand on stage while reciting?",
         "options": [
-          "Turned backwards facing the curtain",
-          "Tall with confident posture, making friendly eye contact with the audience",
-          "Slumped over looking down at their shoe laces",
-          "Constantly spinning in circles"
+          "Turned backwards toward the curtain while whispering the words quietly",
+          "Tall with confident posture, making friendly eye contact with listeners",
+          "Slumped over looking down at shoe laces without glancing at the crowd",
+          "Restlessly pacing and spinning around the stage without facing forward"
         ],
         "answer": 1,
         "explain": "Standing tall with good eye contact engages your listeners warmly."
@@ -571,10 +571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When the poem line says: 'Whoosh went the gale, blowing the sail!', how should the performer speak the word 'Whoosh'?",
         "options": [
-          "With a brisk, swooshing breath of sound",
-          "Spelling each letter W-H-O-O-S-H",
-          "In a dead silent whisper",
-          "Like an angry dog growl"
+          "With a brisk, swooshing rush of flowing wind",
+          "By spelling out each separate letter slowly",
+          "In a silent whisper that nobody can hear at all",
+          "With a short, sharp bark like an angry watchdog"
         ],
         "answer": 0,
         "explain": "Imitating the sound of the wind brings the onomatopoeia to life!"
@@ -582,10 +582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'intonation' mean when you recite a poem?",
         "options": [
-          "Reading without opening your lips",
-          "Standing completely frozen like a statue",
-          "Skipping the rhyming words",
-          "The natural rise and fall of your voice musical pitch"
+          "Reading all lines quietly without opening your lips",
+          "Standing completely still like an unmoving statue",
+          "Skipping the rhyming words to finish the poem fast",
+          "The expressive rising and falling melody of voice pitch"
         ],
         "answer": 3,
         "explain": "Intonation is the expressive musical melody of your voice."
@@ -593,10 +593,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a performer stand on stage while reciting?",
         "options": [
-          "Turned backwards facing the curtain",
-          "Tall with confident posture, making friendly eye contact with the audience",
-          "Slumped over looking down at their shoe laces",
-          "Constantly spinning in circles"
+          "Turned backwards toward the curtain while whispering the words quietly",
+          "Tall with confident posture, making friendly eye contact with listeners",
+          "Slumped over looking down at shoe laces without glancing at the crowd",
+          "Restlessly pacing and spinning around the stage without facing forward"
         ],
         "answer": 1,
         "explain": "Standing tall with good eye contact engages your listeners warmly."
@@ -701,9 +701,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which sentence is in the SIMPLE PAST tense (something that already happened yesterday)?",
         "options": [
           "Ravi swam five laps across the pool yesterday.",
-          "Ravi is swimming every day.",
-          "Ravi will swim tomorrow morning.",
-          "Ravi swims five laps right now."
+          "Ravi is swimming five laps in the pool right now.",
+          "Ravi will swim five laps in the pool on Saturday.",
+          "Ravi swims five laps across the pool every morning."
         ],
         "answer": 0,
         "explain": "'Swam' is the simple past tense of the irregular verb 'swim'."
@@ -711,10 +711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Change this present sentence into past tense: 'Maya PLAYS football every evening.'",
         "options": [
-          "Maya playing football.",
-          "Maya plays football.",
-          "Maya will play football.",
-          "Maya PLAYED football yesterday evening."
+          "Maya was playing football every evening.",
+          "Maya will play football tomorrow evening.",
+          "Maya is playing football right now today.",
+          "Maya played football yesterday evening."
         ],
         "answer": 3,
         "explain": "Adding -ed to regular verbs creates the simple past form: 'played'."
@@ -744,9 +744,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which sentence is in the SIMPLE PAST tense (something that already happened yesterday)?",
         "options": [
           "Ravi swam five laps across the pool yesterday.",
-          "Ravi is swimming every day.",
-          "Ravi will swim tomorrow morning.",
-          "Ravi swims five laps right now."
+          "Ravi is swimming five laps in the pool right now.",
+          "Ravi will swim five laps in the pool on Saturday.",
+          "Ravi swims five laps across the pool every morning."
         ],
         "answer": 0,
         "explain": "'Swam' is the simple past tense of the irregular verb 'swim'."
@@ -754,10 +754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Change this present sentence into past tense: 'Maya PLAYS football every evening.'",
         "options": [
-          "Maya playing football.",
-          "Maya plays football.",
-          "Maya will play football.",
-          "Maya PLAYED football yesterday evening."
+          "Maya was playing football every evening.",
+          "Maya will play football tomorrow evening.",
+          "Maya is playing football right now today.",
+          "Maya played football yesterday evening."
         ],
         "answer": 3,
         "explain": "Adding -ed to regular verbs creates the simple past form: 'played'."
@@ -1055,7 +1055,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When writing the names of specific cities like 'Delhi' or 'Mumbai', how must they begin?",
         "options": [
-          "With a Capital letter (Proper Noun)",
+          "With a Capital letter",
           "With a small letter",
           "With a number",
           "With a quotation mark"
@@ -1066,10 +1066,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where should a comma be placed in this shopping list sentence: 'Mom bought apples bananas and oranges'?",
         "options": [
-          "At the end of the sentence",
-          "After bought: 'Mom bought, apples'",
-          "Between apples and bananas: 'apples, bananas, and oranges'",
-          "No comma is ever used in lists"
+          "After the word bought so it reads Mom bought, apples",
+          "At the very end of the sentence right after oranges",
+          "Between the list items as apples, bananas, and oranges",
+          "Between the subject and verb as Mom, bought the fruit"
         ],
         "answer": 2,
         "explain": "Commas separate items in a series to make the list clear to read."
@@ -1098,7 +1098,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When writing the names of specific cities like 'Delhi' or 'Mumbai', how must they begin?",
         "options": [
-          "With a Capital letter (Proper Noun)",
+          "With a Capital letter",
           "With a small letter",
           "With a number",
           "With a quotation mark"
@@ -1109,10 +1109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where should a comma be placed in this shopping list sentence: 'Mom bought apples bananas and oranges'?",
         "options": [
-          "At the end of the sentence",
-          "After bought: 'Mom bought, apples'",
-          "Between apples and bananas: 'apples, bananas, and oranges'",
-          "No comma is ever used in lists"
+          "After the word bought so it reads Mom bought, apples",
+          "At the very end of the sentence right after oranges",
+          "Between the list items as apples, bananas, and oranges",
+          "Between the subject and verb as Mom, bought the fruit"
         ],
         "answer": 2,
         "explain": "Commas separate items in a series to make the list clear to read."
@@ -1130,10 +1130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a complete, meaningful sentence?",
         "options": [
-          "Flying kites fast in.",
-          "Because tomorrow very.",
+          "Flying colorful kites very high in the sky.",
+          "Because tomorrow morning will be very sunny.",
           "The wind is perfect for flying kites today.",
-          "Underneath the green grass."
+          "Underneath the thick green grass by the pond."
         ],
         "answer": 2,
         "explain": "'The wind is perfect for flying kites today' has a subject and predicate forming a complete thought."
@@ -1141,9 +1141,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence clearly explains why Kabir brought an umbrella?",
         "options": [
-          "Carrying rain cloudy.",
-          "Because rain umbrella carrying.",
-          "Umbrella sky dark raining.",
+          "He carried an umbrella so that the hot sun was shining.",
+          "Kabir took an umbrella although the sunny sky was clear.",
+          "The bright blue umbrella was kept inside the school bag.",
           "He carried an umbrella because dark clouds filled the sky."
         ],
         "answer": 3,
@@ -1173,10 +1173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a complete, meaningful sentence?",
         "options": [
-          "Flying kites fast in.",
-          "Because tomorrow very.",
+          "Flying colorful kites very high in the sky.",
+          "Because tomorrow morning will be very sunny.",
           "The wind is perfect for flying kites today.",
-          "Underneath the green grass."
+          "Underneath the thick green grass by the pond."
         ],
         "answer": 2,
         "explain": "'The wind is perfect for flying kites today' has a subject and predicate forming a complete thought."
@@ -1184,9 +1184,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence clearly explains why Kabir brought an umbrella?",
         "options": [
-          "Carrying rain cloudy.",
-          "Because rain umbrella carrying.",
-          "Umbrella sky dark raining.",
+          "He carried an umbrella so that the hot sun was shining.",
+          "Kabir took an umbrella although the sunny sky was clear.",
+          "The bright blue umbrella was kept inside the school bag.",
           "He carried an umbrella because dark clouds filled the sky."
         ],
         "answer": 3,
@@ -1216,9 +1216,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence makes the best OPENING topic sentence for Meena's paragraph?",
         "options": [
-          "The ticket cost fifty rupees.",
-          "Then we walked back home in the dark.",
-          "Cotton candy is pink.",
+          "The entrance tickets for the rides cost fifty rupees for each child.",
+          "After eating delicious snacks, we walked slowly home in the evening.",
+          "Sweet pink cotton candy is sold by vendors near the giant swing ride.",
           "Last Sunday, my family and I visited the lively neighborhood mela."
         ],
         "answer": 3,
@@ -1238,10 +1238,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence provides a satisfying concluding sentence for Meena's trip to the fair?",
         "options": [
-          "My shoes are black.",
+          "My new walking shoes got quite dusty after standing near the ticket counter.",
           "Exhausted but smiling, we returned home with wonderful memories of the day.",
-          "I need a pencil.",
-          "A Ferris wheel is round."
+          "A tall Ferris wheel spins in large circles high above the festive grounds.",
+          "Before entering the fairgrounds, we purchased four blue tokens at the gate."
         ],
         "answer": 1,
         "explain": "A strong conclusion wraps up the experience with personal feeling and reflection."
@@ -1259,9 +1259,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence makes the best OPENING topic sentence for Meena's paragraph?",
         "options": [
-          "The ticket cost fifty rupees.",
-          "Then we walked back home in the dark.",
-          "Cotton candy is pink.",
+          "The entrance tickets for the rides cost fifty rupees for each child.",
+          "After eating delicious snacks, we walked slowly home in the evening.",
+          "Sweet pink cotton candy is sold by vendors near the giant swing ride.",
           "Last Sunday, my family and I visited the lively neighborhood mela."
         ],
         "answer": 3,
@@ -1281,10 +1281,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence provides a satisfying concluding sentence for Meena's trip to the fair?",
         "options": [
-          "My shoes are black.",
+          "My new walking shoes got quite dusty after standing near the ticket counter.",
           "Exhausted but smiling, we returned home with wonderful memories of the day.",
-          "I need a pencil.",
-          "A Ferris wheel is round."
+          "A tall Ferris wheel spins in large circles high above the festive grounds.",
+          "Before entering the fairgrounds, we purchased four blue tokens at the gate."
         ],
         "answer": 1,
         "explain": "A strong conclusion wraps up the experience with personal feeling and reflection."
@@ -1313,10 +1313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Dev sees a duck swimming in the pond. What special body feature helps ducks paddle smoothly in water?",
         "options": [
-          "Long curly fur",
-          "Sharp curved hunting claws",
-          "Webbed feet with skin between their toes",
-          "Heavy hooves"
+          "Thick curly fur growing all over their legs",
+          "Sharp curved talons for catching tree prey",
+          "Webbed feet with thin skin between the toes",
+          "Heavy split hooves for running across rocks"
         ],
         "answer": 2,
         "explain": "Webbed feet act like natural paddles or flippers in the water!"
@@ -1356,10 +1356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Dev sees a duck swimming in the pond. What special body feature helps ducks paddle smoothly in water?",
         "options": [
-          "Long curly fur",
-          "Sharp curved hunting claws",
-          "Webbed feet with skin between their toes",
-          "Heavy hooves"
+          "Thick curly fur growing all over their legs",
+          "Sharp curved talons for catching tree prey",
+          "Webbed feet with thin skin between the toes",
+          "Heavy split hooves for running across rocks"
         ],
         "answer": 2,
         "explain": "Webbed feet act like natural paddles or flippers in the water!"
@@ -1399,10 +1399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a classroom map, what do symbols and color codes (like a small book icon) represent?",
         "options": [
-          "Mistakes made by the artist",
-          "Secrets only the teacher can read",
-          "A key/legend showing where specific areas like the reading corner are located",
-          "Doodles to make the paper messy"
+          "Random decorative drawings added simply to fill up blank corner spaces",
+          "Confidential teacher codes used strictly for grading classroom tests",
+          "A map legend showing where important spots like reading corners sit",
+          "Accidental pencil marks left on the sheet while measuring the floor"
         ],
         "answer": 2,
         "explain": "A map key uses simple symbols so anyone can navigate the layout easily."
@@ -1442,10 +1442,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a classroom map, what do symbols and color codes (like a small book icon) represent?",
         "options": [
-          "Mistakes made by the artist",
-          "Secrets only the teacher can read",
-          "A key/legend showing where specific areas like the reading corner are located",
-          "Doodles to make the paper messy"
+          "Random decorative drawings added simply to fill up blank corner spaces",
+          "Confidential teacher codes used strictly for grading classroom tests",
+          "A map legend showing where important spots like reading corners sit",
+          "Accidental pencil marks left on the sheet while measuring the floor"
         ],
         "answer": 2,
         "explain": "A map key uses simple symbols so anyone can navigate the layout easily."
@@ -1496,10 +1496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when Diya stirs sugar into warm water?",
         "options": [
-          "The sugar dissolves completely and becomes invisible in the solution",
-          "The sugar turns into ice crystals",
-          "The sugar floats like wood chips",
-          "The water turns into solid rock"
+          "The sugar dissolves completely to form a clear sweet liquid",
+          "The sugar crystals clump together and settle as hard pebbles",
+          "The sugar floats on the surface like lightweight wood chips",
+          "The warm water quickly freezes into solid sweet ice blocks"
         ],
         "answer": 0,
         "explain": "Sugar is soluble in water, dissolving into a clear, sweet mixture."
@@ -1539,10 +1539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens when Diya stirs sugar into warm water?",
         "options": [
-          "The sugar dissolves completely and becomes invisible in the solution",
-          "The sugar turns into ice crystals",
-          "The sugar floats like wood chips",
-          "The water turns into solid rock"
+          "The sugar dissolves completely to form a clear sweet liquid",
+          "The sugar crystals clump together and settle as hard pebbles",
+          "The sugar floats on the surface like lightweight wood chips",
+          "The warm water quickly freezes into solid sweet ice blocks"
         ],
         "answer": 0,
         "explain": "Sugar is soluble in water, dissolving into a clear, sweet mixture."
@@ -1561,8 +1561,8 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Aarav noticed the visible glowing moon grew from a thin sliver to a full round glowing plate. What is this phase called when it is completely round?",
         "options": [
           "Crescent Moon",
-          "New Moon (Amavasya)",
-          "Full Moon (Purnima)",
+          "New Moon",
+          "Full Moon",
           "Half Moon"
         ],
         "answer": 2,
@@ -1571,10 +1571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does the shape of the illuminated moon appear to change night after night?",
         "options": [
-          "Because clouds cut the moon into pieces",
-          "Because the Moon orbits around the Earth, changing how much of its sunlit side we see",
-          "Because stars push the moon away",
-          "Because the Moon melts in hot air"
+          "Because passing dark rain clouds physically block out different portions of the moon",
+          "Because the Moon orbits Earth, changing how much of its sunlit surface faces us",
+          "Because the Moon slowly shrinks and expands as the night air cools down and warms up",
+          "Because bright stars slowly move across the moon and cover up its glowing edges"
         ],
         "answer": 1,
         "explain": "As the Moon circles Earth, our angle of view of its sunlit half changes in a predictable cycle."
@@ -1583,7 +1583,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How many days does it roughly take for the Moon to cycle from one Full Moon to the next Full Moon?",
         "options": [
           "Exactly 2 days",
-          "About 29 to 30 days (roughly one month)",
+          "About 29 to 30 days",
           "7 days",
           "365 days"
         ],
@@ -1604,8 +1604,8 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Aarav noticed the visible glowing moon grew from a thin sliver to a full round glowing plate. What is this phase called when it is completely round?",
         "options": [
           "Crescent Moon",
-          "New Moon (Amavasya)",
-          "Full Moon (Purnima)",
+          "New Moon",
+          "Full Moon",
           "Half Moon"
         ],
         "answer": 2,
@@ -1614,10 +1614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does the shape of the illuminated moon appear to change night after night?",
         "options": [
-          "Because clouds cut the moon into pieces",
-          "Because the Moon orbits around the Earth, changing how much of its sunlit side we see",
-          "Because stars push the moon away",
-          "Because the Moon melts in hot air"
+          "Because passing dark rain clouds physically block out different portions of the moon",
+          "Because the Moon orbits Earth, changing how much of its sunlit surface faces us",
+          "Because the Moon slowly shrinks and expands as the night air cools down and warms up",
+          "Because bright stars slowly move across the moon and cover up its glowing edges"
         ],
         "answer": 1,
         "explain": "As the Moon circles Earth, our angle of view of its sunlit half changes in a predictable cycle."
@@ -1626,7 +1626,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How many days does it roughly take for the Moon to cycle from one Full Moon to the next Full Moon?",
         "options": [
           "Exactly 2 days",
-          "About 29 to 30 days (roughly one month)",
+          "About 29 to 30 days",
           "7 days",
           "365 days"
         ],
@@ -1646,10 +1646,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does living in an extended family help everyone during busy or sick days?",
         "options": [
-          "Family members share household chores and support each other with love",
-          "Only one person is forced to do every single job",
-          "Everyone leaves the house",
-          "Nobody ever talks to each other"
+          "Family members share household chores and support each other warmly",
+          "One single person is expected to carry out every task on their own",
+          "Relatives avoid speaking to one another during difficult afternoons",
+          "Everyone leaves home immediately so that no work needs to be done"
         ],
         "answer": 0,
         "explain": "Joint families share responsibilities, care for the elderly, and nurture children together."
@@ -1657,7 +1657,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the relationship between you and your mother's brother?",
         "options": [
-          "He is your Maternal Uncle (Mama)",
+          "He is your Maternal Uncle",
           "He is your Nephew",
           "He is your Grandfather",
           "He is your Brother"
@@ -1668,10 +1668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What physical trait or talent might you inherit from your parents or grandparents?",
         "options": [
-          "The school notebook you buy",
-          "The color of your pencil box",
-          "The brand of shoes you wear",
-          "Eye color, curly hair, or a musical smile"
+          "The brand of school notebook you buy at the store",
+          "The bright shade of plastic on your pencil box",
+          "The type of sports shoes you wear to the ground",
+          "Eye color, curly hair texture, or height features"
         ],
         "answer": 3,
         "explain": "Genetic traits like eye color, height, and hair texture are passed down through families!"
@@ -1689,10 +1689,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does living in an extended family help everyone during busy or sick days?",
         "options": [
-          "Family members share household chores and support each other with love",
-          "Only one person is forced to do every single job",
-          "Everyone leaves the house",
-          "Nobody ever talks to each other"
+          "Family members share household chores and support each other warmly",
+          "One single person is expected to carry out every task on their own",
+          "Relatives avoid speaking to one another during difficult afternoons",
+          "Everyone leaves home immediately so that no work needs to be done"
         ],
         "answer": 0,
         "explain": "Joint families share responsibilities, care for the elderly, and nurture children together."
@@ -1700,7 +1700,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the relationship between you and your mother's brother?",
         "options": [
-          "He is your Maternal Uncle (Mama)",
+          "He is your Maternal Uncle",
           "He is your Nephew",
           "He is your Grandfather",
           "He is your Brother"
@@ -1711,10 +1711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What physical trait or talent might you inherit from your parents or grandparents?",
         "options": [
-          "The school notebook you buy",
-          "The color of your pencil box",
-          "The brand of shoes you wear",
-          "Eye color, curly hair, or a musical smile"
+          "The brand of school notebook you buy at the store",
+          "The bright shade of plastic on your pencil box",
+          "The type of sports shoes you wear to the ground",
+          "Eye color, curly hair texture, or height features"
         ],
         "answer": 3,
         "explain": "Genetic traits like eye color, height, and hair texture are passed down through families!"
@@ -1732,10 +1732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do newborn babies drink only breast milk and not chew hard crunchy nuts?",
         "options": [
-          "Because they have no teeth yet and their digestive system is just developing",
-          "Because babies are not hungry",
-          "Because milk is the only white food",
-          "Because babies dislike all food"
+          "They have no teeth yet and their gentle digestive system is still maturing",
+          "They do not require any energy or nutrients during their first several months",
+          "Their stomach can only process foods that have a bright white liquid color",
+          "They naturally refuse solid food because they dislike chewing crunchy items"
         ],
         "answer": 0,
         "explain": "Babies do not have teeth for chewing and need gentle, nutrient-rich milk to grow."
@@ -1743,10 +1743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must every living animal, bird, and human drink clean water regularly?",
         "options": [
-          "Water keeps bodies hydrated and helps digest food and maintain life",
-          "Water is only used for washing clothes",
-          "Living things can survive years without water",
-          "Water makes animals turn into fish"
+          "Water hydrates the body, helps digest food, and maintains vital organs",
+          "Water is mainly needed by living creatures to wash their outer coats",
+          "Animals only consume liquids when they want to cool down during winter",
+          "Living organisms can easily survive without any fluids for many months"
         ],
         "answer": 0,
         "explain": "Water is essential for every biological cell, organ, and life process."
@@ -1754,10 +1754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What simple step saves water in the kitchen when washing vegetables?",
         "options": [
-          "Never washing fruits before eating",
-          "Throwing clean water into the street drain",
-          "Leaving the tap running at full blast while talking",
-          "Washing vegetables in a bowl of water and reusing that water for garden plants"
+          "Skipping the washing step completely so that no household tap is turned on",
+          "Leaving the sink tap running at full force while peeling all the vegetables",
+          "Rinsing each single vegetable separately under an open gushing kitchen pipe",
+          "Washing vegetables in a bowl and reusing that water for potted garden plants"
         ],
         "answer": 3,
         "explain": "Washing produce in a bowl and watering plants with the leftover water is smart conservation!"
@@ -1775,10 +1775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do newborn babies drink only breast milk and not chew hard crunchy nuts?",
         "options": [
-          "Because they have no teeth yet and their digestive system is just developing",
-          "Because babies are not hungry",
-          "Because milk is the only white food",
-          "Because babies dislike all food"
+          "They have no teeth yet and their gentle digestive system is still maturing",
+          "They do not require any energy or nutrients during their first several months",
+          "Their stomach can only process foods that have a bright white liquid color",
+          "They naturally refuse solid food because they dislike chewing crunchy items"
         ],
         "answer": 0,
         "explain": "Babies do not have teeth for chewing and need gentle, nutrient-rich milk to grow."
@@ -1786,10 +1786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must every living animal, bird, and human drink clean water regularly?",
         "options": [
-          "Water keeps bodies hydrated and helps digest food and maintain life",
-          "Water is only used for washing clothes",
-          "Living things can survive years without water",
-          "Water makes animals turn into fish"
+          "Water hydrates the body, helps digest food, and maintains vital organs",
+          "Water is mainly needed by living creatures to wash their outer coats",
+          "Animals only consume liquids when they want to cool down during winter",
+          "Living organisms can easily survive without any fluids for many months"
         ],
         "answer": 0,
         "explain": "Water is essential for every biological cell, organ, and life process."
@@ -1797,10 +1797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What simple step saves water in the kitchen when washing vegetables?",
         "options": [
-          "Never washing fruits before eating",
-          "Throwing clean water into the street drain",
-          "Leaving the tap running at full blast while talking",
-          "Washing vegetables in a bowl of water and reusing that water for garden plants"
+          "Skipping the washing step completely so that no household tap is turned on",
+          "Leaving the sink tap running at full force while peeling all the vegetables",
+          "Rinsing each single vegetable separately under an open gushing kitchen pipe",
+          "Washing vegetables in a bowl and reusing that water for potted garden plants"
         ],
         "answer": 3,
         "explain": "Washing produce in a bowl and watering plants with the leftover water is smart conservation!"
@@ -1829,7 +1829,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "While facing East, which cardinal direction is directly BEHIND Arjun's back?",
         "options": [
-          "West (where the sun sets in the evening)",
+          "West",
           "South",
           "North",
           "East"
@@ -1872,7 +1872,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "While facing East, which cardinal direction is directly BEHIND Arjun's back?",
         "options": [
-          "West (where the sun sets in the evening)",
+          "West",
           "South",
           "North",
           "East"
@@ -1904,10 +1904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does a parrot have a strong, curved hooked beak?",
         "options": [
-          "To crack open hard seeds, nuts, and tough fruit rinds",
-          "To suck nectar like a tiny needle",
-          "To catch fish under deep ocean water",
-          "To scoop gallons of mud"
+          "To crack open hard nuts, tough seeds, and fruit rinds",
+          "To probe deep into flower blossoms for sugary nectar",
+          "To scoop up slippery fish from deep freshwater lakes",
+          "To strain tiny pond insects and weeds from soft mud"
         ],
         "answer": 0,
         "explain": "A parrot's powerful curved beak acts like a nutcracker for tough seeds and nuts."
@@ -1947,10 +1947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does a parrot have a strong, curved hooked beak?",
         "options": [
-          "To crack open hard seeds, nuts, and tough fruit rinds",
-          "To suck nectar like a tiny needle",
-          "To catch fish under deep ocean water",
-          "To scoop gallons of mud"
+          "To crack open hard nuts, tough seeds, and fruit rinds",
+          "To probe deep into flower blossoms for sugary nectar",
+          "To scoop up slippery fish from deep freshwater lakes",
+          "To strain tiny pond insects and weeds from soft mud"
         ],
         "answer": 0,
         "explain": "A parrot's powerful curved beak acts like a nutcracker for tough seeds and nuts."
@@ -1993,7 +1993,7 @@ Object.assign(window.GAME_CONTENT, {
           "Your neighbor's cousins",
           "Your school teacher and principal",
           "Your mother's brother and sister",
-          "Your father's mother and father (Dadi and Dada)"
+          "Your father's mother and father"
         ],
         "answer": 3,
         "explain": "Paternal relatives are on your father's side of the family (Dada and Dadi)."
@@ -2012,10 +2012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can children show respect and care for elderly family members at home?",
         "options": [
-          "By helping them carry things, listening to their stories, and spending loving time together",
-          "By making loud noises while they rest",
-          "By hiding their walking sticks",
-          "By ignoring their needs completely"
+          "By carrying items for them, listening to their memories, and offering caring support",
+          "By playing noisy music in their bedroom while they are trying to take an afternoon nap",
+          "By setting aside their eyeglasses and walking sticks without telling where they are",
+          "By letting them manage heavy household chores alone while ignoring their daily needs"
         ],
         "answer": 0,
         "explain": "Listening with affection and helping with daily tasks brings deep joy to elders."
@@ -2036,7 +2036,7 @@ Object.assign(window.GAME_CONTENT, {
           "Your neighbor's cousins",
           "Your school teacher and principal",
           "Your mother's brother and sister",
-          "Your father's mother and father (Dadi and Dada)"
+          "Your father's mother and father"
         ],
         "answer": 3,
         "explain": "Paternal relatives are on your father's side of the family (Dada and Dadi)."
@@ -2055,10 +2055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can children show respect and care for elderly family members at home?",
         "options": [
-          "By helping them carry things, listening to their stories, and spending loving time together",
-          "By making loud noises while they rest",
-          "By hiding their walking sticks",
-          "By ignoring their needs completely"
+          "By carrying items for them, listening to their memories, and offering caring support",
+          "By playing noisy music in their bedroom while they are trying to take an afternoon nap",
+          "By setting aside their eyeglasses and walking sticks without telling where they are",
+          "By letting them manage heavy household chores alone while ignoring their daily needs"
         ],
         "answer": 0,
         "explain": "Listening with affection and helping with daily tasks brings deep joy to elders."
@@ -2078,7 +2078,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A blade of lawn grass",
           "A dry pine needle",
-          "Mint (Pudina) or Tulsi",
+          "Mint or Tulsi",
           "A cactus thorn"
         ],
         "answer": 2,
@@ -2098,10 +2098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do the leaves of different plants have different shapes (like fan-shaped palm leaves versus needle-shaped pine leaves)?",
         "options": [
-          "Their shapes help them adapt to their climate, sunlight, and moisture needs",
-          "All leaves actually have the identical shape",
-          "Because gardeners cut each leaf with scissors",
-          "Leaves change shape every five minutes"
+          "Their shapes help them adapt to local sunlight, climate, and moisture levels",
+          "All plant leaves share the exact same outline regardless of their habitat",
+          "Gardeners regularly trim every outdoor leaf using specialized hedge shears",
+          "Leaves shift their physical patterns every few days to confuse caterpillars"
         ],
         "answer": 0,
         "explain": "Leaf adaptations help plants catch light or survive winds and winter snow!"
@@ -2121,7 +2121,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A blade of lawn grass",
           "A dry pine needle",
-          "Mint (Pudina) or Tulsi",
+          "Mint or Tulsi",
           "A cactus thorn"
         ],
         "answer": 2,
@@ -2141,10 +2141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do the leaves of different plants have different shapes (like fan-shaped palm leaves versus needle-shaped pine leaves)?",
         "options": [
-          "Their shapes help them adapt to their climate, sunlight, and moisture needs",
-          "All leaves actually have the identical shape",
-          "Because gardeners cut each leaf with scissors",
-          "Leaves change shape every five minutes"
+          "Their shapes help them adapt to local sunlight, climate, and moisture levels",
+          "All plant leaves share the exact same outline regardless of their habitat",
+          "Gardeners regularly trim every outdoor leaf using specialized hedge shears",
+          "Leaves shift their physical patterns every few days to confuse caterpillars"
         ],
         "answer": 0,
         "explain": "Leaf adaptations help plants catch light or survive winds and winter snow!"
@@ -2163,9 +2163,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Where should a family go immediately if someone feels very ill or has an emergency injury?",
         "options": [
           "To the hospital or neighborhood health clinic",
-          "To the post office",
-          "To the playground swings",
-          "To the movie theater"
+          "To the local post office counter for stamps",
+          "To the playground swings in the public park",
+          "To the ticket window at the cinema theater"
         ],
         "answer": 0,
         "explain": "Doctors and nurses at hospitals provide immediate medical care and treatment."
@@ -2173,10 +2173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What important service does the local Post Office provide for the community?",
         "options": [
-          "Repairing bicycle flat tires",
-          "Selling train tickets for overseas flights",
-          "Pumping fuel into motorcars",
-          "Delivering letters, parcels, and money orders to people far and wide"
+          "Fixing flat bicycle tires and replacing broken chains for commuters",
+          "Selling flight boarding passes and booking international hotel trips",
+          "Pumping diesel fuel and motor oil into heavy transport vehicles",
+          "Delivering letters, parcels, and savings services across the country"
         ],
         "answer": 3,
         "explain": "Post offices handle letters, postcards, parcels, and savings services."
@@ -2184,10 +2184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What sign on a public bus or metro train shows a seat is reserved for senior citizens or people with disabilities?",
         "options": [
-          "A sign that says 'Children Only'",
-          "A picture of an ice cream cone",
-          "A painted arrow pointing up",
-          "A clear pictorial sign showing a person with a walking stick or pregnant mother"
+          "A brightly painted board indicating that the seats are kept for young toddlers",
+          "A colorful advertisement symbol displaying an iced dessert or refreshment shop",
+          "A standard route guidance marker pointing straight toward the driver compartment",
+          "A pictorial sign showing an elderly traveler with a cane or an expectant mother"
         ],
         "answer": 3,
         "explain": "Special reservation signs ensure elderly and differently abled passengers have comfortable seating."
@@ -2206,9 +2206,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Where should a family go immediately if someone feels very ill or has an emergency injury?",
         "options": [
           "To the hospital or neighborhood health clinic",
-          "To the post office",
-          "To the playground swings",
-          "To the movie theater"
+          "To the local post office counter for stamps",
+          "To the playground swings in the public park",
+          "To the ticket window at the cinema theater"
         ],
         "answer": 0,
         "explain": "Doctors and nurses at hospitals provide immediate medical care and treatment."
@@ -2216,10 +2216,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What important service does the local Post Office provide for the community?",
         "options": [
-          "Repairing bicycle flat tires",
-          "Selling train tickets for overseas flights",
-          "Pumping fuel into motorcars",
-          "Delivering letters, parcels, and money orders to people far and wide"
+          "Fixing flat bicycle tires and replacing broken chains for commuters",
+          "Selling flight boarding passes and booking international hotel trips",
+          "Pumping diesel fuel and motor oil into heavy transport vehicles",
+          "Delivering letters, parcels, and savings services across the country"
         ],
         "answer": 3,
         "explain": "Post offices handle letters, postcards, parcels, and savings services."
@@ -2227,10 +2227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What sign on a public bus or metro train shows a seat is reserved for senior citizens or people with disabilities?",
         "options": [
-          "A sign that says 'Children Only'",
-          "A picture of an ice cream cone",
-          "A painted arrow pointing up",
-          "A clear pictorial sign showing a person with a walking stick or pregnant mother"
+          "A brightly painted board indicating that the seats are kept for young toddlers",
+          "A colorful advertisement symbol displaying an iced dessert or refreshment shop",
+          "A standard route guidance marker pointing straight toward the driver compartment",
+          "A pictorial sign showing an elderly traveler with a cane or an expectant mother"
         ],
         "answer": 3,
         "explain": "Special reservation signs ensure elderly and differently abled passengers have comfortable seating."
@@ -2259,10 +2259,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the past, cooking was often done on clay chulhas using firewood. What clean fuels do most modern homes use today?",
         "options": [
-          "Burning piles of plastic",
-          "Dry leaves inside closed bedrooms",
-          "Kerosene torches only",
-          "LPG gas stoves and electric induction cookers"
+          "Discarded plastic scraps and synthetic foam sheets",
+          "Piles of dry leaves burning inside closed rooms",
+          "Open kerosene torches placed on wooden tables",
+          "LPG piped gas stoves and electric induction units"
         ],
         "answer": 3,
         "explain": "LPG piped gas and electricity provide clean, smokeless heat for modern kitchens."
@@ -2273,7 +2273,7 @@ Object.assign(window.GAME_CONTENT, {
           "Online video console games",
           "Virtual reality rollercoasters",
           "Drone racing in the sky",
-          "Hopscotch (Stapoo) and Gilli-Danda"
+          "Hopscotch and Gilli-Danda"
         ],
         "answer": 3,
         "explain": "Stapoo (hopscotch), kho-kho, and gilli-danda were beloved active outdoor games played with simple natural items!"
@@ -2302,10 +2302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the past, cooking was often done on clay chulhas using firewood. What clean fuels do most modern homes use today?",
         "options": [
-          "Burning piles of plastic",
-          "Dry leaves inside closed bedrooms",
-          "Kerosene torches only",
-          "LPG gas stoves and electric induction cookers"
+          "Discarded plastic scraps and synthetic foam sheets",
+          "Piles of dry leaves burning inside closed rooms",
+          "Open kerosene torches placed on wooden tables",
+          "LPG piped gas stoves and electric induction units"
         ],
         "answer": 3,
         "explain": "LPG piped gas and electricity provide clean, smokeless heat for modern kitchens."
@@ -2316,7 +2316,7 @@ Object.assign(window.GAME_CONTENT, {
           "Online video console games",
           "Virtual reality rollercoasters",
           "Drone racing in the sky",
-          "Hopscotch (Stapoo) and Gilli-Danda"
+          "Hopscotch and Gilli-Danda"
         ],
         "answer": 3,
         "explain": "Stapoo (hopscotch), kho-kho, and gilli-danda were beloved active outdoor games played with simple natural items!"
@@ -2345,10 +2345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If anyone touches you in a way that feels uncomfortable, wrong, or confusing, what should you do immediately?",
         "options": [
-          "Keep it a secret forever",
-          "Think it is your own fault",
-          "Say a loud, firm 'NO!', run away to a safe place, and tell a trusted adult immediately",
-          "Hide under your blanket and cry alone"
+          "Keep the feeling a secret and never talk about it with your parents or teachers",
+          "Assume that you made a serious mistake and quietly blame yourself for the event",
+          "Say a firm and loud no, move quickly to a safe spot, and inform a trusted adult",
+          "Hide away silently under a blanket and hope that the problem disappears on its own"
         ],
         "answer": 2,
         "explain": "Remember the safety rule: Say NO firmly, GO to safety, and TELL a trusted adult (like parents or teachers)!"
@@ -2356,10 +2356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Should household tasks like cooking or sweeping be done only by girls, or can both boys and girls share the work?",
         "options": [
-          "Only girls should ever cook and clean",
-          "Chores should never be done by anyone",
-          "Boys should never wash their own plates",
-          "Both boys and girls can equally learn and share all household chores"
+          "Only girls and women should be expected to prepare food and clean",
+          "Daily household chores should be completely avoided by all children",
+          "Boys ought to avoid helping around the kitchen or washing dishes",
+          "Both boys and girls can equally learn and share household chores"
         ],
         "answer": 3,
         "explain": "Chores are life skills! Everyone in the family benefits when work is shared equally."
@@ -2388,10 +2388,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If anyone touches you in a way that feels uncomfortable, wrong, or confusing, what should you do immediately?",
         "options": [
-          "Keep it a secret forever",
-          "Think it is your own fault",
-          "Say a loud, firm 'NO!', run away to a safe place, and tell a trusted adult immediately",
-          "Hide under your blanket and cry alone"
+          "Keep the feeling a secret and never talk about it with your parents or teachers",
+          "Assume that you made a serious mistake and quietly blame yourself for the event",
+          "Say a firm and loud no, move quickly to a safe spot, and inform a trusted adult",
+          "Hide away silently under a blanket and hope that the problem disappears on its own"
         ],
         "answer": 2,
         "explain": "Remember the safety rule: Say NO firmly, GO to safety, and TELL a trusted adult (like parents or teachers)!"
@@ -2399,10 +2399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Should household tasks like cooking or sweeping be done only by girls, or can both boys and girls share the work?",
         "options": [
-          "Only girls should ever cook and clean",
-          "Chores should never be done by anyone",
-          "Boys should never wash their own plates",
-          "Both boys and girls can equally learn and share all household chores"
+          "Only girls and women should be expected to prepare food and clean",
+          "Daily household chores should be completely avoided by all children",
+          "Boys ought to avoid helping around the kitchen or washing dishes",
+          "Both boys and girls can equally learn and share household chores"
         ],
         "answer": 3,
         "explain": "Chores are life skills! Everyone in the family benefits when work is shared equally."
@@ -2420,10 +2420,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are clear rules important before starting any sport or playground game?",
         "options": [
-          "Rules are made so nobody can score any points",
-          "Rules allow one team to cheat freely",
-          "Rules ensure fairness, prevent disputes, and keep all players safe",
-          "Rules make the game boring and slow"
+          "Rules are created so that neither side can ever score any match points",
+          "Rules give unfair privileges so one team can break rules without penalty",
+          "Rules ensure fairness, prevent disputes, and keep all participants safe",
+          "Rules make athletic activities slow, confusing, and dull for spectators"
         ],
         "answer": 2,
         "explain": "Rules create fair, exciting, and safe play where everyone knows the expectations."
@@ -2431,10 +2431,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the referee calls you 'OUT' in Kho-Kho or Dodgeball, what is the sportsmanlike reaction?",
         "options": [
-          "Argue loudly and push other players",
-          "Throw a tantrum and kick the cones",
-          "Accept the referee's call calmly, cheer on your teammates from the sideline, and wait for your next turn",
-          "Refuse to leave the pitch"
+          "Argue heatedly with the match official and push other players off the game court",
+          "Throw an angry tantrum on the grass, kick marker cones, and tear up the scorecard",
+          "Accept the official call calmly, cheer from the sideline, and await your next turn",
+          "Cross your arms stubbornly and refuse to leave the field until the call is changed"
         ],
         "answer": 2,
         "explain": "True sportsmanship means respecting the referee and supporting your team with grace!"
@@ -2442,10 +2442,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does being a great teammate mean?",
         "options": [
-          "Sitting down and refusing to run",
-          "Demanding that you take every single shot yourself",
-          "Blaming your goalkeeper if a goal is scored",
-          "Encouraging your partners, passing the ball, and celebrating everyone's effort"
+          "Sitting down on the court grass and refusing to run whenever you feel tired",
+          "Demanding that you take every single shot yourself without passing to peers",
+          "Blaming the defender or goalkeeper whenever the opposing side scores points",
+          "Encouraging your partners, passing the ball, and celebrating team achievements"
         ],
         "answer": 3,
         "explain": "Great teammates build each other up with encouragement and cooperation!"
@@ -2463,10 +2463,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are clear rules important before starting any sport or playground game?",
         "options": [
-          "Rules are made so nobody can score any points",
-          "Rules allow one team to cheat freely",
-          "Rules ensure fairness, prevent disputes, and keep all players safe",
-          "Rules make the game boring and slow"
+          "Rules are created so that neither side can ever score any match points",
+          "Rules give unfair privileges so one team can break rules without penalty",
+          "Rules ensure fairness, prevent disputes, and keep all participants safe",
+          "Rules make athletic activities slow, confusing, and dull for spectators"
         ],
         "answer": 2,
         "explain": "Rules create fair, exciting, and safe play where everyone knows the expectations."
@@ -2474,10 +2474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the referee calls you 'OUT' in Kho-Kho or Dodgeball, what is the sportsmanlike reaction?",
         "options": [
-          "Argue loudly and push other players",
-          "Throw a tantrum and kick the cones",
-          "Accept the referee's call calmly, cheer on your teammates from the sideline, and wait for your next turn",
-          "Refuse to leave the pitch"
+          "Argue heatedly with the match official and push other players off the game court",
+          "Throw an angry tantrum on the grass, kick marker cones, and tear up the scorecard",
+          "Accept the official call calmly, cheer from the sideline, and await your next turn",
+          "Cross your arms stubbornly and refuse to leave the field until the call is changed"
         ],
         "answer": 2,
         "explain": "True sportsmanship means respecting the referee and supporting your team with grace!"
@@ -2485,10 +2485,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does being a great teammate mean?",
         "options": [
-          "Sitting down and refusing to run",
-          "Demanding that you take every single shot yourself",
-          "Blaming your goalkeeper if a goal is scored",
-          "Encouraging your partners, passing the ball, and celebrating everyone's effort"
+          "Sitting down on the court grass and refusing to run whenever you feel tired",
+          "Demanding that you take every single shot yourself without passing to peers",
+          "Blaming the defender or goalkeeper whenever the opposing side scores points",
+          "Encouraging your partners, passing the ball, and celebrating team achievements"
         ],
         "answer": 3,
         "explain": "Great teammates build each other up with encouragement and cooperation!"
@@ -2507,9 +2507,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why is keeping a shallow clay water bowl on the balcony or terrace helpful during hot sunny months?",
         "options": [
           "It provides cool, life-saving drinking water for thirsty birds and squirrels",
-          "It makes the balcony slippery on purpose",
-          "To wash muddy boots outside",
-          "It attracts mosquitoes to bite people"
+          "It makes the balcony tiles slippery so children do not run along the edges",
+          "It serves as an outdoor cleaning basin for washing muddy gardening boots",
+          "It helps collect stale rainwater to attract biting insects into the garden"
         ],
         "answer": 0,
         "explain": "Urban wildlife often struggles to find water; a clean bowl is a true lifesaver in summer!"
@@ -2517,10 +2517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can students make their school friendly and accessible for a classmate who uses a wheelchair?",
         "options": [
-          "Ignore them completely",
-          "Ensure ramps are clear and assist them warmly so they can join all games and activities",
-          "Tell them they cannot enter the library",
-          "Leave heavy school bags blocking the doorway ramps"
+          "Walk past them without speaking and leave them alone during recess play periods",
+          "Keep access ramps clear and assist them warmly so they join all school activities",
+          "Remind them that wheelchair users should avoid entering the library or laboratory",
+          "Leave heavy school bags and desks piled up across the main corridor entry ramps"
         ],
         "answer": 1,
         "explain": "Ramps, wide doors, and welcoming friendship ensure all classmates participate fully!"
@@ -2528,10 +2528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way to handle dry fallen leaves in a school garden?",
         "options": [
-          "Burn them in a giant smoky fire that pollutes the air",
-          "Sweep them under a car",
-          "Collect them in a compost pit to make rich organic fertilizer for garden plants",
-          "Pack them in plastic bags and dump them in a river"
+          "Set fire to the dry piles creating thick smoke that pollutes neighboring air",
+          "Sweep all the leaves underneath parked school buses to hide them out of sight",
+          "Collect them in a compost pit to produce rich natural fertilizer for plants",
+          "Seal them inside large polythene bags and throw them into the nearby canal"
         ],
         "answer": 2,
         "explain": "Composting turns organic leaf waste into nutrient-packed soil without any harmful smoke!"
@@ -2550,9 +2550,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why is keeping a shallow clay water bowl on the balcony or terrace helpful during hot sunny months?",
         "options": [
           "It provides cool, life-saving drinking water for thirsty birds and squirrels",
-          "It makes the balcony slippery on purpose",
-          "To wash muddy boots outside",
-          "It attracts mosquitoes to bite people"
+          "It makes the balcony tiles slippery so children do not run along the edges",
+          "It serves as an outdoor cleaning basin for washing muddy gardening boots",
+          "It helps collect stale rainwater to attract biting insects into the garden"
         ],
         "answer": 0,
         "explain": "Urban wildlife often struggles to find water; a clean bowl is a true lifesaver in summer!"
@@ -2560,10 +2560,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can students make their school friendly and accessible for a classmate who uses a wheelchair?",
         "options": [
-          "Ignore them completely",
-          "Ensure ramps are clear and assist them warmly so they can join all games and activities",
-          "Tell them they cannot enter the library",
-          "Leave heavy school bags blocking the doorway ramps"
+          "Walk past them without speaking and leave them alone during recess play periods",
+          "Keep access ramps clear and assist them warmly so they join all school activities",
+          "Remind them that wheelchair users should avoid entering the library or laboratory",
+          "Leave heavy school bags and desks piled up across the main corridor entry ramps"
         ],
         "answer": 1,
         "explain": "Ramps, wide doors, and welcoming friendship ensure all classmates participate fully!"
@@ -2571,10 +2571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way to handle dry fallen leaves in a school garden?",
         "options": [
-          "Burn them in a giant smoky fire that pollutes the air",
-          "Sweep them under a car",
-          "Collect them in a compost pit to make rich organic fertilizer for garden plants",
-          "Pack them in plastic bags and dump them in a river"
+          "Set fire to the dry piles creating thick smoke that pollutes neighboring air",
+          "Sweep all the leaves underneath parked school buses to hide them out of sight",
+          "Collect them in a compost pit to produce rich natural fertilizer for plants",
+          "Seal them inside large polythene bags and throw them into the nearby canal"
         ],
         "answer": 2,
         "explain": "Composting turns organic leaf waste into nutrient-packed soil without any harmful smoke!"
@@ -2592,10 +2592,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is the number 5 drawn using standard tally marks?",
         "options": [
-          "A star shape with five points",
-          "Five separate dots in a circle",
-          "A square with one line inside",
-          "Four vertical lines with a diagonal slash across them (卌)"
+          "Five small round dots arranged around a wide circle",
+          "A single geometric star shape containing five points",
+          "A closed square outline drawn with one center stroke",
+          "Four vertical lines with one diagonal slash across"
         ],
         "answer": 3,
         "explain": "In tally marks, groups of five are bundled with 4 vertical strokes and 1 diagonal cross!"
@@ -2614,10 +2614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are tally marks organized into bundles of 5 rather than just drawing 50 straight lines in a row?",
         "options": [
-          "Bundling by 5s makes it fast and easy to skip-count without losing your place",
-          "Because tally marks cannot count past four",
-          "Because rulers only go up to five",
-          "Because the paper runs out of ink"
+          "Bundling by fives makes it quick and easy to skip-count without confusion",
+          "Because mathematical tally marks are never permitted to exceed four strokes",
+          "Because standard classroom rulers only display measurements up to five units",
+          "Because drawing more than five consecutive lines causes notebooks to tear"
         ],
         "answer": 0,
         "explain": "Counting by 5s is lightning fast: 5, 10, 15, 20...!"
@@ -2635,10 +2635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is the number 5 drawn using standard tally marks?",
         "options": [
-          "A star shape with five points",
-          "Five separate dots in a circle",
-          "A square with one line inside",
-          "Four vertical lines with a diagonal slash across them (卌)"
+          "Five small round dots arranged around a wide circle",
+          "A single geometric star shape containing five points",
+          "A closed square outline drawn with one center stroke",
+          "Four vertical lines with one diagonal slash across"
         ],
         "answer": 3,
         "explain": "In tally marks, groups of five are bundled with 4 vertical strokes and 1 diagonal cross!"
@@ -2657,10 +2657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are tally marks organized into bundles of 5 rather than just drawing 50 straight lines in a row?",
         "options": [
-          "Bundling by 5s makes it fast and easy to skip-count without losing your place",
-          "Because tally marks cannot count past four",
-          "Because rulers only go up to five",
-          "Because the paper runs out of ink"
+          "Bundling by fives makes it quick and easy to skip-count without confusion",
+          "Because mathematical tally marks are never permitted to exceed four strokes",
+          "Because standard classroom rulers only display measurements up to five units",
+          "Because drawing more than five consecutive lines causes notebooks to tear"
         ],
         "answer": 0,
         "explain": "Counting by 5s is lightning fast: 5, 10, 15, 20...!"
@@ -2680,8 +2680,8 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Neither can hold water",
           "Both hold the exact same volume",
-          "The sports bottle (holds 3 glasses)",
-          "The glass pitcher (holds 6 glasses)"
+          "The sports bottle",
+          "The glass pitcher"
         ],
         "answer": 3,
         "explain": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
@@ -2723,8 +2723,8 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Neither can hold water",
           "Both hold the exact same volume",
-          "The sports bottle (holds 3 glasses)",
-          "The glass pitcher (holds 6 glasses)"
+          "The sports bottle",
+          "The glass pitcher"
         ],
         "answer": 3,
         "explain": "The pitcher holds 6 glasses, which is twice the capacity of the bottle (3 glasses)!"
@@ -2775,7 +2775,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Meera places the tip of her pencil at the 0 cm mark on her ruler. The eraser ends right at the 8 cm mark. How long is her pencil?",
         "options": [
-          "8 centimeters (8 cm)",
+          "8 centimeters",
           "0 cm",
           "8 meters",
           "15 cm"
@@ -2786,10 +2786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which unit would you use to measure the distance between two different cities, such as Delhi and Agra?",
         "options": [
-          "Centimeters (cm)",
-          "Millimeters (mm)",
-          "Kilometers (km)",
-          "Grams (g)"
+          "Centimeters",
+          "Millimeters",
+          "Kilometers",
+          "Grams"
         ],
         "answer": 2,
         "explain": "Long road distances between cities are measured in kilometers (km)!"
@@ -2818,7 +2818,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Meera places the tip of her pencil at the 0 cm mark on her ruler. The eraser ends right at the 8 cm mark. How long is her pencil?",
         "options": [
-          "8 centimeters (8 cm)",
+          "8 centimeters",
           "0 cm",
           "8 meters",
           "15 cm"
@@ -2829,10 +2829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which unit would you use to measure the distance between two different cities, such as Delhi and Agra?",
         "options": [
-          "Centimeters (cm)",
-          "Millimeters (mm)",
-          "Kilometers (km)",
-          "Grams (g)"
+          "Centimeters",
+          "Millimeters",
+          "Kilometers",
+          "Grams"
         ],
         "answer": 2,
         "explain": "Long road distances between cities are measured in kilometers (km)!"
@@ -2958,10 +2958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do storekeepers write item names, quantities, and prices on a cash bill?",
         "options": [
-          "To keep it as a secret from everyone",
-          "Because math cannot be done in your head",
-          "To practice their handwriting on scrap paper",
-          "So the customer can see the exact breakdown and verify the total calculation"
+          "To hide the individual product prices from competing shopkeepers nearby",
+          "Because shopkeepers are not allowed to calculate totals using mental math",
+          "To fill out blank receipt sheets for extra handwriting practice during work",
+          "So the customer can review every purchase and verify the total calculation"
         ],
         "answer": 3,
         "explain": "A bill provides an honest, clear record of all items purchased and paid for!"
@@ -3001,10 +3001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do storekeepers write item names, quantities, and prices on a cash bill?",
         "options": [
-          "To keep it as a secret from everyone",
-          "Because math cannot be done in your head",
-          "To practice their handwriting on scrap paper",
-          "So the customer can see the exact breakdown and verify the total calculation"
+          "To hide the individual product prices from competing shopkeepers nearby",
+          "Because shopkeepers are not allowed to calculate totals using mental math",
+          "To fill out blank receipt sheets for extra handwriting practice during work",
+          "So the customer can review every purchase and verify the total calculation"
         ],
         "answer": 3,
         "explain": "A bill provides an honest, clear record of all items purchased and paid for!"
@@ -3109,9 +3109,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When the short hour hand points directly at 4, and the long minute hand points straight up at 12, what time is it?",
         "options": [
           "12 o'clock",
-          "4:12",
-          "12:04",
-          "4 o'clock (4:00)"
+          "4",
+          "12",
+          "4 o'clock"
         ],
         "answer": 3,
         "explain": "Minute hand at 12 means an exact hour: 4 o'clock!"
@@ -3121,7 +3121,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "3 hours",
           "2 hours",
-          "4 hours (9 to 10, 10 to 11, 11 to 12, 12 to 1)",
+          "4 hours",
           "5 hours"
         ],
         "answer": 2,
@@ -3152,9 +3152,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When the short hour hand points directly at 4, and the long minute hand points straight up at 12, what time is it?",
         "options": [
           "12 o'clock",
-          "4:12",
-          "12:04",
-          "4 o'clock (4:00)"
+          "4",
+          "12",
+          "4 o'clock"
         ],
         "answer": 3,
         "explain": "Minute hand at 12 means an exact hour: 4 o'clock!"
@@ -3164,7 +3164,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "3 hours",
           "2 hours",
-          "4 hours (9 to 10, 10 to 11, 11 to 12, 12 to 1)",
+          "4 hours",
           "5 hours"
         ],
         "answer": 2,
@@ -3302,10 +3302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which object would you weigh in GRAMS rather than Kilograms?",
         "options": [
-          "A school bus",
-          "A small silver ring or a postage stamp",
-          "An adult elephant",
-          "A heavy sack of wheat"
+          "A large yellow school transport bus",
+          "A small silver finger ring or stamp",
+          "A full-grown adult African elephant",
+          "A heavy sack of whole wheat grains"
         ],
         "answer": 1,
         "explain": "Tiny, lightweight objects like jewelry or postage stamps are measured in grams."
@@ -3345,10 +3345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which object would you weigh in GRAMS rather than Kilograms?",
         "options": [
-          "A school bus",
-          "A small silver ring or a postage stamp",
-          "An adult elephant",
-          "A heavy sack of wheat"
+          "A large yellow school transport bus",
+          "A small silver finger ring or stamp",
+          "A full-grown adult African elephant",
+          "A heavy sack of whole wheat grains"
         ],
         "answer": 1,
         "explain": "Tiny, lightweight objects like jewelry or postage stamps are measured in grams."
@@ -3635,10 +3635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can division be shown as repeated subtraction for 12 / 3?",
         "options": [
-          "Add 3 four times to 12",
-          "Subtract 12 from 0",
-          "Multiply 12 by 3",
-          "Subtract 3 repeatedly: 12 - 3 = 9; 9 - 3 = 6; 6 - 3 = 3; 3 - 3 = 0 (subtracted 4 times)"
+          "Add 3 repeatedly to 12 four times over",
+          "Subtract 12 repeatedly until reaching 0",
+          "Multiply 12 by 3 repeatedly four times",
+          "Subtract 3 repeatedly until reaching 0"
         ],
         "answer": 3,
         "explain": "You can subtract 3 four times until reaching zero. So 12 / 3 = 4!"
@@ -3678,10 +3678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can division be shown as repeated subtraction for 12 / 3?",
         "options": [
-          "Add 3 four times to 12",
-          "Subtract 12 from 0",
-          "Multiply 12 by 3",
-          "Subtract 3 repeatedly: 12 - 3 = 9; 9 - 3 = 6; 6 - 3 = 3; 3 - 3 = 0 (subtracted 4 times)"
+          "Add 3 repeatedly to 12 four times over",
+          "Subtract 12 repeatedly until reaching 0",
+          "Multiply 12 by 3 repeatedly four times",
+          "Subtract 3 repeatedly until reaching 0"
         ],
         "answer": 3,
         "explain": "You can subtract 3 four times until reaching zero. So 12 / 3 = 4!"
@@ -3710,9 +3710,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the number 749, what is the place value of the digit '7'?",
         "options": [
-          "70 (7 tens)",
-          "7 (7 ones)",
-          "700 (7 hundreds)",
+          "70",
+          "7",
+          "700",
           "7000"
         ],
         "answer": 2,
@@ -3724,7 +3724,7 @@ Object.assign(window.GAME_CONTENT, {
           "528 > 582",
           "582 = 528",
           "582 < 528",
-          "582 > 528 (582 is greater than 528)"
+          "582 > 528"
         ],
         "answer": 3,
         "explain": "Both have 5 hundreds, but 582 has 8 tens while 528 has only 2 tens! So 582 > 528."
@@ -3753,9 +3753,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the number 749, what is the place value of the digit '7'?",
         "options": [
-          "70 (7 tens)",
-          "7 (7 ones)",
-          "700 (7 hundreds)",
+          "70",
+          "7",
+          "700",
           "7000"
         ],
         "answer": 2,
@@ -3767,7 +3767,7 @@ Object.assign(window.GAME_CONTENT, {
           "528 > 582",
           "582 = 528",
           "582 < 528",
-          "582 > 528 (582 is greater than 528)"
+          "582 > 528"
         ],
         "answer": 3,
         "explain": "Both have 5 hundreds, but 582 has 8 tens while 528 has only 2 tens! So 582 > 528."
@@ -3893,10 +3893,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'diagonal' in a polygon like a square or rectangle?",
         "options": [
-          "The center dot of the shape",
-          "A straight line connecting two opposite (non-adjacent) corners",
-          "A curved line around the edge",
-          "The table where the shape sits"
+          "A single center point located inside the shape",
+          "A straight line joining two opposite corners",
+          "A curved boundary drawn along the outer border",
+          "The flat wooden table surface below the polygon"
         ],
         "answer": 1,
         "explain": "A diagonal connects opposite corners across the inside of the polygon."
@@ -3936,10 +3936,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'diagonal' in a polygon like a square or rectangle?",
         "options": [
-          "The center dot of the shape",
-          "A straight line connecting two opposite (non-adjacent) corners",
-          "A curved line around the edge",
-          "The table where the shape sits"
+          "A single center point located inside the shape",
+          "A straight line joining two opposite corners",
+          "A curved boundary drawn along the outer border",
+          "The flat wooden table surface below the polygon"
         ],
         "answer": 1,
         "explain": "A diagonal connects opposite corners across the inside of the polygon."
@@ -3968,7 +3968,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these geometric shapes can tile a flat floor seamlessly with NO gaps left between them?",
         "options": [
-          "Round circles (which leave gaps between them)",
+          "Round circles",
           "Squares and Rectangles",
           "Oval egg shapes",
           "Star shapes with gaps"
@@ -3979,10 +3979,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can round circles NOT tile a flat floor completely on their own?",
         "options": [
-          "Because circles are too heavy",
-          "Because circles only roll away",
-          "Because round edges leave curved empty diamond-like gaps between them",
-          "Because circles cannot touch each other"
+          "Because circular tiles are far too heavy to lay flat across a room",
+          "Because curved objects constantly roll away when placed on floors",
+          "Because circular edges leave curved empty open gaps between tiles",
+          "Because circular shapes are mathematically forbidden from touching"
         ],
         "answer": 2,
         "explain": "When circles touch, they leave empty spaces between their curved boundaries."
@@ -3992,7 +3992,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A measuring tape",
           "A subtraction problem",
-          "A tessellation (tiling pattern)",
+          "A tessellation",
           "A fraction number"
         ],
         "answer": 2,
@@ -4011,7 +4011,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these geometric shapes can tile a flat floor seamlessly with NO gaps left between them?",
         "options": [
-          "Round circles (which leave gaps between them)",
+          "Round circles",
           "Squares and Rectangles",
           "Oval egg shapes",
           "Star shapes with gaps"
@@ -4022,10 +4022,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why can round circles NOT tile a flat floor completely on their own?",
         "options": [
-          "Because circles are too heavy",
-          "Because circles only roll away",
-          "Because round edges leave curved empty diamond-like gaps between them",
-          "Because circles cannot touch each other"
+          "Because circular tiles are far too heavy to lay flat across a room",
+          "Because curved objects constantly roll away when placed on floors",
+          "Because circular edges leave curved empty open gaps between tiles",
+          "Because circular shapes are mathematically forbidden from touching"
         ],
         "answer": 2,
         "explain": "When circles touch, they leave empty spaces between their curved boundaries."
@@ -4035,7 +4035,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "A measuring tape",
           "A subtraction problem",
-          "A tessellation (tiling pattern)",
+          "A tessellation",
           "A fraction number"
         ],
         "answer": 2,
@@ -4065,10 +4065,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a dot grid paper, how many dots do you connect in a row to draw a straight line segment?",
         "options": [
-          "Connect dots along a straight path using a ruler",
-          "Dots cannot be connected with lines",
-          "Only one dot is needed for a line",
-          "Connect dots in random loops"
+          "Connect dots along a straight path with a ruler",
+          "Draw wavy looping arcs that touch every dot once",
+          "Place a single dot without drawing connecting rays",
+          "Dot grid marks are never allowed to be connected"
         ],
         "answer": 0,
         "explain": "Connecting dots with a ruler allows you to draw precise polygons and geometric shapes."
@@ -4108,10 +4108,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a dot grid paper, how many dots do you connect in a row to draw a straight line segment?",
         "options": [
-          "Connect dots along a straight path using a ruler",
-          "Dots cannot be connected with lines",
-          "Only one dot is needed for a line",
-          "Connect dots in random loops"
+          "Connect dots along a straight path with a ruler",
+          "Draw wavy looping arcs that touch every dot once",
+          "Place a single dot without drawing connecting rays",
+          "Dot grid marks are never allowed to be connected"
         ],
         "answer": 0,
         "explain": "Connecting dots with a ruler allows you to draw precise polygons and geometric shapes."

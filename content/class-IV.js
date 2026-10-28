@@ -98,10 +98,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who leads an elephant family herd in the wild?",
         "options": [
-          "A solitary male lion",
-          "A flock of birds",
-          "The oldest and wisest female elephant (the matriarch)",
-          "The youngest playful baby calf"
+          "A solitary roaming male forest lion",
+          "A flock of migratory hornbill birds",
+          "The oldest and wisest female elephant",
+          "The youngest playful baby elephant"
         ],
         "answer": 2,
         "explain": "Elephant herds are matriarchal, guided by experienced older females who know water sources!"
@@ -110,9 +110,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How do elephants send messages to other herds far away across the savannah?",
         "options": [
           "Using deep, low rumbles that vibrate through the ground",
-          "By waving flags with their trunks",
-          "By whistling high bird songs",
-          "By tapping on wooden logs"
+          "By tapping rhythmic patterns on hollow fallen tree logs",
+          "By whistling high-pitched tunes like migratory songbirds",
+          "By waving branches and leaves high up in their trunks"
         ],
         "answer": 0,
         "explain": "Low-frequency infrasound travels through the ground, which elephants sense through sensitive foot pads!"
@@ -120,10 +120,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does this passage reveal about elephant social life?",
         "options": [
-          "They are deeply caring, cooperative, and communicative social animals",
-          "They cannot hear any sounds",
-          "They never help other elephants",
-          "They prefer living completely alone without families"
+          "They are deeply caring, cooperative, and highly social herd animals",
+          "They are unable to perceive sound vibrations or communicate at all",
+          "They avoid helping other herd members and compete for food supplies",
+          "They prefer living solitary lives in isolation without family units"
         ],
         "answer": 0,
         "explain": "Elephants form lifelong familial bonds, protect calves together, and mourn their loved ones."
@@ -141,10 +141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Who leads an elephant family herd in the wild?",
         "options": [
-          "A solitary male lion",
-          "A flock of birds",
-          "The oldest and wisest female elephant (the matriarch)",
-          "The youngest playful baby calf"
+          "A solitary roaming male forest lion",
+          "A flock of migratory hornbill birds",
+          "The oldest and wisest female elephant",
+          "The youngest playful baby elephant"
         ],
         "answer": 2,
         "explain": "Elephant herds are matriarchal, guided by experienced older females who know water sources!"
@@ -153,9 +153,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How do elephants send messages to other herds far away across the savannah?",
         "options": [
           "Using deep, low rumbles that vibrate through the ground",
-          "By waving flags with their trunks",
-          "By whistling high bird songs",
-          "By tapping on wooden logs"
+          "By tapping rhythmic patterns on hollow fallen tree logs",
+          "By whistling high-pitched tunes like migratory songbirds",
+          "By waving branches and leaves high up in their trunks"
         ],
         "answer": 0,
         "explain": "Low-frequency infrasound travels through the ground, which elephants sense through sensitive foot pads!"
@@ -163,10 +163,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does this passage reveal about elephant social life?",
         "options": [
-          "They are deeply caring, cooperative, and communicative social animals",
-          "They cannot hear any sounds",
-          "They never help other elephants",
-          "They prefer living completely alone without families"
+          "They are deeply caring, cooperative, and highly social herd animals",
+          "They are unable to perceive sound vibrations or communicate at all",
+          "They avoid helping other herd members and compete for food supplies",
+          "They prefer living solitary lives in isolation without family units"
         ],
         "answer": 0,
         "explain": "Elephants form lifelong familial bonds, protect calves together, and mourn their loved ones."
@@ -270,9 +270,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What clean energy source are city schools adopting according to the headline?",
         "options": [
-          "Firewood chulhas",
-          "Diesel generators",
-          "Coal-burning furnaces",
+          "Smoky firewood burned in clay stoves",
+          "Diesel fuel burned inside generators",
+          "Coal furnaces heating boiler engines",
           "Solar power from rooftop solar panels"
         ],
         "answer": 3,
@@ -293,9 +293,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why are headlines in newspapers written in bold, concise, catchy language?",
         "options": [
           "To grab the reader's attention and summarize the main event instantly",
-          "Because sentences cannot be longer than five words",
-          "To confuse readers about the topic",
-          "Because the printer ran out of letters"
+          "Because printed newspaper sentences are legally limited to five words",
+          "To intentionally mislead readers about the real topic of the article",
+          "Because printing presses lack enough metallic type for full sentences"
         ],
         "answer": 0,
         "explain": "Headlines provide an instant, high-impact overview of breaking news stories!"
@@ -313,9 +313,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What clean energy source are city schools adopting according to the headline?",
         "options": [
-          "Firewood chulhas",
-          "Diesel generators",
-          "Coal-burning furnaces",
+          "Smoky firewood burned in clay stoves",
+          "Diesel fuel burned inside generators",
+          "Coal furnaces heating boiler engines",
           "Solar power from rooftop solar panels"
         ],
         "answer": 3,
@@ -336,9 +336,9 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Why are headlines in newspapers written in bold, concise, catchy language?",
         "options": [
           "To grab the reader's attention and summarize the main event instantly",
-          "Because sentences cannot be longer than five words",
-          "To confuse readers about the topic",
-          "Because the printer ran out of letters"
+          "Because printed newspaper sentences are legally limited to five words",
+          "To intentionally mislead readers about the real topic of the article",
+          "Because printing presses lack enough metallic type for full sentences"
         ],
         "answer": 0,
         "explain": "Headlines provide an instant, high-impact overview of breaking news stories!"
@@ -356,10 +356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should Aarav's voice do when he reads 'Wait!' followed by an exclamation mark?",
         "options": [
-          "Speak with a sudden, energetic stop to show urgent attention",
-          "Yawn slowly",
-          "Laugh out loud",
-          "Mumble quietly while walking away"
+          "Speak with an energetic, sudden pause to show urgent attention",
+          "Yawn slowly and drag out the vowel sound in a sleepy manner",
+          "Laugh out loud before moving forward to the next sentence",
+          "Mumble the word under his breath while glancing at the floor"
         ],
         "answer": 0,
         "explain": "The exclamation mark (!) commands immediate, dramatic attention."
@@ -367,10 +367,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should his voice conclude the question: '...rustle in the bushes, Anita?'",
         "options": [
-          "By whispering the name backwards",
-          "With a flat robotic drone",
-          "With a rising tone that asks for Anita's reaction",
-          "By skipping the word Anita"
+          "By whispering the final character name backwards",
+          "With a flat, emotionless tone lacking inflection",
+          "With a rising pitch that asks for Anita's answer",
+          "By omitting the character name from the sentence"
         ],
         "answer": 2,
         "explain": "A question mark (?) naturally guides your pitch upward to invite an answer."
@@ -378,10 +378,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is proper phrasing and pausing essential when reading aloud to an audience?",
         "options": [
-          "Because books are not allowed to be read quickly",
-          "To make the story last as long as possible until everyone sleeps",
-          "So the audience gets confused",
-          "It brings the story characters to life and helps listeners understand the meaning easily"
+          "Because school rules strictly forbid reading narrative paragraphs at a normal pace",
+          "To stretch out the recitation time until the entire audience eventually falls asleep",
+          "To intentionally confuse listeners about what each fictional character is doing",
+          "It brings characters to life and helps listeners understand the story meaning easily"
         ],
         "answer": 3,
         "explain": "Expressive phrasing transforms printed text into an exciting, clear mental movie for listeners!"
@@ -399,10 +399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What should Aarav's voice do when he reads 'Wait!' followed by an exclamation mark?",
         "options": [
-          "Speak with a sudden, energetic stop to show urgent attention",
-          "Yawn slowly",
-          "Laugh out loud",
-          "Mumble quietly while walking away"
+          "Speak with an energetic, sudden pause to show urgent attention",
+          "Yawn slowly and drag out the vowel sound in a sleepy manner",
+          "Laugh out loud before moving forward to the next sentence",
+          "Mumble the word under his breath while glancing at the floor"
         ],
         "answer": 0,
         "explain": "The exclamation mark (!) commands immediate, dramatic attention."
@@ -410,10 +410,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should his voice conclude the question: '...rustle in the bushes, Anita?'",
         "options": [
-          "By whispering the name backwards",
-          "With a flat robotic drone",
-          "With a rising tone that asks for Anita's reaction",
-          "By skipping the word Anita"
+          "By whispering the final character name backwards",
+          "With a flat, emotionless tone lacking inflection",
+          "With a rising pitch that asks for Anita's answer",
+          "By omitting the character name from the sentence"
         ],
         "answer": 2,
         "explain": "A question mark (?) naturally guides your pitch upward to invite an answer."
@@ -421,10 +421,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is proper phrasing and pausing essential when reading aloud to an audience?",
         "options": [
-          "Because books are not allowed to be read quickly",
-          "To make the story last as long as possible until everyone sleeps",
-          "So the audience gets confused",
-          "It brings the story characters to life and helps listeners understand the meaning easily"
+          "Because school rules strictly forbid reading narrative paragraphs at a normal pace",
+          "To stretch out the recitation time until the entire audience eventually falls asleep",
+          "To intentionally confuse listeners about what each fictional character is doing",
+          "It brings characters to life and helps listeners understand the story meaning easily"
         ],
         "answer": 3,
         "explain": "Expressive phrasing transforms printed text into an exciting, clear mental movie for listeners!"
@@ -453,10 +453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a dictionary entry provide besides the word's definition?",
         "options": [
-          "The author's home telephone number",
-          "Pronunciation guide, part of speech (noun/verb), and example sentences",
-          "The price of the paper",
-          "A photo of every student in school"
+          "The author's personal phone number and private home address",
+          "Pronunciation guide, part of speech, and example sentences",
+          "The current store market value of the printed paper pages",
+          "A photographic portrait of every student enrolled in school"
         ],
         "answer": 1,
         "explain": "Dictionaries tell you how to pronounce a word, its part of speech, and how to use it in a sentence."
@@ -464,10 +464,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are the two 'guide words' printed at the top of a dictionary page used for?",
         "options": [
-          "They are secret codes for spies",
-          "They show the first and last word on that page so you can find words quickly",
-          "They are the names of the printers",
-          "They tell you what page number to skip"
+          "They provide secret coded instructions meant exclusively for foreign spies",
+          "They show the first and last word on that page to help you search quickly",
+          "They list the personal names of the printing press technicians who set type",
+          "They indicate which specific book sections the reader should skip entirely"
         ],
         "answer": 1,
         "explain": "Guide words show the alphabetical range of words printed on that exact page."
@@ -496,10 +496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does a dictionary entry provide besides the word's definition?",
         "options": [
-          "The author's home telephone number",
-          "Pronunciation guide, part of speech (noun/verb), and example sentences",
-          "The price of the paper",
-          "A photo of every student in school"
+          "The author's personal phone number and private home address",
+          "Pronunciation guide, part of speech, and example sentences",
+          "The current store market value of the printed paper pages",
+          "A photographic portrait of every student enrolled in school"
         ],
         "answer": 1,
         "explain": "Dictionaries tell you how to pronounce a word, its part of speech, and how to use it in a sentence."
@@ -507,10 +507,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are the two 'guide words' printed at the top of a dictionary page used for?",
         "options": [
-          "They are secret codes for spies",
-          "They show the first and last word on that page so you can find words quickly",
-          "They are the names of the printers",
-          "They tell you what page number to skip"
+          "They provide secret coded instructions meant exclusively for foreign spies",
+          "They show the first and last word on that page to help you search quickly",
+          "They list the personal names of the printing press technicians who set type",
+          "They indicate which specific book sections the reader should skip entirely"
         ],
         "answer": 1,
         "explain": "Guide words show the alphabetical range of words printed on that exact page."
@@ -550,10 +550,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do context clues help you become a stronger independent reader?",
         "options": [
-          "They change the story ending automatically",
-          "They let you skip reading all paragraphs",
-          "You can figure out the meaning of new words by looking at the surrounding story clues",
-          "They tell you to close the book immediately"
+          "They automatically rewrite confusing plot endings without requiring extra reading",
+          "They allow you to skip past difficult descriptive paragraphs during comprehension",
+          "You can deduce the meaning of unfamiliar words using clues in neighboring sentences",
+          "They prompt you to close the book whenever an unfamiliar difficult word appears"
         ],
         "answer": 2,
         "explain": "Context clues empower you to understand new vocabulary naturally as you read!"
@@ -593,10 +593,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do context clues help you become a stronger independent reader?",
         "options": [
-          "They change the story ending automatically",
-          "They let you skip reading all paragraphs",
-          "You can figure out the meaning of new words by looking at the surrounding story clues",
-          "They tell you to close the book immediately"
+          "They automatically rewrite confusing plot endings without requiring extra reading",
+          "They allow you to skip past difficult descriptive paragraphs during comprehension",
+          "You can deduce the meaning of unfamiliar words using clues in neighboring sentences",
+          "They prompt you to close the book whenever an unfamiliar difficult word appears"
         ],
         "answer": 2,
         "explain": "Context clues empower you to understand new vocabulary naturally as you read!"
@@ -614,10 +614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence uses rich sensory details (sight and sound) to describe Vikram's campfire night?",
         "options": [
-          "'Orange sparks danced into the dark sky while the dry pine logs crackled in the cool breeze.'",
-          "'The scout master was there.'",
-          "'We ate things.'",
-          "'A camp has fire.'"
+          "Orange sparks danced into the dark sky while dry pine logs crackled in the cool night breeze.",
+          "The scout leader stood beside the campsite boundary while blowing a loud metal whistle.",
+          "We sat together near our green camping tents and ate warm roasted potatoes for dinner.",
+          "Campfire logs are made of chopped forest wood and can produce smoke when burned outside."
         ],
         "answer": 0,
         "explain": "Sensory words (orange sparks, crackled, cool breeze) bring the scene vividly alive!"
@@ -625,10 +625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When sharing a personal experience orally with your class, what helps keep your listeners engaged?",
         "options": [
-          "Staring out the window",
-          "Speaking in one flat tone without pausing",
-          "Speaking clearly, showing genuine excitement, and organizing events in order",
-          "Looking down at your shoes and whispering"
+          "Staring silently out the classroom window while waiting for the bell to ring",
+          "Speaking continuously in a monotone mumble without making any natural pauses",
+          "Speaking clearly, showing genuine excitement, and sequencing events in order",
+          "Glancing down at your shoes while whispering barely audible words to yourself"
         ],
         "answer": 2,
         "explain": "Clear voice, enthusiasm, and good structure make your stories a joy to hear!"
@@ -636,10 +636,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way to conclude a narrative about a fun camping trip?",
         "options": [
-          "'End of story.'",
-          "'The tent is blue.'",
-          "'As we packed our tents the next morning, I couldn't wait for our next outdoor adventure.'",
-          "'Grass is green.'"
+          "That marks the absolute end of the camping trip and I have nothing more to share.",
+          "Our waterproof camping shelter was constructed with bright blue nylon canvas panels.",
+          "As we packed our tents next morning, I looked forward to our next outdoor adventure.",
+          "Green grass grows across forest camping clearings where visitors assemble in summer."
         ],
         "answer": 2,
         "explain": "Reflecting on the joyful memory and looking forward to the future creates a satisfying ending."
@@ -657,10 +657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which sentence uses rich sensory details (sight and sound) to describe Vikram's campfire night?",
         "options": [
-          "'Orange sparks danced into the dark sky while the dry pine logs crackled in the cool breeze.'",
-          "'The scout master was there.'",
-          "'We ate things.'",
-          "'A camp has fire.'"
+          "Orange sparks danced into the dark sky while dry pine logs crackled in the cool night breeze.",
+          "The scout leader stood beside the campsite boundary while blowing a loud metal whistle.",
+          "We sat together near our green camping tents and ate warm roasted potatoes for dinner.",
+          "Campfire logs are made of chopped forest wood and can produce smoke when burned outside."
         ],
         "answer": 0,
         "explain": "Sensory words (orange sparks, crackled, cool breeze) bring the scene vividly alive!"
@@ -668,10 +668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When sharing a personal experience orally with your class, what helps keep your listeners engaged?",
         "options": [
-          "Staring out the window",
-          "Speaking in one flat tone without pausing",
-          "Speaking clearly, showing genuine excitement, and organizing events in order",
-          "Looking down at your shoes and whispering"
+          "Staring silently out the classroom window while waiting for the bell to ring",
+          "Speaking continuously in a monotone mumble without making any natural pauses",
+          "Speaking clearly, showing genuine excitement, and sequencing events in order",
+          "Glancing down at your shoes while whispering barely audible words to yourself"
         ],
         "answer": 2,
         "explain": "Clear voice, enthusiasm, and good structure make your stories a joy to hear!"
@@ -679,10 +679,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way to conclude a narrative about a fun camping trip?",
         "options": [
-          "'End of story.'",
-          "'The tent is blue.'",
-          "'As we packed our tents the next morning, I couldn't wait for our next outdoor adventure.'",
-          "'Grass is green.'"
+          "That marks the absolute end of the camping trip and I have nothing more to share.",
+          "Our waterproof camping shelter was constructed with bright blue nylon canvas panels.",
+          "As we packed our tents next morning, I looked forward to our next outdoor adventure.",
+          "Green grass grows across forest camping clearings where visitors assemble in summer."
         ],
         "answer": 2,
         "explain": "Reflecting on the joyful memory and looking forward to the future creates a satisfying ending."
@@ -700,10 +700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are the three core highlight needs for tiger conservation mentioned by the officer?",
         "options": [
-          "Air-conditioned rooms, cages, and dog food",
-          "Building highways through national parks",
-          "Large connected forests, clean water sources, and anti-poaching protection",
-          "Training tigers to live in city apartments"
+          "Air-conditioned indoor enclosures, metal cages, and processed domestic pet food",
+          "Paving multi-lane highways and building concrete shopping malls across reserves",
+          "Large connected forest corridors, clean water sources, and wildlife protection",
+          "Domesticating wild predators so that they can live safely inside family houses"
         ],
         "answer": 2,
         "explain": "Tigers thrive when their wild forest habitats are vast, protected, and free from poaching."
@@ -711,10 +711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'summarizing' a speech or video mean?",
         "options": [
-          "Picking out the main ideas and key facts and presenting them briefly in your own words",
-          "Making up your own different story",
-          "Copying down every single cough and sneeze the speaker made",
-          "Ignoring the speaker completely"
+          "Identifying the main ideas and key facts and stating them briefly in your own words",
+          "Inventing an entirely fictional tale that replaces the factual points presented",
+          "Transcribing every single cough, stumble, and unrelated comment the speaker uttered",
+          "Ignoring the presentation entirely and writing about an unrelated personal hobby"
         ],
         "answer": 0,
         "explain": "A summary captures the heart and main points of a presentation concisely!"
@@ -722,10 +722,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are tigers considered an 'umbrella species' in forest ecosystems?",
         "options": [
-          "Because they protect city trees",
-          "Protecting tiger habitats automatically safeguards thousands of other plants, insects, and animals in the same forest",
-          "Because they use umbrellas during rainy seasons",
-          "Because they live only in rain clouds"
+          "Because their presence in urban gardens helps shield municipal street trees from storm damage and pollution",
+          "Protecting tiger habitats automatically safeguards thousands of plants, insects, and animals in that forest",
+          "Because adult tigers carry large palm fronds over their cubs to shelter them from heavy monsoon downpours",
+          "Because their orange and black striped coats resemble traditional umbrellas used in rural village markets"
         ],
         "answer": 1,
         "explain": "Saving the top predator's habitat preserves the entire balanced food web below it!"
@@ -743,10 +743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What are the three core highlight needs for tiger conservation mentioned by the officer?",
         "options": [
-          "Air-conditioned rooms, cages, and dog food",
-          "Building highways through national parks",
-          "Large connected forests, clean water sources, and anti-poaching protection",
-          "Training tigers to live in city apartments"
+          "Air-conditioned indoor enclosures, metal cages, and processed domestic pet food",
+          "Paving multi-lane highways and building concrete shopping malls across reserves",
+          "Large connected forest corridors, clean water sources, and wildlife protection",
+          "Domesticating wild predators so that they can live safely inside family houses"
         ],
         "answer": 2,
         "explain": "Tigers thrive when their wild forest habitats are vast, protected, and free from poaching."
@@ -754,10 +754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'summarizing' a speech or video mean?",
         "options": [
-          "Picking out the main ideas and key facts and presenting them briefly in your own words",
-          "Making up your own different story",
-          "Copying down every single cough and sneeze the speaker made",
-          "Ignoring the speaker completely"
+          "Identifying the main ideas and key facts and stating them briefly in your own words",
+          "Inventing an entirely fictional tale that replaces the factual points presented",
+          "Transcribing every single cough, stumble, and unrelated comment the speaker uttered",
+          "Ignoring the presentation entirely and writing about an unrelated personal hobby"
         ],
         "answer": 0,
         "explain": "A summary captures the heart and main points of a presentation concisely!"
@@ -765,10 +765,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are tigers considered an 'umbrella species' in forest ecosystems?",
         "options": [
-          "Because they protect city trees",
-          "Protecting tiger habitats automatically safeguards thousands of other plants, insects, and animals in the same forest",
-          "Because they use umbrellas during rainy seasons",
-          "Because they live only in rain clouds"
+          "Because their presence in urban gardens helps shield municipal street trees from storm damage and pollution",
+          "Protecting tiger habitats automatically safeguards thousands of plants, insects, and animals in that forest",
+          "Because adult tigers carry large palm fronds over their cubs to shelter them from heavy monsoon downpours",
+          "Because their orange and black striped coats resemble traditional umbrellas used in rural village markets"
         ],
         "answer": 1,
         "explain": "Saving the top predator's habitat preserves the entire balanced food web below it!"
@@ -787,7 +787,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the clever answer to Arjun's computer riddle?",
         "options": [
           "A sports car",
-          "A computer keyboard (has space bar, enter key)",
+          "A computer keyboard",
           "A wooden wardrobe",
           "A treasure chest"
         ],
@@ -797,10 +797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Try saying this fast three times: 'She sells seashells on the seashore.' What sound does this tongue-twister practice?",
         "options": [
-          "The tricky difference between the /sh/ and /s/ sounds",
-          "The /k/ and /g/ clicking sounds",
-          "The /b/ and /p/ popping sounds",
-          "The /m/ and /n/ nasal sounds"
+          "The clear distinction between the sh and s sounds",
+          "The subtle contrast between the hard c and g sounds",
+          "The explosive contrast between the b and p sounds",
+          "The humming transition between the m and n sounds"
         ],
         "answer": 0,
         "explain": "Switching rapidly between /sh/ and /s/ trains sharp articulation and pronunciation control!"
@@ -830,7 +830,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What is the clever answer to Arjun's computer riddle?",
         "options": [
           "A sports car",
-          "A computer keyboard (has space bar, enter key)",
+          "A computer keyboard",
           "A wooden wardrobe",
           "A treasure chest"
         ],
@@ -840,10 +840,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Try saying this fast three times: 'She sells seashells on the seashore.' What sound does this tongue-twister practice?",
         "options": [
-          "The tricky difference between the /sh/ and /s/ sounds",
-          "The /k/ and /g/ clicking sounds",
-          "The /b/ and /p/ popping sounds",
-          "The /m/ and /n/ nasal sounds"
+          "The clear distinction between the sh and s sounds",
+          "The subtle contrast between the hard c and g sounds",
+          "The explosive contrast between the b and p sounds",
+          "The humming transition between the m and n sounds"
         ],
         "answer": 0,
         "explain": "Switching rapidly between /sh/ and /s/ trains sharp articulation and pronunciation control!"
@@ -872,10 +872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a practical, impactful tip Diya can share in her water conservation speech?",
         "options": [
-          "Dump plastic bottles into natural streams",
-          "Wash one spoon in a full tub of water",
-          "Fix leaking taps promptly and collect rainwater for gardening",
-          "Leave garden hoses running on sidewalks all afternoon"
+          "Discard empty plastic bottles into local flowing river streams",
+          "Fill an entire washing tub with fresh water to rinse one spoon",
+          "Repair leaky taps quickly and harvest rainwater for home gardens",
+          "Leave garden hoses running continuously across outdoor pavements"
         ],
         "answer": 2,
         "explain": "Fixing leaks and harvesting rainwater conserve precious freshwater resources directly."
@@ -883,10 +883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can families practice water conservation during teeth-brushing?",
         "options": [
-          "Never brush teeth",
-          "Let the water overflow into the hallway",
-          "Turn off the tap while scrubbing teeth and use a mug of water to rinse",
-          "Keep the tap gushing at maximum pressure"
+          "Avoid brushing teeth altogether so that running water is never required",
+          "Let the bathroom washbasin overflow until water spills into the hallway",
+          "Turn off the tap while scrubbing teeth and use a small mug to rinse out",
+          "Keep the tap valve running at maximum pressure throughout the routine"
         ],
         "answer": 2,
         "explain": "Turning off the tap during brushing saves up to 10 litres of water every single time!"
@@ -897,7 +897,7 @@ Object.assign(window.GAME_CONTENT, {
           "About 90%",
           "Exactly 50%",
           "100%",
-          "Less than 3% (most is salty ocean water)"
+          "Less than 3%"
         ],
         "answer": 3,
         "explain": "Only about 2.5% to 3% of Earth's water is freshwater, making its protection vital!"
@@ -915,10 +915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a practical, impactful tip Diya can share in her water conservation speech?",
         "options": [
-          "Dump plastic bottles into natural streams",
-          "Wash one spoon in a full tub of water",
-          "Fix leaking taps promptly and collect rainwater for gardening",
-          "Leave garden hoses running on sidewalks all afternoon"
+          "Discard empty plastic bottles into local flowing river streams",
+          "Fill an entire washing tub with fresh water to rinse one spoon",
+          "Repair leaky taps quickly and harvest rainwater for home gardens",
+          "Leave garden hoses running continuously across outdoor pavements"
         ],
         "answer": 2,
         "explain": "Fixing leaks and harvesting rainwater conserve precious freshwater resources directly."
@@ -926,10 +926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can families practice water conservation during teeth-brushing?",
         "options": [
-          "Never brush teeth",
-          "Let the water overflow into the hallway",
-          "Turn off the tap while scrubbing teeth and use a mug of water to rinse",
-          "Keep the tap gushing at maximum pressure"
+          "Avoid brushing teeth altogether so that running water is never required",
+          "Let the bathroom washbasin overflow until water spills into the hallway",
+          "Turn off the tap while scrubbing teeth and use a small mug to rinse out",
+          "Keep the tap valve running at maximum pressure throughout the routine"
         ],
         "answer": 2,
         "explain": "Turning off the tap during brushing saves up to 10 litres of water every single time!"
@@ -940,7 +940,7 @@ Object.assign(window.GAME_CONTENT, {
           "About 90%",
           "Exactly 50%",
           "100%",
-          "Less than 3% (most is salty ocean water)"
+          "Less than 3%"
         ],
         "answer": 3,
         "explain": "Only about 2.5% to 3% of Earth's water is freshwater, making its protection vital!"
@@ -958,10 +958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When playing the role of Amrita Devi standing before the tree cutters, what dialogue demonstrates courage and environmental love?",
         "options": [
-          "'I don't care about the forest.'",
-          "'Take all the wood for free.'",
-          "'A chopped head is cheap if it saves a living tree!'",
-          "'Cut down all the trees and build me a palace!'"
+          "Take whatever timber you want, as forests have no value",
+          "I shall step aside so you can chop down every green bough",
+          "A severed head is a small cost if it saves a living tree",
+          "Fell this entire woodland grove to build royal palace halls"
         ],
         "answer": 2,
         "explain": "Amrita Devi's historic words reflect supreme selfless dedication to protecting living nature."
@@ -969,10 +969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do stage props (like paper leaf headbands and cardboard axes) enhance a school drama?",
         "options": [
-          "They make the stage so crowded that nobody can walk",
-          "They are made to throw at the audience",
-          "They help the audience visualize the setting and characters clearly",
-          "They replace the need for actors to speak"
+          "They clutter the platform floor so actors cannot move around easily",
+          "They provide decorative missiles to toss playfully toward spectators",
+          "They help the audience visualize historical characters and the setting",
+          "They eliminate any requirement for the student performers to speak out"
         ],
         "answer": 2,
         "explain": "Thoughtful props set the visual atmosphere and make historical events feel tangible!"
@@ -980,10 +980,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What lesson does the Bishnoi Khejarli story teach modern children?",
         "options": [
-          "Trees are useless and should be cleared",
-          "Only kings make decisions about nature",
-          "Wood should only be burned for luxury",
-          "Communities have the power to protect forests and wildlife through unity and courage"
+          "Ancient forests are troublesome obstacles that should be cleared for urbanization",
+          "Only powerful monarchs have the authority to decide how natural habitats are managed",
+          "Timber from rare trees should be gathered freely to build lavish decorative homes",
+          "Communities have the power to protect trees and wildlife through unity and bravery"
         ],
         "answer": 3,
         "explain": "The Bishnoi movement is an inspiring historic example of grassroots forest and biodiversity conservation."
@@ -1001,10 +1001,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When playing the role of Amrita Devi standing before the tree cutters, what dialogue demonstrates courage and environmental love?",
         "options": [
-          "'I don't care about the forest.'",
-          "'Take all the wood for free.'",
-          "'A chopped head is cheap if it saves a living tree!'",
-          "'Cut down all the trees and build me a palace!'"
+          "Take whatever timber you want, as forests have no value",
+          "I shall step aside so you can chop down every green bough",
+          "A severed head is a small cost if it saves a living tree",
+          "Fell this entire woodland grove to build royal palace halls"
         ],
         "answer": 2,
         "explain": "Amrita Devi's historic words reflect supreme selfless dedication to protecting living nature."
@@ -1012,10 +1012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do stage props (like paper leaf headbands and cardboard axes) enhance a school drama?",
         "options": [
-          "They make the stage so crowded that nobody can walk",
-          "They are made to throw at the audience",
-          "They help the audience visualize the setting and characters clearly",
-          "They replace the need for actors to speak"
+          "They clutter the platform floor so actors cannot move around easily",
+          "They provide decorative missiles to toss playfully toward spectators",
+          "They help the audience visualize historical characters and the setting",
+          "They eliminate any requirement for the student performers to speak out"
         ],
         "answer": 2,
         "explain": "Thoughtful props set the visual atmosphere and make historical events feel tangible!"
@@ -1023,10 +1023,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What lesson does the Bishnoi Khejarli story teach modern children?",
         "options": [
-          "Trees are useless and should be cleared",
-          "Only kings make decisions about nature",
-          "Wood should only be burned for luxury",
-          "Communities have the power to protect forests and wildlife through unity and courage"
+          "Ancient forests are troublesome obstacles that should be cleared for urbanization",
+          "Only powerful monarchs have the authority to decide how natural habitats are managed",
+          "Timber from rare trees should be gathered freely to build lavish decorative homes",
+          "Communities have the power to protect trees and wildlife through unity and bravery"
         ],
         "answer": 3,
         "explain": "The Bishnoi movement is an inspiring historic example of grassroots forest and biodiversity conservation."
@@ -1044,10 +1044,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What speaker in nature is reciting this poem?",
         "options": [
-          "A bubbling, flowing mountain brook (stream)",
-          "An old steam locomotive",
-          "A flying airplane",
-          "A stationary rock on a hill"
+          "A bubbling, flowing mountain brook",
+          "A vintage steam railway locomotive",
+          "A high-altitude passenger aircraft",
+          "A motionless boulder upon the hill"
         ],
         "answer": 0,
         "explain": "The poem personifies a lively mountain brook as it journeys onward to join the river!"
@@ -1066,10 +1066,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a student pace their reading during a rhythmic poem?",
         "options": [
-          "Race as fast as humanly possible without taking a breath",
-          "Whisper backwards",
-          "Stop after every single syllable for five seconds",
-          "Match the natural musical bounce and cadence of the verses without rushing"
+          "Recite as rapidly as possible without pausing for any natural breath breaks",
+          "Whisper each phrase backwards while keeping your eyes shut upon the stage",
+          "Pause after every single syllable for several seconds to break the rhythm",
+          "Match the natural musical bounce and cadence of verses without any rush"
         ],
         "answer": 3,
         "explain": "A steady, rhythmic cadence lets the rhyme and music of the poetry shine brightly!"
@@ -1087,10 +1087,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What speaker in nature is reciting this poem?",
         "options": [
-          "A bubbling, flowing mountain brook (stream)",
-          "An old steam locomotive",
-          "A flying airplane",
-          "A stationary rock on a hill"
+          "A bubbling, flowing mountain brook",
+          "A vintage steam railway locomotive",
+          "A high-altitude passenger aircraft",
+          "A motionless boulder upon the hill"
         ],
         "answer": 0,
         "explain": "The poem personifies a lively mountain brook as it journeys onward to join the river!"
@@ -1109,10 +1109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should a student pace their reading during a rhythmic poem?",
         "options": [
-          "Race as fast as humanly possible without taking a breath",
-          "Whisper backwards",
-          "Stop after every single syllable for five seconds",
-          "Match the natural musical bounce and cadence of the verses without rushing"
+          "Recite as rapidly as possible without pausing for any natural breath breaks",
+          "Whisper each phrase backwards while keeping your eyes shut upon the stage",
+          "Pause after every single syllable for several seconds to break the rhythm",
+          "Match the natural musical bounce and cadence of verses without any rush"
         ],
         "answer": 3,
         "explain": "A steady, rhythmic cadence lets the rhyme and music of the poetry shine brightly!"
@@ -1152,10 +1152,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are sequence linkers (First, Next, Then, After that, Finally) vital when writing experiments or recipes?",
         "options": [
-          "Because recipes cannot use verbs",
-          "They scramble instructions so nobody can follow them",
-          "They ensure the reader performs steps in the exact correct order to succeed",
-          "They are just extra words to make sentences longer"
+          "Because kitchen recipes are forbidden from containing ordinary action verbs",
+          "They scramble the instructions so that readers cannot follow the procedure",
+          "They guide the reader to carry out every step in the correct planned order",
+          "They are merely filler terms meant to make instructional sentences longer"
         ],
         "answer": 2,
         "explain": "Linkers keep instructions crystal clear so every step happens in the right chronological order!"
@@ -1195,10 +1195,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why are sequence linkers (First, Next, Then, After that, Finally) vital when writing experiments or recipes?",
         "options": [
-          "Because recipes cannot use verbs",
-          "They scramble instructions so nobody can follow them",
-          "They ensure the reader performs steps in the exact correct order to succeed",
-          "They are just extra words to make sentences longer"
+          "Because kitchen recipes are forbidden from containing ordinary action verbs",
+          "They scramble the instructions so that readers cannot follow the procedure",
+          "They guide the reader to carry out every step in the correct planned order",
+          "They are merely filler terms meant to make instructional sentences longer"
         ],
         "answer": 2,
         "explain": "Linkers keep instructions crystal clear so every step happens in the right chronological order!"
@@ -1313,10 +1313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In a crossword puzzle, what is the difference between ACROSS clues and DOWN clues?",
         "options": [
-          "Down words must be written backwards",
-          "Across words go horizontally left-to-right; Down words go vertically top-to-bottom",
-          "Across words are math numbers; Down words are colors",
-          "They mean the exact same direction"
+          "Down words are spelled in reverse order, while Across words follow normal spelling",
+          "Across words run horizontally along rows, while Down words read vertically downward",
+          "Across clues represent numeric values, while Down clues exclusively describe colors",
+          "Both terms refer to the exact same straight direction across the square grid lines"
         ],
         "answer": 1,
         "explain": "Across fills rows from left to right; Down fills columns from top to bottom."
@@ -1327,7 +1327,7 @@ Object.assign(window.GAME_CONTENT, {
           "drop",
           "water",
           "coat",
-          "bow (Rainbow)"
+          "bow"
         ],
         "answer": 3,
         "explain": "Rain + Bow = Rainbow, the glowing 7-color arch in the sky!"
@@ -1356,10 +1356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In a crossword puzzle, what is the difference between ACROSS clues and DOWN clues?",
         "options": [
-          "Down words must be written backwards",
-          "Across words go horizontally left-to-right; Down words go vertically top-to-bottom",
-          "Across words are math numbers; Down words are colors",
-          "They mean the exact same direction"
+          "Down words are spelled in reverse order, while Across words follow normal spelling",
+          "Across words run horizontally along rows, while Down words read vertically downward",
+          "Across clues represent numeric values, while Down clues exclusively describe colors",
+          "Both terms refer to the exact same straight direction across the square grid lines"
         ],
         "answer": 1,
         "explain": "Across fills rows from left to right; Down fills columns from top to bottom."
@@ -1370,7 +1370,7 @@ Object.assign(window.GAME_CONTENT, {
           "drop",
           "water",
           "coat",
-          "bow (Rainbow)"
+          "bow"
         ],
         "answer": 3,
         "explain": "Rain + Bow = Rainbow, the glowing 7-color arch in the sky!"
@@ -1485,10 +1485,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What vital details MUST be included in a party invitation letter?",
         "options": [
-          "The price of every present you want",
-          "Your secret diary entries",
-          "The color of your socks",
-          "Date, time, venue/address, and what the celebration is about"
+          "A wishlist showing the purchase price of preferred gifts",
+          "Confidential journal entries sharing your private secrets",
+          "A specific description of the colorful shoes you will wear",
+          "The date, starting time, venue location, and event purpose"
         ],
         "answer": 3,
         "explain": "Guests need to know WHEN (date and time) and WHERE (location) to arrive!"
@@ -1528,10 +1528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What vital details MUST be included in a party invitation letter?",
         "options": [
-          "The price of every present you want",
-          "Your secret diary entries",
-          "The color of your socks",
-          "Date, time, venue/address, and what the celebration is about"
+          "A wishlist showing the purchase price of preferred gifts",
+          "Confidential journal entries sharing your private secrets",
+          "A specific description of the colorful shoes you will wear",
+          "The date, starting time, venue location, and event purpose"
         ],
         "answer": 3,
         "explain": "Guests need to know WHEN (date and time) and WHERE (location) to arrive!"
@@ -1572,7 +1572,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When should an apostrophe ( ' ) be used?",
         "options": [
           "At the start of every sentence",
-          "To show possession (e.g., Rohan's book) or contractions (e.g., don't = do not)",
+          "To show possession or contractions",
           "Whenever a word ends in the letter 's'",
           "In place of every vowel"
         ],
@@ -1582,10 +1582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these words should ALWAYS be capitalized anywhere in a sentence?",
         "options": [
-          "The single-letter pronoun 'I' and proper nouns like 'India' or 'Ganga'",
-          "Words with more than five letters",
-          "Every verb",
-          "Every preposition like 'in' or 'on'"
+          "The pronoun I and specific proper names like India or the river Ganga",
+          "Any descriptive adjective that contains more than six English letters",
+          "Every action verb that appears near the middle of a completed clause",
+          "Common spatial prepositions like inside, upon, beneath, or behind"
         ],
         "answer": 0,
         "explain": "The pronoun 'I' and specific proper names (India, Ganga) are always capitalized!"
@@ -1615,7 +1615,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "When should an apostrophe ( ' ) be used?",
         "options": [
           "At the start of every sentence",
-          "To show possession (e.g., Rohan's book) or contractions (e.g., don't = do not)",
+          "To show possession or contractions",
           "Whenever a word ends in the letter 's'",
           "In place of every vowel"
         ],
@@ -1625,10 +1625,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these words should ALWAYS be capitalized anywhere in a sentence?",
         "options": [
-          "The single-letter pronoun 'I' and proper nouns like 'India' or 'Ganga'",
-          "Words with more than five letters",
-          "Every verb",
-          "Every preposition like 'in' or 'on'"
+          "The pronoun I and specific proper names like India or the river Ganga",
+          "Any descriptive adjective that contains more than six English letters",
+          "Every action verb that appears near the middle of a completed clause",
+          "Common spatial prepositions like inside, upon, beneath, or behind"
         ],
         "answer": 0,
         "explain": "The pronoun 'I' and specific proper names (India, Ganga) are always capitalized!"
@@ -1659,7 +1659,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Green bin",
           "Red bin",
-          "Blue bin (for dry recyclables)",
+          "Blue bin",
           "Black bin"
         ],
         "answer": 0,
@@ -1668,10 +1668,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do desert animals like camels survive for days without drinking water?",
         "options": [
-          "They drink seawater through their hooves",
-          "They eat metal cans",
-          "They store fat in their humps for energy, lose very little water in sweat, and produce dry dung",
-          "They hide water bottles in their ears"
+          "They absorb saline moisture directly from deep desert sand dunes through their split hooves",
+          "They consume discarded metal containers to obtain mineral moisture during long expeditions",
+          "They store fat in humps for energy, lose little water through sweat, and make very dry dung",
+          "They conceal small natural reservoirs of groundwater inside specialized ear canal pouches"
         ],
         "answer": 2,
         "explain": "Camels have remarkable biological adaptations that conserve every drop of bodily hydration!"
@@ -1702,7 +1702,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Green bin",
           "Red bin",
-          "Blue bin (for dry recyclables)",
+          "Blue bin",
           "Black bin"
         ],
         "answer": 0,
@@ -1711,10 +1711,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do desert animals like camels survive for days without drinking water?",
         "options": [
-          "They drink seawater through their hooves",
-          "They eat metal cans",
-          "They store fat in their humps for energy, lose very little water in sweat, and produce dry dung",
-          "They hide water bottles in their ears"
+          "They absorb saline moisture directly from deep desert sand dunes through their split hooves",
+          "They consume discarded metal containers to obtain mineral moisture during long expeditions",
+          "They store fat in humps for energy, lose little water through sweat, and make very dry dung",
+          "They conceal small natural reservoirs of groundwater inside specialized ear canal pouches"
         ],
         "answer": 2,
         "explain": "Camels have remarkable biological adaptations that conserve every drop of bodily hydration!"
@@ -1734,7 +1734,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Incinerating waste",
           "Deforestation",
-          "Upcycling (Reusing with creativity)",
+          "Upcycling",
           "Littering in the street"
         ],
         "answer": 2,
@@ -1743,10 +1743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can an empty coconut shell be reused in a home garden?",
         "options": [
-          "By grinding it into drinking juice",
-          "As a natural biodegradable hanging plant pot or bird water bowl",
-          "By burning it inside a closed bedroom",
-          "By throwing it into a storm drain"
+          "By grinding the hard outer husk into sweet morning breakfast juice",
+          "As an organic biodegradable hanging plant pot or bird drinking bowl",
+          "By burning the shell inside a closed bedroom to provide indoor heat",
+          "By tossing the tough dried shell directly into municipal sewer lines"
         ],
         "answer": 1,
         "explain": "Coconut shells make sturdy, eco-friendly hanging planters or bird feeding cups!"
@@ -1754,10 +1754,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary benefit of making decorative rangolis from natural flower petals and turmeric instead of toxic chemical paints?",
         "options": [
-          "They are biodegradable, non-toxic, and safe for soil and insects",
-          "They cost ten thousand rupees",
-          "They can never be washed away",
-          "They turn into plastic overnight"
+          "They are completely biodegradable, non-toxic, and safe for soil",
+          "They cost tens of thousands of rupees to purchase at craft shops",
+          "They create permanent stains that can never be washed off floors",
+          "They undergo a chemical change that turns into plastic overnight"
         ],
         "answer": 0,
         "explain": "Flower petals and turmeric are completely natural, harmless, and enrich the soil when cleared."
@@ -1777,7 +1777,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Incinerating waste",
           "Deforestation",
-          "Upcycling (Reusing with creativity)",
+          "Upcycling",
           "Littering in the street"
         ],
         "answer": 2,
@@ -1786,10 +1786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can an empty coconut shell be reused in a home garden?",
         "options": [
-          "By grinding it into drinking juice",
-          "As a natural biodegradable hanging plant pot or bird water bowl",
-          "By burning it inside a closed bedroom",
-          "By throwing it into a storm drain"
+          "By grinding the hard outer husk into sweet morning breakfast juice",
+          "As an organic biodegradable hanging plant pot or bird drinking bowl",
+          "By burning the shell inside a closed bedroom to provide indoor heat",
+          "By tossing the tough dried shell directly into municipal sewer lines"
         ],
         "answer": 1,
         "explain": "Coconut shells make sturdy, eco-friendly hanging planters or bird feeding cups!"
@@ -1797,10 +1797,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the primary benefit of making decorative rangolis from natural flower petals and turmeric instead of toxic chemical paints?",
         "options": [
-          "They are biodegradable, non-toxic, and safe for soil and insects",
-          "They cost ten thousand rupees",
-          "They can never be washed away",
-          "They turn into plastic overnight"
+          "They are completely biodegradable, non-toxic, and safe for soil",
+          "They cost tens of thousands of rupees to purchase at craft shops",
+          "They create permanent stains that can never be washed off floors",
+          "They undergo a chemical change that turns into plastic overnight"
         ],
         "answer": 0,
         "explain": "Flower petals and turmeric are completely natural, harmless, and enrich the soil when cleared."
@@ -1819,7 +1819,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What will Aarav observe after 4 hours?",
         "options": [
           "Plate A gained three times more water",
-          "Water in Plate A (sunny spot) evaporated much faster into water vapor",
+          "Water in Plate A evaporated much faster into water vapor",
           "Water in Plate B turned into ice cubes",
           "Both plates remained exactly full with zero change"
         ],
@@ -1829,7 +1829,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When steam from a boiling kettle hits a cold metal spoon, tiny droplets of liquid water form on the spoon. What is this process called?",
         "options": [
-          "Condensation (gas turning back into liquid)",
+          "Condensation",
           "Photosynthesis",
           "Freezing into stone",
           "Dissolving into sugar"
@@ -1840,10 +1840,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these common kitchen substances will DISSOLVE completely when stirred into a glass of warm water?",
         "options": [
-          "Common salt (salt dissolves to form a clear solution)",
+          "Common salt",
           "Plastic beads",
           "River pebbles and gravel",
-          "Cooking oil (floats on top)"
+          "Cooking oil"
         ],
         "answer": 0,
         "explain": "Salt is highly soluble in water, dissolving until its particles spread invisibly throughout the liquid."
@@ -1862,7 +1862,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What will Aarav observe after 4 hours?",
         "options": [
           "Plate A gained three times more water",
-          "Water in Plate A (sunny spot) evaporated much faster into water vapor",
+          "Water in Plate A evaporated much faster into water vapor",
           "Water in Plate B turned into ice cubes",
           "Both plates remained exactly full with zero change"
         ],
@@ -1872,7 +1872,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When steam from a boiling kettle hits a cold metal spoon, tiny droplets of liquid water form on the spoon. What is this process called?",
         "options": [
-          "Condensation (gas turning back into liquid)",
+          "Condensation",
           "Photosynthesis",
           "Freezing into stone",
           "Dissolving into sugar"
@@ -1883,10 +1883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these common kitchen substances will DISSOLVE completely when stirred into a glass of warm water?",
         "options": [
-          "Common salt (salt dissolves to form a clear solution)",
+          "Common salt",
           "Plastic beads",
           "River pebbles and gravel",
-          "Cooking oil (floats on top)"
+          "Cooking oil"
         ],
         "answer": 0,
         "explain": "Salt is highly soluble in water, dissolving until its particles spread invisibly throughout the liquid."
@@ -1904,10 +1904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What raw material does a traditional village potter use to craft diyas, kulhads, and water matkas?",
         "options": [
-          "Molten iron and steel",
-          "Synthetic plastic pellets",
-          "Cement and concrete gravel",
-          "Wet clay and fine silt from riverbeds"
+          "Molten iron alloys and sheets of steel",
+          "Granulated synthetic plastic pellets",
+          "Crushed cement powder and gravel stone",
+          "Fine moist clay and silt from riverbeds"
         ],
         "answer": 3,
         "explain": "Clay from riverbeds is kneaded, shaped on a potter's wheel, and baked in a kiln kiln!"
@@ -1915,10 +1915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does drinking water stored in a traditional porous clay 'matka' stay naturally cool during hot summer months?",
         "options": [
-          "Ice cubes grow inside clay pots",
-          "The clay has an electric refrigeration motor inside",
-          "Water slowly seeps through microscopic clay pores and evaporates, carrying away heat",
-          "Matkas are kept inside freezers"
+          "Because natural ice crystals spontaneously generate along the bottom of clay bowls",
+          "Because traditional earthenware pots contain tiny electric cooling coils built in",
+          "Water seeps through microscopic clay pores and evaporates, carrying heat away with it",
+          "Because village matkas must be kept inside industrial freezer chambers overnight"
         ],
         "answer": 2,
         "explain": "Evaporative cooling! As moisture evaporates from the clay surface, it absorbs heat, leaving the water cool."
@@ -1926,10 +1926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way for a student to record field observations during a visit to a historical fort or craft fair?",
         "options": [
-          "Scratch your name on ancient stone monument walls",
-          "Take quick notes, make pencil sketches of tools, and interview skilled artisans politely",
-          "Lose your notebook in the crowd",
-          "Run around shouting without looking at anything"
+          "Carve personal initials onto ancient monument stone walls as a lasting memorial mark",
+          "Record notes, sketch traditional tools, and interview experienced artisans politely",
+          "Toss your notebook into the crowd and rely entirely on memory without writing details",
+          "Run noisily past historical displays without observing artifacts or asking questions"
         ],
         "answer": 1,
         "explain": "Taking notes and sketching preserves valuable learning while respecting historic heritage!"
@@ -1947,10 +1947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What raw material does a traditional village potter use to craft diyas, kulhads, and water matkas?",
         "options": [
-          "Molten iron and steel",
-          "Synthetic plastic pellets",
-          "Cement and concrete gravel",
-          "Wet clay and fine silt from riverbeds"
+          "Molten iron alloys and sheets of steel",
+          "Granulated synthetic plastic pellets",
+          "Crushed cement powder and gravel stone",
+          "Fine moist clay and silt from riverbeds"
         ],
         "answer": 3,
         "explain": "Clay from riverbeds is kneaded, shaped on a potter's wheel, and baked in a kiln kiln!"
@@ -1958,10 +1958,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why does drinking water stored in a traditional porous clay 'matka' stay naturally cool during hot summer months?",
         "options": [
-          "Ice cubes grow inside clay pots",
-          "The clay has an electric refrigeration motor inside",
-          "Water slowly seeps through microscopic clay pores and evaporates, carrying away heat",
-          "Matkas are kept inside freezers"
+          "Because natural ice crystals spontaneously generate along the bottom of clay bowls",
+          "Because traditional earthenware pots contain tiny electric cooling coils built in",
+          "Water seeps through microscopic clay pores and evaporates, carrying heat away with it",
+          "Because village matkas must be kept inside industrial freezer chambers overnight"
         ],
         "answer": 2,
         "explain": "Evaporative cooling! As moisture evaporates from the clay surface, it absorbs heat, leaving the water cool."
@@ -1969,10 +1969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the best way for a student to record field observations during a visit to a historical fort or craft fair?",
         "options": [
-          "Scratch your name on ancient stone monument walls",
-          "Take quick notes, make pencil sketches of tools, and interview skilled artisans politely",
-          "Lose your notebook in the crowd",
-          "Run around shouting without looking at anything"
+          "Carve personal initials onto ancient monument stone walls as a lasting memorial mark",
+          "Record notes, sketch traditional tools, and interview experienced artisans politely",
+          "Toss your notebook into the crowd and rely entirely on memory without writing details",
+          "Run noisily past historical displays without observing artifacts or asking questions"
         ],
         "answer": 1,
         "explain": "Taking notes and sketching preserves valuable learning while respecting historic heritage!"
@@ -1990,10 +1990,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do ants in a marching line communicate and follow each other along an exact path?",
         "options": [
-          "They memorize visual landmarks using sharp human-like eyesight",
-          "They leave invisible chemical scent trails called pheromones that other ants smell with their antennae",
-          "They feel underground soil vibrations caused by marching feet",
-          "They make high-pitched buzzing calls using tiny vibrating wings"
+          "They remember visual landscape features by using extraordinarily sharp, camera-like compound eyesight",
+          "They follow chemical scent trails called pheromones that traveling ants detect with their antennae",
+          "They monitor subtle seismic shockwaves traveling through soil caused by the footsteps of leading workers",
+          "They produce high-frequency buzzing calls using miniature vibrating wing membranes on their thorax"
         ],
         "answer": 1,
         "explain": "Ants use sensitive antennae to detect pheromone scent trails laid down by scout ants!"
@@ -2012,10 +2012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do weaver birds weave elaborate, hanging grass nests with downward-facing entrance tubes?",
         "options": [
-          "To store heavy winter supplies of dry seeds and grains",
-          "To protect their eggs and chicks from rain, wind, and climbing predators like snakes",
-          "To trap flying insects in the downward entrance tube",
-          "To allow multiple bird families to sleep in one communal dormitory"
+          "To hoard massive stockpiles of harvested grain seeds safe from cold winter frosts",
+          "To safeguard fragile eggs and chicks from monsoon rains and predators like snakes",
+          "To capture passing flying insects inside the hanging hollow bottom entrance chute",
+          "To provide a crowded communal dormitory where many unrelated bird families sleep"
         ],
         "answer": 1,
         "explain": "Hanging bulbous nests with bottom entrances keep eggs safe from snakes and predatory lizards!"
@@ -2033,10 +2033,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do ants in a marching line communicate and follow each other along an exact path?",
         "options": [
-          "They memorize visual landmarks using sharp human-like eyesight",
-          "They leave invisible chemical scent trails called pheromones that other ants smell with their antennae",
-          "They feel underground soil vibrations caused by marching feet",
-          "They make high-pitched buzzing calls using tiny vibrating wings"
+          "They remember visual landscape features by using extraordinarily sharp, camera-like compound eyesight",
+          "They follow chemical scent trails called pheromones that traveling ants detect with their antennae",
+          "They monitor subtle seismic shockwaves traveling through soil caused by the footsteps of leading workers",
+          "They produce high-frequency buzzing calls using miniature vibrating wing membranes on their thorax"
         ],
         "answer": 1,
         "explain": "Ants use sensitive antennae to detect pheromone scent trails laid down by scout ants!"
@@ -2055,10 +2055,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do weaver birds weave elaborate, hanging grass nests with downward-facing entrance tubes?",
         "options": [
-          "To store heavy winter supplies of dry seeds and grains",
-          "To protect their eggs and chicks from rain, wind, and climbing predators like snakes",
-          "To trap flying insects in the downward entrance tube",
-          "To allow multiple bird families to sleep in one communal dormitory"
+          "To hoard massive stockpiles of harvested grain seeds safe from cold winter frosts",
+          "To safeguard fragile eggs and chicks from monsoon rains and predators like snakes",
+          "To capture passing flying insects inside the hanging hollow bottom entrance chute",
+          "To provide a crowded communal dormitory where many unrelated bird families sleep"
         ],
         "answer": 1,
         "explain": "Hanging bulbous nests with bottom entrances keep eggs safe from snakes and predatory lizards!"
@@ -2076,10 +2076,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Trace the correct sequence of how wheat reaches your dining table:",
         "options": [
-          "Field harvesting -> Grain Mandi/Market -> Flour Mill (Chakki) -> Kitchen kneading -> Hot Roti on plate",
-          "Hot roti -> Sowing seeds -> Flour Mill -> Mandi",
-          "Flour mill -> Sowing seeds -> Kitchen -> Field",
-          "Kitchen kneading -> Field harvesting -> Flour Mill -> Grocery store"
+          "Crop harvest, wholesale mandi, grain flour mill, dough kneading, hot roti",
+          "Hot baked roti, seed planting in soil, flour grinding mill, wholesale mandi",
+          "Grain flour mill, sowing wheat seeds, kitchen cooking, harvesting the crop",
+          "Kneading wheat dough, crop harvesting, grain flour mill, local retail shop"
         ],
         "answer": 0,
         "explain": "Wheat is grown and harvested, sold in grain mandis, ground into atta at a mill, and baked at home!"
@@ -2098,10 +2098,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must harvested grains like wheat and rice be dried thoroughly in the sun before storing in godowns?",
         "options": [
-          "Because wheat only grows inside dark bags",
-          "To make the sacks heavier",
-          "To remove moisture so fungal molds, rot, and insects cannot damage the stored food",
-          "To make the grains turn into golden coins"
+          "Because unprocessed wheat seeds can only sprout while stored inside hessian sacks",
+          "To make the grain bundles heavier so farmers can charge higher prices at market",
+          "To eliminate moisture so fungal mold, rot, and insects cannot spoil stored grains",
+          "To ensure that individual cereal kernels transform into shiny golden metal coins"
         ],
         "answer": 2,
         "explain": "Moisture invites fungus and weevils; thorough sun-drying keeps stored grains fresh for months!"
@@ -2119,10 +2119,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Trace the correct sequence of how wheat reaches your dining table:",
         "options": [
-          "Field harvesting -> Grain Mandi/Market -> Flour Mill (Chakki) -> Kitchen kneading -> Hot Roti on plate",
-          "Hot roti -> Sowing seeds -> Flour Mill -> Mandi",
-          "Flour mill -> Sowing seeds -> Kitchen -> Field",
-          "Kitchen kneading -> Field harvesting -> Flour Mill -> Grocery store"
+          "Crop harvest, wholesale mandi, grain flour mill, dough kneading, hot roti",
+          "Hot baked roti, seed planting in soil, flour grinding mill, wholesale mandi",
+          "Grain flour mill, sowing wheat seeds, kitchen cooking, harvesting the crop",
+          "Kneading wheat dough, crop harvesting, grain flour mill, local retail shop"
         ],
         "answer": 0,
         "explain": "Wheat is grown and harvested, sold in grain mandis, ground into atta at a mill, and baked at home!"
@@ -2141,10 +2141,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why must harvested grains like wheat and rice be dried thoroughly in the sun before storing in godowns?",
         "options": [
-          "Because wheat only grows inside dark bags",
-          "To make the sacks heavier",
-          "To remove moisture so fungal molds, rot, and insects cannot damage the stored food",
-          "To make the grains turn into golden coins"
+          "Because unprocessed wheat seeds can only sprout while stored inside hessian sacks",
+          "To make the grain bundles heavier so farmers can charge higher prices at market",
+          "To eliminate moisture so fungal mold, rot, and insects cannot spoil stored grains",
+          "To ensure that individual cereal kernels transform into shiny golden metal coins"
         ],
         "answer": 2,
         "explain": "Moisture invites fungus and weevils; thorough sun-drying keeps stored grains fresh for months!"
@@ -2162,10 +2162,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do traditional master weavers in craft clusters learn their intricate weaving and embroidery skills?",
         "options": [
-          "By playing video games on a phone",
-          "By buying saris from the shopping mall",
-          "Overnight in a single five-minute dream",
-          "By training for years under experienced elders and master craftspeople (guru-shishya tradition)"
+          "By playing virtual textile designing video games on digital smartphones",
+          "By purchasing finished machine garments from air-conditioned retail malls",
+          "By memorizing complete jacquard patterns overnight in a brief morning dream",
+          "By training for years under experienced family elders and master weavers"
         ],
         "answer": 3,
         "explain": "Artisanal knowledge of motifs, warping, and weft is inherited and refined over generations of dedicated apprenticeship."
@@ -2174,7 +2174,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which natural insect produces fine silk threads when spinning its protective cocoon?",
         "options": [
           "The Grasshopper",
-          "The Silkworm (Bombyx mori moth larva)",
+          "The Silkworm",
           "The Honeybee",
           "The Dragonfly"
         ],
@@ -2184,10 +2184,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why should we support local artisans and buy handmade indigenous khadi and handloom crafts?",
         "options": [
-          "To close down all craft villages",
-          "Handmade crafts have no artistic value",
-          "It preserves traditional cultural heritage, supports sustainable rural livelihoods, and uses eco-friendly materials",
-          "Because handmade items are illegal to sell"
+          "To accelerate the closure of heritage weaving hamlets so rural families move to industrial factory jobs",
+          "Because handcrafted textiles possess no artistic merit compared to mass-produced synthetic imports",
+          "It preserves cultural heritage, sustains rural artisan livelihoods, and uses eco-friendly materials",
+          "Because selling traditional handmade goods in urban marketplaces has been prohibited by national law"
         ],
         "answer": 2,
         "explain": "Supporting artisans preserves ancient heritage and empowers rural weavers and craft families!"
@@ -2205,10 +2205,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How do traditional master weavers in craft clusters learn their intricate weaving and embroidery skills?",
         "options": [
-          "By playing video games on a phone",
-          "By buying saris from the shopping mall",
-          "Overnight in a single five-minute dream",
-          "By training for years under experienced elders and master craftspeople (guru-shishya tradition)"
+          "By playing virtual textile designing video games on digital smartphones",
+          "By purchasing finished machine garments from air-conditioned retail malls",
+          "By memorizing complete jacquard patterns overnight in a brief morning dream",
+          "By training for years under experienced family elders and master weavers"
         ],
         "answer": 3,
         "explain": "Artisanal knowledge of motifs, warping, and weft is inherited and refined over generations of dedicated apprenticeship."
@@ -2217,7 +2217,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which natural insect produces fine silk threads when spinning its protective cocoon?",
         "options": [
           "The Grasshopper",
-          "The Silkworm (Bombyx mori moth larva)",
+          "The Silkworm",
           "The Honeybee",
           "The Dragonfly"
         ],
@@ -2227,10 +2227,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why should we support local artisans and buy handmade indigenous khadi and handloom crafts?",
         "options": [
-          "To close down all craft villages",
-          "Handmade crafts have no artistic value",
-          "It preserves traditional cultural heritage, supports sustainable rural livelihoods, and uses eco-friendly materials",
-          "Because handmade items are illegal to sell"
+          "To accelerate the closure of heritage weaving hamlets so rural families move to industrial factory jobs",
+          "Because handcrafted textiles possess no artistic merit compared to mass-produced synthetic imports",
+          "It preserves cultural heritage, sustains rural artisan livelihoods, and uses eco-friendly materials",
+          "Because selling traditional handmade goods in urban marketplaces has been prohibited by national law"
         ],
         "answer": 2,
         "explain": "Supporting artisans preserves ancient heritage and empowers rural weavers and craft families!"
@@ -2248,10 +2248,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'LANDMARK' on a map (such as an ancient clock tower or a big banyan tree)?",
         "options": [
-          "A bird flying past in the sky",
-          "A random crack on the pavement",
-          "A secret treasure hidden underground",
-          "A prominent, easily recognized building or natural feature used to guide directions"
+          "A temporary flock of wild birds flying swiftly across the afternoon horizon",
+          "A small random fracture running along the asphalt surface of a walking pavement",
+          "A mythical cache of gold coins concealed deeply beneath neighborhood roadways",
+          "A prominent, easily recognized building or natural feature that guides travelers"
         ],
         "answer": 3,
         "explain": "Landmarks are unmistakable reference points that help travelers orient themselves and navigate."
@@ -2270,10 +2270,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Arjun tells his cousin: 'Walk straight past the post office, then turn RIGHT at the grocery store,' what is the grocery store functioning as?",
         "options": [
-          "A decision waypoint / navigation landmark",
-          "The final destination of the universe",
-          "A roadblock that stops walking",
-          "A school classroom"
+          "A navigation landmark showing where to turn",
+          "The ultimate terminal destination of the trip",
+          "A permanent barricade preventing further travel",
+          "An administrative classroom inside the school"
         ],
         "answer": 0,
         "explain": "The grocery store marks the exact landmark where a change of walking direction occurs."
@@ -2291,10 +2291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is a 'LANDMARK' on a map (such as an ancient clock tower or a big banyan tree)?",
         "options": [
-          "A bird flying past in the sky",
-          "A random crack on the pavement",
-          "A secret treasure hidden underground",
-          "A prominent, easily recognized building or natural feature used to guide directions"
+          "A temporary flock of wild birds flying swiftly across the afternoon horizon",
+          "A small random fracture running along the asphalt surface of a walking pavement",
+          "A mythical cache of gold coins concealed deeply beneath neighborhood roadways",
+          "A prominent, easily recognized building or natural feature that guides travelers"
         ],
         "answer": 3,
         "explain": "Landmarks are unmistakable reference points that help travelers orient themselves and navigate."
@@ -2313,10 +2313,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Arjun tells his cousin: 'Walk straight past the post office, then turn RIGHT at the grocery store,' what is the grocery store functioning as?",
         "options": [
-          "A decision waypoint / navigation landmark",
-          "The final destination of the universe",
-          "A roadblock that stops walking",
-          "A school classroom"
+          "A navigation landmark showing where to turn",
+          "The ultimate terminal destination of the trip",
+          "A permanent barricade preventing further travel",
+          "An administrative classroom inside the school"
         ],
         "answer": 0,
         "explain": "The grocery store marks the exact landmark where a change of walking direction occurs."
@@ -2348,7 +2348,7 @@ Object.assign(window.GAME_CONTENT, {
           "Standing Line",
           "Sitting on Luggage",
           "Special Luxury First Class",
-          "Sleeper Class (Middle or Upper/Lower berth)"
+          "Sleeper Class"
         ],
         "answer": 3,
         "explain": "SL stands for Sleeper Class, and coaches are labeled S1, S2, S3, etc."
@@ -2356,10 +2356,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening",
-          "11:30 PM at night",
-          "1:30 PM in the afternoon",
-          "8:30 AM in the morning"
+          "6",
+          "11",
+          "1",
+          "8"
         ],
         "answer": 0,
         "explain": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
@@ -2391,7 +2391,7 @@ Object.assign(window.GAME_CONTENT, {
           "Standing Line",
           "Sitting on Luggage",
           "Special Luxury First Class",
-          "Sleeper Class (Middle or Upper/Lower berth)"
+          "Sleeper Class"
         ],
         "answer": 3,
         "explain": "SL stands for Sleeper Class, and coaches are labeled S1, S2, S3, etc."
@@ -2399,10 +2399,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If the railway timetable lists departure time as '18:30', what time is that on a standard 12-hour clock?",
         "options": [
-          "6:30 PM in the evening",
-          "11:30 PM at night",
-          "1:30 PM in the afternoon",
-          "8:30 AM in the morning"
+          "6",
+          "11",
+          "1",
+          "8"
         ],
         "answer": 0,
         "explain": "On a 24-hour clock, 18:30 minus 12 hours equals 6:30 PM!"
@@ -2420,10 +2420,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do prey animals like deer and rabbits have large external ears (pinnae) that can swivel in different directions?",
         "options": [
-          "To keep cool like giant fans",
-          "To store nuts for winter",
-          "To fly like birds through trees",
-          "To detect faint sounds of approaching predators from any direction without turning their heads"
+          "To flutter back and forth like cooling mechanical fans during humid tropical afternoons",
+          "To store forest acorns and winter berries inside specialized outer ear flap cavities",
+          "To generate aerodynamic lift so they can glide between high branches like wild birds",
+          "To detect faint sounds of approaching predators from all directions without moving heads"
         ],
         "answer": 3,
         "explain": "Swiveling ears let herbivores pinpoint predator rustles from 360 degrees around them!"
@@ -2431,10 +2431,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do carnivorous predators like lions and leopards have soft, cushioned pads beneath their paws?",
         "options": [
-          "To stalk silently through grass without snapping twigs or making footsteps",
-          "To slide down muddy hills",
-          "To bounce high like rubber balls",
-          "Because they dislike touching soil"
+          "To stalk silently across ground without snapping twigs or making footsteps",
+          "To slide smoothly down muddy hillside slopes while pursuing woodland prey",
+          "To bounce vertically like elastic rubber balls to snatch high flying birds",
+          "Because wild big cats feel uncomfortable when their skin contacts raw soil"
         ],
         "answer": 0,
         "explain": "Padded paws allow predators to creep within striking distance of prey completely silently!"
@@ -2463,10 +2463,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do prey animals like deer and rabbits have large external ears (pinnae) that can swivel in different directions?",
         "options": [
-          "To keep cool like giant fans",
-          "To store nuts for winter",
-          "To fly like birds through trees",
-          "To detect faint sounds of approaching predators from any direction without turning their heads"
+          "To flutter back and forth like cooling mechanical fans during humid tropical afternoons",
+          "To store forest acorns and winter berries inside specialized outer ear flap cavities",
+          "To generate aerodynamic lift so they can glide between high branches like wild birds",
+          "To detect faint sounds of approaching predators from all directions without moving heads"
         ],
         "answer": 3,
         "explain": "Swiveling ears let herbivores pinpoint predator rustles from 360 degrees around them!"
@@ -2474,10 +2474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do carnivorous predators like lions and leopards have soft, cushioned pads beneath their paws?",
         "options": [
-          "To stalk silently through grass without snapping twigs or making footsteps",
-          "To slide down muddy hills",
-          "To bounce high like rubber balls",
-          "Because they dislike touching soil"
+          "To stalk silently across ground without snapping twigs or making footsteps",
+          "To slide smoothly down muddy hillside slopes while pursuing woodland prey",
+          "To bounce vertically like elastic rubber balls to snatch high flying birds",
+          "Because wild big cats feel uncomfortable when their skin contacts raw soil"
         ],
         "answer": 0,
         "explain": "Padded paws allow predators to creep within striking distance of prey completely silently!"
@@ -2506,10 +2506,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does an extended family gathering strengthen family relationships?",
         "options": [
-          "It makes people forget each other",
-          "By making everyone stay locked in separate rooms",
-          "It allows cousins and relatives to share stories, celebrate shared traditions, and deepen bonds of care",
-          "It forces everyone to stop eating food"
+          "It creates confusion so that distant cousins and elders forget each other names and relations",
+          "It requires family members to stay confined inside separate locked chambers without speaking",
+          "It lets relatives share memories, celebrate cultural traditions, and nurture supportive bonds",
+          "It compels household members to stop preparing meals and avoid sharing festive dining tables"
         ],
         "answer": 2,
         "explain": "Reunions bring relatives together to celebrate shared history, warmth, and lifelong affection!"
@@ -2520,7 +2520,7 @@ Object.assign(window.GAME_CONTENT, {
           "She is your Mother",
           "She is your Grandmother",
           "She is your Niece",
-          "She is your Paternal Aunt (Bua / Fufi)"
+          "She is your Paternal Aunt"
         ],
         "answer": 3,
         "explain": "Your father's sister is your paternal aunt (lovingly called Bua in Hindi)."
@@ -2528,10 +2528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do families sometimes relocate to new cities (migration)?",
         "options": [
-          "Because moving vans are free",
-          "For better job opportunities, education, or transfers in work",
-          "To avoid all human beings",
-          "Because houses disappear every year"
+          "Because commercial moving trucks offer free transport services",
+          "For better employment, educational schooling, or job transfers",
+          "To isolate themselves permanently from contacting other people",
+          "Because residential houses naturally vanish after twelve months"
         ],
         "answer": 1,
         "explain": "Families move to new places for employment, schooling, transfers, or business opportunities."
@@ -2549,10 +2549,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does an extended family gathering strengthen family relationships?",
         "options": [
-          "It makes people forget each other",
-          "By making everyone stay locked in separate rooms",
-          "It allows cousins and relatives to share stories, celebrate shared traditions, and deepen bonds of care",
-          "It forces everyone to stop eating food"
+          "It creates confusion so that distant cousins and elders forget each other names and relations",
+          "It requires family members to stay confined inside separate locked chambers without speaking",
+          "It lets relatives share memories, celebrate cultural traditions, and nurture supportive bonds",
+          "It compels household members to stop preparing meals and avoid sharing festive dining tables"
         ],
         "answer": 2,
         "explain": "Reunions bring relatives together to celebrate shared history, warmth, and lifelong affection!"
@@ -2563,7 +2563,7 @@ Object.assign(window.GAME_CONTENT, {
           "She is your Mother",
           "She is your Grandmother",
           "She is your Niece",
-          "She is your Paternal Aunt (Bua / Fufi)"
+          "She is your Paternal Aunt"
         ],
         "answer": 3,
         "explain": "Your father's sister is your paternal aunt (lovingly called Bua in Hindi)."
@@ -2571,10 +2571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do families sometimes relocate to new cities (migration)?",
         "options": [
-          "Because moving vans are free",
-          "For better job opportunities, education, or transfers in work",
-          "To avoid all human beings",
-          "Because houses disappear every year"
+          "Because commercial moving trucks offer free transport services",
+          "For better employment, educational schooling, or job transfers",
+          "To isolate themselves permanently from contacting other people",
+          "Because residential houses naturally vanish after twelve months"
         ],
         "answer": 1,
         "explain": "Families move to new places for employment, schooling, transfers, or business opportunities."
@@ -2592,10 +2592,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which part of the plant are carrots, radishes, and beetroots that we eat?",
         "options": [
-          "Underground swollen taproots that store food nutrients",
-          "Wooden bark stems",
-          "Green aerial leaves",
-          "Colorful flower petals"
+          "Underground swollen taproots storing food nutrients",
+          "Stout woody outer bark peeled from arboreal stems",
+          "Broad green photosynthetic leaves collecting light",
+          "Brightly pigmented flower petals attracting wasps"
         ],
         "answer": 0,
         "explain": "Carrots and radishes are modified taproots storing rich sugars and nutrients underground!"
@@ -2603,10 +2603,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do night-blooming flowers like Jasmine (Raat ki Rani) and Mogra have an intensely sweet, powerful aroma?",
         "options": [
-          "Because daytime flowers have no scent",
-          "To attract night-flying pollinators like nocturnal moths in the dark",
-          "To repel all living creatures",
-          "To scare birds away"
+          "Because diurnal blossoms never produce any aromatic fragrance at all",
+          "To guide nocturnal pollinators like night-flying moths in the darkness",
+          "To ward off every living garden visitor with harsh overwhelming smells",
+          "To frighten woodland birds so they avoid perching near flowering stems"
         ],
         "answer": 1,
         "explain": "In the dark of night, fragrance guides moths and bats directly to flower nectar for pollination!"
@@ -2614,10 +2614,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these commonly called vegetables is botanically a FRUIT because it develops from a flower and contains seeds?",
         "options": [
-          "Potato (underground stem tuber)",
-          "Spinach (leaf)",
-          "Ginger (rhizome stem)",
-          "Tomato and Cucumber"
+          "Potato and onion",
+          "Spinach and mint",
+          "Ginger and turnip",
+          "Tomato and pepper"
         ],
         "answer": 3,
         "explain": "Tomatoes and cucumbers develop from flower ovaries and hold seeds inside, making them botanical fruits!"
@@ -2635,10 +2635,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which part of the plant are carrots, radishes, and beetroots that we eat?",
         "options": [
-          "Underground swollen taproots that store food nutrients",
-          "Wooden bark stems",
-          "Green aerial leaves",
-          "Colorful flower petals"
+          "Underground swollen taproots storing food nutrients",
+          "Stout woody outer bark peeled from arboreal stems",
+          "Broad green photosynthetic leaves collecting light",
+          "Brightly pigmented flower petals attracting wasps"
         ],
         "answer": 0,
         "explain": "Carrots and radishes are modified taproots storing rich sugars and nutrients underground!"
@@ -2646,10 +2646,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do night-blooming flowers like Jasmine (Raat ki Rani) and Mogra have an intensely sweet, powerful aroma?",
         "options": [
-          "Because daytime flowers have no scent",
-          "To attract night-flying pollinators like nocturnal moths in the dark",
-          "To repel all living creatures",
-          "To scare birds away"
+          "Because diurnal blossoms never produce any aromatic fragrance at all",
+          "To guide nocturnal pollinators like night-flying moths in the darkness",
+          "To ward off every living garden visitor with harsh overwhelming smells",
+          "To frighten woodland birds so they avoid perching near flowering stems"
         ],
         "answer": 1,
         "explain": "In the dark of night, fragrance guides moths and bats directly to flower nectar for pollination!"
@@ -2657,10 +2657,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these commonly called vegetables is botanically a FRUIT because it develops from a flower and contains seeds?",
         "options": [
-          "Potato (underground stem tuber)",
-          "Spinach (leaf)",
-          "Ginger (rhizome stem)",
-          "Tomato and Cucumber"
+          "Potato and onion",
+          "Spinach and mint",
+          "Ginger and turnip",
+          "Tomato and pepper"
         ],
         "answer": 3,
         "explain": "Tomatoes and cucumbers develop from flower ovaries and hold seeds inside, making them botanical fruits!"
@@ -2678,10 +2678,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did people travel long distances before steam trains, airplanes, and motorcars were invented?",
         "options": [
-          "On foot, horse-drawn carts, bullock carts, and wooden sailboats",
-          "By using electric metro rails",
-          "By driving luxury sports cars",
-          "By riding supersonic jet planes"
+          "On foot, in bullock carts, on horses, and in wooden sailboats",
+          "By riding rapid electric metro trains and underground subways",
+          "By driving high-speed motorcars across paved highway networks",
+          "By boarding commercial jet airliners and supersonic airplanes"
         ],
         "answer": 0,
         "explain": "Before motor engines, humans relied on domesticated draft animals, walking, and wind-powered sails!"
@@ -2689,10 +2689,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What material were ancient water pipes and cooking vessels commonly made of in our grandparents' time?",
         "options": [
-          "Cardboard",
-          "Brass, copper, bronze, and baked clay",
-          "Thin plastic foil",
-          "Styrofoam"
+          "Compressed cardboard and paperboard",
+          "Brass, copper, bronze, and red clay",
+          "Thin synthetic polythene containers",
+          "Molded lightweight styrofoam pieces"
         ],
         "answer": 1,
         "explain": "Copper and brass vessels were durable, naturally antimicrobial, and passed down across generations!"
@@ -2700,10 +2700,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How has modern communication evolved from historical pigeon posts and handwritten telegrams?",
         "options": [
-          "People stopped communicating completely",
-          "Only drums are used today",
-          "Letters take ten years to arrive",
-          "To instant voice and video calls and emails transmitted globally in seconds"
+          "People ceased corresponding and no longer exchange thoughts across distances",
+          "Communities rely exclusively on hollow wooden signal drums sounded on hills",
+          "Standard postal notes now require over a decade to reach neighboring towns",
+          "To instant voice calls, video chats, and digital messages delivered in seconds"
         ],
         "answer": 3,
         "explain": "Satellites, fiber optics, and mobile networks connect humans instantly worldwide!"
@@ -2721,10 +2721,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How did people travel long distances before steam trains, airplanes, and motorcars were invented?",
         "options": [
-          "On foot, horse-drawn carts, bullock carts, and wooden sailboats",
-          "By using electric metro rails",
-          "By driving luxury sports cars",
-          "By riding supersonic jet planes"
+          "On foot, in bullock carts, on horses, and in wooden sailboats",
+          "By riding rapid electric metro trains and underground subways",
+          "By driving high-speed motorcars across paved highway networks",
+          "By boarding commercial jet airliners and supersonic airplanes"
         ],
         "answer": 0,
         "explain": "Before motor engines, humans relied on domesticated draft animals, walking, and wind-powered sails!"
@@ -2732,10 +2732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What material were ancient water pipes and cooking vessels commonly made of in our grandparents' time?",
         "options": [
-          "Cardboard",
-          "Brass, copper, bronze, and baked clay",
-          "Thin plastic foil",
-          "Styrofoam"
+          "Compressed cardboard and paperboard",
+          "Brass, copper, bronze, and red clay",
+          "Thin synthetic polythene containers",
+          "Molded lightweight styrofoam pieces"
         ],
         "answer": 1,
         "explain": "Copper and brass vessels were durable, naturally antimicrobial, and passed down across generations!"
@@ -2743,10 +2743,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How has modern communication evolved from historical pigeon posts and handwritten telegrams?",
         "options": [
-          "People stopped communicating completely",
-          "Only drums are used today",
-          "Letters take ten years to arrive",
-          "To instant voice and video calls and emails transmitted globally in seconds"
+          "People ceased corresponding and no longer exchange thoughts across distances",
+          "Communities rely exclusively on hollow wooden signal drums sounded on hills",
+          "Standard postal notes now require over a decade to reach neighboring towns",
+          "To instant voice calls, video chats, and digital messages delivered in seconds"
         ],
         "answer": 3,
         "explain": "Satellites, fiber optics, and mobile networks connect humans instantly worldwide!"
@@ -2764,10 +2764,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Under the Right to Education (RTE) Act in India, what right is guaranteed to every child between ages 6 and 14?",
         "options": [
-          "Paying thousands of rupees for primary school",
-          "Working full-time in brick kilns",
-          "Staying home without books",
-          "Free and compulsory education in a neighborhood school"
+          "Paying substantial tuition fees for private schooling",
+          "Working regular daytime shifts inside local brick kilns",
+          "Remaining isolated at home without textbooks or study",
+          "Free and compulsory schooling in a neighborhood school"
         ],
         "answer": 3,
         "explain": "The RTE Act guarantees every child aged 6-14 access to free, equitable elementary schooling."
@@ -2775,10 +2775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is forcing young children to work in hazardous factories or roadside dhabas (child labor) illegal and harmful?",
         "options": [
-          "It has no effect on children",
-          "It robs children of their right to play, learn, grow safely, and build a bright future",
-          "Because children are too fast at work",
-          "Because factory owners dislike young people"
+          "It produces zero lasting physical or developmental consequences for growing youths",
+          "It deprives children of their rights to play, learn in school, and develop safely",
+          "Because children operate machinery far too swiftly for adult managers to supervise",
+          "Because manufacturing facilities generally hold personal prejudice against youths"
         ],
         "answer": 1,
         "explain": "Children belong in schools, playgrounds, and nurturing homes—not dangerous workplaces!"
@@ -2786,10 +2786,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should communities treat children of different genders, languages, or family backgrounds?",
         "options": [
-          "With absolute equality, respect, and equal opportunities to learn and lead",
-          "By excluding children who speak different mother tongues",
-          "By favoring boys over girls in sports and education",
-          "By stereotyping what tasks girls can do"
+          "With total equality, mutual respect, and equal opportunities to learn and lead",
+          "By excluding students who converse in regional mother tongues from activities",
+          "By giving unfair preference to boys over girls in sports arenas and classrooms",
+          "By enforcing rigid stereotypes about which tasks girls should be allowed to do"
         ],
         "answer": 0,
         "explain": "Equality and mutual respect ensure every child can pursue their dreams and shine!"
@@ -2807,10 +2807,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Under the Right to Education (RTE) Act in India, what right is guaranteed to every child between ages 6 and 14?",
         "options": [
-          "Paying thousands of rupees for primary school",
-          "Working full-time in brick kilns",
-          "Staying home without books",
-          "Free and compulsory education in a neighborhood school"
+          "Paying substantial tuition fees for private schooling",
+          "Working regular daytime shifts inside local brick kilns",
+          "Remaining isolated at home without textbooks or study",
+          "Free and compulsory schooling in a neighborhood school"
         ],
         "answer": 3,
         "explain": "The RTE Act guarantees every child aged 6-14 access to free, equitable elementary schooling."
@@ -2818,10 +2818,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is forcing young children to work in hazardous factories or roadside dhabas (child labor) illegal and harmful?",
         "options": [
-          "It has no effect on children",
-          "It robs children of their right to play, learn, grow safely, and build a bright future",
-          "Because children are too fast at work",
-          "Because factory owners dislike young people"
+          "It produces zero lasting physical or developmental consequences for growing youths",
+          "It deprives children of their rights to play, learn in school, and develop safely",
+          "Because children operate machinery far too swiftly for adult managers to supervise",
+          "Because manufacturing facilities generally hold personal prejudice against youths"
         ],
         "answer": 1,
         "explain": "Children belong in schools, playgrounds, and nurturing homes—not dangerous workplaces!"
@@ -2829,10 +2829,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How should communities treat children of different genders, languages, or family backgrounds?",
         "options": [
-          "With absolute equality, respect, and equal opportunities to learn and lead",
-          "By excluding children who speak different mother tongues",
-          "By favoring boys over girls in sports and education",
-          "By stereotyping what tasks girls can do"
+          "With total equality, mutual respect, and equal opportunities to learn and lead",
+          "By excluding students who converse in regional mother tongues from activities",
+          "By giving unfair preference to boys over girls in sports arenas and classrooms",
+          "By enforcing rigid stereotypes about which tasks girls should be allowed to do"
         ],
         "answer": 0,
         "explain": "Equality and mutual respect ensure every child can pursue their dreams and shine!"
@@ -2850,10 +2850,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'REDUCE' mean in the 3 R's rule?",
         "options": [
-          "Using extra plastic bags for fun",
-          "Cutting down on the amount of unnecessary waste and single-use packaging we generate",
-          "Throwing away leftover food into rivers",
-          "Buying ten plastic toys every single day"
+          "Collecting excess single-use polythene wrappers simply to accumulate extra trash",
+          "Cutting down on the amount of unnecessary waste and disposable items we generate",
+          "Discarding surplus cooked kitchen meals directly into flowing municipal rivers",
+          "Purchasing multiple new plastic novelty toys each afternoon without real need"
         ],
         "answer": 1,
         "explain": "Reducing means avoiding wasteful single-use items in the first place, like carrying your own cloth bag!"
@@ -2861,10 +2861,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can you 'REUSE' a glass jam jar after the sweet fruit jam is finished?",
         "options": [
-          "Throw it in a roadside ditch",
-          "Smash it on the school playground",
-          "Burn it in a campfire",
-          "Wash it thoroughly and use it to store pencils, buttons, or garden seeds"
+          "Toss the empty glass container into an open roadside drainage gutter",
+          "Shatter the brittle glass on the concrete surface of school grounds",
+          "Toss the empty glass vessel into an open timber bonfire to burn down",
+          "Wash it cleanly and use it to store pencils, sewing buttons, or seeds"
         ],
         "answer": 3,
         "explain": "Washed glass jars make durable, airtight organizers for stationery, spices, or art supplies!"
@@ -2872,10 +2872,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is turning off lights and fans when leaving an empty room important for the environment?",
         "options": [
-          "It has zero effect on nature",
-          "Because darkness makes rooms grow bigger",
-          "To make sure nobody enters the room",
-          "Conserving electricity saves fossil fuels and reduces greenhouse gas emissions at power plants"
+          "Power consumption generates zero noticeable influence on natural woodland environments",
+          "Because unlit rooms physically expand in floor area whenever illumination is shut off",
+          "To ensure that other household members are discouraged from stepping into that space",
+          "Conserving power saves fossil fuels and lowers harmful emissions from thermal plants"
         ],
         "answer": 3,
         "explain": "Saving electricity directly lowers emissions from thermal power plants, protecting our global climate!"
@@ -2893,10 +2893,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'REDUCE' mean in the 3 R's rule?",
         "options": [
-          "Using extra plastic bags for fun",
-          "Cutting down on the amount of unnecessary waste and single-use packaging we generate",
-          "Throwing away leftover food into rivers",
-          "Buying ten plastic toys every single day"
+          "Collecting excess single-use polythene wrappers simply to accumulate extra trash",
+          "Cutting down on the amount of unnecessary waste and disposable items we generate",
+          "Discarding surplus cooked kitchen meals directly into flowing municipal rivers",
+          "Purchasing multiple new plastic novelty toys each afternoon without real need"
         ],
         "answer": 1,
         "explain": "Reducing means avoiding wasteful single-use items in the first place, like carrying your own cloth bag!"
@@ -2904,10 +2904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can you 'REUSE' a glass jam jar after the sweet fruit jam is finished?",
         "options": [
-          "Throw it in a roadside ditch",
-          "Smash it on the school playground",
-          "Burn it in a campfire",
-          "Wash it thoroughly and use it to store pencils, buttons, or garden seeds"
+          "Toss the empty glass container into an open roadside drainage gutter",
+          "Shatter the brittle glass on the concrete surface of school grounds",
+          "Toss the empty glass vessel into an open timber bonfire to burn down",
+          "Wash it cleanly and use it to store pencils, sewing buttons, or seeds"
         ],
         "answer": 3,
         "explain": "Washed glass jars make durable, airtight organizers for stationery, spices, or art supplies!"
@@ -2915,10 +2915,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why is turning off lights and fans when leaving an empty room important for the environment?",
         "options": [
-          "It has zero effect on nature",
-          "Because darkness makes rooms grow bigger",
-          "To make sure nobody enters the room",
-          "Conserving electricity saves fossil fuels and reduces greenhouse gas emissions at power plants"
+          "Power consumption generates zero noticeable influence on natural woodland environments",
+          "Because unlit rooms physically expand in floor area whenever illumination is shut off",
+          "To ensure that other household members are discouraged from stepping into that space",
+          "Conserving power saves fossil fuels and lowers harmful emissions from thermal plants"
         ],
         "answer": 3,
         "explain": "Saving electricity directly lowers emissions from thermal power plants, protecting our global climate!"
@@ -2936,10 +2936,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a vertical bar graph showing student favorite sports, which sport will have the TALLEST bar?",
         "options": [
-          "Cricket (15 students)",
-          "Badminton (8 students)",
-          "Chess (5 students)",
-          "Football (12 students)"
+          "Cricket",
+          "Badminton",
+          "Chess",
+          "Football"
         ],
         "answer": 0,
         "explain": "Cricket had the highest frequency at 15 votes, producing the tallest column bar!"
@@ -2958,7 +2958,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What information does the vertical axis (Y-axis) typically display in a student survey bar graph?",
         "options": [
-          "The number of students (frequency count)",
+          "The number of students",
           "The names of the sports",
           "The temperature of the room",
           "The color of the teacher's pen"
@@ -2979,10 +2979,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "On a vertical bar graph showing student favorite sports, which sport will have the TALLEST bar?",
         "options": [
-          "Cricket (15 students)",
-          "Badminton (8 students)",
-          "Chess (5 students)",
-          "Football (12 students)"
+          "Cricket",
+          "Badminton",
+          "Chess",
+          "Football"
         ],
         "answer": 0,
         "explain": "Cricket had the highest frequency at 15 votes, producing the tallest column bar!"
@@ -3001,7 +3001,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What information does the vertical axis (Y-axis) typically display in a student survey bar graph?",
         "options": [
-          "The number of students (frequency count)",
+          "The number of students",
           "The names of the sports",
           "The temperature of the room",
           "The color of the teacher's pen"
@@ -3024,7 +3024,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x = 2 x 10 = 20 m",
+          "20 meters",
           "12 meters"
         ],
         "answer": 2,
@@ -3067,7 +3067,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "10 meters",
           "24 meters",
-          "20 meters: 2 x = 2 x 10 = 20 m",
+          "20 meters",
           "12 meters"
         ],
         "answer": 2,
@@ -3110,7 +3110,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Zero accuracy",
           "Completely wrong by 1000 grams",
-          "Very close (only 10 grams difference!)",
+          "Very close",
           "Off by 5 kilograms"
         ],
         "answer": 2,
@@ -3130,10 +3130,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you estimate a bucket holds about 15 litres of water, how can you verify your estimate accurately?",
         "options": [
-          "Fill it using a verified 1-litre bottle and count how many bottles it takes",
-          "Look at the bucket from across the room",
-          "Guess again with your eyes closed",
-          "Weigh the empty bucket on a scale"
+          "Fill it using a verified 1-litre bottle and count how many bottles it holds",
+          "Stand across the hallway and visually assess the depth with your eyes shut",
+          "Guess another random numeric capacity value without using any container",
+          "Place the dry empty bucket on a weighing balance without adding any liquid"
         ],
         "answer": 0,
         "explain": "Pouring known 1-litre measures until full verifies the true liquid capacity!"
@@ -3153,7 +3153,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "Zero accuracy",
           "Completely wrong by 1000 grams",
-          "Very close (only 10 grams difference!)",
+          "Very close",
           "Off by 5 kilograms"
         ],
         "answer": 2,
@@ -3173,10 +3173,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you estimate a bucket holds about 15 litres of water, how can you verify your estimate accurately?",
         "options": [
-          "Fill it using a verified 1-litre bottle and count how many bottles it takes",
-          "Look at the bucket from across the room",
-          "Guess again with your eyes closed",
-          "Weigh the empty bucket on a scale"
+          "Fill it using a verified 1-litre bottle and count how many bottles it holds",
+          "Stand across the hallway and visually assess the depth with your eyes shut",
+          "Guess another random numeric capacity value without using any container",
+          "Place the dry empty bucket on a weighing balance without adding any liquid"
         ],
         "answer": 0,
         "explain": "Pouring known 1-litre measures until full verifies the true liquid capacity!"
@@ -3291,10 +3291,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How long was Kabir's football game from 5:10 PM to 6:25 PM?",
         "options": [
-          "2 hours",
-          "1 hour exactly",
-          "50 minutes",
-          "1 hour and 15 minutes (75 minutes)"
+          "1 hour and 45 minutes",
+          "1 hour and 30 minutes",
+          "1 hour and 05 minutes",
+          "1 hour and 15 minutes"
         ],
         "answer": 3,
         "explain": "5:10 to 6:10 is 1 hour, plus 15 more minutes to 6:25 = 1 hour 15 minutes!"
@@ -3302,10 +3302,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a movie starts at 2:30 PM and runs for 2 hours and 15 minutes, what time does the movie end?",
         "options": [
-          "5:00 PM",
-          "4:30 PM",
-          "3:45 PM",
-          "4:45 PM"
+          "5",
+          "4",
+          "3",
+          "4"
         ],
         "answer": 3,
         "explain": "2:30 + 2 hours = 4:30 PM; plus 15 minutes = 4:45 PM!"
@@ -3334,10 +3334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How long was Kabir's football game from 5:10 PM to 6:25 PM?",
         "options": [
-          "2 hours",
-          "1 hour exactly",
-          "50 minutes",
-          "1 hour and 15 minutes (75 minutes)"
+          "1 hour and 45 minutes",
+          "1 hour and 30 minutes",
+          "1 hour and 05 minutes",
+          "1 hour and 15 minutes"
         ],
         "answer": 3,
         "explain": "5:10 to 6:10 is 1 hour, plus 15 more minutes to 6:25 = 1 hour 15 minutes!"
@@ -3345,10 +3345,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a movie starts at 2:30 PM and runs for 2 hours and 15 minutes, what time does the movie end?",
         "options": [
-          "5:00 PM",
-          "4:30 PM",
-          "3:45 PM",
-          "4:45 PM"
+          "5",
+          "4",
+          "3",
+          "4"
         ],
         "answer": 3,
         "explain": "2:30 + 2 hours = 4:30 PM; plus 15 minutes = 4:45 PM!"
@@ -3366,10 +3366,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What time is '14:20' on a standard 12-hour clock?",
         "options": [
-          "4:20 AM",
-          "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon",
-          "12:20 PM"
+          "4",
+          "2",
+          "2",
+          "12"
         ],
         "answer": 2,
         "explain": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
@@ -3377,10 +3377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is 8:45 in the morning written on a 24-hour clock?",
         "options": [
-          "20:45 hours",
-          "18:45 hours",
-          "08:45 hours",
-          "00:45 hours"
+          "20",
+          "18",
+          "08",
+          "00"
         ],
         "answer": 2,
         "explain": "Morning hours keep their numbers with a leading zero: 08:45 hours."
@@ -3388,7 +3388,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'AM' stand for in clock time?",
         "options": [
-          "Ante Meridiem (before midday/noon)",
+          "Ante Meridiem",
           "All Morning",
           "After Midnight only",
           "At Midday"
@@ -3409,10 +3409,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What time is '14:20' on a standard 12-hour clock?",
         "options": [
-          "4:20 AM",
-          "2:20 AM in the middle of the night",
-          "2:20 PM in the afternoon",
-          "12:20 PM"
+          "4",
+          "2",
+          "2",
+          "12"
         ],
         "answer": 2,
         "explain": "Hours above 12 represent afternoon/evening: 14 - 12 = 2:20 PM!"
@@ -3420,10 +3420,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How is 8:45 in the morning written on a 24-hour clock?",
         "options": [
-          "20:45 hours",
-          "18:45 hours",
-          "08:45 hours",
-          "00:45 hours"
+          "20",
+          "18",
+          "08",
+          "00"
         ],
         "answer": 2,
         "explain": "Morning hours keep their numbers with a leading zero: 08:45 hours."
@@ -3431,7 +3431,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does 'AM' stand for in clock time?",
         "options": [
-          "Ante Meridiem (before midday/noon)",
+          "Ante Meridiem",
           "All Morning",
           "After Midnight only",
           "At Midday"
@@ -3474,10 +3474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A roll of ribbon is 350 centimeters long. Express this length in meters and centimeters:",
         "options": [
-          "3 meters and 50 centimeters (3 m 50 cm)",
-          "30 meters and 5 cm",
-          "350 meters",
-          "35 meters"
+          "3 meters and 50 centimeters",
+          "35 meters and 0 centimeters",
+          "30 meters and 5 centimeters",
+          "0 meters and 35 centimeters"
         ],
         "answer": 0,
         "explain": "300 cm = 3 meters, leaving 50 cm. So it is 3 m 50 cm!"
@@ -3517,10 +3517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "A roll of ribbon is 350 centimeters long. Express this length in meters and centimeters:",
         "options": [
-          "3 meters and 50 centimeters (3 m 50 cm)",
-          "30 meters and 5 cm",
-          "350 meters",
-          "35 meters"
+          "3 meters and 50 centimeters",
+          "35 meters and 0 centimeters",
+          "30 meters and 5 centimeters",
+          "0 meters and 35 centimeters"
         ],
         "answer": 0,
         "explain": "300 cm = 3 meters, leaving 50 cm. So it is 3 m 50 cm!"
@@ -3560,10 +3560,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
-          "12 apples",
-          "15 apples",
+          "12 apples per basket",
+          "16 apples per basket",
           "10 apples per basket",
-          "8 apples"
+          "8 apples per basket"
         ],
         "answer": 2,
         "explain": "80 divided equally by 8 equals 10 apples per basket."
@@ -3603,10 +3603,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If 80 apples are packed equally into 8 gift baskets, how many apples go into each basket?",
         "options": [
-          "12 apples",
-          "15 apples",
+          "12 apples per basket",
+          "16 apples per basket",
           "10 apples per basket",
-          "8 apples"
+          "8 apples per basket"
         ],
         "answer": 2,
         "explain": "80 divided equally by 8 equals 10 apples per basket."
@@ -3624,10 +3624,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Leo eats 1 slice out of the 4 equal slices, what fraction of the pizza did he eat?",
         "options": [
-          "4/4 (whole)",
-          "1/2 (half)",
-          "3/4 (three-fourths)",
-          "1/4 (one-fourth / one quarter)"
+          "4/4",
+          "1/2",
+          "3/4",
+          "1/4"
         ],
         "answer": 3,
         "explain": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
@@ -3647,7 +3647,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If his friends eat 3 slices out of the 4 slices, what fraction of the pizza is eaten?",
         "options": [
           "1/4",
-          "3/4 (three-fourths)",
+          "3/4",
           "2/3",
           "1/2"
         ],
@@ -3667,10 +3667,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If Leo eats 1 slice out of the 4 equal slices, what fraction of the pizza did he eat?",
         "options": [
-          "4/4 (whole)",
-          "1/2 (half)",
-          "3/4 (three-fourths)",
-          "1/4 (one-fourth / one quarter)"
+          "4/4",
+          "1/2",
+          "3/4",
+          "1/4"
         ],
         "answer": 3,
         "explain": "1 slice out of 4 equal parts is the fraction 1/4 (one quarter)!"
@@ -3690,7 +3690,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "If his friends eat 3 slices out of the 4 slices, what fraction of the pizza is eaten?",
         "options": [
           "1/4",
-          "3/4 (three-fourths)",
+          "3/4",
           "2/3",
           "1/2"
         ],
@@ -3713,7 +3713,7 @@ Object.assign(window.GAME_CONTENT, {
           "1/4",
           "3/4",
           "2/3",
-          "2/4 (two-fourths)"
+          "2/4"
         ],
         "answer": 3,
         "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
@@ -3732,10 +3732,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the fraction 3/4, what does the bottom number (the denominator, 4) represent?",
         "options": [
-          "The weight in grams",
-          "The number of parts you eat",
-          "A multiplication sign",
-          "The total number of equal parts the whole is divided into"
+          "The total weight of the object measured in gram units",
+          "The count of individual equal pieces eaten or removed",
+          "The mathematical multiplication factor for the fraction",
+          "The total number of equal parts the whole is split into"
         ],
         "answer": 3,
         "explain": "The denominator tells how many equal shares make up one whole unit!"
@@ -3756,7 +3756,7 @@ Object.assign(window.GAME_CONTENT, {
           "1/4",
           "3/4",
           "2/3",
-          "2/4 (two-fourths)"
+          "2/4"
         ],
         "answer": 3,
         "explain": "Multiply numerator and denominator by 2: (1x2)/(2x2) = 2/4. They are equivalent!"
@@ -3775,10 +3775,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the fraction 3/4, what does the bottom number (the denominator, 4) represent?",
         "options": [
-          "The weight in grams",
-          "The number of parts you eat",
-          "A multiplication sign",
-          "The total number of equal parts the whole is divided into"
+          "The total weight of the object measured in gram units",
+          "The count of individual equal pieces eaten or removed",
+          "The mathematical multiplication factor for the fraction",
+          "The total number of equal parts the whole is split into"
         ],
         "answer": 3,
         "explain": "The denominator tells how many equal shares make up one whole unit!"
@@ -3808,7 +3808,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How are multiplication and division related? If 7 x 5 = 35, what is 35 / 5?",
         "options": [
           "30",
-          "7 (division is the inverse of multiplication)",
+          "7",
           "5",
           "12"
         ],
@@ -3851,7 +3851,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "How are multiplication and division related? If 7 x 5 = 35, what is 35 / 5?",
         "options": [
           "30",
-          "7 (division is the inverse of multiplication)",
+          "7",
           "5",
           "12"
         ],
@@ -3904,10 +3904,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens to any number when you multiply it by 100?",
         "options": [
-          "Add one zero: 360",
-          "Subtract two zeros",
-          "Add two zeros to the end: 3,600",
-          "The number stays 36"
+          "It increases by one place value by appending one zero",
+          "It decreases in value by removing two terminal zeros",
+          "It increases by two place values by appending two zeros",
+          "Its numerical value remains completely unchanged at all"
         ],
         "answer": 2,
         "explain": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
@@ -3947,10 +3947,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens to any number when you multiply it by 100?",
         "options": [
-          "Add one zero: 360",
-          "Subtract two zeros",
-          "Add two zeros to the end: 3,600",
-          "The number stays 36"
+          "It increases by one place value by appending one zero",
+          "It decreases in value by removing two terminal zeros",
+          "It increases by two place values by appending two zeros",
+          "Its numerical value remains completely unchanged at all"
         ],
         "answer": 2,
         "explain": "Multiplying by 100 shifts the digits two place values to the left, giving 3,600!"
@@ -4054,10 +4054,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a geometric pattern has reflection symmetry across a vertical center line, what must be true about the two halves?",
         "options": [
-          "The right side is three times larger",
-          "They are exact mirror images of each other in size, shape, and color placement",
-          "The sides use different shapes",
-          "One side is completely blank"
+          "The right-hand section is three times larger than the left-hand section",
+          "Both halves are exact mirror reflections in shape, size, and alignment",
+          "The opposite sides display entirely different geometric polygons and lines",
+          "One half displays full motifs while the opposite side remains completely blank"
         ],
         "answer": 1,
         "explain": "A line of symmetry creates identical mirror-image reflections on both sides!"
@@ -4068,7 +4068,7 @@ Object.assign(window.GAME_CONTENT, {
           "2 lines only",
           "0 lines",
           "1 line only",
-          "4 lines of symmetry (horizontal, vertical, and two diagonals)"
+          "4 lines of symmetry"
         ],
         "answer": 3,
         "explain": "A square can be folded in half vertically, horizontally, or along both diagonals (4 lines)!"
@@ -4078,7 +4078,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "G",
           "F",
-          "A (folds cleanly down the center)",
+          "A",
           "B"
         ],
         "answer": 2,
@@ -4097,10 +4097,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If a geometric pattern has reflection symmetry across a vertical center line, what must be true about the two halves?",
         "options": [
-          "The right side is three times larger",
-          "They are exact mirror images of each other in size, shape, and color placement",
-          "The sides use different shapes",
-          "One side is completely blank"
+          "The right-hand section is three times larger than the left-hand section",
+          "Both halves are exact mirror reflections in shape, size, and alignment",
+          "The opposite sides display entirely different geometric polygons and lines",
+          "One half displays full motifs while the opposite side remains completely blank"
         ],
         "answer": 1,
         "explain": "A line of symmetry creates identical mirror-image reflections on both sides!"
@@ -4111,7 +4111,7 @@ Object.assign(window.GAME_CONTENT, {
           "2 lines only",
           "0 lines",
           "1 line only",
-          "4 lines of symmetry (horizontal, vertical, and two diagonals)"
+          "4 lines of symmetry"
         ],
         "answer": 3,
         "explain": "A square can be folded in half vertically, horizontally, or along both diagonals (4 lines)!"
@@ -4121,7 +4121,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "G",
           "F",
-          "A (folds cleanly down the center)",
+          "A",
           "B"
         ],
         "answer": 2,
@@ -4140,10 +4140,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the fixed central point where the string was pinned called?",
         "options": [
-          "The diameter",
-          "The corner",
-          "The circumference",
-          "The Centre of the circle"
+          "The outer circumference",
+          "A straight chord segment",
+          "The circular diameter line",
+          "The center of the circle"
         ],
         "answer": 3,
         "explain": "The centre is the exact middle point from which all points on the circle are equidistant!"
@@ -4162,10 +4162,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
         "options": [
-          "They are unrelated",
-          "Diameter is half of radius",
-          "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius"
+          "Diameter and radius have no geometric connection",
+          "Diameter measures exactly half of radius length",
+          "Diameter is equal to the radius of that circle",
+          "Diameter is exactly twice the length of radius"
         ],
         "answer": 3,
         "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
@@ -4183,10 +4183,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What is the fixed central point where the string was pinned called?",
         "options": [
-          "The diameter",
-          "The corner",
-          "The circumference",
-          "The Centre of the circle"
+          "The outer circumference",
+          "A straight chord segment",
+          "The circular diameter line",
+          "The center of the circle"
         ],
         "answer": 3,
         "explain": "The centre is the exact middle point from which all points on the circle are equidistant!"
@@ -4205,10 +4205,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How does the DIAMETER (the longest chord passing through the centre) relate to the radius?",
         "options": [
-          "They are unrelated",
-          "Diameter is half of radius",
-          "Diameter is equal to radius",
-          "Diameter is exactly TWICE the length of the radius"
+          "Diameter and radius have no geometric connection",
+          "Diameter measures exactly half of radius length",
+          "Diameter is equal to the radius of that circle",
+          "Diameter is exactly twice the length of radius"
         ],
         "answer": 3,
         "explain": "The diameter passes through the centre from edge to edge: Diameter = 2 x Radius!"
@@ -4323,10 +4323,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When looking at the FRONT VIEW of a standard pitched-roof doghouse, what shape does the roof line make?",
         "options": [
-          "A Triangle atop a rectangle",
-          "A spiral",
-          "A round sphere",
-          "A flat line only"
+          "A triangle atop a rectangle",
+          "A smooth continuous circle",
+          "A single straight flat ray",
+          "A winding curved line oval"
         ],
         "answer": 0,
         "explain": "The front shows the rectangular door wall topped by the triangular gable roof."
@@ -4334,10 +4334,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do engineers and architects draw Top, Front, and Side views (orthographic drawings) of buildings?",
         "options": [
-          "To make drawing as difficult as possible",
-          "It shows exact dimensions from all angles so builders know how to construct it accurately",
-          "Because computers cannot show 3D objects",
-          "So nobody can see inside"
+          "To make drafting architectural blueprints as complicated and slow as possible",
+          "It shows exact dimensions from all angles so builders construct each face correctly",
+          "Because modern engineering software is unable to render three-dimensional shapes",
+          "To ensure that construction workers cannot tell what the interior layout looks like"
         ],
         "answer": 1,
         "explain": "Multi-view architectural plans give builders the precise measurements for every face of a structure!"
@@ -4366,10 +4366,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When looking at the FRONT VIEW of a standard pitched-roof doghouse, what shape does the roof line make?",
         "options": [
-          "A Triangle atop a rectangle",
-          "A spiral",
-          "A round sphere",
-          "A flat line only"
+          "A triangle atop a rectangle",
+          "A smooth continuous circle",
+          "A single straight flat ray",
+          "A winding curved line oval"
         ],
         "answer": 0,
         "explain": "The front shows the rectangular door wall topped by the triangular gable roof."
@@ -4377,10 +4377,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do engineers and architects draw Top, Front, and Side views (orthographic drawings) of buildings?",
         "options": [
-          "To make drawing as difficult as possible",
-          "It shows exact dimensions from all angles so builders know how to construct it accurately",
-          "Because computers cannot show 3D objects",
-          "So nobody can see inside"
+          "To make drafting architectural blueprints as complicated and slow as possible",
+          "It shows exact dimensions from all angles so builders construct each face correctly",
+          "Because modern engineering software is unable to render three-dimensional shapes",
+          "To ensure that construction workers cannot tell what the interior layout looks like"
         ],
         "answer": 1,
         "explain": "Multi-view architectural plans give builders the precise measurements for every face of a structure!"
@@ -4398,10 +4398,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When Vikram opens the folded paper, what does he see across the fold crease?",
         "options": [
-          "A symmetrical design where both sides are mirror reflections (like colorful butterfly wings)",
-          "The paint disappeared completely",
-          "A printed photograph of a car",
-          "Only one side has paint while the other is bone dry"
+          "A symmetrical design where both sides mirror each other",
+          "A completely dry sheet where all the wet paint vanished",
+          "A printed photo image showing complex machinery shapes",
+          "One side coated in paint while the opposite stays dry"
         ],
         "answer": 0,
         "explain": "Pressing the folded paper transfers the paint into a breathtaking, perfectly symmetrical mirror design!"
@@ -4409,7 +4409,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the paper fold line represent in geometric terms?",
         "options": [
-          "The Line of Symmetry (Axis of Reflection)",
+          "The Line of Symmetry",
           "The Perimeter boundary",
           "The Radius line",
           "A straight diagonal diameter"
@@ -4421,7 +4421,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which real creature in nature displays striking bilateral reflection symmetry across its body?",
         "options": [
           "A random puddle of water",
-          "A Butterfly (its left wing mirrors its right wing)",
+          "A Butterfly",
           "A spilled bucket of milk",
           "A jagged mountain peak"
         ],
@@ -4441,10 +4441,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When Vikram opens the folded paper, what does he see across the fold crease?",
         "options": [
-          "A symmetrical design where both sides are mirror reflections (like colorful butterfly wings)",
-          "The paint disappeared completely",
-          "A printed photograph of a car",
-          "Only one side has paint while the other is bone dry"
+          "A symmetrical design where both sides mirror each other",
+          "A completely dry sheet where all the wet paint vanished",
+          "A printed photo image showing complex machinery shapes",
+          "One side coated in paint while the opposite stays dry"
         ],
         "answer": 0,
         "explain": "Pressing the folded paper transfers the paint into a breathtaking, perfectly symmetrical mirror design!"
@@ -4452,7 +4452,7 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What does the paper fold line represent in geometric terms?",
         "options": [
-          "The Line of Symmetry (Axis of Reflection)",
+          "The Line of Symmetry",
           "The Perimeter boundary",
           "The Radius line",
           "A straight diagonal diameter"
@@ -4464,7 +4464,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "Which real creature in nature displays striking bilateral reflection symmetry across its body?",
         "options": [
           "A random puddle of water",
-          "A Butterfly (its left wing mirrors its right wing)",
+          "A Butterfly",
           "A spilled bucket of milk",
           "A jagged mountain peak"
         ],

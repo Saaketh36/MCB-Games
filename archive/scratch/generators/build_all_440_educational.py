@@ -46,7 +46,7 @@ def build_all():
         raise ValueError(f"Missing outcome IDs: {missing}")
 
     # Load base catalog
-    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
     catalog_path = os.path.join(root_dir, 'full_games_catalog.json')
 
     with open(catalog_path, 'r', encoding='utf-8') as f:

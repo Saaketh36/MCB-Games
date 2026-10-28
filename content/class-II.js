@@ -12,10 +12,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where should you draw the cozy house according to Teacher Maya?",
         "options": [
-          "In the top right corner",
-          "Underneath the desk",
-          "Hidden on the back of the paper",
-          "In the middle of your drawing sheet"
+          "Near the very top right edge of the drawing paper",
+          "Along the bottom left margin of the drawing paper",
+          "Directly on the blank reverse side of the drawing paper",
+          "Right in the open center of your clean drawing paper"
         ],
         "answer": 3,
         "explain": "Teacher Maya clearly said: 'a cozy red roof house in the middle'!"
@@ -55,10 +55,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Where should you draw the cozy house according to Teacher Maya?",
         "options": [
-          "In the top right corner",
-          "Underneath the desk",
-          "Hidden on the back of the paper",
-          "In the middle of your drawing sheet"
+          "Near the very top right edge of the drawing paper",
+          "Along the bottom left margin of the drawing paper",
+          "Directly on the blank reverse side of the drawing paper",
+          "Right in the open center of your clean drawing paper"
         ],
         "answer": 3,
         "explain": "Teacher Maya clearly said: 'a cozy red roof house in the middle'!"
@@ -109,10 +109,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When someone asks you: 'How was your weekend?', what is a cheerful, polite response?",
         "options": [
-          "'It was great, thank you! I went to the park. How was yours?'",
-          "'Why are you asking me?'",
-          "'No weekend for you!'",
-          "'I don't remember anything.'"
+          "It was wonderful, thank you! I visited the park with family. How was yours?",
+          "Why do you always ask me personal questions when we arrive at school today?",
+          "I do not feel like talking to anyone this morning, so please do not ask me.",
+          "I spent my weekend at home and I have completely forgotten everything about it."
         ],
         "answer": 0,
         "explain": "Sharing a polite sentence and asking in return makes a wonderful conversation!"
@@ -120,10 +120,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When you want to borrow a blue crayon from your desk partner, how should you ask?",
         "options": [
-          "'Give it here!'",
-          "'Hand over the blue crayon right now!'",
-          "'I am taking your crayon!'",
-          "'Please may I borrow your blue crayon?'"
+          "Give me that blue crayon immediately because I need it for my picture!",
+          "I am going to take your blue crayon right now whether you like it or not!",
+          "Hand over your drawing supplies quickly so I can finish coloring first!",
+          "Excuse me, please may I borrow your blue crayon for a few moments?"
         ],
         "answer": 3,
         "explain": "Using 'Please may I...' is the polite, respectful way to ask."
@@ -152,10 +152,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When someone asks you: 'How was your weekend?', what is a cheerful, polite response?",
         "options": [
-          "'It was great, thank you! I went to the park. How was yours?'",
-          "'Why are you asking me?'",
-          "'No weekend for you!'",
-          "'I don't remember anything.'"
+          "It was wonderful, thank you! I visited the park with family. How was yours?",
+          "Why do you always ask me personal questions when we arrive at school today?",
+          "I do not feel like talking to anyone this morning, so please do not ask me.",
+          "I spent my weekend at home and I have completely forgotten everything about it."
         ],
         "answer": 0,
         "explain": "Sharing a polite sentence and asking in return makes a wonderful conversation!"
@@ -163,10 +163,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When you want to borrow a blue crayon from your desk partner, how should you ask?",
         "options": [
-          "'Give it here!'",
-          "'Hand over the blue crayon right now!'",
-          "'I am taking your crayon!'",
-          "'Please may I borrow your blue crayon?'"
+          "Give me that blue crayon immediately because I need it for my picture!",
+          "I am going to take your blue crayon right now whether you like it or not!",
+          "Hand over your drawing supplies quickly so I can finish coloring first!",
+          "Excuse me, please may I borrow your blue crayon for a few moments?"
         ],
         "answer": 3,
         "explain": "Using 'Please may I...' is the polite, respectful way to ask."
@@ -292,10 +292,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the very FIRST event in this story?",
         "options": [
-          "The flower was harvested by a farmer",
-          "The butterfly landed on the stem",
-          "The seed was sleeping deep in the dark soil",
-          "Leaves fell off in winter"
+          "The blooming yellow flower was gently picked by a smiling farmer",
+          "A colorful striped butterfly fluttered down and rested on the leaf",
+          "A tiny plant seed lay quietly resting deep underneath the damp soil",
+          "Dry autumn leaves turned brown and drifted down during the cold breeze"
         ],
         "answer": 2,
         "explain": "The story began with the seed sleeping in the soil."
@@ -335,10 +335,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What was the very FIRST event in this story?",
         "options": [
-          "The flower was harvested by a farmer",
-          "The butterfly landed on the stem",
-          "The seed was sleeping deep in the dark soil",
-          "Leaves fell off in winter"
+          "The blooming yellow flower was gently picked by a smiling farmer",
+          "A colorful striped butterfly fluttered down and rested on the leaf",
+          "A tiny plant seed lay quietly resting deep underneath the damp soil",
+          "Dry autumn leaves turned brown and drifted down during the cold breeze"
         ],
         "answer": 2,
         "explain": "The story began with the seed sleeping in the soil."
@@ -442,10 +442,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a thoughtful question to ask about the characters in the story?",
         "options": [
-          "'What color are my socks?'",
-          "'Why did the clever rooster fly up to the high branch when he saw the fox?'",
-          "'Is it raining outside right now?'",
-          "'What is 5 plus 5?'"
+          "How many total printed pages are bound together inside this reading book?",
+          "Why did the clever rooster fly up to the high tree branch when he saw the fox?",
+          "What is the price printed in rupees on the back cover of this library book?",
+          "Who was sitting quietly at the front desk when the morning bell rang today?"
         ],
         "answer": 1,
         "explain": "Asking about the rooster's choice connects directly to character decisions in the story!"
@@ -453,10 +453,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can Varun express his personal opinion about the tale politely?",
         "options": [
-          "'I liked the rooster because he stayed calm and outsmarted the fox.'",
-          "'Characters are people or animals.'",
-          "'This book has paper pages.'",
-          "'I won't say anything.'"
+          "I enjoyed the rooster character because he stayed calm and outsmarted the hungry fox.",
+          "A dictionary explains that fictional characters are either people or talking animals.",
+          "This paperback storybook was manufactured using thin white paper sheets and staples.",
+          "I refuse to answer any questions about the characters because reading is boring to me."
         ],
         "answer": 0,
         "explain": "Sharing why you liked a character explains your personal opinion clearly."
@@ -464,10 +464,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...'",
-          "'Nobody asked you.'",
-          "'I am leaving the room!'",
-          "'You are wrong, stop talking!'"
+          "I understand your viewpoint, but I thought the ending was surprising because the fox fled.",
+          "Your opinion is completely silly and nobody in our entire reading circle agreed with you.",
+          "I am packing up my notebooks and leaving the classroom right now so I do not have to listen.",
+          "You are completely mistaken about the story, so you should stop talking immediately."
         ],
         "answer": 0,
         "explain": "Polite discussions respect others' ideas while explaining your own thoughts."
@@ -485,10 +485,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which of these is a thoughtful question to ask about the characters in the story?",
         "options": [
-          "'What color are my socks?'",
-          "'Why did the clever rooster fly up to the high branch when he saw the fox?'",
-          "'Is it raining outside right now?'",
-          "'What is 5 plus 5?'"
+          "How many total printed pages are bound together inside this reading book?",
+          "Why did the clever rooster fly up to the high tree branch when he saw the fox?",
+          "What is the price printed in rupees on the back cover of this library book?",
+          "Who was sitting quietly at the front desk when the morning bell rang today?"
         ],
         "answer": 1,
         "explain": "Asking about the rooster's choice connects directly to character decisions in the story!"
@@ -496,10 +496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "How can Varun express his personal opinion about the tale politely?",
         "options": [
-          "'I liked the rooster because he stayed calm and outsmarted the fox.'",
-          "'Characters are people or animals.'",
-          "'This book has paper pages.'",
-          "'I won't say anything.'"
+          "I enjoyed the rooster character because he stayed calm and outsmarted the hungry fox.",
+          "A dictionary explains that fictional characters are either people or talking animals.",
+          "This paperback storybook was manufactured using thin white paper sheets and staples.",
+          "I refuse to answer any questions about the characters because reading is boring to me."
         ],
         "answer": 0,
         "explain": "Sharing why you liked a character explains your personal opinion clearly."
@@ -507,10 +507,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you disagree with a classmate's opinion about a story, what is the best way to respond?",
         "options": [
-          "'I see your point, but I felt the ending was surprising because...'",
-          "'Nobody asked you.'",
-          "'I am leaving the room!'",
-          "'You are wrong, stop talking!'"
+          "I understand your viewpoint, but I thought the ending was surprising because the fox fled.",
+          "Your opinion is completely silly and nobody in our entire reading circle agreed with you.",
+          "I am packing up my notebooks and leaving the classroom right now so I do not have to listen.",
+          "You are completely mistaken about the story, so you should stop talking immediately."
         ],
         "answer": 0,
         "explain": "Polite discussions respect others' ideas while explaining your own thoughts."
@@ -528,10 +528,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What action do children do with their hands when singing 'Twinkle, twinkle'?",
         "options": [
-          "Open and close their fingers like sparkling stars",
-          "Fold their arms tightly",
-          "Cover their knees with both hands",
-          "Stomp their heavy shoes loudly"
+          "Open and close their outstretched fingers like glittering, sparkling stars",
+          "Cross their arms tightly over their chest without moving a single finger",
+          "Press both palms firmly against their knees while keeping completely still",
+          "Clench their hands into tight fists and hold them hidden behind their backs"
         ],
         "answer": 0,
         "explain": "Fluttering open and closed fingers looks just like glittering starlight!"
@@ -539,10 +539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the song, where does the little star shine so bright?",
         "options": [
-          "'Underneath the carpet on the floor'",
-          "'Up above the world so high, like a diamond in the sky'",
-          "'Behind the kitchen sink'",
-          "'Inside the closed lunchbox'"
+          "Hidden quietly underneath the thick woven carpet on the bedroom floor",
+          "Up above the world so high, shining like a bright diamond in the dark sky",
+          "Tucked away in the shadowy darkness behind the cold kitchen water tap",
+          "Locked safely inside the bottom compartment of a heavy metal school desk"
         ],
         "answer": 1,
         "explain": "The rhyme sings: 'Up above the world so high, like a diamond in the sky!'"
@@ -571,10 +571,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What action do children do with their hands when singing 'Twinkle, twinkle'?",
         "options": [
-          "Open and close their fingers like sparkling stars",
-          "Fold their arms tightly",
-          "Cover their knees with both hands",
-          "Stomp their heavy shoes loudly"
+          "Open and close their outstretched fingers like glittering, sparkling stars",
+          "Cross their arms tightly over their chest without moving a single finger",
+          "Press both palms firmly against their knees while keeping completely still",
+          "Clench their hands into tight fists and hold them hidden behind their backs"
         ],
         "answer": 0,
         "explain": "Fluttering open and closed fingers looks just like glittering starlight!"
@@ -582,10 +582,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "In the song, where does the little star shine so bright?",
         "options": [
-          "'Underneath the carpet on the floor'",
-          "'Up above the world so high, like a diamond in the sky'",
-          "'Behind the kitchen sink'",
-          "'Inside the closed lunchbox'"
+          "Hidden quietly underneath the thick woven carpet on the bedroom floor",
+          "Up above the world so high, shining like a bright diamond in the dark sky",
+          "Tucked away in the shadowy darkness behind the cold kitchen water tap",
+          "Locked safely inside the bottom compartment of a heavy metal school desk"
         ],
         "answer": 1,
         "explain": "The rhyme sings: 'Up above the world so high, like a diamond in the sky!'"
@@ -883,10 +883,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you want to write one sentence about how the poem made you feel, which is the best start?",
         "options": [
-          "'The poem made me feel happy and cheerful.'",
-          "'Pencils have erasers.'",
-          "'A noun is a naming word.'",
-          "'I have two shoes.'"
+          "Reading this gentle poem made me feel peaceful, happy, and cheerful inside.",
+          "Wooden writing pencils come equipped with small pink rubber erasers on top.",
+          "An English grammar book states that a common noun is simply a naming word.",
+          "I laced up my pair of black sports shoes before walking out to the playground."
         ],
         "answer": 0,
         "explain": "This sentence clearly expresses your personal feeling about the poem."
@@ -895,7 +895,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What should always come at the very end of your written sentence?",
         "options": [
           "A capital letter",
-          "A full stop (period)",
+          "A full stop",
           "A comma in the middle",
           "A blank blank space"
         ],
@@ -926,10 +926,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "If you want to write one sentence about how the poem made you feel, which is the best start?",
         "options": [
-          "'The poem made me feel happy and cheerful.'",
-          "'Pencils have erasers.'",
-          "'A noun is a naming word.'",
-          "'I have two shoes.'"
+          "Reading this gentle poem made me feel peaceful, happy, and cheerful inside.",
+          "Wooden writing pencils come equipped with small pink rubber erasers on top.",
+          "An English grammar book states that a common noun is simply a naming word.",
+          "I laced up my pair of black sports shoes before walking out to the playground."
         ],
         "answer": 0,
         "explain": "This sentence clearly expresses your personal feeling about the poem."
@@ -938,7 +938,7 @@ Object.assign(window.GAME_CONTENT, {
         "q": "What should always come at the very end of your written sentence?",
         "options": [
           "A capital letter",
-          "A full stop (period)",
+          "A full stop",
           "A comma in the middle",
           "A blank blank space"
         ],
@@ -960,7 +960,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The dog ran fast.",
           "Thed ogranf ast.",
-          "The  dog   ran      fast .",
+          "The dog ran fast .",
           "Thedogranfast."
         ],
         "answer": 0,
@@ -969,10 +969,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do we leave a small space between words when writing?",
         "options": [
-          "To waste space on the page",
-          "Because letters do not like each other",
-          "So the reader can tell where one word ends and the next begins",
-          "To make the writing impossible to read"
+          "To spread our sentences across the page and fill up the entire notebook line faster",
+          "Because uppercase and lowercase letters will get damaged if they touch one another",
+          "So the reader can clearly tell where one word ends and the next word starts to read",
+          "To create wide gaps so that the reader finds it difficult to connect the sentences"
         ],
         "answer": 2,
         "explain": "Spaces make words easy and clear to read!"
@@ -1003,7 +1003,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "The dog ran fast.",
           "Thed ogranf ast.",
-          "The  dog   ran      fast .",
+          "The dog ran fast .",
           "Thedogranfast."
         ],
         "answer": 0,
@@ -1012,10 +1012,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Why do we leave a small space between words when writing?",
         "options": [
-          "To waste space on the page",
-          "Because letters do not like each other",
-          "So the reader can tell where one word ends and the next begins",
-          "To make the writing impossible to read"
+          "To spread our sentences across the page and fill up the entire notebook line faster",
+          "Because uppercase and lowercase letters will get damaged if they touch one another",
+          "So the reader can clearly tell where one word ends and the next word starts to read",
+          "To create wide gaps so that the reader finds it difficult to connect the sentences"
         ],
         "answer": 2,
         "explain": "Spaces make words easy and clear to read!"
@@ -1044,10 +1044,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Based on the collected survey data, how do the GREATEST number of children travel to school?",
         "options": [
-          "On foot (6 children)",
+          "On foot",
           "By airplane",
-          "By school bus (10 children)",
-          "By bicycle (4 children)"
+          "By school bus",
+          "By bicycle"
         ],
         "answer": 2,
         "explain": "10 is the largest number in the survey, so the school bus is used most!"
@@ -1087,10 +1087,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Based on the collected survey data, how do the GREATEST number of children travel to school?",
         "options": [
-          "On foot (6 children)",
+          "On foot",
           "By airplane",
-          "By school bus (10 children)",
-          "By bicycle (4 children)"
+          "By school bus",
+          "By bicycle"
         ],
         "answer": 2,
         "explain": "10 is the largest number in the survey, so the school bus is used most!"
@@ -1216,9 +1216,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which combination of play money notes exactly equals ₹75?",
         "options": [
-          "Three ₹10 notes and one ₹5 coin",
-          "Two ₹20 notes only",
-          "One ₹100 note with no change",
+          "Three ₹20 notes, one ₹10 note, and one ₹5 coin",
+          "Two ₹20 notes, two ₹10 notes, and one ₹5 coin",
+          "One ₹50 note, two ₹10 notes, and two ₹5 coins",
           "One ₹50 note, one ₹20 note, and one ₹5 coin"
         ],
         "answer": 3,
@@ -1229,7 +1229,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "2 coins",
           "50 coins",
-          "5 coins (10, 20, 30, 40, 50)",
+          "5 coins",
           "10 coins"
         ],
         "answer": 2,
@@ -1259,9 +1259,9 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which combination of play money notes exactly equals ₹75?",
         "options": [
-          "Three ₹10 notes and one ₹5 coin",
-          "Two ₹20 notes only",
-          "One ₹100 note with no change",
+          "Three ₹20 notes, one ₹10 note, and one ₹5 coin",
+          "Two ₹20 notes, two ₹10 notes, and one ₹5 coin",
+          "One ₹50 note, two ₹10 notes, and two ₹5 coins",
           "One ₹50 note, one ₹20 note, and one ₹5 coin"
         ],
         "answer": 3,
@@ -1272,7 +1272,7 @@ Object.assign(window.GAME_CONTENT, {
         "options": [
           "2 coins",
           "50 coins",
-          "5 coins (10, 20, 30, 40, 50)",
+          "5 coins",
           "10 coins"
         ],
         "answer": 2,
@@ -1388,10 +1388,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which daily activity takes the LONGEST amount of time?",
         "options": [
-          "Tying your shoelaces (30 seconds)",
-          "Eating an apple (5 minutes)",
-          "Brushing your teeth (2 minutes)",
-          "Sleeping through the night (8 to 9 hours)"
+          "Tying your shoelaces",
+          "Eating an apple",
+          "Brushing your teeth",
+          "Sleeping through the night"
         ],
         "answer": 3,
         "explain": "A full night's restful sleep lasts about 8 to 9 hours, the longest duration!"
@@ -1399,8 +1399,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Does a child typically spend a longer time at school or eating a meal?",
         "options": [
-          "Eating a meal (about 20 minutes)",
-          "At school (about 6 hours)",
+          "Eating a meal",
+          "At school",
           "Both take the exact same time",
           "Neither takes any time"
         ],
@@ -1431,10 +1431,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Which daily activity takes the LONGEST amount of time?",
         "options": [
-          "Tying your shoelaces (30 seconds)",
-          "Eating an apple (5 minutes)",
-          "Brushing your teeth (2 minutes)",
-          "Sleeping through the night (8 to 9 hours)"
+          "Tying your shoelaces",
+          "Eating an apple",
+          "Brushing your teeth",
+          "Sleeping through the night"
         ],
         "answer": 3,
         "explain": "A full night's restful sleep lasts about 8 to 9 hours, the longest duration!"
@@ -1442,8 +1442,8 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "Does a child typically spend a longer time at school or eating a meal?",
         "options": [
-          "Eating a meal (about 20 minutes)",
-          "At school (about 6 hours)",
+          "Eating a meal",
+          "At school",
           "Both take the exact same time",
           "Neither takes any time"
         ],
@@ -1474,10 +1474,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens to the pan holding the heavy watermelon?",
         "options": [
-          "It sinks lower down because it has more weight",
-          "It disappears",
-          "It floats up into the ceiling",
-          "It stays completely flat with the apple"
+          "It tilts downward because the heavy watermelon exerts more downward weight",
+          "It rises upward toward the ceiling because heavy objects naturally float higher",
+          "It stays perfectly level with the small apple because both fruits are round",
+          "It wobbles back and forth without shifting either pan up or down on the scale"
         ],
         "answer": 0,
         "explain": "The heavier side pushes down, making that pan sink lower!"
@@ -1496,10 +1496,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When both pans of the balance scale stay exactly level at the same height, what does that tell you?",
         "options": [
-          "The left side is much heavier",
-          "Both sides have the exact same weight (equal)",
-          "The right side is much heavier",
-          "The scale is broken"
+          "The tray on the left side holds an object with significantly greater weight",
+          "Both trays hold objects that have the exact same balanced weight",
+          "The tray on the right side holds an object with significantly greater weight",
+          "The center beam of the balance scale is jammed and unable to move properly"
         ],
         "answer": 1,
         "explain": "When the pans balance level, the weights on both sides are equal!"
@@ -1517,10 +1517,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "What happens to the pan holding the heavy watermelon?",
         "options": [
-          "It sinks lower down because it has more weight",
-          "It disappears",
-          "It floats up into the ceiling",
-          "It stays completely flat with the apple"
+          "It tilts downward because the heavy watermelon exerts more downward weight",
+          "It rises upward toward the ceiling because heavy objects naturally float higher",
+          "It stays perfectly level with the small apple because both fruits are round",
+          "It wobbles back and forth without shifting either pan up or down on the scale"
         ],
         "answer": 0,
         "explain": "The heavier side pushes down, making that pan sink lower!"
@@ -1539,10 +1539,10 @@ Object.assign(window.GAME_CONTENT, {
       {
         "q": "When both pans of the balance scale stay exactly level at the same height, what does that tell you?",
         "options": [
-          "The left side is much heavier",
-          "Both sides have the exact same weight (equal)",
-          "The right side is much heavier",
-          "The scale is broken"
+          "The tray on the left side holds an object with significantly greater weight",
+          "Both trays hold objects that have the exact same balanced weight",
+          "The tray on the right side holds an object with significantly greater weight",
+          "The center beam of the balance scale is jammed and unable to move properly"
         ],
         "answer": 1,
         "explain": "When the pans balance level, the weights on both sides are equal!"

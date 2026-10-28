@@ -266,7 +266,7 @@ def process_content_classes():
         print(f"  -> Cleaned {q_count} prompts and {opt_count} options in {fpath}")
 
 def process_scratch_generators():
-    for fpath in sorted(glob.glob('scratch/generators/gen_class*.py')):
+    for fpath in sorted(glob.glob('archive/scratch/generators/gen_class*.py')):
         print(f"Processing generator {fpath}...")
         with open(fpath, 'r', encoding='utf-8', errors='ignore') as f:
             content = f.read()

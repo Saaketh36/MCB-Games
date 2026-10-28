@@ -380,10 +380,14 @@ function renderGamesGrid() {
     if (!grid) return;
     grid.innerHTML = '';
 
-    // Get all assigned game IDs for the currently selected class
-    const assignedGameIds = AppState.assignments
-        .filter(a => a.class === AppState.selectedClass)
-        .map(a => a.gameId);
+    // Get all assigned game IDs in strict assigned order for the currently selected class
+    const classAsgs = AppState.assignments.filter(a => a.class === AppState.selectedClass);
+    const assignedGameIds = [];
+    classAsgs.forEach(a => {
+        if (!assignedGameIds.includes(a.gameId)) {
+            assignedGameIds.push(a.gameId);
+        }
+    });
 
     let list = GamesCatalog.filter(g => {
         // Class filter
@@ -410,6 +414,9 @@ function renderGamesGrid() {
         }
         return true;
     });
+
+    // Sort strictly by the order in which activities were assigned
+    list.sort((a, b) => assignedGameIds.indexOf(a.id) - assignedGameIds.indexOf(b.id));
 
     // Update adventure count badge & clear filters button
     const badge = document.getElementById('filteredGamesCountBadge');
@@ -2181,27 +2188,25 @@ function renderTeacherHub() {
         return true;
     });
 
-    // Group filtered games by Skill Area in order
-    const skillGroups = new Map();
-    filteredGames.forEach(g => {
-        const skill = (g.skillArea || 'Other Topics').trim();
-        if (!skillGroups.has(skill)) {
-            skillGroups.set(skill, []);
+    // Extract assignment order (sequence in which games were assigned to this class)
+    const assignedOrder = [];
+    classAsgs.forEach(a => {
+        if (!assignedOrder.includes(a.gameId)) {
+            assignedOrder.push(a.gameId);
         }
-        skillGroups.get(skill).push(g);
     });
 
-    // Within each skill group, sort assigned games first
-    skillGroups.forEach((gamesList) => {
-        gamesList.sort((a, b) => {
-            const aAssigned = classAsgs.filter(asg => asg.gameId === a.id).length;
-            const bAssigned = classAsgs.filter(asg => asg.gameId === b.id).length;
-            const aHas = aAssigned > 0 ? 1 : 0;
-            const bHas = bAssigned > 0 ? 1 : 0;
-            if (bHas !== aHas) return bHas - aHas;
-            if (bAssigned !== aAssigned) return bAssigned - aAssigned;
-            return 0;
-        });
+    // Sort filtered games strictly by assigned order first, then catalog order for unassigned
+    filteredGames.sort((a, b) => {
+        const aIdx = assignedOrder.indexOf(a.id);
+        const bIdx = assignedOrder.indexOf(b.id);
+        const aAssigned = aIdx !== -1;
+        const bAssigned = bIdx !== -1;
+
+        if (aAssigned && !bAssigned) return -1;
+        if (!aAssigned && bAssigned) return 1;
+        if (aAssigned && bAssigned) return aIdx - bIdx;
+        return 0;
     });
 
     const badgeCount = document.getElementById('teacherBadgeAssignedCount');
@@ -2231,100 +2236,130 @@ function renderTeacherHub() {
                         `;
             } else {
                 const isSpecificSubject = AppState.teacherSubjectFilter !== 'all';
+                const hasAssigned = filteredGames.some(g => assignedGameIds.has(g.id));
+                const hasUnassigned = filteredGames.some(g => !assignedGameIds.has(g.id));
+                const isMixed = hasAssigned && hasUnassigned;
+                let renderedAssignedDivider = false;
+                let renderedUnassignedDivider = false;
 
-                skillGroups.forEach((gamesInSkill, skillName) => {
-                    const hasAnyAssignedInSkill = gamesInSkill.some(g => classAsgs.some(a => a.gameId === g.id));
-                    // Skill Area Header Row (Order of Skill Area, stated once, NOT on every game!)
-                    const headerTr = document.createElement('tr');
-                    headerTr.className = 'curriculum-skill-header-row';
-                    headerTr.innerHTML = `
+                filteredGames.forEach(g => {
+                    const assigned = classAsgs.filter(a => a.gameId === g.id);
+                    const totalAssigned = assigned.length;
+                    const isAssigned = totalAssigned > 0;
+                    const completed = assigned.filter(a => a.status === 'completed');
+                    const compCount = completed.length;
+                    const pct = totalAssigned > 0 ? Math.round((compCount / totalAssigned) * 100) : 0;
+
+                    if (isMixed) {
+                        if (isAssigned && !renderedAssignedDivider) {
+                            renderedAssignedDivider = true;
+                            const assignedCount = filteredGames.filter(x => assignedGameIds.has(x.id)).length;
+                            const divTr = document.createElement('tr');
+                            divTr.className = 'curriculum-skill-header-row';
+                            divTr.innerHTML = `
                                 <td colspan="3">
                                     <div class="skill-header-content">
                                         <div class="skill-header-left">
-                                            <span class="skill-header-icon-badge">🎯</span>
-                                            <span class="skill-header-title">${skillName}</span>
-                                            <span class="skill-header-count">${gamesInSkill.length} ${gamesInSkill.length === 1 ? 'activity' : 'activities'}</span>
+                                            <span class="skill-header-icon-badge">📋</span>
+                                            <span class="skill-header-title">Assigned Activities (${assignedCount})</span>
+                                            <span class="skill-header-count">Sorted by Assigned Order</span>
                                         </div>
                                         <div class="skill-header-right">
-                                            ${hasAnyAssignedInSkill ? `
-                                            <button type="button" class="btn-clear-skill-heading" onclick="unassignSkill('${escapeHtml(skillName)}', '${cls}')" title="Unassign all activities in ${escapeHtml(skillName)} from Class ${cls}">
-                                                ✕ Clear Skill
+                                            <button type="button" class="btn-clear-skill-heading" onclick="promptResetAssignments()" title="Clear all assignments for Class ${cls}">
+                                                ✕ Clear All
                                             </button>
-                                            ` : ''}
                                         </div>
                                     </div>
                                 </td>
                             `;
-                    tableBody.appendChild(headerTr);
+                            tableBody.appendChild(divTr);
+                        } else if (!isAssigned && !renderedUnassignedDivider) {
+                            renderedUnassignedDivider = true;
+                            const unassignedCount = filteredGames.filter(x => !assignedGameIds.has(x.id)).length;
+                            const divTr = document.createElement('tr');
+                            divTr.className = 'curriculum-skill-header-row';
+                            divTr.innerHTML = `
+                                <td colspan="3">
+                                    <div class="skill-header-content">
+                                        <div class="skill-header-left">
+                                            <span class="skill-header-icon-badge">📚</span>
+                                            <span class="skill-header-title">Other Curriculum Activities (${unassignedCount})</span>
+                                            <span class="skill-header-count">Available to Assign</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            `;
+                            tableBody.appendChild(divTr);
+                        }
+                    }
 
-                    // Games under this Skill Area
-                    gamesInSkill.forEach(g => {
-                        const assigned = classAsgs.filter(a => a.gameId === g.id);
-                        const totalAssigned = assigned.length;
-                        const completed = assigned.filter(a => a.status === 'completed');
-                        const compCount = completed.length;
-                        const pct = totalAssigned > 0 ? Math.round((compCount / totalAssigned) * 100) : 0;
-                        const isAssigned = totalAssigned > 0;
-
-                        const tr = document.createElement('tr');
-                        tr.className = `curriculum-row ${isAssigned ? 'is-assigned' : ''}`;
-                        tr.innerHTML = `
-                                    <td>
-                                        <div class="curriculum-title-wrap">
-                                            ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
-                                            ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
-                                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge tac-badge-mini">🎮 Mini-Game</span>' : ''}
-                                            <span class="curriculum-title" title="${escapeHtml(g.title)}">${g.title}</span>
-                                            <button type="button" class="btn-tac-preview-sm" style="margin-left: auto; flex-shrink: 0;" onclick="previewActivity('${g.id}')" title="Preview activity before assigning">👁️ Preview</button>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="curriculum-progress-wrap">
-                                            ${isAssigned ? `
-                                            <div class="curriculum-progress-label">
-                                                <span class="curriculum-pct ${pct === 100 ? 'done' : 'in-prog'}">
-                                                    <strong>${compCount}/${totalAssigned}</strong> completed
-                                                </span>
-                                                <span class="curriculum-pct-badge ${pct === 100 ? 'done' : ''}">${pct}%</span>
-                                            </div>
-                                            <div class="tac-progress-bar">
-                                                <div class="tac-progress-fill ${pct === 100 ? 'full' : ''}" style="width: ${pct}%;"></div>
-                                            </div>
-                                            ` : `
-                                            <span class="curriculum-empty-dash">—</span>
-                                            `}
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="curriculum-students-cell">
-                                            ${isAssigned ? `
-                                            <div class="tac-students-wrap">
-                                                ${assigned.map(a => `
-                                                    <span class="tac-chip ${a.status === 'completed' ? 'completed' : 'pending'}" title="${a.student} (Roll #${a.roll}) • ${a.status === 'completed' ? `Score: ${a.score || 3}/${a.maxScore || 3} ⭐` : 'Pending'}">
-                                                        <span>${a.status === 'completed' ? '✓' : '⏳'}</span>
-                                                        <span>${a.student}</span>
-                                                        ${a.status === 'completed' && a.score !== undefined && a.score !== null ? `<span class="tac-chip-score">⭐ ${a.score}/${a.maxScore || 3}</span>` : ''}
-                                                    </span>
-                                                `).join('')}
-                                            </div>
-                                            ` : `
-                                            <span class="curriculum-empty-dash">—</span>
-                                            `}
-                                        </div>
-                                    </td>
-                                `;
-                        tableBody.appendChild(tr);
-                    });
+                    const tr = document.createElement('tr');
+                    tr.className = `curriculum-row ${isAssigned ? 'is-assigned' : ''}`;
+                    tr.innerHTML = `
+                        <td>
+                            <div class="curriculum-title-wrap">
+                                ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
+                                <span class="tac-badge tac-badge-skill" style="background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; font-size: 11px; padding: 2px 7px; border-radius: 6px;">🎯 ${escapeHtml(g.skillArea || 'General')}</span>
+                                ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
+                                ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge tac-badge-mini">🎮 Mini-Game</span>' : ''}
+                                <span class="curriculum-title" title="${escapeHtml(g.title)}">${g.title}</span>
+                                <div style="margin-left: auto; display: flex; align-items: center; gap: 6px; flex-shrink: 0;">
+                                    <button type="button" class="btn-tac-preview-sm" onclick="previewActivity('${g.id}')" title="Preview activity before assigning">👁️ Preview</button>
+                                    ${isAssigned ? `
+                                        <button type="button" class="btn-clear-assignments-sm" style="padding: 4px 10px; font-size: 11px; border-radius: 6px;" onclick="unassignActivity('${g.id}')" title="Unassign this activity from Class ${cls}">✕ Unassign</button>
+                                    ` : `
+                                        <button type="button" class="btn-tac-preview-sm" style="background: #e0e7ff; color: #3730a3; border-color: #c7d2fe; font-weight: 700;" onclick="openAssignModalForGame('${g.id}')" title="Assign this activity to students">+ Assign</button>
+                                    `}
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="curriculum-progress-wrap">
+                                ${isAssigned ? `
+                                <div class="curriculum-progress-label">
+                                    <span class="curriculum-pct ${pct === 100 ? 'done' : 'in-prog'}">
+                                        <strong>${compCount}/${totalAssigned}</strong> completed
+                                    </span>
+                                    <span class="curriculum-pct-badge ${pct === 100 ? 'done' : ''}">${pct}%</span>
+                                </div>
+                                <div class="tac-progress-bar">
+                                    <div class="tac-progress-fill ${pct === 100 ? 'full' : ''}" style="width: ${pct}%;"></div>
+                                </div>
+                                ` : `
+                                <span class="curriculum-empty-dash">—</span>
+                                `}
+                            </div>
+                        </td>
+                        <td>
+                            <div class="curriculum-students-cell">
+                                ${isAssigned ? `
+                                <div class="tac-students-wrap">
+                                    ${assigned.map(a => `
+                                        <span class="tac-chip ${a.status === 'completed' ? 'completed' : 'pending'}" title="${escapeHtml(a.student)} (Roll #${a.roll}) • ${a.status === 'completed' ? `Score: ${a.score || 3}/${a.maxScore || 3} ⭐` : 'Pending'}">
+                                            <span>${a.status === 'completed' ? '✓' : '⏳'}</span>
+                                            <span>${escapeHtml(a.student)}</span>
+                                            ${a.status === 'completed' && a.score !== undefined && a.score !== null ? `<span class="tac-chip-score">⭐ ${a.score}/${a.maxScore || 3}</span>` : ''}
+                                        </span>
+                                    `).join('')}
+                                </div>
+                                ` : `
+                                <span class="curriculum-empty-dash" style="color: var(--text-muted); font-size: 12px;">Not Assigned</span>
+                                `}
+                            </div>
+                        </td>
+                    `;
+                    tableBody.appendChild(tr);
                 });
             }
         }
-    } else {
-        // Grid Mode
-        if (tableContainer) tableContainer.style.display = 'none';
-        if (grid) {
-            grid.style.display = 'grid';
-            grid.innerHTML = '';
+    }
 
+    if (mode === 'grid') {
+        if (tableContainer) tableContainer.style.display = 'none';
+        if (grid) grid.style.display = 'grid';
+
+        if (grid) {
+            grid.innerHTML = '';
             if (filteredGames.length === 0) {
                 grid.innerHTML = `
                             <div style="grid-column: 1 / -1; text-align: center; padding: 48px; background: #ffffff; border-radius: 20px; border: 1.5px dashed #cbd5e1;">
@@ -2336,106 +2371,124 @@ function renderTeacherHub() {
                         `;
             } else {
                 const isSpecificSubject = AppState.teacherSubjectFilter !== 'all';
+                const hasAssigned = filteredGames.some(g => assignedGameIds.has(g.id));
+                const hasUnassigned = filteredGames.some(g => !assignedGameIds.has(g.id));
+                const isMixed = hasAssigned && hasUnassigned;
+                let renderedAssignedBanner = false;
+                let renderedUnassignedBanner = false;
 
-                skillGroups.forEach((gamesInSkill, skillName) => {
-                    const hasAnyAssignedInSkill = gamesInSkill.some(g => classAsgs.some(a => a.gameId === g.id));
-                    // Section Banner for Skill Area in Grid
-                    const banner = document.createElement('div');
-                    banner.style.cssText = 'grid-column: 1 / -1; margin-top: 14px; margin-bottom: 6px; padding: 10px 16px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;';
-                    banner.innerHTML = `
+                filteredGames.forEach(g => {
+                    const assigned = classAsgs.filter(a => a.gameId === g.id);
+                    const totalAssigned = assigned.length;
+                    const isAssigned = totalAssigned > 0;
+                    const completed = assigned.filter(a => a.status === 'completed');
+                    const compCount = completed.length;
+                    const pct = totalAssigned > 0 ? Math.round((compCount / totalAssigned) * 100) : 0;
+
+                    if (isMixed) {
+                        if (isAssigned && !renderedAssignedBanner) {
+                            renderedAssignedBanner = true;
+                            const assignedCount = filteredGames.filter(x => assignedGameIds.has(x.id)).length;
+                            const banner = document.createElement('div');
+                            banner.style.cssText = 'grid-column: 1 / -1; margin-top: 14px; margin-bottom: 6px; padding: 10px 16px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;';
+                            banner.innerHTML = `
                                 <div style="display: flex; align-items: center; gap: 8px;">
-                                    <span style="font-size: 16px;">🎯</span>
-                                    <span style="font-family: var(--font-heading); font-size: 15px; font-weight: 800; color: #1e1b4b;">${skillName}</span>
+                                    <span style="font-size: 16px;">📋</span>
+                                    <span style="font-family: var(--font-heading); font-size: 15px; font-weight: 800; color: #1e1b4b;">Assigned Activities</span>
                                 </div>
                                 <div style="display: flex; align-items: center; gap: 8px;">
                                     <span style="background: #ede9fe; color: #5b21b6; font-family: var(--font-heading); font-weight: 700; font-size: 11.5px; padding: 2px 10px; border-radius: 999px; border: 1px solid #ddd6fe;">
-                                        ${gamesInSkill.length} ${gamesInSkill.length === 1 ? 'activity' : 'activities'}
+                                        ${assignedCount} ${assignedCount === 1 ? 'activity' : 'activities'} (Sorted by Assigned Order)
                                     </span>
-                                    <button type="button" class="btn-assign-skill-heading" onclick="openAssignModalForSkill('${escapeHtml(skillName)}')" title="Assign activities in ${escapeHtml(skillName)}">
-                                        <svg class="assign-icon-dotted" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                            <circle cx="8" cy="8" r="6.5" stroke-dasharray="2.2 2.2"/>
-                                            <line x1="8" y1="5" x2="8" y2="11"/>
-                                            <line x1="5" y1="8" x2="11" y2="8"/>
-                                        </svg>
-                                        <span>Assign</span>
-                                    </button>
-                                    ${hasAnyAssignedInSkill ? `
-                                    <button type="button" class="btn-clear-assignments-sm" style="padding: 4px 10px; font-size: 11.5px; border-radius: 6px;" title="Unassign all activities in ${escapeHtml(skillName)} from Class ${cls}" onclick="unassignSkill('${escapeHtml(skillName)}', '${cls}')">
-                                        ✕ Clear Skill
-                                    </button>
-                                    ` : ''}
                                 </div>
                             `;
-                    grid.appendChild(banner);
+                            grid.appendChild(banner);
+                        } else if (!isAssigned && !renderedUnassignedBanner) {
+                            renderedUnassignedBanner = true;
+                            const unassignedCount = filteredGames.filter(x => !assignedGameIds.has(x.id)).length;
+                            const banner = document.createElement('div');
+                            banner.style.cssText = 'grid-column: 1 / -1; margin-top: 14px; margin-bottom: 6px; padding: 10px 16px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;';
+                            banner.innerHTML = `
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="font-size: 16px;">📚</span>
+                                    <span style="font-family: var(--font-heading); font-size: 15px; font-weight: 800; color: #1e1b4b;">Other Curriculum Activities</span>
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="background: #f1f5f9; color: #475569; font-family: var(--font-heading); font-weight: 700; font-size: 11.5px; padding: 2px 10px; border-radius: 999px; border: 1px solid #e2e8f0;">
+                                        ${unassignedCount} ${unassignedCount === 1 ? 'activity' : 'activities'}
+                                    </span>
+                                </div>
+                            `;
+                            grid.appendChild(banner);
+                        }
+                    }
 
-                    gamesInSkill.forEach(g => {
-                        const assigned = classAsgs.filter(a => a.gameId === g.id);
-                        const totalAssigned = assigned.length;
-                        const completed = assigned.filter(a => a.status === 'completed');
-                        const compCount = completed.length;
-                        const pct = totalAssigned > 0 ? Math.round((compCount / totalAssigned) * 100) : 0;
-                        const isAssigned = totalAssigned > 0;
+                    const card = document.createElement('div');
+                    card.className = `teacher-activity-card ${isAssigned ? 'is-assigned' : ''}`;
+                    card.innerHTML = `
+                        <div style="margin-bottom: 10px;">
+                            <div class="tac-badges" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                                ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
+                                <span class="tac-badge tac-badge-skill" style="background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; font-size: 10.5px; font-weight: 700; border-radius: 6px; padding: 2px 7px;">🎯 ${escapeHtml(g.skillArea || 'General')}</span>
+                                ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
+                                ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:10.5px; font-weight:800; border-radius:999px; padding:2px 7px;">🎮 Mini-Game</span>' : ''}
+                                <h4 class="tac-title" style="font-size: 15.5px; margin: 0; display: inline-block;">${g.title}</h4>
+                            </div>
+                        </div>
 
-                        const card = document.createElement('div');
-                        card.className = `teacher-activity-card ${isAssigned ? 'is-assigned' : ''}`;
+                        <div class="tac-progress-wrap" style="padding: 8px 12px; margin-bottom: 10px;">
+                            <div class="tac-progress-header" style="margin-bottom: 4px; font-size: 11.5px;">
+                                <span class="tac-progress-label">Completion:</span>
+                                <span class="tac-progress-metric ${pct === 100 ? 'completed' : (!isAssigned ? 'unassigned' : '')}">
+                                    ${isAssigned
+                                        ? `<strong>${compCount}/${totalAssigned}</strong> (${pct}%)`
+                                        : 'Not assigned (0%)'}
+                                </span>
+                            </div>
+                            <div class="tac-progress-bar" style="height: 7px;">
+                                <div class="tac-progress-fill ${pct === 100 ? 'full' : ''}" style="width: ${pct}%;"></div>
+                            </div>
+                        </div>
 
-                        card.innerHTML = `
-                                    <div style="margin-bottom: 10px;">
-                                        <div class="tac-badges" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-                                            ${!isSpecificSubject ? `<span class="tac-badge tac-badge-subject ${g.badgeClass || ''}">${g.subject}</span>` : ''}
-                                            ${g.isCustom ? '<span class="tac-badge tac-badge-custom">⭐ Custom</span>' : ''}
-                                            ${(window.Class2Games && window.Class2Games.isClass2Interactive(g)) ? '<span class="tac-badge" style="background:#fdf2f8; color:#be185d; border:1px solid #fbcfe8; font-size:10.5px; font-weight:800; border-radius:999px; padding:2px 7px;">🎮 Mini-Game</span>' : ''}
-                                            <h4 class="tac-title" style="font-size: 15.5px; margin: 0; display: inline-block;">${g.title}</h4>
-                                        </div>
-                                    </div>
+                        <div class="tac-students-wrap" style="margin-bottom: 10px;">
+                            <div class="tac-students-label" style="font-size: 11px; margin-bottom: 4px; display: flex; justify-content: space-between; align-items: center;">
+                                <span>Assigned Students (${totalAssigned})</span>
+                                ${isAssigned ? `<span style="font-weight: 700; color: ${pct === 100 ? '#15803d' : '#b45309'};">${pct === 100 ? '✓ Done' : `${compCount}/${totalAssigned} Done`}</span>` : ''}
+                            </div>
+                            <div class="tac-student-chips" style="display: flex; flex-wrap: wrap; gap: 4px;">
+                                ${isAssigned
+                                    ? assigned.map(a => `
+                                        <span class="tac-chip ${a.status === 'completed' ? 'completed' : 'pending'}" style="font-size: 11px; padding: 2px 8px;">
+                                            ${a.status === 'completed' ? `✓ ${escapeHtml(a.student)}` : `⏳ ${escapeHtml(a.student)}`}
+                                            ${a.status === 'completed' ? `<span class="tac-chip-stars" style="font-size: 10px;">⭐ ${a.score || 3}/3</span>` : ''}
+                                        </span>
+                                    `).join('')
+                                    : `<span style="color: #94a3b8; font-size: 12px; font-weight: 500;">—</span>`
+                                }
+                            </div>
+                        </div>
 
-                                    <div class="tac-progress-wrap" style="padding: 8px 12px; margin-bottom: 10px;">
-                                        <div class="tac-progress-header" style="margin-bottom: 4px; font-size: 11.5px;">
-                                            <span class="tac-progress-label">Completion:</span>
-                                            <span class="tac-progress-metric ${pct === 100 ? 'completed' : (!isAssigned ? 'unassigned' : '')}">
-                                                ${isAssigned
-                                ? `<strong>${compCount}/${totalAssigned}</strong> (${pct}%)`
-                                : 'Not assigned (0%)'}
-                                            </span>
-                                        </div>
-                                        <div class="tac-progress-bar" style="height: 7px;">
-                                            <div class="tac-progress-fill ${pct === 100 ? 'full' : ''}" style="width: ${pct}%;"></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tac-students-wrap" style="margin-bottom: 10px;">
-                                        <div class="tac-students-label" style="font-size: 11px; margin-bottom: 4px; display: flex; justify-content: space-between; align-items: center;">
-                                            <span>Assigned Students (${totalAssigned})</span>
-                                            ${isAssigned ? `<span style="font-weight: 700; color: ${pct === 100 ? '#15803d' : '#b45309'};">${pct === 100 ? '✓ Done' : `${compCount}/${totalAssigned} Done`}</span>` : ''}
-                                        </div>
-                                        <div class="tac-student-chips" style="display: flex; flex-wrap: wrap; gap: 4px;">
-                                            ${isAssigned
-                                ? assigned.map(a => `
-                                                    <span class="tac-chip ${a.status === 'completed' ? 'completed' : 'pending'}" style="font-size: 11px; padding: 2px 8px;">
-                                                        ${a.status === 'completed' ? `✓ ${a.student}` : `⏳ ${a.student}`}
-                                                        ${a.status === 'completed' ? `<span class="tac-chip-stars" style="font-size: 10px;">⭐ ${a.score || 3}/3</span>` : ''}
-                                                    </span>
-                                                `).join('')
-                                : `<span style="color: #94a3b8; font-size: 12px; font-weight: 500;">—</span>`
-                            }
-                                        </div>
-                                    </div>
-
-                                    <div class="tac-footer" style="padding-top: 8px; display: flex; gap: 6px; justify-content: flex-end;">
-                                        <button type="button" class="btn-tac-preview" style="padding: 7px 14px; font-size: 12px; width: 100%; justify-content: center; gap: 6px;" onclick="previewActivity('${g.id}')" title="Preview this activity before assigning">
-                                            <span>👁️</span> Preview Activity
-                                        </button>
-                                    </div>
-                                `;
-
-                        grid.appendChild(card);
-                    });
+                        <div class="tac-footer" style="padding-top: 8px; display: flex; gap: 6px; justify-content: flex-end;">
+                            <button type="button" class="btn-tac-preview" style="padding: 7px 14px; font-size: 12px; flex: 1; justify-content: center; gap: 6px;" onclick="previewActivity('${g.id}')" title="Preview this activity before assigning">
+                                <span>👁️</span> Preview
+                            </button>
+                            ${isAssigned ? `
+                                <button type="button" class="btn-clear-assignments-sm" style="padding: 7px 14px; font-size: 12px; border-radius: 8px;" onclick="unassignActivity('${g.id}')" title="Unassign this activity from Class ${cls}">
+                                    ✕ Unassign
+                                </button>
+                            ` : `
+                                <button type="button" class="btn-tac-assign" style="padding: 7px 14px; font-size: 12px; border-radius: 8px; background: #6366f1; color: #ffffff; border: none; font-weight: 600; cursor: pointer;" onclick="openAssignModalForGame('${g.id}')" title="Assign this activity">
+                                    + Assign
+                                </button>
+                            `}
+                        </div>
+                    `;
+                    grid.appendChild(card);
                 });
             }
         }
     }
 }
-
 function handleTeacherClassChange(cls) {
     handleClassFilterChange(cls);
 }
@@ -2858,18 +2911,25 @@ function renderSplitViews() {
 
     const classGames = GamesCatalog.filter(g => g.class === cls);
     const classAsgs = AppState.assignments.filter(a => a.class === cls);
-    const assignedGameIds = Array.from(new Set(classAsgs.map(a => a.gameId)));
-    const assignedGames = classGames.filter(g => assignedGameIds.includes(g.id));
+    const assignedOrder = [];
+    classAsgs.forEach(a => {
+        if (!assignedOrder.includes(a.gameId)) {
+            assignedOrder.push(a.gameId);
+        }
+    });
+    const assignedGames = assignedOrder.map(id => classGames.find(g => g.id === id)).filter(Boolean);
     const splitFilter = AppState.splitTeacherFilter || 'assigned';
 
-    // Sort: Assigned activities first
+    // Sort: Assigned activities first, in assigned order
     const sortedClassGames = [...classGames].sort((a, b) => {
-        const aAssigned = classAsgs.filter(asg => asg.gameId === a.id).length;
-        const bAssigned = classAsgs.filter(asg => asg.gameId === b.id).length;
-        const aHas = aAssigned > 0 ? 1 : 0;
-        const bHas = bAssigned > 0 ? 1 : 0;
-        if (bHas !== aHas) return bHas - aHas;
-        return bAssigned - aAssigned;
+        const aIdx = assignedOrder.indexOf(a.id);
+        const bIdx = assignedOrder.indexOf(b.id);
+        const aHas = aIdx !== -1;
+        const bHas = bIdx !== -1;
+        if (aHas && !bHas) return -1;
+        if (!aHas && bHas) return 1;
+        if (aHas && bHas) return aIdx - bIdx;
+        return 0;
     });
 
     const gamesToShow = splitFilter === 'assigned' ? assignedGames : sortedClassGames;

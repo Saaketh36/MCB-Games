@@ -1,6 +1,6 @@
 # 🏛️ MyClassboard (MCB) Games Platform — Comprehensive Reorganization Plan
 
-> **Status:** PROPOSAL ONLY — No code or directory changes executed yet.  
+> **Status:** Phases 0–1 started on `codex/reorganization-phase-0-1`; later phases remain proposal-only.  
 > **Target Version:** Clean, Modular, Scalable Architecture (Zero Behavior Changes)  
 > **Preserved Invariants:** `localStorage` key `'mcb_assignments_v8'`, all 440 learning outcomes (`LO-001` to `LO-440`), zero answer/formula leaks, authentic curriculum taxonomy, no-build-step runtime.
 
@@ -15,6 +15,12 @@ The MyClassboard (MCB) Games Platform is a feature-rich, curriculum-mapped educa
 - **`tools/` contains 56 scripts**, blending critical content-auditing suites with obsolete one-off patch scripts.
 
 This document details an audit of the repository, a proposed target structure, a risk-mitigated phased migration plan, and housekeeping standards.
+
+### Implementation record (2026-10-28)
+
+- **Phase 0 complete:** `tools/verify_all.py` now runs the active critical-content, clean-formatting, assigned-order, and diorama checks from the project root. All suites passed before and after the Phase 1 move.
+- **Phase 1 partially complete:** the 64-file internal `scratch/` workspace is now `archive/scratch/`. `tools/clean_all_question_leaks.py` was updated to preserve its generator scan at the new location.
+- **Intentionally deferred:** `play.html`, `exam.html`, `data-graphs.html`, the redirect pages, all catalog/thumbnail artifacts, and one-off `tools/` scripts. Active sources and validation scripts still refer to some of these paths, so moving them now would not meet the no-regression goal.
 
 ---
 
